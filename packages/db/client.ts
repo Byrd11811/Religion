@@ -11,6 +11,7 @@ import {
   artifacts,
 } from "@/packages/shared/catalog";
 import { themes } from "@/packages/ontology";
+import { syncArchive } from "./archive";
 import type { Passage, Collection } from "@/packages/shared/types";
 export interface AtlasDatabase {
   exec(sql: string): Promise<void>;
@@ -177,6 +178,9 @@ async function initialize(): Promise<AtlasDatabase> {
       }
     });
   }
+  await db.transaction(async (tx) => {
+    await syncArchive(tx);
+  });
   return {
     async exec(sql: string) {
       await db.exec(sql);

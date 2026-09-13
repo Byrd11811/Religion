@@ -3,7 +3,16 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 process.env.ATLAS_DATA_DIR = mkdtempSync(path.join(tmpdir(), "atlas-unit-"));
 import test, { after } from "node:test";
-import { closeDatabase } from "../packages/db/client";
+import { closeDatabase, database } from "../packages/db/client";
+import { syncArchive } from "../packages/db/archive";
+import { createManifest, readManifest } from "../packages/shared/iiif";
+import {
+  workProfile,
+  witnesses,
+  archiveImages,
+  validateImage,
+  mayTranslate,
+} from "../packages/shared/archive";
 after(closeDatabase);
 import assert from "node:assert/strict";
 import {
@@ -137,6 +146,77 @@ test("relationships never omit evidence or uncertainty", () => {
 test("concept expansion is bounded and explicit", () => {
   assert.ok(detectConcepts("death and soul").includes("afterlife"));
   assert.deepEqual(detectConcepts("zxqv"), []);
+});
+test("archive separates physical witnesses, works and image associations", () => {
+  assert.ok(texts.every((t) => workProfile(t.id)?.id === t.id));
+  assert.equal(
+    witnesses.find((w) => w.id === "codex-gigas")?.type,
+    "Manuscript compilation",
+  );
+  assert.equal(
+    mayTranslate(witnesses.find((w) => w.id === "voynich-ms-408")!),
+    false,
+  );
+  for (const coverage of ["Lost", "Hypothetical", "Restricted"] as const)
+    assert.equal(
+      mayTranslate({
+        coverage,
+        decipherment: "Not assessed",
+        access: "Public metadata",
+      }),
+      false,
+    );
+  assert.equal(
+    mayTranslate({
+      decipherment: "Readable edition available",
+      access: "Restricted",
+    }),
+    false,
+  );
+  for (const image of archiveImages) {
+    validateImage(image);
+    assert.ok(image.workIds.every((id) => texts.some((t) => t.id === id)));
+    if (image.id === "assyrian-tablet" || image.id === "buddhist-leaf")
+      assert.deepEqual(image.workIds, []);
+  }
+  assert.throws(() => validateImage({ ...archiveImages[0], rights: "" }));
+  assert.throws(() =>
+    validateImage({ ...archiveImages[0], sourceUrl: "javascript:alert(1)" }),
+  );
+});
+test("IIIF manifests preserve source images and reject unsafe content URLs", () => {
+  const images = archiveImages.filter((i) => i.artifactId === "met-548344");
+  assert.ok(images.length > 1);
+  const manifest = createManifest(
+    "https://atlas.example/api/iiif/test",
+    "Test artifact",
+    images,
+  );
+  const result = readManifest(manifest);
+  assert.equal(result.pages.length, images.length);
+  assert.equal(result.pages[0].imageUrl, images[0].imageUrl);
+  manifest.items[0].items[0].items[0].body.id = "javascript:alert(1)";
+  assert.throws(() => readManifest(manifest));
+});
+test("archive migration is idempotent and preserves collection notes and old identifiers", async () => {
+  const db = await database();
+  const id = "11111111-1111-4111-8111-111111111111";
+  await db.query(
+    "INSERT INTO user_collections(id,name,notes) VALUES($1,'Migration check','Keep this research')",
+    [id],
+  );
+  await syncArchive(db);
+  await syncArchive(db);
+  const result = await db.query<{ notes: string }>(
+    "SELECT notes FROM user_collections WHERE id=$1",
+    [id],
+  );
+  assert.equal(result.rows[0].notes, "Keep this research");
+  const count = await db.query<{ total: number }>(
+    "SELECT count(*)::int AS total FROM works WHERE id=legacy_text_id",
+  );
+  assert.equal(count.rows[0].total, texts.length);
+  await db.query("DELETE FROM user_collections WHERE id=$1", [id]);
 });
 test("editorial guides retain actual evidence and respect restricted scope", () => {
   for (const guide of readingGuides())

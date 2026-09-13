@@ -1,5 +1,9 @@
 # Source policy
 
+Physical witnesses, museum artifacts, image records and abstract works are distinct entities. Association tables require source URLs; shared themes or similar titles do not authorize an association. New institutional witness metadata cites Yale's Beinecke Cipher Manuscript page and the National Library of Sweden's Codex Gigas page. Their images are linked at the institution, not reproduced without reviewed rights. The Voynich record remains undeciphered and has no generated translation; Codex Gigas is a manuscript compilation, not a standalone scripture.
+
+Source depth describes what Atlas actually holds. A verbatim edition excerpt can be commentary, and fidelity does not imply historical truth. Canon membership, censorship, decipherment, attestation and scholarly agreement are separate fields. Future suppression records require an authority, location, date, reason and source; canon exclusion alone supplies none of those facts. Cultural protocols record community, recorder/context and reproduction permission independently of ordinary copyright.
+
 Every displayed edition segment is verbatim text from a retained Project Gutenberg source file. Translation, commentary and primary composition are not equivalent; historical editions may contain introductory argument, notes, and outdated terminology. UI labels state this limitation and link to the exact source edition.
 
 The catalog names and regional groupings originate in the supplied specification. These groupings are navigation aids rather than claims that each is a coherent religious tradition. Sparse records are explicitly unreviewed. Dates for enriched records are provisional editorial estimates and must not be used as independently established scholarly conclusions. Object dates come from the cited museum records and apply to the objects only.
@@ -7,3 +11,5 @@ The catalog names and regional groupings originate in the supplied specification
 Relationship records require a source URL, a relationship type, chronology notes, differences, and an uncertainty category. A thematic reading link is not proof of influence. No records are rated B or C without a supporting scholarly review.
 
 Image provenance: Met object records 324794 and 74875; both marked public domain in the Met Collection API at build time. Open Access policy: https://www.metmuseum.org/hubs/open-access. Flood reading-path context: https://www.metmuseum.org/essays/flood-stories.
+
+Egyptian image intake: Met objects 548344, 553673, 551786, 590941, 553720 and 550820. Each API response asserted `isPublicDomain: true`; every accepted image URL returned an image content type. Raw institutional metadata is retained in `data/provenance/met` and the artifact record includes a source hash and verification timestamp. Import uses explicit IDs, not automatic title matching; the optional Book of the Dead work association requires that phrase in the institutional title. An institution's work identification does not establish a translation's textual dependency. This pipeline does not handle culturally restricted material or automatically grant permissions for other institutions.

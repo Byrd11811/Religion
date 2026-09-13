@@ -1,0 +1,2 @@
+# Preserve source API response bytes for provenance hash verification.
+data/provenance/** -text

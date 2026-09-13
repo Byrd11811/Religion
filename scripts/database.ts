@@ -9,6 +9,7 @@ import {
 } from "../packages/shared/catalog";
 import { allPassages } from "../packages/search";
 import { themes, concepts } from "../packages/ontology";
+import { syncArchive } from "../packages/db/archive";
 import { loadEnvConfig } from "@next/env";
 loadEnvConfig(process.cwd());
 async function main() {
@@ -16,6 +17,7 @@ async function main() {
   try {
     if (process.argv[2] === "migrate") {
       await client.exec(readFileSync("packages/db/schema.sql", "utf8"));
+      await syncArchive(client);
       console.log("PostgreSQL schema and pgvector extension are ready.");
       return;
     }
@@ -131,6 +133,7 @@ async function main() {
           JSON.stringify(a),
         ],
       );
+    await syncArchive(client);
     await client.query("COMMIT");
     console.log(
       `Seeded ${texts.length} texts, ${editions.length} editions and ${allPassages().length} passages.`,

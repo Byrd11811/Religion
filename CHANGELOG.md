@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.0 — 2026-09-13
+
+- Added a bounded Met Open Access import pipeline and 55 verified Egyptian images across six papyrus witnesses; total archive imagery is 57.
+- Added the Ancient Egypt collection, period filtering, linked witness records, and Atlas-generated IIIF Presentation 3 manifests with image navigation and zoom.
+
+- Added the depth-expansion audit and preserved the expanded specification.
+- Added the work/recension/witness/artifact/image schema without replacing existing IDs or collection storage.
+- Added paginated Deep Archive, source-depth labels, physical witness pages and citation evidence ladders.
+- Added institution-linked Codex Gigas and undeciphered Voynich records, without invented translations or image associations.
+- Added migration-preservation, source-eligibility, image-provenance and archive browser tests.
+- Documented the remaining major-release corpus, IIIF, cultural-review and image targets explicitly.
+
 ## 1.1.0 — 2026-09-13
 
 - Expanded to 252 catalog records, 44 source editions, 43 searchable works and 20,991 segments.

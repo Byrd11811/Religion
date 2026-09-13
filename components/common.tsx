@@ -18,6 +18,7 @@ import type {
   Collection,
 } from "@/packages/shared/types";
 import { cite } from "@/packages/citation";
+import { EvidenceLadder, SourceDepth } from "./ArchiveEvidence";
 export async function api<T>(url: string, options?: RequestInit): Promise<T> {
   const res = await fetch(url, options);
   const body = await res.json();
@@ -242,6 +243,8 @@ export function CitationDrawer({
         <dd>{ed?.license}</dd>
       </dl>
       <p className="notice">{ed?.note}</p>
+      <SourceDepth id={passage.textId} />
+      <EvidenceLadder workId={passage.textId} editionId={passage.editionId} />
       <div className="row">
         <a
           className="button"

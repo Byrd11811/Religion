@@ -14,6 +14,14 @@ import { answerQuestion } from "@/packages/ai";
 import { comparisonCases } from "@/packages/ai/guides";
 import { getCollections, mutateCollections } from "@/packages/db/collections";
 import { randomUUID } from "node:crypto";
+import { database } from "@/packages/db/client";
+import { createManifest } from "@/packages/shared/iiif";
+import {
+  coverageStatuses,
+  witnesses,
+  museumArtifacts,
+  archiveImages,
+} from "@/packages/shared/archive";
 export const runtime = "nodejs";
 type Context = { params: Promise<{ path: string[] }> };
 const finding = z.object({
@@ -35,6 +43,75 @@ export async function GET(req: NextRequest, { params }: Context) {
     const [route, id] = (await params).path;
     const q = req.nextUrl.searchParams;
     switch (route) {
+      case "iiif": {
+        const artifact = museumArtifacts.find((a) => a.id === id);
+        const images = archiveImages.filter(
+          (i) =>
+            i.artifactId === id && i.publicDomain && i.rights.includes("CC0"),
+        );
+        return artifact && images.length
+          ? send(
+              createManifest(
+                `${req.nextUrl.origin}/api/iiif/${encodeURIComponent(id)}`,
+                artifact.title,
+                images,
+              ),
+            )
+          : send({ error: "No verified manifest available" }, 404);
+      }
+      case "works": {
+        const db = await database();
+        if (id) {
+          const result = await db.query<{ metadata: unknown }>(
+            "SELECT metadata FROM works WHERE id=$1 AND access <> 'Restricted'",
+            [id],
+          );
+          return result.rows.length
+            ? send(result.rows[0].metadata)
+            : send({ error: "Work not found" }, 404);
+        }
+        const page = Number(q.get("page") ?? 0),
+          coverage = q.get("coverage") ?? "",
+          query = q.get("q") ?? "";
+        if (
+          !Number.isSafeInteger(page) ||
+          page < 0 ||
+          page > 10000000 ||
+          query.length > 500 ||
+          (coverage && !coverageStatuses.some((s) => s === coverage))
+        )
+          return send({ error: "Invalid archive filters" }, 400);
+        const values = [`%${query.replace(/[\\%_]/g, "\\$&")}%`, coverage];
+        const where =
+          "access <> 'Restricted' AND title ILIKE $1 AND ($2='' OR coverage_status=$2)";
+        const count = await db.query<{ total: number }>(
+          `SELECT count(*)::int AS total FROM works WHERE ${where}`,
+          values,
+        );
+        const rows = await db.query<{ metadata: unknown }>(
+          `SELECT metadata FROM works WHERE ${where} ORDER BY lower(title),id LIMIT 24 OFFSET $3`,
+          [...values, page * 24],
+        );
+        return send({
+          items: rows.rows.map((r) => r.metadata),
+          total: count.rows[0].total,
+          page,
+        });
+      }
+      case "witnesses":
+        return id
+          ? witnesses.some((w) => w.id === id && w.access !== "Restricted")
+            ? send(witnesses.find((w) => w.id === id))
+            : send({ error: "Witness not found" }, 404)
+          : send(witnesses.filter((w) => w.access !== "Restricted"));
+      case "artifacts":
+        return id
+          ? museumArtifacts.some((a) => a.id === id)
+            ? send(museumArtifacts.find((a) => a.id === id))
+            : send({ error: "Artifact not found" }, 404)
+          : send(museumArtifacts);
+      case "archive-images":
+        return send(archiveImages);
       case "texts":
         return id
           ? texts.find((t) => t.id === id)

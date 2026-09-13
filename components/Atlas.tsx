@@ -34,6 +34,14 @@ import { CitationDrawer, SaveDialog, TextCard, Empty } from "./common";
 import { Library, TextDetail, TraditionsView, CanonView } from "./Library";
 import { QuestionExplorer, Compare, Workspace } from "./Research";
 import {
+  DeepArchive,
+  WitnessDetail,
+  ArtifactDetail,
+  EgyptCollection,
+  WorkWitnesses,
+} from "./Archive";
+import { SourceDepth } from "./ArchiveEvidence";
+import {
   Timeline,
   WorldMap,
   Graph,
@@ -65,6 +73,8 @@ const navigation = [
       ["themes", "Themes", Shapes],
       ["people", "People & Authors", Users],
       ["manuscripts", "Manuscripts & Objects", ScrollText],
+      ["library/deep-archive", "Deep Archive", Layers3],
+      ["library/egypt", "Ancient Egypt", ScrollText],
     ],
   ],
   [
@@ -112,7 +122,35 @@ export default function Atlas({
       content = <Home onSave={setFinding} />;
       break;
     case "library":
-      content = <Library initialQuery={initialQuery} {...actions} />;
+      content =
+        id === "egypt" ? (
+          <EgyptCollection />
+        ) : id ? (
+          <DeepArchive collection={id} />
+        ) : (
+          <Library initialQuery={initialQuery} {...actions} />
+        );
+      break;
+    case "works":
+      content = id ? (
+        <>
+          <SourceDepth id={id} />
+          <TextDetail id={id} {...actions} />
+          <WorkWitnesses id={id} />
+        </>
+      ) : (
+        <DeepArchive />
+      );
+      break;
+    case "witnesses":
+      content = id ? (
+        <WitnessDetail id={id} />
+      ) : (
+        <DeepArchive collection="manuscripts" />
+      );
+      break;
+    case "artifacts":
+      content = id ? <ArtifactDetail id={id} /> : <Manuscripts />;
       break;
     case "texts":
       content = id ? (
@@ -165,7 +203,14 @@ export default function Atlas({
       content = <Workspace />;
       break;
     case "manuscripts":
-      content = <Manuscripts />;
+      content = id ? (
+        <WitnessDetail id={id} />
+      ) : (
+        <>
+          <DeepArchive collection="manuscripts" />
+          <Manuscripts />
+        </>
+      );
       break;
     case "methodology":
       content = <Methodology />;
@@ -227,7 +272,7 @@ export default function Atlas({
             About & methodology
           </Link>
           <div className="local-tag">
-            LOCAL RESEARCH EDITION <span>1.0</span>
+            LOCAL RESEARCH EDITION <span>1.2</span>
           </div>
         </div>
       </aside>

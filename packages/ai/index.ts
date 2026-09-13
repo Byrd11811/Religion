@@ -2,6 +2,7 @@ import type { SearchOptions } from "@/packages/search";
 import { hybridSearch } from "@/packages/search/hybrid";
 import { detectConcepts } from "@/packages/ontology";
 import { guideFor, evidence } from "./guides";
+import { mayTranslate, workProfile } from "@/packages/shared/archive";
 import type { QueryAnswer, SearchHit } from "@/packages/shared/types";
 export interface SynthesisProvider {
   synthesize(question: string, passages: SearchHit[]): Promise<string>;
@@ -13,6 +14,15 @@ export function neutral(text: string) {
 }
 export class CompatibleProvider implements SynthesisProvider {
   async synthesize(question: string, passages: SearchHit[]) {
+    if (
+      passages.some((p) => {
+        const work = workProfile(p.textId);
+        return !work || !mayTranslate(work);
+      })
+    )
+      throw new Error(
+        "Source is not eligible for generated interpretation or translation",
+      );
     const base = (process.env.ATLAS_LLM_BASE_URL ?? "").replace(/\/$/, "");
     if (!base || !process.env.ATLAS_LLM_API_KEY || !process.env.ATLAS_LLM_MODEL)
       throw new Error("Model provider is not configured");

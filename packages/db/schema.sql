@@ -20,3 +20,20 @@ CREATE TABLE IF NOT EXISTS user_collections (id uuid PRIMARY KEY,name text NOT N
 CREATE TABLE IF NOT EXISTS saved_queries (id uuid PRIMARY KEY,collection_id uuid REFERENCES user_collections(id),question text NOT NULL,answer jsonb,created_at timestamptz DEFAULT now());
 CREATE TABLE IF NOT EXISTS comparison_sessions (id uuid PRIMARY KEY,collection_id uuid REFERENCES user_collections(id),text_ids text[] NOT NULL,theme text,result jsonb,created_at timestamptz DEFAULT now());
 CREATE TABLE IF NOT EXISTS annotations (id uuid PRIMARY KEY,collection_id uuid REFERENCES user_collections(id),passage_id text REFERENCES passages(id),note text NOT NULL,created_at timestamptz DEFAULT now());
+
+-- Additive archive model. Existing text, edition, passage and collection IDs remain intact.
+CREATE TABLE IF NOT EXISTS works (id text PRIMARY KEY, legacy_text_id text UNIQUE REFERENCES texts(id), title text NOT NULL, coverage_status text NOT NULL, evidence_status text NOT NULL, decipherment text NOT NULL, access text NOT NULL DEFAULT 'Public metadata', metadata jsonb NOT NULL, created_at timestamptz DEFAULT now());
+CREATE INDEX IF NOT EXISTS works_title_idx ON works(lower(title));
+CREATE INDEX IF NOT EXISTS works_coverage_idx ON works(coverage_status);
+CREATE TABLE IF NOT EXISTS recensions (id text PRIMARY KEY, work_id text NOT NULL REFERENCES works(id), title text NOT NULL, metadata jsonb NOT NULL);
+CREATE TABLE IF NOT EXISTS witnesses (id text PRIMARY KEY, title text NOT NULL, witness_type text NOT NULL, inventory_number text, repository text, access text NOT NULL DEFAULT 'Public metadata', metadata jsonb NOT NULL);
+CREATE INDEX IF NOT EXISTS witnesses_inventory_idx ON witnesses(inventory_number);
+CREATE TABLE IF NOT EXISTS witness_works (witness_id text REFERENCES witnesses(id),work_id text REFERENCES works(id),recension_id text REFERENCES recensions(id),source_url text NOT NULL,PRIMARY KEY(witness_id,work_id));
+CREATE TABLE IF NOT EXISTS edition_witnesses (edition_id text REFERENCES editions(id),witness_id text REFERENCES witnesses(id),source_url text NOT NULL,association_notes text NOT NULL,PRIMARY KEY(edition_id,witness_id));
+CREATE TABLE IF NOT EXISTS artifacts (id text PRIMARY KEY,title text NOT NULL,witness_id text REFERENCES witnesses(id),source_url text NOT NULL,metadata jsonb NOT NULL);
+CREATE TABLE IF NOT EXISTS archive_images (id text PRIMARY KEY,artifact_id text REFERENCES artifacts(id),witness_id text REFERENCES witnesses(id),image_url text NOT NULL,source_url text NOT NULL,rights text NOT NULL CHECK(length(trim(rights))>0),metadata jsonb NOT NULL);
+CREATE TABLE IF NOT EXISTS work_images (work_id text REFERENCES works(id),image_id text REFERENCES archive_images(id),association_notes text NOT NULL,source_url text NOT NULL,PRIMARY KEY(work_id,image_id));
+CREATE TABLE IF NOT EXISTS canon_memberships (id text PRIMARY KEY,work_id text REFERENCES works(id),community text NOT NULL,edition_id text REFERENCES editions(id),status text NOT NULL,enumeration_notes text,source_url text NOT NULL);
+CREATE TABLE IF NOT EXISTS evidence_records (id text PRIMARY KEY,work_id text REFERENCES works(id),witness_id text REFERENCES witnesses(id),statement text NOT NULL,status text NOT NULL,source_url text NOT NULL,alternative text,counterargument text,metadata jsonb NOT NULL DEFAULT '{}');
+CREATE TABLE IF NOT EXISTS cultural_protocols (id text PRIMARY KEY,work_id text REFERENCES works(id),community text NOT NULL,language text,recorder text,recorded_at text,recorder_context text,reproduction_permission text NOT NULL DEFAULT 'Unassessed',restrictions text NOT NULL,source_url text NOT NULL);
+CREATE TABLE IF NOT EXISTS suppression_events (id text PRIMARY KEY,work_id text REFERENCES works(id),authority text NOT NULL,location text NOT NULL,event_date text NOT NULL,reason text NOT NULL,source_url text NOT NULL);

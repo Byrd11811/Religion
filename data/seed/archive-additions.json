@@ -1,0 +1,1353 @@
+{
+  "witnesses": [
+    {
+      "id": "met-witness-548344",
+      "title": "Book of the Dead for the Chantress of Amun, Nauny",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "30.3.31",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": "MMA excavations, 1928–29",
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -1050,
+      "dateEnd": -1050,
+      "dateNotes": "ca. 1050 BCE; Third Intermediate Period. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, paint",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Rogers Fund, 1930",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/548344",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/548344"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Book of the Dead for the Chantress of Amun, Nauny. ca. 1050 BCE. Papyrus, paint. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "met-witness-553673",
+      "title": "Book of the Dead Papyrus with Chapters 100 and 129",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "24.2.18",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": null,
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -664,
+      "dateEnd": -30,
+      "dateNotes": "664–30 BCE; Late Period–Ptolemaic Period. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, ink, paint",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Rogers Fund, 1924",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/553673",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/553673",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/553673"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Book of the Dead Papyrus with Chapters 100 and 129. 664–30 BCE. Papyrus, ink, paint. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "met-witness-551786",
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "35.9.20a–w",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": null,
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -332,
+      "dateEnd": -200,
+      "dateNotes": "ca. 332–200 BCE; Early Ptolemaic Period. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, ink",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Gift of  Edward S. Harkness, 1935",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/551786",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/551786"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes). ca. 332–200 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "met-witness-590941",
+      "title": "Book of the Dead of Khamhor",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "25.3.212a–g",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": "MMA excavations, 1923–24",
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -635,
+      "dateEnd": -625,
+      "dateNotes": "664–525 BCE; Late Period, Saite. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, ink",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Rogers Fund, 1925",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/590941",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/590941"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Book of the Dead of Khamhor. 664–525 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "met-witness-553720",
+      "title": "Papyrus fragments, Book of the Dead",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "28.3.300",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": "MMA excavations",
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -664,
+      "dateEnd": -332,
+      "dateNotes": "664–332 BCE; Late Period. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, ink",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Rogers Fund, 1928",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/553720",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/553720",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/553720"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Papyrus fragments, Book of the Dead. 664–332 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "met-witness-550820",
+      "title": "Nesiamun's Book of the Dead",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "26.2.51",
+      "repository": "The Metropolitan Museum of Art",
+      "discoveryLocation": null,
+      "currentLocation": "Metropolitan Museum of Art, New York, NY",
+      "dateStart": -1070,
+      "dateEnd": -1070,
+      "dateNotes": "ca. 1080–945 BCE; Third Intermediate Period. These dates describe the physical object, not the composition of the work.",
+      "material": "Papyrus, ink",
+      "languages": [],
+      "scripts": [],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional catalog and credit line: Rogers Fund, 1926",
+      "digitizationUrl": "https://www.metmuseum.org/art/collection/search/550820",
+      "iiifManifest": null,
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/550820",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/550820"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Nesiamun's Book of the Dead. ca. 1080–945 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "access": "Public metadata"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "met-548344",
+      "title": "Book of the Dead for the Chantress of Amun, Nauny",
+      "witnessId": "met-witness-548344",
+      "inventoryNumber": "30.3.31",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "description": "Book of the Dead for the Chantress of Amun, Nauny. ca. 1050 BCE. Papyrus, paint. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Third Intermediate Period",
+      "date": "ca. 1050 BCE",
+      "culture": null,
+      "creditLine": "Rogers Fund, 1930",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/548344",
+      "sourceHash": "a0b23df994a449aff104943354c15b4693fcaec6bc664a54217186618df0dd38",
+      "verifiedAt": "2026-09-13T19:36:03.955064+00:00"
+    },
+    {
+      "id": "met-553673",
+      "title": "Book of the Dead Papyrus with Chapters 100 and 129",
+      "witnessId": "met-witness-553673",
+      "inventoryNumber": "24.2.18",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/553673",
+      "description": "Book of the Dead Papyrus with Chapters 100 and 129. 664–30 BCE. Papyrus, ink, paint. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Late Period–Ptolemaic Period",
+      "date": "664–30 BCE",
+      "culture": null,
+      "creditLine": "Rogers Fund, 1924",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/553673",
+      "sourceHash": "bf3a941363cb3c988afb4478199682749f32e5154c7dc30f70d74cb5f02967ea",
+      "verifiedAt": "2026-09-13T19:36:09.911064+00:00"
+    },
+    {
+      "id": "met-551786",
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes)",
+      "witnessId": "met-witness-551786",
+      "inventoryNumber": "35.9.20a–w",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "description": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes). ca. 332–200 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Early Ptolemaic Period",
+      "date": "ca. 332–200 BCE",
+      "culture": null,
+      "creditLine": "Gift of  Edward S. Harkness, 1935",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/551786",
+      "sourceHash": "3c3687f7fd57dc29a294a178a3aecc5c261fbceb75865b5614ce690eaf6858f9",
+      "verifiedAt": "2026-09-13T19:36:11.242535+00:00"
+    },
+    {
+      "id": "met-590941",
+      "title": "Book of the Dead of Khamhor",
+      "witnessId": "met-witness-590941",
+      "inventoryNumber": "25.3.212a–g",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "description": "Book of the Dead of Khamhor. 664–525 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Late Period, Saite",
+      "date": "664–525 BCE",
+      "culture": null,
+      "creditLine": "Rogers Fund, 1925",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/590941",
+      "sourceHash": "d094d21e688ab5d3b816a389844013b8b2bb408ea4e301e050704153d2e6127b",
+      "verifiedAt": "2026-09-13T19:36:12.610168+00:00"
+    },
+    {
+      "id": "met-553720",
+      "title": "Papyrus fragments, Book of the Dead",
+      "witnessId": "met-witness-553720",
+      "inventoryNumber": "28.3.300",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/553720",
+      "description": "Papyrus fragments, Book of the Dead. 664–332 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Late Period",
+      "date": "664–332 BCE",
+      "culture": null,
+      "creditLine": "Rogers Fund, 1928",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/553720",
+      "sourceHash": "00eba71b7840b2093849307437b18f4dfc8f838d3bd9906700ef3c1198702bf3",
+      "verifiedAt": "2026-09-13T19:36:13.032943+00:00"
+    },
+    {
+      "id": "met-550820",
+      "title": "Nesiamun's Book of the Dead",
+      "witnessId": "met-witness-550820",
+      "inventoryNumber": "26.2.51",
+      "institution": "The Metropolitan Museum of Art",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/550820",
+      "description": "Nesiamun's Book of the Dead. ca. 1080–945 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
+      "collection": "egypt",
+      "period": "Third Intermediate Period",
+      "date": "ca. 1080–945 BCE",
+      "culture": null,
+      "creditLine": "Rogers Fund, 1926",
+      "sourceApi": "https://collectionapi.metmuseum.org/public/collection/v1/objects/550820",
+      "sourceHash": "06f6db681f32b32eb3fd0b86b6dae2031b07a0092113ac383ad7704e605a3827",
+      "verifiedAt": "2026-09-13T19:36:27.903305+00:00"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-548344-d08b0db3cb9f",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT11633.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/web-large/DT11633.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955116+00:00"
+    },
+    {
+      "id": "met-548344-89949ae13c5b",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 2",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT11632.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DT11632.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955129+00:00"
+    },
+    {
+      "id": "met-548344-8d98c4775535",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 3",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT11634.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DT11634.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955135+00:00"
+    },
+    {
+      "id": "met-548344-872c7b554535",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 4",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT11631.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DT11631.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955140+00:00"
+    },
+    {
+      "id": "met-548344-17780e6049bf",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 5",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DT551.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DT551.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955144+00:00"
+    },
+    {
+      "id": "met-548344-e8d7ae7c943f",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 6",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213991.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213991.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955149+00:00"
+    },
+    {
+      "id": "met-548344-ef4cf032de0a",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 7",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213990.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213990.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955154+00:00"
+    },
+    {
+      "id": "met-548344-e28d48b5560f",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 8",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213989.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213989.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955159+00:00"
+    },
+    {
+      "id": "met-548344-c1a7faedfdba",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 9",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213988.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213988.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955163+00:00"
+    },
+    {
+      "id": "met-548344-d30e25308af9",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 10",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213987.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213987.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955167+00:00"
+    },
+    {
+      "id": "met-548344-dfa3505ae0ea",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 11",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213986.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213986.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955171+00:00"
+    },
+    {
+      "id": "met-548344-5827a0680520",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 12",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213985.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213985.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955175+00:00"
+    },
+    {
+      "id": "met-548344-2ceefa7718a2",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 13",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213984.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213984.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955179+00:00"
+    },
+    {
+      "id": "met-548344-0bbdcfe0c145",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 14",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213983.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213983.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955183+00:00"
+    },
+    {
+      "id": "met-548344-bf32d55f1d90",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 15",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213982.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213982.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955186+00:00"
+    },
+    {
+      "id": "met-548344-8dac04c4c460",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 16",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213981.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213981.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955190+00:00"
+    },
+    {
+      "id": "met-548344-d6cc7abd146e",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 17",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213980-1.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213980-1.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955200+00:00"
+    },
+    {
+      "id": "met-548344-9365b2f9cca7",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 18",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213979-1.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213979-1.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955204+00:00"
+    },
+    {
+      "id": "met-548344-8a943679c504",
+      "artifactId": "met-548344",
+      "witnessId": "met-witness-548344",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead for the Chantress of Amun, Nauny · museum image 19",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213978.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC_EG_213978.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/548344",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead for the Chantress of Amun, Nauny · The Metropolitan Museum of Art · 30.3.31 · Rogers Fund, 1930 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1050 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:03.955207+00:00"
+    },
+    {
+      "id": "met-553673-e21f5627cd86",
+      "artifactId": "met-553673",
+      "witnessId": "met-witness-553673",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead Papyrus with Chapters 100 and 129 · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP244339.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/web-large/DP244339.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/553673",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead Papyrus with Chapters 100 and 129 · The Metropolitan Museum of Art · 24.2.18 · Rogers Fund, 1924 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–30 BCE. Late Period–Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:09.911101+00:00"
+    },
+    {
+      "id": "met-553673-a9d6150556b5",
+      "artifactId": "met-553673",
+      "witnessId": "met-witness-553673",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead Papyrus with Chapters 100 and 129 · museum image 2",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/24.2.18_EGDP015963-5964_Stitched.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/24.2.18_EGDP015963-5964_Stitched.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/553673",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead Papyrus with Chapters 100 and 129 · The Metropolitan Museum of Art · 24.2.18 · Rogers Fund, 1924 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–30 BCE. Late Period–Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:09.911120+00:00"
+    },
+    {
+      "id": "met-551786-ed0363f24cfe",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section1.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section1.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242575+00:00"
+    },
+    {
+      "id": "met-551786-761b771a2dfa",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 2",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section2.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section2.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242582+00:00"
+    },
+    {
+      "id": "met-551786-5c23dc1e23b3",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 3",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section3.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section3.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242589+00:00"
+    },
+    {
+      "id": "met-551786-dad456cff284",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 4",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section4.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section4.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242594+00:00"
+    },
+    {
+      "id": "met-551786-f777ad26b6c3",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 5",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section5.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section5.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242604+00:00"
+    },
+    {
+      "id": "met-551786-e002a737bcde",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 6",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section6.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section6.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242609+00:00"
+    },
+    {
+      "id": "met-551786-503be0ca0900",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 7",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section7.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section7.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242614+00:00"
+    },
+    {
+      "id": "met-551786-16dea39e36c4",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 8",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section8.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section8.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242619+00:00"
+    },
+    {
+      "id": "met-551786-c382bf422126",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 9",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section9.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section9.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242624+00:00"
+    },
+    {
+      "id": "met-551786-4f96090537a7",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 10",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section10.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section10.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242629+00:00"
+    },
+    {
+      "id": "met-551786-335b64a24be9",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 11",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section11.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section11.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242634+00:00"
+    },
+    {
+      "id": "met-551786-0c7fc3192bc8",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 12",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section12.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section12.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242639+00:00"
+    },
+    {
+      "id": "met-551786-9a2318f001f3",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 13",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section13.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section13.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242647+00:00"
+    },
+    {
+      "id": "met-551786-69186d470360",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 14",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section14.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/35.9.20a_w_Section14.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242654+00:00"
+    },
+    {
+      "id": "met-551786-1405a83a82f6",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 15",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Crocodiles.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Crocodiles.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242661+00:00"
+    },
+    {
+      "id": "met-551786-bb1e5db7263d",
+      "artifactId": "met-551786",
+      "witnessId": "met-witness-551786",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · museum image 16",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Solar_Cycle.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/LC-35_9_20_Solar_Cycle.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551786",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of the Priest of Horus, Imhotep (Imuthes) · The Metropolitan Museum of Art · 35.9.20a–w · Gift of  Edward S. Harkness, 1935 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 332–200 BCE. Early Ptolemaic Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:11.242666+00:00"
+    },
+    {
+      "id": "met-590941-a4487aa19f3e",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP357013.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/web-large/DP357013.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610223+00:00"
+    },
+    {
+      "id": "met-590941-bbad65c19875",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 2",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP255434.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DP255434.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610233+00:00"
+    },
+    {
+      "id": "met-590941-f8f7633a3197",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 3",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP255432.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DP255432.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610240+00:00"
+    },
+    {
+      "id": "met-590941-6310f930ebce",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 4",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP255433.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DP255433.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610247+00:00"
+    },
+    {
+      "id": "met-590941-23fb0a11286b",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 5",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP255431.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DP255431.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610254+00:00"
+    },
+    {
+      "id": "met-590941-93902a1aad23",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 6",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212a-g.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212a-g.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610260+00:00"
+    },
+    {
+      "id": "met-590941-b12d8be56d37",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 7",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/DP255435.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/DP255435.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610267+00:00"
+    },
+    {
+      "id": "met-590941-4eb888b262bd",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 8",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212F.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212F.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610275+00:00"
+    },
+    {
+      "id": "met-590941-4c9bc79ae5ad",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 9",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A-left.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A-left.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610282+00:00"
+    },
+    {
+      "id": "met-590941-d6d02a119e99",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 10",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212C.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212C.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610289+00:00"
+    },
+    {
+      "id": "met-590941-cc9d12f1d8ce",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 11",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212B.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212B.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610295+00:00"
+    },
+    {
+      "id": "met-590941-60203f00674d",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 12",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212D.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212D.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610301+00:00"
+    },
+    {
+      "id": "met-590941-f96a574c4e41",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 13",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212G.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212G.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610307+00:00"
+    },
+    {
+      "id": "met-590941-bc8fade87829",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 14",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A-right.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A-right.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610321+00:00"
+    },
+    {
+      "id": "met-590941-1c1bf377bddf",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 15",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212E.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212E.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610327+00:00"
+    },
+    {
+      "id": "met-590941-3a44176fc441",
+      "artifactId": "met-590941",
+      "witnessId": "met-witness-590941",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Book of the Dead of Khamhor · museum image 16",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/original/25.3.212A.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/590941",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Book of the Dead of Khamhor · The Metropolitan Museum of Art · 25.3.212a–g · Rogers Fund, 1925 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–525 BCE. Late Period, Saite. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:12.610336+00:00"
+    },
+    {
+      "id": "met-553720-7c1ac2401d5d",
+      "artifactId": "met-553720",
+      "witnessId": "met-witness-553720",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Papyrus fragments, Book of the Dead · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-28_3_300_EGDP024459.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-28_3_300_EGDP024459.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/553720",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Papyrus fragments, Book of the Dead · The Metropolitan Museum of Art · 28.3.300 · Rogers Fund, 1928 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "664–332 BCE. Late Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:13.033016+00:00"
+    },
+    {
+      "id": "met-550820-4625956c3eee",
+      "artifactId": "met-550820",
+      "witnessId": "met-witness-550820",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "title": "Nesiamun's Book of the Dead · museum image 1",
+      "institution": "The Metropolitan Museum of Art",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/eg/original/LC-26_2_51_EGDP026757-6761-Stitched.jpg",
+      "thumbnail": "https://images.metmuseum.org/CRDImages/eg/web-large/LC-26_2_51_EGDP026757-6761-Stitched.jpg",
+      "iiifService": null,
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/550820",
+      "rights": "CC0 1.0 Universal · Met Open Access",
+      "attribution": "Nesiamun's Book of the Dead · The Metropolitan Museum of Art · 26.2.51 · Rogers Fund, 1926 · CC0 1.0 Universal · Met Open Access",
+      "publicDomain": true,
+      "caption": "ca. 1080–945 BCE. Third Intermediate Period. Museum image sequence, not an original page or spell number.",
+      "verifiedAt": "2026-09-13T19:36:27.903375+00:00"
+    }
+  ]
+}
