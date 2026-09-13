@@ -1,0 +1,236 @@
+[
+  {
+    "id": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+    "name": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+    "region": "Mesopotamia",
+    "lat": 33.3,
+    "lng": 44.4,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  },
+  {
+    "id": "ancient-egypt",
+    "name": "Ancient Egypt",
+    "region": "Egypt",
+    "lat": 26.8,
+    "lng": 30.8,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#658a84"
+  },
+  {
+    "id": "hebrew-jewish-tradition",
+    "name": "Hebrew / Jewish Tradition",
+    "region": "Levant",
+    "lat": 31.8,
+    "lng": 35.2,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#846c99"
+  },
+  {
+    "id": "christianity",
+    "name": "Christianity",
+    "region": "Eastern Mediterranean",
+    "lat": 34,
+    "lng": 34,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#ab6754"
+  },
+  {
+    "id": "islam",
+    "name": "Islam",
+    "region": "Arabia",
+    "lat": 21.4,
+    "lng": 39.8,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#6f8295"
+  },
+  {
+    "id": "zoroastrian-iranian",
+    "name": "Zoroastrian / Iranian",
+    "region": "Iran",
+    "lat": 32.4,
+    "lng": 53.7,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  },
+  {
+    "id": "hindu-vedic-indian",
+    "name": "Hindu / Vedic / Indian",
+    "region": "South Asia",
+    "lat": 25,
+    "lng": 80,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#658a84"
+  },
+  {
+    "id": "buddhism",
+    "name": "Buddhism",
+    "region": "South Asia",
+    "lat": 26,
+    "lng": 84,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#846c99"
+  },
+  {
+    "id": "jainism",
+    "name": "Jainism",
+    "region": "South Asia",
+    "lat": 24,
+    "lng": 73,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#ab6754"
+  },
+  {
+    "id": "sikhism",
+    "name": "Sikhism",
+    "region": "Punjab",
+    "lat": 31,
+    "lng": 75,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#6f8295"
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "region": "China",
+    "lat": 34,
+    "lng": 108,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "region": "Japan",
+    "lat": 35,
+    "lng": 135,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#658a84"
+  },
+  {
+    "id": "greek-hellenic",
+    "name": "Greek / Hellenic",
+    "region": "Greece",
+    "lat": 38,
+    "lng": 23,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#846c99"
+  },
+  {
+    "id": "roman",
+    "name": "Roman",
+    "region": "Italy",
+    "lat": 42,
+    "lng": 12,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#ab6754"
+  },
+  {
+    "id": "norse-germanic",
+    "name": "Norse / Germanic",
+    "region": "Northern Europe",
+    "lat": 62,
+    "lng": 10,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#6f8295"
+  },
+  {
+    "id": "celtic",
+    "name": "Celtic",
+    "region": "Ireland and Wales",
+    "lat": 53,
+    "lng": -6,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  },
+  {
+    "id": "mesoamerica",
+    "name": "Mesoamerica",
+    "region": "Mesoamerica",
+    "lat": 17,
+    "lng": -91,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#658a84"
+  },
+  {
+    "id": "andean-south-american",
+    "name": "Andean / South American",
+    "region": "Andes",
+    "lat": -13,
+    "lng": -72,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#846c99"
+  },
+  {
+    "id": "north-american-indigenous-traditions",
+    "name": "North American Indigenous Traditions",
+    "region": "North America",
+    "lat": 40,
+    "lng": -105,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#ab6754"
+  },
+  {
+    "id": "african-traditions",
+    "name": "African Traditions",
+    "region": "Africa",
+    "lat": 7,
+    "lng": 4,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#6f8295"
+  },
+  {
+    "id": "oceania-polynesia",
+    "name": "Oceania / Polynesia",
+    "region": "Oceania",
+    "lat": -20,
+    "lng": -160,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  },
+  {
+    "id": "gnostic-hermetic-esoteric",
+    "name": "Gnostic / Hermetic / Esoteric",
+    "region": "Eastern Mediterranean",
+    "lat": 30,
+    "lng": 31,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#658a84"
+  },
+  {
+    "id": "western-occult-mystical",
+    "name": "Western Occult / Mystical",
+    "region": "Europe",
+    "lat": 48,
+    "lng": 8,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#846c99"
+  },
+  {
+    "id": "adversarial-satanic-anti-orthodox",
+    "name": "Adversarial / Satanic / Anti-Orthodox",
+    "region": "Europe and North America",
+    "lat": 40,
+    "lng": -74,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#ab6754"
+  },
+  {
+    "id": "skeptical-atheistic-materialist-critical",
+    "name": "Skeptical / Atheistic / Materialist / Critical",
+    "region": "Europe",
+    "lat": 50,
+    "lng": 8,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#6f8295"
+  },
+  {
+    "id": "new-religious-movements-modern-revelation",
+    "name": "New Religious Movements / Modern Revelation",
+    "region": "Multiple regions",
+    "lat": null,
+    "lng": null,
+    "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
+    "color": "#a4773b"
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "id": 10,
+    "title": "The King James Version of the Bible",
+    "bytes": 4455950,
+    "url": "https://www.gutenberg.org/cache/epub/10/pg10.txt",
+    "translator": [],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 17,
+    "title": "The Book of Mormon",
+    "bytes": 1518918,
+    "url": "https://www.gutenberg.org/cache/epub/17/pg17.txt",
+    "translator": [
+      "Jr. Joseph Smith"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 20,
+    "title": "Paradise Lost",
+    "bytes": 505029,
+    "url": "https://www.gutenberg.org/cache/epub/20/pg20.txt",
+    "translator": [
+      "John Milton"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 216,
+    "title": "The Tao Teh King, or the Tao and its Characteristics",
+    "bytes": 82399,
+    "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+    "translator": [
+      "Laozi",
+      "James Legge"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 228,
+    "title": "The Aeneid",
+    "bytes": 761631,
+    "url": "https://www.gutenberg.org/cache/epub/228/pg228.txt",
+    "translator": [
+      "Virgil",
+      "John Dryden"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 1497,
+    "title": "The Republic",
+    "bytes": 1269086,
+    "url": "https://www.gutenberg.org/cache/epub/1497/pg1497.txt",
+    "translator": [
+      "Plato",
+      "Benjamin Jowett"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 1572,
+    "title": "Timaeus",
+    "bytes": 483048,
+    "url": "https://www.gutenberg.org/cache/epub/1572/pg1572.txt",
+    "translator": [
+      "Plato",
+      "Benjamin Jowett"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 1600,
+    "title": "Symposium",
+    "bytes": 204266,
+    "url": "https://www.gutenberg.org/cache/epub/1600/pg1600.txt",
+    "translator": [
+      "Plato",
+      "Benjamin Jowett"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 1658,
+    "title": "Phaedo",
+    "bytes": 261902,
+    "url": "https://www.gutenberg.org/cache/epub/1658/pg1658.txt",
+    "translator": [
+      "Plato",
+      "Benjamin Jowett"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 1727,
+    "title": "The Odyssey",
+    "bytes": 730030,
+    "url": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt",
+    "translator": [
+      "Homer",
+      "Samuel Butler"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 2017,
+    "title": "Dhammapada, a Collection of Verses; Being One of the Canonical Books of the Buddhists",
+    "bytes": 90695,
+    "url": "https://www.gutenberg.org/cache/epub/2017/pg2017.txt",
+    "translator": [
+      "F. Max M\u00fcller"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 2388,
+    "title": "The Song Celestial; Or, Bhagavad-G\u00eet\u00e2 (from the Mah\u00e2bh\u00e2rata)",
+    "bytes": 151190,
+    "url": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
+    "translator": [
+      "Sir Edwin Arnold"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 2680,
+    "title": "Meditations",
+    "bytes": 432535,
+    "url": "https://www.gutenberg.org/cache/epub/2680/pg2680.txt",
+    "translator": [
+      "Emperor of Rome Marcus Aurelius"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 3283,
+    "title": "The Upanishads",
+    "bytes": 125461,
+    "url": "https://www.gutenberg.org/cache/epub/3283/pg3283.txt",
+    "translator": [
+      "Swami Paramananda"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 3296,
+    "title": "The Confessions of St. Augustine",
+    "bytes": 641891,
+    "url": "https://www.gutenberg.org/cache/epub/3296/pg3296.txt",
+    "translator": [
+      "Saint of Hippo Augustine",
+      "E. B. Pusey"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 3330,
+    "title": "The Analects of Confucius (from the Chinese Classics)",
+    "bytes": 195259,
+    "url": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+    "translator": [
+      "Confucius",
+      "James Legge"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 3434,
+    "title": "The Koran (Al-Qur'an)",
+    "bytes": 1174239,
+    "url": "https://www.gutenberg.org/cache/epub/3434/pg3434.txt",
+    "translator": [
+      "J. M. Rodwell"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 4363,
+    "title": "Beyond Good and Evil",
+    "bytes": 415483,
+    "url": "https://www.gutenberg.org/cache/epub/4363/pg4363.txt",
+    "translator": [
+      "Friedrich Wilhelm Nietzsche",
+      "Helen Zimmern"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 4583,
+    "title": "Dialogues Concerning Natural Religion",
+    "bytes": 240735,
+    "url": "https://www.gutenberg.org/cache/epub/4583/pg4583.txt",
+    "translator": [
+      "David Hume"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 5500,
+    "title": "The Advancement of Learning",
+    "bytes": 525131,
+    "url": "https://www.gutenberg.org/cache/epub/5500/pg5500.txt",
+    "translator": [
+      "Francis Bacon"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 6130,
+    "title": "The Iliad",
+    "bytes": 1161373,
+    "url": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt",
+    "translator": [
+      "Homer",
+      "Alexander Pope"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 7145,
+    "title": "The Book of the Dead",
+    "bytes": 91031,
+    "url": "https://www.gutenberg.org/cache/epub/7145/pg7145.txt",
+    "translator": [
+      "Sir E. A. Wallis Budge"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 7440,
+    "title": "The Koran (Al-Qur'an)",
+    "bytes": 2496991,
+    "url": "https://www.gutenberg.org/cache/epub/7440/pg7440.txt",
+    "translator": [
+      "George Sale"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 11000,
+    "title": "An Old Babylonian Version of the Gilgamesh Epic",
+    "bytes": 251875,
+    "url": "https://www.gutenberg.org/cache/epub/11000/pg11000.txt",
+    "translator": [
+      "Morris Jastrow"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 18947,
+    "title": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+    "bytes": 416623,
+    "url": "https://www.gutenberg.org/cache/epub/18947/pg18947.txt",
+    "translator": [
+      "Snorri Sturluson",
+      "Rasmus Bj\u00f6rn Anderson"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 19322,
+    "title": "The Antichrist",
+    "bytes": 230175,
+    "url": "https://www.gutenberg.org/cache/epub/19322/pg19322.txt",
+    "translator": [
+      "Friedrich Wilhelm Nietzsche",
+      "H. L. Mencken"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 24869,
+    "title": "The R\u00e1m\u00e1yan of V\u00e1lm\u00edki, translated into English verse",
+    "bytes": 2463790,
+    "url": "https://www.gutenberg.org/cache/epub/24869/pg24869.txt",
+    "translator": [
+      "Valmiki",
+      "Ralph T. H. Griffith"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 45109,
+    "title": "The Enchiridion",
+    "bytes": 93444,
+    "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+    "translator": [
+      "Epictetus",
+      "Thomas Wentworth Higginson"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 73533,
+    "title": "The poetic Edda",
+    "bytes": 977828,
+    "url": "https://www.gutenberg.org/cache/epub/73533/pg73533.txt",
+    "translator": [
+      "Henry Adams Bellows"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 77935,
+    "title": "The book of Enoch",
+    "bytes": 289555,
+    "url": "https://www.gutenberg.org/cache/epub/77935/pg77935.txt",
+    "translator": [
+      "R. H. Charles"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  }
+]

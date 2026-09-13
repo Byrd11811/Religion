@@ -1,0 +1,148 @@
+import { readFileSync } from "node:fs";
+import { database, closeDatabase } from "../packages/db/client";
+import {
+  texts,
+  traditions,
+  editions,
+  relationships,
+  artifacts,
+} from "../packages/shared/catalog";
+import { allPassages } from "../packages/search";
+import { themes, concepts } from "../packages/ontology";
+import { loadEnvConfig } from "@next/env";
+loadEnvConfig(process.cwd());
+async function main() {
+  const client = await database();
+  try {
+    if (process.argv[2] === "migrate") {
+      await client.exec(readFileSync("packages/db/schema.sql", "utf8"));
+      console.log("PostgreSQL schema and pgvector extension are ready.");
+      return;
+    }
+    if (process.argv[2] !== "seed") throw new Error("Use migrate or seed");
+    await client.query("BEGIN");
+    for (const t of traditions)
+      await client.query(
+        "INSERT INTO traditions(id,name,region,description,color_token,metadata) VALUES($1,$2,$3,$4,$5,$6) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
+        [t.id, t.name, t.region, t.description, t.color, JSON.stringify(t)],
+      );
+    for (const t of texts)
+      await client.query(
+        "INSERT INTO texts(id,title,tradition_id,category,canon_status,approximate_start_date,approximate_end_date,date_confidence,origin_region,origin_lat,origin_lng,original_language,authorship_summary,description,historical_context,manuscript_history,source_status,copyright_status,public_domain_available,primary_source_url,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21) ON CONFLICT(id) DO UPDATE SET title=EXCLUDED.title,canon_status=EXCLUDED.canon_status,approximate_start_date=EXCLUDED.approximate_start_date,approximate_end_date=EXCLUDED.approximate_end_date,metadata=EXCLUDED.metadata",
+        [
+          t.id,
+          t.title,
+          t.traditionId,
+          t.category,
+          t.canonStatus,
+          t.startDate,
+          t.endDate,
+          t.dateConfidence,
+          t.region,
+          t.lat,
+          t.lng,
+          t.languages,
+          t.author,
+          t.description,
+          t.historicalContext,
+          t.manuscripts,
+          t.sourceStatus,
+          t.copyright,
+          !!t.editionId,
+          t.sourceUrl,
+          JSON.stringify(t),
+        ],
+      );
+    for (const e of editions)
+      await client.query(
+        "INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
+        [
+          e.id,
+          e.textId,
+          e.title,
+          e.translator,
+          e.language,
+          e.license,
+          e.sourceUrl,
+          e.sha256,
+          JSON.stringify(e),
+        ],
+      );
+    for (const t of themes)
+      await client.query(
+        "INSERT INTO themes(id,name) VALUES($1,$1) ON CONFLICT DO NOTHING",
+        [t],
+      );
+    for (const [id, words] of Object.entries(concepts))
+      await client.query(
+        "INSERT INTO concepts(id,name,definition) VALUES($1,$1,$2) ON CONFLICT DO NOTHING",
+        [id, `English retrieval terms: ${words.join(", ")}`],
+      );
+    for (const p of allPassages()) {
+      const e = editions.find((e) => e.id === p.editionId)!;
+      await client.query(
+        "INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9,$10) ON CONFLICT(id) DO UPDATE SET translation=EXCLUDED.translation,metadata=EXCLUDED.metadata",
+        [
+          p.id,
+          p.textId,
+          p.editionId,
+          p.sequence,
+          p.reference,
+          p.content,
+          e.translator,
+          e.license,
+          p.sourceUrl,
+          JSON.stringify(p),
+        ],
+      );
+      for (const tag of p.themes)
+        if (themes.includes(tag))
+          await client.query(
+            "INSERT INTO passage_themes(passage_id,theme_id,relevance_score,classification_method,confidence) VALUES($1,$2,1,$3,$4) ON CONFLICT DO NOTHING",
+            [p.id, tag, "Explicit keyword taxonomy", "E"],
+          );
+    }
+    for (const r of relationships)
+      await client.query(
+        "INSERT INTO relationships(id,source_text_id,target_text_id,relationship_type,evidence_level,scholar_summary,confidence,citation,metadata) VALUES($1,$2,$3,$4,$5,$6,$5,$7,$8) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
+        [
+          r.id,
+          r.source,
+          r.target,
+          r.type,
+          r.confidence,
+          r.summary,
+          r.sourceUrl,
+          JSON.stringify(r),
+        ],
+      );
+    for (const a of artifacts)
+      await client.query(
+        "INSERT INTO images(id,caption,source_url,image_url,license,creator,date,museum,public_domain,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
+        [
+          a.id,
+          a.caption,
+          a.sourceUrl,
+          a.imageUrl,
+          a.license,
+          a.creator,
+          a.date,
+          a.institution,
+          JSON.stringify(a),
+        ],
+      );
+    await client.query("COMMIT");
+    console.log(
+      `Seeded ${texts.length} texts, ${editions.length} editions and ${allPassages().length} passages.`,
+    );
+  } catch (e) {
+    await client.query("ROLLBACK");
+    throw e;
+  } finally {
+    await closeDatabase();
+  }
+}
+main().catch((e) => {
+  console.error(e.message);
+  process.exitCode = 1;
+});

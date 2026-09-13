@@ -1,0 +1,2 @@
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch();const page=await browser.newPage({viewport:{width:390,height:844}});await page.goto('http://127.0.0.1:3000/');await page.screenshot({path:'work/mobile-home.png'});await page.getByRole('button',{name:'Switch to dark mode'}).click();await page.screenshot({path:'work/mobile-dark.png'});console.log({overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)});await browser.close();

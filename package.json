@@ -1,0 +1,50 @@
+{
+  "name": "sacred-text-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "ingest:metadata": "python scripts/seed.py",
+    "ingest:text": "python scripts/ingest.py",
+    "ingest:images": "tsx scripts/images.ts",
+    "db:migrate": "tsx scripts/database.ts migrate",
+    "db:seed": "tsx scripts/database.ts seed",
+    "embed": "tsx scripts/embed.ts",
+    "classify": "tsx scripts/classify.ts",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build",
+    "db:init": "tsx scripts/init-db.ts",
+    "format": "prettier --write app components packages scripts/*.ts tests"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@electric-sql/pglite-pgvector": "^0.0.9",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.577.0",
+    "next": "^16.0.0",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.0.0",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.0"
+  }
+}
