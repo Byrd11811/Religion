@@ -1,6 +1,7 @@
 # Atlas Completion Roadmap
 ## Execution plan derived from `docs/atlas-completion-gap-audit.md`
 ### Repository: `Byrd11811/Religion`
+### Scope update: Documentation-only expansion from `906cee828313f4b3882e3e8130dd29d09f4cc8f2` on 2026-09-13; Phase 0 not started
 ### Reconciled baseline: `b5ed9acb8d06ec380dd149f3f55d1f71fe642592` · 2026-09-13
 
 ---
@@ -36,7 +37,7 @@ Every phase must deliver working product behavior, meaningful data, tests, and u
 
 Authority: `atlas-completion-gap-audit.md` is the incomplete-work inventory; this roadmap supplies order and acceptance. Newer numeric milestones override older milestones/ceilings, with no final corpus ceiling. Stricter pre-existing evidence, rights, cultural, provenance, safety and non-fabrication rules win. Older build-order lists are historical plans, not competing execution orders. Do not weaken those policies to satisfy numeric goals.
 
-Reconciliation qualifications and additional gaps are in audit sections 43 and 66–72. The dependency and completion corrections in sections 33–35 below are part of this plan, not optional future recommendations.
+Reconciliation qualifications and additional gaps are in audit sections 43 and 66–72. The dependency and completion corrections in sections 33–35 below are part of this plan, not optional future recommendations. Audit sections 73–109 and roadmap sections 36–39 add binding core tracks, baseline metrics and acceptance gates. This scope-update run is documentation-only; do not start Phase 0 after committing it without a subsequent implementation instruction.
 
 ---
 
@@ -84,11 +85,13 @@ Acceptance criteria:
 - counts are derived from source-of-truth data, not manually typed
 - CI can run the audit
 
-Also produce a requirement matrix covering audit sections 3–39, 44–63 and 66–72, plus all 23 expansion quality rules. Distinguish seeded, persisted, exposed, tested and complete states; unknown runtime counts are not zero. Count distinct works, recensions, witnesses, artifacts and images separately. Report 41 complete-work/edition coverage records separately from 43 searchable works, and original-language metadata separately from actual transcriptions. The one-time reconciliation table is evidence for the current docs, not completion of this phase or the `audit:coverage` script.
+Also produce a requirement matrix covering audit sections 3–39, 44–63 and 66–109, the explicitly promoted parts of section 64, plus all 23 expansion quality rules and the 35 additional regression rules in section 38. Distinguish seeded, persisted, exposed, tested and complete states; unknown runtime counts are not zero. Count distinct works, recensions, witnesses, artifacts and images separately. Report 41 complete-work/edition coverage records separately from 43 searchable works, and original-language metadata separately from actual transcriptions. The one-time reconciliation table is evidence for the current docs, not completion of this phase or the `audit:coverage` script.
 
 ---
 
 # 2. PHASE 1 — REPAIR WORLD MAP AND TIMELINE
+
+This is the early repair/foundation stage, not mature map completion. Track A in section 36 owns the required historical-state architecture, separate political/religious layers, transition/delta/side-by-side modes and real case studies. Complete the data foundation after Phase 2 and before case intake; expose the full map in Phase 20 and test through Phase 27.
 
 ## Map
 
@@ -146,6 +149,8 @@ Audit sections 4 and 71 additionally require correct 5000 BCE–present axis pla
 
 # 3. PHASE 2 — HIERARCHICAL TRADITION TAXONOMY
 
+Evaluate and implement the normalized models selected in Phase 0 (section 37) before dependent intake. Reuse existing claims, sources, people, artifacts, places and relationships; preserve provenance and stable IDs. Track E adds durable research-queue status/review foundations here, before any unverified leads are accepted.
+
 Create a flexible hierarchy.
 
 Support:
@@ -183,6 +188,8 @@ Before Phase 5 bulk intake, complete the data-safety foundation in audit section
 
 # 4. PHASE 3 — PASSAGE SOURCE-TYPE CLASSIFICATION
 
+Extend source-chain classification for hostile contemporary, colonial/outsider, institutional, organization/opponent, journalistic and derivative claims under audit section 102. Source type is independent of confidence and truth. Record derivation links so repeated sources cannot masquerade as independent corroboration.
+
 Classify edition segments as:
 
 - Primary text
@@ -205,6 +212,8 @@ Acceptance criteria:
 ---
 
 # 5. PHASE 4 — SEARCH ARCHITECTURE UPGRADE
+
+Extend federated scope to approved conflicts/events, polities, sites, practices, entities, organizations, memberships, art/architecture and symbol interpretations as their models are delivered. Unresolved queue records must not enter verified facts, synthesis or graph edges automatically. Preserve distinct event, source, membership and interpretation statuses in filtering.
 
 Move toward a federated database-driven search.
 
@@ -448,6 +457,8 @@ Acceptance criteria:
 
 # 13. PHASE 12 — OCCULT / ESOTERIC / RELIGIOUS LITERATURE
 
+Track B now requires differentiated necromancy/spirit-contact practices and a separate human-sacrifice evidence domain (audit 86–88); Track C requires documented initiatory/fraternal/esoteric organizations (89–92). Regional source intake feeds these domains without conflating cultures. Entity evolution finishes in Phases 15/24, organizations in 17/20, and evidence-gated real case coverage precedes final QA.
+
 Add/deepen:
 - Lesser Key / Lemegeton
 - Ars Goetia
@@ -560,6 +571,8 @@ Acceptance criteria:
 
 # 16. PHASE 15 — ONTOLOGY / ENTITY EXPANSION
 
+Complete source-specific entity occurrences, original-language forms and evolving roles in audit section 87; Belial and Baal are not unconditional aliases. Organization identity, successor claims and symbol meanings require contextual relationships, not equivalence by repeated names or imagery. Track A also requires mixed conflict-causation and evidence-backed conversion categories.
+
 Expand concepts to the full hierarchy in the gap audit.
 
 Create alias/entity infrastructure for:
@@ -588,6 +601,8 @@ Acceptance criteria:
 
 # 17. PHASE 16 — QUESTION / OPPOSITION / COMPARE ENGINES
 
+Add Teaching vs Historical Conduct (audit 75): cite both teaching and historical conduct, name actors/institutions, contemporary justifications/support/opposition, nonreligious motives and later interpretations. Apply equally across traditions without treating adherent conduct as doctrine or issuing theological verdicts. Answer mapped-change questions from sourced independent historical states, not assumed demographic conversion.
+
 ## Question Explorer
 Implement full structured answer format.
 
@@ -614,6 +629,8 @@ Build the seven required curated packs (Afterlife, Creation, Wisdom, Devil/Evil,
 ---
 
 # 18. PHASE 17 — RELATIONSHIP GRAPH
+
+Track C adds documented versus alleged membership, contact and successor edges with source chains/counterevidence (audit 89–92). Gestures, clothing, artworks and repeated allegations alone cannot create documented membership. Track D links object facts to explicitly typed interpretations without inferring occult intent.
 
 Expand evidence-based relationships.
 
@@ -669,6 +686,8 @@ Acceptance criteria:
 
 # 20. PHASE 19 — IMAGE SCALE AND MULTI-INSTITUTION PIPELINE
 
+Track D requires rights-reviewed art, architecture and symbolic-object provenance before interpretation (audit 93–99). Keep artist/architect/institution explanations separate from later readings. No sensational graphic treatment of ritual violence; no restricted ceremonial reproduction.
+
 Add adapters for multiple institutions.
 
 Target:
@@ -691,6 +710,8 @@ Acceptance criteria:
 ---
 
 # 21. PHASE 20 — UNIFIED RESEARCH PAGE
+
+Expose Tracks A–D through linked event, polity, community, site, practice, entity, organization and object research views using the existing evidence drawer/search/map/timeline architecture. Finish sourced before/during/after/long-term case studies, synchronized pan/zoom and location inspection, delta and influence-flow modes. A generic work page or dots on a map cannot close these requirements.
 
 Unify `/texts/[id]` and `/works/[id]` into one canonical research experience while preserving compatibility.
 
@@ -721,6 +742,8 @@ Complete Source Reliability / “How certain are we?” (audit section 47) with 
 
 # 22. PHASE 21 — HOME / DISCOVERY EXPERIENCE
 
+Make the five section 36 tracks discoverable and link real research records. Do not surface unresolved leads as verified discoveries or future Contested History allegations as core historical facts.
+
 Add image-backed gateways:
 - Egypt
 - Mesopotamia
@@ -747,6 +770,8 @@ Add:
 ---
 
 # 23. PHASE 22 — COMPLETION TESTS
+
+Add all 35 section 38 regression requirements to the existing matrix. This phase remains interim until the added tracks and remaining phases pass their gates.
 
 This is an **interim completion-test phase**, not the final declaration of completion. Continue adding gates for Phases 23–28 and Phase 9A; rerun the final matrix only after all required downstream work. See section 34.
 
@@ -825,6 +850,8 @@ Do not hide unfinished work.
 
 # 25. RESERVED FOLLOW-ON PHASE — CONTESTED HISTORY
 
+Apply audit sections 91 and 95–100: historical Bavarian Illuminati, documented memberships, actual buildings/artworks and Holy Door practices belong to core; global-control, secret sacrifice networks, celebrity membership allegations, intentional occult/serpent imagery and concealed forbidden artifacts remain contested claims. Preserve evidence-linked extension points and queue leads without implementing this phase.
+
 Do not execute until the core Atlas completion audit is substantially satisfied.
 
 Reserved requirements:
@@ -901,6 +928,8 @@ Acceptance criteria:
 
 # 28. PHASE 24 — CONCEPT EVOLUTION / PRECISION FEATURES
 
+Complete Track B entity-history paths and Track D changing symbol interpretations with original source occurrences and competing readings. Geographic “Show What Changed” belongs to Track A, while this concept view links to it; do not confuse semantic development with territorial change.
+
 Implement:
 
 ## What Changed?
@@ -929,6 +958,8 @@ Acceptance criteria:
 
 # 29. PHASE 25 — RESEARCH WORKSPACE COMPLETION
 
+Track E adds durable Unresolved Research Queue workflow (audit 104), evidence/rights/cultural/scholarly review, provenance history, and deliberate publication transitions. Save historical-state comparisons with dates, layer sources, uncertainty and source-chain citations; exports preserve status and private-note boundaries.
+
 Expand existing collections into a fuller workspace.
 
 Add:
@@ -955,6 +986,8 @@ Acceptance criteria:
 ---
 
 # 30. PHASE 26 — ADMIN / CURATION WORKFLOW
+
+Complete Track E curator review and controlled publication. Extend review to conflict causes, coercion classifications, memberships, sacrifice evidence and symbolic interpretations. Rejected/disputed leads and revisions persist; no automatic queue-to-fact promotion or unauthorized exposure.
 
 Build authenticated/local curator tooling appropriate to current deployment.
 
@@ -988,6 +1021,8 @@ Acceptance criteria:
 ---
 
 # 31. PHASE 27 — ACCESSIBILITY / PERFORMANCE / SECURITY QA
+
+Validate all new tracks, including keyboard/text alternatives for synchronized historical maps, uncertainty labels independent of color, queue privacy/publication gates, source-chain cycles, and sensitive-source access. Apply section 38 tests to real feature paths and representative sourced cases.
 
 ## Accessibility
 Target WCAG 2.2 AA where practical.
@@ -1065,7 +1100,7 @@ Do not postpone safety until Phase 27 or the quality matrix until Phase 22. Thos
 
 # 34. FINAL GATE AND EXCEPTION HANDLING
 
-Execution starts with Phase 0 only in a subsequent implementation step after the documentation commit. Proceed in the listed phase order subject to the prerequisites above; Phase 9A is required and Phases 23–28 are not optional merely because they appear after a section called “Final Completion Rule.” The actual final audit follows Phase 28 and all remaining required work. The reserved Contested History phase stays deferred.
+Execution starts with Phase 0 only in a subsequent implementation step after the documentation commit. Proceed in the listed phase order subject to the prerequisites above; Phase 9A is required and Phases 23–28 are not optional merely because they appear after a section called “Final Completion Rule.” The actual final audit follows Phase 28 and all remaining required work, including all five section 36 tracks and the section 38 regression suite. The reserved Contested History phase stays deferred.
 
 For each requirement record: source requirement, acceptance criteria, implementation/data references, meaningful counts, test evidence, status, remaining work, and any real blocker. “Not implemented,” “source not researched” and “time ran out” are not licensing/cultural blockers. Tests must exercise the promised behavior, not just component/route existence.
 
@@ -1087,3 +1122,167 @@ Conflicts resolved:
 - Historical-evidence, non-fabrication, rights and cultural safeguards remain at the stricter prior standard, including no sole-Wikipedia historical authority and no assumption that public-domain status authorizes culturally restricted reproduction.
 
 This commit adds and reconciles documentation only. It does not implement Phase 0 instrumentation, new corpus intake, UI, schemas or tests. The repository is ready to **begin Phase 0 in the next authorized implementation step**, not to declare the completion roadmap fulfilled.
+
+
+# 36. INTEGRATED CORE RESEARCH TRACKS AND DEPENDENCIES
+
+These tracks expand existing phases; they are not a parallel roadmap or authorization to implement during this documentation run. Phase 0 evaluates models/metrics and selects evidence-backed representative case coverage with explicit acceptance targets before implementation. No arbitrary numeric minimum is invented here, and no new domain is declared complete by schema support alone. Illustrative examples are a durable research backlog, not a demand to populate every example immediately. The core capabilities require working behavior, meaningful reviewed cases, visible limitations and appropriate tests before final completion.
+
+| Track / audit sections | Existing phase owners and ordered dependencies | Required acceptance evidence |
+|---|---|---|
+| A — Religion, Power, Conflict & Geographic Change; 73–85, 108 | Phase 0 scope/model evaluation → Phase 1 map repair/provider boundary → Phase 2 historical-state/event foundation → Phase 3/4 source/filter support → regional Phases 5–9/9A case intake → Phase 15 causation categories → Phase 16 Teaching vs Historical Conduct → Phase 20 mature maps/case studies → Phase 25 saved comparisons → Phase 27 QA | Separate political borders, state religion, religious presence/majority and influence; independent pre-conflict/conflict/post-conflict/long-term snapshots; synchronized side-by-side, delta, staged slider, mechanism-labeled flows, provenance and uncertainty; mixed causes and conversion evidence; sourced teaching/action comparison across traditions. |
+| B — Necromancy, Demonology, Ritual Practice & Entity Evolution; 86–88 | Phase 2 model foundation → regional sources and Phase 12 practice/sacrifice coverage → Phase 15 entities/occurrences → Phase 18 language support → Phase 20 evidence views → Phase 24 evolution → Phase 27 QA | Distinct community-specific practice categories; real sourced entity histories and contextual aliases; separate human-sacrifice domain with all nine evidence categories, archaeology/text/hostile/colonial context; no operational ritual-instruction platform or sensationalism. |
+| C — Secret, Initiatory & Esoteric Organizations; 89–92 | Phase 2 organizations/evidence → Phase 12 documented histories → Phase 15 identities → Phase 17 membership/contact/source-chain graph → Phase 20 research views → Phase 26 review → Phase 27 QA | Documented organization, claimed successors and later legends remain distinct; all eight membership statuses; inspectable membership/contact evidence and counterevidence; no image/gesture-only membership or modern secret-society anachronism; Bavarian Illuminati distinct from global-control claims. |
+| D — Religious Art, Architecture & Symbolism; 93–99 | Phase 2 object/interpretation model → Phase 15 contextual concepts → Phase 19 rights-reviewed objects/images → Phase 20 documented-object-first pages → Phase 24 interpretation history → Phase 27 QA | Correct object identity, creator, date, patron, purpose, location, institutional/scholarly sources and access rules before interpretations; all ten interpretation categories; art/religion/power links without inferred occult intent; named contested cases remain reserved. |
+| E — Unresolved Research Queue; 104 | Phase 2 durable storage/status and publication-safety foundation before lead intake → Phase 4 retrieval exclusion → Phase 25 research workflow → Phase 26 review/publication UI → Phase 27 QA | All ten statuses persist with source chain, reviewer/history, rights/cultural/scholarly review and stable links; rejected/disputed leads retained; no automatic verified fact, synthesis or membership-edge publication; private/restricted evidence protected. |
+
+Cross-track requirements: audit sections 100–103 govern core/contested boundaries, model reuse, source independence and neutral but accurate language. Sections 105–106 and roadmap sections 37–38 define baseline/test obligations. Phase 21/28 discovery links these tracks; Phase 22 is interim; section 39 is the final gate. Regional intake may prepare case evidence, but case-study publication waits for geographic/evidence architecture and rights/cultural review. Existing Phase 14 documented censorship remains core.
+
+# 37. PHASE 0 MODEL EVALUATION AND EXPANDED BASELINE
+
+**Planning requirements only: none of this measurement, model selection or instrumentation is performed in this documentation update.**
+
+## Model evaluation
+
+Do not implement schema yet.
+
+Phase 0 must evaluate whether normalized models are needed for:
+
+* historical polities
+* territorial snapshots
+* conflicts
+* conflict parties
+* conflict causation
+* religious-policy events
+* persecution events
+* coercion/conversion events
+* migration events
+* exile events
+* sacred-site events
+* organizations
+* organization aliases
+* organization memberships
+* membership evidence
+* religious/esoteric entities
+* entity aliases
+* entity occurrences
+* ritual practices
+* practice evidence
+* sacrifice evidence
+* artwork
+* architecture
+* symbols
+* symbol interpretations
+* map layers
+* geographic provenance
+
+Avoid forcing everything into generic JSON metadata if normalized entities materially improve provenance, search and historical analysis.
+
+Reuse existing models where appropriate.
+
+Avoid duplicate parallel systems.
+
+For each proposed model record reuse/extension versus normalization decisions, provenance relationships, temporal granularity, access/rights constraints and dependent track. Do not force analytically distinct relationships into generic JSON or create duplicate parallel systems. Implementation of approved foundations belongs to Phase 2, not this documentation step.
+
+## Additional baseline metrics
+
+Because Phase 0 has NOT started, expand its baseline audit.
+
+Report current counts for:
+
+* historical polity records
+* territorial snapshots
+* conflict records
+* geocoded conflict events
+* political-border layers
+* religious-influence layers
+* religious-policy transitions
+* persecution/coercion events
+* documented forced-conversion events
+* migration/exile routes
+* missionary routes
+* sacred-site destruction events
+* sacred-site reuse events
+* before/after conflict map pairs
+* curated historical map case studies
+* ritual-practice records
+* necromancy records
+* demon/spirit/entity records
+* entity aliases
+* organization records
+* organization memberships
+* membership-evidence records
+* sacrifice-evidence records
+* artworks
+* architectural records
+* symbol records
+* symbol-interpretation records
+* unresolved research-queue records
+
+If current count is zero, report zero.
+
+Do not treat an existing UI placeholder as completed coverage.
+
+Count distinct stable records separately from relations, aliases, source rows and rendered markers. For each metric report seeded/persisted/reviewed/exposed/tested state and counting rule. An inspected empty collection is zero; an uninspected runtime collection is unknown, not zero. Generic works, textual mentions, UI placeholders and model tables do not count as populated historical records or completed coverage. Before/after pairs require two independently sourced temporal states; geocoded events and layers require defensible geography. Maintain original baseline metrics alongside these additions.
+
+# 38. ADDITIONAL REQUIRED QUALITY / REGRESSION GATES
+
+These 35 rules supplement, rather than replace, the 23 expansion rules and original safety/neutrality requirements. Assign stable IDs `HIST-01` through `HIST-35` in Phase 0, track implementation/data/test evidence, and keep untested items incomplete. Implement tests alongside each track, consolidate in Phase 22, and complete QA in Phase 27/final audit. Map tests must inspect state, data and rendered evidence, not only route availability.
+
+Add future completion tests requiring at minimum:
+
+1. Political borders and religious influence use separate map layers.
+2. Government religion is not treated as population religion.
+3. Pre-conflict/post-conflict map states remain independent.
+4. Unknown historical demographics remain unknown.
+5. Approximate boundaries are labeled approximate.
+6. Disputed boundaries remain disputed.
+7. A conflict can have multiple causes.
+8. Religious participants do not automatically make a conflict primarily religious.
+9. Forced-conversion classification requires evidence.
+10. Conquest-associated religious change is not automatically forced conversion.
+11. Missionary spread is not automatically coercion.
+12. Sacred-site destruction requires a sourced event.
+13. Sacred-site reuse remains distinct from destruction.
+14. Teaching vs Historical Conduct cites both teaching and historical conduct.
+15. Conduct by adherents is not automatically authoritative doctrine.
+16. Necromancy is not automatically demon worship.
+17. Ancestor traditions are not automatically necromancy.
+18. Belial is not automatically merged with Baal.
+19. Entity aliases remain source-specific.
+20. Human-sacrifice claims distinguish archaeology from hostile accusation.
+21. Colonial accounts are labeled as colonial/outsider sources.
+22. Secret-society membership requires evidence status.
+23. Hand gestures or artwork cannot alone create documented-membership edges.
+24. Knights Templar are not automatically classified as a modern secret society.
+25. Historical Bavarian Illuminati and modern control claims stay separate.
+26. Freemasonry's documented history remains distinct from later conspiracy claims.
+27. Artwork facts remain distinct from artwork interpretations.
+28. Paul VI Audience Hall facts remain distinct from serpent-intent claims.
+29. Holy Door ceremonial closure remains distinct from suppression claims.
+30. Repeated derivative web claims do not count as independent corroboration.
+31. Religious violence is handled consistently across traditions.
+32. Atlas never labels conduct “demonic” as its own factual conclusion.
+33. Every historical map layer exposes provenance.
+34. Users can inspect the evidence supporting mapped historical change.
+35. Long-term religious change remains separate from immediate political change.
+
+Also test synchronized pan/zoom and shared-location inspection, delta provenance, no interpolation between absent snapshots, queue persistence and gated publication, privacy/access restrictions, and the full sacrifice/membership/interpretation status vocabularies. Distinguish intentionally unknown data from fetch failures. Use cross-tradition cases and negative controls to expose biased or automatic classifications. Future contested case rules test core separation/extension boundaries now; they do not authorize implementation of Contested History.
+
+# 39. EXPANDED COMPLETION GATE AND DOCUMENTATION UPDATE RECORD
+
+All five tracks and their core acceptance criteria now belong to Atlas completion, including the historical-geographic experience defined in audit section 108. Every illustrative war, practice, organization or artwork need not be populated immediately; architecture supports indefinite expansion with no artificial upper limit. Phase 0 must make representative coverage and test expectations reviewable, and reports must retain remaining research gaps. Do not equate an empty general-purpose model with a completed domain or waive functional gates through a backlog.
+
+> Leave no major documented culture, tradition, conflict, institution, ritual system, esoteric movement, secret/fraternal organization, relevant artwork, or historical source intentionally unexplored.
+
+Comprehensiveness never overrides evidence, historical uncertainty, source provenance, cultural restrictions, copyright, safety or responsible scholarship. Atlas documents source-supported events and attributed beliefs; it does not tell users what they must believe. Documented massacre, enslavement, torture, forced conversion, persecution, ritual killing, cultural destruction and expulsion must not be euphemized; theological labels remain attributed source language, never Atlas verdicts.
+
+Scope reconciliation against documentation commit `906cee828313f4b3882e3e8130dd29d09f4cc8f2`:
+
+- Existing map repair and coverage-dot criteria are necessary but insufficient; mature historical state/change functionality is now mandatory core scope. Political sovereignty, state religion, population religion and religious influence remain separate.
+- Audit section 64 previously deferred ritual/architecture/entity capabilities. The specifically requested portions are promoted into these core tracks; unrelated future features remain deferred. Existing historical text/source requirements and numerical gates are unchanged.
+- Current source/coverage documents describe a limited release; their lack of these datasets is not a competing ceiling. This update makes no new baseline-count claims. Phase 0 will report actual zero values where inspected, and unknown where not inspected.
+- Contested History remains a separate, unstarted follow-on phase. Core includes documented ritual/organization/art/building history and evidence models; allegations, hidden-object/control claims and speculative intentional symbolism remain separately typed future work. Recording a lead does not establish its truth or publish it.
+- The research-only ritual scope and membership/source-chain safeguards strengthen existing non-fabrication, cultural and neutrality requirements; no stricter prior policy is relaxed.
+
+This update changes only the two authoritative planning documents. Phase 0, migrations, code, routes, UI, seeds, ingestion and Contested History remain unstarted by this update. After documentation validation and commit, stop with the requested report. The repository remains ready for Phase 0 on a subsequent implementation instruction.

@@ -1,6 +1,7 @@
 # Atlas Completion Gap Audit
 ## Authoritative completion audit for `Byrd11811/Religion`
 ### Status: Reconciled against default-branch commit `b5ed9acb8d06ec380dd149f3f55d1f71fe642592` on 2026-09-13
+### Scope update: Documentation-only expansion from `906cee828313f4b3882e3e8130dd29d09f4cc8f2` on 2026-09-13; Phase 0 not started
 ### Purpose: Define the material gaps between the present repository and the intended Atlas product
 
 ---
@@ -101,6 +102,8 @@ A requirement is complete only when:
 
 # 3. CRITICAL GAP: WORLD MAP
 
+The completion standard now includes sections 76–85 and 108: **PLACE + TIME + POWER + CONFLICT + RELIGION + MOVEMENT + EVIDENCE**. Point coverage repair is an early prerequisite, not map completion. Independent historical states, delta/side-by-side views, political versus religious layers, and inspectable change provenance are required.
+
 ## Current issue
 
 The World Map is visibly incomplete.
@@ -161,6 +164,8 @@ These must be progressively implemented with evidence labels.
 ---
 
 # 4. CRITICAL GAP: TIMELINE
+
+Extend event tracks with conflict, polity, religious-policy, conversion/coercion, persecution, migration/exile and sacred-site events from sections 73–85. Keep immediate political change separate from longer-term religious/demographic outcomes; never interpolate unknown states.
 
 ## Current issue
 
@@ -782,6 +787,8 @@ Still required:
 
 # 16. OCCULT / ESOTERIC / RELIGIOUS-LITERATURE CORPUS IS INCOMPLETE
 
+Sections 86–88 extend this corpus requirement into distinct spirit-contact/practice, entity-history and human-sacrifice evidence domains; a grimoire title list does not complete them.
+
 Required high-priority additions / deep treatment:
 
 - Lesser Key of Solomon / Lemegeton
@@ -1064,6 +1071,8 @@ The system should not assume "opposition" equals skeptical + adversarial + Greek
 
 # 22. COMPARE MODE HAS UI LABELS WITHOUT DISTINCT ENGINES
 
+Section 75 adds Teaching vs Historical Conduct as an explicit comparative feature with citations on both sides, named actors, contemporary support/opposition and mixed motives.
+
 Current-status correction: the modes are not all inert. `components/Research.tsx` changes theme-overlap summaries and chronological order; `packages/ai/guides.ts` provides two cited tension cases with alternative readings. However, `/api/compare`, `/api/similarity` and `/api/contradictions` share one handler, the mode controls do not dispatch distinct analysis, and most guidance is generic. This is partial behavior, not completion of the six promised engines.
 
 Required buttons:
@@ -1251,6 +1260,8 @@ Priority comparison sets:
 
 # 29. PEOPLE / AUTHOR / DEITY ENTITY MODEL IS UNDERUSED
 
+Sections 87 and 89–99 extend entities to historically contextual spirit figures, organizations, memberships, artworks, buildings and symbol interpretations. Reuse shared identity/source models while preserving distinct evidence categories.
+
 Database tables exist but UI primarily relies on author strings.
 
 Need first-class entities for:
@@ -1436,6 +1447,8 @@ Unified page should include:
 
 # 36. IMAGE PIPELINE NEEDS MULTI-INSTITUTION SUPPORT
 
+Sections 93–99 add documented-object-first art/architecture and contextual symbolism requirements. Image presence or visual resemblance is not evidence of intentional meaning or membership.
+
 Current IIIF support is an Atlas-generated Presentation 3 manifest over accepted CC0 JPEGs and a client page/zoom viewer. It is not a remote institutional-manifest importer, Image API tile client, foliation alignment system or annotation service. The square canvas values are display coordinates, not measured source-image dimensions (`packages/shared/iiif.ts`, `components/IIIFViewer.tsx`). Preserve this distinction in completion metrics and source provenance. The 57 images are references to externally hosted images verified at intake, not 57 bundled image binaries or a current uptime guarantee.
 
 Current Met pipeline is strong but too narrow.
@@ -1557,6 +1570,8 @@ Do not hide unfinished areas behind generic "supported" language.
 
 # 40. LATER PHASE RESERVED: CONTESTED HISTORY
 
+Sections 91 and 95–100 refine this boundary: documented organizations, buildings, liturgical practices and memberships belong to core; unestablished global-control, hidden-artifact and intentional-symbolism allegations remain future contested claims. Section 104 can retain unverified leads without publishing them as facts.
+
 Do NOT implement this in the core completion phase yet.
 
 Reserve clean extension points for:
@@ -1578,6 +1593,8 @@ The current claims / claim_sources / evidence / suppression-event architecture s
 ---
 
 # 41. PRIORITY ORDER
+
+This original priority summary is supplemented by the binding owners/dependencies in roadmap section 36. The added core tracks in sections 73–109 must finish their acceptance gates before final completion; they are not deferred with Contested History.
 
 Highest priority gaps, in order:
 
@@ -1607,6 +1624,8 @@ Highest priority gaps, in order:
 ---
 
 # 42. DEFINITION OF CORE EXPANSION COMPLETE
+
+Also satisfy the expanded core requirements in sections 73–109 and roadmap sections 36–39, including all 35 new regression rules. Future contested investigations remain excluded; documented historical subjects and their evidence infrastructure do not.
 
 Do not mark the core expansion complete until all of the following are true:
 
@@ -1979,6 +1998,8 @@ Do not require religion/faith identity.
 
 # 56. ADMIN / CURATION WORKFLOW IS NOT IMPLEMENTED
 
+Section 104 adds the durable Unresolved Research Queue and deliberate evidence/rights/cultural/scholarly review transitions. Roadmap Track E supplies foundation, workspace and curator owners.
+
 A serious long-term research atlas requires curator tooling.
 
 Admin/curation should support:
@@ -2107,6 +2128,8 @@ Create reusable adapters rather than one-off scripts where practical.
 
 # 61. CITATION SYSTEM NEEDS SECONDARY / MANUSCRIPT / ARCHAEOLOGICAL DEPTH
 
+Section 102 expands source-chain categories and requires detectable circular sourcing; derivative repetition is not independent corroboration.
+
 Passage citations are a strong foundation.
 
 Extend citation objects to consistently distinguish:
@@ -2205,7 +2228,7 @@ Not all are required for the immediate core milestone, but avoid designs that bl
 - public API
 - moderated community annotations
 
-These are future-compatible requirements, not immediate completion gates unless promoted later.
+These are future-compatible requirements, not immediate completion gates unless promoted later. The new scope in sections 73–109 now promotes the specified ritual-practice, entity-evolution, historical-geography, art/architecture and religious-law/power capabilities into core completion. Other items in this list remain future-only.
 
 
 # 65. NON-NEGOTIABLE PRINCIPLE
@@ -2276,8 +2299,1606 @@ Acceptance also retains explicit search filters for public-domain/license status
 
 # 72. ORIGINAL SAFETY AND QUALITY RULES MUST BE TRACEABLE TO TESTS
 
+Section 106 adds 35 historical/regional/symbolism regression rules to the original 23. The final gate also includes sections 73–109; newly promoted core requirements no longer remain future-only under section 64.
+
 Origin: original specification sections 19, 40–45 and 57; expansion specification **Quality Tests** (23 enumerated rules).
 
 Section 38's broad completion list does not replace an explicit test-to-requirement matrix. Track each of the 23 expansion quality rules as verified, partial, missing or blocked with actual evidence: source fabrication, rights, image provenance, modern/ancient separation, literary/manuscript classification, Scientology category, Meqabyan identity, canon enumeration, oral/colonial context, restrictions, authenticity labels, AI translation labels, search modes, censorship evidence, and relationship provenance. Connect the original neutrality, accessibility, performance and prompt-injection requirements too. A helper-level test alone must not close an endpoint/UI requirement. Keep unavailable provider/deployment verification marked untested rather than treating skipped tests as passes.
 
 Two inventory items already present need explicit roadmap ownership: onboarding (section 55) and first-class Source Reliability (section 47). They cannot disappear simply because later phases have broad “home” or “evidence” labels. The final audit must include these and sections 44–64, not just the earlier section 42 checklist. Future-only items in section 64 remain future-only unless explicitly promoted.
+
+
+---
+
+## Expanded historical research scope — binding inventory and acceptance requirements
+
+Sections 73–109 integrate the user's 2026-09-13 additions into this existing inventory. They extend sections 3–4, 16, 18–22, 27, 29–30, 32, 34, 36, 40, 46–50, 56, 59–62, 64 and 67–72 rather than establishing a competing plan. All are **unfulfilled completion requirements**, subject to Phase 0 verification of actual partial coverage; no new counts or completion claims are asserted in this documentation update. Detailed lists below retain the supplied requirements, examples and evidence distinctions. “Future” and “eventually” mean staged core delivery unless explicitly assigned to Contested History or identified as an illustrative intake example.
+
+> Atlas documents what happened, what was written, what was claimed, what institutions said, how interpretations changed, and how strong the evidence is. Atlas does not tell the user what they are required to believe.
+
+Execution ownership is in roadmap section 36. Baseline and model evaluation in sections 101/105 are instructions for a subsequent Phase 0, not work authorized in this documentation step. Section 107's placement requirements are fulfilled by the integrated roadmap tracks; their implementation remains pending. Original stricter rights, cultural protocols, privacy, non-fabrication and evidence standards continue to apply, including to public historical ritual descriptions and art images.
+
+
+# 73. RELIGION, WAR, EMPIRE & STATE POWER
+
+Add a major Atlas research domain covering the historical relationship among:
+
+* religion
+* warfare
+* conquest
+* empire
+* political authority
+* state religion
+* conversion
+* coercion
+* persecution
+* toleration
+* colonialism
+* missionary activity
+* population displacement
+* expulsion
+* cultural assimilation
+* destruction or conversion of sacred sites
+* legal restrictions on religion
+* religious privilege
+* sectarian conflict
+* religiously justified political violence
+
+Do not reduce wars to a single religious explanation when political, territorial, dynastic, economic, ethnic, ideological, nationalist, or strategic causes were also important.
+
+Atlas must support mixed causation.
+
+For each conflict or coercive event support, where evidence permits:
+
+* event/conflict name
+* date range
+* geography
+* political entities
+* religious communities
+* parties involved
+* stated religious justification
+* stated political justification
+* territorial motivation
+* economic motivation
+* dynastic motivation
+* ideological motivation
+* primary sources
+* contemporary accounts
+* archaeological evidence
+* later historical sources
+* modern scholarship
+* competing interpretations
+* territorial changes
+* religious-policy changes
+* conversion-policy changes
+* expulsions
+* forced or coerced conversion where documented
+* migration
+* diaspora
+* religious toleration/restriction changes
+* sacred-site destruction
+* sacred-site damage
+* sacred-site reuse
+* confiscation of religious property
+* population movement
+* demographic/religious change
+* casualty estimates
+* casualty uncertainty
+* evidence status
+* confidence
+* counterarguments
+* unresolved questions
+
+Possible historical case groups should eventually include, where evidence supports them:
+
+* Roman religion and early Christian persecution
+* Christianization of the Roman Empire
+* later Christian imperial restrictions on some pagan practices
+* Christianization of Europe
+* Crusades
+* Reconquista
+* Byzantine religious conflict
+* Catholic/Orthodox conflict
+* Reformation-era conflict
+* French Wars of Religion
+* Thirty Years' War
+* inquisitorial systems
+* witch trials
+* Islamic conquests
+* competing Islamic dynasties and empires
+* Sunni/Shia political-religious conflicts where appropriate
+* Ottoman/Safavid conflict
+* Jewish persecution, expulsions and pogroms
+* iconoclasm
+* South Asian religious-political conflicts
+* religious dimensions of East Asian conflicts
+* colonization and missionary systems
+* suppression of Indigenous religions
+* forced assimilation
+* conversion policy in the Americas, Africa, Asia and Oceania
+* destruction or suppression of Indigenous ceremonial systems
+* modern sectarian conflict
+
+This list is illustrative, not exhaustive.
+
+Do not oversimplify complex historical processes.
+
+Example:
+
+Do not summarize Christianization of the Roman Empire as simply:
+
+“Christians converted pagans at sword point.”
+
+Instead document:
+
+* legalization
+* imperial patronage
+* social incentives
+* legislation
+* temple closures where documented
+* destruction where documented
+* coercion where documented
+* regional differences
+* voluntary conversion
+* elite conversion
+* institutional change
+* resistance
+* persistence of older practices
+* scholarly disagreement
+
+
+
+# 74. RELIGIOUS COERCION & CONVERSION MODEL
+
+Explicitly distinguish:
+
+* voluntary conversion
+* missionary persuasion
+* patronage/incentive
+* elite conversion
+* social pressure
+* legal disadvantage
+* religious discrimination
+* state sponsorship
+* legal prohibition
+* conversion under threat
+* forced conversion
+* conquest followed by gradual religious change
+* forced assimilation
+* cultural assimilation
+* suppression of traditional religion
+* syncretic adaptation
+* religious continuity despite political change
+
+Store evidence for the classification.
+
+Do not call something forced conversion merely because rulers favored another religion.
+
+Conversely, do not sanitize documented coercion when strong evidence exists.
+
+
+
+# 75. TEACHING VS HISTORICAL CONDUCT
+
+Add a major comparative feature tentatively titled:
+
+**Teaching vs Historical Conduct**
+
+or a similarly neutral scholarly title.
+
+Purpose:
+
+Allow users to compare a religion's, movement's or institution's textual/ethical teachings with documented actions undertaken by rulers, armies, clergy, governments, institutions, movements or adherents identifying with that religion.
+
+Example structure:
+
+PRIMARY TEACHING
+
+DOCUMENTED HISTORICAL ACTION
+
+ACTOR / INSTITUTION
+
+DATE / LOCATION
+
+JUSTIFICATION GIVEN AT THE TIME
+
+TEXTS USED TO JUSTIFY THE ACTION
+
+RELIGIOUS VOICES SUPPORTING IT
+
+RELIGIOUS VOICES OPPOSING IT
+
+POLITICAL / ECONOMIC / TERRITORIAL MOTIVES
+
+LATER THEOLOGICAL INTERPRETATION
+
+MODERN SCHOLARLY INTERPRETATION
+
+EVIDENCE STATUS
+
+WHAT REMAINS DISPUTED
+
+Atlas itself must not classify conduct as:
+
+* godly
+* demonic
+* holy
+* satanic
+* divinely approved
+
+unless explicitly reporting that a historical or religious source used such language.
+
+Users should be able to observe tension between teachings and conduct without Atlas imposing a theological verdict.
+
+Apply this equally across traditions.
+
+Do not create this feature only for Christianity, Islam or any one religion.
+
+
+
+# 76. HISTORICAL GEOGRAPHY & CHANGING BORDERS
+
+Expand the World Map and Timeline requirements substantially.
+
+Atlas must eventually show how geographic and religious environments changed because of:
+
+* war
+* conquest
+* empire
+* migration
+* forced migration
+* exile
+* expulsion
+* conversion policy
+* missionary activity
+* colonization
+* trade
+* pilgrimage
+* demographic change
+* state formation
+* schism
+* reform
+* collapse of empires
+* population resettlement
+
+Add support for historical:
+
+* political borders
+* empire boundaries
+* kingdom/state boundaries
+* cultural regions
+* religious-majority/minority regions where reliable evidence permits
+* religious centers
+* sacred sites
+* conflict areas
+* migration routes
+* exile routes
+* missionary routes
+* trade routes
+* pilgrimage routes
+* manuscript movement
+* destroyed sacred sites
+* converted/reused sacred sites
+* archaeological findspots
+* centers of learning
+
+Political sovereignty and religious influence must remain separate concepts.
+
+
+
+# 77. PRE-CONFLICT / CONFLICT / POST-CONFLICT MAP MODE
+
+The World Map must explicitly support a historical:
+
+**PRE-CONFLICT**
+→ **CONFLICT**
+→ **POST-CONFLICT**
+→ **LONGER-TERM OUTCOME**
+
+comparison mode.
+
+This must be more than placing battle markers on the existing map.
+
+For any sufficiently documented war, conquest, persecution, colonization, major political transition, conversion campaign, expulsion, or schism with geographic consequences, Atlas should eventually display synchronized map states.
+
+---
+
+## PRE-CONFLICT MAP
+
+Show, where reliable evidence exists:
+
+* political borders
+* controlling state/empire
+* cultural regions
+* major religious traditions present
+* known minority communities
+* documented religious centers
+* temples
+* churches
+* monasteries
+* mosques
+* synagogues
+* shrines
+* pilgrimage centers
+* schools/centers of learning
+* known trade connections
+* known migration patterns
+* major languages
+* major manuscript-production centers
+
+Clearly distinguish:
+
+POLITICAL CONTROL
+
+RELIGIOUS PRESENCE
+
+RELIGIOUS MAJORITY
+
+STATE RELIGION
+
+CULTURAL INFLUENCE
+
+ARCHAEOLOGICAL EVIDENCE
+
+Do not assume political rule means every person practiced the ruler's religion.
+
+---
+
+## CONFLICT MAP
+
+Display, where documented:
+
+* battle locations
+* fronts
+* contested regions
+* sieges
+* military routes
+* advances
+* retreats
+* massacres
+* persecution
+* expulsions
+* refugee movement
+* forced population transfer
+* conversion campaigns
+* missionary activity
+* religious legislation
+* religious-policy changes
+* destroyed sacred sites
+* damaged sacred sites
+* converted/reused sacred structures
+* confiscated religious property
+* newly founded religious institutions
+* imprisoned/exiled religious leaders
+* councils/decrees connected to the conflict
+
+Avoid false geographic precision.
+
+Approximate zones must be visibly approximate.
+
+---
+
+## POST-CONFLICT MAP
+
+Show:
+
+* new political borders
+* new rulers
+* territorial gains/losses
+* changes in state religion
+* changes in toleration
+* new restrictions
+* removed restrictions
+* changed religious institutions
+* changed religious-majority/minority patterns where evidence permits
+* displacement
+* diaspora
+* resettlement
+* new religious centers
+* destroyed institutions
+* converted sacred sites
+* missionary expansion
+* long-term cultural/religious change
+
+Do not treat post-war political change as proof of immediate population conversion.
+
+
+
+# 78. GEOGRAPHIC DELTA VIEW
+
+Create a future map mode:
+
+**Show What Changed**
+
+It should highlight only differences between two selected historical states.
+
+Possible changes:
+
+* territory gained
+* territory lost
+* border moved
+* empire/state changed
+* state religion changed
+* religion gained official status
+* religion lost official status
+* new religious restriction
+* restriction removed
+* population displaced
+* population expelled
+* population resettled
+* migration occurred
+* sacred site destroyed
+* sacred site damaged
+* sacred site repurposed
+* sacred site founded
+* religious center expanded
+* religious center declined
+* missionary presence expanded
+* pilgrimage route changed
+* denominational territory changed
+* manuscript/knowledge center moved
+
+Every change must retain provenance and confidence.
+
+
+
+# 79. SIDE-BY-SIDE HISTORICAL MAP MODE
+
+Support eventual synchronized comparison such as:
+
+| BEFORE                        | AFTER                        |
+| ----------------------------- | ---------------------------- |
+| Region before conflict        | Region after conflict        |
+| Political authority before    | Political authority after    |
+| Religious institutions before | Religious institutions after |
+| Sacred sites before           | Sacred sites after           |
+| Minority communities before   | Minority communities after   |
+
+Allow synchronized pan and zoom.
+
+Clicking the same location in both panels should explain what changed.
+
+Possible user question:
+
+**What changed religiously in this region after this war?**
+
+The answer must be sourced.
+
+
+
+# 80. TIME-SLIDER TRANSITION MODE
+
+The map time slider should support historical transition stages where data exist:
+
+PRE-CONFLICT
+→ EARLY CONFLICT
+→ LATE CONFLICT
+→ IMMEDIATE AFTERMATH
+→ LONGER-TERM OUTCOME
+
+Do not interpolate unknown historical conditions.
+
+If only two reliable snapshots exist, show two snapshots.
+
+
+
+# 81. RELIGIOUS-INFLUENCE MAP LAYER
+
+Religious influence must be separate from political control.
+
+Evidence for influence may include:
+
+* religious institutions
+* temples/churches/mosques/shrines
+* monasteries
+* episcopal structures
+* inscriptions
+* burials
+* pilgrimage centers
+* legal records
+* manuscript-production centers
+* missionary records
+* archaeological evidence
+* educational institutions
+* documented communities
+
+Possible qualitative statuses:
+
+* Documented presence
+* Established community
+* Major institutional presence
+* State-supported
+* Restricted
+* Persecuted
+* Declining institutional evidence
+* Evidence insufficient
+
+Do not fabricate precise religious population percentages.
+
+
+
+# 82. RELIGIOUS-INFLUENCE FLOW LAYER
+
+Where evidence supports it, map movement through:
+
+* migration
+* diaspora
+* missionary activity
+* conquest
+* trade
+* pilgrimage
+* translation networks
+* monastic networks
+* imperial sponsorship
+* displaced communities
+* educational centers
+
+Each flow must identify its mechanism.
+
+Possible categories:
+
+MISSIONARY SPREAD
+
+TRADE-ASSOCIATED SPREAD
+
+MIGRATION / DIASPORA
+
+STATE SPONSORSHIP
+
+CONQUEST-ASSOCIATED CHANGE
+
+SCHOLARLY / TRANSLATION NETWORK
+
+PILGRIMAGE NETWORK
+
+Do not represent all religious spread as conquest.
+
+
+
+# 83. HISTORICAL MAP CASE STUDIES
+
+Require curated map case studies after the geographic architecture exists.
+
+Potential examples include:
+
+* Roman Empire and changing status of Christianity
+* late-antique Christianization and persistence of older religious practices
+* early Islamic conquests and later religious change
+* Crusader states
+* Reconquista
+* Reformation/confessional Europe
+* Thirty Years' War
+* Ottoman/Safavid frontier
+* Christianization of selected European regions
+* colonial Mexico
+* colonial Andes
+* Indigenous religious suppression and survival
+* European colonial religious change
+* major Jewish expulsions/diasporas
+* other well-documented examples
+
+Each case should separate:
+
+MILITARY CHANGE
+
+POLITICAL CHANGE
+
+LEGAL CHANGE
+
+RELIGIOUS-INSTITUTIONAL CHANGE
+
+DEMOGRAPHIC CHANGE
+
+VOLUNTARY CONVERSION
+
+COERCED CONVERSION
+
+MIGRATION
+
+RESISTANCE
+
+CONTINUITY
+
+SYNCRETISM
+
+UNCERTAINTY
+
+
+
+# 84. CONFLICT CAUSATION MODEL
+
+Every conflict may contain multiple causal categories:
+
+* religious
+* theological
+* political
+* dynastic
+* territorial
+* economic
+* ethnic
+* imperial
+* succession
+* resource-related
+* anti-colonial
+* nationalist
+* ideological
+* mixed
+* disputed
+
+Store:
+
+STATED CAUSE
+
+PARTICIPANT JUSTIFICATION
+
+SCHOLARLY INTERPRETATIONS
+
+DISPUTED CAUSATION
+
+A conflict involving two religions must not automatically be classified as a religious war.
+
+
+
+# 85. MAP SOURCE PROVENANCE
+
+Every historical map layer must retain:
+
+* source title
+* source author/institution
+* publication/date
+* geographic data type
+* time period represented
+* confidence
+* limitations
+* citation/source URL
+* boundary type
+
+Boundary types should include:
+
+WELL DOCUMENTED
+
+APPROXIMATE
+
+RECONSTRUCTED
+
+DISPUTED
+
+UNKNOWN
+
+Never draw reconstructed ancient boundaries as though they are modern surveyed borders.
+
+
+
+# 86. NECROMANCY, SPIRIT CONTACT & RITUAL PRACTICE
+
+Expand occult/esoteric coverage significantly.
+
+Distinguish:
+
+* necromancy
+* spirit invocation
+* ancestor communication
+* divination
+* mediumship
+* possession
+* exorcism
+* theurgy
+* ceremonial magic
+* demonology
+* angelology
+* ghost rites
+* funerary spirit practices
+* shamanic spirit interaction
+* oracle consultation
+* magical protection
+* curse traditions
+* spirit-binding
+* modern Spiritualism
+
+Do NOT flatten all of these into “occult.”
+
+Do NOT automatically apply Western demonological terminology to Indigenous, African, Asian or other spirit traditions.
+
+Respect cultural protocols.
+
+Potential historical material includes:
+
+* Mesopotamian ghost/spirit rites
+* Egyptian magical/funerary texts
+* Hebrew Bible prohibitions
+* Saul and the medium of Endor
+* Greek/Roman necromantic traditions
+* medieval necromancy
+* Solomonic traditions
+* Renaissance ceremonial magic
+* early-modern demonology
+* grimoires
+* nineteenth-century Spiritualism
+
+Atlas is a research platform, not an operational ritual-instruction platform.
+
+
+
+# 87. DEMONOLOGY & ENTITY EVOLUTION
+
+Build an entity-history system able to track figures/concepts through time.
+
+Potential examples:
+
+* Belial
+* Baal / Ba'al
+* Beelzebub
+* Satan
+* Lucifer
+* Azazel
+* Samael
+* Lilith
+* Asmodeus
+* Mastema
+* Watchers
+* Nephilim
+* Goetic entities
+* Mesopotamian spirit/demon terminology
+* Egyptian hostile/spirit beings
+* Greek daimon concepts
+* later Christian demonology
+* Islamic jinn/shayatin traditions where relevant
+
+Do not merge names merely because later popular sources conflate them.
+
+Example:
+
+BELIAL must not automatically become BAAL/BA'AL.
+
+Each entity should support:
+
+* original-language form
+* transliteration
+* alternate names
+* earliest attestation
+* source occurrences
+* earliest role
+* later role
+* later religious interpretation
+* associations
+* conflations
+* disputed identifications
+* medieval/early-modern interpretation
+* modern occult interpretation
+* popular-culture interpretation
+
+Support entity-evolution paths such as:
+
+EARLY SOURCE
+→ PERSONIFICATION
+→ RELIGIOUS DEVELOPMENT
+→ MEDIEVAL DEMONOLOGY
+→ GRIMOIRE TRADITION
+→ MODERN REINTERPRETATION
+
+
+
+# 88. HUMAN SACRIFICE & RITUAL VIOLENCE
+
+Create a separate evidence-aware research domain.
+
+Distinguish:
+
+ARCHAEOLOGICALLY SUPPORTED RITUAL KILLING
+
+TEXTUALLY DOCUMENTED PRACTICE
+
+DOCUMENTED BUT INTERPRETATION DISPUTED
+
+HOSTILE OUTSIDER ACCUSATION
+
+RELIGIOUS POLEMIC
+
+COLONIAL ACCOUNT
+
+LATER LEGEND
+
+MODERN CLAIM
+
+UNVERIFIED CONSPIRACY CLAIM
+
+Possible areas include, where responsibly sourced:
+
+* Mesoamerican sacrifice
+* ancient Near Eastern sacrifice
+* retainer sacrifice
+* royal funerary sacrifice
+* Mediterranean cases
+* Punic/Carthaginian debates
+* sacrificial narratives
+* substitution traditions
+* animal vs human sacrifice
+* accusations against rival religions
+* colonial descriptions of Indigenous practices
+
+For each case retain:
+
+* archaeology
+* human-remains evidence where relevant
+* textual sources
+* inscriptions
+* iconography
+* source bias
+* hostile-source issues
+* colonial-source issues
+* later scholarship
+* scholarly disagreement
+* confidence
+
+Do not use graphic material for sensationalism.
+
+
+
+# 89. SECRET, INITIATORY, FRATERNAL & ESOTERIC ORGANIZATIONS
+
+Create a historical organization category.
+
+Potential documented organizations/movements include:
+
+* Knights Templar
+* Freemasonry
+* Bavarian Illuminati
+* Skull and Bones
+* Rosicrucian traditions
+* Hermetic Order of the Golden Dawn
+* Martinist organizations
+* Ordo Templi Orientis
+* Thelemic organizations
+* religious military orders
+* ancient mystery cults where appropriate
+* other documented esoteric/fraternal groups
+
+Distinguish organizations that are historically documented from organizations primarily alleged in later conspiracy narratives.
+
+For each organization support:
+
+* canonical name
+* aliases
+* founding date
+* founder(s)
+* geography
+* purpose
+* religious/philosophical context
+* publicly documented rituals
+* symbols
+* organizational structure
+* primary documents
+* membership evidence
+* suppression/disbandment
+* successor organizations
+* claimed successors
+* influence
+* later legends
+* conspiracy traditions
+* evidence status
+
+Do not retroactively treat the Knights Templar simply as a modern-style secret society.
+
+
+
+# 90. DOCUMENTED VS ALLEGED MEMBERSHIP
+
+Membership claims need evidence classifications.
+
+Use:
+
+DOCUMENTED MEMBER
+
+STRONG DOCUMENTARY EVIDENCE
+
+PROBABLE ASSOCIATION
+
+DOCUMENTED CONTACT BUT NOT MEMBERSHIP
+
+CLAIMED MEMBER
+
+LATER ATTRIBUTION
+
+NO VERIFIED EVIDENCE LOCATED
+
+DISPROVEN / MISIDENTIFIED
+
+Potential evidence includes:
+
+* membership rolls
+* institutional records
+* lodge/order documents
+* correspondence
+* diaries
+* archive records
+* reliable biography
+* contemporary testimony
+
+A photograph, gesture, pose, painting, costume or symbol alone is not sufficient proof of membership.
+
+
+
+# 91. HISTORICAL ILLUMINATI VS MODERN ILLUMINATI CLAIMS
+
+Explicitly separate:
+
+**Historical Bavarian Illuminati**
+
+from:
+
+**modern Illuminati conspiracy traditions.**
+
+The documented historical organization belongs in the core Atlas.
+
+Claims involving:
+
+* continuous survival
+* secret global government control
+* banking control
+* entertainment control
+* religious-institution control
+* hidden human sacrifice
+* ritual abuse
+* celebrity membership
+* encoded symbolism
+
+belong primarily in future Contested History unless independently established.
+
+Do not exclude these claims.
+
+Do not promote them to established fact without evidence.
+
+
+
+# 92. SECRET-SOCIETY NETWORK CLAIMS
+
+Atlas should eventually answer:
+
+**Was person X actually connected to organization Y?**
+
+Possible evidence display:
+
+PRIMARY MEMBERSHIP RECORD
+
+CORRESPONDENCE
+
+DOCUMENTED ASSOCIATES
+
+ORGANIZATIONAL RECORD
+
+CONTEMPORARY CLAIM
+
+LATER CLAIM
+
+SOURCE CHAIN
+
+COUNTEREVIDENCE
+
+UNRESOLVED QUESTIONS
+
+Do not create network edges from gestures, clothing, artwork or Internet repetition alone.
+
+
+
+# 93. RELIGIOUS / ESOTERIC SYMBOLISM
+
+Expand the artifact/image/entity system to cover symbolic interpretation.
+
+Support symbolism in:
+
+* manuscripts
+* paintings
+* sculpture
+* architecture
+* religious clothing
+* heraldry
+* monuments
+* ritual objects
+* fraternal organizations
+* esoteric orders
+* political art
+* royal portraiture
+
+Distinguish:
+
+DOCUMENTED SYMBOL
+
+HISTORICALLY ATTESTED MEANING
+
+ARTIST / ARCHITECT EXPLANATION
+
+INSTITUTIONAL EXPLANATION
+
+ICONOGRAPHIC SCHOLARSHIP
+
+RELIGIOUS INTERPRETATION
+
+ESOTERIC INTERPRETATION
+
+LATER POPULAR INTERPRETATION
+
+CONTROVERSIAL INTERPRETATION
+
+UNSUPPORTED ASSOCIATION
+
+Do not assume a symbol has one universal meaning.
+
+
+
+# 94. ART & ARCHITECTURE — DOCUMENTED OBJECT FIRST
+
+Support artworks/buildings as real historical objects before attaching alternative interpretations.
+
+Future examples include:
+
+* Jonathan Yeo's King Charles III portrait
+* Paul VI Audience Hall
+* Raphael Rooms
+* Raphael Loggias
+* Vatican iconographic architecture
+* Vatican Holy Doors
+* major sealed/restricted religious spaces where historically relevant
+* other significant works or buildings associated with religious symbolism
+
+For each object first establish:
+
+* correct name
+* creator/architect
+* date
+* commissioner
+* location
+* original purpose
+* institutional documentation
+* conventional scholarly interpretation
+* known iconography
+* documented access rules
+
+Only then attach later claims or alternative readings.
+
+
+
+# 95. KING CHARLES III RED PORTRAIT
+
+Reserve this as a future Contested Symbolism case.
+
+Core Atlas may catalog the artwork and documented commissioning/artist information.
+
+Future Contested History may examine claims involving:
+
+* hidden faces
+* demonic imagery
+* blood imagery
+* butterfly symbolism
+* mirrored-image interpretations
+* occult symbolism
+* secret-society symbolism
+
+Do not present intentional hidden symbolism as fact unless evidence supports intentionality.
+
+
+
+# 96. PAUL VI AUDIENCE HALL / “SNAKE” CLAIM
+
+Catalog the actual building first.
+
+Then treat the claim that it resembles a serpent as a contested interpretation.
+
+Future evidence layout should distinguish:
+
+ARCHITECTURAL FACT
+
+ARCHITECT'S DESIGN
+
+OFFICIAL FUNCTION
+
+KNOWN SYMBOLISM
+
+PHOTOGRAPHIC PERSPECTIVE
+
+CLAIMED SERPENT RESEMBLANCE
+
+CLAIM OF INTENTIONAL OCCULT SYMBOLISM
+
+EVIDENCE FOR INTENTIONALITY
+
+EVIDENCE AGAINST
+
+UNKNOWN
+
+Do not call it a “snake temple” as an established factual description.
+
+
+
+# 97. RAPHAEL ROOMS & LOGGIAS
+
+Catalog:
+
+* actual artworks
+* scenes
+* artist/workshop
+* patronage
+* biblical/classical content
+* known iconography
+* historical context
+
+Alternative esoteric interpretations must remain separately labeled.
+
+
+
+# 98. VATICAN HOLY DOORS & RESTRICTED SPACES
+
+Distinguish:
+
+DOCUMENTED CEREMONIAL CLOSURE
+
+LITURGICAL PRACTICE
+
+RESTRICTED ACCESS
+
+ARCHIVAL SECURITY
+
+MUSEUM SECURITY
+
+CONSERVATION
+
+from claims involving hidden:
+
+* manuscripts
+* artifacts
+* entities
+* secret rituals
+* suppressed history
+
+Catalog documented Holy Door traditions and opening/closing cycles.
+
+Claims that closure conceals forbidden objects belong in Contested History.
+
+Closed does not automatically mean suppressed.
+
+
+
+# 99. RELIGIOUS ART, ARCHITECTURE & POWER
+
+Allow users to study connections among:
+
+ART
+
+RELIGION
+
+POLITICAL POWER
+
+PATRONAGE
+
+SYMBOLISM
+
+ARCHITECTURE
+
+ROYAL AUTHORITY
+
+INSTITUTIONAL AUTHORITY
+
+without automatically inferring occult intent.
+
+Potential categories include:
+
+* monumental architecture
+* royal religious portraiture
+* temples
+* churches
+* mosques
+* shrines
+* sacred geometry
+* heraldry
+* relic displays
+* processional spaces
+* restricted sacred spaces
+
+
+
+# 100. CORE ATLAS VS CONTESTED HISTORY
+
+Update both authoritative documents to maintain a clear boundary.
+
+## CORE HISTORICAL ATLAS
+
+Include:
+
+* documented wars
+* changing borders
+* state religion
+* persecution
+* conversion policy
+* documented coercion
+* religious law
+* necromancy texts
+* spirit traditions
+* demonology
+* documented ritual sacrifice
+* documented secret/fraternal/esoteric organizations
+* documented memberships
+* artwork
+* architecture
+* documented symbolism
+
+## FUTURE CONTESTED HISTORY
+
+Include:
+
+* institutional cover-up allegations
+* Vatican suppression claims
+* Smithsonian suppression claims
+* hidden/lost artifacts
+* hidden manuscripts
+* alternative archaeology
+* global Illuminati-control claims
+* secret human-sacrifice-network claims
+* alleged celebrity/artist secret-society membership
+* alleged encoded occult artwork
+* alleged intentional serpent architecture
+* claims regarding forbidden sealed rooms/doors
+* disputed archaeological anomalies
+* source suppression
+* institutional-denial tracking
+* Grand Canyon/Egyptian claim
+
+The same entity may exist in both systems.
+
+Example:
+
+BAVARIAN ILLUMINATI
+= documented historical organization.
+
+GLOBAL ILLUMINATI CONTROL CLAIM
+= contested-history claim.
+
+VATICAN HOLY DOOR
+= documented liturgical tradition.
+
+CLAIM THAT IT HIDES FORBIDDEN ARTIFACTS
+= contested-history claim.
+
+
+
+# 101. DATA-MODEL PLANNING
+
+Do not implement schema yet.
+
+Update the roadmap so Phase 0 evaluates whether normalized models are needed for:
+
+* historical polities
+* territorial snapshots
+* conflicts
+* conflict parties
+* conflict causation
+* religious-policy events
+* persecution events
+* coercion/conversion events
+* migration events
+* exile events
+* sacred-site events
+* organizations
+* organization aliases
+* organization memberships
+* membership evidence
+* religious/esoteric entities
+* entity aliases
+* entity occurrences
+* ritual practices
+* practice evidence
+* sacrifice evidence
+* artwork
+* architecture
+* symbols
+* symbol interpretations
+* map layers
+* geographic provenance
+
+Avoid forcing everything into generic JSON metadata if normalized entities materially improve provenance, search and historical analysis.
+
+Reuse existing models where appropriate.
+
+Avoid duplicate parallel systems.
+
+
+
+# 102. SOURCE & EVIDENCE REQUIREMENTS
+
+Every major historical claim involving:
+
+* war
+* religious motivation
+* forced conversion
+* persecution
+* ritual killing
+* necromancy
+* organization membership
+* secret-society activity
+* suppression
+* contested symbolism
+
+must retain a source chain.
+
+Differentiate:
+
+PRIMARY DOCUMENT
+
+ARCHAEOLOGICAL EVIDENCE
+
+CONTEMPORARY ACCOUNT
+
+HOSTILE CONTEMPORARY ACCOUNT
+
+INSTITUTIONAL RECORD
+
+LATER HISTORIAN
+
+MODERN SCHOLARSHIP
+
+MEMOIR / TESTIMONY
+
+JOURNALISTIC REPORT
+
+ORGANIZATION CLAIM
+
+OPPONENT CLAIM
+
+INTERNET / SOCIAL-MEDIA CLAIM
+
+UNSOURCED REPETITION
+
+Atlas must make circular sourcing detectable.
+
+Ten derivative websites repeating one allegation do not equal ten independent sources.
+
+
+
+# 103. LANGUAGE & MORAL JUDGMENT
+
+Do not sanitize documented:
+
+* massacre
+* enslavement
+* torture
+* forced conversion
+* persecution
+* ritual killing
+* cultural destruction
+* expulsion
+
+when strong evidence supports those terms.
+
+But Atlas must not inject theological/moral labels as fact.
+
+Appropriate:
+
+“Historical evidence supports coercive conversion in this case.”
+
+Not appropriate as Atlas narration:
+
+“This religion acted demonically.”
+
+If a source described an opponent as demonic, that may be represented as the source's claim.
+
+
+
+# 104. UNRESOLVED RESEARCH QUEUE
+
+Add a durable **Unresolved Research Queue**.
+
+Purpose:
+
+Track leads known to Atlas that are not yet sufficiently verified for publication.
+
+Examples:
+
+* lost work mentioned in another source
+* museum collection awaiting review
+* manuscript with uncertain provenance
+* organization membership claim needing archive verification
+* alleged suppressed artifact
+* disputed human-sacrifice case
+* new decipherment claim
+* unverified symbol interpretation
+* newly published archaeological claim
+* inaccessible archive lead
+* tradition with insufficient public documentation
+
+Possible statuses:
+
+NEW LEAD
+
+SOURCE NEEDED
+
+PRIMARY SOURCE LOCATED
+
+AWAITING RIGHTS REVIEW
+
+AWAITING CULTURAL REVIEW
+
+AWAITING SCHOLARLY REVIEW
+
+DISPUTED
+
+PROVISIONALLY RESOLVED
+
+REJECTED / FALSE LEAD
+
+PUBLISHED TO ATLAS
+
+Research-queue records must never automatically appear as verified facts.
+
+
+
+# 105. PHASE 0 BASELINE EXPANSION
+
+Because Phase 0 has NOT started, expand its baseline audit.
+
+Report current counts for:
+
+* historical polity records
+* territorial snapshots
+* conflict records
+* geocoded conflict events
+* political-border layers
+* religious-influence layers
+* religious-policy transitions
+* persecution/coercion events
+* documented forced-conversion events
+* migration/exile routes
+* missionary routes
+* sacred-site destruction events
+* sacred-site reuse events
+* before/after conflict map pairs
+* curated historical map case studies
+* ritual-practice records
+* necromancy records
+* demon/spirit/entity records
+* entity aliases
+* organization records
+* organization memberships
+* membership-evidence records
+* sacrifice-evidence records
+* artworks
+* architectural records
+* symbol records
+* symbol-interpretation records
+* unresolved research-queue records
+
+If current count is zero, report zero.
+
+Do not treat an existing UI placeholder as completed coverage.
+
+
+
+# 106. REQUIRED QUALITY / REGRESSION TESTS
+
+Add future completion tests requiring at minimum:
+
+1. Political borders and religious influence use separate map layers.
+2. Government religion is not treated as population religion.
+3. Pre-conflict/post-conflict map states remain independent.
+4. Unknown historical demographics remain unknown.
+5. Approximate boundaries are labeled approximate.
+6. Disputed boundaries remain disputed.
+7. A conflict can have multiple causes.
+8. Religious participants do not automatically make a conflict primarily religious.
+9. Forced-conversion classification requires evidence.
+10. Conquest-associated religious change is not automatically forced conversion.
+11. Missionary spread is not automatically coercion.
+12. Sacred-site destruction requires a sourced event.
+13. Sacred-site reuse remains distinct from destruction.
+14. Teaching vs Historical Conduct cites both teaching and historical conduct.
+15. Conduct by adherents is not automatically authoritative doctrine.
+16. Necromancy is not automatically demon worship.
+17. Ancestor traditions are not automatically necromancy.
+18. Belial is not automatically merged with Baal.
+19. Entity aliases remain source-specific.
+20. Human-sacrifice claims distinguish archaeology from hostile accusation.
+21. Colonial accounts are labeled as colonial/outsider sources.
+22. Secret-society membership requires evidence status.
+23. Hand gestures or artwork cannot alone create documented-membership edges.
+24. Knights Templar are not automatically classified as a modern secret society.
+25. Historical Bavarian Illuminati and modern control claims stay separate.
+26. Freemasonry's documented history remains distinct from later conspiracy claims.
+27. Artwork facts remain distinct from artwork interpretations.
+28. Paul VI Audience Hall facts remain distinct from serpent-intent claims.
+29. Holy Door ceremonial closure remains distinct from suppression claims.
+30. Repeated derivative web claims do not count as independent corroboration.
+31. Religious violence is handled consistently across traditions.
+32. Atlas never labels conduct “demonic” as its own factual conclusion.
+33. Every historical map layer exposes provenance.
+34. Users can inspect the evidence supporting mapped historical change.
+35. Long-term religious change remains separate from immediate political change.
+
+
+
+# 107. ROADMAP PLACEMENT
+
+Integrate these requirements into the current roadmap using its existing owners, dependencies, acceptance criteria and completion-gate style.
+
+At minimum create or clearly identify implementation tracks for:
+
+**Religion, Power, Conflict & Geographic Change**
+
+**Necromancy, Demonology, Ritual Practice & Entity Evolution**
+
+**Secret, Initiatory & Esoteric Organizations**
+
+**Religious Art, Architecture & Symbolism**
+
+**Unresolved Research Queue**
+
+The future:
+
+**Contested History & Suppression Claims**
+
+remains a separate implementation phase.
+
+Do not begin Contested History yet.
+
+However, core architecture should be capable of linking to contested claims later without destructive redesign.
+
+
+
+# 108. WORLD MAP COMPLETION STANDARD
+
+Update the World Map definition of complete.
+
+Completion must mean substantially more than:
+
+“Records appear as dots.”
+
+A mature Atlas map should support:
+
+**PLACE + TIME + POWER + CONFLICT + RELIGION + MOVEMENT + EVIDENCE**
+
+It should eventually help answer:
+
+* What did the political map look like before this conflict?
+* What religions were present?
+* Which religious institutions existed?
+* Who controlled the territory?
+* What changed during the conflict?
+* What changed immediately afterward?
+* What changed centuries later?
+* Did government religion change?
+* Did population religion change?
+* Was conversion voluntary, coerced, incentivized or mixed?
+* Where did displaced communities go?
+* What happened to minority religions?
+* What sacred sites were destroyed or repurposed?
+* Did earlier traditions survive?
+* Did new syncretic traditions develop?
+* Did manuscripts or centers of learning move?
+* What evidence supports each mapped change?
+* What remains uncertain?
+
+That historical-geographic experience is now part of the authoritative Atlas vision.
+
+
+
+# 109. COMPLETION STANDARD
+
+These additions become part of the authoritative Atlas completion vision.
+
+They do NOT mean every war, ritual practice, organization, artwork or disputed claim must be populated immediately.
+
+The architecture must support indefinite expansion.
+
+Maintain:
+
+> No artificial upper limit.
+
+and:
+
+> Leave no major documented culture, tradition, conflict, institution, ritual system, esoteric movement, secret/fraternal organization, relevant artwork, or historical source intentionally unexplored.
+
+Comprehensiveness never overrides:
+
+* evidence
+* historical uncertainty
+* source provenance
+* cultural restrictions
+* copyright
+* safety
+* responsible scholarship
