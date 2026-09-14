@@ -1,0 +1,2808 @@
+{
+  "requirements": [
+    {
+      "id": "AUDIT-000",
+      "title": "AUTHORITY AND SCOPE",
+      "source": "docs/atlas-completion-gap-audit.md:9",
+      "acceptanceSha256": "1298a261b82711fb8ddac6833c2de5e908fe1997cbcac729d1d52fe33d359785",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-001",
+      "title": "CURRENT STATE SUMMARY",
+      "source": "docs/atlas-completion-gap-audit.md:36",
+      "acceptanceSha256": "134883d9fdf25af88416b2f74af9b1766d5ff53ca2293a3795da077229d2afba",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-002",
+      "title": "COMPLETION STANDARD",
+      "source": "docs/atlas-completion-gap-audit.md:78",
+      "acceptanceSha256": "54be5f727960945f9146ac9bd5855e19a6e49018727ed4c9dd6c3a7898843241",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-003",
+      "title": "CRITICAL GAP: WORLD MAP",
+      "source": "docs/atlas-completion-gap-audit.md:103",
+      "acceptanceSha256": "77e0437865db61f9817f46f04b77681870d3a097574104f2f52cf1506d67a801",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "1",
+        "4",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-004",
+      "title": "CRITICAL GAP: TIMELINE",
+      "source": "docs/atlas-completion-gap-audit.md:166",
+      "acceptanceSha256": "ceb1d79a8e15f0267a8e08f4206e7f38bdfa3082f708207f81eff2ae3981b898",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "1",
+        "4",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-005",
+      "title": "CRITICAL GAP: TRADITION TAXONOMY IS TOO COARSE",
+      "source": "docs/atlas-completion-gap-audit.md:206",
+      "acceptanceSha256": "509f1b37a97706faa3f789b3097787bf6be65623cb267418ec40cd71e65a9a69",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-006",
+      "title": "CRITICAL GAP: METADATA-ONLY RECORDS DOMINATE THE CATALOG",
+      "source": "docs/atlas-completion-gap-audit.md:264",
+      "acceptanceSha256": "a68c76d9bb6cbf01bda11d21c94e1cae3f2ed3443b6db2eb14e48f2dfaf8dd63",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "5–9A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-007",
+      "title": "ANCIENT EGYPT IS ONLY PARTIALLY IMPLEMENTED",
+      "source": "docs/atlas-completion-gap-audit.md:293",
+      "acceptanceSha256": "9957dc58d520ca9c836079d32df63e4477f43bd4aa33ede193acdcf6da12a499",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "5"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-008",
+      "title": "MESOPOTAMIA IS MOSTLY METADATA",
+      "source": "docs/atlas-completion-gap-audit.md:395",
+      "acceptanceSha256": "2b6c12e0bc0e71b2ca80b32845ece858447fce84e96718dff4a49b90e4b99e45",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "6"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-009",
+      "title": "ANUNNA / ANUNNAKI IS NOT IMPLEMENTED AS A RESEARCH SUBJECT",
+      "source": "docs/atlas-completion-gap-audit.md:453",
+      "acceptanceSha256": "a9900487161f4bf7222ee1f5cba7a129645e713ef1a11a35c3869a2e043c4388",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "6"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-010",
+      "title": "CHINESE TRADITIONS ARE UNDERMODELED",
+      "source": "docs/atlas-completion-gap-audit.md:495",
+      "acceptanceSha256": "1b4da6464bdeee362c4650eb8160948db81550e81508119d6673f1cebebc6e6b",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "7"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-011",
+      "title": "ETHIOPIA / ERITREA / HORN IS NOT BUILT AS A FIRST-CLASS COLLECTION",
+      "source": "docs/atlas-completion-gap-audit.md:589",
+      "acceptanceSha256": "4a55504fcf41099bce9f4bd10abe2332c6054e5e21a7894c04f9f16fa685c11a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "8"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-012",
+      "title": "GLOBAL INDIGENOUS COVERAGE REMAINS SHALLOW",
+      "source": "docs/atlas-completion-gap-audit.md:650",
+      "acceptanceSha256": "7c78c313712d1f9e64e7453068728aaf38796075d5583493723752f7eac4ef64",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "9"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-013",
+      "title": "MANUSCRIPT / WITNESS COVERAGE IS FAR TOO SMALL",
+      "source": "docs/atlas-completion-gap-audit.md:693",
+      "acceptanceSha256": "efb741ac81f1a0cf2e08043b4e7e410270c9dd191ce699ab1a7bb824c905d17c",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "10"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-014",
+      "title": "UNDECIPHERED MATERIAL IS MOSTLY UNBUILT",
+      "source": "docs/atlas-completion-gap-audit.md:740",
+      "acceptanceSha256": "42a8e21f3633bdb412a518d82412bde10fcf6d35d6097ef127a388fb29ec4842",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "11"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-015",
+      "title": "CODEX GIGAS IS ONLY A STARTER RECORD",
+      "source": "docs/atlas-completion-gap-audit.md:769",
+      "acceptanceSha256": "5f95aa9b8cf39c29e14636f13da3925febc1084bb1e2de7efadd7ccbf45de999",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "10",
+        "12"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-016",
+      "title": "OCCULT / ESOTERIC / RELIGIOUS-LITERATURE CORPUS IS INCOMPLETE",
+      "source": "docs/atlas-completion-gap-audit.md:788",
+      "acceptanceSha256": "ef5e51b213447b7137c16ca13b39e20bacde3ecb435072c7abbf110779f2882d",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "12"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-017",
+      "title": "SCIENTOLOGY AND MODERN RELIGIONS ARE UNDERBUILT",
+      "source": "docs/atlas-completion-gap-audit.md:833",
+      "acceptanceSha256": "1268be84f161630ccacd43cda505acea28a90e4919cb86ad2448ee9247449271",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "13"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-018",
+      "title": "FORBIDDEN / BANNED / SUPPRESSED / LOST / DISPUTED ARE MOSTLY SCHEMA",
+      "source": "docs/atlas-completion-gap-audit.md:892",
+      "acceptanceSha256": "af578873fd07c87a0e8990669d5beba276caa4cef40fdd0f55a79155685be298",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "14"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-019",
+      "title": "THEME / CONCEPT ONTOLOGY IS TOO SMALL",
+      "source": "docs/atlas-completion-gap-audit.md:938",
+      "acceptanceSha256": "ebc0bca226942eb7fc3c6158516ce0588c00b4293b3651e9db0ec7d2163083b8",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "4",
+        "15"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-020",
+      "title": "QUESTION EXPLORER IS SHALLOW BEYOND THREE GUIDES",
+      "source": "docs/atlas-completion-gap-audit.md:1017",
+      "acceptanceSha256": "e6b0e19327e68b650feb8e9467c8499b98ebb2b8fdaf2e820dbe069baec1f4ed",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-021",
+      "title": "SHOW THE OPPOSITION IS NOT A TRUE OPPOSITION ENGINE",
+      "source": "docs/atlas-completion-gap-audit.md:1049",
+      "acceptanceSha256": "77f568e75ffd142526ffb1704a6582d44a30b763c96942f9746c31f2d839f255",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-022",
+      "title": "COMPARE MODE HAS UI LABELS WITHOUT DISTINCT ENGINES",
+      "source": "docs/atlas-completion-gap-audit.md:1072",
+      "acceptanceSha256": "086371572898f574b0b0ed74e0299b4b0e5f0a6ed1626122c4427a6832c19e72",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-023",
+      "title": "TRANSLATION COMPARE IS NOT TRUE ALIGNMENT",
+      "source": "docs/atlas-completion-gap-audit.md:1102",
+      "acceptanceSha256": "9cd140abe7e1543c4da6a330b4404afb3f76180d491699a3548f779be5594caa",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "18"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-024",
+      "title": "ORIGINAL-LANGUAGE SUPPORT IS NEARLY ABSENT",
+      "source": "docs/atlas-completion-gap-audit.md:1131",
+      "acceptanceSha256": "f12e4d88d9c719987889b7639008377203c8b8b7e51c83ebdcc37c35a50a3ae4",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "18"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-025",
+      "title": "TRADITION DETAIL PAGES ARE PLACEHOLDERS",
+      "source": "docs/atlas-completion-gap-audit.md:1148",
+      "acceptanceSha256": "c25095ce965654688671021bead76a076d009a5c22a67062cf58bb0873d2f9be",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-026",
+      "title": "CANON / NON-CANON EXPERIENCE IS TOO SHALLOW",
+      "source": "docs/atlas-completion-gap-audit.md:1174",
+      "acceptanceSha256": "e6d0f07c1acf0b5ed22637928dbe7d03e00aab8f2659772e0e523bb891302a87",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-027",
+      "title": "RELATIONSHIP / INFLUENCE GRAPH IS A DEMO",
+      "source": "docs/atlas-completion-gap-audit.md:1193",
+      "acceptanceSha256": "305fd6448ef4bbe80b3a64b61d6b3cd23fda6c27edcecd256ce98015cf5ecec0",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "16",
+        "17"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-028",
+      "title": "STORY PARALLELS IS HARDCODED AND LIMITED",
+      "source": "docs/atlas-completion-gap-audit.md:1228",
+      "acceptanceSha256": "20f722f41ee80c525dc8ae7f518e4cdf8be17943bdd395c88d6683651654e8de",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "16",
+        "17"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-029",
+      "title": "PEOPLE / AUTHOR / DEITY ENTITY MODEL IS UNDERUSED",
+      "source": "docs/atlas-completion-gap-audit.md:1261",
+      "acceptanceSha256": "7635b44dd1feab96fdeec28c65ec6fbb315fb0e7b89bfac7b71368839c8087bd",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "4",
+        "15"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-030",
+      "title": "ENTITY ALIAS NORMALIZATION IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1295",
+      "acceptanceSha256": "c82ffcf8874b29d2555bebf44fa5b1395914ab7a1f9bc24b281b88bcd18538fc",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "4",
+        "15"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-031",
+      "title": "DEEP ARCHIVE FILTERING IS INCOMPLETE",
+      "source": "docs/atlas-completion-gap-audit.md:1314",
+      "acceptanceSha256": "c10dec554082976e521adde7e27f167b6b79d4b082c9cedd652e6ab98f70b9cf",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-032",
+      "title": "SECONDARY SCHOLARSHIP LAYER IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1346",
+      "acceptanceSha256": "a446d9b7af3b7fec46f423e43af8147845b16ebf74edf1841525fdff3eca407a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-033",
+      "title": "PASSAGE CONTENT-TYPE CLASSIFICATION IS REQUIRED",
+      "source": "docs/atlas-completion-gap-audit.md:1370",
+      "acceptanceSha256": "348072c78326336f2c32a608fe53e495c59c7c2b3f6d402a6041f06d8c1ec6b3",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-034",
+      "title": "SEARCH ARCHITECTURE NEEDS TO SCALE",
+      "source": "docs/atlas-completion-gap-audit.md:1393",
+      "acceptanceSha256": "84a4b8f01d08a65184e85d4b12c8182a681d6411e6d0a7b36a853e5af7c00f93",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "4"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-035",
+      "title": "TEXT / WORK PAGE DUPLICATION SHOULD BE UNIFIED",
+      "source": "docs/atlas-completion-gap-audit.md:1420",
+      "acceptanceSha256": "658eae3f6b8f51ccff8eed71548c1e2d7786a7aa02d13ef809ddb7ccde18dd6a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-036",
+      "title": "IMAGE PIPELINE NEEDS MULTI-INSTITUTION SUPPORT",
+      "source": "docs/atlas-completion-gap-audit.md:1448",
+      "acceptanceSha256": "36fe51e82488a004392fe45a37b1e10598a87ef5198c62a728aa45c86d48dec3",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "19"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-037",
+      "title": "HOME / DISCOVERY EXPERIENCE IS UNDEREXPANDED",
+      "source": "docs/atlas-completion-gap-audit.md:1479",
+      "acceptanceSha256": "50fbae3a5171809dc4a3f0584bb37094eb13e69f90942cbf9283b993ce019b74",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "21",
+        "28"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-038",
+      "title": "TEST SUITE DOES NOT ENFORCE COMPLETION",
+      "source": "docs/atlas-completion-gap-audit.md:1508",
+      "acceptanceSha256": "e84e3ef727f14615bab46a28ce87f1e75a1a4447eaeaf80096be8bf9f9b2962c",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-039",
+      "title": "DOCUMENTATION MUST REPORT REAL COUNTS",
+      "source": "docs/atlas-completion-gap-audit.md:1542",
+      "acceptanceSha256": "c573cd929d89ad8ec5052bc4bca92281ea2bd9b5da0abb42b41ee5a040a9e861",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-040",
+      "title": "LATER PHASE RESERVED: CONTESTED HISTORY",
+      "source": "docs/atlas-completion-gap-audit.md:1573",
+      "acceptanceSha256": "c1ebec5a31841f3255fcf449a2fef836e5f2bf6d6508fedeb8ada3c01d4e3d37",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "Core boundary",
+        "Deferred Contested History"
+      ],
+      "status": "deferred",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-041",
+      "title": "PRIORITY ORDER",
+      "source": "docs/atlas-completion-gap-audit.md:1597",
+      "acceptanceSha256": "bc037588f7db752c58903c2c397cd28a8dfba2d5175a8cbdf972d69edaf670dc",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-042",
+      "title": "DEFINITION OF CORE EXPANSION COMPLETE",
+      "source": "docs/atlas-completion-gap-audit.md:1628",
+      "acceptanceSha256": "96f4fff97595c49c29a89ec7d012f2e82e167fc08f2024b12119afa97c56c9c1",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-043",
+      "title": "RECONCILIATION EVIDENCE AND STATUS QUALIFICATIONS",
+      "source": "docs/atlas-completion-gap-audit.md:1672",
+      "acceptanceSha256": "a9967bb6b3b1d62770eca915e1a9cc4c03aa98fd004025a3b2af5343e3b3864c",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "baseline-record",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-044",
+      "title": "BIG QUESTION LANDING PAGES ARE MISSING / UNDERBUILT",
+      "source": "docs/atlas-completion-gap-audit.md:1709",
+      "acceptanceSha256": "85856a033b7a6e27227c72732a13e60b3ae598b8423f5768d2507ae414d4cafc",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "23"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-045",
+      "title": "RANDOM CONNECTION IS NOT A MATURE FEATURE",
+      "source": "docs/atlas-completion-gap-audit.md:1743",
+      "acceptanceSha256": "6c3ebd82a168131a96a1d7ca547851e504433340a7343cff5d0ff48797d81826",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "21",
+        "28"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-046",
+      "title": "RESEARCH WORKSPACE IS ONLY PARTIALLY COMPLETE",
+      "source": "docs/atlas-completion-gap-audit.md:1760",
+      "acceptanceSha256": "6cd74b065da47a84bea7570be211a3a5a1108de0bd6b1b99843e43caeceeeff7",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "25"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-047",
+      "title": "SOURCE RELIABILITY EXPLORER IS NOT FIRST-CLASS",
+      "source": "docs/atlas-completion-gap-audit.md:1783",
+      "acceptanceSha256": "e0cdae324657af780931653061079e959900024d5e9694e7efea460f979952c2",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-048",
+      "title": "SPECIALIZED CONCEPT EXPLORERS ARE MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1805",
+      "acceptanceSha256": "87be9167930b58cf547472dd99694c6794cab21b97f84fb5e5705803bd20ed4b",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "23"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-049",
+      "title": "\"WHAT CHANGED?\" CONCEPT EVOLUTION IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1832",
+      "acceptanceSha256": "e12a6655637463e4dc9f2fdb80f3ead732de5d18817723b4e2054da95f00ba75",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-050",
+      "title": "\"SAME WORD, DIFFERENT IDEA\" IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1862",
+      "acceptanceSha256": "0ac86a7f49d5dc883bde1bbb32466948d715516e38cde6ead9039145d1b13343",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-051",
+      "title": "\"WHAT EXISTED FIRST?\" IS NOT A DEDICATED EXPERIENCE",
+      "source": "docs/atlas-completion-gap-audit.md:1892",
+      "acceptanceSha256": "2a82bd83a6f3018e90b1e40c8d3f0e56598fb72d6ed5a9beaa54015a9aa9ec00",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-052",
+      "title": "\"INDEPENDENT OR INFLUENCED?\" IS NOT IMPLEMENTED",
+      "source": "docs/atlas-completion-gap-audit.md:1915",
+      "acceptanceSha256": "c06ffdd77f70eddb539c85e86adba7c1810470e3d95bbdcd787d65882f22b4b8",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-053",
+      "title": "\"MYTH, HISTORY, OR BOTH?\" IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1945",
+      "acceptanceSha256": "12bd9e075e0a174bfabb8a0152f80b57bad3f708342f2bb34a82c5a4fbf4bcf6",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-054",
+      "title": "\"QUESTION BEHIND THE QUESTION\" IS MISSING",
+      "source": "docs/atlas-completion-gap-audit.md:1961",
+      "acceptanceSha256": "4c4d27dee776cec9c20b26d111738a61a5f7770e9c94c2b27192588e0d8e6603",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "24"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-055",
+      "title": "ONBOARDING IS MISSING / MINIMAL",
+      "source": "docs/atlas-completion-gap-audit.md:1983",
+      "acceptanceSha256": "8c89e7f07daffa6668812f2e47a844d79537bbb0646c403e95f7328d67230a16",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "21",
+        "28"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-056",
+      "title": "ADMIN / CURATION WORKFLOW IS NOT IMPLEMENTED",
+      "source": "docs/atlas-completion-gap-audit.md:2001",
+      "acceptanceSha256": "79722de1da2429f91634d86f3f11f6396ee3aca67b42a55ae010742ff8dc9e42",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "26"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-057",
+      "title": "ACCESSIBILITY MUST BE MEASURED, NOT ASSUMED",
+      "source": "docs/atlas-completion-gap-audit.md:2039",
+      "acceptanceSha256": "aaddbf98c525a50ccba602d3d06e091eb959179443a18e237effe894004dff63",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-058",
+      "title": "PERFORMANCE TARGETS ARE NOT ENFORCED",
+      "source": "docs/atlas-completion-gap-audit.md:2062",
+      "acceptanceSha256": "fb1c4876972077fac1255ad28098c0bde4406571f7abdc83747804b0d93b01b6",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-059",
+      "title": "SECURITY / INGESTION HARDENING NEEDS COMPLETION REVIEW",
+      "source": "docs/atlas-completion-gap-audit.md:2081",
+      "acceptanceSha256": "3fe8e5e8bc0df7e3a851265a8953759d6d84ccc88804ebc067b60f5c369561ea",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-060",
+      "title": "INGESTION PIPELINE DOES NOT YET COVER FULL TARGET WORKFLOW",
+      "source": "docs/atlas-completion-gap-audit.md:2105",
+      "acceptanceSha256": "f09dacaf89cb0eb4d3c6b800d182f2ca8f582eb395b2513f797555c9091d930e",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "4",
+        "5–9A",
+        "26"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-061",
+      "title": "CITATION SYSTEM NEEDS SECONDARY / MANUSCRIPT / ARCHAEOLOGICAL DEPTH",
+      "source": "docs/atlas-completion-gap-audit.md:2131",
+      "acceptanceSha256": "d973afdd284354f3b953cac40961da93791f029a6b08a1f637599d648ec0e8cc",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-062",
+      "title": "NEUTRALITY TESTING NEEDS A LARGER BENCHMARK",
+      "source": "docs/atlas-completion-gap-audit.md:2162",
+      "acceptanceSha256": "d73fc7e650aeb7a21424e6373403a763cfe4b78dd2add8ea60a693996e795c1d",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-063",
+      "title": "HOME DASHBOARD MODULES NEED COMPLETION",
+      "source": "docs/atlas-completion-gap-audit.md:2192",
+      "acceptanceSha256": "52fc256b069b93192b3f9ebd8cb0c459ed1a680276ad55da1cf1dfea87c897d2",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "21",
+        "28"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-064",
+      "title": "FUTURE MODULES SHOULD REMAIN ARCHITECTURALLY POSSIBLE",
+      "source": "docs/atlas-completion-gap-audit.md:2210",
+      "acceptanceSha256": "64d266aa8b6ddd78cd72a42b27c0a8e9c34cebae4a2c39b5d9d88711321e50c2",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "Tracks A–D",
+        "Other items deferred"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-065",
+      "title": "NON-NEGOTIABLE PRINCIPLE",
+      "source": "docs/atlas-completion-gap-audit.md:2236",
+      "acceptanceSha256": "29d97b0bf20a5ad71260a583721d964c5d6cc9ebd480aa4ee5ef34e930358c93",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-066",
+      "title": "REQUIRED REGIONAL SCOPE MUST NOT FALL BETWEEN PHASES",
+      "source": "docs/atlas-completion-gap-audit.md:2242",
+      "acceptanceSha256": "fa4962824784fff633aedc632c62becddc2316a96174cdaf1f6cc763523faf0c",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "5–9A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-067",
+      "title": "RECENSIONS, DURABLE CURATION AND ACCESS ENFORCEMENT ARE NOT COMPLETE",
+      "source": "docs/atlas-completion-gap-audit.md:2252",
+      "acceptanceSha256": "c23446754b7c89d67a581ac2527f08fc88b2441689f04c339606baf667e1e03a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "4",
+        "5–9A",
+        "26"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-068",
+      "title": "CLAIM-LEVEL CONFIDENCE AND THE NEUTRALITY AUDIT NEED COMPLETION",
+      "source": "docs/atlas-completion-gap-audit.md:2266",
+      "acceptanceSha256": "067006e2d35510157d48c41a1155581f6f274c890563f84a8a83e9d0a217d008",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-069",
+      "title": "STREAMED AI ANSWERS AND PROVIDER ABSTRACTION ARE MISSING / PARTIAL",
+      "source": "docs/atlas-completion-gap-audit.md:2276",
+      "acceptanceSha256": "5e13303cc9ce68351f854ad493589a3a019aaf32da723a73b523ef216dc80e44",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-070",
+      "title": "REQUIRED CURATED COMPARISON PACKS NEED EXPLICIT ACCEPTANCE",
+      "source": "docs/atlas-completion-gap-audit.md:2284",
+      "acceptanceSha256": "87bc86150c42d2eb90b90210da8aa18579939ec88b7d6f2dcde28e09a62d8a96",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-071",
+      "title": "GEOGRAPHIC / CHRONOLOGICAL PRECISION AND SEARCH FILTER INTEGRITY",
+      "source": "docs/atlas-completion-gap-audit.md:2292",
+      "acceptanceSha256": "14a7a1aa458cd6be5539ab451efe0539c5fc792250b38ad86c2d4e1d9efaa81a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "1",
+        "4",
+        "20"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-072",
+      "title": "ORIGINAL SAFETY AND QUALITY RULES MUST BE TRACEABLE TO TESTS",
+      "source": "docs/atlas-completion-gap-audit.md:2302",
+      "acceptanceSha256": "b15b8362900d0b27df28b83caecd10d19de6d81ae5752bbeefbd4589b2c3795a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-073",
+      "title": "RELIGION, WAR, EMPIRE & STATE POWER",
+      "source": "docs/atlas-completion-gap-audit.md:2324",
+      "acceptanceSha256": "c7ccdcd2c5bcd823c70db9eedb307d5fc1ccd7c20bb2732346177d8821774b58",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-074",
+      "title": "RELIGIOUS COERCION & CONVERSION MODEL",
+      "source": "docs/atlas-completion-gap-audit.md:2453",
+      "acceptanceSha256": "d1627364899bb81798c50b3aaa606e4adcae31a8f3adf578d2cd688488195d23",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-075",
+      "title": "TEACHING VS HISTORICAL CONDUCT",
+      "source": "docs/atlas-completion-gap-audit.md:2483",
+      "acceptanceSha256": "aa3f83022925303dfda4313930aaf9b4bc8486f3ce9570b05646e00ef2a719b7",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-076",
+      "title": "HISTORICAL GEOGRAPHY & CHANGING BORDERS",
+      "source": "docs/atlas-completion-gap-audit.md:2541",
+      "acceptanceSha256": "16feeddb5c5e7b04fc6af99f0f49bec4189136e842c382d2a03cbca667bdb9ac",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-077",
+      "title": "PRE-CONFLICT / CONFLICT / POST-CONFLICT MAP MODE",
+      "source": "docs/atlas-completion-gap-audit.md:2591",
+      "acceptanceSha256": "065a9a4d05585e730667b9adf94d9f285c542d767b729d0534d928674af633ee",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-078",
+      "title": "GEOGRAPHIC DELTA VIEW",
+      "source": "docs/atlas-completion-gap-audit.md:2709",
+      "acceptanceSha256": "1085264991e5c36fe40528652feaf2e5e15a60c6de8a728fc93323a340a16d5a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-079",
+      "title": "SIDE-BY-SIDE HISTORICAL MAP MODE",
+      "source": "docs/atlas-completion-gap-audit.md:2747",
+      "acceptanceSha256": "7a700594ecad5c76ae4ae0f33161758afecba0cbeee551b1e559925e1b882091",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-080",
+      "title": "TIME-SLIDER TRANSITION MODE",
+      "source": "docs/atlas-completion-gap-audit.md:2771",
+      "acceptanceSha256": "5f0078a07fe11062b4630a2801dc6b0c7ca4b7bf308d981ec07a498677ecb037",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-081",
+      "title": "RELIGIOUS-INFLUENCE MAP LAYER",
+      "source": "docs/atlas-completion-gap-audit.md:2787",
+      "acceptanceSha256": "00918fec31e3cfa5f49936d43723b837ba6410313d6c839d9f7f32acea7e7b81",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-082",
+      "title": "RELIGIOUS-INFLUENCE FLOW LAYER",
+      "source": "docs/atlas-completion-gap-audit.md:2822",
+      "acceptanceSha256": "8d3bfea259dc2a3fda8c1dd5ccff0f958420e68cc8bd8ba950e501e44264f5ec",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-083",
+      "title": "HISTORICAL MAP CASE STUDIES",
+      "source": "docs/atlas-completion-gap-audit.md:2860",
+      "acceptanceSha256": "1478b1cd74eb68cc7218c89ea926f6653313f40cd314a4193fa54ab891d2a5c4",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-084",
+      "title": "CONFLICT CAUSATION MODEL",
+      "source": "docs/atlas-completion-gap-audit.md:2910",
+      "acceptanceSha256": "88f82b2b210646c8ef5afceee6451cf591b6a0da93a9acf0a5cf233df205b37b",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-085",
+      "title": "MAP SOURCE PROVENANCE",
+      "source": "docs/atlas-completion-gap-audit.md:2944",
+      "acceptanceSha256": "bf560d74ca07c4ae5f80c397e990134f975814aa8934044b76dfbb5a9c410c56",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-086",
+      "title": "NECROMANCY, SPIRIT CONTACT & RITUAL PRACTICE",
+      "source": "docs/atlas-completion-gap-audit.md:2974",
+      "acceptanceSha256": "c06f1a3cb9571e85fe71689a5984b453600c5bae458ff5e774eab48dc9b4d272",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "18",
+        "20",
+        "24",
+        "27",
+        "Track B"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-087",
+      "title": "DEMONOLOGY & ENTITY EVOLUTION",
+      "source": "docs/atlas-completion-gap-audit.md:3024",
+      "acceptanceSha256": "f7159475c718abfc5bbe7c8aba66c581886fab1ab8e5736958ec3d89bdace0c8",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "18",
+        "20",
+        "24",
+        "27",
+        "Track B"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-088",
+      "title": "HUMAN SACRIFICE & RITUAL VIOLENCE",
+      "source": "docs/atlas-completion-gap-audit.md:3083",
+      "acceptanceSha256": "f52a758420cb8cb594eb590aa099178a95cd77af41384921f620c41ad2a67078",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "18",
+        "20",
+        "24",
+        "27",
+        "Track B"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-089",
+      "title": "SECRET, INITIATORY, FRATERNAL & ESOTERIC ORGANIZATIONS",
+      "source": "docs/atlas-completion-gap-audit.md:3139",
+      "acceptanceSha256": "0e1a2dcee537b12e754faf9d0a556fe6e28888da258ef40eb3a97896daaa0ba8",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "17",
+        "20",
+        "26",
+        "27",
+        "Track C"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-090",
+      "title": "DOCUMENTED VS ALLEGED MEMBERSHIP",
+      "source": "docs/atlas-completion-gap-audit.md:3186",
+      "acceptanceSha256": "80878374e84461b00b6b2f3abf11b1ec2c0b01aee8aa32c4b859e8d70b18d638",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "17",
+        "20",
+        "26",
+        "27",
+        "Track C"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-091",
+      "title": "HISTORICAL ILLUMINATI VS MODERN ILLUMINATI CLAIMS",
+      "source": "docs/atlas-completion-gap-audit.md:3223",
+      "acceptanceSha256": "dba310ef23e9bd8409906649bdc04d39aec794b314163f58c2d98977f3b2d942",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "17",
+        "20",
+        "26",
+        "27",
+        "Track C"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-092",
+      "title": "SECRET-SOCIETY NETWORK CLAIMS",
+      "source": "docs/atlas-completion-gap-audit.md:3255",
+      "acceptanceSha256": "b9cc3a7bdc0fec6e0fcb2297dc29c172702fed16e876a382b369203cfd14fa8a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "12",
+        "15",
+        "17",
+        "20",
+        "26",
+        "27",
+        "Track C"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-093",
+      "title": "RELIGIOUS / ESOTERIC SYMBOLISM",
+      "source": "docs/atlas-completion-gap-audit.md:3285",
+      "acceptanceSha256": "b2993d7f303566e040f636c1e79bfcc537b5846f98f3985c2c5852316b42bd87",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-094",
+      "title": "ART & ARCHITECTURE — DOCUMENTED OBJECT FIRST",
+      "source": "docs/atlas-completion-gap-audit.md:3330",
+      "acceptanceSha256": "53e036a89e5f53dfc061c11cdb3de8bf883a6e5f36dfcf5c87760bb87767cbcc",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-095",
+      "title": "KING CHARLES III RED PORTRAIT",
+      "source": "docs/atlas-completion-gap-audit.md:3362",
+      "acceptanceSha256": "68b4da3e6c411923fe2f4c37b2d27795ee9c5ca540855cfe97d39184152911ad",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-096",
+      "title": "PAUL VI AUDIENCE HALL / “SNAKE” CLAIM",
+      "source": "docs/atlas-completion-gap-audit.md:3382",
+      "acceptanceSha256": "138b0af2607b1a3d574554e0c8cec805c30c2ec9eeb5d982c16d7e277a7cf373",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-097",
+      "title": "RAPHAEL ROOMS & LOGGIAS",
+      "source": "docs/atlas-completion-gap-audit.md:3414",
+      "acceptanceSha256": "3ae3a414ce269563d236324df61d9c897a5972d7a9aa47efde5adf278695b7c9",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-098",
+      "title": "VATICAN HOLY DOORS & RESTRICTED SPACES",
+      "source": "docs/atlas-completion-gap-audit.md:3430",
+      "acceptanceSha256": "33866c7ac980488f26ed4ad7369c386db9e83b3ac76b2f14f4f34d2608f0a08a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-099",
+      "title": "RELIGIOUS ART, ARCHITECTURE & POWER",
+      "source": "docs/atlas-completion-gap-audit.md:3462",
+      "acceptanceSha256": "0ae646d63acc82b745e3d1a8aa819031ac5002c5b96614e4d387f69ac23e64b4",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "15",
+        "19",
+        "20",
+        "24",
+        "27",
+        "Track D"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-100",
+      "title": "CORE ATLAS VS CONTESTED HISTORY",
+      "source": "docs/atlas-completion-gap-audit.md:3500",
+      "acceptanceSha256": "73a9cfa0385d280f31b30ad690f6fe47ccf2501c6714b94f3763dd6040e53b74",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "Core boundary",
+        "Deferred Contested History"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-101",
+      "title": "DATA-MODEL PLANNING",
+      "source": "docs/atlas-completion-gap-audit.md:3564",
+      "acceptanceSha256": "1b16b940b513fd50866b57143097bdc0fe5215fede3122bce16f60278296034a",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-102",
+      "title": "SOURCE & EVIDENCE REQUIREMENTS",
+      "source": "docs/atlas-completion-gap-audit.md:3606",
+      "acceptanceSha256": "7a281280d84f4a604f8f66d494834497f454559cfeb2e2383c9865d4ad41c4c4",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-103",
+      "title": "LANGUAGE & MORAL JUDGMENT",
+      "source": "docs/atlas-completion-gap-audit.md:3657",
+      "acceptanceSha256": "4aee2c0d79a6a4011aa436da4d7590b731140ddb38302846d07630792a7a55ee",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "3",
+        "4",
+        "16",
+        "27"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-104",
+      "title": "UNRESOLVED RESEARCH QUEUE",
+      "source": "docs/atlas-completion-gap-audit.md:3686",
+      "acceptanceSha256": "64c181cdf54f5ae57c92184548955de9e74a23ba1748e6a0a5c81220a42540db",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "2",
+        "4",
+        "25",
+        "26",
+        "27",
+        "Track E"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-105",
+      "title": "PHASE 0 BASELINE EXPANSION",
+      "source": "docs/atlas-completion-gap-audit.md:3734",
+      "acceptanceSha256": "a28ce24304ec7fd25555534067a5405113071000446fdc52af11e717c1a94e9e",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-106",
+      "title": "REQUIRED QUALITY / REGRESSION TESTS",
+      "source": "docs/atlas-completion-gap-audit.md:3775",
+      "acceptanceSha256": "64a02511cd238db54f89dee5fbf9bec5f8be0da70e7b25625e18b12eaf52f3c4",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-107",
+      "title": "ROADMAP PLACEMENT",
+      "source": "docs/atlas-completion-gap-audit.md:3817",
+      "acceptanceSha256": "085e0d380dcac97592225a5ae15e753e7a6e89f1130d3974cd48786867937df8",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-108",
+      "title": "WORLD MAP COMPLETION STANDARD",
+      "source": "docs/atlas-completion-gap-audit.md:3845",
+      "acceptanceSha256": "3fd580f4d6e49d42e98cefca120f23cd1e92c05d2b8325a294cacfbd1515507c",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5–9A",
+        "15",
+        "16",
+        "20",
+        "25",
+        "27",
+        "Track A"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "AUDIT-109",
+      "title": "COMPLETION STANDARD",
+      "source": "docs/atlas-completion-gap-audit.md:3882",
+      "acceptanceSha256": "58143cb0927e4da0f007437932f4cbb3b94db0983462e410c645db81f5af1fc6",
+      "acceptance": "Full source section applies, including linked original requirements; section existence is not fulfillment.",
+      "owners": [
+        "0",
+        "22",
+        "27",
+        "Final gate"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; existing workflow tests are not completion tests",
+      "complete": false,
+      "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    }
+  ],
+  "quality": [
+    {
+      "id": "EXP-01",
+      "requirement": "Undeciphered texts never receive generated translations.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-02",
+      "requirement": "Lost texts never receive fabricated complete passages.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-03",
+      "requirement": "Hypothetical sources never receive fabricated quotations.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-04",
+      "requirement": "Copyrighted works are never fully ingested without permission.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-05",
+      "requirement": "Every image has rights and provenance.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-06",
+      "requirement": "Modern Anunnaki claims never appear as ancient primary evidence.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-07",
+      "requirement": "Codex Gigas is a manuscript compilation, not scripture.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-08",
+      "requirement": "Inferno and Faust are literary works, not scripture.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-09",
+      "requirement": "Scientology is categorized as a modern religious tradition.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-10",
+      "requirement": "Ethiopian Meqabyan is not automatically equated with Greek Maccabees.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-11",
+      "requirement": "Ethiopian canon is modeled by tradition/edition and not flattened into Western enumeration.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-12",
+      "requirement": "Indigenous oral traditions are not automatically called scripture.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-13",
+      "requirement": "Restricted Indigenous material cannot be bulk exposed.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-14",
+      "requirement": "Colonial transcriptions identify their recorder and context.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-15",
+      "requirement": "Disputed authenticity is visible prominently.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-16",
+      "requirement": "AI-generated translation is visibly marked as AI-generated.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-17",
+      "requirement": "Primary sources outrank modern popular claims in Scholarly search mode.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-18",
+      "requirement": "Broad search can still surface alternative/speculative material with evidence labels.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-19",
+      "requirement": "“Banned” requires who, where, when, and why.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-20",
+      "requirement": "Canon exclusion is not classified automatically as suppression.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-21",
+      "requirement": "Similarity does not automatically generate an influence edge.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-22",
+      "requirement": "Every historical relationship has evidence and confidence.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "EXP-23",
+      "requirement": "Existing tests continue to pass.",
+      "source": "docs/expansion-spec.md#quality-tests",
+      "owner": "Relevant data/feature phase; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-01",
+      "requirement": "Political borders and religious influence use separate map layers.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-02",
+      "requirement": "Government religion is not treated as population religion.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-03",
+      "requirement": "Pre-conflict/post-conflict map states remain independent.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-04",
+      "requirement": "Unknown historical demographics remain unknown.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-05",
+      "requirement": "Approximate boundaries are labeled approximate.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-06",
+      "requirement": "Disputed boundaries remain disputed.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-07",
+      "requirement": "A conflict can have multiple causes.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-08",
+      "requirement": "Religious participants do not automatically make a conflict primarily religious.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-09",
+      "requirement": "Forced-conversion classification requires evidence.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-10",
+      "requirement": "Conquest-associated religious change is not automatically forced conversion.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-11",
+      "requirement": "Missionary spread is not automatically coercion.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-12",
+      "requirement": "Sacred-site destruction requires a sourced event.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-13",
+      "requirement": "Sacred-site reuse remains distinct from destruction.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-14",
+      "requirement": "Teaching vs Historical Conduct cites both teaching and historical conduct.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-15",
+      "requirement": "Conduct by adherents is not automatically authoritative doctrine.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-16",
+      "requirement": "Necromancy is not automatically demon worship.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-17",
+      "requirement": "Ancestor traditions are not automatically necromancy.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-18",
+      "requirement": "Belial is not automatically merged with Baal.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-19",
+      "requirement": "Entity aliases remain source-specific.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-20",
+      "requirement": "Human-sacrifice claims distinguish archaeology from hostile accusation.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-21",
+      "requirement": "Colonial accounts are labeled as colonial/outsider sources.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-22",
+      "requirement": "Secret-society membership requires evidence status.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-23",
+      "requirement": "Hand gestures or artwork cannot alone create documented-membership edges.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-24",
+      "requirement": "Knights Templar are not automatically classified as a modern secret society.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-25",
+      "requirement": "Historical Bavarian Illuminati and modern control claims stay separate.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-26",
+      "requirement": "Freemasonry's documented history remains distinct from later conspiracy claims.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-27",
+      "requirement": "Artwork facts remain distinct from artwork interpretations.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-28",
+      "requirement": "Paul VI Audience Hall facts remain distinct from serpent-intent claims.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-29",
+      "requirement": "Holy Door ceremonial closure remains distinct from suppression claims.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-30",
+      "requirement": "Repeated derivative web claims do not count as independent corroboration.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-31",
+      "requirement": "Religious violence is handled consistently across traditions.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-32",
+      "requirement": "Atlas never labels conduct “demonic” as its own factual conclusion.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-33",
+      "requirement": "Every historical map layer exposes provenance.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-34",
+      "requirement": "Users can inspect the evidence supporting mapped historical change.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    },
+    {
+      "id": "HIST-35",
+      "requirement": "Long-term religious change remains separate from immediate political change.",
+      "source": "docs/atlas-completion-roadmap.md#38-additional-required-quality--regression-gates",
+      "owner": "Tracks A–E; 22/27 consolidation",
+      "status": "unverified",
+      "complete": false,
+      "evidence": [],
+      "remaining": "Attach meaningful integration/UI evidence; helper tests alone do not certify this rule."
+    }
+  ]
+}

@@ -90,6 +90,12 @@ The optional work association is specific to institutionally identified Book of 
 
 Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. Atlas segment numbers are application locators; biblical chapter:verse labels are retained where present. Update `scripts/ingest.py` or `scripts/extend_corpus.py` when adding an approved edition. Run `python scripts/refresh-manifest.py` to refresh provenance from bundled source files.
 
+## Completion baseline
+
+Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.
+
+The audit reports 59 metrics, maps all 110 authoritative audit sections and 58 quality rules, and preserves the 250 original title requirements (248 distinct targets) plus all 53 expansion sections. Catalog presence is separate from reviewed depth and completion. See [Phase 0 model evaluation](docs/phase-0-model-evaluation.md) for normalization decisions and representative acceptance targets. The authoritative execution order remains [the completion roadmap](docs/atlas-completion-roadmap.md).
+
 ## Verification
 
 ```powershell

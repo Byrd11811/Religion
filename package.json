@@ -20,7 +20,9 @@
     "classify": "tsx scripts/classify.ts",
     "check": "npm run typecheck && npm run lint && npm test && npm run build",
     "db:init": "tsx scripts/init-db.ts",
-    "format": "prettier --write app components packages scripts/*.ts tests"
+    "format": "prettier --write app components packages scripts/*.ts tests",
+    "audit:coverage": "tsx scripts/audit-coverage.ts",
+    "audit:check": "tsx scripts/audit-coverage.ts --check"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

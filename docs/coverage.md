@@ -13,3 +13,12 @@ Data-limited: most catalog biographies, manuscript histories, detailed canon for
 Provider-dependent: free-form model synthesis and externally generated semantic embeddings. No API key is bundled. Local keyword/theme/PostgreSQL retrieval remains available without services.
 
 Future research scope from the supplied specification: full original-language corpus, manuscript collation, comprehensive historical-event/empire tracks, cultural permission workflows, deep linguistic comparison, reviewed influence/contradiction datasets, institutional collaboration, cloud identity and sharing. These are not represented as completed historical datasets.
+
+
+## Completion roadmap Phase 0 — repository instrumentation
+
+Implemented a reproducible read-only audit: `npm run audit:coverage` generates five reports and `npm run audit:check` detects source/report drift in CI. See [coverage](generated/coverage.md), [requirement matrix](generated/requirements.md), [corpus targets](generated/corpus-targets.json), and [model decisions](phase-0-model-evaluation.md).
+
+Corpus counts are unchanged: 252 works, 44 editions / 43 searchable works, 41 complete-work/edition coverage records, 20,991 segments, eight witnesses, eight artifacts, 57 image references and three relationships. All 20,991 segments lack explicit primary/editorial classification. The current map predicate includes 26 of 37 coordinate-bearing works; 32 works are dated and 220 undated. These are baseline observations, not completion claims.
+
+The reports include 59 metrics, all 110 audit sections, 23 expansion and 35 historical quality rules, 250 original title requirements representing 248 distinct catalog targets, and 53 expansion sections. Unpopulated historical seed datasets report zero; deployment counts report unknown. No private database, source intake, model provider, migration or historical-map implementation is performed by the audit. The model decision record assigns normalized foundations and source-review acceptance cases to subsequent phases.

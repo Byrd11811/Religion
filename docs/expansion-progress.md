@@ -38,3 +38,14 @@ Stop the running app before maintenance. Run `npm run db:migrate` to add and pop
 Run typecheck, lint, core tests, browser tests and production build. The new tests cover repeated migration, source eligibility, image provenance, archive filtering and pagination, witness category separation and mobile layout. Model-provider services remain optional and were not called.
 
 Verified for this milestone: 14 core tests and nine browser tests pass; lint, TypeScript and production build pass. Browser checks confirm that museum images load, image navigation changes the selection and zoom is keyboard-operable. API response snapshots retain their original bytes in Git for source-hash verification.
+
+
+## Completion roadmap Phase 0 — repository instrumentation
+
+Implemented a reproducible read-only audit: `npm run audit:coverage` generates five reports and `npm run audit:check` detects source/report drift in CI. See [coverage](generated/coverage.md), [requirement matrix](generated/requirements.md), [corpus targets](generated/corpus-targets.json), and [model decisions](phase-0-model-evaluation.md).
+
+Corpus counts are unchanged: 252 works, 44 editions / 43 searchable works, 41 complete-work/edition coverage records, 20,991 segments, eight witnesses, eight artifacts, 57 image references and three relationships. All 20,991 segments lack explicit primary/editorial classification. The current map predicate includes 26 of 37 coordinate-bearing works; 32 works are dated and 220 undated. These are baseline observations, not completion claims.
+
+The reports include 59 metrics, all 110 audit sections, 23 expansion and 35 historical quality rules, 250 original title requirements representing 248 distinct catalog targets, and 53 expansion sections. Unpopulated historical seed datasets report zero; deployment counts report unknown. No private database, source intake, model provider, migration or historical-map implementation is performed by the audit. The model decision record assigns normalized foundations and source-review acceptance cases to subsequent phases.
+
+Validation: seven audit regressions and all 14 existing core tests passed; all nine browser tests passed against an isolated production server and temporary database. TypeScript, lint, production build and deterministic report checks passed. Browser tests verify existing workflows, not completion of the new historical domains.

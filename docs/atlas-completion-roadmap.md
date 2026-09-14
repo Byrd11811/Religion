@@ -43,6 +43,8 @@ Reconciliation qualifications and additional gaps are in audit sections 43 and 6
 
 # 1. PHASE 0 — BASELINE MEASUREMENT AND COMPLETION INSTRUMENTATION
 
+Implementation update (2026-09-13, following the user's implementation instruction): the earlier documentation-only restrictions describe completed documentation runs. Phase 0 repository instrumentation is now delivered by `scripts/audit-coverage.ts`, five generated reports, coverage/traceability regression tests and CI drift checks. Model evaluation is in `docs/phase-0-model-evaluation.md`. Deployment counts remain explicitly unknown; no live database is accessed. This completes the repository-baseline/model-evaluation deliverables, not the unimplemented historical datasets or any later phase. Representative source targets await research in their assigned intake phases.
+
 Before changing corpus data, produce a machine-readable and human-readable baseline.
 
 Report:

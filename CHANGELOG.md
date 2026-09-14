@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — completion roadmap Phase 0
+
+- Added deterministic JSON/Markdown coverage and requirement reports, original/expansion target mapping, CI drift checks and regression tests for false coverage inflation.
+- Added normalization decisions and representative acceptance targets for all five historical research tracks.
+- Preserved corpus and runtime data; deployment counts remain unknown rather than fabricated zeros.
+
 ## 1.2.0 — 2026-09-13
 
 - Added a bounded Met Open Access import pipeline and 55 verified Egyptian images across six papyrus witnesses; total archive imagery is 57.

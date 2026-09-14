@@ -1541,6 +1541,8 @@ Avoid brittle tests that incentivize fake data.
 
 # 39. DOCUMENTATION MUST REPORT REAL COUNTS
 
+Phase 0 implementation now provides reproducible repository counts in `docs/generated/coverage.json` and `.md`, all-section/quality-rule traceability in `docs/generated/requirements.json` and `.md`, and original/expansion intake targets in `docs/generated/corpus-targets.json`. CI rejects stale reports. Persisted deployment counts remain unknown; zero seed datasets are explicitly distinguished from uninspected runtime data. Instrumentation does not close the product gaps below.
+
 At every major phase update:
 
 - README
