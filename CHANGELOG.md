@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Phase 1 map/timeline repairs
+
+- Retain undated anchors and unlocated records, with scoped coverage and evidence filters.
+- Correct chronology to 5000 BCE–present and add independently dated physical-witness discovery.
+- Group overlapping markers at unchanged coordinates; isolate map rendering behind a cancellable provider interface.
+- Keep missing historical borders, event datasets and reviewed coordinates explicitly incomplete.
+
 ## Unreleased — completion roadmap Phase 0
 
 - Added deterministic JSON/Markdown coverage and requirement reports, original/expansion target mapping, CI drift checks and regression tests for false coverage inflation.

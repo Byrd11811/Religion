@@ -14,7 +14,9 @@
     "No production/private notes or credentials are read or published."
   ],
   "sources": {
-    "components/Explore.tsx": "4703c5ec1bf96b4278bab4fb6f204bd3a1d49d48a0c6fd7a2e486b6ecfa530ad",
+    "app/api/[...path]/route.ts": "2f0cb409294db699359c321bc4769b610e3127004272126776a2de8222405366",
+    "components/Explore.tsx": "1ba19cd8161366115cf512881ce6e71fb9c8bcf4f58517f61d6f0a0a5376b974",
+    "components/SpatialExplorer.tsx": "1150724dad6b3e4c07768266fc7bf5a501428f1b3c45c9358896b985166b154d",
     "data/seed/archive-additions.json": "414a29b4b48044517656b96573d8af9cef3f94b1a5c4cc0e0229688a09521fd4",
     "data/seed/downloads.json": "407a450217ee23fa80fbf04e7070ad40367fc236b70967c1af53534aa5684082",
     "data/seed/editions.json": "f384644c6a9524a7ba2a7e253736e6a5bc910260d60be90c0dbe56f7464f2323",
@@ -23,20 +25,25 @@
     "data/seed/relationships.json": "ffbcb10ff9ec84d5a8b00f5a704b8f44f03045d129d046d4f203a846f8bc154b",
     "data/seed/texts.json": "a6c134347333e296d82f03120adb6b20d7365f970b9c43358271746652c499a3",
     "data/seed/traditions.json": "414f0f33c59c792fdddaeaca0554b8fd0afe5bc2eb2a6a99da1059738f89d36e",
-    "docs/atlas-completion-gap-audit.md": "850c535122d10f944f14afd70583639201c6edb0d2c7908ed1655cc67cee08c0",
-    "docs/atlas-completion-roadmap.md": "3240ba5b44817f386cc8964fb52a5b5590f9259d12e85aa71a5537fce14a18f5",
+    "docs/atlas-completion-gap-audit.md": "09efc868cab9b619fac6cbcfd543f67ecfd5dc1f8e49412ad587e450d9e865c0",
+    "docs/atlas-completion-roadmap.md": "2e08d75e6c1e08cdd35dc831d3d88377bc855093e66b9298d5772fd65eb07630",
     "docs/expansion-spec.md": "5cdcee3e534a69b59ef1cca1a9a8ce0ece84ebe71221f4af0d9ac3bd029b5aaf",
-    "docs/phase-0-model-evaluation.md": "9d4d600b9ded911e66bb33122e628d32b13916e9cc1ab13a90d48fe3f38e86f4",
+    "docs/phase-0-model-evaluation.md": "2e5c25c83dfa98ad6a67fc8ba969a63838159c4b7260ada3dd94510b028d6a4b",
     "docs/product-spec.md": "88adb179de915df40d1cc3290df82a0b61961657bfa649261c43ff63f3ed5a0c",
-    "packages/audit/coverage.ts": "9a81d5eb4408e402f0af780c1291df5bbc4d2eb9d8b985b6b41e4ed42179098d",
+    "packages/audit/coverage.ts": "c96946313520204ef71be61f486c9730863779bc5906c49b2b6e1568e7bf024b",
     "packages/audit/requirements.ts": "c02a514957c176dbefd73776b9939cbb7e70f2c9439e57d19eb60a0c64f01d43",
     "packages/db/archive.ts": "b78012c5a51b88abb8adc4c3a92454143e2144fd3e35ac6821197a7b2957829c",
     "packages/db/client.ts": "42e0db1d8094dcf63e8865516468fefddd2fbae47c679cf4c7a291a9d893fc1a",
     "packages/db/schema.sql": "61cf97dc81a8cc2682bcb9df863f218a4939dba2924a3655f948ca907b1a617d",
+    "packages/maps/leaflet.ts": "570e191119d0fce6004cef96f4bad3eea852b463c051c580099fd8ca5d0f8438",
+    "packages/maps/provider.ts": "bd04b6dfc5878e27d3f4ec8b498a646e370116f2387be3da8708fb0641b945d5",
     "packages/shared/archive.ts": "2bcedd82b25565b7050acc9dea239138c4df1871b2f6ee9d513e8c0c4dda6105",
     "packages/shared/catalog.ts": "2d4361c2c91387a7fd3d65bb071894869f22f92cbcf7e5440a3383c5a14c3a9d",
+    "packages/shared/exploration-catalog.ts": "b3957beab70195290055592bb770b7c83c3489373d6fcb3e8d2fe51218d543e9",
+    "packages/shared/exploration-query.ts": "55b70ba7e21bdf2144e961ce8a593cdaf044af6c3e344c106ffc503d0d194cff",
+    "packages/shared/exploration.ts": "6e00f35fabf5f6d2faecccb34c87c21c96474be75674f961e0c40590e9ed9303",
     "packages/shared/types.ts": "f6fe1841100c232fe56dc0c2530242a40b067fad13251877cf0a0fde87025fda",
-    "scripts/audit-coverage.ts": "2a48407bb5b0d3b324fa681282ed53148b030b072e4d6ee535b20ac3ed073fc4",
+    "scripts/audit-coverage.ts": "044831f0fbd9e95b1ebb617ce9ec293e1e3df668f5089b6f75d186dc1538f64f",
     "scripts/database.ts": "61b53a9dfc316ccde43f94bf744d8063194dd31c83a6ee82bcd96b50728aa0e4"
   },
   "metrics": [
@@ -271,14 +278,14 @@
     {
       "id": "mappedWorks",
       "label": "Map-eligible works through 2026",
-      "seeded": 26,
+      "seeded": 37,
       "persisted": null,
       "reviewed": null,
-      "exposed": 26,
+      "exposed": 37,
       "tested": null,
       "complete": false,
-      "rule": "Current date-required map predicate, all traditions; source predicate observation, not browser certification.",
-      "source": "components/Explore.tsx + data/seed/texts.json"
+      "rule": "Shared map predicate includes undated coordinate-bearing records by default, all traditions; unknown dates are not placed in time.",
+      "source": "packages/shared/exploration.ts + data/seed/texts.json"
     },
     {
       "id": "timelineWorks",
@@ -290,7 +297,7 @@
       "tested": null,
       "complete": false,
       "rule": "Current dated-through-year predicate, all traditions.",
-      "source": "components/Explore.tsx + data/seed/texts.json"
+      "source": "packages/shared/exploration.ts + data/seed/texts.json"
     },
     {
       "id": "languageMetadataWorks",

@@ -90,6 +90,12 @@ The optional work association is specific to institutionally identified Book of 
 
 Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. Atlas segment numbers are application locators; biblical chapter:verse labels are retained where present. Update `scripts/ingest.py` or `scripts/extend_corpus.py` when adding an approved edition. Run `python scripts/refresh-manifest.py` to refresh provenance from bundled source files.
 
+## Map and timeline coverage
+
+The map includes all 37 existing work anchors by default, including records without dates, and keeps unlocated records discoverable. Layer, community, region, geographic evidence and availability filters update the same coverage counts. Overlapping records share their original anchor. The timeline uses 5000 BCE–present and offers physical-witness dates separately from work composition.
+
+`/api/map?view=coverage` and `/api/timeline?view=coverage&layer=witness` return typed records, source context and scoped counts. Legacy record-array responses remain available; unknown-date records are included by default (`undated=false` excludes them). Invalid years, evidence states and boolean filters return 400. Historical borders, religious-influence geometry and conflict transitions still require sourced datasets.
+
 ## Completion baseline
 
 Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.

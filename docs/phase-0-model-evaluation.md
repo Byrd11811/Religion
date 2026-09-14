@@ -8,7 +8,7 @@ Evaluated against the schema, seed adapters and authoritative requirements at th
 
 Existing work profiles default to unreviewed, no transcription and no reviewed bibliography. All edition language metadata describes English editions; original-language metadata is not original-language content. Source URLs and historical source notes are not a reviewed bibliography. Generic themes such as sacrifice or names in passages are not first-class practice, entity or event records. The two legacy museum objects and six papyri are object coverage, not a dedicated artwork/architecture catalog. These distinctions explain explicit zero seed metrics; they make no claim that source passages never mention the subject.
 
-The fixed 2026 map baseline reproduces the existing UI's default-year behavior. Later map repair must update the shared measurement rule and tests. Metric `exposed` values currently mean source-predicate eligibility, not fresh browser certification. Reviewed, tested and complete states require separate evidence. Recorded image rights are intake evidence, not current remote availability or new legal review.
+The fixed 2026 measurement year remains explicit for reproducibility. Phase 1 now shares map scope predicates with the audit, includes undated anchors, and uses the current year in the UI. Metric `exposed` values currently mean source-predicate eligibility, not fresh browser certification. Reviewed, tested and complete states require separate evidence. Recorded image rights are intake evidence, not current remote availability or new legal review.
 
 ## Normalization decisions
 

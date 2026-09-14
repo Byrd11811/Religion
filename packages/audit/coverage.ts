@@ -1,3 +1,4 @@
+import { hasCoordinates, mapWorkScope } from "../shared/exploration";
 import type {
   TextRecord,
   Edition,
@@ -138,9 +139,7 @@ export function measureCoverage(
     available.filter((e) => e.complete).map((e) => e.textId),
   );
   const withEdition = new Set(input.editions.map((e) => e.textId));
-  const coords = input.texts.filter(
-    (t) => Number.isFinite(t.lat) && Number.isFinite(t.lng),
-  );
+  const coords = input.texts.filter(hasCoordinates);
   const dated = input.texts.filter((t) => t.startDate !== null);
   const result: Metric[] = [];
   const add = (
@@ -318,15 +317,13 @@ export function measureCoverage(
     "Missing either coordinate.",
     "data/seed/texts.json",
   );
-  const mapped = coords.filter(
-    (t) => t.startDate !== null && t.startDate <= throughYear,
-  ).length;
+  const mapped = mapWorkScope(input.texts, throughYear).mapped.length;
   add(
     "mappedWorks",
     `Map-eligible works through ${throughYear}`,
     mapped,
-    "Current date-required map predicate, all traditions; source predicate observation, not browser certification.",
-    "components/Explore.tsx + data/seed/texts.json",
+    "Shared map predicate includes undated coordinate-bearing records by default, all traditions; unknown dates are not placed in time.",
+    "packages/shared/exploration.ts + data/seed/texts.json",
     mapped,
   );
   add(
@@ -334,7 +331,7 @@ export function measureCoverage(
     `Timeline-eligible works through ${throughYear}`,
     dated.filter((t) => t.startDate! <= throughYear).length,
     "Current dated-through-year predicate, all traditions.",
-    "components/Explore.tsx + data/seed/texts.json",
+    "packages/shared/exploration.ts + data/seed/texts.json",
   );
   add(
     "languageMetadataWorks",

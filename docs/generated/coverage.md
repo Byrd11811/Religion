@@ -27,7 +27,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | undatedWorks | Works without start dates | 220 | Unknown | Unknown | Unknown | Unknown | No |
 | coordinateWorks | Works with coordinates | 37 | Unknown | Unknown | Unknown | Unknown | No |
 | unlocatedWorks | Works without coordinates | 215 | Unknown | Unknown | Unknown | Unknown | No |
-| mappedWorks | Map-eligible works through 2026 | 26 | Unknown | Unknown | 26 | Unknown | No |
+| mappedWorks | Map-eligible works through 2026 | 37 | Unknown | Unknown | 37 | Unknown | No |
 | timelineWorks | Timeline-eligible works through 2026 | 32 | Unknown | Unknown | Unknown | Unknown | No |
 | languageMetadataWorks | Works with language metadata | 43 | Unknown | Unknown | Unknown | Unknown | No |
 | subtraditions | Subtraditions | 0 | Unknown | Unknown | Unknown | Unknown | No |
@@ -89,8 +89,8 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **undatedWorks:** Null start date. Source: `data/seed/texts.json`.
 - **coordinateWorks:** Finite latitude and longitude; presence does not establish geographic precision. Source: `data/seed/texts.json`.
 - **unlocatedWorks:** Missing either coordinate. Source: `data/seed/texts.json`.
-- **mappedWorks:** Current date-required map predicate, all traditions; source predicate observation, not browser certification. Source: `components/Explore.tsx + data/seed/texts.json`.
-- **timelineWorks:** Current dated-through-year predicate, all traditions. Source: `components/Explore.tsx + data/seed/texts.json`.
+- **mappedWorks:** Shared map predicate includes undated coordinate-bearing records by default, all traditions; unknown dates are not placed in time. Source: `packages/shared/exploration.ts + data/seed/texts.json`.
+- **timelineWorks:** Current dated-through-year predicate, all traditions. Source: `packages/shared/exploration.ts + data/seed/texts.json`.
 - **languageMetadataWorks:** Language labels only, not original-language transcriptions. Source: `data/seed/texts.json`.
 - **subtraditions:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **recensions:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.

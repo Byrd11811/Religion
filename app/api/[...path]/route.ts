@@ -16,6 +16,9 @@ import { getCollections, mutateCollections } from "@/packages/db/collections";
 import { randomUUID } from "node:crypto";
 import { database } from "@/packages/db/client";
 import { createManifest } from "@/packages/shared/iiif";
+import { explorationRecords } from "@/packages/shared/exploration-catalog";
+import { explorationScope } from "@/packages/shared/exploration";
+import { parseExplorationQuery } from "@/packages/shared/exploration-query";
 import {
   coverageStatuses,
   witnesses,
@@ -132,8 +135,56 @@ export async function GET(req: NextRequest, { params }: Context) {
       case "images":
         return send(artifacts);
       case "timeline":
-      case "map":
-        return send(texts.filter((t) => t.startDate !== null));
+      case "map": {
+        const parsed = parseExplorationQuery(q);
+        if (!parsed.success)
+          return send(
+            {
+              error: "Invalid exploration filters",
+              details: parsed.error.flatten(),
+            },
+            400,
+          );
+        const p = parsed.data;
+        const scope = explorationScope(explorationRecords, {
+          kind: p.layer,
+          year: p.year,
+          traditionId: p.tradition,
+          region: p.region,
+          geography: p.geography,
+          includeUndated: p.undated,
+          fullText: p.fullText,
+          images: p.images,
+        });
+        if (p.view === "coverage")
+          return send({
+            records: scope.inPeriod,
+            mappedIds: scope.mapped.map((r) => r.id),
+            undatedIds: scope.undated.map((r) => r.id),
+            coverage: {
+              scoped: scope.scoped.length,
+              dated: scope.dated.length,
+              undated: scope.undated.length,
+              mapped: scope.mapped.length,
+              unlocated: scope.unlocated.length,
+              afterYear: scope.afterYear.length,
+            },
+            includesUndated: p.undated,
+            limitations:
+              "Approximate editorial anchors only; unknown dates and coordinates remain unknown. Political borders and religious influence are not supplied by these records.",
+          });
+        if (p.layer !== "work")
+          return send(
+            { error: "Use view=coverage for typed non-work records" },
+            400,
+          );
+        const ids = new Set(
+          (route === "map" ? scope.mapped : scope.inPeriod).map((r) =>
+            r.id.slice(5),
+          ),
+        );
+        return send(texts.filter((t) => ids.has(t.id)));
+      }
       case "graph":
         return send(relationships);
       case "search":

@@ -46,7 +46,7 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("passages").seeded, 20991);
   assert.equal(get("primaryPassages").seeded, 0);
   assert.equal(get("unclassifiedPassages").seeded, 20991);
-  assert.equal(get("mappedWorks").seeded, 26);
+  assert.equal(get("mappedWorks").seeded, 37);
   assert.equal(get("coordinateWorks").seeded, 37);
   assert.equal(get("languageMetadataWorks").seeded, 43);
   assert.equal(get("originalTextWorks").seeded, 0);
@@ -120,7 +120,7 @@ test("coordinates at zero count while null coordinates and unknown dates are dis
   };
   const m = measureCoverage(minimal, 2026);
   assert.equal(m.find((r) => r.id === "coordinateWorks")!.seeded, 1);
-  assert.equal(m.find((r) => r.id === "mappedWorks")!.seeded, 0);
+  assert.equal(m.find((r) => r.id === "mappedWorks")!.seeded, 1);
   assert.equal(m.find((r) => r.id === "undatedWorks")!.seeded, 1);
 });
 test("requirement inventory covers all audit sections and both safety suites without closing features", () => {

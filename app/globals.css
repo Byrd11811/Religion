@@ -2104,3 +2104,17 @@ dialog::backdrop {
     font-size: 16px;
   }
 }
+
+/* Evidence-aware spatial exploration */
+.spatial-filters { margin-bottom: 18px; }
+.spatial-filters > label { display: block; margin-bottom: 16px; }
+.spatial-filters .filters > label { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.spatial-filters input[type="checkbox"] { width: auto; }
+.spatial-details { margin-top: 24px; }
+.spatial-details summary { cursor: pointer; font-weight: 600; }
+.spatial-records { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 18px; padding-left: 20px; }
+.spatial-records li span { display: block; color: var(--muted); font-size: 12px; }
+.spatial-selection { margin: 24px 0; overflow-wrap: anywhere; }
+.spatial-selection article + article { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 20px; }
+.timeline-axis > span:last-child { transform: translateX(-100%); }
+.timeline-bar { max-width: 100%; }

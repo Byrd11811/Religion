@@ -93,6 +93,8 @@ Also produce a requirement matrix covering audit sections 3–39, 44–63 and 66
 
 # 2. PHASE 1 — REPAIR WORLD MAP AND TIMELINE
 
+Implemented repair slice: shared filtering/coverage predicates, undated discovery, full-range chronology, separate physical-witness dates, four record layers, region/geographic-evidence/source/image filters, exact-anchor grouping and a cancellable map-provider boundary. All 37 existing work anchors remain discoverable; repository names do not produce invented coordinates. Phase 1 remains partial for source-backed site/region enrichment and additional event classes; Track A historical states/change modes are still later work.
+
 This is the early repair/foundation stage, not mature map completion. Track A in section 36 owns the required historical-state architecture, separate political/religious layers, transition/delta/side-by-side modes and real case studies. Complete the data foundation after Phase 2 and before case intake; expose the full map in Phase 20 and test through Phase 27.
 
 ## Map

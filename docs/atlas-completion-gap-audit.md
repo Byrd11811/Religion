@@ -102,6 +102,8 @@ A requirement is complete only when:
 
 # 3. CRITICAL GAP: WORLD MAP
 
+Phase 1 repair update: `components/SpatialExplorer.tsx` and `packages/shared/exploration.ts` now include all 37 coordinate-bearing works by default, including undated records, expose 215 unlocated works, and scope counters to the selected layer/community/region/evidence/availability filters. Coincident anchors are grouped without coordinate offsets. Work, witness, artifact and grouping lists preserve missing geography; only existing work anchors are plotted. Mature historical-state/change layers remain incomplete.
+
 The completion standard now includes sections 76–85 and 108: **PLACE + TIME + POWER + CONFLICT + RELIGION + MOVEMENT + EVIDENCE**. Point coverage repair is an early prerequisite, not map completion. Independent historical states, delta/side-by-side views, political versus religious layers, and inspectable change provenance are required.
 
 ## Current issue
@@ -164,6 +166,8 @@ These must be progressively implemented with evidence labels.
 ---
 
 # 4. CRITICAL GAP: TIMELINE
+
+Phase 1 repair update: the horizontal scale now spans 5000 BCE to the current year, with scoped undated lists and year-zero handling. Six dated physical papyrus witnesses are available on their own track; two undated witnesses remain discoverable. Work dates and object dates stay distinct. Policy/conflict/canon/translation event datasets remain incomplete. The previous current-issue paragraph below records the pre-repair baseline.
 
 Extend event tracks with conflict, polity, religious-policy, conversion/coercion, persecution, migration/exile and sacred-site events from sections 73–85. Keep immediate political change separate from longer-term religious/demographic outcomes; never interpolate unknown states.
 
@@ -2275,6 +2279,8 @@ The second audit must address the complete original checklist, including Western
 
 # 69. STREAMED AI ANSWERS AND PROVIDER ABSTRACTION ARE MISSING / PARTIAL
 
+Phase 1 update: map rendering now uses a cancellable `MapProvider` interface with a lazy Leaflet adapter and accessible fallback. Provider cleanup, attribution and unchanged geographic coordinates are explicit. Streamed AI delivery remains incomplete.
+
 Origin: original specification sections 12, 44 and 63.
 
 `/api/query` returns a final JSON response after optional generation and audit; the provider consumes a whole chat-completion response. **AI answers streamed**, explicitly required in the original performance section, was omitted from the supplied gap list. The LLM interface is abstracted but must retain this capability through streaming. Map rendering is coupled directly to Leaflet/OSM in `components/Explore.tsx`; the original map-provider abstraction requirement is not met by that single renderer.
@@ -2290,6 +2296,8 @@ Named packs are required for Afterlife, Creation, Wisdom, Devil / Evil, Anunnaki
 Acceptance: each pack has a discoverable preset, source/edition/witness-aware evidence selections, distinct comparative results and visible missing-source slots. No unsupported influence or universalized Indigenous/Ethiopian canon claims. A preset containing metadata-only titles is still incomplete as an evidence pack. Test real citations, saved/exported comparison provenance, and source-category separation. Connect relevant topic routes from the expansion specification; a generic catch-all route is not a completed pack.
 
 # 71. GEOGRAPHIC / CHRONOLOGICAL PRECISION AND SEARCH FILTER INTEGRITY
+
+Phase 1 update: artificial coordinate jitter and the truncated chronology axis have been removed. Map/timeline use shared scope predicates, dynamic present-year controls and separate unknown-date lists. Source-context panels distinguish origin/repository labels and unreviewed anchors. Filter-before-limit search and mature regional historical context remain incomplete.
 
 Origin: original specification sections 5.3–5.4, 13, 24 and 52; expansion evidence and non-fabrication rules.
 

@@ -49,3 +49,14 @@ Corpus counts are unchanged: 252 works, 44 editions / 43 searchable works, 41 co
 The reports include 59 metrics, all 110 audit sections, 23 expansion and 35 historical quality rules, 250 original title requirements representing 248 distinct catalog targets, and 53 expansion sections. Unpopulated historical seed datasets report zero; deployment counts report unknown. No private database, source intake, model provider, migration or historical-map implementation is performed by the audit. The model decision record assigns normalized foundations and source-review acceptance cases to subsequent phases.
 
 Validation: seven audit regressions and all 14 existing core tests passed; all nine browser tests passed against an isolated production server and temporary database. TypeScript, lint, production build and deterministic report checks passed. Browser tests verify existing workflows, not completion of the new historical domains.
+
+
+## Phase 1 — map and timeline repair slice
+
+All 37 existing coordinate-bearing works are mapped by default, including the 11 undated anchors previously excluded; the 215 works without coordinates remain discoverable. Scoped counts follow layer, community, region, geographic evidence and source/image availability. Coincident records share an unchanged anchor. A provider boundary preserves attribution, cancellation and an accessible list when tiles fail.
+
+The chronology spans 5000 BCE to the current year, excludes year zero and retains undated records in a separate list. Six sourced papyrus object dates can be explored separately from work composition; two witness dates remain unknown. Artifact and grouping records remain discoverable without guessed coordinates or normalized dates.
+
+Corpus totals are unchanged. This is a repair slice, not completion of mature historical geography: sourced borders, conflict transitions, independent snapshots, cultural-region geometry, additional event classes and reviewed site coordinates remain required. Earlier Phase 0 numbers above are retained as the starting baseline; generated reports now reflect the repaired map predicate.
+
+Phase 1 repair validation (2026-09-14): 12 focused audit/exploration tests and all 13 browser tests passed, including four new spatial/API regressions. TypeScript, ESLint and production build passed. Browser checks used an isolated production server and temporary database. No corpus, private database or source ingestion was changed.
