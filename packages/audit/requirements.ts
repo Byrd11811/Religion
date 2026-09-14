@@ -134,6 +134,14 @@ export function sections(markdown: string) {
 }
 
 export function phaseOwners(n: number): string[] {
+  if (n === 110)
+    return ["0", "2", "5–9A", "12", "15", "20", "22", "27", "Final gate"];
+  if (n === 111)
+    return ["0", "2", "3", "4", "15", "17", "18", "20", "26", "27"];
+  if (n === 112)
+    return ["0", "1", "2", "15", "19", "20", "22", "27", "Final gate"];
+  if (n === 113)
+    return ["0", "20", "22", "25", "27", "Reserved Contested History"];
   if ((n >= 73 && n <= 85) || n === 108)
     return [
       "0",
@@ -247,7 +255,7 @@ export function requirementInventory(
   roadmap: string,
 ) {
   const inventory = sections(audit);
-  if (inventory.length !== 110 || inventory.some((s, i) => s.number !== i))
+  if (inventory.length !== 114 || inventory.some((s, i) => s.number !== i))
     throw new Error(
       "Audit section inventory changed: reconcile owners and acceptance mapping",
     );

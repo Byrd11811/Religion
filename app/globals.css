@@ -2118,3 +2118,5 @@ dialog::backdrop {
 .spatial-selection article + article { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 20px; }
 .timeline-axis > span:last-child { transform: translateX(-100%); }
 .timeline-bar { max-width: 100%; }
+
+.taxonomy-section { margin: 20px 0 36px; }

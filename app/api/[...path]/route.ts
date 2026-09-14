@@ -15,6 +15,7 @@ import { comparisonCases } from "@/packages/ai/guides";
 import { getCollections, mutateCollections } from "@/packages/db/collections";
 import { randomUUID } from "node:crypto";
 import { database } from "@/packages/db/client";
+import { readTaxonomy } from "@/packages/db/taxonomy";
 import { createManifest } from "@/packages/shared/iiif";
 import { explorationRecords } from "@/packages/shared/exploration-catalog";
 import { explorationScope } from "@/packages/shared/exploration";
@@ -46,6 +47,8 @@ export async function GET(req: NextRequest, { params }: Context) {
     const [route, id] = (await params).path;
     const q = req.nextUrl.searchParams;
     switch (route) {
+      case "taxonomy":
+        return send(await readTaxonomy(await database()));
       case "iiif": {
         const artifact = museumArtifacts.find((a) => a.id === id);
         const images = archiveImages.filter(

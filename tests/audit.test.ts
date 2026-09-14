@@ -128,7 +128,7 @@ test("requirement inventory covers all audit sections and both safety suites wit
   const expansion = read("docs/expansion-spec.md");
   const roadmap = read("docs/atlas-completion-roadmap.md");
   const matrix = requirementInventory(audit, expansion, roadmap);
-  assert.equal(matrix.requirements.length, 110);
+  assert.equal(matrix.requirements.length, 114);
   assert.equal(matrix.quality.length, 58);
   assert.ok(matrix.requirements.every((r) => r.owners.length && !r.complete));
   assert.ok(

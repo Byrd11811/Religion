@@ -3912,3 +3912,29 @@ Comprehensiveness never overrides:
 * copyright
 * safety
 * responsible scholarship
+
+# 110. LIVED RELIGION, CALENDARS AND PRACTICE ARE UNDERMODELED
+
+The expanded missing-dimensions audit is preserved in full at `docs/atlas-comprehensive-missing-dimensions-audit-expanded.md`. It identifies a material text-first bias in the present Atlas plan. Atlas must progressively represent sourced religious practice as first-class data, rather than treating it as a tag on a text or a generic theme.
+
+Required entity/model evaluation and completion evidence cover rituals and recurring observances; festivals and life-cycle rites; sacred calendars and original/local periodization; pilgrimage and sacred landscapes; household/kinship/ancestor practice; offices, institutions, authority and transmission; experience/testimony; material, sensory, oral and performance evidence; and current practice with date/community scope. A normalized historical date may aid comparison but must never erase a source chronology or turn mythic, claimed, or eschatological time into established chronology.
+
+Acceptance requires meaningful sourced, visible and tested representative cases for each implemented category, a non-text tradition path, and a coverage matrix that reports the twelve dimensions of religious life stated in the supplemental audit. A large text count does not satisfy this requirement.
+
+# 111. INTEROPERABLE, POLYHIERARCHICAL AND EVIDENCE-AWARE MODELS ARE INCOMPLETE
+
+Atlas must support a graph of tradition/community relationships, not a single-parent tree. Relationships such as branch, influence, reform, overlap, continuity claim, reconstruction and contested classification require source-specific, temporally scoped evidence. Identity, affiliation, belief, membership and practice remain distinct; emic self-description, outsider labels and historical terminology must remain separately recorded.
+
+Phase 0/2 model decisions must also cover reception history, textual variants and oral-performance versions; event-centric provenance; authority identifiers; source perspective, derivation and survival bias; interpretation/version history; and annotations across texts, images, objects, maps and time-based media. Record absence, fragmentary evidence, source silence and affirmative counterevidence distinctly. Do not merge entities or claims solely because a source equates them.
+
+# 112. SACRED PLACE, HERITAGE, KNOWLEDGE LOSS AND CULTURAL GOVERNANCE NEED FIRST-CLASS SUPPORT
+
+The core atlas needs temporal sacred-place phases and distinct event types for construction, reuse, conversion, sharing, destruction, abandonment, rediscovery, restoration and reconsecration. A later building, conquest, political transition, missing record or changed name is not by itself evidence of deliberate cultural erasure or forced conversion. Political control, state religion, institutional presence, demographic affiliation and documented practice remain independent fields.
+
+Object biography, provenance, repatriation, human-remains/funerary ethics, time-scoped place names, coordinate precision, cultural protocols, and restriction propagation through search, API, export, AI synthesis, caching and derived data are completion requirements. Knowledge centers and loss/survival histories must distinguish documented destruction, copies, translation, rescue, dispersal, reconstruction, later legend and uncertainty. The supplemental audit's sacred-site, knowledge-loss and historical-replacement tests are binding evidence and QA criteria for these tracks.
+
+# 113. ADDITIONAL COVERAGE, DISCOVERY AND CONTESTED-CLAIM GATES
+
+The completion baseline must report a bias dashboard by region, period, community, language, media/evidence type, institutional versus household evidence, living/extinct status and source depth. It must also report the supplemental audit's explicit practice, institution, place, object, experience, calendar, variant, provenance, site-layer, knowledge-loss, coexistence and contested-claim metrics, with zero reported where inspected and absent.
+
+Future discovery must include a date-neutral "Religious World at a Date" model and a sourced "Show What Was Here Before?" place exploration path. Historical Tartary/Tartaria must remain separate from modern Tartarian-Empire claims; every contested civilization claim requires a claim-specific source/derivation, corroboration and alternative-explanation record. This preserves the roadmap's rule that Contested History remains a later implementation phase: core evidence structures may be prepared, but speculative claims are not published as core historical fact.

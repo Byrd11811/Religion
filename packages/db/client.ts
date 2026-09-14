@@ -12,6 +12,7 @@ import {
 } from "@/packages/shared/catalog";
 import { themes } from "@/packages/ontology";
 import { syncArchive } from "./archive";
+import { syncTaxonomy } from "./taxonomy";
 import type { Passage, Collection } from "@/packages/shared/types";
 export interface AtlasDatabase {
   exec(sql: string): Promise<void>;
@@ -179,6 +180,7 @@ async function initialize(): Promise<AtlasDatabase> {
     });
   }
   await db.transaction(async (tx) => {
+    await syncTaxonomy(tx);
     await syncArchive(tx);
   });
   return {

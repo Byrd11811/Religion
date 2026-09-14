@@ -1,0 +1,349 @@
+{
+  "subtraditions": [
+    {
+      "id": "branch-theravada",
+      "name": "Theravada Buddhism",
+      "kind": "stream",
+      "description": "Traditions especially prominent in Sri Lanka and Southeast Asia, with Pali liturgical use and distinctive commentarial inheritance. Communities within this stream differ.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Theravada Buddhism",
+          "url": "https://pluralism.org/theravada-buddhism",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-mahayana",
+      "name": "Mahayana Buddhism",
+      "kind": "stream",
+      "description": "A diverse Buddhist stream encompassing schools across Central and East Asia. The cited overview includes Pure Land and Zen and treats Vajrayana as part of Mahayana.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Mahayana Buddhism",
+          "url": "https://pluralism.org/mahayana-buddhism",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-vajrayana",
+      "name": "Vajrayana Buddhism",
+      "kind": "stream",
+      "description": "An esoteric Buddhist stream that developed within Mahayana. Its prominence in Tibet does not make it exclusive to Tibet; the source also notes forms in China and Japan.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Vajrayana Buddhism",
+          "url": "https://pluralism.org/vajrayana-buddhism",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-pure-land",
+      "name": "Pure Land traditions",
+      "kind": "school-family",
+      "description": "A family of Mahayana schools identified in the cited overview. Individual communities, languages and practices require their own records.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Mahayana Buddhism",
+          "url": "https://pluralism.org/mahayana-buddhism",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-zen",
+      "name": "Zen traditions",
+      "kind": "school-family",
+      "description": "A family of Mahayana schools identified in the cited overview. This umbrella entry does not equate all regional lineages or replace their own names.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Mahayana Buddhism",
+          "url": "https://pluralism.org/mahayana-buddhism",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-vaishnava",
+      "name": "Vaishnava traditions",
+      "kind": "devotional-stream",
+      "description": "One of the devotional streams identified in the cited Hinduism overview. Devotional streams coexist with philosophical traditions and are not an exhaustive classification of Hindu practice.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Hinduism",
+          "url": "https://pluralism.org/hinduism-0",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-shaiva",
+      "name": "Shaiva traditions",
+      "kind": "devotional-stream",
+      "description": "A devotional stream within the diverse Hindu traditions described by the source. This entry does not imply one uniform institution, canon or community.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Hinduism",
+          "url": "https://pluralism.org/hinduism-0",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-shakta",
+      "name": "Shakta traditions",
+      "kind": "devotional-stream",
+      "description": "A devotional stream identified alongside Vaishnava and Shaiva traditions. A broad stream label does not supply a community-specific canon or complete history.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "Hinduism",
+          "url": "https://pluralism.org/hinduism-0",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-sunni",
+      "name": "Sunni traditions",
+      "kind": "branch",
+      "description": "An Islamic tradition whose historical differentiation from Shi’i communities involves questions of leadership and authority. Specific legal schools and communities require further classification.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "One Ummah with Many Views",
+          "url": "https://pluralism.org/one-ummah-with-many-views",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-shii",
+      "name": "Shi’i traditions",
+      "kind": "branch",
+      "description": "An Islamic tradition distinguished in the source through debates over leadership and authority. The label contains further diversity; it is not a single legal school or institution.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "One Ummah with Many Views",
+          "url": "https://pluralism.org/one-ummah-with-many-views",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-sufi",
+      "name": "Sufi movements",
+      "kind": "cross-cutting-movement",
+      "description": "Devotional and mystical movements that cross divisions within Islam. This relationship is not an assertion of a mutually exclusive third denomination beside Sunni and Shi’i traditions.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "One Ummah with Many Views",
+          "url": "https://pluralism.org/one-ummah-with-many-views",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-catholic",
+      "name": "Catholic traditions",
+      "kind": "church-family",
+      "description": "One broad Christian stream in the cited overview. The three-stream outline is introductory and does not exhaust Christian diversity or settle theological claims.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "A Worldwide Tradition",
+          "url": "https://pluralism.org/a-worldwide-tradition",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-orthodox",
+      "name": "Orthodox Christian churches",
+      "kind": "church-family",
+      "description": "A broad family label used by the cited overview. Particular churches require separate records and must not be treated as a single institution.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "A Worldwide Tradition",
+          "url": "https://pluralism.org/a-worldwide-tradition",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "branch-protestant",
+      "name": "Protestant movements",
+      "kind": "movement-family",
+      "description": "A diverse Christian stream in the cited overview, containing many churches and movements. The source warns that broad categories cannot capture the full range of Christian communities.",
+      "region": null,
+      "sourceRefs": [
+        {
+          "title": "A Worldwide Tradition",
+          "url": "https://pluralism.org/a-worldwide-tradition",
+          "publisher": "Harvard University, The Pluralism Project",
+          "accessedAt": "2026-09-14"
+        }
+      ],
+      "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
+      "workIds": []
+    }
+  ],
+  "edges": [
+    {
+      "parentId": "buddhism",
+      "childId": "branch-theravada",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/theravada-buddhism",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "buddhism",
+      "childId": "branch-mahayana",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/mahayana-buddhism",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "buddhism",
+      "childId": "branch-vajrayana",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/vajrayana-buddhism",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "branch-mahayana",
+      "childId": "branch-pure-land",
+      "relationship": "within",
+      "sourceUrl": "https://pluralism.org/mahayana-buddhism",
+      "notes": "The cited overview places this school family within Mahayana."
+    },
+    {
+      "parentId": "branch-mahayana",
+      "childId": "branch-zen",
+      "relationship": "within",
+      "sourceUrl": "https://pluralism.org/mahayana-buddhism",
+      "notes": "The cited overview places this school family within Mahayana."
+    },
+    {
+      "parentId": "hindu-vedic-indian",
+      "childId": "branch-vaishnava",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/hinduism-0",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "hindu-vedic-indian",
+      "childId": "branch-shaiva",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/hinduism-0",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "hindu-vedic-indian",
+      "childId": "branch-shakta",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/hinduism-0",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "islam",
+      "childId": "branch-sunni",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/one-ummah-with-many-views",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "islam",
+      "childId": "branch-shii",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/one-ummah-with-many-views",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "islam",
+      "childId": "branch-sufi",
+      "relationship": "cross-cutting",
+      "sourceUrl": "https://pluralism.org/one-ummah-with-many-views",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "christianity",
+      "childId": "branch-catholic",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/a-worldwide-tradition",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "christianity",
+      "childId": "branch-orthodox",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/a-worldwide-tradition",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "christianity",
+      "childId": "branch-protestant",
+      "relationship": "navigation",
+      "sourceUrl": "https://pluralism.org/a-worldwide-tradition",
+      "notes": "Navigation association is not an exclusive identity, institutional affiliation or claim of universal membership."
+    },
+    {
+      "parentId": "branch-mahayana",
+      "childId": "branch-vajrayana",
+      "relationship": "within",
+      "sourceUrl": "https://pluralism.org/vajrayana-buddhism",
+      "notes": "The source describes Vajrayana as developing within Mahayana; the additional Buddhism navigation parent remains valid."
+    }
+  ]
+}

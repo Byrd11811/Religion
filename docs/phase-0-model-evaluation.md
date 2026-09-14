@@ -53,6 +53,6 @@ The listed source targets are not declared researched or verified here. Their re
 
 ## Traceability and known limits
 
-The generated matrix includes all 110 audit sections, all 23 expansion quality rules and all 35 historical regression rules. Full section hashes detect changed acceptance criteria. The matrix starts conservatively incomplete/unverified: it is not a claim that all current workflows are absent. Existing tests may substantiate partial behavior but do not automatically close the larger acceptance criteria. Feature-level completion evidence must be added as phases are delivered.
+The generated matrix includes all 114 audit sections, including the four supplemental missing-dimensions sections, all 23 expansion quality rules and all 35 historical regression rules. Full section hashes detect changed acceptance criteria. The matrix starts conservatively incomplete/unverified: it is not a claim that all current workflows are absent. Existing tests may substantiate partial behavior but do not automatically close the larger acceptance criteria. Feature-level completion evidence must be added as phases are delivered.
 
 Deployment-specific counts, live source URL health, paid providers, scholarly review and complete historical coverage remain unverified. Phase 0 tooling tests must cover duplicate IDs, orphan links, empty editions, commentary labeling, null/zero separation and inventory drift. CI checks deterministic reports as well as the existing application checks.

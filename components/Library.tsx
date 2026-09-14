@@ -1,4 +1,5 @@
 "use client";
+import { Taxonomy } from "./Taxonomy";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
@@ -590,7 +591,7 @@ export function TextDetail({ id, ...actions }: Actions & { id: string }) {
 }
 export function TraditionsView({ id, ...actions }: Actions & { id?: string }) {
   const t = traditions.find((t) => t.id === id);
-  if (id && !t) return <Empty>Tradition not found.</Empty>;
+  if (id && !t) return <Taxonomy id={id} standalone />;
   return (
     <>
       <Heading
@@ -601,6 +602,7 @@ export function TraditionsView({ id, ...actions }: Actions & { id?: string }) {
           "Explore catalog groupings without treating cultures or communities as uniform."
         }
       />
+      <Taxonomy id={id} />
       {t ? (
         <>
           <div className="notice">

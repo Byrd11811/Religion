@@ -1290,3 +1290,23 @@ Scope reconciliation against documentation commit `906cee828313f4b3882e3e8130dd2
 - The research-only ritual scope and membership/source-chain safeguards strengthen existing non-fabrication, cultural and neutrality requirements; no stricter prior policy is relaxed.
 
 This update changes only the two authoritative planning documents. Phase 0, migrations, code, routes, UI, seeds, ingestion and Contested History remain unstarted by this update. After documentation validation and commit, stop with the requested report. The repository remains ready for Phase 0 on a subsequent implementation instruction.
+
+# 40. EXPANDED MISSING-DIMENSIONS INTEGRATION
+
+`docs/atlas-comprehensive-missing-dimensions-audit-expanded.md` is an additive source audit. Its detailed requirements are incorporated into authoritative audit sections 110–113. It does not replace the existing phase order, relax source policy, authorize fabricated corpus intake, or move the reserved Contested History work into the core release.
+
+## Phase 0 / maintained instrumentation
+
+Extend the coverage audit and requirements traceability for the supplemental audit. Record the twelve-dimensional lived-religion coverage matrix; non-text evidence and media counts; calendars, practices, institutions, places, objects, experiences, performance/oral versions, variants and provenance; source perspective/derivation; bias indicators; site-phase/knowledge-loss metrics; and explicit zeroes for inspected absent datasets. Add requirement IDs and test ownership for the supplemental quality rules before any requirement can be closed.
+
+## Phase 2 / 15 model foundations
+
+Extend the taxonomy work into a source-backed polyhierarchy with temporal, non-exclusive and source-specific relations. Evaluate normalized models for practices, observances, calendars, life-cycle rites, pilgrimage, sacred landscapes, institutions/offices/lineages, experience/testimony, performance/oral variants, reception and critical apparatus, places/site phases, objects/provenance, knowledge centers/loss-survival events, terminology, source perspective and independent derivation. Enforce cultural access restrictions and place-coordinate precision at every retrieval/export boundary.
+
+## Regional corpus phases and Phase 20 research experience
+
+Populate representative reviewed cases across lived practice and material religion alongside text intake. The experience must expose original/source chronology separately from normalized historical time; show historical place-name and site layers with confidence; preserve multiple communities' relationships to a site; distinguish event evidence from later memory; and expose uncertainty without treating source silence as counterevidence. Add the date-neutral religious-world explorer and the sourced, explicitly limited "Show What Was Here Before?" path only after independent site-phase records exist.
+
+## Phase 22 / 27 / final gate
+
+Add the supplemental audit's quality suite as tracked rules. In particular, test that practice is not inferred from text, mythic time is not historical fact, polyhierarchy does not force exclusive identity, restrictions propagate beyond UI display, place reuse and conquest do not imply erasure/conversion, knowledge loss includes survival evidence, and contested Tartar/Tartarian or erased-civilization claims remain claim-specific and separate from historical geography. Completion also requires a visible corpus-bias dashboard and representative meaningful cases; a schema, route, placeholder or zero-count table is not completion.

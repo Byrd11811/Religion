@@ -114,6 +114,10 @@ Generated from the authoritative audit and expansion quality rules. Source secti
 | AUDIT-107 | ROADMAP PLACEMENT | 0, 22, 27, Final gate | incomplete |
 | AUDIT-108 | WORLD MAP COMPLETION STANDARD | 0, 1, 2, 3, 4, 5–9A, 15, 16, 20, 25, 27, Track A | incomplete |
 | AUDIT-109 | COMPLETION STANDARD | 0, 22, 27, Final gate | incomplete |
+| AUDIT-110 | LIVED RELIGION, CALENDARS AND PRACTICE ARE UNDERMODELED | 0, 2, 5–9A, 12, 15, 20, 22, 27, Final gate | incomplete |
+| AUDIT-111 | INTEROPERABLE, POLYHIERARCHICAL AND EVIDENCE-AWARE MODELS ARE INCOMPLETE | 0, 2, 3, 4, 15, 17, 18, 20, 26, 27 | incomplete |
+| AUDIT-112 | SACRED PLACE, HERITAGE, KNOWLEDGE LOSS AND CULTURAL GOVERNANCE NEED FIRST-CLASS SUPPORT | 0, 1, 2, 15, 19, 20, 22, 27, Final gate | incomplete |
+| AUDIT-113 | ADDITIONAL COVERAGE, DISCOVERY AND CONTESTED-CLAIM GATES | 0, 20, 22, 25, 27, Reserved Contested History | incomplete |
 
 ## Quality and regression rules
 

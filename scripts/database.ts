@@ -10,6 +10,7 @@ import {
 import { allPassages } from "../packages/search";
 import { themes, concepts } from "../packages/ontology";
 import { syncArchive } from "../packages/db/archive";
+import { syncTaxonomy } from "../packages/db/taxonomy";
 import { loadEnvConfig } from "@next/env";
 loadEnvConfig(process.cwd());
 async function main() {
@@ -17,6 +18,7 @@ async function main() {
   try {
     if (process.argv[2] === "migrate") {
       await client.exec(readFileSync("packages/db/schema.sql", "utf8"));
+      await syncTaxonomy(client);
       await syncArchive(client);
       console.log("PostgreSQL schema and pgvector extension are ready.");
       return;
@@ -133,6 +135,7 @@ async function main() {
           JSON.stringify(a),
         ],
       );
+    await syncTaxonomy(client);
     await syncArchive(client);
     await client.query("COMMIT");
     console.log(
