@@ -237,6 +237,286 @@
       ],
       "reviewStatus": "Source-checked introductory metadata; community-level review incomplete",
       "workIds": []
+    },
+    {
+      "id": "mesopotamia-sumerian",
+      "name": "Sumerian religious traditions",
+      "kind": "historical-cultural-tradition",
+      "description": "Religious traditions of Sumerian-speaking city-states. This navigation record does not imply a single timeless pantheon or institution across cities and periods.",
+      "region": "Southern Mesopotamia",
+      "sourceRefs": [{ "title": "Mesopotamian Deities", "url": "https://www.metmuseum.org/essays/mesopotamian-deities", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; city- and period-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesopotamia-akkadian",
+      "name": "Akkadian religious traditions",
+      "kind": "historical-cultural-tradition",
+      "description": "Akkadian-language religious worlds that interacted with and reinterpreted Sumerian traditions. Language, polity, deity name and cult identity must remain separately researchable.",
+      "region": "Mesopotamia",
+      "sourceRefs": [{ "title": "Guide to the Collections: Ancient Near Eastern Art", "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; city- and period-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesopotamia-babylonian",
+      "name": "Babylonian religious traditions",
+      "kind": "historical-cultural-tradition",
+      "description": "Religious traditions associated with Babylonian polities and communities. Political prominence and changes in divine hierarchy require period-specific evidence.",
+      "region": "Southern Mesopotamia",
+      "sourceRefs": [{ "title": "Mesopotamian Deities", "url": "https://www.metmuseum.org/essays/mesopotamian-deities", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; city- and period-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesopotamia-assyrian",
+      "name": "Assyrian religious traditions",
+      "kind": "historical-cultural-tradition",
+      "description": "Religious traditions associated with Assyrian communities and polities. This record does not equate imperial history with all community practice.",
+      "region": "Northern Mesopotamia",
+      "sourceRefs": [{ "title": "Assyria to Iberia at the Dawn of the Classical Age", "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; city- and period-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "egypt-temple-cults",
+      "name": "Ancient Egyptian temple cults",
+      "kind": "practice-context",
+      "description": "Temple-centered service to deities through priestly ritual, offerings and processions. Local cults, access rules and historical periods require separate records.",
+      "region": "Ancient Egypt and Nubia",
+      "sourceRefs": [{ "title": "The Temple of Dendur: Architecture and Ritual", "url": "https://www.metmuseum.org/essays/temple-of-dendur-architecture-and-ritual", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked practice context; local and chronological coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "egypt-funerary-traditions",
+      "name": "Ancient Egyptian funerary traditions",
+      "kind": "practice-context",
+      "description": "Diverse preparations, rites and material practices concerning death and hoped-for transformation. Funerary evidence is not a complete description of everyday religion.",
+      "region": "Ancient Egypt",
+      "sourceRefs": [{ "title": "Transforming the Dead", "url": "https://www.metmuseum.org/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2014_transformingthedead_web.pdf", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked practice context; social and chronological coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "egypt-domestic-religion",
+      "name": "Ancient Egyptian domestic and personal religion",
+      "kind": "practice-context",
+      "description": "Household and personal religious practice, including protective objects and appeals connected with daily concerns. It must not be inferred solely from elite temple texts.",
+      "region": "Ancient Egypt",
+      "sourceRefs": [{ "title": "The Art of Ancient Egypt: A Resource for Educators", "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked practice context; household and regional coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "china-ru-confucian",
+      "name": "Ru / Confucian traditions",
+      "kind": "tradition-family",
+      "description": "Scholarly, ethical and ritual traditions often labeled Confucianism. The source notes that the Western label and classification as religion are themselves historically contested.",
+      "region": "East Asia",
+      "sourceRefs": [{ "title": "Confucianism", "url": "https://pluralism.org/confucianism", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; terminology and community coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "china-daoist",
+      "name": "Daoist traditions",
+      "kind": "tradition-family",
+      "description": "A diverse family of philosophical, religious, priestly and cultivation traditions that has interacted with popular religion, Confucian traditions and Buddhism.",
+      "region": "China and East Asia",
+      "sourceRefs": [{ "title": "Daoism", "url": "https://pluralism.org/daoism", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; school and community coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "china-buddhist",
+      "name": "Chinese Buddhist traditions",
+      "kind": "regional-tradition-family",
+      "description": "Buddhist traditions developed in Chinese cultural settings through translation, institutions and interaction with other Chinese traditions. They belong in both regional and Buddhist navigation.",
+      "region": "China",
+      "sourceRefs": [{ "title": "The Expansion of Buddhism", "url": "https://pluralism.org/the-expansion-of-buddhism", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; school and historical coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "china-popular-local",
+      "name": "Chinese popular and local religious traditions",
+      "kind": "overlapping-practice-family",
+      "description": "Local, household and temple practices that may overlap Daoist, Buddhist and Confucian contexts. This record is deliberately nonexclusive and not a residual category for unknown material.",
+      "region": "China and Chinese diaspora",
+      "sourceRefs": [{ "title": "Daoism", "url": "https://pluralism.org/daoism", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; local community coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "horn-religious-worlds",
+      "name": "Ethiopia, Eritrea and Horn religious worlds",
+      "kind": "cultural-sphere",
+      "description": "A regional navigation sphere for distinct Christian, Jewish, Islamic and local histories. It is not a single tradition or uniform community.",
+      "region": "Horn of Africa",
+      "sourceRefs": [{ "title": "Africa and Byzantium", "url": "https://www.metmuseum.org/exhibitions/africa-byzantium/visiting-guide", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked regional navigation; community coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "horn-ethiopian-orthodox",
+      "name": "Ethiopian Orthodox Tewahedo Church",
+      "kind": "church-tradition",
+      "description": "An Ethiopian Christian church tradition with Geʿez liturgical and manuscript heritage. Institutional self-description and independent scholarship remain separately sourced.",
+      "region": "Ethiopia and diaspora",
+      "sourceRefs": [{ "title": "Ethiopia’s Enduring Cultural Heritage", "url": "https://www.metmuseum.org/essays/ethiopias-enduring-cultural-heritage", "publisher": "The Metropolitan Museum of Art", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; canon and community review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "horn-eritrean-orthodox",
+      "name": "Eritrean Orthodox Tewahedo Church",
+      "kind": "church-tradition",
+      "description": "A distinct Eritrean Orthodox Tewahedo church tradition cross-linked to the wider Tewahedo and Christian contexts without collapsing its institution into Ethiopian records.",
+      "region": "Eritrea and diaspora",
+      "sourceRefs": [{ "title": "Eritrean Orthodox Tewahedo Church", "url": "https://oikoumene.org/member-churches/eritrean-orthodox-tewahedo-church", "publisher": "World Council of Churches", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked institutional metadata; canon and community review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "horn-beta-israel",
+      "name": "Beta Israel traditions",
+      "kind": "ethnoreligious-community",
+      "description": "Jewish religious and community traditions historically rooted in Ethiopia. Competing origin histories must remain attributed rather than resolved by the navigation taxonomy.",
+      "region": "Ethiopia, Israel and diaspora",
+      "sourceRefs": [{ "title": "About Ethiopian Jewry", "url": "https://ethiopianjhc.org.il/en/ethiopian-jewry/about-ethiopian-jewry/", "publisher": "Ethiopian Jewry Heritage Center", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; community and scholarship review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "horn-islamic",
+      "name": "Islamic traditions of the Horn of Africa",
+      "kind": "regional-tradition-family",
+      "description": "Diverse Islamic communities and scholarly traditions of the Horn. Trade, conversion, language, local institutions and political history require separate sourced records.",
+      "region": "Horn of Africa",
+      "sourceRefs": [{ "title": "Becoming Muslim: Conversion to Islam and Islamisation in Eastern Ethiopia", "url": "https://www.exeter.ac.uk/research/centres/centreforislamicarchaeology/research/becomingmuslimconversiontoislamandislamisationineasternethiopia/", "publisher": "University of Exeter", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked research context; community and regional coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "north-america-haudenosaunee",
+      "name": "Haudenosaunee religious and ceremonial traditions",
+      "kind": "community-tradition-family",
+      "description": "Traditions of the Haudenosaunee nations in which ceremonial, oral, political and community life interrelate. Public introductory coverage does not authorize restricted knowledge intake.",
+      "region": "Northeastern North America",
+      "sourceRefs": [{ "title": "Haudenosaunee Iroquois Religion and Politics", "url": "https://pluralism.org/haudenosaunee-iroquois-religion-and-politics", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Public source-checked introduction; community protocol review required for deeper intake",
+      "workIds": []
+    },
+    {
+      "id": "mesoamerica-maya",
+      "name": "Maya religious traditions",
+      "kind": "community-tradition-family",
+      "description": "Diverse ancient and living Maya traditions across many communities and languages. Shared historical features do not make Maya religion one centralized institution.",
+      "region": "Mesoamerica",
+      "sourceRefs": [{ "title": "The Maya, an introduction", "url": "https://smarthistory.org/maya-intro/", "publisher": "Smarthistory", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; living-community review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesoamerica-mexica",
+      "name": "Mexica religious traditions",
+      "kind": "historical-community-tradition",
+      "description": "Religious traditions of the Mexica, also widely called Aztec in later scholarship. Self-name, later label, polity and broader Nahua identity remain distinct metadata.",
+      "region": "Central Mexico",
+      "sourceRefs": [{ "title": "Aztecs (Mexica), an introduction", "url": "https://smarthistory.org/introduction-mexica/", "publisher": "Smarthistory", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; colonial-source review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesoamerica-mixtec",
+      "name": "Mixtec / Ñudzavui traditions",
+      "kind": "community-tradition-family",
+      "description": "Religious and historical traditions associated with Mixtec or Ñudzavui communities. The dual label is retained pending deeper community-specific naming review.",
+      "region": "Oaxaca and neighboring regions",
+      "sourceRefs": [{ "title": "Mesoamerica and the Caribbean, 900–16th century", "url": "https://smarthistory.org/reframing-art-history/mesoamerica-caribbean-900-16th-century/", "publisher": "Smarthistory", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; naming and community review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "mesoamerica-zapotec",
+      "name": "Zapotec traditions",
+      "kind": "community-tradition-family",
+      "description": "Religious, ancestral and material traditions associated with Zapotec communities and historical sites. Archaeological culture and living community identity must not be conflated.",
+      "region": "Oaxaca",
+      "sourceRefs": [{ "title": "Zapotec civilization", "url": "https://smarthistory.org/period-culture-style/mesoamerican/zapotec-civilization/", "publisher": "Smarthistory", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; living-community review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "africa-yoruba",
+      "name": "Yoruba religious traditions",
+      "kind": "community-tradition-family",
+      "description": "Religious traditions of Yoruba communities in West Africa and their historical relationships with multiple diasporic traditions. Diasporic traditions remain distinct records.",
+      "region": "West Africa and diaspora",
+      "sourceRefs": [{ "title": "Yoruba religion", "url": "https://pluralism.org/yoruba-religion", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; community and lineage coverage incomplete",
+      "workIds": []
+    },
+    {
+      "id": "africa-vodun",
+      "name": "Fon and Ewe Vodun traditions",
+      "kind": "community-tradition-family",
+      "description": "West African Vodun traditions associated with Fon and Ewe contexts. They must remain distinct from, while historically related to, Haitian Vodou and other diasporic traditions.",
+      "region": "West Africa",
+      "sourceRefs": [{ "title": "Vodou, Serving the Spirits", "url": "https://pluralism.org/vodou-serving-the-spirits", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked relationship context; direct community-source review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "oceania-hawaiian",
+      "name": "Native Hawaiian religious and cultural traditions",
+      "kind": "community-tradition-family",
+      "description": "Native Hawaiian traditions in which genealogy, land, performance, healing and sacred practice interrelate. Public evidence does not authorize restricted ceremonial content.",
+      "region": "Hawaiʻi",
+      "sourceRefs": [{ "title": "Navigating the Ways of the Waʻa", "url": "https://naturalhistory.si.edu/research/anthropology/programs/recovering-voices/outreach/news-research-updates/navigating-ways-waa", "publisher": "Smithsonian National Museum of Natural History", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Public source-checked introduction; community protocol review required for deeper intake",
+      "workIds": []
+    },
+    {
+      "id": "oceania-maori",
+      "name": "Māori religious and cultural traditions",
+      "kind": "community-tradition-family",
+      "description": "Diverse Māori traditions carried through oral histories, communities, ritual specialists and performance. Historical recordings require recorder, translation and community-context review.",
+      "region": "Aotearoa New Zealand",
+      "sourceRefs": [{ "title": "Polynesian mythology and ancient traditional history of the Maori as told by their priests and chiefs", "url": "https://www.si.edu/object/siris_sil_5320", "publisher": "Smithsonian Institution", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Catalog source identified; community protocol and edition review required before content intake",
+      "workIds": []
+    },
+    {
+      "id": "modern-bahai",
+      "name": "Bahá’í Faith",
+      "kind": "modern-religious-tradition",
+      "description": "A religious tradition emerging in nineteenth-century Iran with its own writings, institutions, calendar and global communities.",
+      "region": "Global; origins in Iran",
+      "sourceRefs": [{ "title": "The Bahá’í Faith", "url": "https://pluralism.org/bahai", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; institutional and independent-source depth incomplete",
+      "workIds": []
+    },
+    {
+      "id": "modern-new-age",
+      "name": "New Age movements",
+      "kind": "modern-movement-family",
+      "description": "A varied family of late twentieth-century movements and practices. This umbrella label does not imply a central authority, single membership or uniform doctrine.",
+      "region": "Transnational",
+      "sourceRefs": [{ "title": "New Age", "url": "https://pluralism.org/new-age", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked introductory metadata; movement-level review incomplete",
+      "workIds": []
+    },
+    {
+      "id": "modern-sbnr",
+      "name": "Spiritual but not religious identities and practices",
+      "kind": "identity-practice-category",
+      "description": "A contemporary self-description spanning varied beliefs and practices. It is not a church, denomination or claim that all unaffiliated people share one worldview.",
+      "region": "Contemporary comparative category",
+      "sourceRefs": [{ "title": "Spiritual but not Religious", "url": "https://pluralism.org/spiritual-but-not-religious", "publisher": "Harvard University, The Pluralism Project", "accessedAt": "2026-09-14" }],
+      "reviewStatus": "Source-checked analytical category; demographic and regional coverage incomplete",
+      "workIds": []
     }
   ],
   "edges": [
@@ -344,6 +624,39 @@
       "relationship": "within",
       "sourceUrl": "https://pluralism.org/vajrayana-buddhism",
       "notes": "The source describes Vajrayana as developing within Mahayana; the additional Buddhism navigation parent remains valid."
-    }
+    },
+    { "parentId": "ancient-mesopotamia-sumer-akkad-babylon-assyria", "childId": "mesopotamia-sumerian", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/essays/mesopotamian-deities", "notes": "Historical navigation; city, language, period and polity remain separately scoped." },
+    { "parentId": "ancient-mesopotamia-sumer-akkad-babylon-assyria", "childId": "mesopotamia-akkadian", "relationship": "navigation", "sourceUrl": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf", "notes": "Historical navigation; language does not define one uniform religious institution." },
+    { "parentId": "ancient-mesopotamia-sumer-akkad-babylon-assyria", "childId": "mesopotamia-babylonian", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/essays/mesopotamian-deities", "notes": "Historical navigation; political and religious change require period-specific evidence." },
+    { "parentId": "ancient-mesopotamia-sumer-akkad-babylon-assyria", "childId": "mesopotamia-assyrian", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia", "notes": "Historical navigation; imperial reach is not a claim of uniform community practice." },
+    { "parentId": "ancient-egypt", "childId": "egypt-temple-cults", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/essays/temple-of-dendur-architecture-and-ritual", "notes": "Practice-context navigation, not an exclusive sect or complete account of ancient Egyptian religion." },
+    { "parentId": "ancient-egypt", "childId": "egypt-funerary-traditions", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2014_transformingthedead_web.pdf", "notes": "Practice-context navigation; funerary evidence does not define all lived religion." },
+    { "parentId": "ancient-egypt", "childId": "egypt-domestic-religion", "relationship": "navigation", "sourceUrl": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf", "notes": "Practice-context navigation; household evidence remains distinct from temple prescriptions." },
+    { "parentId": "china", "childId": "china-ru-confucian", "relationship": "navigation", "sourceUrl": "https://pluralism.org/confucianism", "notes": "Regional navigation; the religion/philosophy label remains historically and analytically contested." },
+    { "parentId": "china", "childId": "china-daoist", "relationship": "navigation", "sourceUrl": "https://pluralism.org/daoism", "notes": "Regional navigation; diverse schools and practices are not one institution." },
+    { "parentId": "china", "childId": "china-buddhist", "relationship": "navigation", "sourceUrl": "https://pluralism.org/the-expansion-of-buddhism", "notes": "Regional navigation alongside a Buddhist parent; this is intentionally polyhierarchical." },
+    { "parentId": "buddhism", "childId": "china-buddhist", "relationship": "cross-cutting", "sourceUrl": "https://pluralism.org/the-expansion-of-buddhism", "notes": "Tradition navigation alongside a Chinese regional parent; this is intentionally polyhierarchical." },
+    { "parentId": "china", "childId": "china-popular-local", "relationship": "navigation", "sourceUrl": "https://pluralism.org/daoism", "notes": "Nonexclusive navigation for local and overlapping practice; not a residual unknown category." },
+    { "parentId": "african-traditions", "childId": "horn-religious-worlds", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/exhibitions/africa-byzantium/visiting-guide", "notes": "Regional navigation sphere; it is not a single religion." },
+    { "parentId": "horn-religious-worlds", "childId": "horn-ethiopian-orthodox", "relationship": "navigation", "sourceUrl": "https://www.metmuseum.org/essays/ethiopias-enduring-cultural-heritage", "notes": "Regional navigation for a distinct church tradition." },
+    { "parentId": "christianity", "childId": "horn-ethiopian-orthodox", "relationship": "cross-cutting", "sourceUrl": "https://www.metmuseum.org/essays/ethiopias-enduring-cultural-heritage", "notes": "Christian navigation alongside a Horn regional parent; institutional identity remains distinct." },
+    { "parentId": "horn-religious-worlds", "childId": "horn-eritrean-orthodox", "relationship": "navigation", "sourceUrl": "https://oikoumene.org/member-churches/eritrean-orthodox-tewahedo-church", "notes": "Regional navigation for a distinct church institution." },
+    { "parentId": "christianity", "childId": "horn-eritrean-orthodox", "relationship": "cross-cutting", "sourceUrl": "https://oikoumene.org/member-churches/eritrean-orthodox-tewahedo-church", "notes": "Christian navigation alongside a Horn regional parent; the Eritrean church remains an independent record." },
+    { "parentId": "horn-religious-worlds", "childId": "horn-beta-israel", "relationship": "navigation", "sourceUrl": "https://ethiopianjhc.org.il/en/ethiopian-jewry/about-ethiopian-jewry/", "notes": "Regional navigation; contested origin histories remain attributed evidence claims." },
+    { "parentId": "hebrew-jewish-tradition", "childId": "horn-beta-israel", "relationship": "cross-cutting", "sourceUrl": "https://ethiopianjhc.org.il/en/ethiopian-jewry/about-ethiopian-jewry/", "notes": "Jewish navigation alongside a Horn regional parent without collapsing distinct traditions." },
+    { "parentId": "horn-religious-worlds", "childId": "horn-islamic", "relationship": "navigation", "sourceUrl": "https://www.exeter.ac.uk/research/centres/centreforislamicarchaeology/research/becomingmuslimconversiontoislamandislamisationineasternethiopia/", "notes": "Regional navigation for diverse Islamic traditions of the Horn." },
+    { "parentId": "islam", "childId": "horn-islamic", "relationship": "cross-cutting", "sourceUrl": "https://www.exeter.ac.uk/research/centres/centreforislamicarchaeology/research/becomingmuslimconversiontoislamandislamisationineasternethiopia/", "notes": "Islamic navigation alongside a Horn regional parent; local histories remain distinct." },
+    { "parentId": "north-american-indigenous-traditions", "childId": "north-america-haudenosaunee", "relationship": "navigation", "sourceUrl": "https://pluralism.org/haudenosaunee-iroquois-religion-and-politics", "notes": "Public introductory navigation only; no permission for restricted ceremonial knowledge is inferred." },
+    { "parentId": "mesoamerica", "childId": "mesoamerica-maya", "relationship": "navigation", "sourceUrl": "https://smarthistory.org/maya-intro/", "notes": "Regional navigation; diverse living and historical Maya communities are not one institution." },
+    { "parentId": "mesoamerica", "childId": "mesoamerica-mexica", "relationship": "navigation", "sourceUrl": "https://smarthistory.org/introduction-mexica/", "notes": "Historical navigation retaining self-name and later scholarly label." },
+    { "parentId": "mesoamerica", "childId": "mesoamerica-mixtec", "relationship": "navigation", "sourceUrl": "https://smarthistory.org/reframing-art-history/mesoamerica-caribbean-900-16th-century/", "notes": "Regional navigation; naming and community identity require deeper review." },
+    { "parentId": "mesoamerica", "childId": "mesoamerica-zapotec", "relationship": "navigation", "sourceUrl": "https://smarthistory.org/period-culture-style/mesoamerican/zapotec-civilization/", "notes": "Regional navigation; archaeological classifications do not replace living community identities." },
+    { "parentId": "african-traditions", "childId": "africa-yoruba", "relationship": "navigation", "sourceUrl": "https://pluralism.org/yoruba-religion", "notes": "Regional navigation; Yoruba and diasporic traditions remain related but distinct." },
+    { "parentId": "african-traditions", "childId": "africa-vodun", "relationship": "navigation", "sourceUrl": "https://pluralism.org/vodou-serving-the-spirits", "notes": "Regional navigation; West African Vodun is not collapsed into Haitian Vodou." },
+    { "parentId": "oceania-polynesia", "childId": "oceania-hawaiian", "relationship": "navigation", "sourceUrl": "https://naturalhistory.si.edu/research/anthropology/programs/recovering-voices/outreach/news-research-updates/navigating-ways-waa", "notes": "Public introductory navigation only; cultural access rules still apply." },
+    { "parentId": "oceania-polynesia", "childId": "oceania-maori", "relationship": "navigation", "sourceUrl": "https://www.si.edu/object/siris_sil_5320", "notes": "Catalog-level navigation; recorder, translation and community protocol require review before content intake." },
+    { "parentId": "new-religious-movements-modern-revelation", "childId": "modern-bahai", "relationship": "navigation", "sourceUrl": "https://pluralism.org/bahai", "notes": "Modern-religion navigation; the Bahá’í Faith remains a distinct tradition and institution." },
+    { "parentId": "new-religious-movements-modern-revelation", "childId": "modern-new-age", "relationship": "navigation", "sourceUrl": "https://pluralism.org/new-age", "notes": "Umbrella movement navigation; no single authority or uniform membership is implied." },
+    { "parentId": "new-religious-movements-modern-revelation", "childId": "modern-sbnr", "relationship": "cross-cutting", "sourceUrl": "https://pluralism.org/spiritual-but-not-religious", "notes": "Analytical identity/practice category, not a denomination or uniform worldview." }
   ]
 }

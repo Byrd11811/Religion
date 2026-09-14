@@ -56,6 +56,7 @@ const sourcePaths = [
   "packages/shared/types.ts",
   "packages/shared/taxonomy.ts",
   "packages/db/taxonomy.ts",
+  "packages/db/research-queue.ts",
   "packages/db/schema.sql",
   "packages/db/client.ts",
   "packages/db/archive.ts",

@@ -30,7 +30,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | mappedWorks | Map-eligible works through 2026 | 37 | Unknown | Unknown | 37 | Unknown | No |
 | timelineWorks | Timeline-eligible works through 2026 | 32 | Unknown | Unknown | Unknown | Unknown | No |
 | languageMetadataWorks | Works with language metadata | 43 | Unknown | Unknown | Unknown | Unknown | No |
-| subtraditions | Subtraditions | 14 | Unknown | Unknown | Unknown | Unknown | No |
+| subtraditions | Subtraditions | 42 | Unknown | Unknown | Unknown | Unknown | No |
 | recensions | Recensions / textual families | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | evidenceRecords | Structured evidence records | 0 | Unknown | Unknown | Unknown | Unknown | No |

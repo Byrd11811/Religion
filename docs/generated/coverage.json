@@ -23,7 +23,7 @@
     "data/seed/images.json": "58589ec193b3f0f929074285551fe70d715f788cbcc2228c0d6b9773dbcadafe",
     "data/seed/passages.json": "1bc434b54ee7074653b6b2b2006b6f1cb0411f2f3e8d2358e77f459e1fbd3fcd",
     "data/seed/relationships.json": "ffbcb10ff9ec84d5a8b00f5a704b8f44f03045d129d046d4f203a846f8bc154b",
-    "data/seed/taxonomy.json": "86527d90d46332a9ab8b3a8aa9674d3a4f222e271c3b6b05c5d91a03d9d63fe1",
+    "data/seed/taxonomy.json": "1e1846c4ce211048eb73d59dbe50105ebf3beb43fdea6877a079995943c99578",
     "data/seed/texts.json": "a6c134347333e296d82f03120adb6b20d7365f970b9c43358271746652c499a3",
     "data/seed/traditions.json": "414f0f33c59c792fdddaeaca0554b8fd0afe5bc2eb2a6a99da1059738f89d36e",
     "docs/atlas-completion-gap-audit.md": "3bced68fe6901cb0b2485cf80c6403064be4a662e8a6071ec32d4c5ef95b7dbb",
@@ -36,7 +36,8 @@
     "packages/audit/requirements.ts": "5e5e13c070624fa3bcfd8f294551a7eeea865feb3a8b3c22506b95bf4e634dc5",
     "packages/db/archive.ts": "b78012c5a51b88abb8adc4c3a92454143e2144fd3e35ac6821197a7b2957829c",
     "packages/db/client.ts": "1a7fa0660e95a8f9c57d249bec4ff449618090a8c6fd425f4ee613f8cdd481b6",
-    "packages/db/schema.sql": "111fbf05c4725239b89d4e6ea5e5d9a023ed5e92820306920ff864018afe8b72",
+    "packages/db/research-queue.ts": "5b2bbe1643b80cd3a1dc9b4c859d8587596af877f3e3f161f22e1837dd94ba2c",
+    "packages/db/schema.sql": "c6d8822f91d5dc0f9715f15aa2cc74ada3deaaf5b0588716e51871fa71f8119d",
     "packages/db/taxonomy.ts": "d5075774669292ad62b867772611c8acd0b865bcb32261db797e02274ee375ee",
     "packages/maps/leaflet.ts": "570e191119d0fce6004cef96f4bad3eea852b463c051c580099fd8ca5d0f8438",
     "packages/maps/provider.ts": "bd04b6dfc5878e27d3f4ec8b498a646e370116f2387be3da8708fb0641b945d5",
@@ -47,7 +48,7 @@
     "packages/shared/exploration.ts": "6e00f35fabf5f6d2faecccb34c87c21c96474be75674f961e0c40590e9ed9303",
     "packages/shared/taxonomy.ts": "e5fb7935d6f6db0c4bb5af0167a3b376203bf6de2d0d160e4791796ed529e209",
     "packages/shared/types.ts": "f6fe1841100c232fe56dc0c2530242a40b067fad13251877cf0a0fde87025fda",
-    "scripts/audit-coverage.ts": "2897d05f9cb6a9f755b84353aea803ae14c041ad45da9f3a0c88e5f5f7ae2203",
+    "scripts/audit-coverage.ts": "fc80b8d2ef0d51cca28251ce965f2a3100e650eed0c7ca7f40af60f52a03a8cb",
     "scripts/database.ts": "667fc4d443d548b2d83a851075eb67fcc5fdebb9609c8e83be8c6e0bebb3761e"
   },
   "metrics": [
@@ -318,7 +319,7 @@
     {
       "id": "subtraditions",
       "label": "Subtraditions",
-      "seeded": 14,
+      "seeded": 42,
       "persisted": null,
       "reviewed": null,
       "exposed": null,

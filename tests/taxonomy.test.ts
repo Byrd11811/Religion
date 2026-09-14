@@ -9,11 +9,13 @@ import {
 
 test("source-backed taxonomy preserves nonexclusive reviewed branch records", () => {
   validateTaxonomy([...navigationNodes, ...subtraditions], taxonomyEdges);
-  assert.equal(subtraditions.length, 14);
+  assert.equal(subtraditions.length, 42);
   assert.ok(subtraditions.every((node) => node.sourceRefs.length > 0));
   assert.ok(
     subtraditions.every(
-      (node) => node.workIds.length === 0 && node.reviewStatus.includes("incomplete"),
+      (node) =>
+        node.workIds.length === 0 &&
+        /(incomplete|required)/i.test(node.reviewStatus),
     ),
   );
   const sufi = taxonomyEdges.find((edge) => edge.childId === "branch-sufi");
@@ -26,6 +28,24 @@ test("source-backed taxonomy preserves nonexclusive reviewed branch records", ()
         edge.relationship === "within",
     ),
   );
+  for (const parentId of [
+    "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+    "ancient-egypt",
+    "china",
+    "african-traditions",
+    "north-american-indigenous-traditions",
+    "mesoamerica",
+    "oceania-polynesia",
+    "new-religious-movements-modern-revelation",
+  ])
+    assert.ok(
+      taxonomyEdges.some((edge) => edge.parentId === parentId),
+      `${parentId} should expose a reviewed child record`,
+    );
+  assert.equal(
+    taxonomyEdges.filter((edge) => edge.childId === "china-buddhist").length,
+    2,
+  );
 });
 
 test("taxonomy validation rejects unsourced nodes and cycles", () => {
@@ -37,16 +57,20 @@ test("taxonomy validation rejects unsourced nodes and cycles", () => {
   );
   assert.throws(
     () =>
-      validateTaxonomy([...navigationNodes, ...subtraditions], [
-        ...taxonomyEdges,
-        {
-          parentId: "branch-zen",
-          childId: "branch-mahayana",
-          relationship: "within",
-          sourceUrl: "https://pluralism.org/mahayana-buddhism",
-          notes: "Invalid reverse relationship used only as a validation fixture.",
-        },
-      ]),
+      validateTaxonomy(
+        [...navigationNodes, ...subtraditions],
+        [
+          ...taxonomyEdges,
+          {
+            parentId: "branch-zen",
+            childId: "branch-mahayana",
+            relationship: "within",
+            sourceUrl: "https://pluralism.org/mahayana-buddhism",
+            notes:
+              "Invalid reverse relationship used only as a validation fixture.",
+          },
+        ],
+      ),
     /Taxonomy cycle/,
   );
 });

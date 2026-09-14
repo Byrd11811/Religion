@@ -39,7 +39,6 @@ Run typecheck, lint, core tests, browser tests and production build. The new tes
 
 Verified for this milestone: 14 core tests and nine browser tests pass; lint, TypeScript and production build pass. Browser checks confirm that museum images load, image navigation changes the selection and zoom is keyboard-operable. API response snapshots retain their original bytes in Git for source-hash verification.
 
-
 ## Completion roadmap Phase 0 — repository instrumentation
 
 Implemented a reproducible read-only audit: `npm run audit:coverage` generates five reports and `npm run audit:check` detects source/report drift in CI. See [coverage](generated/coverage.md), [requirement matrix](generated/requirements.md), [corpus targets](generated/corpus-targets.json), and [model decisions](phase-0-model-evaluation.md).
@@ -50,7 +49,6 @@ The reports include 59 metrics, all 110 audit sections, 23 expansion and 35 hist
 
 Validation: seven audit regressions and all 14 existing core tests passed; all nine browser tests passed against an isolated production server and temporary database. TypeScript, lint, production build and deterministic report checks passed. Browser tests verify existing workflows, not completion of the new historical domains.
 
-
 ## Phase 1 — map and timeline repair slice
 
 All 37 existing coordinate-bearing works are mapped by default, including the 11 undated anchors previously excluded; the 215 works without coordinates remain discoverable. Scoped counts follow layer, community, region, geographic evidence and source/image availability. Coincident records share an unchanged anchor. A provider boundary preserves attribution, cancellation and an accessible list when tiles fail.
@@ -60,3 +58,11 @@ The chronology spans 5000 BCE to the current year, excludes year zero and retain
 Corpus totals are unchanged. This is a repair slice, not completion of mature historical geography: sourced borders, conflict transitions, independent snapshots, cultural-region geometry, additional event classes and reviewed site coordinates remain required. Earlier Phase 0 numbers above are retained as the starting baseline; generated reports now reflect the repaired map predicate.
 
 Phase 1 repair validation (2026-09-14): 12 focused audit/exploration tests and all 13 browser tests passed, including four new spatial/API regressions. TypeScript, ESLint and production build passed. Browser checks used an isolated production server and temporary database. No corpus, private database or source ingestion was changed.
+
+## Phase 2 — taxonomy foundation in progress
+
+All 26 legacy tradition IDs and routes remain intact. A normalized `tradition_hierarchy` table and idempotent synchronizer now persist 42 source-backed branch, community, regional and practice-context nodes with 48 cited, nonexclusive relationships. The first coverage spans the roadmap's priority groupings: Mesopotamia, Egypt, China, Ethiopia/Eritrea/Horn, North American Indigenous, Mesoamerica, Africa, Oceania, India/Hindu traditions, Buddhism, Christianity, Islam and modern movements. Chinese Buddhism and several Horn records have multiple parents so regional and tradition navigation can coexist.
+
+The tradition UI and `/api/taxonomy` expose sources, relationship notes, review status and the absence of reviewed work assignments. Public Indigenous and Oceanic starter records preserve community-protocol gates. This is meaningful introductory coverage, not completion of the Phase 2 taxonomy: most named communities and deeper school/lineage relations remain unresearched, temporal relation fields and curated override tooling remain outstanding, and the separate Phase 2 evidence/event/research-queue foundations are still required.
+
+The unresolved-research foundation now has durable lead and event-history tables plus a server-only transition service. Ten workflow states remain distinct. Publication is rejected unless a provisionally resolved lead has an HTTPS source, an explicit target, and completed rights, cultural and scholarly reviews. No public API, search adapter or model-retrieval adapter reads this queue, so merely recording a lead cannot publish it as fact. The Phase 26 curator interface and real reviewed leads remain incomplete; repository baseline coverage therefore continues to report zero research-queue corpus records.

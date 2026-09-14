@@ -6,6 +6,8 @@ test("taxonomy API exposes source-backed, nonexclusive branches without assignin
   const response = await request.get("/api/taxonomy");
   expect(response.ok()).toBeTruthy();
   const taxonomy = await response.json();
+  expect(taxonomy.nodes).toHaveLength(68);
+  expect(taxonomy.edges).toHaveLength(48);
   const theravada = taxonomy.nodes.find(
     (node: { id: string }) => node.id === "branch-theravada",
   );

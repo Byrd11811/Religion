@@ -66,7 +66,7 @@ Catalog coverage is broad; detailed scholarly coverage is intentionally more lim
 
 The local question/comparison engine retrieves evidence and provides three cited editorial guides and two textual-tension examples. These provisional readings distinguish textual differences from possible reconciliations. Free-form model synthesis requires a configured provider. Trade-route overlays, original-language transcription, manuscript variant alignment and comprehensive scholarly annotation require additional sourced datasets; they are not fabricated in the interface.
 
-The full historical translation files retain Project Gutenberg license information. Public-domain status is stated for the USA. Contemporary copyrighted works such as *The Satanic Bible* remain metadata-only. Oral traditions are not reduced to one fixed canon. See `docs/source-policy.md`, `docs/copyright-policy.md`, and `docs/coverage.md`.
+The full historical translation files retain Project Gutenberg license information. Public-domain status is stated for the USA. Contemporary copyrighted works such as _The Satanic Bible_ remain metadata-only. Oral traditions are not reduced to one fixed canon. See `docs/source-policy.md`, `docs/copyright-policy.md`, and `docs/coverage.md`.
 
 ## Reproduce the corpus
 
@@ -96,11 +96,19 @@ The map includes all 37 existing work anchors by default, including records with
 
 `/api/map?view=coverage` and `/api/timeline?view=coverage&layer=witness` return typed records, source context and scoped counts. Legacy record-array responses remain available; unknown-date records are included by default (`undated=false` excludes them). Invalid years, evidence states and boolean filters return 400. Historical borders, religious-influence geometry and conflict transitions still require sourced datasets.
 
+## Tradition taxonomy
+
+Tradition pages retain all 26 original catalog groupings and add a source-backed, nonexclusive taxonomy graph. The current seed contains 42 introductory branch, community, regional and practice-context records connected by 48 sourced relationships. Chinese Buddhism and Horn communities demonstrate multiple navigation parents; this does not assert exclusive membership or collapse regional identities into one institution. New records have no automatic text assignments, and Indigenous/Oceanic entries explicitly retain community-protocol review gates.
+
+`/api/taxonomy` returns the persisted nodes, cited relationships and current limitation statement. Repeated initialization adds missing source records without replacing legacy IDs or curator-edited rows. The current hierarchy is a Phase 2 foundation, not complete global community coverage.
+
+Unverified research leads use a separate durable queue with explicit source, rights, cultural and scholarly review states. Publishing requires HTTPS evidence, a destination record and completed review gates. The queue has no public API and does not enter search or model synthesis; its curator interface remains scheduled for Phase 26.
+
 ## Completion baseline
 
 Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.
 
-The audit reports 59 metrics, maps all 110 authoritative audit sections and 58 quality rules, and preserves the 250 original title requirements (248 distinct targets) plus all 53 expansion sections. Catalog presence is separate from reviewed depth and completion. See [Phase 0 model evaluation](docs/phase-0-model-evaluation.md) for normalization decisions and representative acceptance targets. The authoritative execution order remains [the completion roadmap](docs/atlas-completion-roadmap.md).
+The audit reports 59 metrics, maps all 114 authoritative audit sections and 58 quality rules, and preserves the 250 original title requirements (248 distinct targets) plus all 53 expansion sections. Catalog presence is separate from reviewed depth and completion. See [Phase 0 model evaluation](docs/phase-0-model-evaluation.md) for normalization decisions and representative acceptance targets. The authoritative execution order remains [the completion roadmap](docs/atlas-completion-roadmap.md).
 
 ## Verification
 

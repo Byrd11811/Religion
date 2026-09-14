@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — Phase 2 taxonomy foundation
+
+- Added 42 sourced branch, community, regional and practice-context records with 48 nonexclusive relationships while preserving all legacy tradition IDs.
+- Added persisted taxonomy synchronization, `/api/taxonomy`, tradition-page discovery, source links and explicit no-auto-assignment limitations.
+- Added multi-parent navigation for regional/tradition overlap and cultural-protocol warnings for public Indigenous and Oceanic starter records.
+- Added a durable unresolved-research queue and transition history with enforced publication gates; no public retrieval route was added.
+- Integrated the expanded missing-dimensions audit into the authoritative requirements and roadmap.
+
 ## Unreleased — Phase 1 map/timeline repairs
 
 - Retain undated anchors and unlocated records, with scoped coverage and evidence filters.
