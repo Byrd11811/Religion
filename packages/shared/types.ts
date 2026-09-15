@@ -59,6 +59,14 @@ export interface Passage {
   content: string;
   sourceUrl: string;
   themes: string[];
+  contentType:
+    | "Primary text"
+    | "Translator note"
+    | "Editorial introduction"
+    | "Scholarly commentary"
+    | "Footnote"
+    | "Appendix"
+    | "Unknown";
 }
 export interface SearchHit extends Passage {
   score: number;

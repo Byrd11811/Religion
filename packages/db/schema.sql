@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS passages (id text PRIMARY KEY, text_id text NOT NULL 
 CREATE INDEX IF NOT EXISTS passages_search_idx ON passages USING gin(search_document);
 CREATE INDEX IF NOT EXISTS passages_text_idx ON passages(text_id);
 ALTER TABLE passages ADD COLUMN IF NOT EXISTS embedding_model text;
+ALTER TABLE passages ADD COLUMN IF NOT EXISTS content_type text NOT NULL DEFAULT 'Unknown' CHECK(content_type IN ('Primary text','Translator note','Editorial introduction','Scholarly commentary','Footnote','Appendix','Unknown'));
 CREATE TABLE IF NOT EXISTS themes (id text PRIMARY KEY, name text UNIQUE NOT NULL, description text, parent_id text REFERENCES themes(id));
 CREATE TABLE IF NOT EXISTS passage_themes (passage_id text REFERENCES passages(id),theme_id text REFERENCES themes(id),relevance_score real,classification_method text,confidence text,PRIMARY KEY(passage_id,theme_id));
 CREATE TABLE IF NOT EXISTS people (id text PRIMARY KEY,name text NOT NULL,role text,birth_date integer,death_date integer,region text,description text);

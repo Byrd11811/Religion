@@ -44,6 +44,7 @@ export function Library({
     [theme, setTheme] = useState(""),
     [full, setFull] = useState(false),
     [category, setCategory] = useState(""),
+    [sourceType, setSourceType] = useState(""),
     [before, setBefore] = useState(""),
     [after, setAfter] = useState(""),
     [advanced, setAdvanced] = useState(false),
@@ -74,7 +75,7 @@ export function Library({
     try {
       setHits(
         await api<SearchHit[]>(
-          `/api/search?q=${encodeURIComponent(query)}${query.startsWith('"') ? "&exact=true" : ""}`,
+          `/api/search?q=${encodeURIComponent(query)}${query.startsWith('"') ? "&exact=true" : ""}${sourceType ? `&contentType=${encodeURIComponent(sourceType)}` : ""}`,
         ),
       );
     } catch (e) {
@@ -202,6 +203,26 @@ export function Library({
                 reset();
               }}
             />
+          </label>
+          <label>
+            Passage source type
+            <select
+              aria-label="Filter passage source type"
+              value={sourceType}
+              onChange={(e) => {
+                setSourceType(e.target.value);
+                setHits([]);
+              }}
+            >
+              <option value="">All source types</option>
+              <option>Primary text</option>
+              <option>Translator note</option>
+              <option>Editorial introduction</option>
+              <option>Scholarly commentary</option>
+              <option>Footnote</option>
+              <option>Appendix</option>
+              <option>Unknown</option>
+            </select>
           </label>
         </div>
       )}

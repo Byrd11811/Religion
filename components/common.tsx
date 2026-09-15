@@ -140,7 +140,11 @@ export function PassageCard({
         <Link href={`/texts/${passage.textId}`}>
           <h3>{passage.textTitle}</h3>
         </Link>
-        <Badge level="A">Edition excerpt</Badge>
+        <Badge
+          level={passage.contentType === "Primary text" ? "A" : "Unreviewed"}
+        >
+          {passage.contentType}
+        </Badge>
       </div>
       <p className="small muted">
         {passage.tradition} · {passage.reference}
@@ -150,9 +154,7 @@ export function PassageCard({
           ? passage.content.slice(0, 650) + "…"
           : passage.content}
       </blockquote>
-      <p className="small muted">
-        {passage.translator} · English edition; may include commentary
-      </p>
+      <p className="small muted">{passage.translator} · English edition</p>
       <div className="row">
         <button className="text-button" onClick={() => onOpen(passage)}>
           Open citation <ArrowUpRight size={15} />
@@ -225,7 +227,11 @@ export function CitationDrawer({
   const [copied, setCopied] = useState(false);
   return (
     <Dialog title="Source & citation" onClose={onClose}>
-      <Badge level="A">Verbatim edition segment</Badge>
+      <Badge
+        level={passage.contentType === "Primary text" ? "A" : "Unreviewed"}
+      >
+        {passage.contentType}
+      </Badge>
       <h3>{passage.textTitle}</h3>
       <blockquote className="full-passage">{passage.content}</blockquote>
       <dl className="metadata">
@@ -239,6 +245,8 @@ export function CitationDrawer({
         <dd>{passage.translator}</dd>
         <dt>Language</dt>
         <dd>English translation / edition</dd>
+        <dt>Content type</dt>
+        <dd>{passage.contentType}</dd>
         <dt>Rights</dt>
         <dd>{ed?.license}</dd>
       </dl>

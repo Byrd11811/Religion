@@ -8,6 +8,12 @@
 - Added a durable unresolved-research queue and transition history with enforced publication gates; no public retrieval route was added.
 - Integrated the expanded missing-dimensions audit into the authoritative requirements and roadmap.
 
+## Unreleased — Phase 3 passage source classification
+
+- Added explicit passage content types to seed data, database persistence, search results, reader cards and citation details.
+- Conservatively classified 9,773 exact-book segments as primary text and 199 study-edition segments as scholarly commentary; retained 11,019 mixed segments as Unknown.
+- Added content-type search filtering and primary-evidence preference for questions without suppressing unknown material.
+
 ## Unreleased — Phase 1 map/timeline repairs
 
 - Retain undated anchors and unlocated records, with scoped coverage and evidence filters.

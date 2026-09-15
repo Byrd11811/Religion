@@ -85,7 +85,7 @@ async function main() {
     for (const p of allPassages()) {
       const e = editions.find((e) => e.id === p.editionId)!;
       await client.query(
-        "INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9,$10) ON CONFLICT(id) DO UPDATE SET translation=EXCLUDED.translation,metadata=EXCLUDED.metadata",
+        "INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9,$10,$11) ON CONFLICT(id) DO UPDATE SET translation=EXCLUDED.translation,content_type=EXCLUDED.content_type,metadata=EXCLUDED.metadata",
         [
           p.id,
           p.textId,
@@ -96,6 +96,7 @@ async function main() {
           e.translator,
           e.license,
           p.sourceUrl,
+          p.contentType,
           JSON.stringify(p),
         ],
       );

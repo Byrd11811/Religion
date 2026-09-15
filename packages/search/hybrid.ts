@@ -19,6 +19,11 @@ export async function hybridSearch(
     const p = row.metadata,
       t = texts.find((t) => t.id === p.textId);
     if (!t) continue;
+    if (
+      options.contentTypes?.length &&
+      !options.contentTypes.includes(p.contentType)
+    )
+      continue;
     if (options.textIds?.length && !options.textIds.includes(t.id)) continue;
     if (options.editionIds?.length && !options.editionIds.includes(p.editionId))
       continue;
@@ -45,7 +50,10 @@ export async function hybridSearch(
       tradition: t.tradition,
       translator:
         editions.find((e) => e.id === p.editionId)?.translator ?? "Unknown",
-      score: (prev?.score ?? 0) + Number(row.rank),
+      score:
+        (prev?.score ?? 0) +
+        Number(row.rank) +
+        (options.preferPrimary && p.contentType === "Primary text" ? 0.5 : 0),
     });
   }
   const all = [...candidates.values()].sort((a, b) => b.score - a.score);

@@ -125,7 +125,7 @@ async function initialize(): Promise<AtlasDatabase> {
           translator: editions.find((e) => e.id === p.editionId)!.translator,
         }));
         await tx.query(
-          `INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,metadata) SELECT v->>'id',v->>'textId',v->>'editionId',(v->>'sequence')::int,v->>'reference',v->>'content',v->>'translator','Public domain in the USA; retain edition license',true,v->>'sourceUrl',v FROM jsonb_array_elements($1::jsonb) AS v`,
+          `INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) SELECT v->>'id',v->>'textId',v->>'editionId',(v->>'sequence')::int,v->>'reference',v->>'content',v->>'translator','Public domain in the USA; retain edition license',true,v->>'sourceUrl',v->>'contentType',v FROM jsonb_array_elements($1::jsonb) AS v`,
           [JSON.stringify(batch)],
         );
       }
@@ -178,6 +178,17 @@ async function initialize(): Promise<AtlasDatabase> {
           );
       }
     });
+  }
+  const classifiedPassages = JSON.parse(
+    readFileSync(path.join(process.cwd(), "data/seed/passages.json"), "utf8"),
+  ) as Passage[];
+  for (let i = 0; i < classifiedPassages.length; i += 500) {
+    const batch = classifiedPassages.slice(i, i + 500);
+    await db.query(
+      `UPDATE passages AS p SET content_type=v->>'contentType',metadata=v
+       FROM jsonb_array_elements($1::jsonb) AS v WHERE p.id=v->>'id'`,
+      [JSON.stringify(batch)],
+    );
   }
   await db.transaction(async (tx) => {
     await syncTaxonomy(tx);

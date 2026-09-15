@@ -190,15 +190,31 @@ export async function GET(req: NextRequest, { params }: Context) {
       }
       case "graph":
         return send(relationships);
-      case "search":
+      case "search": {
+        const contentType = q.getAll("contentType");
+        const validContentTypes = [
+          "Primary text",
+          "Translator note",
+          "Editorial introduction",
+          "Scholarly commentary",
+          "Footnote",
+          "Appendix",
+          "Unknown",
+        ] as const;
+        const validContentTypeSet = new Set<string>(validContentTypes);
+        if (contentType.some((type) => !validContentTypeSet.has(type)))
+          return send({ error: "Invalid content type" }, 400);
         return send(
           await hybridSearch(q.get("q") ?? "", {
             textIds: q.getAll("text"),
             editionIds: q.getAll("edition"),
             limit: Math.min(Number(q.get("limit")) || 24, 100),
             exact: q.get("exact") === "true",
+            contentTypes: contentType as (typeof validContentTypes)[number][],
+            preferPrimary: q.get("preferPrimary") !== "false",
           }),
         );
+      }
       case "passages": {
         if (id) {
           const p = allPassages().find((p) => p.id === id);

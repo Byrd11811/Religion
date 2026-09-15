@@ -113,6 +113,26 @@ test("exact search returns verbatim content and honors text restrictions", () =>
     );
   }
 });
+test("source-type filtering never presents scholarly studies as primary text", () => {
+  const primary = search("God", {
+    contentTypes: ["Primary text"],
+    limit: 20,
+  });
+  assert.ok(primary.length > 0);
+  assert.ok(primary.every((p) => p.contentType === "Primary text"));
+  const commentary = search("Gilgamesh", {
+    contentTypes: ["Scholarly commentary"],
+    limit: 20,
+  });
+  assert.ok(commentary.length > 0);
+  assert.ok(
+    commentary.every(
+      (p) =>
+        p.contentType === "Scholarly commentary" &&
+        p.editionId === "pg-11000-epic-of-gilgamesh",
+    ),
+  );
+});
 test("unknown queries never fabricate source results", () => {
   assert.deepEqual(search("zxqvnonexistentword"), []);
   assert.deepEqual(search("the and what"), []);

@@ -95,6 +95,7 @@ export async function answerQuestion(
     ...filters,
     diverse: true,
     limit: 12,
+    preferPrimary: true,
   });
   const themes = detectConcepts(question);
   const guide = guideFor(question, filters);

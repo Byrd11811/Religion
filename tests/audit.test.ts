@@ -44,8 +44,9 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("searchableWorks").seeded, 43);
   assert.equal(get("completeEditionWorks").seeded, 41);
   assert.equal(get("passages").seeded, 20991);
-  assert.equal(get("primaryPassages").seeded, 0);
-  assert.equal(get("unclassifiedPassages").seeded, 20991);
+  assert.equal(get("primaryPassages").seeded, 9773);
+  assert.equal(get("editorialPassages").seeded, 199);
+  assert.equal(get("unclassifiedPassages").seeded, 11019);
   assert.equal(get("mappedWorks").seeded, 37);
   assert.equal(get("coordinateWorks").seeded, 37);
   assert.equal(get("languageMetadataWorks").seeded, 43);

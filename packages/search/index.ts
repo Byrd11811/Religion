@@ -44,6 +44,8 @@ export interface SearchOptions {
   diverse?: boolean;
   exact?: boolean;
   theme?: string;
+  contentTypes?: Passage["contentType"][];
+  preferPrimary?: boolean;
 }
 export function search(
   query: string,
@@ -75,6 +77,11 @@ export function search(
       const p = passages[i],
         t = textMap.get(p.textId);
       if (!t) return [];
+      if (
+        options.contentTypes?.length &&
+        !options.contentTypes.includes(p.contentType)
+      )
+        return [];
       if (options.textIds?.length && !options.textIds.includes(t.id)) return [];
       if (
         options.editionIds?.length &&
@@ -108,7 +115,11 @@ export function search(
         {
           ...p,
           score:
-            score + detected.filter((k) => p.themes.includes(k)).length * 0.25,
+            score +
+            detected.filter((k) => p.themes.includes(k)).length * 0.25 +
+            (options.preferPrimary && p.contentType === "Primary text"
+              ? 0.5
+              : 0),
           textTitle: t.title,
           tradition: t.tradition,
           translator: editionMap.get(p.editionId)?.translator ?? "Unknown",

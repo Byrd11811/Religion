@@ -104,6 +104,10 @@ Tradition pages retain all 26 original catalog groupings and add a source-backed
 
 Unverified research leads use a separate durable queue with explicit source, rights, cultural and scholarly review states. Publishing requires HTTPS evidence, a destination record and completed review gates. The queue has no public API and does not enter search or model synthesis; its curator interface remains scheduled for Phase 26.
 
+## Passage source classification
+
+Every bundled segment now carries an explicit source type. The conservative first pass marks 9,773 segments from exact KJV book extractions as `Primary text`, 199 segments from the bundled Gilgamesh and Egyptian Book of the Dead scholarly studies as `Scholarly commentary`, and leaves 11,019 mixed historical-edition segments as `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
+
 ## Completion baseline
 
 Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.

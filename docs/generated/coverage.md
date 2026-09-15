@@ -15,9 +15,9 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | completeEditionWorks | Complete named-work/edition coverage | 41 | Unknown | Unknown | Unknown | Unknown | No |
 | metadataOnly | Works without source editions | 209 | Unknown | Unknown | Unknown | Unknown | No |
 | passages | Edition segments | 20991 | Unknown | Unknown | Unknown | Unknown | No |
-| primaryPassages | Explicitly classified primary segments | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| editorialPassages | Explicitly classified editorial segments | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| unclassifiedPassages | Unclassified/unknown segments | 20991 | Unknown | Unknown | Unknown | Unknown | No |
+| primaryPassages | Explicitly classified primary segments | 9773 | Unknown | Unknown | Unknown | Unknown | No |
+| editorialPassages | Explicitly classified editorial segments | 199 | Unknown | Unknown | Unknown | Unknown | No |
+| unclassifiedPassages | Unclassified/unknown segments | 11019 | Unknown | Unknown | Unknown | Unknown | No |
 | witnesses | Physical witnesses | 8 | Unknown | Unknown | Unknown | Unknown | No |
 | artifacts | Museum artifacts | 8 | Unknown | Unknown | Unknown | Unknown | No |
 | images | Archive image references | 57 | Unknown | Unknown | Unknown | Unknown | No |
