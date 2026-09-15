@@ -11,12 +11,20 @@ const stop = new Set(
   ),
 );
 export function allPassages() {
-  return (cached ??= JSON.parse(
-    fs.readFileSync(
-      path.join(process.cwd(), "data/seed/passages.json"),
-      "utf8",
-    ),
-  ) as Passage[]);
+  return (cached ??= [
+    ...(JSON.parse(
+      fs.readFileSync(
+        path.join(process.cwd(), "data/seed/passages.json"),
+        "utf8",
+      ),
+    ) as Passage[]),
+    ...(JSON.parse(
+      fs.readFileSync(
+        path.join(process.cwd(), "data/seed/egypt-passages.json"),
+        "utf8",
+      ),
+    ) as Passage[]),
+  ]);
 }
 function getIndex() {
   if (index) return index;

@@ -8,14 +8,14 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 
 | ID | Metric | Seeded | Persisted | Reviewed | Exposed | Tested | Complete |
 |---|---|---:|---|---|---|---|---|
-| works | Catalog/work records | 254 | Unknown | Unknown | Unknown | Unknown | No |
+| works | Catalog/work records | 257 | Unknown | Unknown | Unknown | Unknown | No |
 | traditions | Broad tradition groupings | 26 | Unknown | Unknown | Unknown | Unknown | No |
-| editions | Source editions | 44 | Unknown | Unknown | Unknown | Unknown | No |
-| searchableWorks | Searchable edition-backed works | 43 | Unknown | Unknown | Unknown | Unknown | No |
-| completeEditionWorks | Complete named-work/edition coverage | 41 | Unknown | Unknown | Unknown | Unknown | No |
-| metadataOnly | Works without source editions | 211 | Unknown | Unknown | Unknown | Unknown | No |
-| passages | Edition segments | 20991 | Unknown | Unknown | Unknown | Unknown | No |
-| primaryPassages | Explicitly classified primary segments | 9773 | Unknown | Unknown | Unknown | Unknown | No |
+| editions | Source editions | 50 | Unknown | Unknown | Unknown | Unknown | No |
+| searchableWorks | Searchable edition-backed works | 49 | Unknown | Unknown | Unknown | Unknown | No |
+| completeEditionWorks | Complete named-work/edition coverage | 45 | Unknown | Unknown | Unknown | Unknown | No |
+| metadataOnly | Works without source editions | 208 | Unknown | Unknown | Unknown | Unknown | No |
+| passages | Edition segments | 21053 | Unknown | Unknown | Unknown | Unknown | No |
+| primaryPassages | Explicitly classified primary segments | 9835 | Unknown | Unknown | Unknown | Unknown | No |
 | editorialPassages | Explicitly classified editorial segments | 199 | Unknown | Unknown | Unknown | Unknown | No |
 | unclassifiedPassages | Unclassified/unknown segments | 11019 | Unknown | Unknown | Unknown | Unknown | No |
 | witnesses | Physical witnesses | 8 | Unknown | Unknown | Unknown | Unknown | No |
@@ -24,12 +24,12 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | rightsAttributedImages | Images with source/rights/attribution | 57 | Unknown | Unknown | Unknown | Unknown | No |
 | relationships | Curated relationship records | 3 | Unknown | Unknown | Unknown | Unknown | No |
 | datedWorks | Works with start dates | 34 | Unknown | Unknown | Unknown | Unknown | No |
-| undatedWorks | Works without start dates | 220 | Unknown | Unknown | Unknown | Unknown | No |
+| undatedWorks | Works without start dates | 223 | Unknown | Unknown | Unknown | Unknown | No |
 | coordinateWorks | Works with coordinates | 37 | Unknown | Unknown | Unknown | Unknown | No |
-| unlocatedWorks | Works without coordinates | 217 | Unknown | Unknown | Unknown | Unknown | No |
+| unlocatedWorks | Works without coordinates | 220 | Unknown | Unknown | Unknown | Unknown | No |
 | mappedWorks | Map-eligible works through 2026 | 37 | Unknown | Unknown | 37 | Unknown | No |
 | timelineWorks | Timeline-eligible works through 2026 | 34 | Unknown | Unknown | Unknown | Unknown | No |
-| languageMetadataWorks | Works with language metadata | 47 | Unknown | Unknown | Unknown | Unknown | No |
+| languageMetadataWorks | Works with language metadata | 51 | Unknown | Unknown | Unknown | Unknown | No |
 | subtraditions | Subtraditions | 42 | Unknown | Unknown | Unknown | Unknown | No |
 | recensions | Recensions / textual families | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 0 | Unknown | Unknown | Unknown | Unknown | No |

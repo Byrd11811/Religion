@@ -36,6 +36,8 @@ const knownSeeds = [
   "downloads.json",
   "editions.json",
   "egypt-additions.json",
+  "egypt-editions.json",
+  "egypt-passages.json",
   "images.json",
   "passages.json",
   "relationships.json",
@@ -67,6 +69,8 @@ const sourcePaths = [
   "packages/ai/index.ts",
   "scripts/database.ts",
   "scripts/classify.ts",
+  "scripts/ingest-egypt.ts",
+  "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
   "components/FederatedSearch.tsx",
@@ -106,7 +110,10 @@ const input = {
   witnesses,
   artifacts: museumArtifacts,
   images: archiveImages,
-  passages: parsedSeeds.get("passages.json") as Passage[],
+  passages: [
+    ...(parsedSeeds.get("passages.json") as Passage[]),
+    ...(parsedSeeds.get("egypt-passages.json") as Passage[]),
+  ],
   additionalCollections: Object.fromEntries(
     absentDatasets.map(([id]) => {
       const records: { id: string }[] = [];

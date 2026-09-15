@@ -45,4 +45,28 @@ test("reader labels reviewed primary text and scholarly study excerpts", async (
   await expect(page.locator(".passage-card").first()).toContainText(
     "Scholarly commentary",
   );
+
+  await page.goto("/texts/tale-of-sinuhe");
+  await expect(page.getByText("W. M. Flinders Petrie · English")).toBeVisible();
+  await page.getByRole("button", { name: "Read edition", exact: true }).click();
+  await expect(page.locator(".passage-card").first()).toContainText(
+    "Primary text",
+  );
+});
+
+test("Egyptian translation search remains scoped to reviewed primary text", async ({
+  request,
+}) => {
+  const response = await request.get(
+    "/api/search?q=king&text=tale-of-sinuhe&contentType=Primary%20text",
+  );
+  expect(response.ok()).toBeTruthy();
+  const rows = await response.json();
+  expect(rows.length).toBeGreaterThan(0);
+  expect(
+    rows.every(
+      (row: { textId: string; contentType: string }) =>
+        row.textId === "tale-of-sinuhe" && row.contentType === "Primary text",
+    ),
+  ).toBeTruthy();
 });

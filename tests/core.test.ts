@@ -51,19 +51,23 @@ test("ingested editions preserve every source word in sequence", () => {
       .replace(/\r\n|\r/g, "\n");
     if (e.sourceSections) {
       const full = original;
-      const headingIndex = (h: string) => {
+      const headingIndex = (h: string, occurrence?: number) => {
         const escaped = h.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         const matches = [
           ...full.matchAll(new RegExp("^[ \\t]*" + escaped + "[ \\t]*$", "gm")),
         ];
         assert.ok(matches.length);
-        return matches.at(-1)!.index!;
+        return (
+          occurrence === undefined ? matches.at(-1) : matches[occurrence]
+        )!.index!;
       };
       original = e.sourceSections
         .map((s) =>
           full.slice(
-            headingIndex(s.startHeading),
-            s.endHeading ? headingIndex(s.endHeading) : full.length,
+            headingIndex(s.startHeading, s.startOccurrence),
+            s.endHeading
+              ? headingIndex(s.endHeading, s.endOccurrence)
+              : full.length,
           ),
         )
         .join("\n\n");
@@ -88,22 +92,43 @@ test("catalog has unique records and valid tradition/edition references", () => 
       assert.ok(t.endDate !== null && t.startDate <= t.endDate);
   }
 });
-test("Egypt starter expansion keeps sourced metadata separate from editions", () => {
+test("Egypt expansion distinguishes sourced metadata from bounded editions", () => {
   const sinuhe = texts.find((text) => text.id === "tale-of-sinuhe");
   const westcar = texts.find((text) => text.id === "westcar-papyrus-tales");
   const pyramid = texts.find((text) => text.id === "pyramid-texts");
   assert.ok(
     sinuhe?.metadataSources.every((source) => source.startsWith("https://")),
   );
-  assert.equal(sinuhe?.editionId, null);
-  assert.equal(westcar?.editionId, null);
+  assert.equal(sinuhe?.editionId, "pg-7386-tale-of-sinuhe");
+  assert.equal(westcar?.editionId, "pg-7386-westcar-papyrus-tales");
   assert.equal(pyramid?.confidence, "B");
   assert.equal(pyramid?.lat, null);
-  assert.equal(
-    editions.some((edition) =>
-      [sinuhe?.id, westcar?.id].includes(edition.textId),
+  const egyptPassages = allPassages().filter(
+    (passage) =>
+      passage.editionId.startsWith("pg-7386-") ||
+      passage.editionId.startsWith("pg-30508-"),
+  );
+  assert.equal(egyptPassages.length, 62);
+  assert.ok(
+    egyptPassages.every((passage) => passage.contentType === "Primary text"),
+  );
+  assert.ok(
+    egyptPassages.every(
+      (passage) => !/(^|\n)\s*Remarks\s*($|\n)/m.test(passage.content),
     ),
-    false,
+  );
+  assert.equal(
+    new Set(egyptPassages.map((passage) => passage.editionId)).size,
+    6,
+  );
+  assert.ok(
+    editions
+      .filter(
+        (edition) =>
+          edition.id.startsWith("pg-7386-") ||
+          edition.id.startsWith("pg-30508-"),
+      )
+      .every((edition) => edition.sourceSections?.length === 1),
   );
 });
 test("at least twenty distinct works have complete, attributed editions", () => {

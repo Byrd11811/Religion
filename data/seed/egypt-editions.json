@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pg-7386-westcar-papyrus-tales",
+    "textId": "westcar-papyrus-tales",
+    "title": "Westcar Papyrus Tales · W. M. Flinders Petrie",
+    "translator": "W. M. Flinders Petrie",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7386/pg7386.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "4b428132adb2c795d53979fff4f9a5837e8a7334f01c9d1ec8b652371c06b145",
+    "passageCount": 13,
+    "complete": false,
+    "sourceFile": "7386.txt",
+    "sourceSections": [
+      {
+        "startHeading": "KHAFRA'S TALE",
+        "endHeading": "Remarks",
+        "endOccurrence": 0
+      }
+    ],
+    "note": "Surviving translated portion from Petrie's public-domain anthology. The source states that the beginning and end are lost; Atlas excludes the translator's subsequent Remarks section."
+  },
+  {
+    "id": "pg-7386-eloquent-peasant",
+    "textId": "eloquent-peasant",
+    "title": "The Eloquent Peasant · W. M. Flinders Petrie",
+    "translator": "W. M. Flinders Petrie",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7386/pg7386.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "4b428132adb2c795d53979fff4f9a5837e8a7334f01c9d1ec8b652371c06b145",
+    "passageCount": 7,
+    "complete": false,
+    "sourceFile": "7386.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE PEASANT AND THE WORKMAN",
+        "endHeading": "Remarks",
+        "endOccurrence": 1
+      }
+    ],
+    "note": "Translated surviving tale from Petrie's public-domain anthology. The source describes incomplete witnesses; Atlas excludes the translator's subsequent Remarks section."
+  },
+  {
+    "id": "pg-7386-shipwrecked-sailor",
+    "textId": "shipwrecked-sailor",
+    "title": "The Shipwrecked Sailor · W. M. Flinders Petrie",
+    "translator": "W. M. Flinders Petrie",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7386/pg7386.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "4b428132adb2c795d53979fff4f9a5837e8a7334f01c9d1ec8b652371c06b145",
+    "passageCount": 7,
+    "complete": true,
+    "sourceFile": "7386.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE SHIPWRECKED SAILOR",
+        "endHeading": "Remarks",
+        "endOccurrence": 2
+      }
+    ],
+    "note": "Complete translated tale as presented in Petrie's public-domain anthology; Atlas excludes the translator's subsequent Remarks section."
+  },
+  {
+    "id": "pg-7386-tale-of-sinuhe",
+    "textId": "tale-of-sinuhe",
+    "title": "Tale of Sinuhe · W. M. Flinders Petrie",
+    "translator": "W. M. Flinders Petrie",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7386/pg7386.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "4b428132adb2c795d53979fff4f9a5837e8a7334f01c9d1ec8b652371c06b145",
+    "passageCount": 16,
+    "complete": true,
+    "sourceFile": "7386.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE ADVENTURES OF SANEHAT",
+        "endHeading": "Remarks",
+        "endOccurrence": 3
+      }
+    ],
+    "note": "Complete translated narrative as presented under the historical title Adventures of Sanehat in Petrie's public-domain anthology; Atlas excludes the translator's subsequent Remarks section."
+  },
+  {
+    "id": "pg-30508-instruction-of-ptahhotep",
+    "textId": "instruction-of-ptahhotep",
+    "title": "Instruction of Ptahhotep · Battiscombe G. Gunn",
+    "translator": "Battiscombe G. Gunn",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/30508",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/30508/pg30508.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "1e15ea03a013af3bd7541a59768bdc4f83656061ffc429d4660bbb43b43e875d",
+    "passageCount": 17,
+    "complete": true,
+    "sourceFile": "30508.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE INSTRUCTION OF PTAH-HOTEP",
+        "endHeading": "[1] The King."
+      }
+    ],
+    "note": "Named translation from Gunn's public-domain edition. Atlas excludes the introduction and translator footnotes from the primary-text selection."
+  },
+  {
+    "id": "pg-30508-instruction-of-kagemni",
+    "textId": "instruction-of-kagemni",
+    "title": "Instruction of Ke’Gemni · Battiscombe G. Gunn",
+    "translator": "Battiscombe G. Gunn",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/30508",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/30508/pg30508.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "1e15ea03a013af3bd7541a59768bdc4f83656061ffc429d4660bbb43b43e875d",
+    "passageCount": 2,
+    "complete": true,
+    "sourceFile": "30508.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE INSTRUCTION OF KE'GEMNI",
+        "endHeading": "[1] The original is not divided into sections."
+      }
+    ],
+    "note": "Named translation from Gunn's public-domain edition. Atlas excludes the introduction, appendix and translator footnotes from the primary-text selection."
+  }
+]

@@ -36,7 +36,14 @@ export interface Tradition {
 }
 export interface Edition {
   sourceFile?: string;
-  sourceSections?: { startHeading: string; endHeading: string | null }[] | null;
+  sourceSections?:
+    | {
+        startHeading: string;
+        endHeading: string | null;
+        startOccurrence?: number;
+        endOccurrence?: number;
+      }[]
+    | null;
   id: string;
   textId: string;
   title: string;

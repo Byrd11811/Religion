@@ -229,6 +229,16 @@
     "license": "See retained source license and edition-specific rights metadata."
   },
   {
+    "id": 7386,
+    "title": "Egyptian Tales, Translated from the Papyri: First series, IVth to XIIth dynasty",
+    "bytes": 124567,
+    "url": "https://www.gutenberg.org/cache/epub/7386/pg7386.txt",
+    "translator": [
+      "W. M. Flinders Petrie"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
     "id": 7440,
     "title": "The Koran (Al-Qur'an)",
     "bytes": 2496991,
@@ -278,6 +288,17 @@
     "translator": [
       "Valmiki",
       "Ralph T. H. Griffith"
+    ],
+    "license": "See retained source license and edition-specific rights metadata."
+  },
+  {
+    "id": 30508,
+    "title": "The Instruction of Ptah-Hotep and the Instruction of Ke'Gemni",
+    "bytes": 108098,
+    "url": "https://www.gutenberg.org/cache/epub/30508/pg30508.txt",
+    "translator": [
+      "Ptahhotep",
+      "Battiscombe G. Gunn"
     ],
     "license": "See retained source license and edition-specific rights metadata."
   },

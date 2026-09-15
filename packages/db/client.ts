@@ -113,12 +113,15 @@ async function initialize(): Promise<AtlasDatabase> {
             JSON.stringify(e),
           ],
         );
-      const passages = JSON.parse(
-        readFileSync(
-          path.join(process.cwd(), "data/seed/passages.json"),
-          "utf8",
-        ),
-      ) as Passage[];
+      const passages = ["passages.json", "egypt-passages.json"].flatMap(
+        (filename) =>
+          JSON.parse(
+            readFileSync(
+              path.join(process.cwd(), "data/seed", filename),
+              "utf8",
+            ),
+          ) as Passage[],
+      );
       for (let i = 0; i < passages.length; i += 250) {
         const batch = passages.slice(i, i + 250).map((p) => ({
           ...p,
@@ -189,9 +192,12 @@ async function initialize(): Promise<AtlasDatabase> {
       [JSON.stringify(batch)],
     );
   }
-  const classifiedPassages = JSON.parse(
-    readFileSync(path.join(process.cwd(), "data/seed/passages.json"), "utf8"),
-  ) as Passage[];
+  const classifiedPassages = ["passages.json", "egypt-passages.json"].flatMap(
+    (filename) =>
+      JSON.parse(
+        readFileSync(path.join(process.cwd(), "data/seed", filename), "utf8"),
+      ) as Passage[],
+  );
   for (let i = 0; i < classifiedPassages.length; i += 500) {
     const batch = classifiedPassages.slice(i, i + 500);
     await db.query(
