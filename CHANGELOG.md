@@ -18,7 +18,7 @@
 
 - Added a global search route across works, traditions, sourced subtraditions, concepts, reviewed author labels, witnesses, artifacts and edition passages.
 - Added conservative alternate-title aliases and explicit metadata/source availability on entity results.
-- Added Broad, Scholarly, Opposition, Deep Archive and Manuscripts modes with filter-before-limit behavior and validated API filters.
+- Added Broad, Scholarly, Opposition, Deep Archive and Manuscripts modes plus record-type, language/script, region, canon, rights and confidence controls with filter-before-limit behavior and validated API filters.
 
 ## Unreleased — Phase 1 map/timeline repairs
 

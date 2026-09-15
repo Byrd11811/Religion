@@ -110,7 +110,7 @@ Every bundled segment now carries an explicit source type. The conservative firs
 
 ## Federated search
 
-The global search route queries works, broad traditions, sourced subtraditions, concepts, reviewed author labels, physical witnesses, institutional artifacts, and edition passages. Catalog/archive records and quoted passages render in separate sections so metadata-only records remain discoverable without becoming textual evidence. Search aliases cover a conservative set of alternate work titles, and Broad, Scholarly, Opposition, Deep Archive, and Manuscripts modes filter the candidate scope before limits are applied.
+The global search route queries works, broad traditions, sourced subtraditions, concepts, reviewed author labels, physical witnesses, institutional artifacts, and edition passages. Catalog/archive records and quoted passages render in separate sections so metadata-only records remain discoverable without becoming textual evidence. Search aliases cover a conservative set of alternate work titles. Broad, Scholarly, Opposition, Deep Archive, and Manuscripts modes plus record-type, language/script, region, canon, rights, and confidence filters narrow the candidate scope before limits are applied.
 
 ## Completion baseline
 

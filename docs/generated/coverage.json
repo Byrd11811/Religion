@@ -14,10 +14,10 @@
     "No production/private notes or credentials are read or published."
   ],
   "sources": {
-    "app/api/[...path]/route.ts": "a668614e4371405e47b959e1ec8fe3b66cc4825a13bddb0fa4581643677b51cd",
+    "app/api/[...path]/route.ts": "e3bfebbad72b9d2f4fd9792dc013aeebed37b223d7fd5c44b6acc7408f5a705f",
     "components/Atlas.tsx": "d9314e46251f92dc0fb703cfbfd3d9ee6e05bcf64ce5323a0678813ffb75f62a",
     "components/Explore.tsx": "1ba19cd8161366115cf512881ce6e71fb9c8bcf4f58517f61d6f0a0a5376b974",
-    "components/FederatedSearch.tsx": "8abe105b320aa4c235d39ecc1b0f2a51ec722fd9bc5ce42b67c3952c90d8a598",
+    "components/FederatedSearch.tsx": "b7aa6f93032f29089a04529b057761fae8fe40cff15737bf723ed99e870cbf8e",
     "components/Library.tsx": "cc6f434c6bb34ed740865ca956306760b20ac49853ba69ef468940d842ecd493",
     "components/SpatialExplorer.tsx": "1150724dad6b3e4c07768266fc7bf5a501428f1b3c45c9358896b985166b154d",
     "components/common.tsx": "0d29ae151d36d8f328762be6c3b1b51bac2c13abcdb663a4e848a2cf20d6e9e4",
@@ -46,7 +46,7 @@
     "packages/db/taxonomy.ts": "d5075774669292ad62b867772611c8acd0b865bcb32261db797e02274ee375ee",
     "packages/maps/leaflet.ts": "570e191119d0fce6004cef96f4bad3eea852b463c051c580099fd8ca5d0f8438",
     "packages/maps/provider.ts": "bd04b6dfc5878e27d3f4ec8b498a646e370116f2387be3da8708fb0641b945d5",
-    "packages/search/federated.ts": "93c3461c1677667eff67377ccf65a13c55b0ab4b5d9a33faabec0df7bf23d2cc",
+    "packages/search/federated.ts": "91915d65d989ef170bc148c8fe8a7e67d693fa9b346fdee7e0808dd1830286f6",
     "packages/search/hybrid.ts": "d5ee4d8adc96d9030f8056f10a493282c19158d6675c07224f047d060aa9af08",
     "packages/search/index.ts": "7e0b7cd8b6ef87c3832dca269e5a59b6dc447c7aa3c58e2c09a01b71bdf04694",
     "packages/shared/archive.ts": "2bcedd82b25565b7050acc9dea239138c4df1871b2f6ee9d513e8c0c4dda6105",

@@ -21,15 +21,30 @@ const workAliases: Record<string, string[]> = {
 type Candidate = Omit<FederatedSearchHit, "score"> & {
   searchable: string;
   opposition?: boolean;
+  facets: {
+    regions: string[];
+    languages: string[];
+    canon: string[];
+    rights: "Public-domain text" | "Public metadata" | "Rights review required";
+    confidence: "Reviewed" | "Provisional" | "Unreviewed";
+  };
 };
 
 function candidate(
-  value: Omit<Candidate, "searchable">,
+  value: Omit<Candidate, "searchable" | "facets">,
   fields: (string | string[] | null | undefined)[],
+  facets: Partial<Candidate["facets"]> = {},
 ): Candidate {
   return {
     ...value,
     searchable: fields.flatMap((field) => field ?? []).join(" "),
+    facets: {
+      regions: facets.regions ?? [],
+      languages: facets.languages ?? [],
+      canon: facets.canon ?? [],
+      rights: facets.rights ?? "Public metadata",
+      confidence: facets.confidence ?? "Unreviewed",
+    },
   };
 }
 
@@ -60,6 +75,20 @@ function candidates(): Candidate[] {
         work.themes,
         work.description,
       ],
+      {
+        regions: [work.region],
+        languages: work.languages,
+        canon: [work.canonStatus],
+        rights: work.editionId
+          ? "Public-domain text"
+          : "Rights review required",
+        confidence:
+          work.confidence === "Unreviewed"
+            ? "Unreviewed"
+            : ["A", "B", "C"].includes(work.confidence)
+              ? "Reviewed"
+              : "Provisional",
+      },
     ),
   );
   const navigation = traditions.map((tradition) =>
@@ -76,6 +105,7 @@ function candidates(): Candidate[] {
         opposition: tradition.id === "skeptical-atheistic-materialist-critical",
       },
       [tradition.name, tradition.region, tradition.description],
+      { regions: [tradition.region] },
     ),
   );
   const branches = subtraditions.map((branch) =>
@@ -91,6 +121,12 @@ function candidates(): Candidate[] {
         availability: branch.reviewStatus,
       },
       [branch.name, branch.kind, branch.region, branch.description],
+      {
+        regions: branch.region ? [branch.region] : [],
+        confidence: branch.reviewStatus.startsWith("Source-checked")
+          ? "Reviewed"
+          : "Unreviewed",
+      },
     ),
   );
   const themes = Object.entries(concepts).map(([name, aliases]) =>
@@ -126,6 +162,12 @@ function candidates(): Candidate[] {
         ),
       },
       [name, related.map((work) => work.title)],
+      {
+        regions: [...new Set(related.map((work) => work.region))],
+        languages: [...new Set(related.flatMap((work) => work.languages))],
+        rights: "Rights review required",
+        confidence: "Provisional",
+      },
     );
   });
   const physicalWitnesses = witnesses
@@ -153,6 +195,20 @@ function candidates(): Candidate[] {
           witness.scripts,
           witness.description,
         ],
+        {
+          regions: [witness.currentLocation],
+          languages: [...witness.languages, ...witness.scripts],
+          rights: "Public metadata",
+          confidence: [
+            "Securely attested",
+            "Strong scholarly consensus",
+            "Majority scholarly position",
+          ].includes(witness.evidence)
+            ? "Reviewed"
+            : witness.evidence === "Unreviewed"
+              ? "Unreviewed"
+              : "Provisional",
+        },
       ),
     );
   const objects = museumArtifacts.map((artifact) =>
@@ -175,6 +231,13 @@ function candidates(): Candidate[] {
         artifact.institution,
         artifact.description,
       ],
+      {
+        regions: [artifact.collection ?? "", artifact.culture ?? ""].filter(
+          Boolean,
+        ),
+        rights: "Public metadata",
+        confidence: artifact.verifiedAt ? "Reviewed" : "Unreviewed",
+      },
     ),
   );
   return [
@@ -199,6 +262,11 @@ export function federatedSearch(
   options: {
     mode?: FederatedSearchMode;
     types?: FederatedEntityType[];
+    region?: string;
+    language?: string;
+    canon?: string;
+    rights?: Candidate["facets"]["rights"];
+    confidence?: Candidate["facets"]["confidence"];
     limit?: number;
   } = {},
 ): FederatedSearchHit[] {
@@ -211,8 +279,21 @@ export function federatedSearch(
       if (options.types?.length && !options.types.includes(item.type))
         return false;
       if (mode === "Opposition" && !item.opposition) return false;
+      if (mode === "Scholarly" && item.facets.confidence === "Unreviewed")
+        return false;
       if (mode === "Deep Archive" && !archiveTypes.has(item.type)) return false;
       if (mode === "Manuscripts" && item.type !== "witness") return false;
+      const includes = (values: string[], sought?: string) =>
+        !sought ||
+        values.some((value) =>
+          tokenize(value).join(" ").includes(tokenize(sought).join(" ")),
+        );
+      if (!includes(item.facets.regions, options.region)) return false;
+      if (!includes(item.facets.languages, options.language)) return false;
+      if (!includes(item.facets.canon, options.canon)) return false;
+      if (options.rights && item.facets.rights !== options.rights) return false;
+      if (options.confidence && item.facets.confidence !== options.confidence)
+        return false;
       return true;
     })
     .flatMap((item) => {

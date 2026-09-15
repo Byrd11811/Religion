@@ -240,9 +240,32 @@ export async function GET(req: NextRequest, { params }: Context) {
         const types = q.getAll("type");
         if (types.some((type) => !new Set<string>(validTypes).has(type)))
           return send({ error: "Invalid entity type" }, 400);
+        const rights = q.get("rights") ?? "";
+        const validRights = [
+          "Public-domain text",
+          "Public metadata",
+          "Rights review required",
+        ] as const;
+        if (rights && !new Set<string>(validRights).has(rights))
+          return send({ error: "Invalid rights filter" }, 400);
+        const confidence = q.get("confidence") ?? "";
+        const validConfidence = [
+          "Reviewed",
+          "Provisional",
+          "Unreviewed",
+        ] as const;
+        if (confidence && !new Set<string>(validConfidence).has(confidence))
+          return send({ error: "Invalid confidence filter" }, 400);
         const items = federatedSearch(q.get("q") ?? "", {
           mode: mode as (typeof validModes)[number],
           types: types as (typeof validTypes)[number][],
+          region: q.get("region") ?? undefined,
+          language: q.get("language") ?? undefined,
+          canon: q.get("canon") ?? undefined,
+          rights: rights ? (rights as (typeof validRights)[number]) : undefined,
+          confidence: confidence
+            ? (confidence as (typeof validConfidence)[number])
+            : undefined,
           limit: Math.min(Number(q.get("limit")) || 30, 100),
         });
         return send({

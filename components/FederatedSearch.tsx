@@ -16,6 +16,22 @@ type SearchResponse = {
   total: number;
   counts: Record<string, number>;
 };
+type SearchFilters = {
+  type: string;
+  region: string;
+  language: string;
+  canon: string;
+  rights: string;
+  confidence: string;
+};
+const emptyFilters: SearchFilters = {
+  type: "",
+  region: "",
+  language: "",
+  canon: "",
+  rights: "",
+  confidence: "",
+};
 
 const labels: Record<FederatedSearchHit["type"], string> = {
   work: "Work",
@@ -38,6 +54,7 @@ export function FederatedSearchPage({
 }) {
   const [query, setQuery] = useState(initialQuery);
   const [mode, setMode] = useState<FederatedSearchMode>("Broad");
+  const [filters, setFilters] = useState<SearchFilters>(emptyFilters);
   const [entities, setEntities] = useState<FederatedSearchHit[]>([]);
   const [passages, setPassages] = useState<SearchHit[]>([]);
   const [searched, setSearched] = useState(initialQuery);
@@ -45,7 +62,11 @@ export function FederatedSearchPage({
   const [error, setError] = useState("");
 
   const run = useCallback(
-    async (nextQuery: string, nextMode: FederatedSearchMode) => {
+    async (
+      nextQuery: string,
+      nextMode: FederatedSearchMode,
+      nextFilters: SearchFilters,
+    ) => {
       if (!nextQuery.trim()) return;
       setBusy(true);
       setError("");
@@ -57,9 +78,16 @@ export function FederatedSearchPage({
           nextMode === "Opposition"
             ? "&tradition=skeptical-atheistic-materialist-critical"
             : "";
+        const entityParams = new URLSearchParams({
+          q: nextQuery,
+          mode: nextMode,
+        });
+        for (const [key, value] of Object.entries(nextFilters)) {
+          if (value) entityParams.set(key, value);
+        }
         const [entityResponse, passageResponse] = await Promise.all([
           api<SearchResponse>(
-            `/api/federated-search?q=${encodeURIComponent(nextQuery)}&mode=${encodeURIComponent(nextMode)}`,
+            `/api/federated-search?${entityParams.toString()}`,
           ),
           passageMode
             ? api<SearchHit[]>(
@@ -80,12 +108,12 @@ export function FederatedSearchPage({
   );
 
   useEffect(() => {
-    if (initialQuery.trim()) void run(initialQuery, "Broad");
+    if (initialQuery.trim()) void run(initialQuery, "Broad", emptyFilters);
   }, [initialQuery, run]);
 
   function submit(event: FormEvent) {
     event.preventDefault();
-    void run(query, mode);
+    void run(query, mode, filters);
   }
 
   return (
@@ -111,7 +139,7 @@ export function FederatedSearchPage({
           onChange={(event) => {
             const next = event.target.value as FederatedSearchMode;
             setMode(next);
-            if (searched) void run(searched, next);
+            if (searched) void run(searched, next, filters);
           }}
         >
           {federatedSearchModes.map((item) => (
@@ -122,6 +150,86 @@ export function FederatedSearchPage({
           {busy ? "Searching…" : "Search"}
         </button>
       </form>
+      <details className="panel">
+        <summary>Metadata filters</summary>
+        <div className="filters">
+          <label>
+            Record type
+            <select
+              aria-label="Filter record type"
+              value={filters.type}
+              onChange={(event) =>
+                setFilters({ ...filters, type: event.target.value })
+              }
+            >
+              <option value="">All record types</option>
+              {Object.entries(labels).map(([value, label]) => (
+                <option value={value} key={value}>
+                  {label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
+            Region
+            <input
+              value={filters.region}
+              onChange={(event) =>
+                setFilters({ ...filters, region: event.target.value })
+              }
+              placeholder="For example, Mesopotamia"
+            />
+          </label>
+          <label>
+            Language or script
+            <input
+              value={filters.language}
+              onChange={(event) =>
+                setFilters({ ...filters, language: event.target.value })
+              }
+              placeholder="For example, Greek"
+            />
+          </label>
+          <label>
+            Canon status contains
+            <input
+              value={filters.canon}
+              onChange={(event) =>
+                setFilters({ ...filters, canon: event.target.value })
+              }
+              placeholder="For example, canonical"
+            />
+          </label>
+          <label>
+            Rights / access
+            <select
+              value={filters.rights}
+              onChange={(event) =>
+                setFilters({ ...filters, rights: event.target.value })
+              }
+            >
+              <option value="">Any rights state</option>
+              <option>Public-domain text</option>
+              <option>Public metadata</option>
+              <option>Rights review required</option>
+            </select>
+          </label>
+          <label>
+            Evidence confidence
+            <select
+              value={filters.confidence}
+              onChange={(event) =>
+                setFilters({ ...filters, confidence: event.target.value })
+              }
+            >
+              <option value="">Any confidence</option>
+              <option>Reviewed</option>
+              <option>Provisional</option>
+              <option>Unreviewed</option>
+            </select>
+          </label>
+        </div>
+      </details>
       <p className="notice">
         Modes change scope before result limits are applied. “Opposition”
         searches the critical and skeptical collection; “Deep Archive” searches

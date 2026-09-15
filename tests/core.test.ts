@@ -153,7 +153,18 @@ test("federated modes filter scope before applying limits", () => {
     types: ["artifact"],
     limit: 5,
   });
+  assert.ok(artifactOnly.length > 0);
   assert.ok(artifactOnly.every((item) => item.type === "artifact"));
+  const hebrew = federatedSearch("Genesis", {
+    language: "Hebrew",
+    rights: "Public-domain text",
+  });
+  assert.equal(hebrew[0]?.id, "genesis");
+  assert.equal(federatedSearch("Genesis", { language: "Greek" }).length, 0);
+  const metadata = federatedSearch("Enuma Elish", {
+    rights: "Rights review required",
+  });
+  assert.equal(metadata[0]?.availability, "Metadata only");
 });
 test("unknown queries never fabricate source results", () => {
   assert.deepEqual(search("zxqvnonexistentword"), []);
