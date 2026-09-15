@@ -14,6 +14,12 @@
 - Conservatively classified 9,773 exact-book segments as primary text and 199 study-edition segments as scholarly commentary; retained 11,019 mixed segments as Unknown.
 - Added content-type search filtering and primary-evidence preference for questions without suppressing unknown material.
 
+## Unreleased — Phase 4 federated search foundation
+
+- Added a global search route across works, traditions, sourced subtraditions, concepts, reviewed author labels, witnesses, artifacts and edition passages.
+- Added conservative alternate-title aliases and explicit metadata/source availability on entity results.
+- Added Broad, Scholarly, Opposition, Deep Archive and Manuscripts modes with filter-before-limit behavior and validated API filters.
+
 ## Unreleased — Phase 1 map/timeline repairs
 
 - Retain undated anchors and unlocated records, with scoped coverage and evidence filters.

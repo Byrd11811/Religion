@@ -10,6 +10,7 @@ import {
 import { themes, concepts } from "@/packages/ontology";
 import { allPassages, search } from "@/packages/search";
 import { hybridSearch } from "@/packages/search/hybrid";
+import { federatedSearch } from "@/packages/search/federated";
 import { answerQuestion } from "@/packages/ai";
 import { comparisonCases } from "@/packages/ai/guides";
 import { getCollections, mutateCollections } from "@/packages/db/collections";
@@ -208,12 +209,52 @@ export async function GET(req: NextRequest, { params }: Context) {
           await hybridSearch(q.get("q") ?? "", {
             textIds: q.getAll("text"),
             editionIds: q.getAll("edition"),
+            traditions: q.getAll("tradition"),
             limit: Math.min(Number(q.get("limit")) || 24, 100),
             exact: q.get("exact") === "true",
             contentTypes: contentType as (typeof validContentTypes)[number][],
             preferPrimary: q.get("preferPrimary") !== "false",
           }),
         );
+      }
+      case "federated-search": {
+        const mode = q.get("mode") ?? "Broad";
+        const validModes = [
+          "Broad",
+          "Scholarly",
+          "Opposition",
+          "Deep Archive",
+          "Manuscripts",
+        ] as const;
+        if (!new Set<string>(validModes).has(mode))
+          return send({ error: "Invalid search mode" }, 400);
+        const validTypes = [
+          "work",
+          "tradition",
+          "subtradition",
+          "person",
+          "concept",
+          "witness",
+          "artifact",
+        ] as const;
+        const types = q.getAll("type");
+        if (types.some((type) => !new Set<string>(validTypes).has(type)))
+          return send({ error: "Invalid entity type" }, 400);
+        const items = federatedSearch(q.get("q") ?? "", {
+          mode: mode as (typeof validModes)[number],
+          types: types as (typeof validTypes)[number][],
+          limit: Math.min(Number(q.get("limit")) || 30, 100),
+        });
+        return send({
+          items,
+          total: items.length,
+          counts: Object.fromEntries(
+            validTypes.map((type) => [
+              type,
+              items.filter((item) => item.type === type).length,
+            ]),
+          ),
+        });
       }
       case "passages": {
         if (id) {

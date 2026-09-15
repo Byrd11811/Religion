@@ -108,6 +108,10 @@ Unverified research leads use a separate durable queue with explicit source, rig
 
 Every bundled segment now carries an explicit source type. The conservative first pass marks 9,773 segments from exact KJV book extractions as `Primary text`, 199 segments from the bundled Gilgamesh and Egyptian Book of the Dead scholarly studies as `Scholarly commentary`, and leaves 11,019 mixed historical-edition segments as `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
 
+## Federated search
+
+The global search route queries works, broad traditions, sourced subtraditions, concepts, reviewed author labels, physical witnesses, institutional artifacts, and edition passages. Catalog/archive records and quoted passages render in separate sections so metadata-only records remain discoverable without becoming textual evidence. Search aliases cover a conservative set of alternate work titles, and Broad, Scholarly, Opposition, Deep Archive, and Manuscripts modes filter the candidate scope before limits are applied.
+
 ## Completion baseline
 
 Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.

@@ -41,6 +41,7 @@ import {
   WorkWitnesses,
 } from "./Archive";
 import { SourceDepth } from "./ArchiveEvidence";
+import { FederatedSearchPage } from "./FederatedSearch";
 import {
   Timeline,
   WorldMap,
@@ -130,6 +131,11 @@ export default function Atlas({
         ) : (
           <Library initialQuery={initialQuery} {...actions} />
         );
+      break;
+    case "search":
+      content = (
+        <FederatedSearchPage initialQuery={initialQuery} {...actions} />
+      );
       break;
     case "works":
       content = id ? (
@@ -307,7 +313,7 @@ export default function Atlas({
             onSubmit={(e) => {
               e.preventDefault();
               if (global.trim())
-                router.push(`/library?q=${encodeURIComponent(global)}`);
+                router.push(`/search?q=${encodeURIComponent(global)}`);
             }}
           >
             <Search size={17} />

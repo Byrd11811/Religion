@@ -22,6 +22,7 @@ import {
   relationships,
 } from "../packages/shared/catalog";
 import { allPassages, search } from "../packages/search";
+import { federatedSearch } from "../packages/search/federated";
 import { answerQuestion, neutral } from "../packages/ai";
 import {
   readingGuides,
@@ -132,6 +133,27 @@ test("source-type filtering never presents scholarly studies as primary text", (
         p.editionId === "pg-11000-epic-of-gilgamesh",
     ),
   );
+});
+test("federated search resolves aliases and retains metadata-only works", () => {
+  const alias = federatedSearch("Dao De Jing");
+  assert.equal(alias[0]?.id, "tao-te-ching");
+  assert.ok(alias[0]?.aliases.includes("Dao De Jing"));
+  const metadata = federatedSearch("Enuma Elish");
+  assert.equal(metadata[0]?.id, "enuma-elish");
+  assert.equal(metadata[0]?.availability, "Metadata only");
+});
+test("federated modes filter scope before applying limits", () => {
+  const manuscripts = federatedSearch("manuscript", {
+    mode: "Manuscripts",
+    limit: 1,
+  });
+  assert.equal(manuscripts.length, 1);
+  assert.ok(manuscripts.every((item) => item.type === "witness"));
+  const artifactOnly = federatedSearch("museum", {
+    types: ["artifact"],
+    limit: 5,
+  });
+  assert.ok(artifactOnly.every((item) => item.type === "artifact"));
 });
 test("unknown queries never fabricate source results", () => {
   assert.deepEqual(search("zxqvnonexistentword"), []);

@@ -74,6 +74,33 @@ export interface SearchHit extends Passage {
   tradition: string;
   translator: string;
 }
+export const federatedSearchModes = [
+  "Broad",
+  "Scholarly",
+  "Opposition",
+  "Deep Archive",
+  "Manuscripts",
+] as const;
+export type FederatedSearchMode = (typeof federatedSearchModes)[number];
+export type FederatedEntityType =
+  | "work"
+  | "tradition"
+  | "subtradition"
+  | "person"
+  | "concept"
+  | "witness"
+  | "artifact";
+export interface FederatedSearchHit {
+  id: string;
+  type: FederatedEntityType;
+  title: string;
+  subtitle: string;
+  description: string;
+  href: string;
+  aliases: string[];
+  availability: string;
+  score: number;
+}
 export interface Finding {
   id: string;
   kind: "text" | "passage" | "query" | "comparison";
