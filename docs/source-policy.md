@@ -12,6 +12,8 @@ Unresolved research-queue records are private curation leads, not Atlas facts. T
 
 Passage `contentType` is independent of a work's religious authority or historical truth. Exact KJV named-book extractions are labeled primary text for that edition. The bundled Gilgamesh and Egyptian Book of the Dead sources are scholarly studies and remain commentary even where they quote ancient material. All other mixed historical-edition segments stay Unknown until segment-level review distinguishes translated source text, introductions, notes, commentary, footnotes and appendices. Unknown material remains discoverable but is never silently relabeled scripture.
 
+Egyptian corpus and literature metadata added during Phase 5 uses UCL Digital Egypt for Universities pages. A corpus-level place name does not authorize a point coordinate, and a period assigned to a collection does not automatically date each surviving witness. Sinuhe and Westcar remain metadata-only until a specific transcription or translation passes rights and source review.
+
 The catalog names and regional groupings originate in the supplied specification. These groupings are navigation aids rather than claims that each is a coherent religious tradition. Sparse records are explicitly unreviewed. Dates for enriched records are provisional editorial estimates and must not be used as independently established scholarly conclusions. Object dates come from the cited museum records and apply to the objects only.
 
 Relationship records require a source URL, a relationship type, chronology notes, differences, and an uncertainty category. A thematic reading link is not proof of influence. No records are rated B or C without a supporting scholarly review.

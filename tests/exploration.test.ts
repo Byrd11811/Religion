@@ -25,7 +25,7 @@ const filters: ExplorationFilters = {
 test("map includes undated anchors and reports unlocated records without invented geography", () => {
   const scope = explorationScope(explorationRecords, filters);
   assert.equal(scope.mapped.length, 37);
-  assert.equal(scope.unlocated.length, 215);
+  assert.equal(scope.unlocated.length, 217);
   assert.equal(scope.undated.length, 220);
   assert.equal(
     explorationScope(explorationRecords, { ...filters, includeUndated: false })

@@ -88,6 +88,24 @@ test("catalog has unique records and valid tradition/edition references", () => 
       assert.ok(t.endDate !== null && t.startDate <= t.endDate);
   }
 });
+test("Egypt starter expansion keeps sourced metadata separate from editions", () => {
+  const sinuhe = texts.find((text) => text.id === "tale-of-sinuhe");
+  const westcar = texts.find((text) => text.id === "westcar-papyrus-tales");
+  const pyramid = texts.find((text) => text.id === "pyramid-texts");
+  assert.ok(
+    sinuhe?.metadataSources.every((source) => source.startsWith("https://")),
+  );
+  assert.equal(sinuhe?.editionId, null);
+  assert.equal(westcar?.editionId, null);
+  assert.equal(pyramid?.confidence, "B");
+  assert.equal(pyramid?.lat, null);
+  assert.equal(
+    editions.some((edition) =>
+      [sinuhe?.id, westcar?.id].includes(edition.textId),
+    ),
+    false,
+  );
+});
 test("at least twenty distinct works have complete, attributed editions", () => {
   assert.ok(
     new Set(editions.filter((e) => e.complete).map((e) => e.textId)).size >= 20,

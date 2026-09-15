@@ -20,6 +20,12 @@
 - Added conservative alternate-title aliases and explicit metadata/source availability on entity results.
 - Added Broad, Scholarly, Opposition, Deep Archive and Manuscripts modes plus record-type, language/script, region, canon, rights and confidence controls with filter-before-limit behavior and validated API filters.
 
+## Unreleased — Phase 5 Ancient Egypt starter expansion
+
+- Added sourced academic metadata for the Tale of Sinuhe and Westcar Papyrus Tales without representing either as an ingested edition.
+- Replaced Pyramid Texts and Coffin Texts placeholders with evidence-qualified UCL Digital Egypt metadata while keeping corpus locations distinct from witness coordinates.
+- Added the 13 requested Egypt collection tabs and an evidence-bounded “Evolution of the Egyptian Afterlife” reading path.
+
 ## Unreleased — Phase 1 map/timeline repairs
 
 - Retain undated anchors and unlocated records, with scoped coverage and evidence filters.

@@ -35,6 +35,7 @@ const knownSeeds = [
   "archive-additions.json",
   "downloads.json",
   "editions.json",
+  "egypt-additions.json",
   "images.json",
   "passages.json",
   "relationships.json",

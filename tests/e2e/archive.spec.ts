@@ -53,6 +53,18 @@ test("Egypt collection links attributed papyri and navigable IIIF images", async
   await expect(
     page.getByRole("heading", { name: "Ancient Egypt", exact: true }),
   ).toBeVisible();
+  await page.getByRole("tab", { name: "Stories" }).click();
+  await expect(
+    page.getByRole("link", { name: "Tale of Sinuhe" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Westcar Papyrus Tales" }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "Afterlife" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Evolution of the Egyptian Afterlife" }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "Overview" }).click();
   await page
     .getByRole("link", {
       name: "Book of the Dead for the Chantress of Amun, Nauny",

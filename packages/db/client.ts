@@ -179,6 +179,16 @@ async function initialize(): Promise<AtlasDatabase> {
       }
     });
   }
+  for (let i = 0; i < texts.length; i += 100) {
+    const batch = texts.slice(i, i + 100);
+    await db.query(
+      `INSERT INTO texts(id,title,tradition_id,category,canon_status,approximate_start_date,approximate_end_date,date_confidence,origin_region,origin_lat,origin_lng,original_language,authorship_summary,description,historical_context,source_status,copyright_status,public_domain_available,primary_source_url,metadata)
+       SELECT v->>'id',v->>'title',v->>'traditionId',v->>'category',v->>'canonStatus',NULLIF(v->>'startDate','')::int,NULLIF(v->>'endDate','')::int,v->>'dateConfidence',v->>'region',NULLIF(v->>'lat','')::double precision,NULLIF(v->>'lng','')::double precision,ARRAY(SELECT jsonb_array_elements_text(v->'languages')),v->>'author',v->>'description',v->>'historicalContext',v->>'sourceStatus',v->>'copyright',(v->>'editionId') IS NOT NULL,v->>'sourceUrl',v
+       FROM jsonb_array_elements($1::jsonb) AS v
+       ON CONFLICT(id) DO UPDATE SET title=EXCLUDED.title,category=EXCLUDED.category,canon_status=EXCLUDED.canon_status,approximate_start_date=EXCLUDED.approximate_start_date,approximate_end_date=EXCLUDED.approximate_end_date,date_confidence=EXCLUDED.date_confidence,origin_region=EXCLUDED.origin_region,origin_lat=EXCLUDED.origin_lat,origin_lng=EXCLUDED.origin_lng,original_language=EXCLUDED.original_language,authorship_summary=EXCLUDED.authorship_summary,description=EXCLUDED.description,historical_context=EXCLUDED.historical_context,source_status=EXCLUDED.source_status,copyright_status=EXCLUDED.copyright_status,public_domain_available=EXCLUDED.public_domain_available,primary_source_url=EXCLUDED.primary_source_url,metadata=EXCLUDED.metadata`,
+      [JSON.stringify(batch)],
+    );
+  }
   const classifiedPassages = JSON.parse(
     readFileSync(path.join(process.cwd(), "data/seed/passages.json"), "utf8"),
   ) as Passage[];

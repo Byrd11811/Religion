@@ -3,6 +3,7 @@ import traditionsData from "@/data/seed/traditions.json";
 import editionsData from "@/data/seed/editions.json";
 import relationshipsData from "@/data/seed/relationships.json";
 import imagesData from "@/data/seed/images.json";
+import egyptAdditions from "@/data/seed/egypt-additions.json";
 import type {
   TextRecord,
   Tradition,
@@ -10,7 +11,18 @@ import type {
   Relationship,
   Artifact,
 } from "./types";
-export const texts = textsData as TextRecord[];
+const egyptOverrides = new Map(
+  (egyptAdditions.overrides as (Partial<TextRecord> & { id: string })[]).map(
+    (record) => [record.id, record],
+  ),
+);
+export const texts = [
+  ...(textsData as TextRecord[]).map((record) => ({
+    ...record,
+    ...(egyptOverrides.get(record.id) ?? {}),
+  })),
+  ...(egyptAdditions.records as TextRecord[]),
+];
 export const traditions = traditionsData as Tradition[];
 export const editions = editionsData as Edition[];
 export const relationships = relationshipsData as Relationship[];

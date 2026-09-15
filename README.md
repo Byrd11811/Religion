@@ -27,7 +27,7 @@ Run only one server against the embedded database directory. Keep the terminal r
 - Depth expansion foundation: work/recension/witness/artifact/image schema, paginated Deep Archive, source-depth indicators, citation evidence ladders, and institution-linked Codex Gigas/Voynich witness pages. See `docs/expansion-progress.md` for completed work and the remaining major-release targets.
 - Ancient Egypt collection with six verified papyrus objects, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 57 verified images in total; 55 were added through a reproducible Met Open Access intake pipeline.
 
-- 252 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus four additional works.
+- 254 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus six additional sourced works.
 - 44 English source editions covering 43 works and 20,991 verbatim segments. Forty-one works have a complete named work or digitized edition; Gilgamesh and the Egyptian Book of the Dead have historical studies with translated selections. Completeness does not imply every ancient recension is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.

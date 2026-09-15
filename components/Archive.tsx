@@ -265,8 +265,43 @@ export function ArtifactDetail({ id }: { id: string }) {
 
 export function EgyptCollection() {
   const [period, setPeriod] = useState("");
+  const [tab, setTab] = useState("Overview");
   const objects = museumArtifacts.filter((a) => a.collection === "egypt");
-  const works = texts.filter((t) => t.region === "Egypt");
+  const works = texts.filter((t) => t.traditionId === "ancient-egypt");
+  const egyptWorkIds = new Set(works.map((work) => work.id));
+  const egyptWitnesses = witnesses.filter((witness) =>
+    witness.workIds.some((id) => egyptWorkIds.has(id)),
+  );
+  const images = archiveImages.filter((image) =>
+    objects.some((artifact) => artifact.id === image.artifactId),
+  );
+  const tabs = [
+    "Overview",
+    "Funerary",
+    "Wisdom",
+    "Stories",
+    "Gods",
+    "Creation",
+    "Afterlife",
+    "Magic",
+    "Temples & Tombs",
+    "Manuscripts",
+    "Images",
+    "Timeline",
+    "Compare",
+  ];
+  const selectedWorks = works.filter((work) => {
+    const value =
+      `${work.title} ${work.category} ${work.description} ${work.themes.join(" ")}`.toLowerCase();
+    if (tab === "Funerary" || tab === "Afterlife")
+      return /funerary|afterlife|dead|amduat|gates|caverns|litany/.test(value);
+    if (tab === "Wisdom") return /instruction|wisdom/.test(value);
+    if (tab === "Stories")
+      return /tale|story|narrative|contendings|sinuhe|westcar/.test(value);
+    if (tab === "Creation") return /creation|memphite/.test(value);
+    if (tab === "Magic") return /magic/.test(value);
+    return false;
+  });
   return (
     <>
       <Heading
@@ -276,49 +311,144 @@ export function EgyptCollection() {
       />
       <p className="notice">
         {works.length} existing catalog works · {objects.length} verified museum
-        objects ·{" "}
-        {
-          archiveImages.filter((i) =>
-            objects.some((a) => a.id === i.artifactId),
-          ).length
-        }{" "}
-        verified images. Most works still need reviewed translations and
-        historical metadata.
+        objects · {images.length} verified images. Most works still need
+        reviewed translations and historical metadata.
       </p>
-      <h2>Text collection</h2>
-      <div className="chips">
-        {works.map((t) => (
-          <Link href={`/works/${t.id}`} key={t.id}>
-            {t.title}
-          </Link>
+      <div className="chips" role="tablist" aria-label="Egypt collection">
+        {tabs.map((name) => (
+          <button
+            role="tab"
+            aria-selected={tab === name}
+            className={tab === name ? "selected" : ""}
+            onClick={() => setTab(name)}
+            key={name}
+          >
+            {name}
+          </button>
         ))}
       </div>
-      <h2>Surviving papyri</h2>
-      <label>
-        Object period
-        <select value={period} onChange={(e) => setPeriod(e.target.value)}>
-          <option value="">All represented periods</option>
-          {[...new Set(objects.map((a) => a.period).filter(Boolean))].map(
-            (p) => (
-              <option key={p}>{p}</option>
-            ),
-          )}
-        </select>
-      </label>
-      <div className="two-col">
-        {objects
-          .filter((a) => !period || a.period === period)
-          .map((a) => (
-            <section key={a.id}>
-              <ArtifactCard artifact={a} />
-              <ManuscriptGallery
-                images={archiveImages
-                  .filter((i) => i.artifactId === a.id)
-                  .slice(0, 1)}
-              />
-            </section>
+      {(tab === "Overview" || selectedWorks.length > 0) && (
+        <section>
+          <h2>{tab === "Overview" ? "Text collection" : tab}</h2>
+          <div className="chips">
+            {(tab === "Overview" ? works : selectedWorks).map((work) => (
+              <Link href={`/works/${work.id}`} key={work.id}>
+                {work.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+      {tab === "Gods" && (
+        <Empty>
+          A reviewed Egyptian deity/entity dataset has not been added. Names in
+          work descriptions are not promoted to entity records.
+        </Empty>
+      )}
+      {tab === "Afterlife" && (
+        <section className="panel">
+          <h2>Evolution of the Egyptian Afterlife</h2>
+          <p>
+            This reading path follows changes in surviving funerary corpora; it
+            does not assume a single linear theology or uniform access across
+            Egyptian society.
+          </p>
+          <ol>
+            <li>
+              <Link href="/works/pyramid-texts">Pyramid Texts</Link> — late Old
+              Kingdom formulae first preserved in royal pyramid interiors.
+            </li>
+            <li>
+              <Link href="/works/coffin-texts">Coffin Texts</Link> — diverse
+              Middle Kingdom compositions on coffins and burial chambers, with
+              both reused and new material.
+            </li>
+            <li>
+              <Link href="/works/book-of-the-dead">Book of the Dead</Link> — a
+              later manuscript repertoire drawing partly on earlier funerary
+              compositions and varying by witness.
+            </li>
+          </ol>
+          <p className="small muted">
+            Inspect each record for its academic metadata source and limits.
+          </p>
+        </section>
+      )}
+      {(tab === "Overview" || tab === "Temples & Tombs") && (
+        <section>
+          <h2>Surviving objects</h2>
+          <label>
+            Object period
+            <select value={period} onChange={(e) => setPeriod(e.target.value)}>
+              <option value="">All represented periods</option>
+              {[...new Set(objects.map((a) => a.period).filter(Boolean))].map(
+                (value) => (
+                  <option key={value}>{value}</option>
+                ),
+              )}
+            </select>
+          </label>
+          <div className="two-col">
+            {objects
+              .filter((artifact) => !period || artifact.period === period)
+              .map((artifact) => (
+                <section key={artifact.id}>
+                  <ArtifactCard artifact={artifact} />
+                  <ManuscriptGallery
+                    images={images
+                      .filter((image) => image.artifactId === artifact.id)
+                      .slice(0, 1)}
+                  />
+                </section>
+              ))}
+          </div>
+        </section>
+      )}
+      {tab === "Manuscripts" && (
+        <div className="two-col">
+          {egyptWitnesses.map((witness) => (
+            <WitnessCard witness={witness} key={witness.id} />
           ))}
-      </div>
+        </div>
+      )}
+      {tab === "Images" && <ManuscriptGallery images={images} />}
+      {tab === "Timeline" && (
+        <div className="two-col">
+          {works
+            .filter((work) => work.startDate !== null)
+            .sort((a, b) => (a.startDate ?? 0) - (b.startDate ?? 0))
+            .map((work) => (
+              <article className="panel" key={work.id}>
+                <h3>{work.title}</h3>
+                <p>{work.dateConfidence}</p>
+                <Link href={`/works/${work.id}`}>Inspect date evidence →</Link>
+              </article>
+            ))}
+        </div>
+      )}
+      {tab === "Compare" && (
+        <section className="panel">
+          <h2>Compare Egyptian sources</h2>
+          <p>
+            Comparison uses only bundled passages. Metadata-only works remain
+            visible but cannot supply quotations.
+          </p>
+          <Link href="/compare?text=book-of-the-dead">
+            Open the comparison workspace →
+          </Link>
+        </section>
+      )}
+      {[
+        "Funerary",
+        "Wisdom",
+        "Stories",
+        "Creation",
+        "Afterlife",
+        "Magic",
+      ].includes(tab) &&
+        selectedWorks.length === 0 && (
+          <Empty>No reviewed work record is available for this view yet.</Empty>
+        )}
     </>
   );
 }
