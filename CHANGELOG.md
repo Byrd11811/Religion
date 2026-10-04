@@ -23,6 +23,8 @@
 ## Unreleased — Phase 5 Ancient Egypt starter expansion
 
 - Added six bounded public-domain translations for the Tale of Sinuhe, Westcar Papyrus Tales, Eloquent Peasant, Shipwrecked Sailor, Instruction of Ptahhotep and Instruction of Ke’Gemni, with exact source boundaries, hashes and primary-text classification.
+- Added four further bounded Egyptian editions. Tale of Two Brothers is translated primary text; Doomed Prince keeps its modern break note Unknown; Taking of Joppa remains Unknown; and Setna I separates its reconstructed opening and editorial summary from the translated primary segments.
+- Added British Museum witness records for Papyrus Harris 500 and the D’Orbiney Papyrus, and preserved Project Gutenberg header credits without mislabeling authors or editors as translators.
 - Added sourced academic metadata for the Tale of Sinuhe, Westcar Papyrus Tales and three additional Egyptian literary works.
 - Replaced Pyramid Texts and Coffin Texts placeholders with evidence-qualified UCL Digital Egypt metadata while keeping corpus locations distinct from witness coordinates.
 - Added the 13 requested Egypt collection tabs and an evidence-bounded “Evolution of the Egyptian Afterlife” reading path.

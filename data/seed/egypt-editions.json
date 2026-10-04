@@ -1,5 +1,96 @@
 [
   {
+    "id": "pg-7413-taking-of-joppa",
+    "textId": "taking-of-joppa",
+    "title": "The Taking of Joppa · W. M. Flinders Petrie (editor and restorer; translator not stated)",
+    "translator": "W. M. Flinders Petrie (editor and restorer; translator not stated)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7413/pg7413.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "7edc468445d97f53a3344a4dd9acfed562fc6f24ea8372d4e6870a0f035f3231",
+    "passageCount": 3,
+    "complete": false,
+    "sourceFile": "7413.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE TAKING OF JOPPA",
+        "startOccurrence": 1,
+        "endHeading": "REMARKS",
+        "endOccurrence": 4
+      }
+    ],
+    "note": "Historical translation of an incomplete tale. Petrie states that he reconstructed the lost opening, so Atlas preserves the bounded edition but does not classify its segments as primary text. Project Gutenberg flags the retained HTML digitization as an early, unsatisfactory edition that needs further work."
+  },
+  {
+    "id": "pg-7413-doomed-prince",
+    "textId": "doomed-prince",
+    "title": "The Doomed Prince · Gaston Maspero; adapted by W. M. Flinders Petrie with F. Ll. Griffith",
+    "translator": "Gaston Maspero; adapted by W. M. Flinders Petrie with F. Ll. Griffith",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7413/pg7413.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "7edc468445d97f53a3344a4dd9acfed562fc6f24ea8372d4e6870a0f035f3231",
+    "passageCount": 6,
+    "complete": false,
+    "sourceFile": "7413.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE DOOMED PRINCE",
+        "startOccurrence": 1,
+        "endHeading": "REMARKS",
+        "endOccurrence": 5
+      }
+    ],
+    "note": "Translation of the surviving incomplete tale; Atlas excludes the translator's subsequent Remarks section and retains the source's explicit break marker. Project Gutenberg flags the retained HTML digitization as an early, unsatisfactory edition that needs further work."
+  },
+  {
+    "id": "pg-7413-tale-of-two-brothers",
+    "textId": "tale-of-two-brothers",
+    "title": "The Tale of Two Brothers · F. Ll. Griffith; edited by W. M. Flinders Petrie",
+    "translator": "F. Ll. Griffith; edited by W. M. Flinders Petrie",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7413/pg7413.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "7edc468445d97f53a3344a4dd9acfed562fc6f24ea8372d4e6870a0f035f3231",
+    "passageCount": 16,
+    "complete": true,
+    "sourceFile": "7413.txt",
+    "sourceSections": [
+      {
+        "startHeading": "ANPU AND BATA.",
+        "endHeading": "REMARKS",
+        "endOccurrence": 6
+      }
+    ],
+    "note": "Complete translated tale as presented under the names Anpu and Bata in Petrie's public-domain anthology; Atlas excludes the translator's subsequent Remarks section. Project Gutenberg flags the retained HTML digitization as an early, unsatisfactory edition that needs further work."
+  },
+  {
+    "id": "pg-7413-setna-i-magic-book",
+    "textId": "setna-i-magic-book",
+    "title": "Setna I: Setna and the Magic Book · W. M. Flinders Petrie, following J. J. Hess and Gaston Maspero",
+    "translator": "W. M. Flinders Petrie, following J. J. Hess and Gaston Maspero",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/7413/pg7413.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "7edc468445d97f53a3344a4dd9acfed562fc6f24ea8372d4e6870a0f035f3231",
+    "passageCount": 20,
+    "complete": false,
+    "sourceFile": "7413.txt",
+    "sourceSections": [
+      {
+        "startHeading": "SETNA AND THE MAGIC BOOK",
+        "startOccurrence": 1,
+        "endHeading": "REMARKS",
+        "endOccurrence": 7
+      }
+    ],
+    "note": "Historical edition of an incomplete tale. Petrie states that he restored the lost opening and inserted a later plot summary; Atlas keeps those mixed segments Unknown and classifies only the remaining translated segments as primary text. Project Gutenberg flags the retained HTML digitization as an early, unsatisfactory edition that needs further work."
+  },
+  {
     "id": "pg-7386-westcar-papyrus-tales",
     "textId": "westcar-papyrus-tales",
     "title": "Westcar Papyrus Tales · W. M. Flinders Petrie",

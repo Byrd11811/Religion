@@ -9,13 +9,66 @@ type Selection = {
   sourceId: number;
   translator: string;
   startHeading: string;
+  startOccurrence?: number;
   endHeading: string;
   endOccurrence?: number;
   complete: boolean;
+  contentType?: Passage["contentType"];
   note: string;
 };
 
 const selections: Selection[] = [
+  {
+    workId: "taking-of-joppa",
+    title: "The Taking of Joppa",
+    sourceId: 7413,
+    translator:
+      "W. M. Flinders Petrie (editor and restorer; translator not stated)",
+    startHeading: "THE TAKING OF JOPPA",
+    startOccurrence: 1,
+    endHeading: "REMARKS",
+    endOccurrence: 4,
+    complete: false,
+    contentType: "Unknown",
+    note: "Historical translation of an incomplete tale. Petrie states that he reconstructed the lost opening, so Atlas preserves the bounded edition but does not classify its segments as primary text.",
+  },
+  {
+    workId: "doomed-prince",
+    title: "The Doomed Prince",
+    sourceId: 7413,
+    translator:
+      "Gaston Maspero; adapted by W. M. Flinders Petrie with F. Ll. Griffith",
+    startHeading: "THE DOOMED PRINCE",
+    startOccurrence: 1,
+    endHeading: "REMARKS",
+    endOccurrence: 5,
+    complete: false,
+    note: "Translation of the surviving incomplete tale; Atlas excludes the translator's subsequent Remarks section and retains the source's explicit break marker.",
+  },
+  {
+    workId: "tale-of-two-brothers",
+    title: "The Tale of Two Brothers",
+    sourceId: 7413,
+    translator: "F. Ll. Griffith; edited by W. M. Flinders Petrie",
+    startHeading: "ANPU AND BATA.",
+    endHeading: "REMARKS",
+    endOccurrence: 6,
+    complete: true,
+    note: "Complete translated tale as presented under the names Anpu and Bata in Petrie's public-domain anthology; Atlas excludes the translator's subsequent Remarks section.",
+  },
+  {
+    workId: "setna-i-magic-book",
+    title: "Setna I: Setna and the Magic Book",
+    sourceId: 7413,
+    translator:
+      "W. M. Flinders Petrie, following J. J. Hess and Gaston Maspero",
+    startHeading: "SETNA AND THE MAGIC BOOK",
+    startOccurrence: 1,
+    endHeading: "REMARKS",
+    endOccurrence: 7,
+    complete: false,
+    note: "Historical edition of an incomplete tale. Petrie states that he restored the lost opening and inserted a later plot summary; Atlas keeps those mixed segments Unknown and classifies only the remaining translated segments as primary text.",
+  },
   {
     workId: "westcar-papyrus-tales",
     title: "Westcar Papyrus Tales",
@@ -121,6 +174,25 @@ function chunks(content: string) {
   return result;
 }
 
+function selectedContentType(
+  selection: Selection,
+  index: number,
+  content: string,
+): Passage["contentType"] {
+  if (selection.contentType) return selection.contentType;
+  if (
+    selection.workId === "doomed-prince" &&
+    content.includes("[Here the papyrus breaks off.]")
+  )
+    return "Unknown";
+  if (
+    selection.workId === "setna-i-magic-book" &&
+    (index < 2 || content.includes("[Here follows a story"))
+  )
+    return "Unknown";
+  return "Primary text";
+}
+
 const editions: Edition[] = [];
 const passages: Passage[] = [];
 for (const selection of selections) {
@@ -144,7 +216,7 @@ for (const selection of selections) {
       content,
       sourceUrl: `https://www.gutenberg.org/ebooks/${selection.sourceId}`,
       themes: detectConcepts(content),
-      contentType: "Primary text",
+      contentType: selectedContentType(selection, index, content),
     });
   });
   editions.push({
@@ -164,11 +236,15 @@ for (const selection of selections) {
     sourceSections: [
       {
         startHeading: selection.startHeading,
+        startOccurrence: selection.startOccurrence,
         endHeading: selection.endHeading,
         endOccurrence: selection.endOccurrence,
       },
     ],
-    note: selection.note,
+    note:
+      selection.sourceId === 7413
+        ? `${selection.note} Project Gutenberg flags the retained HTML digitization as an early, unsatisfactory edition that needs further work.`
+        : selection.note,
   });
 }
 
@@ -178,5 +254,5 @@ writeFileSync(
 );
 writeFileSync("data/seed/egypt-passages.json", JSON.stringify(passages));
 console.log(
-  `Wrote ${editions.length} bounded Egyptian editions and ${passages.length} primary-text segments.`,
+  `Wrote ${editions.length} bounded Egyptian editions and ${passages.length} edition segments.`,
 );

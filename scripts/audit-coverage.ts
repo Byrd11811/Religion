@@ -69,6 +69,7 @@ const sourcePaths = [
   "packages/ai/index.ts",
   "scripts/database.ts",
   "scripts/classify.ts",
+  "scripts/download.py",
   "scripts/ingest-egypt.ts",
   "scripts/refresh-manifest.py",
   "components/common.tsx",

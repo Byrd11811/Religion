@@ -7,7 +7,13 @@ function contentType(p: Passage): Passage["contentType"] {
   if (
     p.editionId.startsWith("pg-10-") ||
     p.editionId.startsWith("pg-7386-") ||
-    p.editionId.startsWith("pg-30508-")
+    p.editionId.startsWith("pg-30508-") ||
+    (p.editionId === "pg-7413-doomed-prince" &&
+      !p.content.includes("[Here the papyrus breaks off.]")) ||
+    p.editionId === "pg-7413-tale-of-two-brothers" ||
+    (p.editionId === "pg-7413-setna-i-magic-book" &&
+      p.sequence > 2 &&
+      !p.content.includes("[Here follows a story"))
   )
     return "Primary text";
   // These two bundled sources are historical scholarly studies containing

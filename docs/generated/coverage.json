@@ -21,12 +21,12 @@
     "components/Library.tsx": "cc6f434c6bb34ed740865ca956306760b20ac49853ba69ef468940d842ecd493",
     "components/SpatialExplorer.tsx": "1150724dad6b3e4c07768266fc7bf5a501428f1b3c45c9358896b985166b154d",
     "components/common.tsx": "0d29ae151d36d8f328762be6c3b1b51bac2c13abcdb663a4e848a2cf20d6e9e4",
-    "data/seed/archive-additions.json": "414a29b4b48044517656b96573d8af9cef3f94b1a5c4cc0e0229688a09521fd4",
-    "data/seed/downloads.json": "8f9e289dc079ca9d692503faba28e34e5e50393a5e5845e12d44bda9df712664",
+    "data/seed/archive-additions.json": "2cbb7b64601466952182c306b7aded10b3737f01610d708a0a28413b93d54900",
+    "data/seed/downloads.json": "8a8404de6bbcac34f2ce0c02737756b64a037c776f08fd2ed599a8902514a0a9",
     "data/seed/editions.json": "f384644c6a9524a7ba2a7e253736e6a5bc910260d60be90c0dbe56f7464f2323",
-    "data/seed/egypt-additions.json": "ee1036143ebc2e9416b8dd0b114880f1e90b2671e0a79305b72234b9d9166357",
-    "data/seed/egypt-editions.json": "a2a7db4737d13071f539f700a4e3cd3f5743bf922f9b94cc076a2297156ad591",
-    "data/seed/egypt-passages.json": "bfd9d30e0530072bf5457fac027c611562206aff3c51c8aa70171111a3b74056",
+    "data/seed/egypt-additions.json": "c7b486c816fe4d87186af7554e0fa5f8fd936fb15820c17ab28118cb52531159",
+    "data/seed/egypt-editions.json": "f4e29a5692949be82c83577abfd2f72e987e82ca879fe55f28238bd98aeffe46",
+    "data/seed/egypt-passages.json": "7e40cd2aff68fac26588900ebae5f54932ccfbbf5aeef974d40209e3846f5db8",
     "data/seed/images.json": "58589ec193b3f0f929074285551fe70d715f788cbcc2228c0d6b9773dbcadafe",
     "data/seed/passages.json": "09ae4800a1e309bee11163964239c69cfd1f12fdc7392d455fc975a5e2b7ee01",
     "data/seed/relationships.json": "ffbcb10ff9ec84d5a8b00f5a704b8f44f03045d129d046d4f203a846f8bc154b",
@@ -59,17 +59,18 @@
     "packages/shared/exploration.ts": "6e00f35fabf5f6d2faecccb34c87c21c96474be75674f961e0c40590e9ed9303",
     "packages/shared/taxonomy.ts": "e5fb7935d6f6db0c4bb5af0167a3b376203bf6de2d0d160e4791796ed529e209",
     "packages/shared/types.ts": "1fa2e61eb5bc63bd10d105491318f3033ebda14434111779ccc0ae05c9c87e0d",
-    "scripts/audit-coverage.ts": "f9d3f36c12fc21951d173a83c4c6a0ae8cc977f497f3f730e5da54bd9d7ed5f1",
-    "scripts/classify.ts": "6558c46e6132bf1ac11f71e08f57e3e0b3d334f647200644ae8777ee80d5f62d",
+    "scripts/audit-coverage.ts": "1d0d0a9086fe2fd63fda95eb426a3755390517c54cb576d9016568646141b570",
+    "scripts/classify.ts": "13f14a4c02a5b2597047a9d8af87fffea209545ca9628e5800a006200bc90a65",
     "scripts/database.ts": "6365dd6b64a2cbc591835064170ac7043682e364fccda42006e5d4cfc56d3d31",
-    "scripts/ingest-egypt.ts": "c3149ade1b8ca615440987025a106a4bae69a21998656d1c293c357a079a12c7",
-    "scripts/refresh-manifest.py": "7f6605833f7084c4bbc7f3c9cabcb7d9d38c5a51b08ea3c21dea827761eb6c51"
+    "scripts/download.py": "6ee8c6966fead04e0d83d158adcf7eb5e8270b68ed5843e6a2baa8449bf95ed5",
+    "scripts/ingest-egypt.ts": "30857e562b405afba7241a4a7b65834aa469b944931d3f371ee0a3fce6b09d82",
+    "scripts/refresh-manifest.py": "5c59d7b033cc1ac4a27ed7deb2f90678772f6ef880eb49a43fe157e03f3b3dfb"
   },
   "metrics": [
     {
       "id": "works",
       "label": "Catalog/work records",
-      "seeded": 257,
+      "seeded": 261,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -93,7 +94,7 @@
     {
       "id": "editions",
       "label": "Source editions",
-      "seeded": 50,
+      "seeded": 54,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -105,7 +106,7 @@
     {
       "id": "searchableWorks",
       "label": "Searchable edition-backed works",
-      "seeded": 49,
+      "seeded": 53,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -117,7 +118,7 @@
     {
       "id": "completeEditionWorks",
       "label": "Complete named-work/edition coverage",
-      "seeded": 45,
+      "seeded": 46,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -141,7 +142,7 @@
     {
       "id": "passages",
       "label": "Edition segments",
-      "seeded": 21053,
+      "seeded": 21098,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -153,7 +154,7 @@
     {
       "id": "primaryPassages",
       "label": "Explicitly classified primary segments",
-      "seeded": 9835,
+      "seeded": 9873,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -177,7 +178,7 @@
     {
       "id": "unclassifiedPassages",
       "label": "Unclassified/unknown segments",
-      "seeded": 11019,
+      "seeded": 11026,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -189,7 +190,7 @@
     {
       "id": "witnesses",
       "label": "Physical witnesses",
-      "seeded": 8,
+      "seeded": 10,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -261,7 +262,7 @@
     {
       "id": "undatedWorks",
       "label": "Works without start dates",
-      "seeded": 223,
+      "seeded": 227,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -285,7 +286,7 @@
     {
       "id": "unlocatedWorks",
       "label": "Works without coordinates",
-      "seeded": 220,
+      "seeded": 224,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -321,7 +322,7 @@
     {
       "id": "languageMetadataWorks",
       "label": "Works with language metadata",
-      "seeded": 51,
+      "seeded": 55,
       "persisted": null,
       "reviewed": null,
       "exposed": null,

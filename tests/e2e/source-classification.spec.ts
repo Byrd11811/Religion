@@ -69,4 +69,26 @@ test("Egyptian translation search remains scoped to reviewed primary text", asyn
         row.textId === "tale-of-sinuhe" && row.contentType === "Primary text",
     ),
   ).toBeTruthy();
+
+  const reconstructed = await request.get(
+    "/api/search?q=mighty&text=setna-i-magic-book&contentType=Unknown",
+  );
+  expect(reconstructed.ok()).toBeTruthy();
+  const reconstructedRows = await reconstructed.json();
+  expect(reconstructedRows.length).toBeGreaterThan(0);
+  expect(
+    reconstructedRows.every(
+      (row: { contentType: string }) => row.contentType === "Unknown",
+    ),
+  ).toBeTruthy();
+  const translated = await request.get(
+    "/api/search?q=book&text=setna-i-magic-book&contentType=Primary%20text",
+  );
+  const translatedRows = await translated.json();
+  expect(translatedRows.length).toBeGreaterThan(0);
+  expect(
+    translatedRows.every(
+      (row: { contentType: string }) => row.contentType === "Primary text",
+    ),
+  ).toBeTruthy();
 });

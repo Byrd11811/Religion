@@ -25,10 +25,10 @@ Run only one server against the embedded database directory. Keep the terminal r
 ## Included workflows
 
 - Depth expansion foundation: work/recension/witness/artifact/image schema, paginated Deep Archive, source-depth indicators, citation evidence ladders, and institution-linked Codex Gigas/Voynich witness pages. See `docs/expansion-progress.md` for completed work and the remaining major-release targets.
-- Ancient Egypt collection with six verified papyrus objects, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 57 verified images in total; 55 were added through a reproducible Met Open Access intake pipeline.
+- Ancient Egypt collection with six verified Met papyrus objects, two additional British Museum literary-papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 57 verified images in total; 55 were added through a reproducible Met Open Access intake pipeline.
 
-- 257 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus nine additional sourced works.
-- 50 English source editions covering 49 works and 21,053 verbatim segments. Forty-five works have a complete named work or digitized edition; Gilgamesh and the Egyptian Book of the Dead have historical studies with translated selections, and two Egyptian editions preserve incomplete ancient witnesses. Completeness does not imply every ancient recension is present.
+- 261 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus thirteen additional sourced works.
+- 54 English source editions covering 53 works and 21,098 verbatim segments. Forty-six works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.
 - Text profiles, paginated reading, citation dialogs, translator and license details, and thematic comparison of the two Quran translations.
@@ -107,7 +107,7 @@ Unverified research leads use a separate durable queue with explicit source, rig
 
 ## Passage source classification
 
-Every bundled segment now carries an explicit source type. The conservative reviewed set marks 9,835 segments as `Primary text`, including 62 bounded Egyptian translation segments, 199 segments from the bundled Gilgamesh and Egyptian Book of the Dead scholarly studies as `Scholarly commentary`, and leaves 11,019 mixed historical-edition segments as `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
+Every bundled segment now carries an explicit source type. The conservative reviewed set marks 9,873 segments as `Primary text`, including 100 bounded Egyptian translation segments, 199 segments from the bundled Gilgamesh and Egyptian Book of the Dead scholarly studies as `Scholarly commentary`, and leaves 11,026 mixed or reconstructed historical-edition segments as `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
 
 ## Federated search
 

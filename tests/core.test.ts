@@ -106,12 +106,10 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
   const egyptPassages = allPassages().filter(
     (passage) =>
       passage.editionId.startsWith("pg-7386-") ||
-      passage.editionId.startsWith("pg-30508-"),
+      passage.editionId.startsWith("pg-30508-") ||
+      passage.editionId.startsWith("pg-7413-"),
   );
-  assert.equal(egyptPassages.length, 62);
-  assert.ok(
-    egyptPassages.every((passage) => passage.contentType === "Primary text"),
-  );
+  assert.equal(egyptPassages.length, 107);
   assert.ok(
     egyptPassages.every(
       (passage) => !/(^|\n)\s*Remarks\s*($|\n)/m.test(passage.content),
@@ -119,14 +117,55 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
   );
   assert.equal(
     new Set(egyptPassages.map((passage) => passage.editionId)).size,
-    6,
+    10,
+  );
+  assert.ok(
+    egyptPassages
+      .filter((passage) => passage.editionId === "pg-7413-taking-of-joppa")
+      .every((passage) => passage.contentType === "Unknown"),
+  );
+  assert.ok(
+    egyptPassages
+      .filter((passage) => passage.editionId === "pg-7413-tale-of-two-brothers")
+      .every((passage) => passage.contentType === "Primary text"),
+  );
+  const doomedBreak = egyptPassages.find((passage) =>
+    passage.content.includes("[Here the papyrus breaks off.]"),
+  );
+  assert.equal(doomedBreak?.editionId, "pg-7413-doomed-prince");
+  assert.equal(doomedBreak?.contentType, "Unknown");
+  const setna = egyptPassages.filter(
+    (passage) => passage.editionId === "pg-7413-setna-i-magic-book",
+  );
+  assert.deepEqual(
+    setna
+      .filter((passage) => passage.contentType === "Unknown")
+      .map((p) => p.sequence),
+    [1, 2, 16],
+  );
+  assert.ok(
+    setna
+      .filter((passage) => ![1, 2, 16].includes(passage.sequence))
+      .every((passage) => passage.contentType === "Primary text"),
+  );
+  const downloads = JSON.parse(
+    readFileSync("data/seed/downloads.json", "utf8"),
+  ) as {
+    id: number;
+    sourceHeaderCredits: Record<string, string[]>;
+  }[];
+  const anthology = downloads.find((download) => download.id === 7413);
+  assert.deepEqual(anthology?.sourceHeaderCredits.translator, []);
+  assert.ok(
+    anthology?.sourceHeaderCredits.author.includes("W. M. Flinders Petrie"),
   );
   assert.ok(
     editions
       .filter(
         (edition) =>
           edition.id.startsWith("pg-7386-") ||
-          edition.id.startsWith("pg-30508-"),
+          edition.id.startsWith("pg-30508-") ||
+          edition.id.startsWith("pg-7413-"),
       )
       .every((edition) => edition.sourceSections?.length === 1),
   );
@@ -269,6 +308,12 @@ test("archive separates physical witnesses, works and image associations", () =>
     }),
     false,
   );
+  const harris = witnesses.find((w) => w.id === "bm-ea10060-harris-500");
+  assert.deepEqual(harris?.workIds, ["taking-of-joppa", "doomed-prince"]);
+  assert.deepEqual(harris?.languages, ["Late Egyptian"]);
+  const dorbiney = witnesses.find((w) => w.id === "bm-ea10183-dorbiney");
+  assert.deepEqual(dorbiney?.workIds, ["tale-of-two-brothers"]);
+  assert.equal(dorbiney?.dateStart, -1215);
   for (const image of archiveImages) {
     validateImage(image);
     assert.ok(image.workIds.every((id) => texts.some((t) => t.id === id)));

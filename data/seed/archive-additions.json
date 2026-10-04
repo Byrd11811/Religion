@@ -197,6 +197,72 @@
       "evidence": "Securely attested",
       "description": "Nesiamun's Book of the Dead. ca. 1080–945 BCE. Papyrus, ink. Institutional catalog description; no translation is supplied by this image record.",
       "access": "Public metadata"
+    },
+    {
+      "id": "bm-ea10060-harris-500",
+      "title": "Papyrus Harris 500",
+      "workIds": [
+        "taking-of-joppa",
+        "doomed-prince"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "EA10060",
+      "repository": "The British Museum",
+      "discoveryLocation": "Egypt; precise findspot not stated in the institutional record",
+      "currentLocation": "The British Museum, London",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "British Museum classification: 18th Dynasty. No absolute object date is normalized here.",
+      "material": "Papyrus; black and red ink",
+      "languages": ["Late Egyptian"],
+      "scripts": ["Hieratic"],
+      "condition": "Institutional condition summary: fair; bleached with loss and skeletal areas",
+      "completeness": "Start and finish lost",
+      "provenance": "Purchased from Miss Selima Harris in 1872; previous collection of Anthony Charles Harris",
+      "digitizationUrl": "https://www.britishmuseum.org/collection/object/Y_EA10060",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; object-image reuse terms are separate and not asserted",
+      "sources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA10060"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "The British Museum identifies two Late Egyptian stories on the verso: The Capture of Joppa and The Doomed Prince. This witness association does not assert that the bundled historical edition was translated directly from the museum object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bm-ea10183-dorbiney",
+      "title": "D’Orbiney Papyrus",
+      "workIds": [
+        "tale-of-two-brothers"
+      ],
+      "recensionId": null,
+      "type": "Papyrus",
+      "inventoryNumber": "EA10183",
+      "repository": "The British Museum",
+      "discoveryLocation": "Memphis, Egypt (institutional record)",
+      "currentLocation": "The British Museum, London",
+      "dateStart": -1215,
+      "dateEnd": -1215,
+      "dateNotes": "ca. 1215 BCE; 19th Dynasty. This is the physical manuscript date, not a separate claim about first composition.",
+      "material": "Papyrus; black and red ink",
+      "languages": ["Literary New Egyptian"],
+      "scripts": ["Hieratic"],
+      "condition": "Institutional survey records brittle and fragmentary areas; mounted in multiple frames",
+      "completeness": "Only known copy; nineteen-column manuscript",
+      "provenance": "Purchased from Elizabeth d’Orbiney in 1857; institutional record associates the manuscript with scribe Inena",
+      "digitizationUrl": "https://www.britishmuseum.org/collection/object/Y_EA10183-1",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; object-image reuse terms are separate and not asserted",
+      "sources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA10183-1",
+        "https://www.britishmuseum.org/blog/page-turners-literature-ancient-egypt"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "The British Museum identifies this as the only known copy of the Tale of Two Brothers, written in literary New Egyptian and associated with the scribe Inena. The witness link remains distinct from translation dependency.",
+      "access": "Public metadata"
     }
   ],
   "artifacts": [

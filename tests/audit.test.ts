@@ -41,16 +41,17 @@ const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 257);
-  assert.equal(get("searchableWorks").seeded, 49);
-  assert.equal(get("completeEditionWorks").seeded, 45);
-  assert.equal(get("passages").seeded, 21053);
-  assert.equal(get("primaryPassages").seeded, 9835);
+  assert.equal(get("works").seeded, 261);
+  assert.equal(get("searchableWorks").seeded, 53);
+  assert.equal(get("completeEditionWorks").seeded, 46);
+  assert.equal(get("passages").seeded, 21098);
+  assert.equal(get("primaryPassages").seeded, 9873);
   assert.equal(get("editorialPassages").seeded, 199);
-  assert.equal(get("unclassifiedPassages").seeded, 11019);
+  assert.equal(get("unclassifiedPassages").seeded, 11026);
+  assert.equal(get("witnesses").seeded, 10);
   assert.equal(get("mappedWorks").seeded, 37);
   assert.equal(get("coordinateWorks").seeded, 37);
-  assert.equal(get("languageMetadataWorks").seeded, 51);
+  assert.equal(get("languageMetadataWorks").seeded, 55);
   assert.equal(get("originalTextWorks").seeded, 0);
   assert.ok(
     metrics.every(
