@@ -208,6 +208,102 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
       .filter((text) => text.traditionId === "ancient-egypt")
       .map((text) => text.id),
   );
+  assert.equal(egyptIds.size, 72);
+  const newResearchRecordIds = [
+    "book-of-nut",
+    "books-of-breathing",
+    "book-of-traversing-eternity",
+    "opening-of-the-mouth-ritual",
+    "book-of-two-ways",
+    "instruction-of-hordedef",
+    "teaching-for-king-merikare",
+    "teaching-of-amenemhat-i",
+    "loyalist-teaching",
+    "instruction-of-ani",
+    "instruction-of-ankhsheshonq",
+    "instruction-of-khety-satire-of-trades",
+    "teaching-of-a-man-for-his-son",
+    "kemyt",
+    "tale-of-wenamun",
+    "tale-of-truth-and-falsehood",
+    "setna-ii-si-osire",
+    "dispute-of-a-man-with-his-ba",
+    "harpers-songs",
+    "admonitions-of-ipuwer",
+    "prophecy-of-neferti",
+    "apophis-and-seqenenre",
+    "tale-of-neferkara-and-sasenet",
+    "hymn-to-the-nile-flood",
+    "chester-beatty-love-songs",
+    "leiden-hymns-to-amun",
+    "dramatic-ramesseum-papyrus",
+    "harris-magical-papyrus",
+    "london-leiden-demotic-magical-papyrus",
+    "greek-egyptian-magical-formularies",
+    "ancient-egyptian-book-of-thoth",
+    "book-of-the-faiyum",
+    "chester-beatty-dream-book",
+    "egyptian-execration-texts",
+    "egyptian-protective-amulet-texts",
+    "dream-stele-of-thutmose-iv",
+    "merneptah-victory-stele",
+    "piye-victory-stela",
+    "abydos-king-list",
+    "annals-of-thutmose-iii-at-karnak",
+    "battle-of-kadesh-inscriptions",
+  ];
+  assert.equal(newResearchRecordIds.length, 41);
+  for (const id of newResearchRecordIds) {
+    const record = texts.find((text) => text.id === id);
+    assert.ok(record, id);
+    assert.equal(record.traditionId, "ancient-egypt", id);
+    assert.equal(record.editionId, null, id);
+    assert.equal(record.confidence, "B", id);
+    assert.equal(record.startDate, null, id);
+    assert.equal(record.endDate, null, id);
+    assert.equal(record.lat, null, id);
+    assert.equal(record.lng, null, id);
+    assert.equal(
+      record.sourceStatus,
+      "Reviewed academic or institutional metadata; no source text bundled",
+      id,
+    );
+    assert.ok(record.sourceUrl?.startsWith("https://"), id);
+    assert.ok(
+      record.metadataSources.length > 0 &&
+        record.metadataSources.every((source) => source.startsWith("https://")),
+      id,
+    );
+    assert.ok(record.description.trim(), id);
+    assert.ok(record.historicalContext.trim(), id);
+    assert.ok(record.manuscripts.trim(), id);
+  }
+  const reviewedOriginalIds = [
+    "pyramid-texts",
+    "coffin-texts",
+    "instruction-of-ptahhotep",
+    "book-of-the-dead",
+    "amduat",
+    "book-of-gates",
+    "book-of-caverns",
+    "book-of-the-earth",
+    "litany-of-re",
+    "memphite-theology-shabaka-stone",
+    "instruction-of-amenemope",
+    "great-hymn-to-the-aten",
+    "contendings-of-horus-and-seth",
+  ];
+  for (const id of reviewedOriginalIds) {
+    const record = texts.find((text) => text.id === id);
+    assert.ok(record, id);
+    assert.notEqual(record.confidence, "Unreviewed", id);
+    assert.ok(record.sourceUrl?.startsWith("https://"), id);
+    assert.ok(
+      record.metadataSources.length > 0 &&
+        record.metadataSources.every((source) => source.startsWith("https://")),
+      id,
+    );
+  }
   assert.equal(
     new Set(
       allPassages()

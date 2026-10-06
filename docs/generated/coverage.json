@@ -24,7 +24,7 @@
     "data/seed/archive-additions.json": "0ed42dd5c042b0c9d35d033cb8636a459564410a3ad9c44698c80b17c16c5b62",
     "data/seed/downloads.json": "2a0e1de0e70d4a50b63354ae631343b6f891b01e5169954334dcc42b327202cb",
     "data/seed/editions.json": "f384644c6a9524a7ba2a7e253736e6a5bc910260d60be90c0dbe56f7464f2323",
-    "data/seed/egypt-additions.json": "737c346aa0471a7fa8962ab5b0170d7b888c42a66ebe0bb555a8f7201e144c6a",
+    "data/seed/egypt-additions.json": "744c7ed5adbf133b0107dc10f7bdc17f66648c2c22e1b00151f4c629d56523dc",
     "data/seed/egypt-editions.json": "9b86933b381f4d6a5f8fe2ae36d2bd53cbd1dfe762ef37ef15dcb9e07c34380e",
     "data/seed/egypt-passages.json": "3db5466a998c5b1018182d59d8c1435d16c08eddcfd870db7ea323b5f77b6bb3",
     "data/seed/images.json": "58589ec193b3f0f929074285551fe70d715f788cbcc2228c0d6b9773dbcadafe",
@@ -70,7 +70,7 @@
     {
       "id": "works",
       "label": "Catalog/work records",
-      "seeded": 270,
+      "seeded": 311,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -130,7 +130,7 @@
     {
       "id": "metadataOnly",
       "label": "Works without source editions",
-      "seeded": 208,
+      "seeded": 249,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -262,7 +262,7 @@
     {
       "id": "undatedWorks",
       "label": "Works without start dates",
-      "seeded": 236,
+      "seeded": 277,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -286,7 +286,7 @@
     {
       "id": "unlocatedWorks",
       "label": "Works without coordinates",
-      "seeded": 233,
+      "seeded": 274,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -322,7 +322,7 @@
     {
       "id": "languageMetadataWorks",
       "label": "Works with language metadata",
-      "seeded": 64,
+      "seeded": 114,
       "persisted": null,
       "reviewed": null,
       "exposed": null,

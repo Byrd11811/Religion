@@ -78,6 +78,211 @@
       ],
       "editionId": "pg-30508-instruction-of-ptahhotep",
       "confidence": "D"
+    },
+    {
+      "id": "book-of-the-dead",
+      "category": "Funerary corpus / manuscripts and burial equipment",
+      "canonStatus": "Modern corpus name for a changing repertoire of funerary compositions; individual manuscripts contain selections rather than one fixed universal book.",
+      "dateConfidence": "UCL documents use from the late Second Intermediate Period through the Roman Period; individual compositions and witnesses require separate dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "description": "The modern label for manuscripts and other burial surfaces carrying selections from a large repertoire of compositions called chapters for coming forth by day.",
+      "historicalContext": "UCL traces major continuities from Coffin Text compositions and a later standardization of chapter order while stressing that surviving manuscripts contain different selections.",
+      "manuscripts": "Papyrus rolls, linen bandages, coffins, sarcophagi, tomb walls, shabtis, heart scarabs, headrests and amulets; Atlas models individual museum objects separately.",
+      "sourceStatus": "Reviewed corpus metadata plus a public-domain historical study with translated selections",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7145",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7145",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bdfront.html"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "amduat",
+      "category": "Royal underworld book / solar-night journey",
+      "canonStatus": "Modern title for an Egyptian underworld composition; royal and later non-royal uses do not establish a universal canon.",
+      "dateConfidence": "New Kingdom royal-tomb composition with later funerary copies; individual witnesses require separate dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous ritual composition; no single authorship asserted",
+      "description": "An illustrated and annotated account of the sun god's journey through the twelve hours of night and regeneration at dawn.",
+      "historicalContext": "The composition first appears in New Kingdom royal tomb programs and was later adapted to other funerary media; access and use changed over time.",
+      "manuscripts": "Royal tomb walls and later funerary papyri and objects, including the Met's Amduat Papyrus of Henettawy.",
+      "sourceStatus": "Reviewed academic and museum metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/551100",
+      "metadataSources": [
+        "https://www.metmuseum.org/art/collection/search/551100",
+        "https://www.britishmuseum.org/collection/object/Y_EA884",
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-gates",
+      "category": "Royal underworld book / gated solar journey",
+      "canonStatus": "Modern title for an Egyptian underworld composition; it is not treated as one fixed universal canon.",
+      "dateConfidence": "Attested in New Kingdom royal-tomb programs; each tomb or object requires witness-level dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous ritual composition; no single authorship asserted",
+      "description": "An underworld composition organizing the night journey through successive guarded gates and regions.",
+      "historicalContext": "The Book of Gates belongs to the changing royal tomb programs of the New Kingdom and later funerary reception, not to a single static book tradition.",
+      "manuscripts": "Royal tomb decoration and sarcophagi; the British Museum record for Sety I's tomb fragment identifies a program including the Book of Gates.",
+      "sourceStatus": "Reviewed academic and museum metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA884",
+      "metadataSources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA884",
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-caverns",
+      "category": "Royal underworld book / cavern regions",
+      "canonStatus": "Modern title for an Egyptian underworld composition; grouping and witness boundaries require source-level review.",
+      "dateConfidence": "New Kingdom royal-tomb tradition; individual occurrences require witness-level dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous ritual composition; no single authorship asserted",
+      "description": "A royal funerary composition presenting regions of the underworld through cavern tableaux, deities, punishment and solar-Osirian regeneration.",
+      "historicalContext": "Atlas keeps this composition distinct from the Amduat, Book of Gates and Books of the Earth while recognizing their shared royal tomb context.",
+      "manuscripts": "Monumental copies in New Kingdom royal funerary settings; a normalized list of individual witnesses remains outstanding.",
+      "sourceStatus": "Reviewed academic metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/0b9005fw",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-the-earth",
+      "category": "Royal underworld tableaux / solar regeneration",
+      "canonStatus": "Modern grouping for related underworld scenes, sometimes described in the plural; no single fixed book is assumed.",
+      "dateConfidence": "New Kingdom royal-tomb tradition; individual tableaux and witnesses require separate dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous ritual compositions; no single authorship asserted",
+      "description": "A modern grouping of royal funerary tableaux concerned with the nocturnal sun, the earth, divine bodies and regeneration.",
+      "historicalContext": "The record preserves uncertainty about whether all scenes form one composition and does not collapse them into the Book of Caverns or other underworld books.",
+      "manuscripts": "New Kingdom royal tomb walls; individual scene sequences require witness-level cataloging.",
+      "sourceStatus": "Reviewed academic metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/0b9005fw",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "litany-of-re",
+      "category": "Royal funerary litany / solar theology",
+      "canonStatus": "Egyptian royal funerary composition; no universal canon status is inferred.",
+      "dateConfidence": "Attested in New Kingdom royal tomb programs; each monument requires separate dating.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous ritual composition; no single authorship asserted",
+      "description": "A solar litany invoking forms and names of Re within royal funerary theology.",
+      "historicalContext": "The British Museum's Sety I tomb-fragment record places the Litany of Re within a broader program also containing the Amduat, Book of Gates and other rituals.",
+      "manuscripts": "Royal tomb walls, including the program of Sety I; individual copies remain to be normalized.",
+      "sourceStatus": "Reviewed museum and academic metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA884",
+      "metadataSources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA884",
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "memphite-theology-shabaka-stone",
+      "category": "Temple theology / monumental inscription",
+      "canonStatus": "Modern scholarly designation for the Shabaka Stone text; its claims do not define a universal Egyptian creed.",
+      "dateConfidence": "The surviving stone belongs to Shabaka's reign; the composition's asserted antiquity and date remain debated.",
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous priestly composition copied under Shabaka; no single authorship asserted",
+      "description": "A theological inscription centered on Ptah, creation through thought and speech, and the religious importance of Memphis.",
+      "historicalContext": "Current scholarship treats the text's deliberately archaizing language and claimed old exemplar as evidence requiring analysis, not automatic proof of an Old Kingdom composition date.",
+      "manuscripts": "Known principally from the damaged basalt Shabaka Stone in the British Museum.",
+      "sourceStatus": "Reviewed academic metadata; no translation bundled",
+      "copyright": "Metadata links only; translation rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/8tf3j2qq",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/8tf3j2qq"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "instruction-of-amenemope",
+      "category": "Wisdom / instruction",
+      "canonStatus": "Ancient Egyptian instruction literature; no universal canon status is inferred.",
+      "dateConfidence": "UCL lists the Teaching of Amenemipet among complete New Kingdom or Third Intermediate Period compositions; composition and witness dates remain separate.",
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Traditionally attributed to Amenemope; historical authorship requires review",
+      "description": "A didactic composition organized as instruction, preserved in the later Egyptian wisdom tradition.",
+      "historicalContext": "Atlas records its ancient Egyptian literary setting without using proposed parallels as proof of direct borrowing or a precise composition date.",
+      "manuscripts": "Multiple-copy tradition; a normalized principal-witness record and current bibliography remain outstanding.",
+      "sourceStatus": "Reviewed academic catalog metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+        "https://escholarship.org/uc/item/9q57q53s"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "great-hymn-to-the-aten",
+      "category": "Hymn / Amarna royal theology",
+      "canonStatus": "Amarna-period hymn preserved in a tomb inscription; it is not treated as a universal Egyptian creed.",
+      "dateConfidence": "Inscribed in the Amarna tomb of Ay during Akhenaten's reign; composition and inscription are related but still distinguished.",
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous courtly composition; no single authorship asserted",
+      "description": "A long hymn to the Aten describing solar presence, creation, life and the ordering of different lands under the Amarna religious program.",
+      "historicalContext": "UCL identifies it as a principal source for Akhenaten's reformulation of Egyptian belief; comparisons with other hymns do not establish literary dependence.",
+      "manuscripts": "Thirteen hieroglyphic columns on the west wall of the tomb of Ay at Amarna; the inscription has suffered damage since discovery.",
+      "sourceStatus": "Reviewed academic metadata and linked transcription; no text bundled",
+      "copyright": "Metadata link only; linked transcription and translation are not bundled",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/amarna/belief.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/amarna/belief.html"
+      ],
+      "confidence": "B"
+    },
+    {
+      "id": "contendings-of-horus-and-seth",
+      "category": "Mythic narrative / divine dispute",
+      "canonStatus": "Ancient Egyptian literary composition; no universal canon status is inferred.",
+      "dateConfidence": "UCL lists the surviving complete copy among New Kingdom and Third Intermediate Period literature; composition and manuscript dates remain separate.",
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A narrative of the prolonged dispute between Horus and Seth over succession, adjudication and divine authority.",
+      "historicalContext": "Atlas treats the literary narrative and its varied mythological episodes as one composition without reading it as a single timeless statement of Egyptian belief.",
+      "manuscripts": "Papyrus Chester Beatty I is identified by UCL as the sole complete copy; fragmentary related material requires separate witness review.",
+      "sourceStatus": "Reviewed academic catalog metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/dem.html"
+      ],
+      "confidence": "B"
     }
   ],
   "records": [
@@ -716,6 +921,1417 @@
       ],
       "editionId": "pg-15932-hymn-to-amun-ra-cairo-papyrus",
       "confidence": "D"
+    },
+    {
+      "id": "book-of-nut",
+      "title": "Book of Nut",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Astronomical theology / funerary composition",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An illustrated astronomical composition describing the sky goddess Nut, the sun's passage and cycles of time.",
+      "historicalContext": "The composition occurs in monumental and later scholarly manuscript contexts; Atlas keeps its image-text tradition distinct from other underworld books.",
+      "manuscripts": "Copies and adaptations occur in royal tomb decoration and later temple-library scholarship; individual witnesses remain to be normalized.",
+      "themes": [
+        "creation",
+        "afterlife",
+        "astronomy"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/0b9005fw",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/0b9005fw"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "books-of-breathing",
+      "title": "Books of Breathing",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Late funerary corpus / ritual manuscripts",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian",
+        "Demotic"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A modern label for related later funerary compositions concerned with breath, transfiguration and postmortem well-being.",
+      "historicalContext": "UCLA's funerary-ritual survey treats these texts alongside glorifications and other Ptolemaic and Roman funerary books rather than as one unchanged volume.",
+      "manuscripts": "Multiple hieratic and Demotic papyri; each manuscript's title, language and sequence require separate cataloging.",
+      "themes": [
+        "afterlife",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/1n10x347",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/1n10x347"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-traversing-eternity",
+      "title": "Book of Traversing Eternity",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Late funerary composition / festival participation",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian",
+        "Demotic"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A later funerary composition connecting the deceased with continuing movement, cult places and festivals.",
+      "historicalContext": "The record follows academic discussion of Ptolemaic and Roman funerary books and does not merge this work with the Books of Breathing.",
+      "manuscripts": "Hieratic and Demotic funerary manuscripts; a witness-by-witness inventory remains outstanding.",
+      "themes": [
+        "afterlife",
+        "ritual",
+        "time"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/1n10x347",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/1n10x347"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "opening-of-the-mouth-ritual",
+      "title": "Opening of the Mouth Ritual",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Mortuary and cult ritual corpus",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian",
+        "Demotic"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A sequence of ritual actions and recitations for animating or restoring the faculties of a statue or deceased person.",
+      "historicalContext": "Its long transmission and varied performance settings require distinctions among ritual episodes, monumental scenes and later manuscript versions.",
+      "manuscripts": "Attested in tomb programs, ritual manuscripts and later Demotic versions; the Sety I tomb program includes the ritual.",
+      "themes": [
+        "death",
+        "ritual",
+        "body"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA884",
+      "metadataSources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA884",
+        "https://escholarship.org/uc/item/1n10x347"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-two-ways",
+      "title": "Book of Two Ways",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Coffin Text cosmography / funerary guide",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A group of Coffin Text compositions and diagrams mapping routes and regions of the afterlife.",
+      "historicalContext": "UCL relates much of Book of the Dead chapter 136 to the Book of Two Ways while keeping the Middle Kingdom coffin tradition historically distinct.",
+      "manuscripts": "Known especially from Middle Kingdom coffins from Bersha; individual coffins and spell sequences require separate witness records.",
+      "themes": [
+        "afterlife",
+        "journey",
+        "cosmology"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd136.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd136.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "instruction-of-hordedef",
+      "title": "Instruction of Hordedef",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Traditionally attributed to Hordedef; historical authorship requires review",
+      "description": "A sebayt or instruction composition traditionally associated with Hordedef/Hardedef.",
+      "historicalContext": "The traditional name attached to a teaching is not treated as proof of historical authorship or Old Kingdom composition.",
+      "manuscripts": "Known through later manuscript transmission and references; surviving extent and witnesses require a dedicated bibliography.",
+      "themes": [
+        "wisdom",
+        "ethics"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/circulating.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/circulating.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "teaching-for-king-merikare",
+      "title": "Teaching for King Merikare",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / royal instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A royal instruction framed as counsel from a king to Merikare on rule, conduct and responsibility.",
+      "historicalContext": "UCL lists the composition among complete Middle Kingdom discourses; the dramatic speaker and named ruler do not establish authorship or exact composition date.",
+      "manuscripts": "Survives in later manuscript copies; principal witnesses and their variants remain to be normalized.",
+      "themes": [
+        "wisdom",
+        "kingship",
+        "ethics"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "teaching-of-amenemhat-i",
+      "title": "Teaching of King Amenemhat I",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / royal discourse",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Traditionally attributed within the composition; historical authorship requires review",
+      "description": "A royal teaching voiced as posthumous counsel from Amenemhat I to his successor.",
+      "historicalContext": "The literary voice, historical assassination traditions and later school transmission must be evaluated separately.",
+      "manuscripts": "UCL documents multiple manuscript sources and presents a source-focused study; Atlas has not bundled its translation.",
+      "themes": [
+        "wisdom",
+        "kingship",
+        "death"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/teachingamenemhati-index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/teachingamenemhati-index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "loyalist-teaching",
+      "title": "Loyalist Teaching",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / instruction and royal ideology",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An instruction composition joining ethical counsel with loyalty to the king.",
+      "historicalContext": "UCL lists it among partially preserved Middle Kingdom teachings; surviving fragments should not be presented as a complete text.",
+      "manuscripts": "Fragmentary manuscript and inscriptional witnesses; a full witness inventory remains outstanding.",
+      "themes": [
+        "wisdom",
+        "kingship",
+        "ethics"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "instruction-of-ani",
+      "title": "Instruction of Ani",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Traditionally attributed to Ani; historical authorship requires review",
+      "description": "A later Egyptian instruction composition offering practical and ethical counsel.",
+      "historicalContext": "UCL lists the Teaching of Any among complete New Kingdom or Third Intermediate Period teachings; date and attribution still require witness-level review.",
+      "manuscripts": "Manuscript tradition requires a normalized witness record and bibliography.",
+      "themes": [
+        "wisdom",
+        "ethics",
+        "family"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "instruction-of-ankhsheshonq",
+      "title": "Instruction of Ankhsheshonq",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Demotic wisdom / instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Demotic Egyptian"
+      ],
+      "author": "Traditionally associated with Ankhsheshonq; historical authorship requires review",
+      "description": "A Demotic instruction collection of maxims and practical ethical counsel associated with Ankhsheshonq.",
+      "historicalContext": "The record belongs to the later Egyptian wisdom tradition and is not flattened into earlier Middle Egyptian sebayt literature.",
+      "manuscripts": "Demotic papyrus witnesses; the principal manuscripts and their sequences require dedicated review.",
+      "themes": [
+        "wisdom",
+        "ethics",
+        "law"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/9q57q53s",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/9q57q53s"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "instruction-of-khety-satire-of-trades",
+      "title": "Instruction of Khety / Satire of the Trades",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / scribal instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Traditionally attributed to Khety; historical authorship requires review",
+      "description": "A didactic composition praising scribal work through contrasting depictions of other occupations.",
+      "historicalContext": "UCL lists it among complete Middle Kingdom discourses and documents its Ramesside school-manuscript circulation.",
+      "manuscripts": "Multiple Ramesside manuscripts, including Papyrus Sallier II; variants require witness-level alignment.",
+      "themes": [
+        "wisdom",
+        "labor",
+        "education"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/ram.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "teaching-of-a-man-for-his-son",
+      "title": "Teaching of a Man for His Son",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Wisdom / instruction",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A partially preserved instruction framed as counsel from a man to his son.",
+      "historicalContext": "UCL treats it as a distinct but incomplete Middle Kingdom teaching; missing portions remain explicit.",
+      "manuscripts": "Fragmentary manuscript transmission; individual sources require normalization.",
+      "themes": [
+        "wisdom",
+        "family",
+        "ethics"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "kemyt",
+      "title": "Kemyt",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Scribal instruction / model text",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A short model composition associated with scribal education and copying practice.",
+      "historicalContext": "UCL places Kemyt among compositions of uncertain grouping, so Atlas does not force it into a modern literary genre.",
+      "manuscripts": "Known from multiple copying exercises and manuscripts; a full educational-witness catalog remains outstanding.",
+      "themes": [
+        "education",
+        "writing",
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "tale-of-wenamun",
+      "title": "Tale of Wenamun",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Narrative / travel and diplomacy",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A narrative of Wenamun's troubled journey from Egypt to the Levant to obtain timber.",
+      "historicalContext": "UCL lists the surviving composition as partial; the narrator's claims and historical setting are literary evidence, not an unfiltered administrative report.",
+      "manuscripts": "Known principally from a hieratic papyrus traditionally called Papyrus Moscow 120; witness details require institutional linkage.",
+      "themes": [
+        "travel",
+        "kingship",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "tale-of-truth-and-falsehood",
+      "title": "Tale of Truth and Falsehood",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Mythic narrative / moral tale",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A personified narrative of conflict among Truth, Falsehood and their families.",
+      "historicalContext": "UCL lists the tale among partial Late Egyptian compositions and identifies Papyrus Chester Beatty II as its sole copy.",
+      "manuscripts": "Papyrus Chester Beatty II, British Museum EA 10682; only a physical-witness record can establish its object details.",
+      "themes": [
+        "truth",
+        "law",
+        "family"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/dem.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "setna-ii-si-osire",
+      "title": "Setna II: The Adventures of Setna and Si-Osire",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Demotic narrative / Setna cycle",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Demotic Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A Demotic tale about Setna, his son Si-Osire, the afterlife and a contest involving a Nubian magician.",
+      "historicalContext": "The University of Chicago study emphasizes its Roman-period Egyptian and Meroitic cultural context; Atlas does not turn literary ethnic depiction into direct social fact.",
+      "manuscripts": "Seven preserved columns on the verso of joined Greek papyri, with material missing at the beginning.",
+      "themes": [
+        "magic",
+        "afterlife",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/SAC/sac3.pdf",
+      "metadataSources": [
+        "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/SAC/sac3.pdf"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dispute-of-a-man-with-his-ba",
+      "title": "Dispute of a Man with His Ba",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Reflective discourse / lament",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A dialogue between a man and his ba concerning life, death and their relationship.",
+      "historicalContext": "UCL lists the composition among complete Middle Kingdom laments while its modern title and philosophical interpretation remain scholarly framings.",
+      "manuscripts": "A principal papyrus witness and smaller fragments are known; normalized witness records remain outstanding.",
+      "themes": [
+        "death",
+        "suffering",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "harpers-songs",
+      "title": "Harper's Songs",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Mortuary song corpus / reflective poetry",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A modern grouping of songs associated with harpists in tomb and funerary settings, ranging from affirmation to reflections on death and remembrance.",
+      "historicalContext": "The label covers distinct compositions and witnesses rather than one fixed work; Atlas treats it as a research corpus.",
+      "manuscripts": "Tomb inscriptions and papyri from different periods; each song requires its own source and context.",
+      "themes": [
+        "death",
+        "memory",
+        "music"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literatureindex.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literatureindex.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "admonitions-of-ipuwer",
+      "title": "Admonitions of Ipuwer",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Lament / social-order discourse",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A fragmentarily preserved discourse describing upheaval and inverted social order.",
+      "historicalContext": "UCL lists the Lament of Ipuwer as only partly preserved; Atlas does not treat its literary scenes as a straightforward eyewitness chronicle.",
+      "manuscripts": "Known principally from a damaged later copy; missing text and copy date remain visible limitations.",
+      "themes": [
+        "suffering",
+        "justice",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "prophecy-of-neferti",
+      "title": "Prophecy of Neferti",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Lament and royal-prophecy literature",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A literary prophecy of disorder followed by restoration under a named future ruler.",
+      "historicalContext": "UCL lists the composition as preserved from beginning to end; its narrative setting and political function do not supply an automatic composition date.",
+      "manuscripts": "Multiple manuscript copies and fragments; witness relationships remain to be normalized.",
+      "themes": [
+        "prophecy",
+        "kingship",
+        "order"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "apophis-and-seqenenre",
+      "title": "Apophis and Seqenenre",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal narrative / quarrel tale",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A partially preserved tale of a contest or quarrel between Apepi/Apophis and Seqenenre.",
+      "historicalContext": "UCL identifies the composition as partial and distinguishes its literary manuscript from direct historical documentation of the Second Intermediate Period.",
+      "manuscripts": "Papyrus Sallier I is identified as the sole surviving copy alongside another composition.",
+      "themes": [
+        "kingship",
+        "conflict",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/ram.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "tale-of-neferkara-and-sasenet",
+      "title": "Tale of King Neferkara and General Sasenet",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Narrative / royal tale",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A fragmentary narrative involving King Neferkara and the official Sasenet.",
+      "historicalContext": "UCL lists it as a partly preserved Middle Kingdom tale; modern interpretation of the relationship depicted must remain distinct from what the fragments establish.",
+      "manuscripts": "Fragmentary witnesses only; no complete text or normalized witness set is present in Atlas.",
+      "themes": [
+        "kingship",
+        "identity",
+        "desire"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/index.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "hymn-to-the-nile-flood",
+      "title": "Hymn to the Nile Flood",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Hymn / ecological and temple praise",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A long hymn praising the Nile inundation as sustainer of agriculture, life and offerings.",
+      "historicalContext": "UCL describes an uncertain composition date and New Kingdom surviving copies; Atlas therefore keeps composition and manuscript chronology separate.",
+      "manuscripts": "Ramesside papyri, writing boards and ostraca, including Papyrus Chester Beatty V and Papyrus Sallier II.",
+      "themes": [
+        "hymn",
+        "nature",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/floodindex.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/floodindex.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/floodsources.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "chester-beatty-love-songs",
+      "title": "Chester Beatty I Love Songs",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Love-song cycle / literary manuscript",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A group of love songs preserved with other literature on Papyrus Chester Beatty I.",
+      "historicalContext": "Atlas treats the songs as a manuscript cycle, not as evidence that all Egyptian love poetry formed one canon.",
+      "manuscripts": "Papyrus Chester Beatty I; UCL identifies the song group on the same physical witness as the Tale of Horus and Seth.",
+      "themes": [
+        "love",
+        "music",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/dem.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "leiden-hymns-to-amun",
+      "title": "Leiden Hymns to Amun",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Hymn cycle / Amun theology",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A modern designation for a sequence of hymns to Amun preserved on Papyrus Leiden I 350.",
+      "historicalContext": "The cycle belongs to New Kingdom Amun theology and must remain distinct from other Amun hymns and later temple recensions.",
+      "manuscripts": "Papyrus Leiden I 350; a direct institutional witness record and section inventory remain outstanding.",
+      "themes": [
+        "hymn",
+        "divinity",
+        "creation"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/8tf3j2qq",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/8tf3j2qq"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dramatic-ramesseum-papyrus",
+      "title": "Dramatic Ramesseum Papyrus",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Ritual manuscript / royal statue ceremony",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Middle Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A manuscript copy of a ritual for a statue of Senusret I, conventionally called the Dramatic Ramesseum Papyrus.",
+      "historicalContext": "The modern 'dramatic' label is interpretive; UCL describes the object within a late Middle Kingdom manuscript group from a tomb beneath the later Ramesseum.",
+      "manuscripts": "Papyrus Ramesseum B in the British Museum, from the Ramesseum manuscript find.",
+      "themes": [
+        "ritual",
+        "kingship",
+        "performance"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/mk.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/mk.html",
+        "https://www.britishmuseum.org/collection/search?keyword=YCA72530"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "harris-magical-papyrus",
+      "title": "Harris Magical Papyrus",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Magic / protective incantation manuscript",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A fragmentary magical manuscript containing hymns and incantations, especially against crocodiles and other dangerous animals.",
+      "historicalContext": "The British Museum records both the manuscript's original extent and later damage; Atlas does not present the surviving fragments as complete.",
+      "manuscripts": "British Museum EA 10042 in multiple frames; several original pages survive only as fragments.",
+      "themes": [
+        "magic",
+        "protection",
+        "nature"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA10042-4",
+      "metadataSources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA10042-4"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "london-leiden-demotic-magical-papyrus",
+      "title": "London-Leiden Demotic Magical Papyrus",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Demotic magical handbook / ritual recipes",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Demotic Egyptian",
+        "Greek"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A Roman-period handbook of ritual and divinatory procedures preserved in portions now associated with London and Leiden.",
+      "historicalContext": "The manuscript reflects multilingual and cross-cultural religious practice in Roman Egypt; divine names are not collapsed into a single pantheon.",
+      "manuscripts": "Papyrus sections divided between institutional collections; a joined digital witness and rights review remain outstanding.",
+      "themes": [
+        "magic",
+        "divination",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/sites/default/files/2019-11/British-Museum_Egypt_Sudan_Newsletter3_2016.pdf",
+      "metadataSources": [
+        "https://www.britishmuseum.org/sites/default/files/2019-11/British-Museum_Egypt_Sudan_Newsletter3_2016.pdf"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "greek-egyptian-magical-formularies",
+      "title": "Greek and Egyptian Magical Formularies",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Multilingual magical-handbook corpus",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Greek",
+        "Demotic Egyptian",
+        "Coptic"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A corpus of surviving magical handbooks from Egypt containing procedures, images and texts across several languages.",
+      "historicalContext": "The open scholarly edition treats more than eighty fragmentary or complete formularies as material witnesses to transmission; Atlas does not rename the whole corpus as one ancient book.",
+      "manuscripts": "Numerous papyrus handbooks from different collections and dates; each requires separate witness, language and rights data.",
+      "themes": [
+        "magic",
+        "ritual",
+        "transmission"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/9650x69r",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/9650x69r"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "ancient-egyptian-book-of-thoth",
+      "title": "Ancient Egyptian Book of Thoth",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Demotic scholarly dialogue / knowledge text",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Demotic Egyptian",
+        "Hieratic"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A late Egyptian scholarly composition structured as discourse about knowledge, writing and priestly learning.",
+      "historicalContext": "This historical composition is distinct from modern fictional or occult works called the Book of Thoth.",
+      "manuscripts": "Multiple fragmentary Demotic manuscripts and a reported hieratic witness; source-family reconstruction remains under review.",
+      "themes": [
+        "wisdom",
+        "writing",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/content/qt74b3x6s9/qt74b3x6s9.pdf",
+      "metadataSources": [
+        "https://escholarship.org/content/qt74b3x6s9/qt74b3x6s9.pdf"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "book-of-the-faiyum",
+      "title": "Book of the Faiyum",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Regional sacred geography / illustrated theological corpus",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An illustrated composition mapping the Faiyum landscape through local theology, deities and sacred places.",
+      "historicalContext": "Atlas treats it as regional priestly knowledge and sacred geography rather than a universal Egyptian cosmology.",
+      "manuscripts": "Hieroglyphic and hieratic manuscript witnesses associated with Tebtunis and other collections; a full recension map remains outstanding.",
+      "themes": [
+        "geography",
+        "creation",
+        "divinity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/8tf3j2qq",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/8tf3j2qq"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "chester-beatty-dream-book",
+      "title": "Chester Beatty Dream Book",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Dream interpretation / omen manuscript",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Late Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A manuscript collection of dream situations and interpreted outcomes.",
+      "historicalContext": "Dream interpretation categories are historical textual evidence, not medical or predictive advice for present-day users.",
+      "manuscripts": "Papyrus Chester Beatty III, British Museum EA 10683, with a Battle of Qadesh copy on the other side.",
+      "themes": [
+        "dreams",
+        "divination",
+        "fate"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/dem.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/dem.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "egyptian-execration-texts",
+      "title": "Egyptian Execration Texts and Rituals",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Execration corpus / state and private ritual",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A research corpus of inscribed figures, pots and related texts used in rites against political, supernatural or personal enemies.",
+      "historicalContext": "UCLA's review distinguishes ritual actions, state-sponsored formulas and less visible private practice across a long history; Atlas does not infer a single fixed book.",
+      "manuscripts": "Inscriptions on figurines, vessels and other ritual media from multiple sites and periods.",
+      "themes": [
+        "ritual",
+        "protection",
+        "conflict"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/3f6268zf",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/3f6268zf"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "egyptian-protective-amulet-texts",
+      "title": "Egyptian Protective and Amuletic Texts",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Protective-text research corpus / lived ritual",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A research grouping for short protective texts written on papyrus and other wearable or deposited media.",
+      "historicalContext": "These texts belong to varied medical, household, temple and funerary contexts; the research record does not turn them into one work or one social practice.",
+      "manuscripts": "Single sheets, folded papyri, pendants and inscribed objects; individual contexts and permissions require review.",
+      "themes": [
+        "protection",
+        "healing",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/med/healingpapyri.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/med/healingpapyri.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dream-stele-of-thutmose-iv",
+      "title": "Dream Stele of Thutmose IV",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal commemorative inscription / dream narrative",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A monumental inscription between the paws of the Great Sphinx recounting a dream in which the Sphinx addresses the future Thutmose IV.",
+      "historicalContext": "The inscription is royal self-presentation; its narrated dream is not treated as independently verified supernatural evidence.",
+      "manuscripts": "Monumental stela at Giza; the British Museum exhibition guide summarizes the dream narrative.",
+      "themes": [
+        "dreams",
+        "kingship",
+        "divinity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.britishmuseum.org/sites/default/files/2022-10/Hieroglyphs_unlocking_ancient_Egypt_large_print_guide_The_British_Museum_2.pdf",
+      "metadataSources": [
+        "https://www.britishmuseum.org/sites/default/files/2022-10/Hieroglyphs_unlocking_ancient_Egypt_large_print_guide_The_British_Museum_2.pdf"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "merneptah-victory-stele",
+      "title": "Merneptah Victory Stele",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal victory inscription / historical source",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A royal commemorative inscription of Merneptah reporting campaigns and named peoples and places.",
+      "historicalContext": "As a victory text it is both historical evidence and ideological royal discourse; claims about opponents require comparison with independent evidence.",
+      "manuscripts": "Granite stela in the Egyptian Museum, Cairo; a direct institutional digital record remains to be linked.",
+      "themes": [
+        "kingship",
+        "conflict",
+        "history"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/3qn4837f",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/3qn4837f"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "piye-victory-stela",
+      "title": "Victory Stela of Piye",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Kushite royal victory inscription / historical source",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A long victory inscription of the Kushite king Piye describing his campaign and the submission of Egyptian rulers.",
+      "historicalContext": "Atlas preserves its Kushite authorship and rhetorical framing rather than treating it as a generic Egyptian conquest narrative.",
+      "manuscripts": "Cairo stela fragments, conventionally cataloged together; exact object identifiers and joins require institutional verification.",
+      "themes": [
+        "kingship",
+        "conflict",
+        "identity"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/3qn4837f",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/3qn4837f",
+        "https://escholarship.org/uc/item/1kv090xb"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "abydos-king-list",
+      "title": "Abydos King List",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Temple king list / ritual historiography",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An edited sequence of royal names shown receiving offerings in the temple of Sety I at Abydos.",
+      "historicalContext": "UCL stresses that temple king lists are selective ritual constructions, so omissions are not treated as proof that omitted rulers never existed.",
+      "manuscripts": "Monumental list in the Sety I temple at Abydos; later copies and related lists remain distinct witnesses.",
+      "themes": [
+        "kingship",
+        "memory",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/king/cultspecial.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/king/cultspecial.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/historywriting.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "annals-of-thutmose-iii-at-karnak",
+      "title": "Annals of Thutmose III at Karnak",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal annals / temple inscription",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A monumental series of campaign records inscribed in the Karnak temple complex for Thutmose III.",
+      "historicalContext": "UCL describes the growth of literary narrative in New Kingdom annals; Atlas treats the annals as royal ideological records requiring comparison with other evidence.",
+      "manuscripts": "Karnak temple wall inscriptions; individual episodes and damaged sections require a source map.",
+      "themes": [
+        "kingship",
+        "conflict",
+        "history"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/historywriting.html",
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/historywriting.html",
+        "https://escholarship.org/uc/item/3qn4837f"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "battle-of-kadesh-inscriptions",
+      "title": "Battle of Kadesh Inscriptions and Reliefs",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal war narrative / monumental recensions",
+      "canonStatus": "Ancient Egyptian composition or source-defined corpus; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and surviving-witness dates require source-level scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "Multiple monumental and manuscript presentations of Ramesses II's encounter with the Hittite army at Kadesh.",
+      "historicalContext": "The recensions package the battle for different Egyptian monuments and audiences; Atlas does not treat royal rhetoric as a neutral battle transcript.",
+      "manuscripts": "Relief-and-text programs at Abu Simbel, Abydos, Karnak, Luxor and the Ramesseum, plus manuscript copies such as Papyrus Sallier III.",
+      "themes": [
+        "kingship",
+        "conflict",
+        "memory"
+      ],
+      "sourceStatus": "Reviewed academic or institutional metadata; no source text bundled",
+      "copyright": "Metadata links only; source-text rights not assessed",
+      "sourceUrl": "https://escholarship.org/uc/item/1ww504x5",
+      "metadataSources": [
+        "https://escholarship.org/uc/item/1ww504x5",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/writing/library/ram.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
     }
   ]
 }

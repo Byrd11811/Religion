@@ -55,8 +55,12 @@ test("Egypt collection links attributed papyri and navigable IIIF images", async
   ).toBeVisible();
   await expect(
     page.getByText(
-      "31 existing catalog works · 31 verified museum objects · 103 verified images. Most works still need reviewed translations and historical metadata.",
+      "72 existing catalog works · 31 verified museum objects · 103 verified images. Most works still lack a bundled reviewed translation; metadata records do not count as source editions.",
     ),
+  ).toBeVisible();
+  await expect(page.getByRole("link", { name: "Book of Nut" })).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Merneptah Victory Stele" }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "Stories" }).click();
   await expect(

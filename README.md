@@ -25,9 +25,9 @@ Run only one server against the embedded database directory. Keep the terminal r
 ## Included workflows
 
 - Depth expansion foundation: work/recension/witness/artifact/image schema, paginated Deep Archive, source-depth indicators, citation evidence ladders, and institution-linked Codex Gigas/Voynich witness pages. See `docs/expansion-progress.md` for completed work and the remaining major-release targets.
-- Ancient Egypt collection with 30 verified Met objects, three British Museum papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 105 verified images in total; 103 Egyptian images were added through a reviewed, reproducible Met Open Access intake pipeline.
+- Ancient Egypt collection with 72 reviewed work/research records, 30 verified Met objects, three British Museum papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 105 verified images in total; 103 Egyptian images were added through a reviewed, reproducible Met Open Access intake pipeline.
 
-- 270 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus twenty-two additional sourced works.
+- 311 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus sixty-three additional sourced work/research records.
 - 63 English source editions covering 62 works and 21,339 verbatim segments. Fifty-five works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.

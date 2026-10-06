@@ -318,8 +318,9 @@ export function EgyptCollection() {
       />
       <p className="notice">
         {works.length} existing catalog works · {objects.length} verified museum
-        objects · {images.length} verified images. Most works still need
-        reviewed translations and historical metadata.
+        objects · {images.length} verified images. Most works still lack a
+        bundled reviewed translation; metadata records do not count as source
+        editions.
       </p>
       <div className="chips" role="tablist" aria-label="Egypt collection">
         {tabs.map((name) => (
