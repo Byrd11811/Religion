@@ -9,6 +9,7 @@ import { createManifest, readManifest } from "../packages/shared/iiif";
 import {
   workProfile,
   witnesses,
+  museumArtifacts,
   archiveImages,
   validateImage,
   mayTranslate,
@@ -107,9 +108,11 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
     (passage) =>
       passage.editionId.startsWith("pg-7386-") ||
       passage.editionId.startsWith("pg-30508-") ||
-      passage.editionId.startsWith("pg-7413-"),
+      passage.editionId.startsWith("pg-7413-") ||
+      passage.editionId.startsWith("pg-9411-") ||
+      passage.editionId.startsWith("pg-15932-"),
   );
-  assert.equal(egyptPassages.length, 107);
+  assert.equal(egyptPassages.length, 348);
   assert.ok(
     egyptPassages.every(
       (passage) => !/(^|\n)\s*Remarks\s*($|\n)/m.test(passage.content),
@@ -117,7 +120,7 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
   );
   assert.equal(
     new Set(egyptPassages.map((passage) => passage.editionId)).size,
-    10,
+    19,
   );
   assert.ok(
     egyptPassages
@@ -158,6 +161,60 @@ test("Egypt expansion distinguishes sourced metadata from bounded editions", () 
   assert.deepEqual(anthology?.sourceHeaderCredits.translator, []);
   assert.ok(
     anthology?.sourceHeaderCredits.author.includes("W. M. Flinders Petrie"),
+  );
+  for (const sourceId of [9411, 15932]) {
+    const budge = downloads.find((download) => download.id === sourceId);
+    assert.deepEqual(budge?.sourceHeaderCredits.translator, []);
+    assert.ok(
+      budge?.sourceHeaderCredits.author.includes("Sir E. A. Wallis Budge"),
+    );
+  }
+  const reviewed = egyptPassages.filter(
+    (passage) =>
+      passage.editionId.startsWith("pg-9411-") ||
+      passage.editionId.startsWith("pg-15932-"),
+  );
+  const reviewedEditionIds = new Set(reviewed.map((passage) => passage.editionId));
+  assert.equal(reviewedEditionIds.size, 9);
+  assert.ok(
+    [...reviewedEditionIds].every((id) =>
+      reviewed.some(
+        (passage) =>
+          passage.editionId === id && passage.contentType === "Primary text",
+      ),
+    ),
+  );
+  assert.ok(
+    reviewed
+      .filter((passage) => passage.contentType === "Footnote")
+      .every((passage) =>
+        /^(?:\[FN#\d+\]|\[Footnote \d+:)/.test(passage.content),
+      ),
+  );
+  assert.equal(
+    editions.find(
+      (edition) => edition.id === "pg-9411-book-of-knowing-evolutions-ra",
+    )?.sourceSections?.length,
+    2,
+  );
+  assert.equal(
+    editions.filter((edition) =>
+      edition.id.startsWith("pg-9411-metternich-stela-"),
+    ).length,
+    1,
+  );
+  const egyptIds = new Set(
+    texts
+      .filter((text) => text.traditionId === "ancient-egypt")
+      .map((text) => text.id),
+  );
+  assert.equal(
+    new Set(
+      allPassages()
+        .filter((passage) => egyptIds.has(passage.textId))
+        .map((passage) => passage.textId),
+    ).size,
+    20,
   );
   assert.ok(
     editions
@@ -314,6 +371,50 @@ test("archive separates physical witnesses, works and image associations", () =>
   const dorbiney = witnesses.find((w) => w.id === "bm-ea10183-dorbiney");
   assert.deepEqual(dorbiney?.workIds, ["tale-of-two-brothers"]);
   assert.equal(dorbiney?.dateStart, -1215);
+  const bremnerRhind = witnesses.find(
+    (w) => w.id === "bm-ea10188-bremner-rhind",
+  );
+  assert.deepEqual(bremnerRhind?.workIds, ["book-of-knowing-evolutions-ra"]);
+  assert.equal(bremnerRhind?.dateStart, -305);
+  const metReview = JSON.parse(
+    readFileSync("data/intake/met-egypt-reviewed.json", "utf8"),
+  ) as {
+    criteria: string;
+    objects: {
+      id: number;
+      decision: string;
+      expectedMinImages: number;
+      witnessType: string | null;
+      reviewNote: string;
+    }[];
+  };
+  assert.equal(metReview.objects.length, 24);
+  assert.ok(metReview.criteria.includes("No human remains"));
+  for (const reviewed of metReview.objects) {
+    assert.equal(reviewed.decision, "approved");
+    assert.ok(reviewed.reviewNote.length > 20);
+    const artifact = museumArtifacts.find(
+      (item) => item.id === `met-${reviewed.id}`,
+    );
+    assert.ok(artifact);
+    assert.ok(artifact.protocolReview);
+    assert.ok(artifact.sensitivity);
+    assert.ok(
+      archiveImages.filter((image) => image.artifactId === artifact.id).length >=
+        reviewed.expectedMinImages,
+    );
+    assert.ok(
+      archiveImages
+        .filter((image) => image.artifactId === artifact.id)
+        .every((image) => image.workIds.length === 0),
+    );
+    assert.equal(Boolean(artifact.witnessId), Boolean(reviewed.witnessType));
+  }
+  assert.ok(
+    ["Papyrus", "Ostracon", "Inscribed relief"].every((type) =>
+      witnesses.some((witness) => witness.type === type),
+    ),
+  );
   for (const image of archiveImages) {
     validateImage(image);
     assert.ok(image.workIds.every((id) => texts.some((t) => t.id === id)));

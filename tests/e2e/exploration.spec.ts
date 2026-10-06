@@ -5,12 +5,12 @@ test("map and timeline APIs share scoped counts and validate chronology filters"
 }) => {
   const map = await (await request.get("/api/map?view=coverage")).json();
   expect(map.coverage.mapped).toBe(37);
-  expect(map.coverage.unlocated).toBe(224);
-  expect(map.coverage.undated).toBe(227);
+  expect(map.coverage.unlocated).toBe(233);
+  expect(map.coverage.undated).toBe(236);
   const witnesses = await (
     await request.get("/api/timeline?view=coverage&layer=witness")
   ).json();
-  expect(witnesses.coverage.dated).toBe(7);
+  expect(witnesses.coverage.dated).toBe(17);
   expect(witnesses.coverage.undated).toBe(3);
   expect((await request.get("/api/map?year=0")).status()).toBe(400);
   expect((await request.get("/api/map?undated=maybe")).status()).toBe(400);
@@ -35,10 +35,10 @@ test("map includes unknown dates and preserves location evidence when filters ch
     "0 mapped records",
   );
   await expect(page.getByTestId("map-coverage")).toContainText(
-    "10 records without defensible coordinates",
+    "20 records without defensible coordinates",
   );
   await page
-    .getByText("Records without defensible coordinates (10)", { exact: true })
+    .getByText("Records without defensible coordinates (20)", { exact: true })
     .click();
   await expect(page.locator(".spatial-records")).toContainText("Voynich");
 });
@@ -48,24 +48,24 @@ test("timeline exposes unknown records, uses full chronology and distinguishes w
 }) => {
   await page.goto("/timeline");
   await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "227 undated records available below",
+    "236 undated records available below",
   );
   await expect(page.locator(".timeline-axis")).toContainText("5000 BCE");
   await page
     .getByLabel("Timeline tradition")
     .selectOption({ label: "Ancient Egypt" });
   await expect(page.getByTestId("timeline-coverage")).not.toContainText(
-    "227 undated",
+    "236 undated",
   );
   await page.getByLabel("Timeline tradition").selectOption("");
   await page.getByLabel("Timeline layer").selectOption("witness");
   await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "7 dated records",
+    "17 dated records",
   );
   await expect(page.getByTestId("timeline-coverage")).toContainText(
     "3 undated records",
   );
-  await expect(page.locator(".timeline-row")).toHaveCount(7);
+  await expect(page.locator(".timeline-row")).toHaveCount(17);
   await expect(page.locator(".timeline-row").first()).toContainText("witness");
 });
 

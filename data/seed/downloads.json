@@ -372,6 +372,20 @@
     "license": "See retained source license and edition-specific rights metadata. Header credits preserve Project Gutenberg labels and are not normalized contributor roles."
   },
   {
+    "id": 9411,
+    "title": "Legends of the Gods",
+    "bytes": 363279,
+    "url": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "sourceHeaderCredits": {
+      "author": [
+        "Sir E. A. Wallis Budge"
+      ],
+      "translator": [],
+      "editor": []
+    },
+    "license": "See retained source license and edition-specific rights metadata. Header credits preserve Project Gutenberg labels and are not normalized contributor roles."
+  },
+  {
     "id": 11000,
     "title": "An Old Babylonian Version of the Gilgamesh Epic",
     "bytes": 251875,
@@ -379,6 +393,20 @@
     "sourceHeaderCredits": {
       "author": [
         "Morris Jastrow"
+      ],
+      "translator": [],
+      "editor": []
+    },
+    "license": "See retained source license and edition-specific rights metadata. Header credits preserve Project Gutenberg labels and are not normalized contributor roles."
+  },
+  {
+    "id": 15932,
+    "title": "The Literature of the Ancient Egyptians",
+    "bytes": 588381,
+    "url": "https://www.gutenberg.org/cache/epub/15932/pg15932.txt",
+    "sourceHeaderCredits": {
+      "author": [
+        "Sir E. A. Wallis Budge"
       ],
       "translator": [],
       "editor": []

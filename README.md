@@ -25,10 +25,10 @@ Run only one server against the embedded database directory. Keep the terminal r
 ## Included workflows
 
 - Depth expansion foundation: work/recension/witness/artifact/image schema, paginated Deep Archive, source-depth indicators, citation evidence ladders, and institution-linked Codex Gigas/Voynich witness pages. See `docs/expansion-progress.md` for completed work and the remaining major-release targets.
-- Ancient Egypt collection with six verified Met papyrus objects, two additional British Museum literary-papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 57 verified images in total; 55 were added through a reproducible Met Open Access intake pipeline.
+- Ancient Egypt collection with 30 verified Met objects, three British Museum papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 105 verified images in total; 103 Egyptian images were added through a reviewed, reproducible Met Open Access intake pipeline.
 
-- 261 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus thirteen additional sourced works.
-- 54 English source editions covering 53 works and 21,098 verbatim segments. Forty-six works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension is present.
+- 270 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus twenty-two additional sourced works.
+- 63 English source editions covering 62 works and 21,339 verbatim segments. Fifty-five works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.
 - Text profiles, paginated reading, citation dialogs, translator and license details, and thematic comparison of the two Quran translations.
@@ -85,11 +85,12 @@ To import explicitly selected Met objects with confirmed public-domain images:
 
 ```powershell
 npm run ingest:met -- 548344 553673 551786 590941 553720 550820 --book-of-dead
+python scripts/import-met.py --review-file data/intake/met-egypt-reviewed.json
 ```
 
-The optional work association is specific to institutionally identified Book of the Dead records. The importer stores provenance, verifies image URLs, deduplicates records and refuses objects without confirmed public-domain image rights. Stop the app and run `npm run db:migrate` after imports, then rebuild. `/api/iiif/[artifactId]` exposes Atlas-generated Presentation 3 manifests of accepted CC0 images; these are not institutional manifests.
+The optional work association is specific to institutionally identified Book of the Dead records. The reviewed Egyptian manifest records title expectations, minimum image counts, witness decisions and per-object sensitivity notes. The importer validates a complete batch before replacing the seed, stores provenance, verifies image URLs, preserves unchanged verification timestamps, deduplicates records and refuses objects without confirmed public-domain image rights. Stop the app and run `npm run db:migrate` after imports, then rebuild. `/api/iiif/[artifactId]` exposes Atlas-generated Presentation 3 manifests of accepted CC0 images; these are not institutional manifests.
 
-Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. The Egypt importer uses exact, occurrence-aware heading boundaries so translator introductions, remarks and footnotes are not classified as ancient primary text. Atlas segment numbers are application locators; biblical chapter:verse labels are retained where present. Update the corresponding ingestion script when adding an approved edition. Run `npm run refresh:manifest` to refresh provenance from bundled source files.
+Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. The Egypt ingester uses exact, occurrence-aware source boundaries; it excludes out-of-scope introductions and remarks and separately labels retained footnotes and headings. Atlas segment numbers are application locators; biblical chapter:verse labels are retained where present. Update the corresponding ingestion script when adding an approved edition. Run `npm run refresh:manifest` to refresh provenance from bundled source files.
 
 ## Map and timeline coverage
 
@@ -107,7 +108,7 @@ Unverified research leads use a separate durable queue with explicit source, rig
 
 ## Passage source classification
 
-Every bundled segment now carries an explicit source type. The conservative reviewed set marks 9,873 segments as `Primary text`, including 100 bounded Egyptian translation segments, 199 segments from the bundled Gilgamesh and Egyptian Book of the Dead scholarly studies as `Scholarly commentary`, and leaves 11,026 mixed or reconstructed historical-edition segments as `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
+Every bundled segment now carries an explicit source type. The conservative reviewed set marks 10,015 segments as `Primary text`, including 242 bounded Egyptian translation segments. The 281 editorial segments include 199 bundled Gilgamesh and Egyptian Book of the Dead study segments plus separately labeled historical-edition footnotes. Another 11,043 mixed, reconstructed or structural segments remain `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
 
 ## Federated search
 

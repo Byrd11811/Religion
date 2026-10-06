@@ -121,6 +121,8 @@ export interface MuseumArtifact {
   sourceApi?: string;
   sourceHash?: string;
   verifiedAt?: string;
+  sensitivity?: string;
+  protocolReview?: string;
   id: string;
   title: string;
   witnessId: string | null;

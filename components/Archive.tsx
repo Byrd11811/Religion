@@ -269,8 +269,15 @@ export function EgyptCollection() {
   const objects = museumArtifacts.filter((a) => a.collection === "egypt");
   const works = texts.filter((t) => t.traditionId === "ancient-egypt");
   const egyptWorkIds = new Set(works.map((work) => work.id));
-  const egyptWitnesses = witnesses.filter((witness) =>
-    witness.workIds.some((id) => egyptWorkIds.has(id)),
+  const egyptArtifactWitnessIds = new Set(
+    objects
+      .map((artifact) => artifact.witnessId)
+      .filter((id): id is string => Boolean(id)),
+  );
+  const egyptWitnesses = witnesses.filter(
+    (witness) =>
+      egyptArtifactWitnessIds.has(witness.id) ||
+      witness.workIds.some((id) => egyptWorkIds.has(id)),
   );
   const images = archiveImages.filter((image) =>
     objects.some((artifact) => artifact.id === image.artifactId),

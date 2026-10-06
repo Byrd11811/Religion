@@ -1,0 +1,224 @@
+{
+  "institution": "The Metropolitan Museum of Art",
+  "requiredDepartment": "Egyptian Art",
+  "reviewedAt": "2026-10-04",
+  "criteria": "Selected public-domain Egyptian Art records with live institutional images. No human remains are included. Ritual, royal, tomb-context, and historical-terminology cases are identified for contextual display; the review authorizes public catalog metadata and CC0 image references only.",
+  "objects": [
+    {
+      "id": 560020,
+      "expectedTitle": "Scarab, Thutmose III",
+      "expectedMinImages": 4,
+      "decision": "approved",
+      "sensitivity": "ritual or amuletic object",
+      "witnessType": null,
+      "reviewNote": "Public museum object with no human remains; retain its ritual function and institutional context."
+    },
+    {
+      "id": 553646,
+      "expectedTitle": "Fragment of an ovoid flask",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum fragment with no human remains or identified cultural access restriction."
+    },
+    {
+      "id": 545445,
+      "expectedTitle": "Heqanakht Letter I",
+      "expectedMinImages": 4,
+      "decision": "approved",
+      "sensitivity": "archaeological tomb context; documentary text",
+      "witnessType": "Papyrus",
+      "reviewNote": "Documentary papyrus, not funerary remains; display the excavation context and do not infer a sacred-work association."
+    },
+    {
+      "id": 551319,
+      "expectedTitle": "Bell with head of a bovine wearing a yoke ending in uraei",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "ritual iconography",
+      "witnessType": null,
+      "reviewNote": "Public museum object with religious iconography; retain the Met title and avoid inferred ritual claims."
+    },
+    {
+      "id": 572336,
+      "expectedTitle": "Relief fragment with inscription",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "inscribed archaeological fragment",
+      "witnessType": "Inscribed relief",
+      "reviewNote": "Inscribed fragment with no work association; catalog it as a physical witness without supplying a translation."
+    },
+    {
+      "id": 569181,
+      "expectedTitle": "Scribal palette",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum scribal object; no human remains or active restriction identified in the catalog record."
+    },
+    {
+      "id": 544069,
+      "expectedTitle": "Weight of 3 Deben in the Shape of a Gazelle",
+      "expectedMinImages": 3,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum measurement object; preserve the institutional dating and material record."
+    },
+    {
+      "id": 549637,
+      "expectedTitle": "Crown with disks",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "royal or ritual iconography; identification uncertain",
+      "witnessType": null,
+      "reviewNote": "Retain the catalog's uncertainty and avoid presenting the proposed royal identification as certain."
+    },
+    {
+      "id": 553089,
+      "expectedTitle": "Ring bezel of Ptahhotep",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum personal object; no human remains or active restriction identified."
+    },
+    {
+      "id": 767437,
+      "expectedTitle": "Document Sealing With Multiple Seal Impressions",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "administrative archaeological object",
+      "witnessType": null,
+      "reviewNote": "Administrative sealing retained as an artifact; seal impressions are not treated as a translated textual work."
+    },
+    {
+      "id": 588379,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "textual object; content unreviewed",
+      "witnessType": "Ostracon",
+      "reviewNote": "Ink-bearing ostracon with no work association; do not infer language, content, or translation."
+    },
+    {
+      "id": 551324,
+      "expectedTitle": "Isis amulet",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "ritual or amuletic object",
+      "witnessType": null,
+      "reviewNote": "Public museum amulet; identify its cataloged form without making claims about a user's beliefs or practices."
+    },
+    {
+      "id": 570998,
+      "expectedTitle": "Bracelet",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum personal ornament; retain the catalog's uncertain date."
+    },
+    {
+      "id": 568376,
+      "expectedTitle": "Kohl stick",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum personal-care object; no human remains or active restriction identified."
+    },
+    {
+      "id": 561588,
+      "expectedTitle": "Hippopotamus Amulet",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "ritual or amuletic object",
+      "witnessType": null,
+      "reviewNote": "Public museum amulet; preserve the institutional function label without broader cultural generalization."
+    },
+    {
+      "id": 564871,
+      "expectedTitle": "Papyrus fragment",
+      "expectedMinImages": 1,
+      "decision": "approved",
+      "sensitivity": "textual fragment; content and date broad or unreviewed",
+      "witnessType": "Papyrus",
+      "reviewNote": "Ink-bearing fragment with no work association; expose the broad institutional date and do not infer a translation."
+    },
+    {
+      "id": 560805,
+      "expectedTitle": "Scribe's Palette",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "none identified",
+      "witnessType": null,
+      "reviewNote": "Public museum scribal object; it is contextual material rather than a textual witness."
+    },
+    {
+      "id": 546931,
+      "expectedTitle": "Scribal Palette",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "archaeological tomb context",
+      "witnessType": null,
+      "reviewNote": "Scribal object from an archaeological tomb context; no human remains are reproduced."
+    },
+    {
+      "id": 569675,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 5,
+      "decision": "approved",
+      "sensitivity": "religious text; content unreviewed",
+      "witnessType": "Ostracon",
+      "reviewNote": "Cataloged religious-text ostracon; provide images and metadata without generating or asserting a translation."
+    },
+    {
+      "id": 554804,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "hieratic textual object; content unreviewed",
+      "witnessType": "Ostracon",
+      "reviewNote": "Hieratic ostracon with no work association; expose script only where the institutional record states it."
+    },
+    {
+      "id": 555944,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "scribal instructional text",
+      "witnessType": "Ostracon",
+      "reviewNote": "Cataloged Book of Kemyt exercise; retain it as a witness without treating the object as a complete work."
+    },
+    {
+      "id": 555541,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "hieroglyphic textual object; content unreviewed",
+      "witnessType": "Ostracon",
+      "reviewNote": "Hieroglyphic ostracon with no work association; no translation is generated from the image."
+    },
+    {
+      "id": 588384,
+      "expectedTitle": "Ostracon",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "textual object; content unreviewed",
+      "witnessType": "Ostracon",
+      "reviewNote": "Ink-bearing ostracon with no work association; do not infer language, content, or translation."
+    },
+    {
+      "id": 544548,
+      "expectedTitle": "Leaders of the Aamu of Shu",
+      "expectedMinImages": 2,
+      "decision": "approved",
+      "sensitivity": "tomb facsimile; historical ethnonym in institutional title",
+      "witnessType": null,
+      "reviewNote": "Modern facsimile of a tomb scene; retain and contextualize the institutional title and do not present it as the original wall."
+    }
+  ]
+}

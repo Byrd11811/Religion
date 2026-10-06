@@ -219,5 +219,202 @@
       }
     ],
     "note": "Named translation from Gunn's public-domain edition. Atlas excludes the introduction, appendix and translator footnotes from the primary-text selection."
+  },
+  {
+    "id": "pg-9411-book-of-knowing-evolutions-ra",
+    "textId": "book-of-knowing-evolutions-ra",
+    "title": "Book of Knowing the Evolutions of Ra · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 12,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE HISTORY OF CREATION--A.",
+        "endHeading": "THE HISTORY OF CREATION--B."
+      },
+      {
+        "startHeading": "THE HISTORY OF CREATION--B.",
+        "endHeading": "THE LEGEND OF THE DESTRUCTION OF MANKIND.",
+        "endOccurrence": 1
+      }
+    ],
+    "note": "Two source recensions printed by Budge from the Book of Overthrowing Apep in Papyrus Bremner-Rhind. Atlas keeps both recensions in one edition, separates translator footnotes, and does not collapse their differences."
+  },
+  {
+    "id": "pg-9411-book-of-heavenly-cow",
+    "textId": "book-of-heavenly-cow",
+    "title": "Book of the Heavenly Cow / Destruction of Mankind · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 25,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE LEGEND OF THE DESTRUCTION OF MANKIND.",
+        "startOccurrence": 1,
+        "endHeading": "THE LEGEND OF RA AND ISIS.",
+        "endOccurrence": 1
+      }
+    ],
+    "note": "Bounded five-chapter historical translation conventionally associated with the Book of the Heavenly Cow. Repeated source headers remain Unknown and translator footnotes are separately classified."
+  },
+  {
+    "id": "pg-9411-legend-of-ra-and-isis",
+    "textId": "legend-of-ra-and-isis",
+    "title": "The Legend of Ra and Isis · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 9,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE LEGEND OF RA AND ISIS.",
+        "startOccurrence": 1,
+        "endHeading": "THE LEGEND OF HORUS OF BEHUTET AND THE WINGED DISK."
+      }
+    ],
+    "note": "Bounded historical translation of the composition about Isis, Ra, and the hidden divine name. Translator footnotes are separately classified."
+  },
+  {
+    "id": "pg-9411-horus-of-behutet-winged-disk",
+    "textId": "horus-of-behutet-winged-disk",
+    "title": "Horus of Behutet and the Winged Disk · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 57,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "THE LEGEND OF HORUS OF BEHUTET AND THE WINGED DISK.",
+        "endHeading": "A HYMN TO OSIRIS AND A LEGEND OF THE ORIGIN OF HORUS."
+      }
+    ],
+    "note": "Bounded historical translation of the Edfu temple legend. Translator footnotes are separately classified, and omitted source images remain visible as the Project Gutenberg #### marker."
+  },
+  {
+    "id": "pg-9411-great-hymn-to-osiris",
+    "textId": "great-hymn-to-osiris",
+    "title": "Great Hymn to Osiris and the Origin of Horus · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 15,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "A HYMN TO OSIRIS AND A LEGEND OF THE ORIGIN OF HORUS.",
+        "endHeading": "A LEGEND OF PTAH NEFER-HETEP AND THE PRINCESS OF BEKHTEN."
+      }
+    ],
+    "note": "Bounded historical translation of the Osiris hymn and its account of Horus's origin. Translator footnotes are separately classified."
+  },
+  {
+    "id": "pg-9411-bentresh-stela",
+    "textId": "bentresh-stela",
+    "title": "Bentresh Stela · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 17,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "A LEGEND OF PTAH NEFER-HETEP AND THE PRINCESS OF BEKHTEN.",
+        "endHeading": "A LEGEND OF THE GOD KHNEMU AND OF A SEVEN YEARS' FAMINE."
+      }
+    ],
+    "note": "Bounded historical translation of the Bentresh Stela narrative. The narrated reign and the later physical inscription are not treated as the same date; translator footnotes are separately classified."
+  },
+  {
+    "id": "pg-9411-famine-stela",
+    "textId": "famine-stela",
+    "title": "Famine Stela · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 27,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "A LEGEND OF THE GOD KHNEMU AND OF A SEVEN YEARS' FAMINE.",
+        "endHeading": "THE LEGEND OF THE DEATH OF HORUS THROUGH THE STING OF A SCORPION AND OF"
+      }
+    ],
+    "note": "Bounded historical translation of the Sehel inscription. Atlas distinguishes its later inscriptional setting from the earlier reign in which its story is set and separates translator footnotes."
+  },
+  {
+    "id": "pg-9411-metternich-stela-magical-texts",
+    "textId": "metternich-stela-magical-texts",
+    "title": "Metternich Stela Magical Texts · E. A. Wallis Budge (editor and translator)",
+    "translator": "E. A. Wallis Budge (editor and translator)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/9411/pg9411.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "6f3a922abe6e8bc33780f71508415c8930e18c83fc52925006ba1f37535355ad",
+    "passageCount": 69,
+    "complete": true,
+    "sourceFile": "9411.txt",
+    "sourceSections": [
+      {
+        "startHeading": "I.--INCANTATIONS AGAINST REPTILES AND NOXIOUS CREATURES IN GENERAL.",
+        "endHeading": "THE HISTORY OF ISIS AND OSIRIS,"
+      }
+    ],
+    "note": "Bounded composite magical corpus including anti-reptile incantations, the Narrative of Isis, and the source-numbered Hymn of Praise to Horus. Atlas preserves the composite witness context, keeps headings Unknown, classifies translator footnotes separately, and excludes Plutarch's later account."
+  },
+  {
+    "id": "pg-15932-hymn-to-amun-ra-cairo-papyrus",
+    "textId": "hymn-to-amun-ra-cairo-papyrus",
+    "title": "Hymn to Amen-Ra · E. A. Wallis Budge (translator and compiler)",
+    "translator": "E. A. Wallis Budge (translator and compiler)",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/15932",
+    "downloadUrl": "https://www.gutenberg.org/cache/epub/15932/pg15932.txt",
+    "license": "Public domain in the USA. Project Gutenberg license retained in source file; jurisdictional restrictions may differ.",
+    "language": "English",
+    "sha256": "0e04569031eb0365d399443daa2ac4e67e76c755377436e294262a7384016bab",
+    "passageCount": 10,
+    "complete": true,
+    "sourceFile": "15932.txt",
+    "sourceSections": [
+      {
+        "startHeading": "I. A Hymn to Amen-Ra,* the Bull, dweller in Anu, chief of all the gods,*",
+        "endHeading": "The following extract is taken from a work in which the power and glory"
+      }
+    ],
+    "note": "Bounded twenty-four-part Hymn to Amen-Ra from a Cairo papyrus as presented in Budge's public-domain anthology. The anthology introduction is excluded, source footnotes are separately classified, and the following Leyden extract is not included."
   }
 ]

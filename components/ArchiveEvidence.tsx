@@ -78,6 +78,12 @@ export function ArtifactCard({ artifact }: { artifact: MuseumArtifact }) {
         {artifact.inventoryNumber ?? "Inventory unavailable"}
       </p>
       <p>{artifact.description}</p>
+      {artifact.sensitivity && (
+        <p className="small muted">
+          <strong>Review context:</strong> {artifact.sensitivity}.{" "}
+          {artifact.protocolReview}
+        </p>
+      )}
     </article>
   );
 }

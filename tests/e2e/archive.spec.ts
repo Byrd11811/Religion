@@ -53,6 +53,11 @@ test("Egypt collection links attributed papyri and navigable IIIF images", async
   await expect(
     page.getByRole("heading", { name: "Ancient Egypt", exact: true }),
   ).toBeVisible();
+  await expect(
+    page.getByText(
+      "31 existing catalog works · 31 verified museum objects · 103 verified images. Most works still need reviewed translations and historical metadata.",
+    ),
+  ).toBeVisible();
   await page.getByRole("tab", { name: "Stories" }).click();
   await expect(
     page.getByRole("link", { name: "Tale of Sinuhe" }),
@@ -63,6 +68,10 @@ test("Egypt collection links attributed papyri and navigable IIIF images", async
   await page.getByRole("tab", { name: "Afterlife" }).click();
   await expect(
     page.getByRole("heading", { name: "Evolution of the Egyptian Afterlife" }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "Manuscripts" }).click();
+  await expect(
+    page.getByText("Physical witness · Ostracon").first(),
   ).toBeVisible();
   await page.getByRole("tab", { name: "Overview" }).click();
   await page

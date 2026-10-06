@@ -10,16 +10,23 @@
       "region": "Saqqara, Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Old Egyptian"],
+      "languages": [
+        "Old Egyptian"
+      ],
       "author": "Anonymous ritual compositions; no single authorship asserted",
       "description": "A corpus of funerary formulae first preserved in the inner chambers of late Old Kingdom pyramids. The corpus is not one book or a complete account of Egyptian religion.",
       "historicalContext": "UCL Digital Egypt distinguishes the late Old Kingdom pyramid inscriptions from their later ritual and funerary reuse. Individual formulae and monuments require separate dating and witness records.",
       "manuscripts": "Inscribed pyramid chambers, beginning with Unas and continuing in pyramids of later kings and queens; UCL also documents later copies on other funerary surfaces.",
-      "themes": ["afterlife", "ritual"],
+      "themes": [
+        "afterlife",
+        "ritual"
+      ],
       "sourceStatus": "Reviewed academic metadata; no translation bundled",
       "copyright": "Metadata link only; translation rights not assessed",
       "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/pyramid.html",
-      "metadataSources": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/pyramid.html"],
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/pyramid.html"
+      ],
       "editionId": null,
       "confidence": "B"
     },
@@ -33,23 +40,32 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Anonymous funerary compositions; no single authorship asserted",
       "description": "Funerary compositions preserved especially on the interiors of Middle Kingdom coffins and burial chambers. The corpus draws partly on Pyramid Text traditions and includes material later found in Book of the Dead traditions.",
       "historicalContext": "The corpus label groups many compositions and witnesses. Continuity with earlier and later funerary corpora does not make the collections identical.",
       "manuscripts": "UCL Digital Egypt identifies decorated coffins and burial chambers, including material from Beni Hasan, Harageh and Sedment.",
-      "themes": ["afterlife", "ritual"],
+      "themes": [
+        "afterlife",
+        "ritual"
+      ],
       "sourceStatus": "Reviewed academic metadata; no translation bundled",
       "copyright": "Metadata link only; translation rights not assessed",
       "sourceUrl": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/coffin.html",
-      "metadataSources": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/coffin.html"],
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/coffin.html"
+      ],
       "editionId": null,
       "confidence": "B"
     },
     {
       "id": "instruction-of-ptahhotep",
       "category": "Wisdom / instruction",
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Traditionally attributed to Ptahhotep; historical authorship requires review",
       "description": "Ancient Egyptian instruction literature preserved here in Battiscombe G. Gunn's historical English translation. The edition introduction and notes are excluded from the primary-text selection.",
       "historicalContext": "The cited edition discusses the Prisse Papyrus and the work's transmission. Its historical chronology and attribution require comparison with current Egyptological scholarship.",
@@ -57,7 +73,9 @@
       "sourceStatus": "Complete named historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/30508",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/30508"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/30508"
+      ],
       "editionId": "pg-30508-instruction-of-ptahhotep",
       "confidence": "D"
     }
@@ -76,16 +94,27 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Anonymous; narrator and historical authorship are not equated",
       "description": "A Middle Egyptian narrative commonly known as the Tale of Sinuhe. The Atlas separates the composition from its surviving manuscripts and from later interpretation.",
       "historicalContext": "UCL Digital Egypt catalogs the work within Middle Kingdom literature and provides manuscript, transcription and translation research materials.",
       "manuscripts": "Multiple manuscript witnesses are documented by the cited academic resource; normalized witness records remain to be added.",
-      "themes": ["death", "identity", "kingship", "exile"],
+      "themes": [
+        "death",
+        "identity",
+        "kingship",
+        "exile"
+      ],
       "sourceStatus": "Complete named historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
-      "metadataSources": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/sanehat/", "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html", "https://www.gutenberg.org/ebooks/7386"],
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/sanehat/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html",
+        "https://www.gutenberg.org/ebooks/7386"
+      ],
       "editionId": "pg-7386-tale-of-sinuhe",
       "confidence": "B"
     },
@@ -102,16 +131,27 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Anonymous; narrative setting is not evidence of authorship or composition date",
       "description": "A group of ancient Egyptian narratives preserved on the manuscript conventionally called the Westcar Papyrus. Work, manuscript and narrated royal setting remain distinct records.",
       "historicalContext": "The cited UCL academic survey places the narratives within Middle Egyptian literary study. A dedicated manuscript record and reviewed bibliography remain outstanding.",
       "manuscripts": "Known through the Westcar Papyrus; repository identifiers and codicological details require a sourced witness record.",
-      "themes": ["kingship", "magic", "birth", "wisdom"],
+      "themes": [
+        "kingship",
+        "magic",
+        "birth",
+        "wisdom"
+      ],
       "sourceStatus": "Substantial surviving historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
-      "metadataSources": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/midegsummaries.html", "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html", "https://www.gutenberg.org/ebooks/7386"],
+      "metadataSources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/midegsummaries.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html",
+        "https://www.gutenberg.org/ebooks/7386"
+      ],
       "editionId": "pg-7386-westcar-papyrus-tales",
       "confidence": "B"
     },
@@ -128,16 +168,25 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Anonymous; no single historical authorship asserted",
       "description": "An Egyptian narrative structured around a peasant's petitions for justice, preserved here in a bounded historical English translation.",
       "historicalContext": "Petrie's edition reports multiple incomplete copies. The Atlas therefore labels this translation as a substantial surviving selection rather than a complete work.",
       "manuscripts": "The historical edition discusses multiple incomplete papyrus copies; normalized witness records remain outstanding.",
-      "themes": ["law", "justice", "speech"],
+      "themes": [
+        "law",
+        "justice",
+        "speech"
+      ],
       "sourceStatus": "Substantial surviving historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7386", "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7386",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html"
+      ],
       "editionId": "pg-7386-eloquent-peasant",
       "confidence": "D"
     },
@@ -154,16 +203,25 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Anonymous; narrator and historical authorship are not equated",
       "description": "An Egyptian tale of a sailor's shipwreck and encounter with a serpent, preserved here in a bounded historical English translation.",
       "historicalContext": "The historical translator's remarks are retained in the source file but excluded from the primary-text selection.",
       "manuscripts": "The historical edition reports a single papyrus copy in the Hermitage collection; a current institutional witness record remains outstanding.",
-      "themes": ["creation", "suffering", "wisdom"],
+      "themes": [
+        "creation",
+        "suffering",
+        "wisdom"
+      ],
       "sourceStatus": "Complete named historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7386",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7386", "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7386",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturemk.html"
+      ],
       "editionId": "pg-7386-shipwrecked-sailor",
       "confidence": "D"
     },
@@ -180,16 +238,23 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Middle Egyptian"],
+      "languages": [
+        "Middle Egyptian"
+      ],
       "author": "Traditionally attributed to Ke’Gemni; historical authorship requires review",
       "description": "Ancient Egyptian instruction literature preserved in Battiscombe G. Gunn's historical English translation.",
       "historicalContext": "The source edition presents the surviving instruction before Ptahhotep. Atlas excludes the modern introduction and notes from the primary-text selection.",
       "manuscripts": "The source edition describes the surviving portion within the Prisse Papyrus; a normalized witness record remains outstanding.",
-      "themes": ["wisdom", "law"],
+      "themes": [
+        "wisdom",
+        "law"
+      ],
       "sourceStatus": "Complete available historical translation",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/30508",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/30508"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/30508"
+      ],
       "editionId": "pg-30508-instruction-of-kagemni",
       "confidence": "D"
     },
@@ -206,16 +271,24 @@
       "region": "Egypt and Joppa",
       "lat": null,
       "lng": null,
-      "languages": ["Late Egyptian"],
+      "languages": [
+        "Late Egyptian"
+      ],
       "author": "Anonymous; the historical figures in the narrative are not treated as authors",
       "description": "An incomplete Egyptian military tale about the capture of Joppa, preserved in a historical English edition whose translator supplied a reconstructed opening.",
       "historicalContext": "Because the edition explicitly says its opening is a modern reconstruction, Atlas retains the bounded text as searchable Unknown material rather than silently labeling it primary evidence.",
       "manuscripts": "Papyrus Harris 500 (British Museum EA10060), whose start and finish are lost; the museum catalogs the Capture of Joppa on its verso in Hieratic script.",
-      "themes": ["kingship", "war"],
+      "themes": [
+        "kingship",
+        "war"
+      ],
       "sourceStatus": "Incomplete historical edition with reconstructed opening",
       "copyright": "Public-domain English edition (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7413", "https://www.britishmuseum.org/collection/object/Y_EA10060"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7413",
+        "https://www.britishmuseum.org/collection/object/Y_EA10060"
+      ],
       "editionId": "pg-7413-taking-of-joppa",
       "confidence": "D"
     },
@@ -232,16 +305,25 @@
       "region": "Egypt and the ancient Near East",
       "lat": null,
       "lng": null,
-      "languages": ["Late Egyptian"],
+      "languages": [
+        "Late Egyptian"
+      ],
       "author": "Anonymous; no historical authorship asserted",
       "description": "An incomplete ancient Egyptian narrative about a prince and the fates predicted for him, preserved in a bounded historical English translation.",
       "historicalContext": "The source marks the point where its papyrus breaks off. Atlas preserves that marker and does not claim a complete ending.",
       "manuscripts": "Papyrus Harris 500 (British Museum EA10060), whose start and finish are lost; the museum catalogs the Doomed Prince on its verso in Hieratic script.",
-      "themes": ["death", "fate", "kingship"],
+      "themes": [
+        "death",
+        "fate",
+        "kingship"
+      ],
       "sourceStatus": "Incomplete surviving historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7413", "https://www.britishmuseum.org/collection/object/Y_EA10060"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7413",
+        "https://www.britishmuseum.org/collection/object/Y_EA10060"
+      ],
       "editionId": "pg-7413-doomed-prince",
       "confidence": "D"
     },
@@ -258,16 +340,27 @@
       "region": "Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Literary New Egyptian"],
+      "languages": [
+        "Literary New Egyptian"
+      ],
       "author": "Anonymous; named ancient scribes are witness-level evidence, not assumed original authors",
       "description": "The story of the brothers Anpu and Bata, preserved here as a complete named tale in a bounded historical English translation.",
       "historicalContext": "Atlas preserves the translated tale while excluding the anthology's separate translator commentary from primary-text classification.",
       "manuscripts": "D’Orbiney Papyrus (British Museum EA10183), the only known copy; the museum dates it to about 1215 BCE and associates it with scribe Inena.",
-      "themes": ["death", "identity", "kingship", "family"],
+      "themes": [
+        "death",
+        "identity",
+        "kingship",
+        "family"
+      ],
       "sourceStatus": "Complete named historical translation available",
       "copyright": "Public-domain English translation (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7413", "https://www.britishmuseum.org/collection/object/Y_EA10183-1", "https://www.britishmuseum.org/blog/page-turners-literature-ancient-egypt"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7413",
+        "https://www.britishmuseum.org/collection/object/Y_EA10183-1",
+        "https://www.britishmuseum.org/blog/page-turners-literature-ancient-egypt"
+      ],
       "editionId": "pg-7413-tale-of-two-brothers",
       "confidence": "D"
     },
@@ -284,17 +377,344 @@
       "region": "Memphis and Coptos, Egypt",
       "lat": null,
       "lng": null,
-      "languages": ["Demotic Egyptian"],
+      "languages": [
+        "Demotic Egyptian"
+      ],
       "author": "Anonymous; no historical authorship asserted",
       "description": "A Setna narrative about a book attributed within the story to Thoth, preserved in an incomplete historical edition with a reconstructed opening.",
       "historicalContext": "Because Petrie states that the lost opening was restored and later supplies a bracketed plot summary, Atlas keeps those mixed segments Unknown while classifying the remaining translated segments as primary text.",
       "manuscripts": "The historical edition reports one Demotic papyrus copy then held by the Giza Museum; current institutional identification remains outstanding.",
-      "themes": ["magic", "death", "afterlife", "wisdom"],
+      "themes": [
+        "magic",
+        "death",
+        "afterlife",
+        "wisdom"
+      ],
       "sourceStatus": "Incomplete historical edition with reconstructed opening",
       "copyright": "Public-domain English edition (USA)",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7413",
-      "metadataSources": ["https://www.gutenberg.org/ebooks/7413"],
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7413"
+      ],
       "editionId": "pg-7413-setna-i-magic-book",
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-knowing-evolutions-ra",
+      "title": "Book of Knowing the Evolutions of Ra",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Creation theology / ritual composition",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition date unreviewed; the linked British Museum witness is dated 305 BCE.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "Two ancient Egyptian creation recensions embedded in the Book of Overthrowing Apep. The edition preserves both versions as parallel source sections rather than combining their wording.",
+      "historicalContext": "The British Museum catalogs the Book of Overthrowing Apep within the Bremner-Rhind Papyrus. The physical witness is Ptolemaic, while the composition history of the embedded creation material requires separate review.",
+      "manuscripts": "Papyrus Bremner-Rhind (British Museum EA10188), including the Book of Overthrowing Apep in columns 22–32; the linked museum sheet belongs to that series.",
+      "themes": [
+        "creation",
+        "divinity",
+        "magic",
+        "cosmology"
+      ],
+      "sourceStatus": "Complete bounded historical translation of two source recensions available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411",
+        "https://www.britishmuseum.org/collection/object/Y_EA10188-10"
+      ],
+      "editionId": "pg-9411-book-of-knowing-evolutions-ra",
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-heavenly-cow",
+      "title": "Book of the Heavenly Cow / Destruction of Mankind",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Funerary theology / mythic composition",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and individual witness dates require current scholarly review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A mythic and ritual composition describing human rebellion, the destruction ordered by Ra, the intervention of Hathor, and the reordering of the divine and human worlds.",
+      "historicalContext": "The work is often known through the Destruction of Mankind episode, but the selected five chapters also contain ritual and cosmological material. Narrative setting, composition, and surviving royal-tomb witnesses are distinct evidence questions.",
+      "manuscripts": "The historical edition discusses royal-tomb copies and presents a five-chapter translation; individual tomb witnesses remain to be normalized.",
+      "themes": [
+        "creation",
+        "death",
+        "afterlife",
+        "kingship"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411"
+      ],
+      "editionId": "pg-9411-book-of-heavenly-cow",
+      "confidence": "D"
+    },
+    {
+      "id": "legend-of-ra-and-isis",
+      "title": "The Legend of Ra and Isis",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Magic / theological narrative",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and papyrus dates require current institutional review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An ancient Egyptian composition in which Isis seeks knowledge of Ra’s hidden name after creating the serpent whose venom afflicts him.",
+      "historicalContext": "The historical edition presents the composition as a source for protective magic and divine-name theology. Atlas does not treat its narrative action as a report of a historical event.",
+      "manuscripts": "The edition identifies a hieratic papyrus at Turin as its source; a current institutional identifier and witness record remain to be reviewed.",
+      "themes": [
+        "magic",
+        "healing",
+        "divinity",
+        "knowledge"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411"
+      ],
+      "editionId": "pg-9411-legend-of-ra-and-isis",
+      "confidence": "D"
+    },
+    {
+      "id": "horus-of-behutet-winged-disk",
+      "title": "Horus of Behutet and the Winged Disk",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Temple myth / inscription",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Extant inscription described as Ptolemaic; composition layers require current review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A temple narrative of Horus of Behutet, conflict with the enemies of Ra, and the establishment of the winged-disk emblem in sanctuaries.",
+      "historicalContext": "The edition states that the preserved hieroglyphic text and reliefs are on the temple walls at Edfu and that the extant form is Ptolemaic. Claims about older underlying material remain source claims pending modern review.",
+      "manuscripts": "Hieroglyphic temple-wall inscription and relief program at Edfu, as described by the historical edition.",
+      "themes": [
+        "kingship",
+        "war",
+        "symbol",
+        "temple"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411"
+      ],
+      "editionId": "pg-9411-horus-of-behutet-winged-disk",
+      "confidence": "D"
+    },
+    {
+      "id": "great-hymn-to-osiris",
+      "title": "Great Hymn to Osiris and the Origin of Horus",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Hymn / theological composition",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Historical edition proposes an Eighteenth Dynasty context; current review pending.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A hymn praising Osiris across multiple cult centers and closing with an account of Isis, the conception of Horus, and Horus’s accession.",
+      "historicalContext": "The edition associates the composition with the expansion of Osiris worship and distinguishes the hymn from later retellings. Its historical dating remains provisional until a modern catalog record is linked.",
+      "manuscripts": "The historical edition identifies a hieroglyphic stela then preserved in Paris; current repository and inventory metadata remain to be reviewed.",
+      "themes": [
+        "afterlife",
+        "divinity",
+        "kingship",
+        "birth"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411"
+      ],
+      "editionId": "pg-9411-great-hymn-to-osiris",
+      "confidence": "D"
+    },
+    {
+      "id": "bentresh-stela",
+      "title": "Bentresh Stela",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Healing legend / inscription",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Narrative setting and later inscription date are distinct; precise witness date unreviewed.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "An inscriptional narrative about an Egyptian divine image sent to heal the princess Bentresh in a foreign land.",
+      "historicalContext": "The narrative is set in the reign of Ramesses II, but the surviving inscription is later. Atlas keeps narrative chronology separate from witness chronology and does not use the tale as direct evidence for the events it narrates. The translation heading says Ptah Nefer-Hetep while the anthology contents and narrative identify Khensu Nefer-Hetep; Atlas exposes that source inconsistency rather than silently normalizing it.",
+      "manuscripts": "A hieroglyphic stela conventionally called the Bentresh Stela; the UCL House of Life source identifies it as a Late or Ptolemaic inscription.",
+      "themes": [
+        "healing",
+        "ritual",
+        "divinity",
+        "travel"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/museum/houseoflifesources.html"
+      ],
+      "editionId": "pg-9411-bentresh-stela",
+      "confidence": "D"
+    },
+    {
+      "id": "famine-stela",
+      "title": "Famine Stela",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Royal decree / inscriptional narrative",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "UCL identifies the inscription as Late Period or Ptolemaic; the narrated Old Kingdom setting is not its witness date.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A hieroglyphic inscription describing seven years of low Nile floods, a royal inquiry, Khnum’s response, and a decree supporting the god’s cult.",
+      "historicalContext": "The story is placed in Djoser’s reign, while the inscription is a much later archaising composition. It is therefore evidence for its inscriptional period and reception, not a contemporary Old Kingdom record.",
+      "manuscripts": "Rock inscription on Sehel Island near the First Cataract; UCL describes it as Late Period or Ptolemaic.",
+      "themes": [
+        "kingship",
+        "famine",
+        "ritual",
+        "law"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/museum/houseoflifesources.html"
+      ],
+      "editionId": "pg-9411-famine-stela",
+      "confidence": "D"
+    },
+    {
+      "id": "metternich-stela-magical-texts",
+      "title": "Metternich Stela Magical Texts",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Protective magic / composite inscriptional corpus",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Physical witness and composition dates require current museum review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A composite sequence of protective incantations, the Narrative of Isis, and a source-numbered Hymn of Praise to Horus associated with the Metternich Stela magical corpus.",
+      "historicalContext": "Atlas preserves the source’s composite witness context rather than inflating its internal chapters into separate works. Formula headings and translator footnotes are classified separately from translated primary text.",
+      "manuscripts": "Metternich Stela magical-text tradition as identified by the historical edition; a current museum object record remains to be linked.",
+      "themes": [
+        "magic",
+        "healing",
+        "ritual",
+        "protection"
+      ],
+      "sourceStatus": "Complete bounded historical composite section available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/9411"
+      ],
+      "editionId": "pg-9411-metternich-stela-magical-texts",
+      "confidence": "D"
+    },
+    {
+      "id": "hymn-to-amun-ra-cairo-papyrus",
+      "title": "Hymn to Amen-Ra",
+      "traditionId": "ancient-egypt",
+      "tradition": "Ancient Egypt",
+      "category": "Hymn / temple theology",
+      "canonStatus": "Ancient Egyptian composition or source-defined collection; no universal canon status is inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Anthology gives a broad 1600–900 BCE hymn context; composition and witness dates require current review.",
+      "region": "Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Ancient Egyptian"
+      ],
+      "author": "Anonymous; no single historical authorship asserted",
+      "description": "A twenty-four-part Egyptian hymn praising Amen-Ra as creator, solar ruler, sustainer, protector, and lord of major cult centers.",
+      "historicalContext": "Budge presents this hymn among temple compositions used between the New Kingdom and early first millennium BCE. Atlas records that anthology context without treating its broad chronology as a reviewed composition date.",
+      "manuscripts": "The historical anthology identifies a papyrus in the Egyptian Museum in Cairo; a current inventory number and institutional record remain to be linked.",
+      "themes": [
+        "divinity",
+        "creation",
+        "kingship",
+        "hymn"
+      ],
+      "sourceStatus": "Complete bounded historical translation available",
+      "copyright": "Public-domain English translation (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15932",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/15932"
+      ],
+      "editionId": "pg-15932-hymn-to-amun-ra-cairo-papyrus",
       "confidence": "D"
     }
   ]
