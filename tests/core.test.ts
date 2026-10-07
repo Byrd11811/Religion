@@ -240,6 +240,64 @@ test("Mesopotamian depth release keeps composites, tablets, translations and mod
     ),
   );
 });
+test("China depth release separates schools, source transcriptions, translations and witnesses", () => {
+  const additions = JSON.parse(
+    readFileSync("data/seed/china-additions.json", "utf8"),
+  ) as {
+    records: (typeof texts)[number][];
+    originalTextWorks: { id: string }[];
+  };
+  const chinese = texts.filter((text) => text.traditionId === "china");
+  assert.equal(chinese.length, 109);
+  assert.equal(new Set(chinese.map((text) => text.id)).size, 109);
+  assert.ok(chinese.every((text) => text.nativeTitle && text.pinyin));
+  for (const group of [
+    "Confucian / Ru",
+    "Daoist",
+    "Chinese Buddhism",
+    "Mohist",
+    "Legalist",
+    "School of Names",
+    "Folk religion",
+    "Chinese Manichaeism",
+    "Jingjiao",
+    "Chinese Islam",
+    "Syncretic traditions",
+  ]) assert.ok(chinese.some((text) => text.subcollection === group), group);
+  const sourceEditions = editions.filter((edition) =>
+    edition.id.match(/^pg-\d+-.+/) &&
+    additions.originalTextWorks.some((work) => work.id === edition.textId),
+  );
+  assert.equal(sourceEditions.length, 30);
+  assert.equal(additions.originalTextWorks.length, 30);
+  assert.ok(
+    sourceEditions.every(
+      (edition) =>
+        edition.language === "Classical Chinese transcription" &&
+        edition.translator.startsWith("No translation bundled") &&
+        edition.license.toLowerCase().includes("public domain"),
+    ),
+  );
+  const passages = allPassages().filter((passage) =>
+    sourceEditions.some((edition) => edition.id === passage.editionId),
+  );
+  assert.equal(passages.length, 8864);
+  assert.ok(passages.every((passage) => passage.content.trim().length > 0));
+  for (const edition of sourceEditions) {
+    const id = edition.id.match(/^pg-(\d+)-/)![1];
+    const bytes = readFileSync(`data/public-domain/china/pg-${id}.txt`);
+    assert.equal(createHash("sha256").update(bytes).digest("hex"), edition.sha256);
+  }
+  const physical = witnesses.filter((witness) => witness.id.startsWith("idp-"));
+  assert.equal(physical.length, 4);
+  assert.ok(
+    physical.every(
+      (witness) =>
+        witness.sources.every((source) => source.startsWith("https://idp.bl.uk/")) &&
+        witness.description.length > 20,
+    ),
+  );
+});
 test("catalog has unique records and valid tradition/edition references", () => {
   assert.ok(texts.length >= 100);
   assert.equal(new Set(texts.map((t) => t.id)).size, texts.length);

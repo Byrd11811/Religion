@@ -25,6 +25,7 @@ import {
 import type { Passage } from "../packages/shared/types";
 import { passageSeedFiles } from "../packages/shared/seed-files";
 import mesopotamiaAdditions from "../data/seed/mesopotamia-additions.json";
+import chinaAdditions from "../data/seed/china-additions.json";
 
 const input: CoverageInput = {
   texts,
@@ -40,24 +41,25 @@ const input: CoverageInput = {
   ),
   additionalCollections: {
     transliterationWorks: mesopotamiaAdditions.transliterationWorks,
+    originalTextWorks: chinaAdditions.originalTextWorks,
   },
 };
 const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 373);
-  assert.equal(get("searchableWorks").seeded, 88);
-  assert.equal(get("completeEditionWorks").seeded, 55);
-  assert.equal(get("passages").seeded, 21816);
-  assert.equal(get("primaryPassages").seeded, 10492);
+  assert.equal(get("works").seeded, 468);
+  assert.equal(get("searchableWorks").seeded, 116);
+  assert.equal(get("completeEditionWorks").seeded, 83);
+  assert.equal(get("passages").seeded, 30680);
+  assert.equal(get("primaryPassages").seeded, 18011);
   assert.equal(get("editorialPassages").seeded, 281);
-  assert.equal(get("unclassifiedPassages").seeded, 11043);
-  assert.equal(get("witnesses").seeded, 30);
-  assert.equal(get("mappedWorks").seeded, 36);
-  assert.equal(get("coordinateWorks").seeded, 36);
-  assert.equal(get("languageMetadataWorks").seeded, 166);
-  assert.equal(get("originalTextWorks").seeded, 0);
+  assert.equal(get("unclassifiedPassages").seeded, 12388);
+  assert.equal(get("witnesses").seeded, 34);
+  assert.equal(get("mappedWorks").seeded, 34);
+  assert.equal(get("coordinateWorks").seeded, 34);
+  assert.equal(get("languageMetadataWorks").seeded, 273);
+  assert.equal(get("originalTextWorks").seeded, 30);
   assert.equal(get("transliterationWorks").seeded, 26);
   assert.ok(
     metrics.every(

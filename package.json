@@ -14,6 +14,7 @@
     "ingest:text": "python scripts/ingest.py",
     "ingest:egypt": "tsx scripts/ingest-egypt.ts",
     "ingest:mesopotamia": "python scripts/ingest-mesopotamia.py --retained-only",
+    "ingest:china": "python scripts/ingest-china.py",
     "ingest:images": "tsx scripts/images.ts",
     "ingest:met": "python scripts/import-met.py",
     "refresh:manifest": "python scripts/refresh-manifest.py",

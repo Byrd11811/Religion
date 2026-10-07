@@ -24,6 +24,10 @@ export interface TextRecord {
   metadataSources: string[];
   editionId: string | null;
   confidence: Confidence;
+  nativeTitle?: string;
+  pinyin?: string;
+  alternateTitles?: string[];
+  subcollection?: string;
 }
 export interface Tradition {
   id: string;

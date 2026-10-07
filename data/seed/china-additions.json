@@ -1,0 +1,4129 @@
+{
+  "records": [
+    {
+      "id": "analects",
+      "title": "Analects",
+      "nativeTitle": "論語",
+      "pinyin": "Lúnyǔ",
+      "alternateTitles": [
+        "論語",
+        "Lúnyǔ"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Analects (論語; Lúnyǔ) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23839",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/23839"
+      ],
+      "editionId": "pg-23839-analects",
+      "confidence": "C"
+    },
+    {
+      "id": "mencius",
+      "title": "Mencius",
+      "nativeTitle": "孟子",
+      "pinyin": "Mèngzǐ",
+      "alternateTitles": [
+        "孟子",
+        "Mèngzǐ"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mencius (孟子; Mèngzǐ) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24178",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24178"
+      ],
+      "editionId": "pg-24178-mencius",
+      "confidence": "C"
+    },
+    {
+      "id": "great-learning",
+      "title": "Great Learning",
+      "nativeTitle": "大學",
+      "pinyin": "Dàxué",
+      "alternateTitles": [
+        "大學",
+        "Dàxué"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Great Learning (大學; Dàxué) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "doctrine-of-the-mean",
+      "title": "Doctrine of the Mean",
+      "nativeTitle": "中庸",
+      "pinyin": "Zhōngyōng",
+      "alternateTitles": [
+        "中庸",
+        "Zhōngyōng"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Doctrine of the Mean (中庸; Zhōngyōng) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-rites",
+      "title": "Book of Rites",
+      "nativeTitle": "禮記",
+      "pinyin": "Lǐjì",
+      "alternateTitles": [
+        "禮記",
+        "Lǐjì"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Book of Rites (禮記; Lǐjì) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24048",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24048"
+      ],
+      "editionId": "pg-24048-book-of-rites",
+      "confidence": "C"
+    },
+    {
+      "id": "classic-of-filial-piety",
+      "title": "Classic of Filial Piety",
+      "nativeTitle": "孝經",
+      "pinyin": "Xiàojīng",
+      "alternateTitles": [
+        "孝經",
+        "Xiàojīng"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Classic of Filial Piety (孝經; Xiàojīng) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24232",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24232"
+      ],
+      "editionId": "pg-24232-classic-of-filial-piety",
+      "confidence": "C"
+    },
+    {
+      "id": "spring-and-autumn-annals",
+      "title": "Spring and Autumn Annals",
+      "nativeTitle": "春秋",
+      "pinyin": "Chūnqiū",
+      "alternateTitles": [
+        "春秋",
+        "Chūnqiū"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Spring and Autumn Annals (春秋; Chūnqiū) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "zuo-commentary",
+      "title": "Zuo Commentary",
+      "nativeTitle": "左傳",
+      "pinyin": "Zuǒzhuàn",
+      "alternateTitles": [
+        "左傳",
+        "Zuǒzhuàn"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Zuo Commentary (左傳; Zuǒzhuàn) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24136",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24136"
+      ],
+      "editionId": "pg-24136-zuo-commentary",
+      "confidence": "C"
+    },
+    {
+      "id": "book-of-documents",
+      "title": "Book of Documents",
+      "nativeTitle": "尚書",
+      "pinyin": "Shàngshū",
+      "alternateTitles": [
+        "尚書",
+        "Shàngshū"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Book of Documents (尚書; Shàngshū) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-songs",
+      "title": "Book of Songs",
+      "nativeTitle": "詩經",
+      "pinyin": "Shījīng",
+      "alternateTitles": [
+        "詩經",
+        "Shījīng"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Book of Songs (詩經; Shījīng) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23873",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/23873"
+      ],
+      "editionId": "pg-23873-book-of-songs",
+      "confidence": "C"
+    },
+    {
+      "id": "i-ching",
+      "title": "I Ching",
+      "nativeTitle": "易經",
+      "pinyin": "Yìjīng",
+      "alternateTitles": [
+        "易經",
+        "Yìjīng"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "I Ching (易經; Yìjīng) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25501",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25501"
+      ],
+      "editionId": "pg-25501-i-ching",
+      "confidence": "C"
+    },
+    {
+      "id": "xunzi",
+      "title": "Xunzi",
+      "nativeTitle": "荀子",
+      "pinyin": "Xúnzǐ",
+      "alternateTitles": [
+        "荀子",
+        "Xúnzǐ"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Xunzi (荀子; Xúnzǐ) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25314",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25314"
+      ],
+      "editionId": "pg-25314-xunzi",
+      "confidence": "C"
+    },
+    {
+      "id": "kongzi-jiayu",
+      "title": "Kongzi Jiayu",
+      "nativeTitle": "孔子家語",
+      "pinyin": "Kǒngzǐ Jiāyǔ",
+      "alternateTitles": [
+        "孔子家語",
+        "Kǒngzǐ Jiāyǔ"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Kongzi Jiayu (孔子家語; Kǒngzǐ Jiāyǔ) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "kongcongzi",
+      "title": "Kongcongzi",
+      "nativeTitle": "孔叢子",
+      "pinyin": "Kǒngcóngzǐ",
+      "alternateTitles": [
+        "孔叢子",
+        "Kǒngcóngzǐ"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Kongcongzi (孔叢子; Kǒngcóngzǐ) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25374",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25374"
+      ],
+      "editionId": "pg-25374-kongcongzi",
+      "confidence": "C"
+    },
+    {
+      "id": "luxuriant-dew-of-the-spring-and-autumn-annals",
+      "title": "Luxuriant Dew of the Spring and Autumn Annals",
+      "nativeTitle": "春秋繁露",
+      "pinyin": "Chūnqiū Fánlù",
+      "alternateTitles": [
+        "春秋繁露",
+        "Chūnqiū Fánlù"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Luxuriant Dew of the Spring and Autumn Annals (春秋繁露; Chūnqiū Fánlù) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25385",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25385"
+      ],
+      "editionId": "pg-25385-luxuriant-dew-of-the-spring-and-autumn-annals",
+      "confidence": "C"
+    },
+    {
+      "id": "discourses-on-salt-and-iron",
+      "title": "Discourses on Salt and Iron",
+      "nativeTitle": "鹽鐵論",
+      "pinyin": "Yántiě Lùn",
+      "alternateTitles": [
+        "鹽鐵論",
+        "Yántiě Lùn"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Discourses on Salt and Iron (鹽鐵論; Yántiě Lùn) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "comprehensive-discussions-in-the-white-tiger-hall",
+      "title": "Comprehensive Discussions in the White Tiger Hall",
+      "nativeTitle": "白虎通義",
+      "pinyin": "Báihǔ Tōngyì",
+      "alternateTitles": [
+        "白虎通義",
+        "Báihǔ Tōngyì"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Comprehensive Discussions in the White Tiger Hall (白虎通義; Báihǔ Tōngyì) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "family-instructions-of-the-yan-clan",
+      "title": "Family Instructions of the Yan Clan",
+      "nativeTitle": "顏氏家訓",
+      "pinyin": "Yánshì Jiāxùn",
+      "alternateTitles": [
+        "顏氏家訓",
+        "Yánshì Jiāxùn"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Family Instructions of the Yan Clan (顏氏家訓; Yánshì Jiāxùn) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7458",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7458"
+      ],
+      "editionId": "pg-7458-family-instructions-of-the-yan-clan",
+      "confidence": "C"
+    },
+    {
+      "id": "reflections-in-the-imperial-mirror",
+      "title": "Reflections in the Imperial Mirror",
+      "nativeTitle": "申鑒",
+      "pinyin": "Shēnjiàn",
+      "alternateTitles": [
+        "申鑒",
+        "Shēnjiàn"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Reflections in the Imperial Mirror (申鑒; Shēnjiàn) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7408",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7408"
+      ],
+      "editionId": "pg-7408-reflections-in-the-imperial-mirror",
+      "confidence": "C"
+    },
+    {
+      "id": "instructions-for-practical-living",
+      "title": "Instructions for Practical Living",
+      "nativeTitle": "傳習錄",
+      "pinyin": "Chuánxí Lù",
+      "alternateTitles": [
+        "傳習錄",
+        "Chuánxí Lù"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Instructions for Practical Living (傳習錄; Chuánxí Lù) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25517",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25517"
+      ],
+      "editionId": "pg-25517-instructions-for-practical-living",
+      "confidence": "C"
+    },
+    {
+      "id": "complete-works-of-wang-yangming",
+      "title": "Complete Works of Wang Yangming",
+      "nativeTitle": "王陽明全集",
+      "pinyin": "Wáng Yángmíng Quánjí",
+      "alternateTitles": [
+        "王陽明全集",
+        "Wáng Yángmíng Quánjí"
+      ],
+      "subcollection": "Confucian / Ru",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Confucian / Ru",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Complete Works of Wang Yangming (王陽明全集; Wáng Yángmíng Quánjí) is cataloged within the Confucian / Ru collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "tao-te-ching",
+      "title": "Tao Te Ching",
+      "nativeTitle": "道德經",
+      "pinyin": "Dàodéjīng",
+      "alternateTitles": [
+        "道德經",
+        "Dàodéjīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Tao Te Ching (道德經; Dàodéjīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7337",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7337"
+      ],
+      "editionId": "pg-7337-tao-te-ching",
+      "confidence": "C"
+    },
+    {
+      "id": "zhuangzi",
+      "title": "Zhuangzi",
+      "nativeTitle": "莊子",
+      "pinyin": "Zhuāngzǐ",
+      "alternateTitles": [
+        "莊子",
+        "Zhuāngzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Zhuangzi (莊子; Zhuāngzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "liezi",
+      "title": "Liezi",
+      "nativeTitle": "列子",
+      "pinyin": "Lièzǐ",
+      "alternateTitles": [
+        "列子",
+        "Lièzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Liezi (列子; Lièzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7341",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7341"
+      ],
+      "editionId": "pg-7341-liezi",
+      "confidence": "C"
+    },
+    {
+      "id": "huainanzi",
+      "title": "Huainanzi",
+      "nativeTitle": "淮南子",
+      "pinyin": "Huáinánzǐ",
+      "alternateTitles": [
+        "淮南子",
+        "Huáinánzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Huainanzi (淮南子; Huáinánzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24059",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24059"
+      ],
+      "editionId": "pg-24059-huainanzi",
+      "confidence": "C"
+    },
+    {
+      "id": "wenzi",
+      "title": "Wenzi",
+      "nativeTitle": "文子",
+      "pinyin": "Wénzǐ",
+      "alternateTitles": [
+        "文子",
+        "Wénzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Wenzi (文子; Wénzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23854",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/23854"
+      ],
+      "editionId": "pg-23854-wenzi",
+      "confidence": "C"
+    },
+    {
+      "id": "baopuzi",
+      "title": "Baopuzi",
+      "nativeTitle": "抱朴子",
+      "pinyin": "Bàopǔzǐ",
+      "alternateTitles": [
+        "抱朴子",
+        "Bàopǔzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Baopuzi (抱朴子; Bàopǔzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25696",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25696"
+      ],
+      "editionId": "pg-25696-baopuzi",
+      "confidence": "C"
+    },
+    {
+      "id": "taiping-jing",
+      "title": "Taiping Jing",
+      "nativeTitle": "太平經",
+      "pinyin": "Tàipíng Jīng",
+      "alternateTitles": [
+        "太平經",
+        "Tàipíng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Taiping Jing (太平經; Tàipíng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "cantong-qi",
+      "title": "Cantong Qi",
+      "nativeTitle": "參同契",
+      "pinyin": "Cāntóng Qì",
+      "alternateTitles": [
+        "參同契",
+        "Cāntóng Qì"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Cantong Qi (參同契; Cāntóng Qì) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "huangting-jing",
+      "title": "Huangting Jing",
+      "nativeTitle": "黃庭經",
+      "pinyin": "Huángtíng Jīng",
+      "alternateTitles": [
+        "黃庭經",
+        "Huángtíng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Huangting Jing (黃庭經; Huángtíng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "qingjing-jing",
+      "title": "Qingjing Jing",
+      "nativeTitle": "清靜經",
+      "pinyin": "Qīngjìng Jīng",
+      "alternateTitles": [
+        "清靜經",
+        "Qīngjìng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Qingjing Jing (清靜經; Qīngjìng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "neiye",
+      "title": "Neiye",
+      "nativeTitle": "內業",
+      "pinyin": "Nèiyè",
+      "alternateTitles": [
+        "內業",
+        "Nèiyè"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Neiye (內業; Nèiyè) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "zuowanglun",
+      "title": "Zuowanglun",
+      "nativeTitle": "坐忘論",
+      "pinyin": "Zuòwàng Lùn",
+      "alternateTitles": [
+        "坐忘論",
+        "Zuòwàng Lùn"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Zuowanglun (坐忘論; Zuòwàng Lùn) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "wuzhen-pian",
+      "title": "Wuzhen Pian",
+      "nativeTitle": "悟真篇",
+      "pinyin": "Wùzhēn Piān",
+      "alternateTitles": [
+        "悟真篇",
+        "Wùzhēn Piān"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Wuzhen Pian (悟真篇; Wùzhēn Piān) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "guanzi",
+      "title": "Guanzi",
+      "nativeTitle": "管子",
+      "pinyin": "Guǎnzǐ",
+      "alternateTitles": [
+        "管子",
+        "Guǎnzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Guanzi (管子; Guǎnzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7367",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7367"
+      ],
+      "editionId": "pg-7367-guanzi",
+      "confidence": "C"
+    },
+    {
+      "id": "guanyinzi",
+      "title": "Guanyinzi",
+      "nativeTitle": "關尹子",
+      "pinyin": "Guānyǐnzǐ",
+      "alternateTitles": [
+        "關尹子",
+        "Guānyǐnzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Guanyinzi (關尹子; Guānyǐnzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25169",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25169"
+      ],
+      "editionId": "pg-25169-guanyinzi",
+      "confidence": "C"
+    },
+    {
+      "id": "yinwenzi",
+      "title": "Yinwenzi",
+      "nativeTitle": "尹文子",
+      "pinyin": "Yǐnwénzǐ",
+      "alternateTitles": [
+        "尹文子",
+        "Yǐnwénzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Yinwenzi (尹文子; Yǐnwénzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/27017",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/27017"
+      ],
+      "editionId": "pg-27017-yinwenzi",
+      "confidence": "C"
+    },
+    {
+      "id": "shenzi",
+      "title": "Shenzi",
+      "nativeTitle": "慎子",
+      "pinyin": "Shènzǐ",
+      "alternateTitles": [
+        "慎子",
+        "Shènzǐ"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Shenzi (慎子; Shènzǐ) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25366",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25366"
+      ],
+      "editionId": "pg-25366-shenzi",
+      "confidence": "C"
+    },
+    {
+      "id": "scripture-of-the-yellow-court",
+      "title": "Scripture of the Yellow Court",
+      "nativeTitle": "黃庭內景經",
+      "pinyin": "Huángtíng Nèijǐng Jīng",
+      "alternateTitles": [
+        "黃庭內景經",
+        "Huángtíng Nèijǐng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Scripture of the Yellow Court (黃庭內景經; Huángtíng Nèijǐng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "scripture-of-great-peace",
+      "title": "Scripture of Great Peace",
+      "nativeTitle": "太平經鈔",
+      "pinyin": "Tàipíng Jīng Chāo",
+      "alternateTitles": [
+        "太平經鈔",
+        "Tàipíng Jīng Chāo"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Scripture of Great Peace (太平經鈔; Tàipíng Jīng Chāo) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "scripture-of-western-ascension",
+      "title": "Scripture of Western Ascension",
+      "nativeTitle": "西昇經",
+      "pinyin": "Xīshēng Jīng",
+      "alternateTitles": [
+        "西昇經",
+        "Xīshēng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Scripture of Western Ascension (西昇經; Xīshēng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "scripture-of-the-three-sovereigns",
+      "title": "Scripture of the Three Sovereigns",
+      "nativeTitle": "三皇文",
+      "pinyin": "Sānhuáng Wén",
+      "alternateTitles": [
+        "三皇文",
+        "Sānhuáng Wén"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Scripture of the Three Sovereigns (三皇文; Sānhuáng Wén) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "upper-clarity-corpus",
+      "title": "Upper Clarity corpus",
+      "nativeTitle": "上清經",
+      "pinyin": "Shàngqīng Jīng",
+      "alternateTitles": [
+        "上清經",
+        "Shàngqīng Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Upper Clarity corpus (上清經; Shàngqīng Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "numinous-treasure-corpus",
+      "title": "Numinous Treasure corpus",
+      "nativeTitle": "靈寶經",
+      "pinyin": "Língbǎo Jīng",
+      "alternateTitles": [
+        "靈寶經",
+        "Língbǎo Jīng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Numinous Treasure corpus (靈寶經; Língbǎo Jīng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "complete-perfection-corpus",
+      "title": "Complete Perfection corpus",
+      "nativeTitle": "全真道藏",
+      "pinyin": "Quánzhēn Dàozàng",
+      "alternateTitles": [
+        "全真道藏",
+        "Quánzhēn Dàozàng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Complete Perfection corpus (全真道藏; Quánzhēn Dàozàng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "daoist-canon",
+      "title": "Daoist Canon",
+      "nativeTitle": "道藏",
+      "pinyin": "Dàozàng",
+      "alternateTitles": [
+        "道藏",
+        "Dàozàng"
+      ],
+      "subcollection": "Daoist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Daoist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Daoist Canon (道藏; Dàozàng) is cataloged within the Daoist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "forty-two-chapter-sutra",
+      "title": "Forty-Two Chapter Sutra",
+      "nativeTitle": "佛說四十二章經",
+      "pinyin": "Fóshuō Sìshí'èr Zhāng Jīng",
+      "alternateTitles": [
+        "佛說四十二章經",
+        "Fóshuō Sìshí'èr Zhāng Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Forty-Two Chapter Sutra (佛說四十二章經; Fóshuō Sìshí'èr Zhāng Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23585",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/23585"
+      ],
+      "editionId": "pg-23585-forty-two-chapter-sutra",
+      "confidence": "C"
+    },
+    {
+      "id": "heart-sutra",
+      "title": "Heart Sutra",
+      "nativeTitle": "般若波羅蜜多心經",
+      "pinyin": "Bōrě Bōluómìduō Xīnjīng",
+      "alternateTitles": [
+        "般若波羅蜜多心經",
+        "Bōrě Bōluómìduō Xīnjīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Heart Sutra (般若波羅蜜多心經; Bōrě Bōluómìduō Xīnjīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "diamond-sutra",
+      "title": "Diamond Sutra",
+      "nativeTitle": "金剛般若波羅蜜經",
+      "pinyin": "Jīngāng Bōrě Bōluómì Jīng",
+      "alternateTitles": [
+        "金剛般若波羅蜜經",
+        "Jīngāng Bōrě Bōluómì Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Diamond Sutra (金剛般若波羅蜜經; Jīngāng Bōrě Bōluómì Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24098",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24098"
+      ],
+      "editionId": "pg-24098-diamond-sutra",
+      "confidence": "C"
+    },
+    {
+      "id": "lotus-sutra",
+      "title": "Lotus Sutra",
+      "nativeTitle": "妙法蓮華經",
+      "pinyin": "Miàofǎ Liánhuá Jīng",
+      "alternateTitles": [
+        "妙法蓮華經",
+        "Miàofǎ Liánhuá Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Lotus Sutra (妙法蓮華經; Miàofǎ Liánhuá Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "avatamsaka-sutra",
+      "title": "Avatamsaka Sutra",
+      "nativeTitle": "大方廣佛華嚴經",
+      "pinyin": "Dàfāngguǎng Fó Huáyán Jīng",
+      "alternateTitles": [
+        "大方廣佛華嚴經",
+        "Dàfāngguǎng Fó Huáyán Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Avatamsaka Sutra (大方廣佛華嚴經; Dàfāngguǎng Fó Huáyán Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "vimalakirti-sutra",
+      "title": "Vimalakirti Sutra",
+      "nativeTitle": "維摩詰所說經",
+      "pinyin": "Wéimójié Suǒshuō Jīng",
+      "alternateTitles": [
+        "維摩詰所說經",
+        "Wéimójié Suǒshuō Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Vimalakirti Sutra (維摩詰所說經; Wéimójié Suǒshuō Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "amitabha-sutra",
+      "title": "Amitabha Sutra",
+      "nativeTitle": "佛說阿彌陀經",
+      "pinyin": "Fóshuō Āmítuó Jīng",
+      "alternateTitles": [
+        "佛說阿彌陀經",
+        "Fóshuō Āmítuó Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Amitabha Sutra (佛說阿彌陀經; Fóshuō Āmítuó Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "infinite-life-sutra",
+      "title": "Infinite Life Sutra",
+      "nativeTitle": "佛說無量壽經",
+      "pinyin": "Fóshuō Wúliàngshòu Jīng",
+      "alternateTitles": [
+        "佛說無量壽經",
+        "Fóshuō Wúliàngshòu Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Infinite Life Sutra (佛說無量壽經; Fóshuō Wúliàngshòu Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25498",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25498"
+      ],
+      "editionId": "pg-25498-infinite-life-sutra",
+      "confidence": "C"
+    },
+    {
+      "id": "contemplation-sutra",
+      "title": "Contemplation Sutra",
+      "nativeTitle": "佛說觀無量壽佛經",
+      "pinyin": "Fóshuō Guān Wúliàngshòu Fó Jīng",
+      "alternateTitles": [
+        "佛說觀無量壽佛經",
+        "Fóshuō Guān Wúliàngshòu Fó Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Contemplation Sutra (佛說觀無量壽佛經; Fóshuō Guān Wúliàngshòu Fó Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "lankavatara-sutra",
+      "title": "Lankavatara Sutra",
+      "nativeTitle": "楞伽阿跋多羅寶經",
+      "pinyin": "Léngqié Ābáduōluó Bǎojīng",
+      "alternateTitles": [
+        "楞伽阿跋多羅寶經",
+        "Léngqié Ābáduōluó Bǎojīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Lankavatara Sutra (楞伽阿跋多羅寶經; Léngqié Ābáduōluó Bǎojīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "mahaparinirvana-sutra",
+      "title": "Mahaparinirvana Sutra",
+      "nativeTitle": "大般涅槃經",
+      "pinyin": "Dàbān Nièpán Jīng",
+      "alternateTitles": [
+        "大般涅槃經",
+        "Dàbān Nièpán Jīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mahaparinirvana Sutra (大般涅槃經; Dàbān Nièpán Jīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "platform-sutra",
+      "title": "Platform Sutra",
+      "nativeTitle": "六祖壇經",
+      "pinyin": "Liùzǔ Tánjīng",
+      "alternateTitles": [
+        "六祖壇經",
+        "Liùzǔ Tánjīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Platform Sutra (六祖壇經; Liùzǔ Tánjīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/23844",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/23844"
+      ],
+      "editionId": "pg-23844-platform-sutra",
+      "confidence": "C"
+    },
+    {
+      "id": "awakening-of-faith",
+      "title": "Awakening of Faith",
+      "nativeTitle": "大乘起信論",
+      "pinyin": "Dàchéng Qǐxìn Lùn",
+      "alternateTitles": [
+        "大乘起信論",
+        "Dàchéng Qǐxìn Lùn"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Awakening of Faith (大乘起信論; Dàchéng Qǐxìn Lùn) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "treatise-on-the-great-perfection-of-wisdom",
+      "title": "Treatise on the Great Perfection of Wisdom",
+      "nativeTitle": "大智度論",
+      "pinyin": "Dàzhìdù Lùn",
+      "alternateTitles": [
+        "大智度論",
+        "Dàzhìdù Lùn"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Treatise on the Great Perfection of Wisdom (大智度論; Dàzhìdù Lùn) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "mohe-zhiguan",
+      "title": "Mohe Zhiguan",
+      "nativeTitle": "摩訶止觀",
+      "pinyin": "Móhē Zhǐguān",
+      "alternateTitles": [
+        "摩訶止觀",
+        "Móhē Zhǐguān"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mohe Zhiguan (摩訶止觀; Móhē Zhǐguān) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "profound-meaning-of-the-lotus-sutra",
+      "title": "Profound Meaning of the Lotus Sutra",
+      "nativeTitle": "法華玄義",
+      "pinyin": "Fǎhuá Xuányì",
+      "alternateTitles": [
+        "法華玄義",
+        "Fǎhuá Xuányì"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Profound Meaning of the Lotus Sutra (法華玄義; Fǎhuá Xuányì) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "essay-on-the-golden-lion",
+      "title": "Essay on the Golden Lion",
+      "nativeTitle": "華嚴金獅子章",
+      "pinyin": "Huáyán Jīnshīzi Zhāng",
+      "alternateTitles": [
+        "華嚴金獅子章",
+        "Huáyán Jīnshīzi Zhāng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Essay on the Golden Lion (華嚴金獅子章; Huáyán Jīnshīzi Zhāng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "anthology-of-the-patriarchal-hall",
+      "title": "Anthology of the Patriarchal Hall",
+      "nativeTitle": "祖堂集",
+      "pinyin": "Zǔtáng Jí",
+      "alternateTitles": [
+        "祖堂集",
+        "Zǔtáng Jí"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Anthology of the Patriarchal Hall (祖堂集; Zǔtáng Jí) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "blue-cliff-record",
+      "title": "Blue Cliff Record",
+      "nativeTitle": "碧巖錄",
+      "pinyin": "Bìyán Lù",
+      "alternateTitles": [
+        "碧巖錄",
+        "Bìyán Lù"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Blue Cliff Record (碧巖錄; Bìyán Lù) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "gateless-gate",
+      "title": "Gateless Gate",
+      "nativeTitle": "無門關",
+      "pinyin": "Wúmén Guān",
+      "alternateTitles": [
+        "無門關",
+        "Wúmén Guān"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Gateless Gate (無門關; Wúmén Guān) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "transmission-of-the-lamp",
+      "title": "Transmission of the Lamp",
+      "nativeTitle": "景德傳燈錄",
+      "pinyin": "Jǐngdé Chuándēng Lù",
+      "alternateTitles": [
+        "景德傳燈錄",
+        "Jǐngdé Chuándēng Lù"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Transmission of the Lamp (景德傳燈錄; Jǐngdé Chuándēng Lù) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "essential-teaching-of-huangbo",
+      "title": "Essential Teaching of Huangbo",
+      "nativeTitle": "筠州黃檗山斷際禪師傳心法要",
+      "pinyin": "Huángbò Chuánxīn Fǎyào",
+      "alternateTitles": [
+        "筠州黃檗山斷際禪師傳心法要",
+        "Huángbò Chuánxīn Fǎyào"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Essential Teaching of Huangbo (筠州黃檗山斷際禪師傳心法要; Huángbò Chuánxīn Fǎyào) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "collection-on-peace-and-bliss",
+      "title": "Collection on Peace and Bliss",
+      "nativeTitle": "安樂集",
+      "pinyin": "Ānlè Jí",
+      "alternateTitles": [
+        "安樂集",
+        "Ānlè Jí"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Collection on Peace and Bliss (安樂集; Ānlè Jí) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24106",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24106"
+      ],
+      "editionId": "pg-24106-collection-on-peace-and-bliss",
+      "confidence": "C"
+    },
+    {
+      "id": "biographies-of-eminent-monks",
+      "title": "Biographies of Eminent Monks",
+      "nativeTitle": "高僧傳",
+      "pinyin": "Gāosēng Zhuàn",
+      "alternateTitles": [
+        "高僧傳",
+        "Gāosēng Zhuàn"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Biographies of Eminent Monks (高僧傳; Gāosēng Zhuàn) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "chinese-buddhist-canon",
+      "title": "Chinese Buddhist Canon",
+      "nativeTitle": "大藏經",
+      "pinyin": "Dàzàngjīng",
+      "alternateTitles": [
+        "大藏經",
+        "Dàzàngjīng"
+      ],
+      "subcollection": "Chinese Buddhism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Buddhism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Chinese Buddhist Canon (大藏經; Dàzàngjīng) is cataloged within the Chinese Buddhism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "mozi",
+      "title": "Mozi",
+      "nativeTitle": "墨子",
+      "pinyin": "Mòzǐ",
+      "alternateTitles": [
+        "墨子",
+        "Mòzǐ"
+      ],
+      "subcollection": "Mohist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Mohist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mozi (墨子; Mòzǐ) is cataloged within the Mohist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24240",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/24240"
+      ],
+      "editionId": "pg-24240-mozi",
+      "confidence": "C"
+    },
+    {
+      "id": "mohist-canons",
+      "title": "Mohist Canons",
+      "nativeTitle": "墨經",
+      "pinyin": "Mòjīng",
+      "alternateTitles": [
+        "墨經",
+        "Mòjīng"
+      ],
+      "subcollection": "Mohist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Mohist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mohist Canons (墨經; Mòjīng) is cataloged within the Mohist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "explanations-of-the-canons",
+      "title": "Explanations of the Canons",
+      "nativeTitle": "經說",
+      "pinyin": "Jīngshuō",
+      "alternateTitles": [
+        "經說",
+        "Jīngshuō"
+      ],
+      "subcollection": "Mohist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Mohist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Explanations of the Canons (經說; Jīngshuō) is cataloged within the Mohist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "great-taking",
+      "title": "Great Taking",
+      "nativeTitle": "大取",
+      "pinyin": "Dà Qǔ",
+      "alternateTitles": [
+        "大取",
+        "Dà Qǔ"
+      ],
+      "subcollection": "Mohist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Mohist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Great Taking (大取; Dà Qǔ) is cataloged within the Mohist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "small-taking",
+      "title": "Small Taking",
+      "nativeTitle": "小取",
+      "pinyin": "Xiǎo Qǔ",
+      "alternateTitles": [
+        "小取",
+        "Xiǎo Qǔ"
+      ],
+      "subcollection": "Mohist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Mohist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Small Taking (小取; Xiǎo Qǔ) is cataloged within the Mohist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "han-feizi",
+      "title": "Han Feizi",
+      "nativeTitle": "韓非子",
+      "pinyin": "Hán Fēizǐ",
+      "alternateTitles": [
+        "韓非子",
+        "Hán Fēizǐ"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Han Feizi (韓非子; Hán Fēizǐ) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-lord-shang",
+      "title": "Book of Lord Shang",
+      "nativeTitle": "商君書",
+      "pinyin": "Shāngjūn Shū",
+      "alternateTitles": [
+        "商君書",
+        "Shāngjūn Shū"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Book of Lord Shang (商君書; Shāngjūn Shū) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "shen-buhai-fragments",
+      "title": "Shen Buhai fragments",
+      "nativeTitle": "申不害佚文",
+      "pinyin": "Shēn Bùhài Yìwén",
+      "alternateTitles": [
+        "申不害佚文",
+        "Shēn Bùhài Yìwén"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Shen Buhai fragments (申不害佚文; Shēn Bùhài Yìwén) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "shenzi-fragments",
+      "title": "Shenzi fragments",
+      "nativeTitle": "慎子佚文",
+      "pinyin": "Shènzǐ Yìwén",
+      "alternateTitles": [
+        "慎子佚文",
+        "Shènzǐ Yìwén"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Shenzi fragments (慎子佚文; Shènzǐ Yìwén) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "the-annals-of-lu-buwei",
+      "title": "The Annals of Lü Buwei",
+      "nativeTitle": "呂氏春秋",
+      "pinyin": "Lǚshì Chūnqiū",
+      "alternateTitles": [
+        "呂氏春秋",
+        "Lǚshì Chūnqiū"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "The Annals of Lü Buwei (呂氏春秋; Lǚshì Chūnqiū) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "the-book-of-the-master-of-the-pheasant-cap",
+      "title": "The Book of the Master of the Pheasant Cap",
+      "nativeTitle": "鶡冠子",
+      "pinyin": "Hèguānzǐ",
+      "alternateTitles": [
+        "鶡冠子",
+        "Hèguānzǐ"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "The Book of the Master of the Pheasant Cap (鶡冠子; Hèguānzǐ) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "canon-of-laws",
+      "title": "Canon of Laws",
+      "nativeTitle": "法經",
+      "pinyin": "Fǎjīng",
+      "alternateTitles": [
+        "法經",
+        "Fǎjīng"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Canon of Laws (法經; Fǎjīng) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "deng-xizi",
+      "title": "Deng Xizi",
+      "nativeTitle": "鄧析子",
+      "pinyin": "Dèngxīzǐ",
+      "alternateTitles": [
+        "鄧析子",
+        "Dèngxīzǐ"
+      ],
+      "subcollection": "Legalist",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Legalist",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Deng Xizi (鄧析子; Dèngxīzǐ) is cataloged within the Legalist collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "gongsun-longzi",
+      "title": "Gongsun Longzi",
+      "nativeTitle": "公孫龍子",
+      "pinyin": "Gōngsūn Lóngzǐ",
+      "alternateTitles": [
+        "公孫龍子",
+        "Gōngsūn Lóngzǐ"
+      ],
+      "subcollection": "School of Names",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "School of Names",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Gongsun Longzi (公孫龍子; Gōngsūn Lóngzǐ) is cataloged within the School of Names collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7216",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/7216"
+      ],
+      "editionId": "pg-7216-gongsun-longzi",
+      "confidence": "C"
+    },
+    {
+      "id": "discourse-on-the-white-horse",
+      "title": "Discourse on the White Horse",
+      "nativeTitle": "白馬論",
+      "pinyin": "Báimǎ Lùn",
+      "alternateTitles": [
+        "白馬論",
+        "Báimǎ Lùn"
+      ],
+      "subcollection": "School of Names",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "School of Names",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Discourse on the White Horse (白馬論; Báimǎ Lùn) is cataloged within the School of Names collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "discourse-on-pointing-at-things",
+      "title": "Discourse on Pointing at Things",
+      "nativeTitle": "指物論",
+      "pinyin": "Zhǐwù Lùn",
+      "alternateTitles": [
+        "指物論",
+        "Zhǐwù Lùn"
+      ],
+      "subcollection": "School of Names",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "School of Names",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Discourse on Pointing at Things (指物論; Zhǐwù Lùn) is cataloged within the School of Names collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "hui-shi-fragments",
+      "title": "Hui Shi fragments",
+      "nativeTitle": "惠施佚文",
+      "pinyin": "Huì Shī Yìwén",
+      "alternateTitles": [
+        "惠施佚文",
+        "Huì Shī Yìwén"
+      ],
+      "subcollection": "School of Names",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "School of Names",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Hui Shi fragments (惠施佚文; Huì Shī Yìwén) is cataloged within the School of Names collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "rectification-of-names-materials",
+      "title": "Rectification of Names materials",
+      "nativeTitle": "正名篇",
+      "pinyin": "Zhèngmíng Piān",
+      "alternateTitles": [
+        "正名篇",
+        "Zhèngmíng Piān"
+      ],
+      "subcollection": "School of Names",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "School of Names",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Rectification of Names materials (正名篇; Zhèngmíng Piān) is cataloged within the School of Names collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "classic-of-mountains-and-seas",
+      "title": "Classic of Mountains and Seas",
+      "nativeTitle": "山海經",
+      "pinyin": "Shānhǎijīng",
+      "alternateTitles": [
+        "山海經",
+        "Shānhǎijīng"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Classic of Mountains and Seas (山海經; Shānhǎijīng) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Public-domain Chinese transcription",
+      "copyright": "Project Gutenberg public-domain ebook (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/25288",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/25288"
+      ],
+      "editionId": "pg-25288-classic-of-mountains-and-seas",
+      "confidence": "C"
+    },
+    {
+      "id": "soushen-ji",
+      "title": "Soushen Ji",
+      "nativeTitle": "搜神記",
+      "pinyin": "Sōushén Jì",
+      "alternateTitles": [
+        "搜神記",
+        "Sōushén Jì"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Soushen Ji (搜神記; Sōushén Jì) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "precious-scroll-of-guanyin",
+      "title": "Precious Scroll of Guanyin",
+      "nativeTitle": "觀音寶卷",
+      "pinyin": "Guānyīn Bǎojuàn",
+      "alternateTitles": [
+        "觀音寶卷",
+        "Guānyīn Bǎojuàn"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Precious Scroll of Guanyin (觀音寶卷; Guānyīn Bǎojuàn) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "canon-of-the-jade-emperor",
+      "title": "Canon of the Jade Emperor",
+      "nativeTitle": "高上玉皇本行集經",
+      "pinyin": "Yùhuáng Běnxíng Jíjīng",
+      "alternateTitles": [
+        "高上玉皇本行集經",
+        "Yùhuáng Běnxíng Jíjīng"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Canon of the Jade Emperor (高上玉皇本行集經; Yùhuáng Běnxíng Jíjīng) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "guandi-scripture",
+      "title": "Guandi Scripture",
+      "nativeTitle": "關聖帝君覺世真經",
+      "pinyin": "Guāndì Juéshì Zhēnjīng",
+      "alternateTitles": [
+        "關聖帝君覺世真經",
+        "Guāndì Juéshì Zhēnjīng"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Guandi Scripture (關聖帝君覺世真經; Guāndì Juéshì Zhēnjīng) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "mazu-scripture",
+      "title": "Mazu Scripture",
+      "nativeTitle": "天上聖母經",
+      "pinyin": "Tiānshàng Shèngmǔ Jīng",
+      "alternateTitles": [
+        "天上聖母經",
+        "Tiānshàng Shèngmǔ Jīng"
+      ],
+      "subcollection": "Folk religion",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Folk religion",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Mazu Scripture (天上聖母經; Tiānshàng Shèngmǔ Jīng) is cataloged within the Folk religion collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "compendium-of-the-teachings-of-mani",
+      "title": "Compendium of the Teachings of Mani",
+      "nativeTitle": "摩尼光佛教法儀略",
+      "pinyin": "Móní Guāngfó Jiàofǎ Yílüè",
+      "alternateTitles": [
+        "摩尼光佛教法儀略",
+        "Móní Guāngfó Jiàofǎ Yílüè"
+      ],
+      "subcollection": "Chinese Manichaeism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Manichaeism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Compendium of the Teachings of Mani (摩尼光佛教法儀略; Móní Guāngfó Jiàofǎ Yílüè) is cataloged within the Chinese Manichaeism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "hymnscroll",
+      "title": "Hymnscroll",
+      "nativeTitle": "下部讚",
+      "pinyin": "Xiàbù Zàn",
+      "alternateTitles": [
+        "下部讚",
+        "Xiàbù Zàn"
+      ],
+      "subcollection": "Chinese Manichaeism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Manichaeism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Hymnscroll (下部讚; Xiàbù Zàn) is cataloged within the Chinese Manichaeism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "sermon-of-the-light-nous",
+      "title": "Sermon of the Light Nous",
+      "nativeTitle": "冥使訓",
+      "pinyin": "Míngshǐ Xùn",
+      "alternateTitles": [
+        "冥使訓",
+        "Míngshǐ Xùn"
+      ],
+      "subcollection": "Chinese Manichaeism",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Manichaeism",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Sermon of the Light Nous (冥使訓; Míngshǐ Xùn) is cataloged within the Chinese Manichaeism collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "jingjiao-documents",
+      "title": "Jingjiao Documents",
+      "nativeTitle": "景教文獻",
+      "pinyin": "Jǐngjiào Wénxiàn",
+      "alternateTitles": [
+        "景教文獻",
+        "Jǐngjiào Wénxiàn"
+      ],
+      "subcollection": "Jingjiao",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Jingjiao",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Jingjiao Documents (景教文獻; Jǐngjiào Wénxiàn) is cataloged within the Jingjiao collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "jesus-messiah-sutra",
+      "title": "Jesus-Messiah Sutra",
+      "nativeTitle": "序聽迷詩所經",
+      "pinyin": "Xùtīng Míshīsuǒ Jīng",
+      "alternateTitles": [
+        "序聽迷詩所經",
+        "Xùtīng Míshīsuǒ Jīng"
+      ],
+      "subcollection": "Jingjiao",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Jingjiao",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Jesus-Messiah Sutra (序聽迷詩所經; Xùtīng Míshīsuǒ Jīng) is cataloged within the Jingjiao collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "stele-of-the-diffusion-of-the-luminous-religion",
+      "title": "Stele of the Diffusion of the Luminous Religion",
+      "nativeTitle": "大秦景教流行中國碑",
+      "pinyin": "Dàqín Jǐngjiào Liúxíng Zhōngguó Bēi",
+      "alternateTitles": [
+        "大秦景教流行中國碑",
+        "Dàqín Jǐngjiào Liúxíng Zhōngguó Bēi"
+      ],
+      "subcollection": "Jingjiao",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Jingjiao",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Stele of the Diffusion of the Luminous Religion (大秦景教流行中國碑; Dàqín Jǐngjiào Liúxíng Zhōngguó Bēi) is cataloged within the Jingjiao collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "real-commentary-on-the-true-teaching",
+      "title": "Real Commentary on the True Teaching",
+      "nativeTitle": "正教真詮",
+      "pinyin": "Zhèngjiào Zhēnquán",
+      "alternateTitles": [
+        "正教真詮",
+        "Zhèngjiào Zhēnquán"
+      ],
+      "subcollection": "Chinese Islam",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Islam",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Real Commentary on the True Teaching (正教真詮; Zhèngjiào Zhēnquán) is cataloged within the Chinese Islam collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "great-learning-of-the-pure-and-real",
+      "title": "Great Learning of the Pure and Real",
+      "nativeTitle": "清真大學",
+      "pinyin": "Qīngzhēn Dàxué",
+      "alternateTitles": [
+        "清真大學",
+        "Qīngzhēn Dàxué"
+      ],
+      "subcollection": "Chinese Islam",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Islam",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Great Learning of the Pure and Real (清真大學; Qīngzhēn Dàxué) is cataloged within the Chinese Islam collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "nature-and-principle-in-islam",
+      "title": "Nature and Principle in Islam",
+      "nativeTitle": "天方性理",
+      "pinyin": "Tiānfāng Xìnglǐ",
+      "alternateTitles": [
+        "天方性理",
+        "Tiānfāng Xìnglǐ"
+      ],
+      "subcollection": "Chinese Islam",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Chinese Islam",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Nature and Principle in Islam (天方性理; Tiānfāng Xìnglǐ) is cataloged within the Chinese Islam collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://www.cbeta.org/",
+      "metadataSources": [
+        "https://www.cbeta.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "tract-on-actions-and-retributions",
+      "title": "Tract on Actions and Retributions",
+      "nativeTitle": "太上感應篇",
+      "pinyin": "Tàishàng Gǎnyìng Piān",
+      "alternateTitles": [
+        "太上感應篇",
+        "Tàishàng Gǎnyìng Piān"
+      ],
+      "subcollection": "Syncretic traditions",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Syncretic traditions",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Tract on Actions and Retributions (太上感應篇; Tàishàng Gǎnyìng Piān) is cataloged within the Syncretic traditions collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "ledgers-of-merit-and-demerit",
+      "title": "Ledgers of Merit and Demerit",
+      "nativeTitle": "功過格",
+      "pinyin": "Gōngguò Gé",
+      "alternateTitles": [
+        "功過格",
+        "Gōngguò Gé"
+      ],
+      "subcollection": "Syncretic traditions",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Syncretic traditions",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Ledgers of Merit and Demerit (功過格; Gōngguò Gé) is cataloged within the Syncretic traditions collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "book-of-the-three-teachings",
+      "title": "Book of the Three Teachings",
+      "nativeTitle": "三教源流搜神大全",
+      "pinyin": "Sānjiào Yuánliú Sōushén Dàquán",
+      "alternateTitles": [
+        "三教源流搜神大全",
+        "Sānjiào Yuánliú Sōushén Dàquán"
+      ],
+      "subcollection": "Syncretic traditions",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Syncretic traditions",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Book of the Three Teachings (三教源流搜神大全; Sānjiào Yuánliú Sōushén Dàquán) is cataloged within the Syncretic traditions collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "precious-scroll-of-the-eternal-mother",
+      "title": "Precious Scroll of the Eternal Mother",
+      "nativeTitle": "無生老母寶卷",
+      "pinyin": "Wúshēng Lǎomǔ Bǎojuàn",
+      "alternateTitles": [
+        "無生老母寶卷",
+        "Wúshēng Lǎomǔ Bǎojuàn"
+      ],
+      "subcollection": "Syncretic traditions",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Syncretic traditions",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Precious Scroll of the Eternal Mother (無生老母寶卷; Wúshēng Lǎomǔ Bǎojuàn) is cataloged within the Syncretic traditions collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    },
+    {
+      "id": "complete-book-of-the-three-teachings",
+      "title": "Complete Book of the Three Teachings",
+      "nativeTitle": "三教偶拈",
+      "pinyin": "Sānjiào Ǒuniān",
+      "alternateTitles": [
+        "三教偶拈",
+        "Sānjiào Ǒuniān"
+      ],
+      "subcollection": "Syncretic traditions",
+      "traditionId": "china",
+      "tradition": "Chinese traditions",
+      "category": "Syncretic traditions",
+      "canonStatus": "Community- and corpus-specific; no single Chinese canon is implied.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Date not normalized in this release",
+      "region": "China",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Classical Chinese"
+      ],
+      "author": "Traditional or attributed authorship; see linked source metadata.",
+      "description": "Complete Book of the Three Teachings (三教偶拈; Sānjiào Ǒuniān) is cataloged within the Syncretic traditions collection. The record distinguishes work identity from any particular witness or modern translation.",
+      "historicalContext": "School, community, period and canon context require source-specific interpretation; the broad China grouping is not used as a scholarly category.",
+      "manuscripts": "Witness metadata is not inferred from a digital transcription.",
+      "themes": [],
+      "sourceStatus": "Reviewed metadata only",
+      "copyright": "No text bundled; linked metadata only",
+      "sourceUrl": "https://ctext.org/",
+      "metadataSources": [
+        "https://ctext.org/"
+      ],
+      "editionId": null,
+      "confidence": "D"
+    }
+  ],
+  "originalTextWorks": [
+    {
+      "id": "gongsun-longzi"
+    },
+    {
+      "id": "tao-te-ching"
+    },
+    {
+      "id": "liezi"
+    },
+    {
+      "id": "guanzi"
+    },
+    {
+      "id": "reflections-in-the-imperial-mirror"
+    },
+    {
+      "id": "family-instructions-of-the-yan-clan"
+    },
+    {
+      "id": "forty-two-chapter-sutra"
+    },
+    {
+      "id": "analects"
+    },
+    {
+      "id": "platform-sutra"
+    },
+    {
+      "id": "wenzi"
+    },
+    {
+      "id": "book-of-songs"
+    },
+    {
+      "id": "book-of-rites"
+    },
+    {
+      "id": "huainanzi"
+    },
+    {
+      "id": "diamond-sutra"
+    },
+    {
+      "id": "collection-on-peace-and-bliss"
+    },
+    {
+      "id": "zuo-commentary"
+    },
+    {
+      "id": "mencius"
+    },
+    {
+      "id": "classic-of-filial-piety"
+    },
+    {
+      "id": "mozi"
+    },
+    {
+      "id": "guanyinzi"
+    },
+    {
+      "id": "classic-of-mountains-and-seas"
+    },
+    {
+      "id": "xunzi"
+    },
+    {
+      "id": "shenzi"
+    },
+    {
+      "id": "kongcongzi"
+    },
+    {
+      "id": "luxuriant-dew-of-the-spring-and-autumn-annals"
+    },
+    {
+      "id": "infinite-life-sutra"
+    },
+    {
+      "id": "i-ching"
+    },
+    {
+      "id": "instructions-for-practical-living"
+    },
+    {
+      "id": "baopuzi"
+    },
+    {
+      "id": "yinwenzi"
+    }
+  ]
+}

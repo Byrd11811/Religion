@@ -43,6 +43,7 @@ import {
 import { SourceDepth } from "./ArchiveEvidence";
 import { FederatedSearchPage } from "./FederatedSearch";
 import { AnunnakiResearch, MesopotamiaCollection } from "./Mesopotamia";
+import { ChinaCollection } from "./China";
 import {
   Timeline,
   WorldMap,
@@ -78,6 +79,7 @@ const navigation = [
       ["library/deep-archive", "Deep Archive", Layers3],
       ["library/egypt", "Ancient Egypt", ScrollText],
       ["library/mesopotamia", "Ancient Mesopotamia", ScrollText],
+      ["library/china", "Chinese Traditions", ScrollText],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -131,6 +133,8 @@ export default function Atlas({
           <EgyptCollection />
         ) : id === "mesopotamia" ? (
           <MesopotamiaCollection />
+        ) : id === "china" ? (
+          <ChinaCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (

@@ -8,35 +8,35 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 
 | ID | Metric | Seeded | Persisted | Reviewed | Exposed | Tested | Complete |
 |---|---|---:|---|---|---|---|---|
-| works | Catalog/work records | 373 | Unknown | Unknown | Unknown | Unknown | No |
+| works | Catalog/work records | 468 | Unknown | Unknown | Unknown | Unknown | No |
 | traditions | Broad tradition groupings | 26 | Unknown | Unknown | Unknown | Unknown | No |
-| editions | Source editions | 89 | Unknown | Unknown | Unknown | Unknown | No |
-| searchableWorks | Searchable edition-backed works | 88 | Unknown | Unknown | Unknown | Unknown | No |
-| completeEditionWorks | Complete named-work/edition coverage | 55 | Unknown | Unknown | Unknown | Unknown | No |
-| metadataOnly | Works without source editions | 285 | Unknown | Unknown | Unknown | Unknown | No |
-| passages | Edition segments | 21816 | Unknown | Unknown | Unknown | Unknown | No |
-| primaryPassages | Explicitly classified primary segments | 10492 | Unknown | Unknown | Unknown | Unknown | No |
+| editions | Source editions | 119 | Unknown | Unknown | Unknown | Unknown | No |
+| searchableWorks | Searchable edition-backed works | 116 | Unknown | Unknown | Unknown | Unknown | No |
+| completeEditionWorks | Complete named-work/edition coverage | 83 | Unknown | Unknown | Unknown | Unknown | No |
+| metadataOnly | Works without source editions | 352 | Unknown | Unknown | Unknown | Unknown | No |
+| passages | Edition segments | 30680 | Unknown | Unknown | Unknown | Unknown | No |
+| primaryPassages | Explicitly classified primary segments | 18011 | Unknown | Unknown | Unknown | Unknown | No |
 | editorialPassages | Explicitly classified editorial segments | 281 | Unknown | Unknown | Unknown | Unknown | No |
-| unclassifiedPassages | Unclassified/unknown segments | 11043 | Unknown | Unknown | Unknown | Unknown | No |
-| witnesses | Physical witnesses | 30 | Unknown | Unknown | Unknown | Unknown | No |
+| unclassifiedPassages | Unclassified/unknown segments | 12388 | Unknown | Unknown | Unknown | Unknown | No |
+| witnesses | Physical witnesses | 34 | Unknown | Unknown | Unknown | Unknown | No |
 | artifacts | Museum artifacts | 33 | Unknown | Unknown | Unknown | Unknown | No |
 | images | Archive image references | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | rightsAttributedImages | Images with source/rights/attribution | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | relationships | Curated relationship records | 3 | Unknown | Unknown | Unknown | Unknown | No |
-| datedWorks | Works with start dates | 34 | Unknown | Unknown | Unknown | Unknown | No |
-| undatedWorks | Works without start dates | 339 | Unknown | Unknown | Unknown | Unknown | No |
-| coordinateWorks | Works with coordinates | 36 | Unknown | Unknown | Unknown | Unknown | No |
-| unlocatedWorks | Works without coordinates | 337 | Unknown | Unknown | Unknown | Unknown | No |
-| mappedWorks | Map-eligible works through 2026 | 36 | Unknown | Unknown | 36 | Unknown | No |
-| timelineWorks | Timeline-eligible works through 2026 | 34 | Unknown | Unknown | Unknown | Unknown | No |
-| languageMetadataWorks | Works with language metadata | 166 | Unknown | Unknown | Unknown | Unknown | No |
+| datedWorks | Works with start dates | 32 | Unknown | Unknown | Unknown | Unknown | No |
+| undatedWorks | Works without start dates | 436 | Unknown | Unknown | Unknown | Unknown | No |
+| coordinateWorks | Works with coordinates | 34 | Unknown | Unknown | Unknown | Unknown | No |
+| unlocatedWorks | Works without coordinates | 434 | Unknown | Unknown | Unknown | Unknown | No |
+| mappedWorks | Map-eligible works through 2026 | 34 | Unknown | Unknown | 34 | Unknown | No |
+| timelineWorks | Timeline-eligible works through 2026 | 32 | Unknown | Unknown | Unknown | Unknown | No |
+| languageMetadataWorks | Works with language metadata | 273 | Unknown | Unknown | Unknown | Unknown | No |
 | subtraditions | Subtraditions | 42 | Unknown | Unknown | Unknown | Unknown | No |
 | recensions | Recensions / textual families | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | evidenceRecords | Structured evidence records | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | culturalProtocols | Cultural protocols | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | suppressionEvents | Sourced suppression events | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| originalTextWorks | Works with original-language transcription | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| originalTextWorks | Works with original-language transcription | 30 | Unknown | Unknown | Unknown | Unknown | No |
 | transliterationWorks | Works with transliteration | 26 | Unknown | Unknown | Unknown | Unknown | No |
 | bibliographyWorks | Works with reviewed scholarly bibliography | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | polities | Historical polity records | 0 | Unknown | Unknown | Unknown | Unknown | No |

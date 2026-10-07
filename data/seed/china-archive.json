@@ -1,0 +1,150 @@
+{
+  "witnesses": [
+    {
+      "recensionId": null,
+      "type": "Printed scroll",
+      "condition": null,
+      "completeness": null,
+      "iiifManifest": null,
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "access": "Public metadata",
+      "id": "idp-or8210-p2",
+      "title": "Diamond Sutra, Or.8210/P.2",
+      "workIds": [
+        "diamond-sutra"
+      ],
+      "inventoryNumber": "Or.8210/P.2",
+      "repository": "British Library",
+      "discoveryLocation": "Mogao Cave 17, Dunhuang",
+      "currentLocation": "British Library",
+      "dateStart": 868,
+      "dateEnd": 868,
+      "dateNotes": "Date applies to this physical object, not to the composition as a whole.",
+      "material": "Woodblock print, ink on paper",
+      "languages": [
+        "Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "provenance": "Institutional catalog record from the International Dunhuang Programme.",
+      "digitizationUrl": "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+      "rights": "Institutional metadata only; image reuse requires the holding institution permission shown on the source record.",
+      "sources": [
+        "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/"
+      ],
+      "description": "Dated woodblock-printed Chinese Diamond Sutra. This witness is independent of the Project Gutenberg transcription."
+    },
+    {
+      "recensionId": null,
+      "type": "Scroll",
+      "condition": null,
+      "completeness": null,
+      "iiifManifest": null,
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "access": "Public metadata",
+      "id": "idp-or8210-s57",
+      "title": "Diamond Sutra, Or.8210/S.57",
+      "workIds": [
+        "diamond-sutra"
+      ],
+      "inventoryNumber": "Or.8210/S.57",
+      "repository": "British Library",
+      "discoveryLocation": "Mogao Cave 17, Dunhuang",
+      "currentLocation": "British Library",
+      "dateStart": 400,
+      "dateEnd": 1000,
+      "dateNotes": "Date applies to this physical object, not to the composition as a whole.",
+      "material": "Ink on paper",
+      "languages": [
+        "Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "provenance": "Institutional catalog record from the International Dunhuang Programme.",
+      "digitizationUrl": "https://idp.bl.uk/collection/9EFCE09E1F4E434B9200FFB2787634F9/",
+      "rights": "Institutional metadata only; image reuse requires the holding institution permission shown on the source record.",
+      "sources": [
+        "https://idp.bl.uk/collection/9EFCE09E1F4E434B9200FFB2787634F9/"
+      ],
+      "description": "Chinese manuscript of the Diamond Sutra translated by Kumārajīva; the broad catalog date is preserved."
+    },
+    {
+      "recensionId": null,
+      "type": "Scroll",
+      "condition": null,
+      "completeness": null,
+      "iiifManifest": null,
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "access": "Public metadata",
+      "id": "idp-or8210-s4209",
+      "title": "Lotus Sutra, Or.8210/S.4209",
+      "workIds": [
+        "lotus-sutra"
+      ],
+      "inventoryNumber": "Or.8210/S.4209",
+      "repository": "British Library",
+      "discoveryLocation": "Mogao Cave 17, Dunhuang",
+      "currentLocation": "British Library",
+      "dateStart": 672,
+      "dateEnd": 672,
+      "dateNotes": "Date applies to this physical object, not to the composition as a whole.",
+      "material": "Ink on paper",
+      "languages": [
+        "Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "provenance": "Institutional catalog record from the International Dunhuang Programme.",
+      "digitizationUrl": "https://idp.bl.uk/references/Whitfield_1982/",
+      "rights": "Institutional metadata only; image reuse requires the holding institution permission shown on the source record.",
+      "sources": [
+        "https://idp.bl.uk/references/Whitfield_1982/"
+      ],
+      "description": "Dated Chinese manuscript scroll of Lotus Sutra volume three, identified in the IDP reference catalog."
+    },
+    {
+      "recensionId": null,
+      "type": "Scroll",
+      "condition": null,
+      "completeness": null,
+      "iiifManifest": null,
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "access": "Public metadata",
+      "id": "idp-or8210-s6349",
+      "title": "Lotus Sutra, Or.8210/S.6349",
+      "workIds": [
+        "lotus-sutra"
+      ],
+      "inventoryNumber": "Or.8210/S.6349",
+      "repository": "British Library",
+      "discoveryLocation": "Mogao Cave 17, Dunhuang",
+      "currentLocation": "British Library",
+      "dateStart": 600,
+      "dateEnd": 1000,
+      "dateNotes": "Date applies to this physical object, not to the composition as a whole.",
+      "material": "Ink on paper",
+      "languages": [
+        "Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "provenance": "Institutional catalog record from the International Dunhuang Programme.",
+      "digitizationUrl": "https://idp.bl.uk/discover/learning/conservation/preventative-conservation-and-storage/",
+      "rights": "Institutional metadata only; image reuse requires the holding institution permission shown on the source record.",
+      "sources": [
+        "https://idp.bl.uk/discover/learning/conservation/preventative-conservation-and-storage/"
+      ],
+      "description": "Chinese Lotus Sutra scroll used in the IDP conservation case study; the date range remains broad pending object-level review."
+    }
+  ],
+  "artifacts": [],
+  "images": []
+}

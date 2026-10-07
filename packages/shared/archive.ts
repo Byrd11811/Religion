@@ -1,6 +1,7 @@
 import { texts, editions, artifacts } from "./catalog";
 import additions from "@/data/seed/archive-additions.json";
 import mesopotamiaArchive from "@/data/seed/mesopotamia-archive.json";
+import chinaArchive from "@/data/seed/china-archive.json";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -231,6 +232,7 @@ const kb =
 export const witnesses: Witness[] = [
   ...(additions.witnesses as Witness[]),
   ...(mesopotamiaArchive.witnesses as Witness[]),
+  ...(chinaArchive.witnesses as Witness[]),
   {
     id: "voynich-ms-408",
     title: "Voynich Manuscript",
@@ -308,6 +310,7 @@ export const museumArtifacts: MuseumArtifact[] = artifacts
   .concat(
     additions.artifacts as MuseumArtifact[],
     mesopotamiaArchive.artifacts as MuseumArtifact[],
+    chinaArchive.artifacts as MuseumArtifact[],
   );
 export const archiveImages: ArchiveImage[] = artifacts
   .map<ArchiveImage>((a) => ({
@@ -329,6 +332,7 @@ export const archiveImages: ArchiveImage[] = artifacts
   .concat(
     additions.images as ArchiveImage[],
     mesopotamiaArchive.images as ArchiveImage[],
+    chinaArchive.images as ArchiveImage[],
   );
 export function mayTranslate(record: {
   decipherment: Decipherment;
