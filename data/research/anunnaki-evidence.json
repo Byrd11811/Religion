@@ -1,0 +1,184 @@
+{
+  "formatVersion": 1,
+  "aliases": [
+    "Anunna",
+    "Anuna",
+    "Anunnaku",
+    "Anunnaki"
+  ],
+  "primarySources": [
+    {
+      "id": "q000333-4",
+      "workId": "enki-and-ninmah",
+      "qId": "Q000333",
+      "line": "4",
+      "transliteration": "{d}a-nun-na-ke₄-ne ba-tu-ud-da-a-ba",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000333",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000334-8",
+      "workId": "enki-and-the-world-order",
+      "qId": "Q000334",
+      "line": "8",
+      "transliteration": "{d}en-ki en he₂-ŋal₂-la {d}a-nun-na-ke₄-ne",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000334",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000337-ver-1-seg-a-39",
+      "workId": "enlil-and-sud",
+      "qId": "Q000337",
+      "line": "Ver.1, Seg.A, 39",
+      "transliteration": "{d}a-nun-na diŋir gal-gal-e-ne-er me he₂-en-ne-eb-hal-ha",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000337",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000339-88",
+      "workId": "inanna-and-ebih",
+      "qId": "Q000339",
+      "line": "88",
+      "transliteration": "{d}inana-me-en {d}a-nun-na-ke₄-ne u₃-ba-DU",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000339",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000343-167",
+      "workId": "descent-of-inanna",
+      "qId": "Q000343",
+      "line": "167",
+      "transliteration": "{d}a-nun-na di-kud 7-bi igi-ni-še₃ di mu-un-da-ku₅-ru-ne",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000343",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000351-72",
+      "workId": "ninurta-exploits",
+      "qId": "Q000351",
+      "line": "72",
+      "transliteration": "kur ba-gul ki ud-ba ba-ku₁₀-ku₁₀ {d}a-nun-na ba-tar-ra-aš",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000351",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000367-seg-a-428",
+      "workId": "lugalbanda-mountain-cave",
+      "qId": "Q000367",
+      "line": "Seg.A, 428",
+      "transliteration": "{d}a-nun-na diŋir gal-gal-e-ne nu-mu-un-zu-uš-a",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000367",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000368-82",
+      "workId": "lugalbanda-anzud-bird",
+      "qId": "Q000368",
+      "line": "82",
+      "transliteration": "{d}a-nun-na diŋir hur-saŋ-ŋa₂",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000368",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    },
+    {
+      "id": "q000379-152",
+      "workId": "lament-for-ur",
+      "qId": "Q000379",
+      "line": "152",
+      "transliteration": "{d}a-nun-na e-ne-eŋ₃ zu₂ keše₂-da-bi ba-da-an-dur₂-ru-ne-eš-a",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000379",
+      "note": "Exact ORACC composite transliteration. Atlas supplies no English translation for this line and does not treat the Q composite as one physical tablet."
+    }
+  ],
+  "scholarship": [
+    {
+      "id": "oracc-amgg-anunna",
+      "title": "Anunna (Anunnaku, Anunnaki): a group of gods",
+      "author": "Nicole Brisch",
+      "summary": "ORACC's scholarly overview describes a changing collective term: high gods or a local pantheon in Sumerian evidence, and sometimes underworld gods in later evidence. Membership and number vary by period and context.",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/listofdeities/anunna/",
+      "evidence": "Mainstream scholarly overview"
+    },
+    {
+      "id": "oracc-amgg-igigi",
+      "title": "Igigi / Igigu and the Anunna",
+      "author": "Nicole Brisch",
+      "summary": "The relationship between Igigi and Anunna is historically variable and not fully resolved; the labels should not be flattened into one timeless roster.",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Igigi/index.html",
+      "evidence": "Mainstream scholarly overview"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "scope-high-gods-local-pantheon",
+      "title": "Scope of the collective",
+      "summary": "Attested uses can denote leading gods broadly or the pantheon of a particular city. The cited overview says the exact membership is unclear.",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/listofdeities/anunna/",
+      "evidence": "Competing contextual readings within scholarship"
+    },
+    {
+      "id": "later-underworld-use",
+      "title": "Later underworld emphasis",
+      "summary": "Later Akkadian usage can emphasize underworld gods in contrast with the Igigi, while earlier Sumerian uses are not restricted to that role.",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/listofdeities/anunna/",
+      "evidence": "Historically differentiated interpretation"
+    }
+  ],
+  "modernClaims": [
+    {
+      "id": "sitchin-nibiru",
+      "title": "Anunnaki as visitors from Nibiru",
+      "claimant": "Zecharia Sitchin",
+      "publication": "The 12th Planet",
+      "year": 1976,
+      "summary": "The publisher presents Sitchin's modern claim that the Anunnaki came from a planet called Nibiru and periodically landed on Earth.",
+      "sourceUrl": "https://www.simonandschuster.net/books/The-12th-Planet-%28Book-I%29/Zecharia-Sitchin/9780939680887",
+      "evidence": "Primary source for the modern claim; not evidence about antiquity"
+    },
+    {
+      "id": "sitchin-human-workers",
+      "title": "Anunnaki creation of human workers",
+      "claimant": "Zecharia Sitchin",
+      "publication": "Divine Encounters",
+      "year": 2002,
+      "summary": "The publisher attributes to Sitchin the hypothesis that Enki created humanity as a primitive worker for extraterrestrial Anunnaki.",
+      "sourceUrl": "https://www.simonandschuster.net/books/Divine-Encounters/Zecharia-Sitchin/9781879181885",
+      "evidence": "Primary source for the modern claim; not evidence about antiquity"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "deities-versus-extraterrestrials",
+      "modernClaimId": "sitchin-nibiru",
+      "ancientEvidenceIds": [
+        "q000333-4",
+        "q000334-8",
+        "q000343-167"
+      ],
+      "ancientRecord": "The cited ORACC lines attest the divine-name spelling in Sumerian compositions; ORACC's scholarly overview treats Anunna/Anunnaki as a group of deities whose scope changes by context.",
+      "finding": "The cited ancient evidence and scholarly overview do not identify the group as extraterrestrial visitors or name Nibiru as their home.",
+      "limitation": "This comparison is bounded to the cited lines and overview; it is not a claim that every surviving Mesopotamian text has been exhaustively searched."
+    },
+    {
+      "id": "collective-versus-fixed-race",
+      "modernClaimId": "sitchin-nibiru",
+      "ancientEvidenceIds": [
+        "q000337-ver-1-seg-a-39",
+        "q000351-72",
+        "q000379-152"
+      ],
+      "ancientRecord": "The name occurs in different literary settings, and the scholarly overview warns that membership, number and function vary across periods.",
+      "finding": "The source record supports a variable divine collective, not a single fixed biological population described by modern racial or technological terms.",
+      "limitation": "A transliteration attestation alone does not settle translation, theology or historical development."
+    },
+    {
+      "id": "human-workers-claim",
+      "modernClaimId": "sitchin-human-workers",
+      "ancientEvidenceIds": [
+        "q000333-4"
+      ],
+      "ancientRecord": "The cited line is retained as untranslated Sumerian composite evidence; Atlas does not supply a meaning beyond the attested divine-name form.",
+      "finding": "Nothing in this cited line establishes extraterrestrial genetic engineering or gold-mining labor.",
+      "limitation": "Other creation traditions require their own editions and philological analysis; absence from one line is not universal negative proof."
+    }
+  ]
+}

@@ -62,7 +62,7 @@ export class CompatibleProvider implements SynthesisProvider {
         }),
       },
     ]);
-    const ids = [...result.matchAll(/\[(pg-[a-z0-9-]+)\]/g)].map((m) => m[1]);
+    const ids = [...result.matchAll(/\[([^\]\s]+)\]/g)].map((m) => m[1]);
     if (
       !ids.length ||
       ids.some((id) => !passages.some((p) => p.id === id)) ||
@@ -131,7 +131,7 @@ export async function answerQuestion(
       "Use Show the Opposition to retrieve philosophical, skeptical and adversarial texts. These categories are distinct and do not represent one shared position.",
     uncertainty: [
       "The bundled corpus is selective and uneven across cultures.",
-      "English editions may contain introductions and notes as well as translated source text.",
+      "Bundled editions may contain translations, transliterations, introductions, notes, or scholarly commentary; inspect each source label.",
       "Local retrieval combines lexical relevance and theme expansion; it is not a generated cross-tradition interpretation.",
     ],
     passages,

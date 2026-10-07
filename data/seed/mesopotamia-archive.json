@@ -1,0 +1,377 @@
+{
+  "witnesses": [
+    {
+      "id": "cdli-p260875",
+      "title": "CBS 04561 (P260875)",
+      "workIds": [
+        "enki-and-ninhursag"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "CBS 04561",
+      "repository": "Penn Museum, Philadelphia",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "Penn Museum, Philadelphia",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P260875; ORACC Q000332 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P260875",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P260875",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000332"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000332. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p259234",
+      "title": "CBS 02168 + CBS 02202 + CBS 11327 + CBS 12738 + CBS 13386 + N 1889 (P259234)",
+      "workIds": [
+        "enki-and-ninmah"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "CBS 02168 + CBS 02202 + CBS 11327 + CBS 12738 + CBS 13386 + N 1889",
+      "repository": "Penn Museum, Philadelphia",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "Penn Museum, Philadelphia",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P259234; ORACC Q000333 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P259234",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P259234",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000333"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000333. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p268601",
+      "title": "CBS 13571 + CBS 13602 + CBS 13617 + CBS 13623 + CBS 13629 + N 3276 + N 4838 (+) N 6278 (P268601)",
+      "workIds": [
+        "inanna-and-enki"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "CBS 13571 + CBS 13602 + CBS 13617 + CBS 13623 + CBS 13629 + N 3276 + N 4838 (+) N 6278",
+      "repository": "Penn Museum, Philadelphia",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "Penn Museum, Philadelphia",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P268601; ORACC Q000338 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P268601",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P268601",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000338"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000338. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p264321",
+      "title": "CBS 06894 (P264321)",
+      "workIds": [
+        "descent-of-inanna"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "CBS 06894",
+      "repository": "Penn Museum, Philadelphia",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "Penn Museum, Philadelphia",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P264321; ORACC Q000343 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P264321",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P264321",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000343"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000343. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p223705",
+      "title": "IM 124648 (P223705)",
+      "workIds": [
+        "ninurta-exploits"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "IM 124648",
+      "repository": "National Museum of Iraq, Baghdad",
+      "discoveryLocation": "Sippar-Yahrurum (modern Tell Abu Habbah)",
+      "currentLocation": "National Museum of Iraq, Baghdad",
+      "dateStart": -626,
+      "dateEnd": -539,
+      "dateNotes": "CDLI period range for the physical object (626–539 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian",
+        "Akkadian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P223705; ORACC Q000351 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P223705",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P223705",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000351"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000351. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p252033",
+      "title": "MS 3027 (P252033)",
+      "workIds": [
+        "death-of-gilgamesh"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "MS 3027",
+      "repository": "Schøyen Collection, Oslo",
+      "discoveryLocation": null,
+      "currentLocation": "Schøyen Collection, Oslo",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P252033; ORACC Q000363 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P252033",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P252033",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000363"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000363. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p101741",
+      "title": "IM 090106 (P101741)",
+      "workIds": [
+        "lugalbanda-mountain-cave"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "IM 090106",
+      "repository": "National Museum of Iraq, Baghdad",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "National Museum of Iraq, Baghdad",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P101741; ORACC Q000367 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P101741",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P101741",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000367"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000367. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p255183",
+      "title": "N 3623 + N 7457 + Ist Ni 09601 + UM 29-13-194 (P255183)",
+      "workIds": [
+        "enmerkar-lord-aratta"
+      ],
+      "recensionId": null,
+      "type": "Joined tablet",
+      "inventoryNumber": "N 3623 + N 7457 + Ist Ni 09601 + UM 29-13-194",
+      "repository": "Istanbul Archaeological Museums and Penn Museum",
+      "discoveryLocation": "Nippur (modern Nuffar)",
+      "currentLocation": "Istanbul Archaeological Museums and Penn Museum",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P255183; ORACC Q000369 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P255183",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P255183",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000369"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000369. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p384786",
+      "title": "Ashm 1923-0444 (P384786)",
+      "workIds": [
+        "sumerian-king-list"
+      ],
+      "recensionId": null,
+      "type": "Prism",
+      "inventoryNumber": "Ashm 1923-0444",
+      "repository": "Ashmolean Museum, Oxford",
+      "discoveryLocation": null,
+      "currentLocation": "Ashmolean Museum, Oxford",
+      "dateStart": -1900,
+      "dateEnd": -1600,
+      "dateNotes": "CDLI period range for the physical object (1900–1600 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P384786; ORACC Q000371 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P384786",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P384786",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000371"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000371. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "cdli-p010233",
+      "title": "IM 070204 + (P010233)",
+      "workIds": [
+        "instructions-of-shuruppak"
+      ],
+      "recensionId": null,
+      "type": "Tablet",
+      "inventoryNumber": "IM 070204 +",
+      "repository": "National Museum of Iraq, Baghdad",
+      "discoveryLocation": "uncertain (modern Abu Salabikh)",
+      "currentLocation": "National Museum of Iraq, Baghdad",
+      "dateStart": -2600,
+      "dateEnd": -2500,
+      "dateNotes": "CDLI period range for the physical object (2600–2500 BCE); it does not date the composition or every layer of the ORACC composite.",
+      "material": "Clay",
+      "languages": [
+        "Sumerian"
+      ],
+      "scripts": [
+        "Cuneiform"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "CDLI object P010233; ORACC Q000782 lists this P-number among the sources used for the scholarly composite.",
+      "digitizationUrl": "https://cdli.earth/P010233",
+      "iiifManifest": null,
+      "rights": "Public institutional metadata; image and edition rights remain with their respective source records",
+      "sources": [
+        "https://cdli.earth/P010233",
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000782"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A cataloged physical witness associated with ORACC composite Q000782. This composition-level association does not establish that every composite line survives on this object.",
+      "access": "Public metadata"
+    }
+  ],
+  "artifacts": [],
+  "images": []
+}

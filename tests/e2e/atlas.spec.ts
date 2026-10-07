@@ -6,10 +6,13 @@ test("two Quran editions can be compared without losing attribution", async ({
   await page
     .getByRole("button", { name: "Compare translations", exact: true })
     .click();
-  await page
-    .getByRole("button", { name: "Compare translations", exact: true })
-    .last()
-    .click();
+  const compareEditions = page.getByRole("button", {
+    name: "Compare editions",
+    exact: true,
+  });
+  await compareEditions.click();
+  // A fresh isolated PGlite directory performs its one-time corpus seed here.
+  await expect(compareEditions).toBeEnabled({ timeout: 60_000 });
   await expect(page.locator(".two-col .passage-card").first()).toBeVisible();
   await expect(page.locator(".two-col")).toContainText("J. M. Rodwell");
   await expect(page.locator(".two-col")).toContainText("George Sale");

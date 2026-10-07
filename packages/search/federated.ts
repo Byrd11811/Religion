@@ -135,13 +135,26 @@ function candidates(): Candidate[] {
         id: name,
         type: "concept" as const,
         title: name[0].toUpperCase() + name.slice(1),
-        subtitle: "Comparative search concept",
-        description: `Search label connected to: ${aliases.join(", ")}. Similar words do not establish equivalent teachings.`,
-        href: `/themes?q=${encodeURIComponent(name)}`,
+        subtitle:
+          name === "anunnaki"
+            ? "Sourced Mesopotamian research guide"
+            : "Comparative search concept",
+        description:
+          name === "anunnaki"
+            ? "Review ancient Anunna attestations, physical witnesses, mainstream scholarship, alternative readings, and separately sourced modern claims."
+            : `Search label connected to: ${aliases.join(", ")}. Similar words do not establish equivalent teachings.`,
+        href:
+          name === "anunnaki"
+            ? "/explore/anunnaki"
+            : `/themes?q=${encodeURIComponent(name)}`,
         aliases,
-        availability: "Exploratory vocabulary",
+        availability:
+          name === "anunnaki"
+            ? "Sourced research guide"
+            : "Exploratory vocabulary",
       },
       [name, aliases],
+      name === "anunnaki" ? { confidence: "Reviewed" } : {},
     ),
   );
   const people = ["Plato", "Marcus Aurelius", "John Milton"].map((name) => {

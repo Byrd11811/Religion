@@ -42,6 +42,7 @@ import {
 } from "./Archive";
 import { SourceDepth } from "./ArchiveEvidence";
 import { FederatedSearchPage } from "./FederatedSearch";
+import { AnunnakiResearch, MesopotamiaCollection } from "./Mesopotamia";
 import {
   Timeline,
   WorldMap,
@@ -76,6 +77,8 @@ const navigation = [
       ["manuscripts", "Manuscripts & Objects", ScrollText],
       ["library/deep-archive", "Deep Archive", Layers3],
       ["library/egypt", "Ancient Egypt", ScrollText],
+      ["library/mesopotamia", "Ancient Mesopotamia", ScrollText],
+      ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
   [
@@ -126,11 +129,16 @@ export default function Atlas({
       content =
         id === "egypt" ? (
           <EgyptCollection />
+        ) : id === "mesopotamia" ? (
+          <MesopotamiaCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (
           <Library initialQuery={initialQuery} {...actions} />
         );
+      break;
+    case "explore":
+      content = id === "anunnaki" ? <AnunnakiResearch /> : <Empty>This research guide is not available.</Empty>;
       break;
     case "search":
       content = (
@@ -257,7 +265,9 @@ export default function Atlas({
                 <Link
                   onClick={() => setMenu(false)}
                   className={
-                    route === path || (path === "library" && route === "texts")
+                    route === path ||
+                    `${route}/${id ?? ""}` === path ||
+                    (path === "library" && route === "texts")
                       ? "active"
                       : ""
                   }

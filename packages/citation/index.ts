@@ -1,6 +1,11 @@
 import type { Collection, SearchHit } from "@/packages/shared/types";
+import { editions } from "@/packages/shared/catalog";
 export function cite(p: SearchHit) {
-  return `${p.textTitle}. Trans. ${p.translator}. ${p.reference} (${p.editionId}). ${p.sourceUrl}. Atlas locator: ${p.id}.`;
+  const edition = editions.find((item) => item.id === p.editionId);
+  const role = edition?.language.toLowerCase().includes("transliteration")
+    ? "Composite transliteration ed."
+    : "Trans.";
+  return `${p.textTitle}. ${role} ${p.translator}. ${p.reference} (${p.editionId}; ${edition?.language ?? "language unavailable"}). ${p.sourceUrl}. Atlas locator: ${p.id}.`;
 }
 export function exportMarkdown(c: Collection) {
   return (

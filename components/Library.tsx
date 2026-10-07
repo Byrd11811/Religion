@@ -423,9 +423,11 @@ export function TextDetail({ id, ...actions }: Actions & { id: string }) {
               </p>
             ))}
             <p className="notice">
-              Original-language transcription and transliteration are not
-              bundled. English is explicitly presented as an edition, not the
-              original text.
+              {available.some((e) =>
+                e.language.toLowerCase().includes("transliteration"),
+              )
+                ? "The bundled original-language material is a scholarly composite transliteration, not an English translation or a diplomatic transcription of one witness."
+                : "Original-language transcription and transliteration are not bundled. English is explicitly presented as an edition, not the original text."}
             </p>
           </section>
         </div>

@@ -13,6 +13,7 @@
     "ingest:metadata": "python scripts/seed.py",
     "ingest:text": "python scripts/ingest.py",
     "ingest:egypt": "tsx scripts/ingest-egypt.ts",
+    "ingest:mesopotamia": "python scripts/ingest-mesopotamia.py --retained-only",
     "ingest:images": "tsx scripts/images.ts",
     "ingest:met": "python scripts/import-met.py",
     "refresh:manifest": "python scripts/refresh-manifest.py",

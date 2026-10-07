@@ -1,0 +1,2541 @@
+{
+  "overrides": [
+    {
+      "category": "Mesopotamian composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and witness dates require an edition-level source; no numeric date is inferred from the catalog title.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not established by the cited catalog metadata.",
+      "description": "Ancient Mesopotamian epic represented here by a public-domain historical study with translated Old Babylonian selections. The bundled publication is not the complete Standard Babylonian Epic.",
+      "historicalContext": "The linked scholarly catalog provides the current research entry point. Detailed recension, period and witness review remains edition-specific.",
+      "manuscripts": "No physical witness is associated by this catalog-level review; add only a cited P-number or institutional object record.",
+      "themes": [],
+      "sourceStatus": "Reviewed historical study and translated selections",
+      "copyright": "Public-domain English edition (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/11000",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/11000",
+        "https://oracc.museum.upenn.edu/qcat/"
+      ],
+      "editionId": "pg-11000-epic-of-gilgamesh",
+      "confidence": "B",
+      "id": "epic-of-gilgamesh"
+    },
+    {
+      "category": "Akkadian creation epic",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Enuma Elish is represented in the ORACC Q Catalogue by 7 Q records (Q002718 through Q002724 in the retained selection). The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 7 composition/tablet-section identifiers: Q002718, Q002719, Q002720, Q002721, Q002722, Q002723, Q002724. Physical witnesses require separate P-number records.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002718",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002718",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B",
+      "id": "enuma-elish"
+    },
+    {
+      "category": "Akkadian mythological epic",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and witness dates require an edition-level source; no numeric date is inferred from the catalog title.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not established by the cited catalog metadata.",
+      "description": "A reviewed Mesopotamian research record. Atlas retains it as one composition and does not infer a complete text, witness dependency or modern interpretation from its title.",
+      "historicalContext": "The linked scholarly catalog provides the current research entry point. Detailed recension, period and witness review remains edition-specific.",
+      "manuscripts": "No physical witness is associated by this catalog-level review; add only a cited P-number or institutional object record.",
+      "themes": [
+        "creation",
+        "flood",
+        "suffering"
+      ],
+      "sourceStatus": "Reviewed scholarly metadata; no new source text bundled",
+      "copyright": "Metadata links only; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/Listofdeities/Igigi/index.html",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/amgg/Listofdeities/Igigi/index.html",
+        "https://oracc.museum.upenn.edu/qcat/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "id": "atrahasis-epic"
+    },
+    {
+      "category": "Sumerian flood narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Eridu Genesis is registered by ORACC as Q000357. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [2], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 3 distinct P-number source records to Q000357. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation",
+        "flood"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000357",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000357",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000357",
+      "confidence": "B",
+      "id": "eridu-genesis"
+    },
+    {
+      "category": "Sumerian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Descent of Inanna is registered by ORACC as Q000343. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [29], Ur [20], Sippar-Yahrurum [4], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 58 distinct P-number source records to Q000343. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife",
+        "death"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000343",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000343",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000343",
+      "confidence": "B",
+      "id": "descent-of-inanna"
+    },
+    {
+      "category": "Akkadian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and witness dates require an edition-level source; no numeric date is inferred from the catalog title.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not established by the cited catalog metadata.",
+      "description": "A reviewed Mesopotamian research record. Atlas retains it as one composition and does not infer a complete text, witness dependency or modern interpretation from its title.",
+      "historicalContext": "The linked scholarly catalog provides the current research entry point. Detailed recension, period and witness review remains edition-specific.",
+      "manuscripts": "No physical witness is associated by this catalog-level review; add only a cited P-number or institutional object record.",
+      "themes": [
+        "afterlife",
+        "death"
+      ],
+      "sourceStatus": "Reviewed scholarly metadata; no new source text bundled",
+      "copyright": "Metadata links only; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/amgg/Listofdeities/InanaIshtar/index.html",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/amgg/Listofdeities/InanaIshtar/index.html",
+        "https://oracc.museum.upenn.edu/qcat/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "id": "descent-of-ishtar"
+    },
+    {
+      "category": "King list / historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Sumerian King List is registered by ORACC as Q000371. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [9], Susa [3], Ur [2], Nineveh [1], Sippar-Yahrurum [1], Šubat-Enlil [1], Šaduppum [1], Tutub [1], Isin [1], Kish [1], uncertain [8]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 29 distinct P-number source records to Q000371. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000371",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000371",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000371",
+      "confidence": "B",
+      "id": "sumerian-king-list"
+    },
+    {
+      "category": "Sumerian wisdom instruction",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Instructions of Shuruppak is registered by ORACC as Q000782. The catalog classifies it as 'Wisdom literature' and other compositions.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [63], Ur [6], Kish [2], Adab [1], Abu Salabikh [1], Assur [1], Susa [1], uncertain [8]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 83 distinct P-number source records to Q000782. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000782",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000782",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000782",
+      "confidence": "B",
+      "id": "instructions-of-shuruppak"
+    },
+    {
+      "category": "Sumerian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Ur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enki and Ninhursag is registered by ORACC as Q000332. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Ur [1], Nippur [1], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 3 distinct P-number source records to Q000332. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000332",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000332",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000332",
+      "confidence": "B",
+      "id": "enki-and-ninhursag"
+    },
+    {
+      "category": "Sumerian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enki and the World Order is registered by ORACC as Q000334. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [29], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 30 distinct P-number source records to Q000334. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000334",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000334",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000334",
+      "confidence": "B",
+      "id": "enki-and-the-world-order"
+    },
+    {
+      "category": "Sumerian city lament",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Lament for Ur is registered by ORACC as Q000379. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [93], Ur [8], Sippar-Yahrurum [1], Kish [1], uncertain [10]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 113 distinct P-number source records to Q000379. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "suffering"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000379",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000379",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000379",
+      "confidence": "B",
+      "id": "lament-for-ur"
+    },
+    {
+      "category": "Akkadian wisdom poem",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Ludlul bel nemeqi is represented in the ORACC Q Catalogue by 4 Q records (Q002701 through Q002704 in the retained selection). The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 4 composition/tablet-section identifiers: Q002701, Q002702, Q002703, Q002704. Physical witnesses require separate P-number records.",
+      "themes": [
+        "suffering",
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002701",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002701",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B",
+      "id": "ludlul-bel-nemeqi"
+    },
+    {
+      "category": "Akkadian wisdom dialogue",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition and witness dates require an edition-level source; no numeric date is inferred from the catalog title.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not established by the cited catalog metadata.",
+      "description": "A reviewed Mesopotamian research record. Atlas retains it as one composition and does not infer a complete text, witness dependency or modern interpretation from its title.",
+      "historicalContext": "The linked scholarly catalog provides the current research entry point. Detailed recension, period and witness review remains edition-specific.",
+      "manuscripts": "No physical witness is associated by this catalog-level review; add only a cited P-number or institutional object record.",
+      "themes": [
+        "suffering",
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed scholarly metadata; no new source text bundled",
+      "copyright": "Metadata links only; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "id": "babylonian-theodicy"
+    },
+    {
+      "category": "Royal law collection",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Old Babylonian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Code of Hammurabi is represented in the ORACC Q Catalogue by Q000614. The retained rows classify it as Royal justice.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Old Babylonian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q000614. Physical witnesses require separate P-number records.",
+      "themes": [
+        "law",
+        "judgment",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q000614",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q000614",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B",
+      "id": "code-of-hammurabi"
+    },
+    {
+      "category": "Akkadian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Old Babylonian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Adapa Myth is represented in the ORACC Q Catalogue by Q002295. The retained rows classify it as Narratives featuring deities//Enki.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Old Babylonian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q002295. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002295",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002295",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B",
+      "id": "adapa-myth"
+    }
+  ],
+  "records": [
+    {
+      "id": "enki-and-ninmah",
+      "title": "Enki and Ninmah",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nineveh",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enki and Ninmah is registered by ORACC as Q000333. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nineveh [4], Nippur [3], Girsu [1], uncertain [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 10 distinct P-number source records to Q000333. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000333",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000333",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000333",
+      "confidence": "B"
+    },
+    {
+      "id": "enki-journey-nippur",
+      "title": "Enki's Journey to Nippur",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enki's Journey to Nippur is registered by ORACC as Q000335. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [51], Ur [5], Isin [2], Larsa [1], Sippar-Yahrurum [1], uncertain [11]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 71 distinct P-number source records to Q000335. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000335",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000335",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000335",
+      "confidence": "B"
+    },
+    {
+      "id": "enlil-and-ninlil",
+      "title": "Enlil and Ninlil",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enlil and Ninlil is registered by ORACC as Q000336. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [20], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 21 distinct P-number source records to Q000336. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000336",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000336",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000336",
+      "confidence": "B"
+    },
+    {
+      "id": "enlil-and-sud",
+      "title": "Enlil and Sud",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enlil and Sud is registered by ORACC as Q000337. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [21], Nineveh [3], Susa [2], Sippar-Yahrurum [1], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 28 distinct P-number source records to Q000337. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000337",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000337",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000337",
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-enki",
+      "title": "Inanna and Enki",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and Enki is registered by ORACC as Q000338. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [8], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 9 distinct P-number source records to Q000338. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000338",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000338",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000338",
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-ebih",
+      "title": "Inanna and Ebih",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and Ebih is registered by ORACC as Q000339. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [62], Ur [7], Isin [2], Susa [2], Uruk [1], Sippar-Yahrurum [1], Bābili [1], Me-Turan [1], Kish [1], uncertain [13]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 91 distinct P-number source records to Q000339. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "war"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000339",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000339",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000339",
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-shukaletuda",
+      "title": "Inanna and Shukaletuda",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and Shukaletuda is registered by ORACC as Q000340. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [12], Ur [3], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 16 distinct P-number source records to Q000340. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "judgment"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000340",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000340",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000340",
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-gudam",
+      "title": "Inanna and Gudam",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and Gudam is registered by ORACC as Q000341. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 2 distinct P-number source records to Q000341. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000341",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000341",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-an",
+      "title": "Inanna and An",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and An is registered by ORACC as Q000342. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [1], Uruk [1], uncertain [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 4 distinct P-number source records to Q000342. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000342",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000342",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dumuzid-and-geshtinanna",
+      "title": "Dumuzid and Geshtinanna",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Ur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Dumuzid and Geshtinanna is registered by ORACC as Q000344. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Ur [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 2 distinct P-number source records to Q000344. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000344",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000344",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dumuzid-and-his-sisters",
+      "title": "Dumuzid and His Sisters",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Sippar-Yahrurum",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Dumuzid and His Sisters is registered by ORACC as Q000345. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Sippar-Yahrurum [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 1 distinct P-number source record to Q000345. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000345",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000345",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dumuzid-dream",
+      "title": "Dumuzid's Dream",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Dumuzid's Dream is registered by ORACC as Q000347. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [68], Ur [8], Uruk [1], Kish [1], Susa [1], uncertain [8]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 87 distinct P-number source records to Q000347. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "death"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000347",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000347",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000347",
+      "confidence": "B"
+    },
+    {
+      "id": "inanna-and-bilulu",
+      "title": "Inanna and Bilulu",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative / hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Inanna and Bilulu is registered by ORACC as Q000348. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 1 distinct P-number source record to Q000348. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000348",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000348",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "nanna-journey-nippur",
+      "title": "Nanna-Suen's Journey to Nippur",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Nanna-Suen's Journey to Nippur is registered by ORACC as Q000349. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [28], Ur [1], uncertain [3]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 32 distinct P-number source records to Q000349. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000349",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000349",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "ninurta-return-nippur",
+      "title": "Ninurta's Return to Nippur",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Divine hymn / narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Ninurta's Return to Nippur is registered by ORACC as Q000350. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [47], Nineveh [12], Assur [2], Ur [1], uncertain [4]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 66 distinct P-number source records to Q000350. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "war"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000350",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000350",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "ninurta-exploits",
+      "title": "Ninurta's Exploits",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Ninurta's Exploits is registered by ORACC as Q000351. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [104], Nineveh [22], Ur [8], Sippar-Yahrurum [6], Assur [5], Bābili [1], Kalhu [1], Uruk [1], Kish [1], uncertain [16]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 165 distinct P-number source records to Q000351. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "war"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000351",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000351",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000351",
+      "confidence": "B"
+    },
+    {
+      "id": "ningishzida-journey-netherworld",
+      "title": "Ningishzida's Journey to the Netherworld",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Ur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Ningishzida's Journey to the Netherworld is registered by ORACC as Q000356. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Ur [1], Nippur [1], uncertain [7]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 9 distinct P-number source records to Q000356. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000356",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000356",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "how-grain-came-to-sumer",
+      "title": "How Grain Came to Sumer",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Susa",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "How Grain Came to Sumer is registered by ORACC as Q000358. The catalog classifies it as Narratives featuring deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Susa [1], Nippur [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 2 distinct P-number source records to Q000358. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000358",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000358",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "gilgamesh-and-aga",
+      "title": "Gilgamesh and Aga",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Gilgamesh and Aga is registered by ORACC as Q000361. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [14], uncertain [4]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 18 distinct P-number source records to Q000361. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "war"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000361",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000361",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000361",
+      "confidence": "B"
+    },
+    {
+      "id": "gilgamesh-and-bull-of-heaven",
+      "title": "Gilgamesh and the Bull of Heaven",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Gilgamesh and the Bull of Heaven is registered by ORACC as Q000362. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [18], Me-Turan [2], uncertain [3]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 23 distinct P-number source records to Q000362. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "death"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000362",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000362",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "death-of-gilgamesh",
+      "title": "The Death of Gilgamesh",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Death of Gilgamesh is registered by ORACC as Q000363. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [6], Me-Turan [5], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 12 distinct P-number source records to Q000363. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife",
+        "death"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000363",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000363",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000363",
+      "confidence": "B"
+    },
+    {
+      "id": "gilgamesh-enkidu-netherworld",
+      "title": "Gilgamesh, Enkidu and the Netherworld",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Gilgamesh, Enkidu and the Netherworld is registered by ORACC as Q000364. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [56], Ur [13], Me-Turan [2], Sippar-Yahrurum [1], Uruk [1], Isin [1], uncertain [6]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 80 distinct P-number source records to Q000364. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000364",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000364",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000364",
+      "confidence": "B"
+    },
+    {
+      "id": "gilgamesh-and-huwawa",
+      "title": "Gilgamesh and Huwawa",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Gilgamesh and Huwawa is registered by ORACC as Q000365, Q000366. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [66], Ur [6], Isin [4], Kish [3], Me-Turan [2], Sippar-Yahrurum [2], Susa [1], Uruk [1], uncertain [11]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 98 distinct P-number source records to Q000365, Q000366. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "death"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000365",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000365",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000365",
+      "confidence": "B"
+    },
+    {
+      "id": "lugalbanda-mountain-cave",
+      "title": "Lugalbanda in the Mountain Cave",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Lugalbanda in the Mountain Cave is registered by ORACC as Q000367. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [55], Ur [1], uncertain [6]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 62 distinct P-number source records to Q000367. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000367",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000367",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000367",
+      "confidence": "B"
+    },
+    {
+      "id": "lugalbanda-anzud-bird",
+      "title": "Lugalbanda and the Anzud Bird",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Lugalbanda and the Anzud Bird is registered by ORACC as Q000368. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [49], Nineveh [3], Ur [1], Kish [1], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 59 distinct P-number source records to Q000368. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000368",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000368",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000368",
+      "confidence": "B"
+    },
+    {
+      "id": "enmerkar-lord-aratta",
+      "title": "Enmerkar and the Lord of Aratta",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enmerkar and the Lord of Aratta is registered by ORACC as Q000369. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [22], Ur [2], Bābili [1], uncertain [3]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 28 distinct P-number source records to Q000369. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000369",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000369",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000369",
+      "confidence": "B"
+    },
+    {
+      "id": "enmerkar-ensuhgiranna",
+      "title": "Enmerkar and Ensuhgiranna",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Heroic narrative",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enmerkar and Ensuhgiranna is registered by ORACC as Q000370. The catalog classifies it as Narratives featuring heroes.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [32], Uruk [1], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 38 distinct P-number source records to Q000370. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000370",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000370",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "rulers-of-lagash",
+      "title": "The Rulers of Lagash",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "uncertain",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Rulers of Lagash is registered by ORACC as Q000372. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 1 distinct P-number source record to Q000372. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000372",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000372",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "history-of-tummal",
+      "title": "The History of the Tummal",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The History of the Tummal is registered by ORACC as Q000373. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [14], Ur [3], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 18 distinct P-number source records to Q000373. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000373",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000373",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "cursing-of-agade",
+      "title": "The Cursing of Agade",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Cursing of Agade is registered by ORACC as Q000375. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [91], Ur [4], Kish [2], Isin [1], Susa [1], Uruk [1], uncertain [11]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 111 distinct P-number source records to Q000375. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "judgment",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000375",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000375",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000375",
+      "confidence": "B"
+    },
+    {
+      "id": "victory-of-utu-hegal",
+      "title": "The Victory of Utu-hegal",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "unclear",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Victory of Utu-hegal is registered by ORACC as Q000376. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “unclear”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 0 distinct P-number source records to Q000376. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "war",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000376",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000376",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "lament-sumer-and-ur",
+      "title": "The Lament for Sumer and Ur",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "City lament",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Lament for Sumer and Ur is registered by ORACC as Q000380. The catalog classifies it as Compositions with a historical background.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [39], Ur [14], Uruk [1], Larsa [1], Isin [1], uncertain [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 58 distinct P-number source records to Q000380. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "suffering"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000380",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000380",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000380",
+      "confidence": "B"
+    },
+    {
+      "id": "death-of-ur-namma",
+      "title": "The Death of Ur-Namma",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Royal praise poetry",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Death of Ur-Namma is registered by ORACC as Q000386. The catalog classifies it as Royal praise poetry.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [7], Susa [3]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 10 distinct P-number source records to Q000386. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "afterlife",
+        "death",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000386",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000386",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "exaltation-of-inanna",
+      "title": "The Exaltation of Inanna",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Divine hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Exaltation of Inanna is registered by ORACC as Q000623. The catalog classifies it as Hymns addressed to deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [86], Ur [8], Kish [1], Sippar-Yahrurum [1], Tutub [1], Larsa [1], uncertain [13]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 111 distinct P-number source records to Q000623. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000623",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000623",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "enlil-in-ekur",
+      "title": "Enlil in the Ekur",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Divine hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "Enlil in the Ekur is registered by ORACC as Q000619. The catalog classifies it as Hymns addressed to deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [69], Ur [4], Kish [2], Kisurra [1], Uruk [1], Isin [1], Sippar-Yahrurum [1], Bābili [1], uncertain [9]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 89 distinct P-number source records to Q000619. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000619",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000619",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "sumerian-temple-hymns",
+      "title": "The Sumerian Temple Hymns",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Temple hymn collection",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Sumerian Temple Hymns is registered by ORACC as Q000750. The catalog classifies it as Hymns addressed to or concerning temples.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [39], Ur [8], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 52 distinct P-number source records to Q000750. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000750",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000750",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "kesh-temple-hymn",
+      "title": "The Kesh Temple Hymn",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Temple hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Kesh Temple Hymn is registered by ORACC as Q000751. The catalog classifies it as Hymns addressed to or concerning temples.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [74], Abu Salabikh [7], Ur [6], Isin [3], Kish [1], Susa [1], uncertain [10]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 102 distinct P-number source records to Q000751. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000751",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000751",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "shrines-of-inanna",
+      "title": "The Shrines of Inanna",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Temple hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Shrines of Inanna is registered by ORACC as Q000753. The catalog classifies it as Hymns addressed to or concerning temples.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [1], uncertain [1]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 2 distinct P-number source records to Q000753. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000753",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000753",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "hymn-to-ninkasi",
+      "title": "A Hymn to Ninkasi",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Divine hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "A Hymn to Ninkasi is registered by ORACC as Q000714. The catalog classifies it as Hymns addressed to deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [1], uncertain [2]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 3 distinct P-number source records to Q000714. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000714",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000714",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "hymn-to-nungal",
+      "title": "A Hymn to Nungal",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Divine hymn",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "A Hymn to Nungal is registered by ORACC as Q000736. The catalog classifies it as Hymns addressed to deities.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [48], Ur [3], Isin [2], Sippar-Yahrurum [1], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 59 distinct P-number source records to Q000736. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "judgment"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000736",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000736",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "debate-hoe-and-plough",
+      "title": "The Debate Between Hoe and Plough",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Debate poem",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Debate Between Hoe and Plough is registered by ORACC as Q000760. The catalog classifies it as Debate poems.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [63], Ur [2], Sippar-Yahrurum [1], Uruk [1], uncertain [5]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 72 distinct P-number source records to Q000760. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000760",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000760",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "debate-grain-and-sheep",
+      "title": "The Debate Between Grain and Sheep",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Debate poem",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Debate Between Grain and Sheep is registered by ORACC as Q000761. The catalog classifies it as Debate poems.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [62], Ur [5], Isin [1], uncertain [6]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 74 distinct P-number source records to Q000761. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000761",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000761",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "debate-winter-and-summer",
+      "title": "The Debate Between Winter and Summer",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Debate poem",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Debate Between Winter and Summer is registered by ORACC as Q000762. The catalog classifies it as Debate poems.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [25], Ur [3], uncertain [6]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 34 distinct P-number source records to Q000762. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed CC0 Sumerian composite transliteration; no English translation bundled",
+      "copyright": "ORACC JSON data released under CC0 1.0; no English translation bundled",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000762",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000762",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": "oracc-epsd2-q000762",
+      "confidence": "B"
+    },
+    {
+      "id": "debate-bird-and-fish",
+      "title": "The Debate Between Bird and Fish",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Debate poem",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Debate Between Bird and Fish is registered by ORACC as Q000764. The catalog classifies it as Debate poems.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [15], Ur [5], Bābili [2], Isin [1], Sippar-Yahrurum [1], uncertain [10]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 34 distinct P-number source records to Q000764. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000764",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000764",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "song-of-the-hoe",
+      "title": "The Song of the Hoe",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Song / literary composition",
+      "canonStatus": "Ancient Mesopotamian composition; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "ORACC catalogs the represented composite tradition as Old Babylonian; that witness-period label is not treated as a secure composition date.",
+      "region": "Nippur",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Authorship is not identified in the cited ORACC composition record.",
+      "description": "The Song of the Hoe is registered by ORACC as Q000778. The catalog classifies it as Songs, elegies and related compositions.",
+      "historicalContext": "The ePSD2 literary catalog reports Old Babylonian transmission and the distribution/provenience summary “Nippur [70], Ur [6], Sippar-Yahrurum [2], Bābili [1], Babylonia [1], Nineveh [1], uncertain [11]”. These are catalog facts about the represented evidence, not proof of an original performance date.",
+      "manuscripts": "ORACC links 92 distinct P-number source records to Q000778. A Q identifier is a scholarly composite; it is not one physical tablet.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed ORACC composition metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/epsd2/literary/Q000778",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/epsd2/literary/Q000778",
+        "https://oracc.museum.upenn.edu/json/epsd2-literary.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "nergal-and-ereshkigal",
+      "title": "Nergal and Ereshkigal",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Akkadian mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Nergal and Ereshkigal is represented in the ORACC Q Catalogue by Q002884. The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q002884. Physical witnesses require separate P-number records.",
+      "themes": [
+        "afterlife"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002884",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002884",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "erra-and-ishum",
+      "title": "Erra and Ishum",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Akkadian mythological poem",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Erra and Ishum is represented in the ORACC Q Catalogue by 5 Q records (Q002589 through Q002593 in the retained selection). The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 5 composition/tablet-section identifiers: Q002589, Q002590, Q002591, Q002592, Q002593. Physical witnesses require separate P-number records.",
+      "themes": [
+        "war",
+        "suffering"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002589",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002589",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "anzu-epic",
+      "title": "The Anzu Epic",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Akkadian heroic myth",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Anzu Epic is represented in the ORACC Q Catalogue by 3 Q records (Q002769 through Q002771 in the retained selection). The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 3 composition/tablet-section identifiers: Q002769, Q002770, Q002771. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom",
+        "war"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002769",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002769",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "etana-epic",
+      "title": "The Epic of Etana",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Akkadian epic",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Old Babylonian, Middle Assyrian, Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Epic of Etana is represented in the ORACC Q Catalogue by 12 Q records (Q006192 through Q006203 in the retained selection). The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Old Babylonian, Middle Assyrian, Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 12 composition/tablet-section identifiers: Q006192, Q006193, Q006194, Q006195, Q006196, Q006197, Q006198, Q006199 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q006192",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q006192",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "creation-of-mankind",
+      "title": "The Creation of Mankind",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Mythological narrative",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Old Babylonian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Creation of Mankind is represented in the ORACC Q Catalogue by Q002289. The retained rows classify it as Narratives featuring deities//Enki.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Old Babylonian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q002289. Physical witnesses require separate P-number records.",
+      "themes": [
+        "creation"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002289",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002289",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "maqlu-series",
+      "title": "Maqlu",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Incantation and ritual series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Maqlu is represented in the ORACC Q Catalogue by 10 Q records (Q002705 through Q002714 in the retained selection). The retained rows classify it as Maqlu.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 10 composition/tablet-section identifiers: Q002705, Q002706, Q002707, Q002708, Q002709, Q002710, Q002711, Q002712 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "evil",
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002705",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002705",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "dialogue-of-pessimism",
+      "title": "The Dialogue of Pessimism",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Wisdom dialogue",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report First Millennium; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Dialogue of Pessimism is represented in the ORACC Q Catalogue by Q009235. The retained rows classify it as Literary.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (First Millennium). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q009235. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q009235",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q009235",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "marduk-ordeal",
+      "title": "The Marduk Ordeal",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Cultic explanatory work",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Assyria",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Marduk Ordeal is represented in the ORACC Q Catalogue by Q009250. The retained rows classify it as Cultic Explanatory Work.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q009250. Physical witnesses require separate P-number records.",
+      "themes": [
+        "ritual"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q009250",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q009250",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "babylonian-king-list",
+      "title": "The Babylonian King List",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "King list / historiographic composition",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Seleucid; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "The Babylonian King List is represented in the ORACC Q Catalogue by Q002506. The retained rows classify it as Babylonian King List.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Seleucid). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 1 composition/tablet-section identifier: Q002506. Physical witnesses require separate P-number records.",
+      "themes": [
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002506",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002506",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "an-anum-god-list",
+      "title": "An = Anum God List",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Lexical god list",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Middle Babylonian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "An = Anum God List is represented in the ORACC Q Catalogue by 8 Q records (Q000264 through Q003227 in the retained selection). The retained rows classify it as Thematic Word Lists.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Middle Babylonian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 8 composition/tablet-section identifiers: Q000264, Q003221, Q003222, Q003223, Q003224, Q003225, Q003226, Q003227. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q000264",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q000264",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "enuma-anu-enlil",
+      "title": "Enuma Anu Enlil",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Celestial omen series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Enuma Anu Enlil is represented in the ORACC Q Catalogue by 69 Q records (Q002520 through Q002588 in the retained selection). The retained rows classify it as Celestial.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 69 composition/tablet-section identifiers: Q002520, Q002521, Q002522, Q002523, Q002524, Q002525, Q002526, Q002527 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002520",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002520",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "shumma-alu",
+      "title": "Shumma Alu",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Terrestrial omen series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Shumma Alu is represented in the ORACC Q Catalogue by 121 Q records (Q002885 through Q003005 in the retained selection). The retained rows classify it as Šumma Alu.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 121 composition/tablet-section identifiers: Q002885, Q002886, Q002887, Q002888, Q002889, Q002890, Q002891, Q002892 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002885",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002885",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "sakikku",
+      "title": "Sakikku Diagnostic Handbook",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Diagnostic omen series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Sakikku Diagnostic Handbook is represented in the ORACC Q Catalogue by 41 Q records (Q002728 through Q002768 in the retained selection). The retained rows classify it as Diagnostic.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 41 composition/tablet-section identifiers: Q002728, Q002729, Q002730, Q002731, Q002732, Q002733, Q002734, Q002735 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002728",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002728",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "shumma-izbu",
+      "title": "Shumma Izbu",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Birth omen series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Shumma Izbu is represented in the ORACC Q Catalogue by 25 Q records (Q003006 through Q003030 in the retained selection). The retained rows classify it as Šumma Izbu.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 25 composition/tablet-section identifiers: Q003006, Q003007, Q003008, Q003009, Q003010, Q003011, Q003012, Q003013 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q003006",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q003006",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "barutu",
+      "title": "Barutu",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Extispicy omen series",
+      "canonStatus": "Ancient Mesopotamian composition or transmitted corpus; modern canon categories are not inferred.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "The retained ORACC Q Catalogue rows report Neo-Assyrian; those are catalog period labels and are not converted into an unsupported composition range.",
+      "region": "Mesopotamia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Authorship is not identified in the retained Q Catalogue metadata.",
+      "description": "Barutu is represented in the ORACC Q Catalogue by 101 Q records (Q002772 through Q002872 in the retained selection). The retained rows classify it as Barutu.",
+      "historicalContext": "The Q Catalogue supplies registry-level identifiers and period/genre metadata (Neo-Assyrian). Atlas does not infer a complete edition, a single witness, or a composition date from those rows.",
+      "manuscripts": "Registry scope: 101 composition/tablet-section identifiers: Q002772, Q002773, Q002774, Q002775, Q002776, Q002777, Q002778, Q002779 …. Physical witnesses require separate P-number records.",
+      "themes": [
+        "ritual",
+        "wisdom"
+      ],
+      "sourceStatus": "Reviewed ORACC Q Catalogue metadata; no source text bundled",
+      "copyright": "Public metadata under ORACC CC0; edition rights not assessed",
+      "sourceUrl": "https://oracc.museum.upenn.edu/qcat/Q002772",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/qcat/Q002772",
+        "https://oracc.museum.upenn.edu/json/qcat.zip"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "gudea-cylinders",
+      "title": "The Gudea Cylinders",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Royal temple-building inscription",
+      "canonStatus": "Royal votive and commemorative inscription; modern canon categories are not inferred.",
+      "startDate": -2120,
+      "endDate": -2110,
+      "dateConfidence": "Louvre object record dates Cylinders A and B to approximately 2120–2110 BCE; this range applies to the physical inscriptions.",
+      "region": "Girsu (modern Tello)",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Sumerian"
+      ],
+      "author": "Royal inscription of Gudea; individual scribal authorship is not identified.",
+      "description": "The paired Gudea Cylinders describe the building of Ningirsu's temple. ORACC registers the composition as Q000377; the Louvre catalogs Cylinders A and B as separate terracotta objects.",
+      "historicalContext": "The record joins the named composition for research while keeping its two surviving museum objects distinct. It does not split columns or episodes into separate works.",
+      "manuscripts": "Cylinder A: Louvre MNB 1512. Cylinder B: Louvre MNB 1511. ORACC composite Q000377 presents Cylinders A and B.",
+      "themes": [
+        "ritual",
+        "kingship"
+      ],
+      "sourceStatus": "Reviewed ORACC and Louvre metadata; no text bundled",
+      "copyright": "Metadata links only; reproduction rights assessed at the source",
+      "sourceUrl": "https://oracc.museum.upenn.edu/etcsri/Q000377",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/etcsri/Q000377",
+        "https://collections.louvre.fr/en/ark:/53355/cl010124631"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    },
+    {
+      "id": "assyrian-royal-religious-inscriptions",
+      "title": "Assyrian Royal Religious Inscriptions",
+      "traditionId": "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+      "tradition": "Ancient Mesopotamia / Sumer / Akkad / Babylon / Assyria",
+      "category": "Royal inscription research corpus",
+      "canonStatus": "Modern research corpus of royal inscriptions; not a single ancient canon or composition.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Corpus-level record; ruler- and object-specific dates must be taken from individual RINAP inscriptions.",
+      "region": "Assyria",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Multiple Assyrian rulers and scribal producers; consult individual inscription records.",
+      "description": "A research gateway to the Royal Inscriptions of the Neo-Assyrian Period, including inscriptions with religious invocations, temple work, ritual settings and claims of divine authorization.",
+      "historicalContext": "This corpus-level record makes Assyrian religious inscriptions discoverable without pretending that a multi-reign project is one authored work.",
+      "manuscripts": "Many separately cataloged inscriptions and objects; use RINAP identifiers and individual object records for witness claims.",
+      "themes": [
+        "ritual",
+        "kingship",
+        "war"
+      ],
+      "sourceStatus": "Reviewed ORACC project metadata; no source text bundled",
+      "copyright": "Metadata link only; edition rights vary by RINAP record",
+      "sourceUrl": "https://oracc.museum.upenn.edu/rinap/",
+      "metadataSources": [
+        "https://oracc.museum.upenn.edu/rinap/",
+        "https://oracc.museum.upenn.edu/projectlist.html"
+      ],
+      "editionId": null,
+      "confidence": "B"
+    }
+  ],
+  "transliterationWorks": [
+    {
+      "id": "cursing-of-agade"
+    },
+    {
+      "id": "death-of-gilgamesh"
+    },
+    {
+      "id": "debate-winter-and-summer"
+    },
+    {
+      "id": "descent-of-inanna"
+    },
+    {
+      "id": "dumuzid-dream"
+    },
+    {
+      "id": "enki-and-ninhursag"
+    },
+    {
+      "id": "enki-and-ninmah"
+    },
+    {
+      "id": "enki-and-the-world-order"
+    },
+    {
+      "id": "enki-journey-nippur"
+    },
+    {
+      "id": "enlil-and-ninlil"
+    },
+    {
+      "id": "enlil-and-sud"
+    },
+    {
+      "id": "enmerkar-lord-aratta"
+    },
+    {
+      "id": "eridu-genesis"
+    },
+    {
+      "id": "gilgamesh-and-aga"
+    },
+    {
+      "id": "gilgamesh-and-huwawa"
+    },
+    {
+      "id": "gilgamesh-enkidu-netherworld"
+    },
+    {
+      "id": "inanna-and-ebih"
+    },
+    {
+      "id": "inanna-and-enki"
+    },
+    {
+      "id": "inanna-and-shukaletuda"
+    },
+    {
+      "id": "instructions-of-shuruppak"
+    },
+    {
+      "id": "lament-for-ur"
+    },
+    {
+      "id": "lament-sumer-and-ur"
+    },
+    {
+      "id": "lugalbanda-anzud-bird"
+    },
+    {
+      "id": "lugalbanda-mountain-cave"
+    },
+    {
+      "id": "ninurta-exploits"
+    },
+    {
+      "id": "sumerian-king-list"
+    }
+  ]
+}

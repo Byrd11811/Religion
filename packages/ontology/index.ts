@@ -15,6 +15,7 @@ export const concepts: Record<string, string[]> = {
   ritual: ["prayer", "sacrifice", "ritual", "worship"],
   consciousness: ["consciousness", "mind", "perception", "reality"],
   judgment: ["judgment", "judgement", "punishment", "reward"],
+  anunnaki: ["anunna", "anuna", "anunnaku", "anunnaki"],
 };
 export const themes = Object.keys(concepts);
 export function tokenize(s: string) {

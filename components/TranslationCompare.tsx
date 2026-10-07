@@ -34,14 +34,14 @@ export function TranslationCompare({
   if (available.length < 2)
     return (
       <Empty>
-        Only one English edition is bundled for this work. No original-language
-        text or alternate translation is substituted.
+        Only one edition is bundled for this work: {available[0]?.language ?? "language unavailable"}.
+        No alternate edition is substituted.
       </Empty>
     );
   return (
     <>
       <div className="notice">
-        Compare translation vocabulary around a shared concept. These segments
+        Compare edition vocabulary around a shared concept. These segments
         are retrieved independently and are not aligned verse for verse. Check
         the original reference inside each passage.
       </div>
@@ -61,7 +61,7 @@ export function TranslationCompare({
           />
         </label>
         <button className="button" disabled={!query.trim() || busy}>
-          {busy ? "Searching editions…" : "Compare translations"}
+          {busy ? "Searching editions…" : "Compare editions"}
         </button>
       </form>
       {error && (

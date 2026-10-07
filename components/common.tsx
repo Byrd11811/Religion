@@ -134,6 +134,7 @@ export function PassageCard({
   onOpen: (p: SearchHit) => void;
   onSave: (f: Finding) => void;
 }) {
+  const sourceEdition = editions.find((e) => e.id === passage.editionId);
   return (
     <article className="passage-card">
       <div className="row between">
@@ -154,7 +155,9 @@ export function PassageCard({
           ? passage.content.slice(0, 650) + "…"
           : passage.content}
       </blockquote>
-      <p className="small muted">{passage.translator} · English edition</p>
+      <p className="small muted">
+        {passage.translator} · {sourceEdition?.language ?? "Edition language unavailable"}
+      </p>
       <div className="row">
         <button className="text-button" onClick={() => onOpen(passage)}>
           Open citation <ArrowUpRight size={15} />
@@ -241,10 +244,10 @@ export function CitationDrawer({
         </dd>
         <dt>Edition</dt>
         <dd>{ed?.title}</dd>
-        <dt>Translator</dt>
+        <dt>Edition responsibility</dt>
         <dd>{passage.translator}</dd>
         <dt>Language</dt>
-        <dd>English translation / edition</dd>
+        <dd>{ed?.language ?? "Data unavailable"}</dd>
         <dt>Content type</dt>
         <dd>{passage.contentType}</dd>
         <dt>Rights</dt>

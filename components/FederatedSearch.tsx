@@ -247,6 +247,25 @@ export function FederatedSearchPage({
           for “{searched}”
         </p>
       )}
+      {passages.length > 0 && (
+        <section>
+          <h2>Edition passages</h2>
+          <p className="small muted">
+            Passage evidence is ranked separately, with primary source material
+            first when available, and retains its source type.
+          </p>
+          <div className="two-col">
+            {passages.map((passage) => (
+              <PassageCard
+                key={passage.id}
+                passage={passage}
+                onSave={onSave}
+                onOpen={onOpen}
+              />
+            ))}
+          </div>
+        </section>
+      )}
       {entities.length > 0 && (
         <section>
           <h2>Catalog and archive</h2>
@@ -271,24 +290,6 @@ export function FederatedSearchPage({
                   Open record <ArrowUpRight size={15} />
                 </Link>
               </article>
-            ))}
-          </div>
-        </section>
-      )}
-      {passages.length > 0 && (
-        <section>
-          <h2>Edition passages</h2>
-          <p className="small muted">
-            Passage evidence is ranked separately and retains its source type.
-          </p>
-          <div className="two-col">
-            {passages.map((passage) => (
-              <PassageCard
-                key={passage.id}
-                passage={passage}
-                onSave={onSave}
-                onOpen={onOpen}
-              />
             ))}
           </div>
         </section>

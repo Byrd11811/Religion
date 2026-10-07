@@ -3,6 +3,7 @@ import path from "node:path";
 import { texts, editions } from "@/packages/shared/catalog";
 import { concepts, detectConcepts, tokenize } from "@/packages/ontology";
 import type { Passage, SearchHit } from "@/packages/shared/types";
+import { passageSeedFiles } from "@/packages/shared/seed-files";
 let cached: Passage[] | undefined;
 let index: Map<string, Map<number, number>> | undefined;
 const stop = new Set(
@@ -11,26 +12,29 @@ const stop = new Set(
   ),
 );
 export function allPassages() {
-  return (cached ??= [
-    ...(JSON.parse(
-      fs.readFileSync(
-        path.join(process.cwd(), "data/seed/passages.json"),
-        "utf8",
-      ),
-    ) as Passage[]),
-    ...(JSON.parse(
-      fs.readFileSync(
-        path.join(process.cwd(), "data/seed/egypt-passages.json"),
-        "utf8",
-      ),
-    ) as Passage[]),
-  ]);
+  return (cached ??= passageSeedFiles.flatMap(
+    (filename) =>
+      JSON.parse(
+        fs.readFileSync(
+          path.join(process.cwd(), "data/seed", filename),
+          "utf8",
+        ),
+      ) as Passage[],
+  ));
 }
 function getIndex() {
   if (index) return index;
   index = new Map();
   allPassages().forEach((p, i) => {
-    for (const term of tokenize(p.content)) {
+    const terms = new Set(tokenize(`${p.content} ${p.reference}`));
+    for (const theme of p.themes) terms.add(theme);
+    if (/\{d\}a-nun-na(?:-ke₄)?/i.test(p.content)) {
+      terms.add("anunnaki");
+      terms.add("anunna");
+      terms.add("anuna");
+      terms.add("anunnaku");
+    }
+    for (const term of terms) {
       let docs = index!.get(term);
       if (!docs) {
         docs = new Map();
@@ -134,7 +138,13 @@ export function search(
         },
       ];
     })
-    .sort((a, b) => b.score - a.score);
+    .sort(
+      (a, b) =>
+        (options.preferPrimary
+          ? Number(b.contentType === "Primary text") -
+            Number(a.contentType === "Primary text")
+          : 0) || b.score - a.score,
+    );
   if (!options.diverse) return ranked.slice(0, options.limit ?? 24);
   const counts = new Map<string, number>();
   const unique = new Set<string>();

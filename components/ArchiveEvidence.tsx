@@ -141,11 +141,13 @@ export function PrimaryVsInterpretationTabs({
   scholarship,
   alternatives,
   modern,
+  comparison,
 }: {
   primary: React.ReactNode;
   scholarship?: React.ReactNode;
   alternatives?: React.ReactNode;
   modern?: React.ReactNode;
+  comparison?: React.ReactNode;
 }) {
   const [tab, setTab] = useState(0);
   const labels = [
@@ -153,7 +155,9 @@ export function PrimaryVsInterpretationTabs({
     "Mainstream Scholarship",
     "Alternative Interpretations",
     "Modern / Popular Claims",
+    ...(comparison ? ["Ancient Text vs Modern Claim"] : []),
   ];
+  const panels = [primary, scholarship, alternatives, modern, comparison];
   return (
     <section>
       <div className="chips" role="tablist" aria-label="Source category">
@@ -161,6 +165,7 @@ export function PrimaryVsInterpretationTabs({
           <button
             role="tab"
             aria-selected={tab === i}
+            className={tab === i ? "selected" : ""}
             key={l}
             onClick={() => setTab(i)}
           >
@@ -169,7 +174,7 @@ export function PrimaryVsInterpretationTabs({
         ))}
       </div>
       <div role="tabpanel">
-        {[primary, scholarship, alternatives, modern][tab] ?? (
+        {panels[tab] ?? (
           <p className="notice">
             No verified source currently available in this category.
           </p>
@@ -201,7 +206,7 @@ export function EvidenceLadder({
           where present, appear on the work profile.
         </li>
         <li>
-          <strong>Translation:</strong>{" "}
+          <strong>Edition responsibility:</strong>{" "}
           {edition?.translator ?? "Data unavailable"}. {edition?.note}
         </li>
         <li>

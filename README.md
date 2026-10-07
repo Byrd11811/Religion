@@ -26,9 +26,10 @@ Run only one server against the embedded database directory. Keep the terminal r
 
 - Depth expansion foundation: work/recension/witness/artifact/image schema, paginated Deep Archive, source-depth indicators, citation evidence ladders, and institution-linked Codex Gigas/Voynich witness pages. See `docs/expansion-progress.md` for completed work and the remaining major-release targets.
 - Ancient Egypt collection with 72 reviewed work/research records, 30 verified Met objects, three British Museum papyrus witnesses, period filters, physical-witness links and IIIF image navigation/zoom. The archive has 105 verified images in total; 103 Egyptian images were added through a reviewed, reproducible Met Open Access intake pipeline.
+- Mesopotamia collection with 77 composition/corpus records, 26 searchable ORACC scholarly composite transliterations, 477 exact source blocks and ten separately modeled CDLI tablet witnesses. The Anunna / Anunnaki research view keeps ancient attestations, scholarship, alternative readings and modern claims in distinct sourced tabs.
 
-- 311 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus sixty-three additional sourced work/research records.
-- 63 English source editions covering 62 works and 21,339 verbatim segments. Fifty-five works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension is present.
+- 373 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus reviewed collection expansions.
+- 89 source editions covering 88 works and 21,816 verbatim segments. Twenty-six editions are Sumerian transliterations rather than English translations. Fifty-five works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, composite transliterations and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension or physical witness is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.
 - Text profiles, paginated reading, citation dialogs, translator and license details, and thematic comparison of the two Quran translations.
@@ -43,7 +44,7 @@ Run only one server against the embedded database directory. Keep the terminal r
 
 The default database is **embedded PostgreSQL via PGlite**, persisted in `data/user/postgres`. It runs the PostgreSQL schema and pgvector extension and seeds itself on first database access. Initialization can take about 20 seconds; subsequent starts reuse it. Full-text search uses a GIN-indexed PostgreSQL text-search column, combined with weighted lexical retrieval and explicit theme expansion.
 
-`packages/db/schema.sql` includes texts, traditions, editions, passages, themes, people, concepts, relationships, claims, citations, images, collections, saved queries, comparison sessions and annotations. Normalized seed JSON remains the portable catalog source of truth. After editing the corpus, stop the app, run `npm run db:migrate` and `npm run db:seed`, then restart. These commands update source records while preserving collections. Do not run maintenance concurrently with the embedded server.
+`packages/db/schema.sql` includes texts, traditions, editions, passages, themes, people, concepts, relationships, claims, citations, images, collections, saved queries, comparison sessions and annotations. Normalized seed JSON remains the portable catalog source of truth. Application startup upserts bundled editions and passages into an existing embedded database; explicit maintenance remains available by stopping the app, running `npm run db:migrate` and `npm run db:seed`, then restarting. These commands update source records while preserving collections. Do not run maintenance concurrently with the embedded server.
 
 For a dedicated PostgreSQL server, use `.env.local` with **ATLAS_DATABASE_URL**, then:
 
@@ -77,6 +78,7 @@ python scripts/download.py
 npm run ingest:metadata
 npm run ingest:text
 npm run ingest:egypt
+npm run ingest:mesopotamia
 npm run classify
 npm run ingest:images
 ```
@@ -90,11 +92,11 @@ python scripts/import-met.py --review-file data/intake/met-egypt-reviewed.json
 
 The optional work association is specific to institutionally identified Book of the Dead records. The reviewed Egyptian manifest records title expectations, minimum image counts, witness decisions and per-object sensitivity notes. The importer validates a complete batch before replacing the seed, stores provenance, verifies image URLs, preserves unchanged verification timestamps, deduplicates records and refuses objects without confirmed public-domain image rights. Stop the app and run `npm run db:migrate` after imports, then rebuild. `/api/iiif/[artifactId]` exposes Atlas-generated Presentation 3 manifests of accepted CC0 images; these are not institutional manifests.
 
-Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. The Egypt ingester uses exact, occurrence-aware source boundaries; it excludes out-of-scope introductions and remarks and separately labels retained footnotes and headings. Atlas segment numbers are application locators; biblical chapter:verse labels are retained where present. Update the corresponding ingestion script when adding an approved edition. Run `npm run refresh:manifest` to refresh provenance from bundled source files.
+Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses explicitly mapped Gutenberg IDs, checks edition delimiters, preserves the edition body or named anthology section, retains sequence order, and records source SHA-256 values. The Egypt ingester uses exact, occurrence-aware source boundaries; it excludes out-of-scope introductions and remarks and separately labels retained footnotes and headings. The Mesopotamia ingester verifies the retained ORACC archives' embedded CC0 metadata and hashes, preserves ePSD2 Q-catalog composite transliteration lines, and keeps Q composition identifiers separate from CDLI P object identifiers. Its default retained-only mode rebuilds without a network request. Atlas segment numbers are application locators; biblical chapter:verse and ORACC line labels are retained where present. Update the corresponding ingestion script when adding an approved edition. Run `npm run refresh:manifest` to refresh provenance from bundled source files.
 
 ## Map and timeline coverage
 
-The map includes all 37 existing work anchors by default, including records without dates, and keeps unlocated records discoverable. Layer, community, region, geographic evidence and availability filters update the same coverage counts. Overlapping records share their original anchor. The timeline uses 5000 BCE–present and offers physical-witness dates separately from work composition.
+The map includes all 36 reviewed work anchors by default, including records without dates, and keeps unlocated records discoverable. Layer, community, region, geographic evidence and availability filters update the same coverage counts. Overlapping records share their original anchor. The timeline uses 5000 BCE–present and offers physical-witness dates separately from work composition. An earlier unsupported Gilgamesh point and date were removed during the Mesopotamia review rather than being repeated as precise evidence.
 
 `/api/map?view=coverage` and `/api/timeline?view=coverage&layer=witness` return typed records, source context and scoped counts. Legacy record-array responses remain available; unknown-date records are included by default (`undated=false` excludes them). Invalid years, evidence states and boolean filters return 400. Historical borders, religious-influence geometry and conflict transitions still require sourced datasets.
 
@@ -108,11 +110,11 @@ Unverified research leads use a separate durable queue with explicit source, rig
 
 ## Passage source classification
 
-Every bundled segment now carries an explicit source type. The conservative reviewed set marks 10,015 segments as `Primary text`, including 242 bounded Egyptian translation segments. The 281 editorial segments include 199 bundled Gilgamesh and Egyptian Book of the Dead study segments plus separately labeled historical-edition footnotes. Another 11,043 mixed, reconstructed or structural segments remain `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
+Every bundled segment now carries an explicit source type. The conservative reviewed set marks 10,492 segments as `Primary text`, including 242 bounded Egyptian translation segments and 477 exact ORACC composite-transliteration blocks. Here `Primary text` describes composition content in the edition; it does not assert that a composite line belongs to one physical tablet or that its claims are historically true. The 281 editorial segments include 199 bundled Gilgamesh and Egyptian Book of the Dead study segments plus separately labeled historical-edition footnotes. Another 11,043 mixed, reconstructed or structural segments remain `Unknown` pending review. Search accepts repeatable `contentType` filters and prioritizes reviewed primary material for question retrieval. Reader cards and citation drawers display the classification instead of calling every excerpt primary evidence.
 
 ## Federated search
 
-The global search route queries works, broad traditions, sourced subtraditions, concepts, reviewed author labels, physical witnesses, institutional artifacts, and edition passages. Catalog/archive records and quoted passages render in separate sections so metadata-only records remain discoverable without becoming textual evidence. Search aliases cover a conservative set of alternate work titles. Broad, Scholarly, Opposition, Deep Archive, and Manuscripts modes plus record-type, language/script, region, canon, rights, and confidence filters narrow the candidate scope before limits are applied.
+The global search route queries works, broad traditions, sourced subtraditions, concepts, reviewed author labels, physical witnesses, institutional artifacts, and edition passages. Catalog/archive records and quoted passages render in separate sections so metadata-only records remain discoverable without becoming textual evidence. Search aliases cover a conservative set of alternate work titles plus Anunna, Anuna, Anunnaki and Anunnaku. In Scholarly mode an Anunnaki query presents exact ancient attestations before modern-claim metadata. Broad, Scholarly, Opposition, Deep Archive, and Manuscripts modes plus record-type, language/script, region, canon, rights, and confidence filters narrow the candidate scope before limits are applied.
 
 ## Completion baseline
 

@@ -1,4 +1,5 @@
 import { mkdtempSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { tmpdir } from "node:os";
 import path from "node:path";
 process.env.ATLAS_DATA_DIR = mkdtempSync(path.join(tmpdir(), "atlas-unit-"));
@@ -35,7 +36,36 @@ import { exportCsv, exportMarkdown } from "../packages/citation";
 import type { Collection } from "../packages/shared/types";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
+  const oracc = JSON.parse(
+    readFileSync("data/open-data/oracc-epsd2-literary-selected.json", "utf8"),
+  ) as {
+    works: {
+      qId: string;
+      sourceJsonSha256: string;
+      lines: { label: string; text: string }[];
+    }[];
+  };
   for (const e of editions) {
+    if (e.id.startsWith("oracc-epsd2-")) {
+      const qId = e.id.replace("oracc-epsd2-", "").toUpperCase();
+      const retained = oracc.works.find((work) => work.qId === qId);
+      assert.ok(retained, e.id);
+      assert.match(retained.sourceJsonSha256, /^[a-f0-9]{64}$/);
+      const original = retained.lines
+        .map((line) => `${line.label}: ${line.text}`)
+        .join("\n");
+      const ingested = allPassages()
+        .filter((p) => p.editionId === e.id)
+        .map((p) => p.content)
+        .join("\n");
+      assert.equal(ingested, original, e.id);
+      assert.equal(
+        createHash("sha256").update(original).digest("hex"),
+        e.sha256,
+        e.id,
+      );
+      continue;
+    }
     const raw = readFileSync(
       `data/public-domain/${e.sourceFile ?? e.id.replace("pg-", "") + ".txt"}`,
       "utf8",
@@ -79,6 +109,136 @@ test("ingested editions preserve every source word in sequence", () => {
       .join("\n\n");
     assert.equal(normalize(ingested), normalize(original), e.id);
   }
+});
+test("Mesopotamian depth release keeps composites, tablets, translations and modern claims separate", () => {
+  const additions = JSON.parse(
+    readFileSync("data/seed/mesopotamia-additions.json", "utf8"),
+  ) as {
+    overrides: { id: string }[];
+    records: { id: string; editionId: string | null }[];
+    transliterationWorks: { id: string }[];
+  };
+  assert.equal(additions.overrides.length, 15);
+  assert.equal(additions.records.length, 62);
+  assert.equal(additions.transliterationWorks.length, 26);
+  const mesopotamian = texts.filter(
+    (text) =>
+      text.traditionId ===
+      "ancient-mesopotamia-sumer-akkad-babylon-assyria",
+  );
+  assert.equal(mesopotamian.length, 77);
+  for (const id of additions.overrides.map((record) => record.id)) {
+    const record = texts.find((text) => text.id === id);
+    assert.ok(record, id);
+    assert.notEqual(record.confidence, "Unreviewed", id);
+    assert.ok(record.sourceUrl?.startsWith("https://"), id);
+    assert.ok(record.metadataSources.every((url) => url.startsWith("https://")));
+  }
+  const oraccEditions = editions.filter((edition) =>
+    edition.id.startsWith("oracc-epsd2-"),
+  );
+  assert.equal(oraccEditions.length, 26);
+  assert.ok(
+    oraccEditions.every(
+      (edition) =>
+        !edition.complete &&
+        edition.language === "Sumerian transliteration" &&
+        edition.note.includes("not an English translation") &&
+        edition.note.includes("not a diplomatic edition"),
+    ),
+  );
+  const mesopotamianPassages = allPassages().filter((passage) =>
+    passage.editionId.startsWith("oracc-epsd2-"),
+  );
+  assert.equal(mesopotamianPassages.length, 477);
+  assert.equal(
+    new Set(mesopotamianPassages.map((passage) => passage.textId)).size,
+    26,
+  );
+  assert.ok(
+    mesopotamianPassages.every(
+      (passage) =>
+        passage.contentType === "Primary text" &&
+        passage.sourceUrl.startsWith(
+          "https://oracc.museum.upenn.edu/epsd2/literary/Q",
+        ),
+    ),
+  );
+  for (const record of additions.records.filter((item) => !item.editionId)) {
+    assert.equal(
+      mesopotamianPassages.some((passage) => passage.textId === record.id),
+      false,
+      record.id,
+    );
+  }
+  const profile = workProfile("enki-and-ninmah")!;
+  assert.equal(profile.coverage, "Transliteration only");
+  assert.equal(profile.sourceDepth.Translation, "No translation bundled");
+  assert.match(profile.sourceDepth["Original language"], /transliteration/i);
+  const tablets = witnesses.filter((witness) =>
+    witness.id.startsWith("cdli-p"),
+  );
+  assert.equal(tablets.length, 10);
+  assert.ok(
+    tablets.every(
+      (witness) =>
+        witness.sources.some((source) => source.startsWith("https://cdli.earth/P")) &&
+        witness.description.includes("does not establish"),
+    ),
+  );
+  const passageHits = search("Anunnaki", {
+    preferPrimary: true,
+    traditions: ["ancient-mesopotamia-sumer-akkad-babylon-assyria"],
+  });
+  assert.ok(passageHits.length >= 9);
+  assert.equal(passageHits[0].contentType, "Primary text");
+  assert.ok(passageHits.every((hit) => hit.sourceUrl.includes("oracc")));
+  assert.ok(passageHits.some((hit) => hit.themes.includes("anunnaki")));
+  for (const alias of ["Anunnaki", "Anunna", "Anuna", "Anunnaku"]) {
+    const result = federatedSearch(alias, { mode: "Scholarly" });
+    assert.equal(result[0]?.href, "/explore/anunnaki", alias);
+    assert.equal(result[0]?.availability, "Sourced research guide", alias);
+  }
+  const research = JSON.parse(
+    readFileSync("data/research/anunnaki-evidence.json", "utf8"),
+  ) as {
+    primarySources: { id: string; workId: string; sourceUrl: string }[];
+    scholarship: { sourceUrl: string }[];
+    alternatives: { sourceUrl: string }[];
+    modernClaims: { id: string; sourceUrl: string }[];
+    comparisons: {
+      modernClaimId: string;
+      ancientEvidenceIds: string[];
+      limitation: string;
+    }[];
+  };
+  const evidenceIds = new Set(research.primarySources.map((item) => item.id));
+  const claimIds = new Set(research.modernClaims.map((item) => item.id));
+  assert.ok(
+    [...research.scholarship, ...research.alternatives, ...research.modernClaims].every(
+      (item) => item.sourceUrl.startsWith("https://"),
+    ),
+  );
+  assert.ok(
+    research.primarySources.every(
+      (item) =>
+        texts.some((work) => work.id === item.workId) &&
+        item.sourceUrl.startsWith("https://oracc"),
+    ),
+  );
+  assert.ok(
+    research.comparisons.every(
+      (item) =>
+        claimIds.has(item.modernClaimId) &&
+        item.ancientEvidenceIds.every((id) => evidenceIds.has(id)) &&
+        item.limitation.length > 30,
+    ),
+  );
+  assert.ok(
+    allPassages().every(
+      (passage) => !research.modernClaims.some((claim) => passage.id === claim.id),
+    ),
+  );
 });
 test("catalog has unique records and valid tradition/edition references", () => {
   assert.ok(texts.length >= 100);

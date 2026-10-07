@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { detectConcepts } from "../packages/ontology";
 import type { Passage } from "../packages/shared/types";
+import { passageSeedFiles } from "../packages/shared/seed-files";
 function contentType(p: Passage): Passage["contentType"] {
   // The KJV records are extracted from exact named-book boundaries; their
   // verse segments and retained book headings belong to that primary edition.
@@ -16,6 +17,7 @@ function contentType(p: Passage): Passage["contentType"] {
       !p.content.includes("[Here follows a story"))
   )
     return "Primary text";
+  if (p.editionId.startsWith("oracc-epsd2-")) return "Primary text";
   // These two bundled sources are historical scholarly studies containing
   // quotations, not continuous primary-text translations.
   if (
@@ -29,10 +31,8 @@ function contentType(p: Passage): Passage["contentType"] {
   return "Unknown";
 }
 let total = 0;
-for (const file of [
-  "data/seed/passages.json",
-  "data/seed/egypt-passages.json",
-]) {
+for (const filename of passageSeedFiles) {
+  const file = `data/seed/${filename}`;
   const passages = JSON.parse(readFileSync(file, "utf8")) as Passage[];
   total += passages.length;
   writeFileSync(
@@ -40,7 +40,9 @@ for (const file of [
     JSON.stringify(
       passages.map((p) => ({
         ...p,
-        themes: detectConcepts(p.content),
+        themes: p.editionId.startsWith("oracc-epsd2-")
+          ? p.themes
+          : detectConcepts(p.content),
         contentType: contentType(p),
       })),
     ),

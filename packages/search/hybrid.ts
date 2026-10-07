@@ -56,7 +56,13 @@ export async function hybridSearch(
         (options.preferPrimary && p.contentType === "Primary text" ? 0.5 : 0),
     });
   }
-  const all = [...candidates.values()].sort((a, b) => b.score - a.score);
+  const all = [...candidates.values()].sort(
+    (a, b) =>
+      (options.preferPrimary
+        ? Number(b.contentType === "Primary text") -
+          Number(a.contentType === "Primary text")
+        : 0) || b.score - a.score,
+  );
   if (!options.diverse) return all.slice(0, options.limit ?? 24);
   const byGroup = new Map<string, number>(),
     seen = new Set<string>();

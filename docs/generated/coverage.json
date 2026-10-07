@@ -15,12 +15,16 @@
   ],
   "sources": {
     "app/api/[...path]/route.ts": "e3bfebbad72b9d2f4fd9792dc013aeebed37b223d7fd5c44b6acc7408f5a705f",
-    "components/Atlas.tsx": "d9314e46251f92dc0fb703cfbfd3d9ee6e05bcf64ce5323a0678813ffb75f62a",
+    "components/Atlas.tsx": "58d721285d56384663680eef712d55f89537debf46aec9791f06c1326942d28a",
     "components/Explore.tsx": "1ba19cd8161366115cf512881ce6e71fb9c8bcf4f58517f61d6f0a0a5376b974",
-    "components/FederatedSearch.tsx": "b7aa6f93032f29089a04529b057761fae8fe40cff15737bf723ed99e870cbf8e",
-    "components/Library.tsx": "cc6f434c6bb34ed740865ca956306760b20ac49853ba69ef468940d842ecd493",
+    "components/FederatedSearch.tsx": "ed6ba71b3752b7bff9da95ddc3b9e7fea951b23f4bce77be9810bac8d1c8e3ee",
+    "components/Library.tsx": "8e2c00517a4d43be43c6cad8c310afa73503f87ab48716ccebe35c884d5c10ac",
+    "components/Mesopotamia.tsx": "e4c5e314f9a4bf1ffa23ea678cb68b1d5eaff60f481544895ad6f2bc9876da62",
     "components/SpatialExplorer.tsx": "1150724dad6b3e4c07768266fc7bf5a501428f1b3c45c9358896b985166b154d",
-    "components/common.tsx": "0d29ae151d36d8f328762be6c3b1b51bac2c13abcdb663a4e848a2cf20d6e9e4",
+    "components/common.tsx": "5446551829a46522899afb3b104f1dbe4be64cb0225ee07818a8fd6ce8e2b91e",
+    "data/open-data/oracc-epsd2-literary-selected.json": "41ad1c2cd2a3681e6c5b4ee8edbf5eec95c59c356f0b77e008e517bf75bcc5a3",
+    "data/open-data/oracc-qcat-selected.json": "dd25829ca49189a013d4b0740a7804bb15a1b2f3f8e258f7a055d3793b01cfab",
+    "data/research/anunnaki-evidence.json": "fc0c11a0039b754b17612f7859b6a4cd960bcd26af4ef95daa136893c5683900",
     "data/seed/archive-additions.json": "0ed42dd5c042b0c9d35d033cb8636a459564410a3ad9c44698c80b17c16c5b62",
     "data/seed/downloads.json": "2a0e1de0e70d4a50b63354ae631343b6f891b01e5169954334dcc42b327202cb",
     "data/seed/editions.json": "f384644c6a9524a7ba2a7e253736e6a5bc910260d60be90c0dbe56f7464f2323",
@@ -28,6 +32,10 @@
     "data/seed/egypt-editions.json": "9b86933b381f4d6a5f8fe2ae36d2bd53cbd1dfe762ef37ef15dcb9e07c34380e",
     "data/seed/egypt-passages.json": "3db5466a998c5b1018182d59d8c1435d16c08eddcfd870db7ea323b5f77b6bb3",
     "data/seed/images.json": "58589ec193b3f0f929074285551fe70d715f788cbcc2228c0d6b9773dbcadafe",
+    "data/seed/mesopotamia-additions.json": "ead3447019b803c141edc67c206f309889af8a25d9da2baa36e04c2fbc349a52",
+    "data/seed/mesopotamia-archive.json": "a5728c21b23b1fb98d44223082044870002a50364686eeaa161df4573fb9f2ee",
+    "data/seed/mesopotamia-editions.json": "13213dc771a6172cf374c3ea5dd7f58de40d117c57e5a03b137d9fd6084d4f1f",
+    "data/seed/mesopotamia-passages.json": "9083557c8a5ffa9baec7856d4fb2fd9f8f37c913dc00aa7f5f7d08aba0ad4aa6",
     "data/seed/passages.json": "09ae4800a1e309bee11163964239c69cfd1f12fdc7392d455fc975a5e2b7ee01",
     "data/seed/relationships.json": "ffbcb10ff9ec84d5a8b00f5a704b8f44f03045d129d046d4f203a846f8bc154b",
     "data/seed/taxonomy.json": "1e1846c4ce211048eb73d59dbe50105ebf3beb43fdea6877a079995943c99578",
@@ -39,45 +47,47 @@
     "docs/expansion-spec.md": "5cdcee3e534a69b59ef1cca1a9a8ce0ece84ebe71221f4af0d9ac3bd029b5aaf",
     "docs/phase-0-model-evaluation.md": "d473706709fd51842abaef0937598c31d5ec8489705f715526d57c1993c1eef4",
     "docs/product-spec.md": "88adb179de915df40d1cc3290df82a0b61961657bfa649261c43ff63f3ed5a0c",
-    "packages/ai/index.ts": "04fb5f63dac81bb4709c2a0c1a8c7a4e0f1c2d90778126b6a43020c88d4b28ac",
-    "packages/audit/coverage.ts": "c96946313520204ef71be61f486c9730863779bc5906c49b2b6e1568e7bf024b",
+    "packages/ai/index.ts": "dd91e768f8654efc09457cd1eb18ca0800eff5cc89d7066e8f2ae0a731fa81ea",
+    "packages/audit/coverage.ts": "f0bd4872c9852be2c8df94a0be4b2ef3f323af00b199e7c2fb098e7927538050",
     "packages/audit/requirements.ts": "5e5e13c070624fa3bcfd8f294551a7eeea865feb3a8b3c22506b95bf4e634dc5",
     "packages/db/archive.ts": "b78012c5a51b88abb8adc4c3a92454143e2144fd3e35ac6821197a7b2957829c",
-    "packages/db/client.ts": "c88cc2dcd4fa0732c5fd1edf8e550362863c765bbbdd90995a71e270dfdd3782",
+    "packages/db/client.ts": "e0dda87c461c8db7e2be4d5ffd9dcac2727480c92de031b8fffc08a7653317c0",
     "packages/db/research-queue.ts": "5b2bbe1643b80cd3a1dc9b4c859d8587596af877f3e3f161f22e1837dd94ba2c",
     "packages/db/schema.sql": "18d81b914e38040cbf4af648a7a646ed4f908aca4f66f7801e3074ec9c8af486",
     "packages/db/taxonomy.ts": "d5075774669292ad62b867772611c8acd0b865bcb32261db797e02274ee375ee",
     "packages/maps/leaflet.ts": "570e191119d0fce6004cef96f4bad3eea852b463c051c580099fd8ca5d0f8438",
     "packages/maps/provider.ts": "bd04b6dfc5878e27d3f4ec8b498a646e370116f2387be3da8708fb0641b945d5",
-    "packages/search/federated.ts": "91915d65d989ef170bc148c8fe8a7e67d693fa9b346fdee7e0808dd1830286f6",
-    "packages/search/hybrid.ts": "d5ee4d8adc96d9030f8056f10a493282c19158d6675c07224f047d060aa9af08",
-    "packages/search/index.ts": "d4c840b994fae7cd5d95e2a71c0a6e49c4cac362b9fb91dc3bbf47823287ddd9",
-    "packages/shared/archive.ts": "f402a5ecce381f846a93ef93a520f72a02bd9c7e25eaf88a18145dee3957f23c",
-    "packages/shared/catalog.ts": "19521381609b826212284dc44a3aaea7e2ba8a148ee048ceeb4c69e2b71ba031",
+    "packages/search/federated.ts": "4f0611e771cad86f76dbe066623093e0329533d5882b46ee6fd12085505df04f",
+    "packages/search/hybrid.ts": "700c2e32cf2377eae69480b5d9893212c752431322e6e7140cf3ce2ceb60da40",
+    "packages/search/index.ts": "896afdb29d5dd21c38c68fe929701cf5c6863a303ee79b890c1d599638764cd7",
+    "packages/shared/archive.ts": "3e6f00a3b864e7d11f00d50ccc84fab3406decbd6d6c7a6850eb95e83a916933",
+    "packages/shared/catalog.ts": "89ef99c25672bb4154c6c5f253f929820b5d7b00f2811cf571e64e1091765d11",
     "packages/shared/exploration-catalog.ts": "b3957beab70195290055592bb770b7c83c3489373d6fcb3e8d2fe51218d543e9",
     "packages/shared/exploration-query.ts": "55b70ba7e21bdf2144e961ce8a593cdaf044af6c3e344c106ffc503d0d194cff",
     "packages/shared/exploration.ts": "6e00f35fabf5f6d2faecccb34c87c21c96474be75674f961e0c40590e9ed9303",
+    "packages/shared/seed-files.ts": "2414512da031c828a11c22b9d8b772ba1ad40e3c7b09032c2e38cd96d5710110",
     "packages/shared/taxonomy.ts": "e5fb7935d6f6db0c4bb5af0167a3b376203bf6de2d0d160e4791796ed529e209",
     "packages/shared/types.ts": "1fa2e61eb5bc63bd10d105491318f3033ebda14434111779ccc0ae05c9c87e0d",
-    "scripts/audit-coverage.ts": "1d0d0a9086fe2fd63fda95eb426a3755390517c54cb576d9016568646141b570",
-    "scripts/classify.ts": "13f14a4c02a5b2597047a9d8af87fffea209545ca9628e5800a006200bc90a65",
-    "scripts/database.ts": "6365dd6b64a2cbc591835064170ac7043682e364fccda42006e5d4cfc56d3d31",
+    "scripts/audit-coverage.ts": "de279e18f9b0cbe0c95cb48566ae428dc3bd436004cbeb7d7e344d0d51c45ed2",
+    "scripts/classify.ts": "1eebbe9ee62d0d14f505ef0e8e446bb387249afc7e993fbf9006bf6385ec4a7c",
+    "scripts/database.ts": "324f186ef3692e992993475bdfad303e4a92aeeafd5b5c8de3bceee4498813c3",
     "scripts/download.py": "6ee8c6966fead04e0d83d158adcf7eb5e8270b68ed5843e6a2baa8449bf95ed5",
     "scripts/ingest-egypt.ts": "6f34fe3e648c5e6ac3d623ebec75ce34a017728cf4532d3e1d25720ab36bb6fb",
+    "scripts/ingest-mesopotamia.py": "e516f880212f7a842a8dd352f4bdd2f11e4baaa19284de252131fc9e12ab7afc",
     "scripts/refresh-manifest.py": "5c59d7b033cc1ac4a27ed7deb2f90678772f6ef880eb49a43fe157e03f3b3dfb"
   },
   "metrics": [
     {
       "id": "works",
       "label": "Catalog/work records",
-      "seeded": 311,
+      "seeded": 373,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "Distinct work IDs; legacy texts and derived works are the same works, not additive.",
-      "source": "data/seed/texts.json"
+      "source": "data/seed/texts.json + collection additions"
     },
     {
       "id": "traditions",
@@ -94,26 +104,26 @@
     {
       "id": "editions",
       "label": "Source editions",
-      "seeded": 63,
+      "seeded": 89,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "Distinct edition IDs.",
-      "source": "data/seed/editions.json"
+      "source": "data/seed/*-editions.json"
     },
     {
       "id": "searchableWorks",
       "label": "Searchable edition-backed works",
-      "seeded": 62,
+      "seeded": 88,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "Distinct works with nonempty passages and edition source, license and hash metadata; not certification of primary content or license law.",
-      "source": "data/seed/editions.json + data/seed/passages.json"
+      "source": "data/seed/*-editions.json + data/seed/*-passages.json"
     },
     {
       "id": "completeEditionWorks",
@@ -125,43 +135,43 @@
       "tested": null,
       "complete": false,
       "rule": "Distinct populated works with edition complete flag; historical study vs named work remains source-specific.",
-      "source": "data/seed/editions.json"
+      "source": "data/seed/*-editions.json"
     },
     {
       "id": "metadataOnly",
       "label": "Works without source editions",
-      "seeded": 249,
+      "seeded": 285,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "No edition association, regardless of decorative metadata.",
-      "source": "data/seed/texts.json + data/seed/editions.json"
+      "source": "data/seed/texts.json + collection additions + data/seed/*-editions.json"
     },
     {
       "id": "passages",
       "label": "Edition segments",
-      "seeded": 21339,
+      "seeded": 21816,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "Distinct segment IDs; not all segments are primary text.",
-      "source": "data/seed/passages.json"
+      "source": "data/seed/*-passages.json"
     },
     {
       "id": "primaryPassages",
       "label": "Explicitly classified primary segments",
-      "seeded": 10015,
+      "seeded": 10492,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
       "tested": null,
       "complete": false,
       "rule": "Only explicit contentType labels count; edition wording does not establish primary status.",
-      "source": "data/seed/passages.json"
+      "source": "data/seed/*-passages.json"
     },
     {
       "id": "editorialPassages",
@@ -173,7 +183,7 @@
       "tested": null,
       "complete": false,
       "rule": "Only explicit contentType labels count; edition wording does not establish primary status.",
-      "source": "data/seed/passages.json"
+      "source": "data/seed/*-passages.json"
     },
     {
       "id": "unclassifiedPassages",
@@ -185,12 +195,12 @@
       "tested": null,
       "complete": false,
       "rule": "Segments not explicitly labeled primary or editorial.",
-      "source": "data/seed/passages.json"
+      "source": "data/seed/*-passages.json"
     },
     {
       "id": "witnesses",
       "label": "Physical witnesses",
-      "seeded": 20,
+      "seeded": 30,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -262,7 +272,7 @@
     {
       "id": "undatedWorks",
       "label": "Works without start dates",
-      "seeded": 277,
+      "seeded": 339,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -274,7 +284,7 @@
     {
       "id": "coordinateWorks",
       "label": "Works with coordinates",
-      "seeded": 37,
+      "seeded": 36,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -286,7 +296,7 @@
     {
       "id": "unlocatedWorks",
       "label": "Works without coordinates",
-      "seeded": 274,
+      "seeded": 337,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -298,10 +308,10 @@
     {
       "id": "mappedWorks",
       "label": "Map-eligible works through 2026",
-      "seeded": 37,
+      "seeded": 36,
       "persisted": null,
       "reviewed": null,
-      "exposed": 37,
+      "exposed": 36,
       "tested": null,
       "complete": false,
       "rule": "Shared map predicate includes undated coordinate-bearing records by default, all traditions; unknown dates are not placed in time.",
@@ -322,7 +332,7 @@
     {
       "id": "languageMetadataWorks",
       "label": "Works with language metadata",
-      "seeded": 114,
+      "seeded": 166,
       "persisted": null,
       "reviewed": null,
       "exposed": null,
@@ -418,7 +428,7 @@
     {
       "id": "transliterationWorks",
       "label": "Works with transliteration",
-      "seeded": 0,
+      "seeded": 26,
       "persisted": null,
       "reviewed": null,
       "exposed": null,

@@ -97,6 +97,16 @@ export function measureCoverage(
   const artifactIds = uniqueIds(input.artifacts, "artifacts");
   uniqueIds(input.images, "images");
   uniqueIds(input.relationships, "relationships");
+  for (const collection of [
+    "originalTextWorks",
+    "transliterationWorks",
+    "bibliographyWorks",
+  ]) {
+    for (const row of input.additionalCollections?.[collection] ?? []) {
+      if (!workIds.has(row.id))
+        throw new Error(`Orphan ${collection} association ${row.id}`);
+    }
+  }
   const editionsById = new Map(input.editions.map((e) => [e.id, e]));
   const populated = new Set<string>();
   for (const e of input.editions) {
@@ -167,7 +177,7 @@ export function measureCoverage(
     "Catalog/work records",
     workIds.size,
     "Distinct work IDs; legacy texts and derived works are the same works, not additive.",
-    "data/seed/texts.json",
+    "data/seed/texts.json + collection additions",
   );
   add(
     "traditions",
@@ -181,35 +191,35 @@ export function measureCoverage(
     "Source editions",
     input.editions.length,
     "Distinct edition IDs.",
-    "data/seed/editions.json",
+    "data/seed/*-editions.json",
   );
   add(
     "searchableWorks",
     "Searchable edition-backed works",
     searchable.size,
     "Distinct works with nonempty passages and edition source, license and hash metadata; not certification of primary content or license law.",
-    "data/seed/editions.json + data/seed/passages.json",
+    "data/seed/*-editions.json + data/seed/*-passages.json",
   );
   add(
     "completeEditionWorks",
     "Complete named-work/edition coverage",
     complete.size,
     "Distinct populated works with edition complete flag; historical study vs named work remains source-specific.",
-    "data/seed/editions.json",
+    "data/seed/*-editions.json",
   );
   add(
     "metadataOnly",
     "Works without source editions",
     input.texts.filter((t) => !withEdition.has(t.id)).length,
     "No edition association, regardless of decorative metadata.",
-    "data/seed/texts.json + data/seed/editions.json",
+    "data/seed/texts.json + collection additions + data/seed/*-editions.json",
   );
   add(
     "passages",
     "Edition segments",
     input.passages.length,
     "Distinct segment IDs; not all segments are primary text.",
-    "data/seed/passages.json",
+    "data/seed/*-passages.json",
   );
   for (const [id, label, type] of [
     [
@@ -239,7 +249,7 @@ export function measureCoverage(
       label,
       count,
       "Only explicit contentType labels count; edition wording does not establish primary status.",
-      "data/seed/passages.json",
+      "data/seed/*-passages.json",
     );
   }
   const classified =
@@ -250,7 +260,7 @@ export function measureCoverage(
     "Unclassified/unknown segments",
     input.passages.length - classified,
     "Segments not explicitly labeled primary or editorial.",
-    "data/seed/passages.json",
+    "data/seed/*-passages.json",
   );
   add(
     "witnesses",

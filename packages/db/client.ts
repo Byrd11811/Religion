@@ -14,6 +14,7 @@ import { themes } from "@/packages/ontology";
 import { syncArchive } from "./archive";
 import { syncTaxonomy } from "./taxonomy";
 import type { Passage, Collection } from "@/packages/shared/types";
+import { passageSeedFiles } from "@/packages/shared/seed-files";
 export interface AtlasDatabase {
   exec(sql: string): Promise<void>;
   query<T = Record<string, unknown>>(
@@ -113,7 +114,7 @@ async function initialize(): Promise<AtlasDatabase> {
             JSON.stringify(e),
           ],
         );
-      const passages = ["passages.json", "egypt-passages.json"].flatMap(
+      const passages = passageSeedFiles.flatMap(
         (filename) =>
           JSON.parse(
             readFileSync(
@@ -128,8 +129,15 @@ async function initialize(): Promise<AtlasDatabase> {
           translator: editions.find((e) => e.id === p.editionId)!.translator,
         }));
         await tx.query(
-          `INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) SELECT v->>'id',v->>'textId',v->>'editionId',(v->>'sequence')::int,v->>'reference',v->>'content',v->>'translator','Public domain in the USA; retain edition license',true,v->>'sourceUrl',v->>'contentType',v FROM jsonb_array_elements($1::jsonb) AS v`,
-          [JSON.stringify(batch)],
+          `INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) SELECT v->>'id',v->>'textId',v->>'editionId',(v->>'sequence')::int,v->>'reference',v->>'content',v->>'translator',v->>'license',true,v->>'sourceUrl',v->>'contentType',v FROM jsonb_array_elements($1::jsonb) AS v`,
+          [
+            JSON.stringify(
+              batch.map((p) => ({
+                ...p,
+                license: editions.find((e) => e.id === p.editionId)!.license,
+              })),
+            ),
+          ],
         );
       }
       for (const t of themes)
@@ -192,17 +200,39 @@ async function initialize(): Promise<AtlasDatabase> {
       [JSON.stringify(batch)],
     );
   }
-  const classifiedPassages = ["passages.json", "egypt-passages.json"].flatMap(
+  for (const e of editions)
+    await db.query(
+      `INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,metadata)
+       VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9)
+       ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,title=EXCLUDED.title,translator=EXCLUDED.translator,language=EXCLUDED.language,license=EXCLUDED.license,source_url=EXCLUDED.source_url,sha256=EXCLUDED.sha256,metadata=EXCLUDED.metadata`,
+      [
+        e.id,
+        e.textId,
+        e.title,
+        e.translator,
+        e.language,
+        e.license,
+        e.sourceUrl,
+        e.sha256,
+        JSON.stringify(e),
+      ],
+    );
+  const classifiedPassages = passageSeedFiles.flatMap(
     (filename) =>
       JSON.parse(
         readFileSync(path.join(process.cwd(), "data/seed", filename), "utf8"),
       ) as Passage[],
   );
   for (let i = 0; i < classifiedPassages.length; i += 500) {
-    const batch = classifiedPassages.slice(i, i + 500);
+    const batch = classifiedPassages.slice(i, i + 500).map((p) => {
+      const edition = editions.find((e) => e.id === p.editionId)!;
+      return { ...p, translator: edition.translator, license: edition.license };
+    });
     await db.query(
-      `UPDATE passages AS p SET content_type=v->>'contentType',metadata=v
-       FROM jsonb_array_elements($1::jsonb) AS v WHERE p.id=v->>'id'`,
+      `INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata)
+       SELECT v->>'id',v->>'textId',v->>'editionId',(v->>'sequence')::int,v->>'reference',v->>'content',v->>'translator',v->>'license',true,v->>'sourceUrl',v->>'contentType',v
+       FROM jsonb_array_elements($1::jsonb) AS v
+       ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,edition_id=EXCLUDED.edition_id,sequence=EXCLUDED.sequence,reference=EXCLUDED.reference,translation=EXCLUDED.translation,translator=EXCLUDED.translator,copyright_status=EXCLUDED.copyright_status,public_domain=EXCLUDED.public_domain,source_url=EXCLUDED.source_url,content_type=EXCLUDED.content_type,metadata=EXCLUDED.metadata`,
       [JSON.stringify(batch)],
     );
   }

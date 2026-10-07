@@ -1,5 +1,6 @@
 import { texts, editions, artifacts } from "./catalog";
 import additions from "@/data/seed/archive-additions.json";
+import mesopotamiaArchive from "@/data/seed/mesopotamia-archive.json";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -153,12 +154,20 @@ export function workProfile(id: string): WorkProfile | undefined {
   if (!t) return;
   const available = editions.filter((e) => e.textId === id);
   const complete = available.find((e) => e.complete);
+  const transliterations = available.filter((e) =>
+    e.language.toLowerCase().includes("transliteration"),
+  );
+  const translations = available.filter(
+    (e) => !e.language.toLowerCase().includes("transliteration"),
+  );
   const coverage: CoverageStatus = complete
     ? complete.sourceSections
       ? "Complete named work"
       : "Complete available edition"
     : available.length
-      ? "Partial translation"
+      ? transliterations.length === available.length
+        ? "Transliteration only"
+        : "Partial translation"
       : "Metadata only";
   return {
     id,
@@ -185,8 +194,10 @@ export function workProfile(id: string): WorkProfile | undefined {
       : "Not assessed",
     evidence: "Unreviewed",
     scholarlyReview: "Awaiting scholarly review",
-    sourceQuality: available.length
-      ? "Attributed historical edition; apparatus not separately classified"
+    sourceQuality: transliterations.length
+      ? "Attributed ORACC scholarly composite transliteration; not a single-witness diplomatic edition"
+      : available.length
+        ? "Attributed historical edition; apparatus not separately classified"
       : "Catalog metadata; detailed review pending",
     copyright: t.copyright,
     sources: t.metadataSources,
@@ -196,10 +207,14 @@ export function workProfile(id: string): WorkProfile | undefined {
     sourceDepth: {
       Metadata: "Catalog record",
       "Primary text": coverage,
-      Translation: available.length
-        ? "English edition available"
-        : "Data unavailable",
-      "Original language": "No transcription bundled",
+      Translation: translations.length
+        ? `${translations.map((e) => e.language).join(", ")} edition available`
+        : transliterations.length
+          ? "No translation bundled"
+          : "Data unavailable",
+      "Original language": transliterations.length
+        ? `${transliterations.map((e) => e.language).join(", ")} available`
+        : "No transcription bundled",
       "Witness imagery": archiveImages.some((i) => i.workIds.includes(id))
         ? "Institution-linked images available"
         : "No verified association",
@@ -215,6 +230,7 @@ const kb =
   "https://www.kb.se/eng/the-codex-gigas/the-codex-gigas---devils-bible.html";
 export const witnesses: Witness[] = [
   ...(additions.witnesses as Witness[]),
+  ...(mesopotamiaArchive.witnesses as Witness[]),
   {
     id: "voynich-ms-408",
     title: "Voynich Manuscript",
@@ -289,7 +305,10 @@ export const museumArtifacts: MuseumArtifact[] = artifacts
     sourceUrl: a.sourceUrl,
     description: a.caption,
   }))
-  .concat(additions.artifacts as MuseumArtifact[]);
+  .concat(
+    additions.artifacts as MuseumArtifact[],
+    mesopotamiaArchive.artifacts as MuseumArtifact[],
+  );
 export const archiveImages: ArchiveImage[] = artifacts
   .map<ArchiveImage>((a) => ({
     id: a.id,
@@ -307,7 +326,10 @@ export const archiveImages: ArchiveImage[] = artifacts
     publicDomain: true,
     caption: a.caption,
   }))
-  .concat(additions.images as ArchiveImage[]);
+  .concat(
+    additions.images as ArchiveImage[],
+    mesopotamiaArchive.images as ArchiveImage[],
+  );
 export function mayTranslate(record: {
   decipherment: Decipherment;
   coverage?: CoverageStatus;

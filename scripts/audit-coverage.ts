@@ -18,6 +18,7 @@ import {
   archiveImages,
 } from "../packages/shared/archive";
 import type { Passage } from "../packages/shared/types";
+import { passageSeedFiles } from "../packages/shared/seed-files";
 import { absentDatasets, measureCoverage } from "../packages/audit/coverage";
 import {
   corpusTargets,
@@ -39,6 +40,10 @@ const knownSeeds = [
   "egypt-editions.json",
   "egypt-passages.json",
   "images.json",
+  "mesopotamia-additions.json",
+  "mesopotamia-archive.json",
+  "mesopotamia-editions.json",
+  "mesopotamia-passages.json",
   "passages.json",
   "relationships.json",
   "taxonomy.json",
@@ -56,6 +61,7 @@ const sourcePaths = [
   ...actualSeeds.map((f) => `data/seed/${f}`),
   "packages/shared/archive.ts",
   "packages/shared/catalog.ts",
+  "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/taxonomy.ts",
   "packages/db/taxonomy.ts",
@@ -71,11 +77,13 @@ const sourcePaths = [
   "scripts/classify.ts",
   "scripts/download.py",
   "scripts/ingest-egypt.ts",
+  "scripts/ingest-mesopotamia.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
   "components/FederatedSearch.tsx",
   "components/Atlas.tsx",
+  "components/Mesopotamia.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
   "packages/shared/exploration.ts",
@@ -93,6 +101,9 @@ const sourcePaths = [
   "packages/audit/coverage.ts",
   "packages/audit/requirements.ts",
   "scripts/audit-coverage.ts",
+  "data/open-data/oracc-epsd2-literary-selected.json",
+  "data/open-data/oracc-qcat-selected.json",
+  "data/research/anunnaki-evidence.json",
 ];
 const sources = Object.fromEntries(
   sourcePaths.sort().map((file) => [file, hash(read(file))]),
@@ -111,10 +122,9 @@ const input = {
   witnesses,
   artifacts: museumArtifacts,
   images: archiveImages,
-  passages: [
-    ...(parsedSeeds.get("passages.json") as Passage[]),
-    ...(parsedSeeds.get("egypt-passages.json") as Passage[]),
-  ],
+  passages: passageSeedFiles.flatMap(
+    (filename) => parsedSeeds.get(filename) as Passage[],
+  ),
   additionalCollections: Object.fromEntries(
     absentDatasets.map(([id]) => {
       const records: { id: string }[] = [];
