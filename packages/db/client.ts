@@ -190,6 +190,16 @@ async function initialize(): Promise<AtlasDatabase> {
       }
     });
   }
+  // Synchronize navigation groupings before work upserts. Existing local
+  // databases may predate a newly added tradition, so relying on the initial
+  // empty-database seed would make the texts foreign key reject the upgrade.
+  for (const t of traditions)
+    await db.query(
+      `INSERT INTO traditions(id,name,region,description,color_token,metadata)
+       VALUES($1,$2,$3,$4,$5,$6)
+       ON CONFLICT(id) DO UPDATE SET name=EXCLUDED.name,region=EXCLUDED.region,description=EXCLUDED.description,color_token=EXCLUDED.color_token,metadata=EXCLUDED.metadata`,
+      [t.id, t.name, t.region, t.description, t.color, JSON.stringify(t)],
+    );
   for (let i = 0; i < texts.length; i += 100) {
     const batch = texts.slice(i, i + 100);
     await db.query(
@@ -200,6 +210,21 @@ async function initialize(): Promise<AtlasDatabase> {
       [JSON.stringify(batch)],
     );
   }
+  for (const r of relationships)
+    await db.query(
+      `INSERT INTO relationships(id,source_text_id,target_text_id,relationship_type,evidence_level,confidence,citation,metadata)
+       VALUES($1,$2,$3,$4,$5,$5,$6,$7)
+       ON CONFLICT(id) DO UPDATE SET source_text_id=EXCLUDED.source_text_id,target_text_id=EXCLUDED.target_text_id,relationship_type=EXCLUDED.relationship_type,evidence_level=EXCLUDED.evidence_level,confidence=EXCLUDED.confidence,citation=EXCLUDED.citation,metadata=EXCLUDED.metadata`,
+      [
+        r.id,
+        r.source,
+        r.target,
+        r.type,
+        r.confidence,
+        r.sourceUrl,
+        JSON.stringify(r),
+      ],
+    );
   for (const e of editions)
     await db.query(
       `INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,metadata)

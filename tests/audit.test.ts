@@ -26,6 +26,7 @@ import type { Passage } from "../packages/shared/types";
 import { passageSeedFiles } from "../packages/shared/seed-files";
 import mesopotamiaAdditions from "../data/seed/mesopotamia-additions.json";
 import chinaAdditions from "../data/seed/china-additions.json";
+import hornAdditions from "../data/seed/horn-additions.json";
 
 const input: CoverageInput = {
   texts,
@@ -42,25 +43,31 @@ const input: CoverageInput = {
   additionalCollections: {
     transliterationWorks: mesopotamiaAdditions.transliterationWorks,
     originalTextWorks: chinaAdditions.originalTextWorks,
+    canonMemberships: hornAdditions.canonMemberships,
+    recensions: hornAdditions.recensions,
+    bibliographyWorks: hornAdditions.bibliographyWorks,
   },
 };
 const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 468);
+  assert.equal(get("works").seeded, 506);
   assert.equal(get("searchableWorks").seeded, 116);
   assert.equal(get("completeEditionWorks").seeded, 83);
   assert.equal(get("passages").seeded, 30680);
   assert.equal(get("primaryPassages").seeded, 18011);
   assert.equal(get("editorialPassages").seeded, 281);
   assert.equal(get("unclassifiedPassages").seeded, 12388);
-  assert.equal(get("witnesses").seeded, 34);
+  assert.equal(get("witnesses").seeded, 38);
   assert.equal(get("mappedWorks").seeded, 34);
   assert.equal(get("coordinateWorks").seeded, 34);
   assert.equal(get("languageMetadataWorks").seeded, 273);
   assert.equal(get("originalTextWorks").seeded, 30);
   assert.equal(get("transliterationWorks").seeded, 26);
+  assert.equal(get("recensions").seeded, 2);
+  assert.equal(get("canonMemberships").seeded, 5);
+  assert.equal(get("bibliographyWorks").seeded, 4);
   assert.ok(
     metrics.every(
       (m) => m.persisted === null && m.tested === null && !m.complete,
@@ -138,8 +145,9 @@ test("requirement inventory covers all audit sections and both safety suites wit
   const audit = read("docs/atlas-completion-gap-audit.md");
   const expansion = read("docs/expansion-spec.md");
   const roadmap = read("docs/atlas-completion-roadmap.md");
-  const matrix = requirementInventory(audit, expansion, roadmap);
-  assert.equal(matrix.requirements.length, 114);
+  const directive = read("docs/atlas-final-completion-directive.md");
+  const matrix = requirementInventory(audit, expansion, roadmap, directive);
+  assert.equal(matrix.requirements.length, 233);
   assert.equal(matrix.quality.length, 58);
   assert.ok(matrix.requirements.every((r) => r.owners.length && !r.complete));
   assert.ok(
@@ -151,6 +159,7 @@ test("requirement inventory covers all audit sections and both safety suites wit
         audit.replace("# 73.", "# 173."),
         expansion,
         roadmap,
+        directive,
       ),
     /inventory changed/,
   );
@@ -160,10 +169,15 @@ test("requirement inventory covers all audit sections and both safety suites wit
         audit,
         expansion,
         roadmap.replace("35. Long-term religious", "36. Long-term religious"),
+        directive,
       ),
     /Invalid rule/,
   );
   assert.deepEqual(sections(audit), sections(audit.replace(/\r?\n/g, "\r\n")));
+  assert.throws(
+    () => requirementInventory(audit, expansion, roadmap, directive.replace("# 119.", "# 120.")),
+    /directive inventory changed/i,
+  );
 });
 
 test("original title mapping retains repeated requirements without duplicating works and preserves expansion targets", () => {

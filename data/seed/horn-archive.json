@@ -1,0 +1,146 @@
+{
+  "witnesses": [
+    {
+      "id": "bl-or-818-kebra-nagast",
+      "title": "Kebra Nagast, British Library Or 818",
+      "workIds": [
+        "kebra-nagast"
+      ],
+      "recensionId": null,
+      "type": "Codex",
+      "inventoryNumber": "Or 818",
+      "repository": "British Library",
+      "discoveryLocation": null,
+      "currentLocation": "British Library",
+      "dateStart": 1700,
+      "dateEnd": 1750,
+      "dateNotes": "Catalogue date range for this physical manuscript, not the composition date of the Kebra Nagast.",
+      "material": null,
+      "languages": [
+        "Geʽez"
+      ],
+      "scripts": [
+        "Ethiopic"
+      ],
+      "condition": null,
+      "completeness": "191 folios; consult catalog for contents",
+      "provenance": "British Library archival catalogue record.",
+      "digitizationUrl": "https://searcharchives.bl.uk/?f%5Blanguage_ssim%5D%5B%5D=Geez&f%5Bmaterial_type_si%5D%5B%5D=Archives+and+Manuscripts&f%5Burl_stub_si%5D%5B%5D=iiif.bl.uk&page=3&per_page=100&search_field=all_fields&sort=hierarchy",
+      "iiifManifest": null,
+      "rights": "Institutional metadata only; reproduction rights require British Library review.",
+      "sources": [
+        "https://searcharchives.bl.uk/?f%5Blanguage_ssim%5D%5B%5D=Geez&f%5Bmaterial_type_si%5D%5B%5D=Archives+and+Manuscripts&f%5Burl_stub_si%5D%5B%5D=iiif.bl.uk&page=3&per_page=100&search_field=all_fields&sort=hierarchy"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "Geʽez manuscript explicitly cataloged as Kebra Nagast, kept separate from modern editions.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "hmml-sep-davies-00006",
+      "title": "Dabra Bizan manuscript, SEP DAVIES 00006",
+      "workIds": [],
+      "recensionId": null,
+      "type": "Microfilmed manuscript",
+      "inventoryNumber": "SEP DAVIES 00006",
+      "repository": "HMML / source monastery Dabra Bizan",
+      "discoveryLocation": null,
+      "currentLocation": "Source monastery in Eritrea; digital surrogate described by HMML",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No date asserted from the collection announcement.",
+      "material": null,
+      "languages": [
+        "Geʽez"
+      ],
+      "scripts": [
+        "Ethiopic"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "HMML Donald Davies Microfilm Collection.",
+      "digitizationUrl": "https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/",
+      "iiifManifest": null,
+      "rights": "HMML metadata link; surrogate access and reuse follow Reading Room terms.",
+      "sources": [
+        "https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "Eritrean manuscript witness independently identified by repository and project number; no work association inferred.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "hmml-sep-davies-00007",
+      "title": "Dabra Bizan manuscript, SEP DAVIES 00007",
+      "workIds": [],
+      "recensionId": null,
+      "type": "Microfilmed manuscript",
+      "inventoryNumber": "SEP DAVIES 00007",
+      "repository": "HMML / source monastery Dabra Bizan",
+      "discoveryLocation": null,
+      "currentLocation": "Source monastery in Eritrea; digital surrogate described by HMML",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No date asserted from the collection announcement.",
+      "material": null,
+      "languages": [
+        "Geʽez"
+      ],
+      "scripts": [
+        "Ethiopic"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "HMML Donald Davies Microfilm Collection.",
+      "digitizationUrl": "https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/",
+      "iiifManifest": null,
+      "rights": "HMML metadata link; surrogate access and reuse follow Reading Room terms.",
+      "sources": [
+        "https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/"
+      ],
+      "decipherment": "Not assessed",
+      "evidence": "Securely attested",
+      "description": "A second independently identified Eritrean Dabra Bizan witness; no work association inferred.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bm-ea71298-old-nubian-nt",
+      "title": "Old Nubian New Testament leaf, EA71298",
+      "workIds": [
+        "old-nubian-biblical-translations"
+      ],
+      "recensionId": null,
+      "type": "Parchment codex leaf",
+      "inventoryNumber": "EA71298",
+      "repository": "British Museum",
+      "discoveryLocation": "Qasr Ibrim, cathedral of St Mary the Virgin",
+      "currentLocation": "British Museum",
+      "dateStart": 800,
+      "dateEnd": 999,
+      "dateNotes": "Museum catalog dates the object to the ninth–tenth century.",
+      "material": "Parchment",
+      "languages": [
+        "Old Nubian"
+      ],
+      "scripts": [
+        "Old Nubian"
+      ],
+      "condition": "Incomplete page",
+      "completeness": "Single almost-complete parchment page",
+      "provenance": "Excavated at Qasr Ibrim and donated by the Egypt Exploration Society; consult museum record.",
+      "digitizationUrl": "https://www.britishmuseum.org/collection/object/Y_EA71298",
+      "iiifManifest": null,
+      "rights": "British Museum collection metadata; image reuse follows the museum record.",
+      "sources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA71298"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "Physical Old Nubian New Testament witness; a page is not represented as a complete biblical edition.",
+      "access": "Public metadata"
+    }
+  ],
+  "artifacts": [],
+  "images": []
+}

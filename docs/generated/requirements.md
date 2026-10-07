@@ -118,6 +118,125 @@ Generated from the authoritative audit and expansion quality rules. Source secti
 | AUDIT-111 | INTEROPERABLE, POLYHIERARCHICAL AND EVIDENCE-AWARE MODELS ARE INCOMPLETE | 0, 2, 3, 4, 15, 17, 18, 20, 26, 27 | incomplete |
 | AUDIT-112 | SACRED PLACE, HERITAGE, KNOWLEDGE LOSS AND CULTURAL GOVERNANCE NEED FIRST-CLASS SUPPORT | 0, 1, 2, 15, 19, 20, 22, 27, Final gate | incomplete |
 | AUDIT-113 | ADDITIONAL COVERAGE, DISCOVERY AND CONTESTED-CLAIM GATES | 0, 20, 22, 25, 27, Reserved Contested History | incomplete |
+| DIRECTIVE-001 | FIRST — READ THE AUTHORITATIVE REPOSITORY DOCUMENTATION COMPLETELY | Authoritative completion program | incomplete |
+| DIRECTIVE-002 | CURRENT IMPLEMENTED BASELINE — DO NOT LOSE THIS WORK | Authoritative completion program | incomplete |
+| DIRECTIVE-003 | NO MORE PHASE-ONLY COMPLETION REPORTS | Authoritative completion program | incomplete |
+| DIRECTIVE-004 | WHAT “100% COMPLETE” MEANS | Authoritative completion program | incomplete |
+| DIRECTIVE-005 | DATA DEPTH IS NOW AS IMPORTANT AS DATA BREADTH | Authoritative completion program | incomplete |
+| DIRECTIVE-006 | PASSAGE CLASSIFICATION MUST BE COMPLETED | Authoritative completion program | incomplete |
+| DIRECTIVE-007 | RELATIONSHIP GRAPH MUST BE SUBSTANTIALLY POPULATED | Authoritative completion program | incomplete |
+| DIRECTIVE-008 | IMPLEMENT PHASE 8 — ETHIOPIA, ERITREA & THE HORN | Authoritative completion program | incomplete |
+| DIRECTIVE-009 | COMPLETE THE GLOBAL RELIGIOUS COVERAGE | Authoritative completion program | incomplete |
+| DIRECTIVE-010 | PAGANISM MUST BE HANDLED CORRECTLY | Authoritative completion program | incomplete |
+| DIRECTIVE-011 | WICCA & MODERN PAGANISM | Authoritative completion program | incomplete |
+| DIRECTIVE-012 | GLOBAL INDIGENOUS COLLECTION | Authoritative completion program | incomplete |
+| DIRECTIVE-013 | RELIGION AS LIVED PRACTICE | Authoritative completion program | incomplete |
+| DIRECTIVE-014 | RITES OF PASSAGE | Authoritative completion program | incomplete |
+| DIRECTIVE-015 | SACRED CALENDARS AND RELIGIOUS TIME | Authoritative completion program | incomplete |
+| DIRECTIVE-016 | MYTHIC TIME VS HISTORICAL TIME | Authoritative completion program | incomplete |
+| DIRECTIVE-017 | PILGRIMAGE AND SACRED MOBILITY | Authoritative completion program | incomplete |
+| DIRECTIVE-018 | SACRED LANDSCAPE & ECOLOGY | Authoritative completion program | incomplete |
+| DIRECTIVE-019 | ANCESTORS, KINSHIP & HOUSEHOLD RELIGION | Authoritative completion program | incomplete |
+| DIRECTIVE-020 | SYNCRETISM, HYBRIDITY & MULTIPLE BELONGING | Authoritative completion program | incomplete |
+| DIRECTIVE-021 | IDENTITY, BELIEF, AFFILIATION & PRACTICE | Authoritative completion program | incomplete |
+| DIRECTIVE-022 | CONVERSION AND DECONVERSION | Authoritative completion program | incomplete |
+| DIRECTIVE-023 | RELIGIOUS EXPERIENCE | Authoritative completion program | incomplete |
+| DIRECTIVE-024 | MIRACLES & PROPHECY | Authoritative completion program | incomplete |
+| DIRECTIVE-025 | NECROMANCY, SPIRIT CONTACT & POSSESSION | Authoritative completion program | incomplete |
+| DIRECTIVE-026 | HEALING, MEDICINE & RELIGION | Authoritative completion program | incomplete |
+| DIRECTIVE-027 | ENTHEOGENS / RITUAL SUBSTANCES | Authoritative completion program | incomplete |
+| DIRECTIVE-028 | DIVINATION & ORACLES | Authoritative completion program | incomplete |
+| DIRECTIVE-029 | AMULETS, TALISMANS, CURSES & PROTECTIVE RELIGION | Authoritative completion program | incomplete |
+| DIRECTIVE-030 | SACRIFICE, OFFERING & EXCHANGE | Authoritative completion program | incomplete |
+| DIRECTIVE-031 | SAINTS, HOLY PERSONS & RELICS | Authoritative completion program | incomplete |
+| DIRECTIVE-032 | ASCETICISM & MONASTICISM | Authoritative completion program | incomplete |
+| DIRECTIVE-033 | RELIGIOUS OFFICES & AUTHORITY LINEAGES | Authoritative completion program | incomplete |
+| DIRECTIVE-034 | COMMENTARY & RECEPTION HISTORY | Authoritative completion program | incomplete |
+| DIRECTIVE-035 | TEXTUAL CRITICISM | Authoritative completion program | incomplete |
+| DIRECTIVE-036 | SOUND, MUSIC, DANCE & PERFORMANCE | Authoritative completion program | incomplete |
+| DIRECTIVE-037 | EMBODIED RELIGION | Authoritative completion program | incomplete |
+| DIRECTIVE-038 | RELIGIOUS LAW & SOCIAL ORDER | Authoritative completion program | incomplete |
+| DIRECTIVE-039 | RELIGION, ECONOMY & INSTITUTIONAL POWER | Authoritative completion program | incomplete |
+| DIRECTIVE-040 | CLASS, CASTE, SLAVERY & ETHNICITY | Authoritative completion program | incomplete |
+| DIRECTIVE-041 | GENDER, SEXUALITY & FAMILY | Authoritative completion program | incomplete |
+| DIRECTIVE-042 | RELIGION AS RESISTANCE & PEACE | Authoritative completion program | incomplete |
+| DIRECTIVE-043 | RELIGION, WAR, EMPIRE & POWER | Authoritative completion program | incomplete |
+| DIRECTIVE-044 | TEACHING VS HISTORICAL CONDUCT | Authoritative completion program | incomplete |
+| DIRECTIVE-045 | COERCION & CONVERSION | Authoritative completion program | incomplete |
+| DIRECTIVE-046 | HISTORICAL WORLD MAP — FULL IMPLEMENTATION | Authoritative completion program | incomplete |
+| DIRECTIVE-047 | PRE-CONFLICT / CONFLICT / POST-CONFLICT MAPS | Authoritative completion program | incomplete |
+| DIRECTIVE-048 | GEOGRAPHIC DELTA — “SHOW WHAT CHANGED” | Authoritative completion program | incomplete |
+| DIRECTIVE-049 | SIDE-BY-SIDE HISTORICAL MAP | Authoritative completion program | incomplete |
+| DIRECTIVE-050 | SACRED-SITE PALIMPSESTS | Authoritative completion program | incomplete |
+| DIRECTIVE-051 | “SHOW WHAT WAS HERE BEFORE?” | Authoritative completion program | incomplete |
+| DIRECTIVE-052 | KNOWLEDGE DESTRUCTION, LOSS & SURVIVAL | Authoritative completion program | incomplete |
+| DIRECTIVE-053 | CIVILIZATIONAL ERASURE & HISTORICAL REPLACEMENT | Authoritative completion program | incomplete |
+| DIRECTIVE-054 | COEXISTENCE & INTERFAITH HISTORY | Authoritative completion program | incomplete |
+| DIRECTIVE-055 | SECRET, INITIATORY & ESOTERIC ORGANIZATIONS | Authoritative completion program | incomplete |
+| DIRECTIVE-056 | DOCUMENTED VS ALLEGED MEMBERSHIP | Authoritative completion program | incomplete |
+| DIRECTIVE-057 | ART, ARCHITECTURE & SYMBOLISM | Authoritative completion program | incomplete |
+| DIRECTIVE-058 | CONTESTED HISTORY | Authoritative completion program | incomplete |
+| DIRECTIVE-059 | HISTORICAL TARTARY VS MODERN TARTARIA CLAIMS | Authoritative completion program | incomplete |
+| DIRECTIVE-060 | UNDECIPHERED, PARTIALLY DECIPHERED, UNKNOWN-LANGUAGE & DISPUTED-WRITING RESEARCH LAB | Authoritative completion program | incomplete |
+| DIRECTIVE-061 | MINIMUM UNRESOLVED CORPUS | Authoritative completion program | incomplete |
+| DIRECTIVE-062 | VOYNICH REGRESSION TEST | Authoritative completion program | incomplete |
+| DIRECTIVE-063 | GENERAL UNDECIPHERED TESTS | Authoritative completion program | incomplete |
+| DIRECTIVE-064 | DECIPHERMENT HYPOTHESES | Authoritative completion program | incomplete |
+| DIRECTIVE-065 | AI HALLUCINATION STRESS TESTS | Authoritative completion program | incomplete |
+| DIRECTIVE-066 | LOST, FRAGMENTARY & HYPOTHETICAL TEXTS | Authoritative completion program | incomplete |
+| DIRECTIVE-067 | MANUSCRIPT EXPANSION | Authoritative completion program | incomplete |
+| DIRECTIVE-068 | OCCULT, ESOTERIC & GRIMOIRE CORPUS | Authoritative completion program | incomplete |
+| DIRECTIVE-069 | RELIGIOUS LITERATURE & CULTURAL INFLUENCE | Authoritative completion program | incomplete |
+| DIRECTIVE-070 | MODERN RELIGIONS & MOVEMENTS | Authoritative completion program | incomplete |
+| DIRECTIVE-071 | FULL CONCEPT ONTOLOGY | Authoritative completion program | incomplete |
+| DIRECTIVE-072 | QUESTION EXPLORER | Authoritative completion program | incomplete |
+| DIRECTIVE-073 | OPPOSITION ENGINE | Authoritative completion program | incomplete |
+| DIRECTIVE-074 | COMPARE ENGINE | Authoritative completion program | incomplete |
+| DIRECTIVE-075 | STORY PARALLELS | Authoritative completion program | incomplete |
+| DIRECTIVE-076 | CANON EXPLORER | Authoritative completion program | incomplete |
+| DIRECTIVE-077 | TRANSLATION COMPARE | Authoritative completion program | incomplete |
+| DIRECTIVE-078 | ORIGINAL-LANGUAGE SUPPORT | Authoritative completion program | incomplete |
+| DIRECTIVE-079 | UNIFIED RESEARCH PAGE | Authoritative completion program | incomplete |
+| DIRECTIVE-080 | PEOPLE, DEITIES & INSTITUTIONS | Authoritative completion program | incomplete |
+| DIRECTIVE-081 | IMAGE PIPELINE | Authoritative completion program | incomplete |
+| DIRECTIVE-082 | OBJECT BIOGRAPHIES | Authoritative completion program | incomplete |
+| DIRECTIVE-083 | PROVENANCE & REPATRIATION | Authoritative completion program | incomplete |
+| DIRECTIVE-084 | HUMAN REMAINS & FUNERARY ETHICS | Authoritative completion program | incomplete |
+| DIRECTIVE-085 | INDIGENOUS DATA SOVEREIGNTY | Authoritative completion program | incomplete |
+| DIRECTIVE-086 | HISTORICAL PLACE IDENTITY | Authoritative completion program | incomplete |
+| DIRECTIVE-087 | SOURCE PERSPECTIVE | Authoritative completion program | incomplete |
+| DIRECTIVE-088 | SURVIVAL & ARCHIVAL BIAS | Authoritative completion program | incomplete |
+| DIRECTIVE-089 | ABSENCE OF EVIDENCE | Authoritative completion program | incomplete |
+| DIRECTIVE-090 | CORPUS-BIAS DASHBOARD | Authoritative completion program | incomplete |
+| DIRECTIVE-091 | AUTHORITY CONTROL | Authoritative completion program | incomplete |
+| DIRECTIVE-092 | EVENT-CENTRIC KNOWLEDGE MODEL | Authoritative completion program | incomplete |
+| DIRECTIVE-093 | SCIENTIFIC DATING & AUTHENTICATION | Authoritative completion program | incomplete |
+| DIRECTIVE-094 | HISTORIOGRAPHY | Authoritative completion program | incomplete |
+| DIRECTIVE-095 | SOURCE DERIVATION GRAPH | Authoritative completion program | incomplete |
+| DIRECTIVE-096 | RESEARCH REPRODUCIBILITY | Authoritative completion program | incomplete |
+| DIRECTIVE-097 | SCHOLARSHIP VERSIONING | Authoritative completion program | incomplete |
+| DIRECTIVE-098 | DIGITAL RELIGION | Authoritative completion program | incomplete |
+| DIRECTIVE-099 | SECULAR & NONRELIGIOUS WORLDVIEWS | Authoritative completion program | incomplete |
+| DIRECTIVE-100 | RELIGION / MAGIC / MEDICINE / SCIENCE | Authoritative completion program | incomplete |
+| DIRECTIVE-101 | CONTESTED TERMINOLOGY | Authoritative completion program | incomplete |
+| DIRECTIVE-102 | EMIC VS ETIC | Authoritative completion program | incomplete |
+| DIRECTIVE-103 | RELIGIOUS WORLD AT A DATE | Authoritative completion program | incomplete |
+| DIRECTIVE-104 | COMPLETION OF SEARCH | Authoritative completion program | incomplete |
+| DIRECTIVE-105 | RESEARCH WORKSPACE | Authoritative completion program | incomplete |
+| DIRECTIVE-106 | ADMIN / CURATION | Authoritative completion program | incomplete |
+| DIRECTIVE-107 | UNRESOLVED RESEARCH QUEUE | Authoritative completion program | incomplete |
+| DIRECTIVE-108 | ACCESSIBILITY | Authoritative completion program | incomplete |
+| DIRECTIVE-109 | PERFORMANCE | Authoritative completion program | incomplete |
+| DIRECTIVE-110 | SECURITY | Authoritative completion program | incomplete |
+| DIRECTIVE-111 | TESTING REQUIREMENTS | Authoritative completion program | incomplete |
+| DIRECTIVE-112 | SPECIFIC TRUTHFULNESS REGRESSION FIXTURES | Authoritative completion program | incomplete |
+| DIRECTIVE-113 | COMPLETION COVERAGE REPORT | Authoritative completion program | incomplete |
+| DIRECTIVE-114 | REMOVE CURRENT ZERO-DATA GAPS | Authoritative completion program | incomplete |
+| DIRECTIVE-115 | FINAL COMPLETION GATE — NO EXCEPTIONS | Authoritative completion program | incomplete |
+| DIRECTIVE-116 | FINAL ADVERSARIAL REVIEW | Authoritative completion program | incomplete |
+| DIRECTIVE-117 | FINAL CORPUS GAP REVIEW | Authoritative completion program | incomplete |
+| DIRECTIVE-118 | FINAL PRINCIPLE | Authoritative completion program | incomplete |
+| DIRECTIVE-119 | FINAL REPORT — ONLY AFTER COMPLETION | Authoritative completion program | incomplete |
 
 ## Quality and regression rules
 

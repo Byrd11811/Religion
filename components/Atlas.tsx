@@ -44,6 +44,7 @@ import { SourceDepth } from "./ArchiveEvidence";
 import { FederatedSearchPage } from "./FederatedSearch";
 import { AnunnakiResearch, MesopotamiaCollection } from "./Mesopotamia";
 import { ChinaCollection } from "./China";
+import { HornCollection } from "./Horn";
 import {
   Timeline,
   WorldMap,
@@ -80,6 +81,7 @@ const navigation = [
       ["library/egypt", "Ancient Egypt", ScrollText],
       ["library/mesopotamia", "Ancient Mesopotamia", ScrollText],
       ["library/china", "Chinese Traditions", ScrollText],
+      ["library/horn", "Ethiopia, Eritrea & the Horn", ScrollText],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -135,6 +137,8 @@ export default function Atlas({
           <MesopotamiaCollection />
         ) : id === "china" ? (
           <ChinaCollection />
+        ) : id === "horn" ? (
+          <HornCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (
@@ -548,6 +552,18 @@ function Home({ onSave }: { onSave: (f: Finding) => void }) {
           <p>Ask which communities accepted a text, and when.</p>
           <span>
             Canon / Non-Canon <ArrowUpRight size={16} />
+          </span>
+        </Link>
+        <Link href="/library/horn" className="discovery-card">
+          <Globe2 size={25} />
+          <h3>
+            Geʽez heritage.
+            <br />
+            Distinct communities.
+          </h3>
+          <p>Explore Ethiopia, Eritrea and the Horn through community-specific canon and manuscript evidence.</p>
+          <span>
+            Open the Horn collection <ArrowUpRight size={16} />
           </span>
         </Link>
       </section>

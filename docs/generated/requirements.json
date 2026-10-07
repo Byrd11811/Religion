@@ -2319,6 +2319,2029 @@
       "tested": "Not certified; existing workflow tests are not completion tests",
       "complete": false,
       "remaining": "Meet the source section's real-data/functionality criteria and attach test evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-001",
+      "title": "FIRST — READ THE AUTHORITATIVE REPOSITORY DOCUMENTATION COMPLETELY",
+      "source": "docs/atlas-final-completion-directive.md:45",
+      "acceptanceSha256": "9ab810129c5caba97cb9094dc75f835cb3480bbbd50f82206ce3157a014141d0",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-002",
+      "title": "CURRENT IMPLEMENTED BASELINE — DO NOT LOSE THIS WORK",
+      "source": "docs/atlas-final-completion-directive.md:94",
+      "acceptanceSha256": "e25a0e78920b8f75b4813b008f1e030d4ef029e7e669d0ed1f602f93e0349a30",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-003",
+      "title": "NO MORE PHASE-ONLY COMPLETION REPORTS",
+      "source": "docs/atlas-final-completion-directive.md:144",
+      "acceptanceSha256": "df348e165cc42b12d94b776f0c87f6bb76d7a9bc35f8c5b860d838748bf29c7a",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-004",
+      "title": "WHAT “100% COMPLETE” MEANS",
+      "source": "docs/atlas-final-completion-directive.md:177",
+      "acceptanceSha256": "6c25303764176b5568d188d856594938e5ed0e1c75641cac9aea446173d47e0a",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-005",
+      "title": "DATA DEPTH IS NOW AS IMPORTANT AS DATA BREADTH",
+      "source": "docs/atlas-final-completion-directive.md:252",
+      "acceptanceSha256": "0b199c5357efec78e1be23347f090aaae76a07e24dff543bad3850655c86cac1",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-006",
+      "title": "PASSAGE CLASSIFICATION MUST BE COMPLETED",
+      "source": "docs/atlas-final-completion-directive.md:293",
+      "acceptanceSha256": "6e49b3bdc302b719d3f7397d419aeffb83975cb8586a48c57b72dd36c0cdc91b",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-007",
+      "title": "RELATIONSHIP GRAPH MUST BE SUBSTANTIALLY POPULATED",
+      "source": "docs/atlas-final-completion-directive.md:328",
+      "acceptanceSha256": "7597bb594e36c42066dca794bb17adbe483bed008e5d3faeed621fd7aa178d98",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-008",
+      "title": "IMPLEMENT PHASE 8 — ETHIOPIA, ERITREA & THE HORN",
+      "source": "docs/atlas-final-completion-directive.md:384",
+      "acceptanceSha256": "26c43e12a86814d9dd4d441b239a16f87b584c3d144ddf6bb19bf5164107b830",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-009",
+      "title": "COMPLETE THE GLOBAL RELIGIOUS COVERAGE",
+      "source": "docs/atlas-final-completion-directive.md:427",
+      "acceptanceSha256": "c3d5f51e3196963156d9339de657b9bc5cbff041e17cb2065759d7a62aba10b0",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-010",
+      "title": "PAGANISM MUST BE HANDLED CORRECTLY",
+      "source": "docs/atlas-final-completion-directive.md:658",
+      "acceptanceSha256": "fef23aac8e18f194c347c1c0d4793ba27232a013e7f0508226bf7b63ae6efab6",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-011",
+      "title": "WICCA & MODERN PAGANISM",
+      "source": "docs/atlas-final-completion-directive.md:673",
+      "acceptanceSha256": "af214a696fb1925c2f8f91dd8c95ccc0b25b2a33f8aeef0cc1bb7f0be9246a8e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-012",
+      "title": "GLOBAL INDIGENOUS COLLECTION",
+      "source": "docs/atlas-final-completion-directive.md:718",
+      "acceptanceSha256": "6c4eefdea164a8a0ff75195aef762ff4020639f9062337817afeb8dfcfcae959",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-013",
+      "title": "RELIGION AS LIVED PRACTICE",
+      "source": "docs/atlas-final-completion-directive.md:745",
+      "acceptanceSha256": "58cc337edc9fc01dcb06a74cece2a0349e165b4046189954d4d43f704c8df8e1",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-014",
+      "title": "RITES OF PASSAGE",
+      "source": "docs/atlas-final-completion-directive.md:772",
+      "acceptanceSha256": "dbaf746d02156565bfff645f3fba42f7031b7a29d9a5c59a6a7df5e41fc43954",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-015",
+      "title": "SACRED CALENDARS AND RELIGIOUS TIME",
+      "source": "docs/atlas-final-completion-directive.md:796",
+      "acceptanceSha256": "ab403fc5f9ac5b1170fc04dbd83de9ccd8c7548b2cabbe417702d1172a24baf6",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-016",
+      "title": "MYTHIC TIME VS HISTORICAL TIME",
+      "source": "docs/atlas-final-completion-directive.md:817",
+      "acceptanceSha256": "272a69b1bf14c19a2d01c1d8b2a03d3e9c2395c39b1204e192f1185f9517d83e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-017",
+      "title": "PILGRIMAGE AND SACRED MOBILITY",
+      "source": "docs/atlas-final-completion-directive.md:832",
+      "acceptanceSha256": "52f0479f3da33a3f7d0476887693fc56561c3c40c4d7c14dcaef3d7d70b6ed5d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-018",
+      "title": "SACRED LANDSCAPE & ECOLOGY",
+      "source": "docs/atlas-final-completion-directive.md:848",
+      "acceptanceSha256": "e7719076efd1cf9bc9ca401a0f00db0a1a3a1caf6c8559f2172a3047a58ea602",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-019",
+      "title": "ANCESTORS, KINSHIP & HOUSEHOLD RELIGION",
+      "source": "docs/atlas-final-completion-directive.md:871",
+      "acceptanceSha256": "55e0b64987483a6b8f7b389e9df35767f956f536cf4bae2a307c6a5142fffd96",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-020",
+      "title": "SYNCRETISM, HYBRIDITY & MULTIPLE BELONGING",
+      "source": "docs/atlas-final-completion-directive.md:890",
+      "acceptanceSha256": "6d6cff0f9c98bcc96507d6a6c346f26bd273c0d68914a04c29508cfc8b9e0240",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-021",
+      "title": "IDENTITY, BELIEF, AFFILIATION & PRACTICE",
+      "source": "docs/atlas-final-completion-directive.md:907",
+      "acceptanceSha256": "f2ced3be3f7c1cbdb5d9d5751d252a73d3409b3b4b838d33a7bf115d793fcc47",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-022",
+      "title": "CONVERSION AND DECONVERSION",
+      "source": "docs/atlas-final-completion-directive.md:924",
+      "acceptanceSha256": "78719d35588bef8f2823a4af40607ef07b6598999f812cdfc01f114040f3d640",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-023",
+      "title": "RELIGIOUS EXPERIENCE",
+      "source": "docs/atlas-final-completion-directive.md:942",
+      "acceptanceSha256": "b7c655d915bb74fbaa14ea93dbc0ea99c62f822ae8d939bec6bd5e8c2114b97a",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-024",
+      "title": "MIRACLES & PROPHECY",
+      "source": "docs/atlas-final-completion-directive.md:964",
+      "acceptanceSha256": "c72bf90f509e52008102f9786144d3207bedf8db4ed8367040d9531936129603",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-025",
+      "title": "NECROMANCY, SPIRIT CONTACT & POSSESSION",
+      "source": "docs/atlas-final-completion-directive.md:992",
+      "acceptanceSha256": "0c8243d1de68c00757134edfee6973158b297b68ca164390099aa825f5b61271",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-026",
+      "title": "HEALING, MEDICINE & RELIGION",
+      "source": "docs/atlas-final-completion-directive.md:1016",
+      "acceptanceSha256": "02f2af87e5c613c8f0ffeac4a1262fe3d14da98294b03c68acd827ded9d07672",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-027",
+      "title": "ENTHEOGENS / RITUAL SUBSTANCES",
+      "source": "docs/atlas-final-completion-directive.md:1034",
+      "acceptanceSha256": "224c28079bc8de0cf8ddab17a8b4d573a9ccb2c4d4570bbf3f5f45a4cd582d76",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-028",
+      "title": "DIVINATION & ORACLES",
+      "source": "docs/atlas-final-completion-directive.md:1053",
+      "acceptanceSha256": "cae617cbfc544077e45aa73a21c3010e835329f9392ee7b0e656f9b68c0b98a4",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-029",
+      "title": "AMULETS, TALISMANS, CURSES & PROTECTIVE RELIGION",
+      "source": "docs/atlas-final-completion-directive.md:1073",
+      "acceptanceSha256": "c5b86bd009e7571eef5d845a0584fa4d65515a4430f1067128f0f00a9ad8385d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-030",
+      "title": "SACRIFICE, OFFERING & EXCHANGE",
+      "source": "docs/atlas-final-completion-directive.md:1091",
+      "acceptanceSha256": "edc007d12571253342aedd1a889af7a0c52b6ea370a6a6f5f29f81b8d9fe8e6c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-031",
+      "title": "SAINTS, HOLY PERSONS & RELICS",
+      "source": "docs/atlas-final-completion-directive.md:1124",
+      "acceptanceSha256": "5e0f65f8a4911234e9b4c12c2ad483c7bc7968fc89181f65d289c19d3e1a9b9c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-032",
+      "title": "ASCETICISM & MONASTICISM",
+      "source": "docs/atlas-final-completion-directive.md:1143",
+      "acceptanceSha256": "b42aea6a07acd29b0558bd72697315f726bac2e6ab7eed102f8062576b69e4c8",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-033",
+      "title": "RELIGIOUS OFFICES & AUTHORITY LINEAGES",
+      "source": "docs/atlas-final-completion-directive.md:1162",
+      "acceptanceSha256": "01e3d3815e261f7df7b48def80814c2fb83a2b8476f0c5c6c266d981e3aa04cb",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-034",
+      "title": "COMMENTARY & RECEPTION HISTORY",
+      "source": "docs/atlas-final-completion-directive.md:1197",
+      "acceptanceSha256": "5b856de6dad6ccfd591437ddc48fa9b323b390e62e0c9b6be636e6ebe8050ef8",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-035",
+      "title": "TEXTUAL CRITICISM",
+      "source": "docs/atlas-final-completion-directive.md:1222",
+      "acceptanceSha256": "f9e7a0b9948dc159f65a9f099cbd2943fafd228e24c9a92d654c5bcbad1ca368",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-036",
+      "title": "SOUND, MUSIC, DANCE & PERFORMANCE",
+      "source": "docs/atlas-final-completion-directive.md:1244",
+      "acceptanceSha256": "5a252f7dd791db006e8a7c0b892b032c50b1cc268d5a875831d45f22f571b77e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-037",
+      "title": "EMBODIED RELIGION",
+      "source": "docs/atlas-final-completion-directive.md:1265",
+      "acceptanceSha256": "0f50fab7e5b0146bf5f30e2542d0854a9f33e960360c9ba36ed36a3cf46c89fa",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-038",
+      "title": "RELIGIOUS LAW & SOCIAL ORDER",
+      "source": "docs/atlas-final-completion-directive.md:1286",
+      "acceptanceSha256": "07f18a14013984e56e9557b9e591ccf0d3e38e37ad9f558f2112960f0055b6f5",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-039",
+      "title": "RELIGION, ECONOMY & INSTITUTIONAL POWER",
+      "source": "docs/atlas-final-completion-directive.md:1306",
+      "acceptanceSha256": "e8e7d74348fa5d78914f83fc7f88f674357214653c2cd9073efc236d1a51dba1",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-040",
+      "title": "CLASS, CASTE, SLAVERY & ETHNICITY",
+      "source": "docs/atlas-final-completion-directive.md:1325",
+      "acceptanceSha256": "b18e705e67709dd7a27dda8fe9c6dc9a25f464f7b41409e370da1eced1d0dd84",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-041",
+      "title": "GENDER, SEXUALITY & FAMILY",
+      "source": "docs/atlas-final-completion-directive.md:1340",
+      "acceptanceSha256": "972ace3c31e38ee773a49335781bf4046ccbfe48eaae9357a6169828c11e762e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-042",
+      "title": "RELIGION AS RESISTANCE & PEACE",
+      "source": "docs/atlas-final-completion-directive.md:1359",
+      "acceptanceSha256": "3a4fbe13dc1fa9a20362fe978c6597f9b0e28ff560651384f2ff79b093886798",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-043",
+      "title": "RELIGION, WAR, EMPIRE & POWER",
+      "source": "docs/atlas-final-completion-directive.md:1375",
+      "acceptanceSha256": "e15949a572a970c0bb57dfc2f024c11e3ecfda2cb73143f3750f556f138e2b70",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-044",
+      "title": "TEACHING VS HISTORICAL CONDUCT",
+      "source": "docs/atlas-final-completion-directive.md:1398",
+      "acceptanceSha256": "df160100892458fda05c113e2e787fe896104556668370eb0b5902364fea1136",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-045",
+      "title": "COERCION & CONVERSION",
+      "source": "docs/atlas-final-completion-directive.md:1428",
+      "acceptanceSha256": "014ea49d1e7e37a99b1d175bb181168659120b3acbdf544aa381237fc206c7c5",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-046",
+      "title": "HISTORICAL WORLD MAP — FULL IMPLEMENTATION",
+      "source": "docs/atlas-final-completion-directive.md:1448",
+      "acceptanceSha256": "a04e5b9d4ab8e294c41472bfc27741a97979d237b1f4726986ec3bcde3db7d2d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-047",
+      "title": "PRE-CONFLICT / CONFLICT / POST-CONFLICT MAPS",
+      "source": "docs/atlas-final-completion-directive.md:1480",
+      "acceptanceSha256": "469e1a39d78f6d896a401a132f9d14ec90a9f33b2c20baff707a2281a47bf3bf",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-048",
+      "title": "GEOGRAPHIC DELTA — “SHOW WHAT CHANGED”",
+      "source": "docs/atlas-final-completion-directive.md:1496",
+      "acceptanceSha256": "0c37f6b5077f131baf4d146ff4d9800561c8f69482d230b67f45de91e66aa74e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-049",
+      "title": "SIDE-BY-SIDE HISTORICAL MAP",
+      "source": "docs/atlas-final-completion-directive.md:1518",
+      "acceptanceSha256": "fe2e4f68c20c95a9be4574399f065b123a23959c59e7b2a2e5b5b011fe74175c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-050",
+      "title": "SACRED-SITE PALIMPSESTS",
+      "source": "docs/atlas-final-completion-directive.md:1532",
+      "acceptanceSha256": "abd6086cd0f8453d6550495cab53ecd699bc4cacd5760364b4f28af2d02f5b45",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-051",
+      "title": "“SHOW WHAT WAS HERE BEFORE?”",
+      "source": "docs/atlas-final-completion-directive.md:1564",
+      "acceptanceSha256": "778ce56230a4247a9a909119706d30bec112fb12ba8c09c9b6f33af104e60219",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-052",
+      "title": "KNOWLEDGE DESTRUCTION, LOSS & SURVIVAL",
+      "source": "docs/atlas-final-completion-directive.md:1581",
+      "acceptanceSha256": "e37f67f92f4647c6a390731f125896dc744a63e8e1d6bbb1873ec670baf7cdf1",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-053",
+      "title": "CIVILIZATIONAL ERASURE & HISTORICAL REPLACEMENT",
+      "source": "docs/atlas-final-completion-directive.md:1630",
+      "acceptanceSha256": "90dc29d727a603f5c72629d51d96250c3e97725f7350fa394029631425e1bc92",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-054",
+      "title": "COEXISTENCE & INTERFAITH HISTORY",
+      "source": "docs/atlas-final-completion-directive.md:1662",
+      "acceptanceSha256": "8e7793932e31e521a6cbb98324dbf0cd2c35f4e68f654d8f59a98313c77ecd58",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-055",
+      "title": "SECRET, INITIATORY & ESOTERIC ORGANIZATIONS",
+      "source": "docs/atlas-final-completion-directive.md:1693",
+      "acceptanceSha256": "a590f3c57fb8481049338332b3dd7700fff4082c6791887cfa603c02d2a4a104",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-056",
+      "title": "DOCUMENTED VS ALLEGED MEMBERSHIP",
+      "source": "docs/atlas-final-completion-directive.md:1727",
+      "acceptanceSha256": "bf28cd394a3aacae317540bcaa4c4b4198b1de53f62f48f2629ebf26222a1058",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-057",
+      "title": "ART, ARCHITECTURE & SYMBOLISM",
+      "source": "docs/atlas-final-completion-directive.md:1744",
+      "acceptanceSha256": "5e95fca7047971bb6c97d7c6e0349b0ffe1375fc11c32136f8daae8c7f62fa13",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-058",
+      "title": "CONTESTED HISTORY",
+      "source": "docs/atlas-final-completion-directive.md:1772",
+      "acceptanceSha256": "1f8fa665bafbcdbb10f83489d6f0c79eabe428e3d8554b78f3e2c792f1d8fa96",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-059",
+      "title": "HISTORICAL TARTARY VS MODERN TARTARIA CLAIMS",
+      "source": "docs/atlas-final-completion-directive.md:1813",
+      "acceptanceSha256": "373347cac37c06eedb983b46964750500ef1ab0d034e9d0de226357e3936de0e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-060",
+      "title": "UNDECIPHERED, PARTIALLY DECIPHERED, UNKNOWN-LANGUAGE & DISPUTED-WRITING RESEARCH LAB",
+      "source": "docs/atlas-final-completion-directive.md:1854",
+      "acceptanceSha256": "16500eae83e0169c171c4a80d6704c4e934b372e13b4f7d98394144dd2645ed7",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-061",
+      "title": "MINIMUM UNRESOLVED CORPUS",
+      "source": "docs/atlas-final-completion-directive.md:1876",
+      "acceptanceSha256": "5688a810b915b9ff889db2a5053b785ccedbdb4893af9a25760e17eb545f2398",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-062",
+      "title": "VOYNICH REGRESSION TEST",
+      "source": "docs/atlas-final-completion-directive.md:1911",
+      "acceptanceSha256": "5db9c4341c558839a3751f00449fd867b67456217d5f58ccd0ed228298507d81",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-063",
+      "title": "GENERAL UNDECIPHERED TESTS",
+      "source": "docs/atlas-final-completion-directive.md:1945",
+      "acceptanceSha256": "8d33d9a4a43a639c631d6caf86ba5bc8d2c7e4424e2263cc5531c3402b1a1a77",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-064",
+      "title": "DECIPHERMENT HYPOTHESES",
+      "source": "docs/atlas-final-completion-directive.md:1973",
+      "acceptanceSha256": "56d621d082d1a368681bd50432e563f31eb73fb9d1a8771b11707306c93bf4e8",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-065",
+      "title": "AI HALLUCINATION STRESS TESTS",
+      "source": "docs/atlas-final-completion-directive.md:2009",
+      "acceptanceSha256": "3338b5dc1e750a4ec06dd67c20a19c4a86440c08ebd3ec02c5175b39d14bb821",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-066",
+      "title": "LOST, FRAGMENTARY & HYPOTHETICAL TEXTS",
+      "source": "docs/atlas-final-completion-directive.md:2037",
+      "acceptanceSha256": "6b56bf87e52194441f30e525729b01fc22528632269764efa47af9946cd8ee6b",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-067",
+      "title": "MANUSCRIPT EXPANSION",
+      "source": "docs/atlas-final-completion-directive.md:2069",
+      "acceptanceSha256": "4f7fa0986db9b10dca996f2459e32165182d3fa3f9594a2f524a55e9048d72b2",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-068",
+      "title": "OCCULT, ESOTERIC & GRIMOIRE CORPUS",
+      "source": "docs/atlas-final-completion-directive.md:2098",
+      "acceptanceSha256": "7afaee576b02ede2a807c7a74ea1843a0d5bde02361c65b87f7b7eb62ca7f2fa",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-069",
+      "title": "RELIGIOUS LITERATURE & CULTURAL INFLUENCE",
+      "source": "docs/atlas-final-completion-directive.md:2127",
+      "acceptanceSha256": "b0f489ee7c11b658ae979679a2639ddb99ddda7fdae909cdcd923a055429ed7d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-070",
+      "title": "MODERN RELIGIONS & MOVEMENTS",
+      "source": "docs/atlas-final-completion-directive.md:2148",
+      "acceptanceSha256": "54e80a1d0ec9c5452e07d2e502da747cd9ec8de7c2c725ecff709078e7df218c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-071",
+      "title": "FULL CONCEPT ONTOLOGY",
+      "source": "docs/atlas-final-completion-directive.md:2177",
+      "acceptanceSha256": "dc922cab94dced78142b0b162c69066b62aec67277ef6be3bc88831a30685a2b",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-072",
+      "title": "QUESTION EXPLORER",
+      "source": "docs/atlas-final-completion-directive.md:2241",
+      "acceptanceSha256": "817cbc3bf1682a2af351f0c4c64ae9959337ea5c8a8b908987f7be1abcf03cc3",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-073",
+      "title": "OPPOSITION ENGINE",
+      "source": "docs/atlas-final-completion-directive.md:2261",
+      "acceptanceSha256": "4d49e7bc528542e36138dbe7856d4c5f8e31fd7154220eb6aa31fe8f8c90044f",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-074",
+      "title": "COMPARE ENGINE",
+      "source": "docs/atlas-final-completion-directive.md:2280",
+      "acceptanceSha256": "19903cff1a97bede5b452e21bd5f3a27056ff91be9c4f157ff79ad1b7692f25b",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-075",
+      "title": "STORY PARALLELS",
+      "source": "docs/atlas-final-completion-directive.md:2301",
+      "acceptanceSha256": "1e4068b2c2d8a148b7fe4abe6b17b9ff820e18b63a11a8159acdbdd8cbbe4d1c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-076",
+      "title": "CANON EXPLORER",
+      "source": "docs/atlas-final-completion-directive.md:2334",
+      "acceptanceSha256": "b9eac8eeb9881a06821e5c818d88904311df66a7c90f5553e12898bf3f174a16",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-077",
+      "title": "TRANSLATION COMPARE",
+      "source": "docs/atlas-final-completion-directive.md:2355",
+      "acceptanceSha256": "b842f4f748899a4981e3e6b2eae4a1593999c095ae817cd5c52a230c0ff14c53",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-078",
+      "title": "ORIGINAL-LANGUAGE SUPPORT",
+      "source": "docs/atlas-final-completion-directive.md:2373",
+      "acceptanceSha256": "3c31b57c2ebca7e543f43c74d7a5963f59323e3ca9dbb6ffadfa4fffbb56e57d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-079",
+      "title": "UNIFIED RESEARCH PAGE",
+      "source": "docs/atlas-final-completion-directive.md:2392",
+      "acceptanceSha256": "222ea1afb1c42161d58d4559e36dc9886c62a1e54cc4d6ce2924ed70e91feb5f",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-080",
+      "title": "PEOPLE, DEITIES & INSTITUTIONS",
+      "source": "docs/atlas-final-completion-directive.md:2428",
+      "acceptanceSha256": "0227de57944d71f92cc8c5a2d103b52031b1dac157de0f76c256fde6d97aa298",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-081",
+      "title": "IMAGE PIPELINE",
+      "source": "docs/atlas-final-completion-directive.md:2458",
+      "acceptanceSha256": "6134483592a8992e8b407a83a1d09ad6bf754e1ec8360978884cdaba6c038ddd",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-082",
+      "title": "OBJECT BIOGRAPHIES",
+      "source": "docs/atlas-final-completion-directive.md:2487",
+      "acceptanceSha256": "4b990bb09a44ef168d7c8eac9259f3c503074b577f95082bea73ae2946839909",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-083",
+      "title": "PROVENANCE & REPATRIATION",
+      "source": "docs/atlas-final-completion-directive.md:2504",
+      "acceptanceSha256": "2b0cc8537f2732d3c1b54267f2146ed9fd3601775678f8ce35aa956e45ab9820",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-084",
+      "title": "HUMAN REMAINS & FUNERARY ETHICS",
+      "source": "docs/atlas-final-completion-directive.md:2521",
+      "acceptanceSha256": "a596abc43c4d9e742ff641d3d99238e4e9349042aaf2d436ac54fa9fe3359c81",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-085",
+      "title": "INDIGENOUS DATA SOVEREIGNTY",
+      "source": "docs/atlas-final-completion-directive.md:2534",
+      "acceptanceSha256": "0fe6fbfb4b918e786be97479d6d9d1a144717d8af05a7f2b93969ef644fd6d02",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-086",
+      "title": "HISTORICAL PLACE IDENTITY",
+      "source": "docs/atlas-final-completion-directive.md:2558",
+      "acceptanceSha256": "6d015002d6f36232a5ce7fdaba474bb40c067fd9b5612cb115a00d8031b45a59",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-087",
+      "title": "SOURCE PERSPECTIVE",
+      "source": "docs/atlas-final-completion-directive.md:2585",
+      "acceptanceSha256": "55495183bfb5d3d07cebb59fac8c0a9a130c878c2eb04828536acecad7a103a8",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-088",
+      "title": "SURVIVAL & ARCHIVAL BIAS",
+      "source": "docs/atlas-final-completion-directive.md:2607",
+      "acceptanceSha256": "d30a8d60a41d96b9f48c9693abc4233d4a33e2b77e91900feb360a04e8ecf331",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-089",
+      "title": "ABSENCE OF EVIDENCE",
+      "source": "docs/atlas-final-completion-directive.md:2626",
+      "acceptanceSha256": "e2c34730c4ffe6a68d0133b5c3f438c31b4f438a71c3a4006e78a15e541e616e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-090",
+      "title": "CORPUS-BIAS DASHBOARD",
+      "source": "docs/atlas-final-completion-directive.md:2640",
+      "acceptanceSha256": "90ceff8be4bb11afb17018151717099cfa49d8fe53e53fc78b722cd1f9f9c9c2",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-091",
+      "title": "AUTHORITY CONTROL",
+      "source": "docs/atlas-final-completion-directive.md:2666",
+      "acceptanceSha256": "e04d676b77313edbe9c31034c004ea8210fffeb5aefb46affda043571a0a57c9",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-092",
+      "title": "EVENT-CENTRIC KNOWLEDGE MODEL",
+      "source": "docs/atlas-final-completion-directive.md:2687",
+      "acceptanceSha256": "e8d3fb5abb167b5a1aebfb5334f29128289ece9f9a42a0f199cd58a3a6deabe0",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-093",
+      "title": "SCIENTIFIC DATING & AUTHENTICATION",
+      "source": "docs/atlas-final-completion-directive.md:2722",
+      "acceptanceSha256": "05811d66d4cc25c9d2f156e7444281316d95003e870a03a6ca8946f04373af16",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-094",
+      "title": "HISTORIOGRAPHY",
+      "source": "docs/atlas-final-completion-directive.md:2741",
+      "acceptanceSha256": "cfa9c69105e56073cf2b898be3211ccc328b73874df0325d6ee1f7e8e26624d3",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-095",
+      "title": "SOURCE DERIVATION GRAPH",
+      "source": "docs/atlas-final-completion-directive.md:2757",
+      "acceptanceSha256": "6a16186d944cecc2f999404d39e75c5a9c63a18e02aa8c228a77c49fafb39deb",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-096",
+      "title": "RESEARCH REPRODUCIBILITY",
+      "source": "docs/atlas-final-completion-directive.md:2773",
+      "acceptanceSha256": "e2b5d04b290993b86b90f7d8f38bb7a4c09e377d3a16f47982f17db8b8ee8526",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-097",
+      "title": "SCHOLARSHIP VERSIONING",
+      "source": "docs/atlas-final-completion-directive.md:2790",
+      "acceptanceSha256": "316a0bd4aae02b6513b0f2b4ab7bceb832efdcbb581465d479d690cdad798946",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-098",
+      "title": "DIGITAL RELIGION",
+      "source": "docs/atlas-final-completion-directive.md:2805",
+      "acceptanceSha256": "73310f42a842b0d84e29dd1c00e881c859c09f60f811a21cf2749d019811b82b",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-099",
+      "title": "SECULAR & NONRELIGIOUS WORLDVIEWS",
+      "source": "docs/atlas-final-completion-directive.md:2822",
+      "acceptanceSha256": "d5e044b07a001f843d4de67c9366f75e7c5103cd5e9d89bf8a18208e52ed8ab9",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-100",
+      "title": "RELIGION / MAGIC / MEDICINE / SCIENCE",
+      "source": "docs/atlas-final-completion-directive.md:2839",
+      "acceptanceSha256": "06185002d8b4168669c1545f6261c31589207e224057dd3167d951611f0ef6a8",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-101",
+      "title": "CONTESTED TERMINOLOGY",
+      "source": "docs/atlas-final-completion-directive.md:2859",
+      "acceptanceSha256": "f8ad665af7dbeee81fd6f6dfa79c4d8b88eb5323bdaa50bd2944e54ef0191548",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-102",
+      "title": "EMIC VS ETIC",
+      "source": "docs/atlas-final-completion-directive.md:2887",
+      "acceptanceSha256": "86de509a493453fb1794f06c133f60e266fe2d7cf421db4c0a12135f8ce90e8c",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-103",
+      "title": "RELIGIOUS WORLD AT A DATE",
+      "source": "docs/atlas-final-completion-directive.md:2905",
+      "acceptanceSha256": "3b6fd1a9c713e1f37c9713e880444efab1ca433d4e2975f9962fe69fcfcf2b11",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-104",
+      "title": "COMPLETION OF SEARCH",
+      "source": "docs/atlas-final-completion-directive.md:2932",
+      "acceptanceSha256": "a0e31b90f8c1ae6b5a06a02630c19fc286069946012d880f6541ea4f31c131a4",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-105",
+      "title": "RESEARCH WORKSPACE",
+      "source": "docs/atlas-final-completion-directive.md:2961",
+      "acceptanceSha256": "52cb206f2f29f3079d6fc3fe6f0d49579abcd522e55b0b24525eff95f587fcc9",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-106",
+      "title": "ADMIN / CURATION",
+      "source": "docs/atlas-final-completion-directive.md:2978",
+      "acceptanceSha256": "6167c54d64fbcd738af1968d7d479a47eb8f3bd3d8dfb7a5374209fecc539628",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-107",
+      "title": "UNRESOLVED RESEARCH QUEUE",
+      "source": "docs/atlas-final-completion-directive.md:2999",
+      "acceptanceSha256": "861f3a05eac80c6a3648f9041b3ee0dc24e3eb52306e7025a36e6571507612c2",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-108",
+      "title": "ACCESSIBILITY",
+      "source": "docs/atlas-final-completion-directive.md:3016",
+      "acceptanceSha256": "25ccb603280ba0b231117bf2ed74e2aab80e5d3eccfed2d01a7f5fc7afb5bc01",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-109",
+      "title": "PERFORMANCE",
+      "source": "docs/atlas-final-completion-directive.md:3035",
+      "acceptanceSha256": "9b25e696844b2a3ac93896521971f1db950c55b0af2d9a4d073a3f7c22ab5814",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-110",
+      "title": "SECURITY",
+      "source": "docs/atlas-final-completion-directive.md:3054",
+      "acceptanceSha256": "74a14a81943e71039882970abd0f38aa14fb15ca82591bbaa7dce321e3d8bc07",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-111",
+      "title": "TESTING REQUIREMENTS",
+      "source": "docs/atlas-final-completion-directive.md:3072",
+      "acceptanceSha256": "8651e4924b26af12e2b143c93658ab6a1a85dafa88be479dca098e74d94e03e9",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-112",
+      "title": "SPECIFIC TRUTHFULNESS REGRESSION FIXTURES",
+      "source": "docs/atlas-final-completion-directive.md:3094",
+      "acceptanceSha256": "8c4e8c00e3b51178c689eff2ffd62ddedaea846a61b1538eee427fcdd1f425c1",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-113",
+      "title": "COMPLETION COVERAGE REPORT",
+      "source": "docs/atlas-final-completion-directive.md:3148",
+      "acceptanceSha256": "81f15266f4953d32763de9d00a46d0b4a3fa5aeec82a516adbe4905ae4e085f6",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-114",
+      "title": "REMOVE CURRENT ZERO-DATA GAPS",
+      "source": "docs/atlas-final-completion-directive.md:3205",
+      "acceptanceSha256": "6a590237a9aaf27411a6d9ec699b00fe6ecdc973799af218967ae0d3c044fb9d",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-115",
+      "title": "FINAL COMPLETION GATE — NO EXCEPTIONS",
+      "source": "docs/atlas-final-completion-directive.md:3246",
+      "acceptanceSha256": "0d947feed693eb57e156a819f9d4491e29e3815b0aac7f8bf7c40b0c91676db2",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-116",
+      "title": "FINAL ADVERSARIAL REVIEW",
+      "source": "docs/atlas-final-completion-directive.md:3338",
+      "acceptanceSha256": "3c5715d349b5dc6019b8b377e13706edff96bfea02e22f87a2bba1becd66cb3e",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-117",
+      "title": "FINAL CORPUS GAP REVIEW",
+      "source": "docs/atlas-final-completion-directive.md:3376",
+      "acceptanceSha256": "b250ddad0ff868badfa26488ec7740ceff4f10a60b2272e8b2ce79255cf4134f",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-118",
+      "title": "FINAL PRINCIPLE",
+      "source": "docs/atlas-final-completion-directive.md:3405",
+      "acceptanceSha256": "6eb3e0cde835048e75d8f73fe6b40fdc5f201be1522d3c24da28fa92a0cd3ae2",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
+    },
+    {
+      "id": "DIRECTIVE-119",
+      "title": "FINAL REPORT — ONLY AFTER COMPLETION",
+      "source": "docs/atlas-final-completion-directive.md:3435",
+      "acceptanceSha256": "aea0313a3b1c8bb74d85507afdf7174acaf8fbec0d97be66bdb983fa77b4d62f",
+      "acceptance": "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      "owners": [
+        "Authoritative completion program"
+      ],
+      "status": "incomplete",
+      "seeded": "See coverage metrics; requirement-level depth not certified",
+      "persisted": "Unknown: deployment database not inspected",
+      "exposed": "Not certified by this instrumentation run",
+      "tested": "Not certified; passing baseline tests are not the final adversarial gate",
+      "complete": false,
+      "remaining": "Meet the section's acceptance conditions and attach reproducible evidence before closing."
     }
   ],
   "quality": [

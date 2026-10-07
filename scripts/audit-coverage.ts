@@ -43,6 +43,8 @@ const knownSeeds = [
   "egypt-additions.json",
   "egypt-editions.json",
   "egypt-passages.json",
+  "horn-additions.json",
+  "horn-archive.json",
   "images.json",
   "mesopotamia-additions.json",
   "mesopotamia-archive.json",
@@ -83,6 +85,7 @@ const sourcePaths = [
   "scripts/ingest-egypt.ts",
   "scripts/ingest-mesopotamia.py",
   "scripts/ingest-china.py",
+  "scripts/ingest-horn.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
@@ -90,6 +93,7 @@ const sourcePaths = [
   "components/Atlas.tsx",
   "components/Mesopotamia.tsx",
   "components/China.tsx",
+  "components/Horn.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
   "packages/shared/exploration.ts",
@@ -100,6 +104,7 @@ const sourcePaths = [
   "packages/maps/leaflet.ts",
   "docs/atlas-completion-gap-audit.md",
   "docs/atlas-completion-roadmap.md",
+  "docs/atlas-final-completion-directive.md",
   "docs/atlas-comprehensive-missing-dimensions-audit-expanded.md",
   "docs/product-spec.md",
   "docs/expansion-spec.md",
@@ -160,6 +165,7 @@ const inventory = requirementInventory(
   read("docs/atlas-completion-gap-audit.md"),
   read("docs/expansion-spec.md"),
   read("docs/atlas-completion-roadmap.md"),
+  read("docs/atlas-final-completion-directive.md"),
 );
 const targets = corpusTargets(
   read("docs/product-spec.md"),
@@ -245,6 +251,41 @@ const outputs = new Map([
     JSON.stringify(inventory, null, 2) + "\n",
   ],
   ["docs/generated/requirements.md", reqMd],
+  [
+    "docs/generated/completion-state.json",
+    JSON.stringify(
+      {
+        formatVersion: 1,
+        declarationAllowed: false,
+        currentFocus: "Phase 9 — Global Indigenous traditions",
+        continuation:
+          "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
+        phases: [
+          { id: "0", status: "implemented-not-finally-certified" },
+          { id: "1", status: "partially-implemented" },
+          { id: "2", status: "partially-implemented" },
+          { id: "3", status: "partially-implemented" },
+          { id: "4", status: "partially-implemented" },
+          { id: "5", status: "acceptance-implemented-not-finally-certified" },
+          { id: "6", status: "acceptance-implemented-not-finally-certified" },
+          { id: "7", status: "acceptance-implemented-not-finally-certified" },
+          { id: "8", status: "acceptance-implemented-not-finally-certified" },
+          { id: "9", status: "in-progress" },
+          ...Array.from({ length: 20 }, (_, index) => ({
+            id: String(index + 10),
+            status: "not-started",
+          })),
+        ],
+        requirementCounts: {
+          total: inventory.requirements.length,
+          certifiedComplete: inventory.requirements.filter((item) => item.complete).length,
+          incomplete: inventory.requirements.filter((item) => !item.complete).length,
+        },
+      },
+      null,
+      2,
+    ) + "\n",
+  ],
 ]);
 if (!args.has("--check")) mkdirSync("docs/generated", { recursive: true });
 for (const [file, content] of outputs) {

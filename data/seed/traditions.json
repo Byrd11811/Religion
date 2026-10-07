@@ -232,5 +232,14 @@
     "lng": null,
     "description": "A catalog grouping, not a single uniform belief system. Communities, practices and interpretations vary across place and time.",
     "color": "#a4773b"
+  },
+  {
+    "id": "ethiopia-eritrea-horn",
+    "name": "Ethiopia, Eritrea & the Horn",
+    "region": "Northeast Africa and the Horn",
+    "lat": null,
+    "lng": null,
+    "description": "A geographic discovery collection spanning distinct Ethiopian, Eritrean, Beta Israel, Islamic, Coptic and Old Nubian communities. Shared languages and transmission histories do not imply one tradition, church or canon.",
+    "color": "#8f6848"
   }
 ]

@@ -2,6 +2,7 @@ import { texts, editions, artifacts } from "./catalog";
 import additions from "@/data/seed/archive-additions.json";
 import mesopotamiaArchive from "@/data/seed/mesopotamia-archive.json";
 import chinaArchive from "@/data/seed/china-archive.json";
+import hornArchive from "@/data/seed/horn-archive.json";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -233,6 +234,7 @@ export const witnesses: Witness[] = [
   ...(additions.witnesses as Witness[]),
   ...(mesopotamiaArchive.witnesses as Witness[]),
   ...(chinaArchive.witnesses as Witness[]),
+  ...(hornArchive.witnesses as Witness[]),
   {
     id: "voynich-ms-408",
     title: "Voynich Manuscript",
@@ -311,6 +313,7 @@ export const museumArtifacts: MuseumArtifact[] = artifacts
     additions.artifacts as MuseumArtifact[],
     mesopotamiaArchive.artifacts as MuseumArtifact[],
     chinaArchive.artifacts as MuseumArtifact[],
+    hornArchive.artifacts as MuseumArtifact[],
   );
 export const archiveImages: ArchiveImage[] = artifacts
   .map<ArchiveImage>((a) => ({
@@ -333,6 +336,7 @@ export const archiveImages: ArchiveImage[] = artifacts
     additions.images as ArchiveImage[],
     mesopotamiaArchive.images as ArchiveImage[],
     chinaArchive.images as ArchiveImage[],
+    hornArchive.images as ArchiveImage[],
   );
 export function mayTranslate(record: {
   decipherment: Decipherment;

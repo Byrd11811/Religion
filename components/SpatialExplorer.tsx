@@ -429,6 +429,14 @@ export function WorldMap() {
         separate concepts; historical layers and before/after conflict states
         await sourced data.
       </p>
+      <aside className="notice" aria-label="Regional collections without inferred coordinates">
+        Regional research routes remain available when work-level coordinates
+        are unknown. Explore the{" "}
+        <Link href="/library/horn">Ethiopia, Eritrea &amp; the Horn collection</Link>{" "}
+        for Geʽez manuscript heritage, community-specific canon evidence,
+        Coptic corpora and Old Nubian witnesses. Atlas does not place those
+        records at a regional centroid.
+      </aside>
       {selected.length > 0 && (
         <section
           className="panel spatial-selection"

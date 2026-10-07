@@ -9,6 +9,7 @@ import mesopotamiaAdditions from "@/data/seed/mesopotamia-additions.json";
 import mesopotamiaEditions from "@/data/seed/mesopotamia-editions.json";
 import chinaAdditions from "@/data/seed/china-additions.json";
 import chinaEditions from "@/data/seed/china-editions.json";
+import hornAdditions from "@/data/seed/horn-additions.json";
 import type {
   TextRecord,
   Tradition,
@@ -29,6 +30,11 @@ const mesopotamiaOverrides = new Map(
 const chinaOverrides = new Map(
   (chinaAdditions.records as TextRecord[]).map((record) => [record.id, record]),
 );
+const hornOverrides = new Map(
+  (hornAdditions.overrides as (Partial<TextRecord> & { id: string })[]).map(
+    (record) => [record.id, record],
+  ),
+);
 for (const id of egyptOverrides.keys()) {
   if (mesopotamiaOverrides.has(id))
     throw new Error(`Catalog override collision for ${id}`);
@@ -39,12 +45,14 @@ export const texts = [
     ...(egyptOverrides.get(record.id) ?? {}),
     ...(mesopotamiaOverrides.get(record.id) ?? {}),
     ...(chinaOverrides.get(record.id) ?? {}),
+    ...(hornOverrides.get(record.id) ?? {}),
   })),
   ...(egyptAdditions.records as TextRecord[]),
   ...(mesopotamiaAdditions.records as TextRecord[]),
   ...(chinaAdditions.records as TextRecord[]).filter(
     (record) => !(textsData as TextRecord[]).some((item) => item.id === record.id),
   ),
+  ...(hornAdditions.records as TextRecord[]),
 ];
 export const traditions = traditionsData as Tradition[];
 export const editions = [

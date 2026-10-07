@@ -1,0 +1,133 @@
+{
+  "formatVersion": 1,
+  "declarationAllowed": false,
+  "currentFocus": "Phase 9 — Global Indigenous traditions",
+  "continuation": "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
+  "phases": [
+    {
+      "id": "0",
+      "status": "implemented-not-finally-certified"
+    },
+    {
+      "id": "1",
+      "status": "partially-implemented"
+    },
+    {
+      "id": "2",
+      "status": "partially-implemented"
+    },
+    {
+      "id": "3",
+      "status": "partially-implemented"
+    },
+    {
+      "id": "4",
+      "status": "partially-implemented"
+    },
+    {
+      "id": "5",
+      "status": "acceptance-implemented-not-finally-certified"
+    },
+    {
+      "id": "6",
+      "status": "acceptance-implemented-not-finally-certified"
+    },
+    {
+      "id": "7",
+      "status": "acceptance-implemented-not-finally-certified"
+    },
+    {
+      "id": "8",
+      "status": "acceptance-implemented-not-finally-certified"
+    },
+    {
+      "id": "9",
+      "status": "in-progress"
+    },
+    {
+      "id": "10",
+      "status": "not-started"
+    },
+    {
+      "id": "11",
+      "status": "not-started"
+    },
+    {
+      "id": "12",
+      "status": "not-started"
+    },
+    {
+      "id": "13",
+      "status": "not-started"
+    },
+    {
+      "id": "14",
+      "status": "not-started"
+    },
+    {
+      "id": "15",
+      "status": "not-started"
+    },
+    {
+      "id": "16",
+      "status": "not-started"
+    },
+    {
+      "id": "17",
+      "status": "not-started"
+    },
+    {
+      "id": "18",
+      "status": "not-started"
+    },
+    {
+      "id": "19",
+      "status": "not-started"
+    },
+    {
+      "id": "20",
+      "status": "not-started"
+    },
+    {
+      "id": "21",
+      "status": "not-started"
+    },
+    {
+      "id": "22",
+      "status": "not-started"
+    },
+    {
+      "id": "23",
+      "status": "not-started"
+    },
+    {
+      "id": "24",
+      "status": "not-started"
+    },
+    {
+      "id": "25",
+      "status": "not-started"
+    },
+    {
+      "id": "26",
+      "status": "not-started"
+    },
+    {
+      "id": "27",
+      "status": "not-started"
+    },
+    {
+      "id": "28",
+      "status": "not-started"
+    },
+    {
+      "id": "29",
+      "status": "not-started"
+    }
+  ],
+  "requirementCounts": {
+    "total": 233,
+    "certifiedComplete": 0,
+    "incomplete": 233
+  }
+}

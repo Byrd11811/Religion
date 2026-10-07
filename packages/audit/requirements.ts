@@ -253,6 +253,7 @@ export function requirementInventory(
   audit: string,
   expansion: string,
   roadmap: string,
+  directive: string,
 ) {
   const inventory = sections(audit);
   if (inventory.length !== 114 || inventory.some((s, i) => s.number !== i))
@@ -281,6 +282,33 @@ export function requirementInventory(
     remaining:
       "Meet the source section's real-data/functionality criteria and attach test evidence before closing.",
   }));
+  const directiveInventory = sections(directive);
+  if (
+    directiveInventory.length !== 119 ||
+    directiveInventory.some((s, i) => s.number !== i + 1)
+  )
+    throw new Error(
+      "Final directive inventory changed: reconcile completion instrumentation",
+    );
+  requirements.push(
+    ...directiveInventory.map((s) => ({
+      id: `DIRECTIVE-${String(s.number).padStart(3, "0")}`,
+      title: s.title,
+      source: `docs/atlas-final-completion-directive.md:${s.line}`,
+      acceptanceSha256: s.sha256,
+      acceptance:
+        "The complete directive section applies; implementation, data, evidence and tests must satisfy it before closure.",
+      owners: ["Authoritative completion program"],
+      status: "incomplete",
+      seeded: "See coverage metrics; requirement-level depth not certified",
+      persisted: "Unknown: deployment database not inspected",
+      exposed: "Not certified by this instrumentation run",
+      tested: "Not certified; passing baseline tests are not the final adversarial gate",
+      complete: false,
+      remaining:
+        "Meet the section's acceptance conditions and attach reproducible evidence before closing.",
+    })),
+  );
   const quality = [
     ...numberedRules(expansion, "# QUALITY TESTS", 23).map((r) => ({
       id: `EXP-${String(r.number).padStart(2, "0")}`,

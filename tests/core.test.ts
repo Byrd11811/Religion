@@ -298,6 +298,39 @@ test("China depth release separates schools, source transcriptions, translations
     ),
   );
 });
+test("Horn release keeps communities, canons, Meqabyan and witnesses distinct", () => {
+  const horn = JSON.parse(
+    readFileSync("data/seed/horn-additions.json", "utf8"),
+  ) as {
+    records: (typeof texts)[number][];
+    collectionWorkIds: string[];
+    communities: { id: string; relationship: string }[];
+    canonMemberships: { id: string; workId: string; community: string; sourceUrl: string }[];
+    recensions: { id: string; workId: string; sources: string[] }[];
+  };
+  assert.equal(horn.records.length, 38);
+  assert.equal(new Set(horn.collectionWorkIds).size, horn.collectionWorkIds.length);
+  assert.ok(horn.collectionWorkIds.every((id) => texts.some((text) => text.id === id)), "every collection ID resolves");
+  for (const id of ["ethiopic-1-meqabyan", "ethiopic-2-meqabyan", "ethiopic-3-meqabyan"]) {
+    const work = texts.find((text) => text.id === id)!;
+    assert.ok(work);
+    assert.match(work.description, /not identified with the Greek Maccabees/);
+    assert.equal(work.editionId, null);
+  }
+  const ethiopian = horn.communities.find((item) => item.id === "ethiopian-orthodox-tewahedo")!;
+  const eritrean = horn.communities.find((item) => item.id === "eritrean-orthodox-tewahedo")!;
+  assert.ok(ethiopian && eritrean);
+  assert.match(eritrean.relationship, /Independent church community/);
+  assert.equal(horn.canonMemberships.some((item) => item.community.includes("Eritrean")), false, "Ethiopian canon list is not copied to Eritrea");
+  assert.ok(horn.canonMemberships.every((item) => item.sourceUrl.startsWith("https://www.ethiopianorthodox.org/")));
+  assert.ok(horn.recensions.every((item) => item.sources.every((source) => source.startsWith("https://"))));
+  const physical = witnesses.filter((witness) =>
+    ["bl-or-818-kebra-nagast", "hmml-sep-davies-00006", "hmml-sep-davies-00007", "bm-ea71298-old-nubian-nt"].includes(witness.id),
+  );
+  assert.equal(physical.length, 4);
+  assert.deepEqual(physical.find((item) => item.id === "hmml-sep-davies-00006")?.workIds, []);
+  assert.deepEqual(physical.find((item) => item.id === "bl-or-818-kebra-nagast")?.workIds, ["kebra-nagast"]);
+});
 test("catalog has unique records and valid tradition/edition references", () => {
   assert.ok(texts.length >= 100);
   assert.equal(new Set(texts.map((t) => t.id)).size, texts.length);
@@ -772,6 +805,18 @@ test("archive migration is idempotent and preserves collection notes and old ide
     "SELECT count(*)::int AS total FROM works WHERE id=legacy_text_id",
   );
   assert.equal(count.rows[0].total, texts.length);
+  const navigation = await db.query<{ id: string }>(
+    "SELECT id FROM traditions",
+  );
+  const persistedTraditions = new Set(navigation.rows.map((row) => row.id));
+  assert.ok(
+    traditions.every((tradition) => persistedTraditions.has(tradition.id)),
+    "every navigation grouping is synchronized before work upserts",
+  );
+  const relationCount = await db.query<{ total: number }>(
+    "SELECT count(*)::int AS total FROM relationships",
+  );
+  assert.equal(relationCount.rows[0].total, relationships.length);
   await db.query("DELETE FROM user_collections WHERE id=$1", [id]);
 });
 test("editorial guides retain actual evidence and respect restricted scope", () => {
