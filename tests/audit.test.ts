@@ -55,7 +55,7 @@ const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 516);
+  assert.equal(get("works").seeded, 534);
   assert.equal(get("searchableWorks").seeded, 116);
   assert.equal(get("completeEditionWorks").seeded, 83);
   assert.equal(get("passages").seeded, 30680);

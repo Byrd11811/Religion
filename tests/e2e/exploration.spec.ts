@@ -5,8 +5,8 @@ test("map and timeline APIs share scoped counts and validate chronology filters"
 }) => {
   const map = await (await request.get("/api/map?view=coverage")).json();
   expect(map.coverage.mapped).toBe(34);
-  expect(map.coverage.unlocated).toBe(482);
-  expect(map.coverage.undated).toBe(484);
+  expect(map.coverage.unlocated).toBe(500);
+  expect(map.coverage.undated).toBe(502);
   const witnesses = await (
     await request.get("/api/timeline?view=coverage&layer=witness")
   ).json();
@@ -48,14 +48,14 @@ test("timeline exposes unknown records, uses full chronology and distinguishes w
 }) => {
   await page.goto("/timeline");
   await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "484 undated records available below",
+    "502 undated records available below",
   );
   await expect(page.locator(".timeline-axis")).toContainText("5000 BCE");
   await page
     .getByLabel("Timeline tradition")
     .selectOption({ label: "Ancient Egypt" });
   await expect(page.getByTestId("timeline-coverage")).not.toContainText(
-    "484 undated",
+    "502 undated",
   );
   await page.getByLabel("Timeline tradition").selectOption("");
   await page.getByLabel("Timeline layer").selectOption("witness");

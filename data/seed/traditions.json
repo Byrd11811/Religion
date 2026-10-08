@@ -259,5 +259,41 @@
     "lng": null,
     "description": "A discovery grouping for distinct Indigenous communities; national or regional proximity does not imply a shared religion, canon or permission regime.",
     "color": "#8b7155"
+  },
+  {
+    "id": "korea",
+    "name": "Korean religious traditions",
+    "region": "Korea",
+    "lat": null,
+    "lng": null,
+    "description": "A geographic discovery grouping for Korean Buddhist, Confucian, shamanic, new-religious and other distinct traditions; it is not a single religion.",
+    "color": "#6c7f9a"
+  },
+  {
+    "id": "south-southeast-asian-historical",
+    "name": "South and Southeast Asian historical traditions",
+    "region": "South and Southeast Asia",
+    "lat": null,
+    "lng": null,
+    "description": "A discovery grouping for distinct historical textual and institutional traditions; country or region does not imply one religion or canon.",
+    "color": "#8a7650"
+  },
+  {
+    "id": "central-inner-asia",
+    "name": "Central and Inner Asian traditions",
+    "region": "Central and Inner Asia",
+    "lat": null,
+    "lng": null,
+    "description": "A discovery grouping for distinct Turkic, Mongolic, Tibetan, Silk Road and neighboring traditions across changing historical settings.",
+    "color": "#6d805f"
+  },
+  {
+    "id": "caucasus-minority-traditions",
+    "name": "Caucasian and minority religious traditions",
+    "region": "Caucasus and West Asia",
+    "lat": null,
+    "lng": null,
+    "description": "A discovery grouping that keeps each named community, language, authority and access protocol distinct.",
+    "color": "#8c665f"
   }
 ]

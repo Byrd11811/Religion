@@ -34,6 +34,7 @@ import {
 import { detectConcepts } from "../packages/ontology";
 import { exportCsv, exportMarkdown } from "../packages/citation";
 import { culturalProtocols, protocolDecision } from "../packages/shared/protocols";
+import regionalCoverage from "../data/seed/regional-coverage.json";
 import type { Collection } from "../packages/shared/types";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
@@ -891,4 +892,18 @@ test("Indigenous protocols propagate through export and AI decisions", () => {
     assert.equal(work.lat, null);
     assert.equal(work.lng, null);
   }
+});
+test("Phase 9A regional batches are sourced, distinct, and do not invent corpus depth", () => {
+  assert.equal(regionalCoverage.batches.length, 8);
+  assert.equal(regionalCoverage.records.length, 18);
+  assert.equal(regionalCoverage.overrides.length, 24);
+  const allIds = new Set(texts.map((work) => work.id));
+  assert.ok(regionalCoverage.batches.every((batch) => batch.source.startsWith("https://") && batch.limit));
+  assert.ok(regionalCoverage.batches.every((batch) => batch.workIds.every((id) => allIds.has(id))));
+  assert.ok(regionalCoverage.records.every((work) => work.editionId === null));
+  assert.ok(regionalCoverage.records.every((work) => work.startDate === null && work.endDate === null));
+  assert.ok(regionalCoverage.records.every((work) => work.lat === null && work.lng === null));
+  assert.equal(new Set(regionalCoverage.records.map((work) => work.id)).size, regionalCoverage.records.length);
+  assert.ok(texts.find((work) => work.id === "avesta")?.sourceUrl?.includes("iranicaonline"));
+  assert.ok(texts.find((work) => work.id === "guru-granth-sahib")?.sourceUrl?.includes("sgpc.net"));
 });

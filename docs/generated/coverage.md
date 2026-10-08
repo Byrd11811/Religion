@@ -8,12 +8,12 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 
 | ID | Metric | Seeded | Persisted | Reviewed | Exposed | Tested | Complete |
 |---|---|---:|---|---|---|---|---|
-| works | Catalog/work records | 516 | Unknown | Unknown | Unknown | Unknown | No |
-| traditions | Broad tradition groupings | 29 | Unknown | Unknown | Unknown | Unknown | No |
+| works | Catalog/work records | 534 | Unknown | Unknown | Unknown | Unknown | No |
+| traditions | Broad tradition groupings | 33 | Unknown | Unknown | Unknown | Unknown | No |
 | editions | Source editions | 119 | Unknown | Unknown | Unknown | Unknown | No |
 | searchableWorks | Searchable edition-backed works | 116 | Unknown | Unknown | Unknown | Unknown | No |
 | completeEditionWorks | Complete named-work/edition coverage | 83 | Unknown | Unknown | Unknown | Unknown | No |
-| metadataOnly | Works without source editions | 400 | Unknown | Unknown | Unknown | Unknown | No |
+| metadataOnly | Works without source editions | 418 | Unknown | Unknown | Unknown | Unknown | No |
 | passages | Edition segments | 30680 | Unknown | Unknown | Unknown | Unknown | No |
 | primaryPassages | Explicitly classified primary segments | 18011 | Unknown | Unknown | Unknown | Unknown | No |
 | editorialPassages | Explicitly classified editorial segments | 281 | Unknown | Unknown | Unknown | Unknown | No |
@@ -24,9 +24,9 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | rightsAttributedImages | Images with source/rights/attribution | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | relationships | Curated relationship records | 5 | Unknown | Unknown | Unknown | Unknown | No |
 | datedWorks | Works with start dates | 32 | Unknown | Unknown | Unknown | Unknown | No |
-| undatedWorks | Works without start dates | 484 | Unknown | Unknown | Unknown | Unknown | No |
+| undatedWorks | Works without start dates | 502 | Unknown | Unknown | Unknown | Unknown | No |
 | coordinateWorks | Works with coordinates | 34 | Unknown | Unknown | Unknown | Unknown | No |
-| unlocatedWorks | Works without coordinates | 482 | Unknown | Unknown | Unknown | Unknown | No |
+| unlocatedWorks | Works without coordinates | 500 | Unknown | Unknown | Unknown | Unknown | No |
 | mappedWorks | Map-eligible works through 2026 | 34 | Unknown | Unknown | 34 | Unknown | No |
 | timelineWorks | Timeline-eligible works through 2026 | 32 | Unknown | Unknown | Unknown | Unknown | No |
 | languageMetadataWorks | Works with language metadata | 273 | Unknown | Unknown | Unknown | Unknown | No |

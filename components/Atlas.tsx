@@ -46,6 +46,7 @@ import { AnunnakiResearch, MesopotamiaCollection } from "./Mesopotamia";
 import { ChinaCollection } from "./China";
 import { HornCollection } from "./Horn";
 import { IndigenousCollection } from "./Indigenous";
+import { GlobalCoverageCollection } from "./GlobalCoverage";
 import {
   Timeline,
   WorldMap,
@@ -84,6 +85,7 @@ const navigation = [
       ["library/china", "Chinese Traditions", ScrollText],
       ["library/horn", "Ethiopia, Eritrea & the Horn", ScrollText],
       ["library/indigenous", "Global Indigenous traditions", Globe2],
+      ["library/global", "Global Religious Coverage", Globe2],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -143,6 +145,8 @@ export default function Atlas({
           <HornCollection />
         ) : id === "indigenous" ? (
           <IndigenousCollection />
+        ) : id === "global" ? (
+          <GlobalCoverageCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (

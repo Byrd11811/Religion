@@ -1,0 +1,948 @@
+{
+  "records": [
+    {
+      "id": "manichaean-kephalaia",
+      "title": "Manichaean Kephalaia",
+      "traditionId": "zoroastrian-iranian",
+      "tradition": "Zoroastrian / Iranian",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Iranian and eastern Mediterranean worlds",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A corpus-level record for Manichaean teaching collections; it does not collapse Manichaeism into Zoroastrianism and bundles no copyrighted edition.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.iranicaonline.org/articles/kephalaia",
+      "metadataSources": [
+        "https://www.iranicaonline.org/articles/kephalaia"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Iranian and Manichaean worlds"
+    },
+    {
+      "id": "jain-agama-collections",
+      "title": "Jain Āgama Collections",
+      "traditionId": "jainism",
+      "tradition": "Jainism",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "South Asia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A discovery record for Śvetāmbara Jain canonical collections. Sectarian classification and individual works remain explicit research tasks.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "metadataSources": [
+        "https://www.jainpedia.org/themes/principles/sacred-writings/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Jainism"
+    },
+    {
+      "id": "digambara-siddhanta-corpora",
+      "title": "Digambara Siddhānta Corpora",
+      "traditionId": "jainism",
+      "tradition": "Jainism",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "South Asia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A discovery record for Digambara scriptural and doctrinal corpora, kept distinct from Śvetāmbara Āgama classifications.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "metadataSources": [
+        "https://www.jainpedia.org/themes/principles/sacred-writings/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Jainism"
+    },
+    {
+      "id": "sikh-rehat-maryada",
+      "title": "Sikh Rehat Maryada",
+      "traditionId": "sikhism",
+      "tradition": "Sikhism",
+      "category": "Religious conduct code",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Punjab and global Sikh communities",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A conduct-code record sourced to the Shiromani Gurdwara Parbandhak Committee; it is distinct from scripture and from lived practice in every Sikh community.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://sgpc.net/sikh-rehat-maryada-in-english/",
+      "metadataSources": [
+        "https://sgpc.net/sikh-rehat-maryada-in-english/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Sikhism"
+    },
+    {
+      "id": "tibetan-kangyur",
+      "title": "Tibetan Kangyur",
+      "traditionId": "buddhism",
+      "tradition": "Buddhism",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Tibet and Himalayan regions",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A corpus record for translated words attributed to the Buddha in Tibetan canonical organization; editions and recensions must remain distinct.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.84000.co/knowledgebase/kangyur-tengyur/",
+      "metadataSources": [
+        "https://www.84000.co/knowledgebase/kangyur-tengyur/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Non-Chinese Buddhist traditions"
+    },
+    {
+      "id": "gandharan-buddhist-manuscript-corpus",
+      "title": "Gandhāran Buddhist Manuscript Corpus",
+      "traditionId": "buddhism",
+      "tradition": "Buddhism",
+      "category": "Manuscript corpus",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Gandhara",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A manuscript-corpus discovery record. Fragmentary witnesses are not represented as a single complete scripture.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.loc.gov/item/2021668247/",
+      "metadataSources": [
+        "https://www.loc.gov/item/2021668247/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Non-Chinese Buddhist traditions"
+    },
+    {
+      "id": "tripitaka-koreana",
+      "title": "Tripitaka Koreana",
+      "traditionId": "korea",
+      "tradition": "Korean religious traditions",
+      "category": "Buddhist canon and physical printing archive",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Korea",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A record for the Korean Buddhist woodblock canon preserved at Haeinsa. The woodblocks, textual canon, impressions, and modern digitizations remain distinct.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://whc.unesco.org/en/list/737/",
+      "metadataSources": [
+        "https://whc.unesco.org/en/list/737/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Japan and Korea"
+    },
+    {
+      "id": "samguk-yusa-religious-narratives",
+      "title": "Samguk Yusa Religious Narratives",
+      "traditionId": "korea",
+      "tradition": "Korean religious traditions",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Korea",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A research record for religious narratives in the Samguk Yusa; it is not treated as a universal Korean scripture.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.nl.go.kr/EN/contents/EN30101000000.do",
+      "metadataSources": [
+        "https://www.nl.go.kr/EN/contents/EN30101000000.do"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Japan and Korea"
+    },
+    {
+      "id": "korean-shamanic-oral-traditions",
+      "title": "Korean Shamanic Oral Traditions",
+      "traditionId": "korea",
+      "tradition": "Korean religious traditions",
+      "category": "Oral and ritual tradition",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Korea",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A protocol-sensitive discovery record for distinct regional ritual and oral traditions documented by Korea’s National Folk Museum.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://folkency.nfm.go.kr/en/main",
+      "metadataSources": [
+        "https://folkency.nfm.go.kr/en/main"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Japan and Korea"
+    },
+    {
+      "id": "thai-pali-canon-traditions",
+      "title": "Thai Pali Canon Traditions",
+      "traditionId": "south-southeast-asian-historical",
+      "tradition": "South and Southeast Asian historical traditions",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Thailand",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A research record for Thai Pali textual transmission and editions; national transmission history is not equated with all Theravāda communities.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.dhammasociety.org/",
+      "metadataSources": [
+        "https://www.dhammasociety.org/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "South and Southeast Asia"
+    },
+    {
+      "id": "khmer-buddhist-manuscript-traditions",
+      "title": "Khmer Buddhist Manuscript Traditions",
+      "traditionId": "south-southeast-asian-historical",
+      "tradition": "South and Southeast Asian historical traditions",
+      "category": "Manuscript and ritual tradition",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Cambodia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A research record for Khmer Buddhist manuscript culture. Manuscript, ritual, vernacular, and Pali layers require item-level review.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.efeo.fr/base.php?code=643",
+      "metadataSources": [
+        "https://www.efeo.fr/base.php?code=643"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "South and Southeast Asia"
+    },
+    {
+      "id": "truc-lam-thien-tradition",
+      "title": "Trúc Lâm Thiền Tradition",
+      "traditionId": "south-southeast-asian-historical",
+      "tradition": "South and Southeast Asian historical traditions",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Vietnam",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A discovery record for the Vietnamese Trúc Lâm Thiền lineage; no claim of a single fixed canon or unchanged continuity is made.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://vietnamica.hypotheses.org/",
+      "metadataSources": [
+        "https://vietnamica.hypotheses.org/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "South and Southeast Asia"
+    },
+    {
+      "id": "orkhon-inscriptions-and-tengri-religious-context",
+      "title": "Orkhon Inscriptions and Tengri Religious Context",
+      "traditionId": "central-inner-asia",
+      "tradition": "Central and Inner Asian traditions",
+      "category": "Historical inscriptional evidence",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Mongolia",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A historical inscriptional record used to study early Turkic political and religious language. It is not presented as a complete Tengrism scripture.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://whc.unesco.org/en/list/1081/",
+      "metadataSources": [
+        "https://whc.unesco.org/en/list/1081/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Central and Inner Asia"
+    },
+    {
+      "id": "bon-kangyur",
+      "title": "Bön Kangyur",
+      "traditionId": "central-inner-asia",
+      "tradition": "Central and Inner Asian traditions",
+      "category": "Regional religious corpus or research record",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Tibet and Himalayan regions",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A corpus-level Bön record. Canonical organization, recensions, and physical witnesses require specialist and community review.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.loc.gov/item/2021668138/",
+      "metadataSources": [
+        "https://www.loc.gov/item/2021668138/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Central and Inner Asia"
+    },
+    {
+      "id": "yazidi-qewl-oral-hymns",
+      "title": "Yazidi Qewl Oral Hymns",
+      "traditionId": "caucasus-minority-traditions",
+      "tradition": "Caucasian and minority religious traditions",
+      "category": "Oral sacred corpus",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Iraq and diaspora communities",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A protocol-sensitive discovery record for Yazidi sacred oral hymns and archival documentation; no performance text is reproduced.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.yazda.org/yazidi-culture",
+      "metadataSources": [
+        "https://www.yazda.org/yazidi-culture"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Minority traditions"
+    },
+    {
+      "id": "armenian-liturgical-manuscript-traditions",
+      "title": "Armenian Liturgical Manuscript Traditions",
+      "traditionId": "caucasus-minority-traditions",
+      "tradition": "Caucasian and minority religious traditions",
+      "category": "Liturgical manuscript tradition",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Armenia and diaspora communities",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A manuscript-culture record for Armenian liturgical transmission. Individual rites, books, witnesses, and communities remain distinct.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://matenadaran.am/en/matenadaran/manuscript-collection/",
+      "metadataSources": [
+        "https://matenadaran.am/en/matenadaran/manuscript-collection/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Caucasus"
+    },
+    {
+      "id": "derveni-papyrus",
+      "title": "Derveni Papyrus",
+      "traditionId": "greek-hellenic",
+      "tradition": "Greek / Hellenic",
+      "category": "Physical witness and commentary",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Greece",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A physical-philosophical witness containing an allegorical interpretation of an Orphic poem; the papyrus and reconstructed source poem remain distinct.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://www.unesco.org/en/memory-world/derveni-papyrus-european-literatures-oldest-book",
+      "metadataSources": [
+        "https://www.unesco.org/en/memory-world/derveni-papyrus-european-literatures-oldest-book"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Greek and Roman"
+    },
+    {
+      "id": "sibylline-oracles",
+      "title": "Sibylline Oracles",
+      "traditionId": "roman",
+      "tradition": "Roman",
+      "category": "Composite prophetic corpus",
+      "canonStatus": "Community- and edition-specific; no universal canon inferred",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "No normalized composition date asserted from this introductory source",
+      "region": "Mediterranean",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional, institutional, or item-level attribution requires source-specific review",
+      "description": "A late antique composite corpus record kept distinct from the lost Roman Sibylline Books and from individual manuscript witnesses.",
+      "historicalContext": "Composition, performance, redaction, manuscript production, translation, and modern community use remain separate evidence layers.",
+      "manuscripts": "Witness associations require item-level provenance and are not inferred from a corpus-level source.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no source text bundled",
+      "copyright": "Metadata only; text, image, translation, and cultural permissions require item-level review",
+      "sourceUrl": "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg1551.tlg001.1st1K-grc1:praef/",
+      "metadataSources": [
+        "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg1551.tlg001.1st1K-grc1:praef/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Greek and Roman"
+    }
+  ],
+  "overrides": [
+    {
+      "id": "avesta",
+      "description": "A compilation with distinct Old and Young Avestan strata and complex oral and manuscript transmission; it is not a single-author book.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.iranicaonline.org/articles/avesta-holy-book/",
+      "metadataSources": [
+        "https://www.iranicaonline.org/articles/avesta-holy-book/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "gathas",
+      "description": "The five Old Avestan verse groups embedded in the Yasna; authorship, dating, and translation remain scholarly questions.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.iranicaonline.org/articles/gathas-i-texts/",
+      "metadataSources": [
+        "https://www.iranicaonline.org/articles/gathas-i-texts/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "yasna",
+      "description": "The central Zoroastrian ritual and its 72-section liturgical text must be distinguished from the Avesta as a whole.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.iranicaonline.org/articles/yasna/",
+      "metadataSources": [
+        "https://www.iranicaonline.org/articles/yasna/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "yashts",
+      "description": "A group of Avestan hymns with distinct ritual and manuscript transmission, not one undifferentiated work.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.iranicaonline.org/articles/yashts/",
+      "metadataSources": [
+        "https://www.iranicaonline.org/articles/yashts/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "acaranga-sutra",
+      "description": "A Jain textual record whose canonical status and title forms must be shown within sectarian context.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "metadataSources": [
+        "https://www.jainpedia.org/themes/principles/sacred-writings/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "uttaradhyayana-sutra",
+      "description": "A Jain textual record whose recension and canonical context require edition-level evidence.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "metadataSources": [
+        "https://www.jainpedia.org/themes/principles/sacred-writings/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "tattvartha-sutra",
+      "description": "A Jain philosophical text recognized across sectarian traditions while interpretation and editions differ.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "metadataSources": [
+        "https://www.jainpedia.org/themes/principles/sacred-writings/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "guru-granth-sahib",
+      "description": "The primary Sikh scripture, represented here through institutional metadata only until a licensed, edition-specific text is reviewed.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://sgpc.net/sri-guru-granth-sahib/",
+      "metadataSources": [
+        "https://sgpc.net/sri-guru-granth-sahib/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "dasam-granth",
+      "description": "A Sikh textual collection whose authorship, contents, editions, and community reception require source-specific treatment.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://sgpc.net/",
+      "metadataSources": [
+        "https://sgpc.net/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "rig-veda",
+      "description": "A Vedic Saṃhitā record; oral recensions, accentuation, editions, and translations remain distinct.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "metadataSources": [
+        "https://gretil.sub.uni-goettingen.de/gretil.html"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "devi-mahatmya",
+      "description": "A Sanskrit work transmitted within the Mārkaṇḍeya Purāṇa and in independent liturgical reception; witnesses and editions remain distinct.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "metadataSources": [
+        "https://gretil.sub.uni-goettingen.de/gretil.html"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "dhammapada",
+      "description": "A Pali verse collection with an existing public-domain English edition in Atlas; other language traditions and modern translations are separate.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://suttacentral.net/dhp",
+      "metadataSources": [
+        "https://suttacentral.net/dhp"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "sutta-nipata",
+      "description": "A Pali canonical collection represented by reviewed discovery metadata; Atlas does not infer a licensed translation.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://suttacentral.net/snp",
+      "metadataSources": [
+        "https://suttacentral.net/snp"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "majjhima-nikaya",
+      "description": "A Pali discourse collection; parallel collections, individual discourses, recensions, and translations require explicit links.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://suttacentral.net/mn",
+      "metadataSources": [
+        "https://suttacentral.net/mn"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "kojiki",
+      "description": "An early Japanese court compilation used as evidence for myth, genealogy, and ritual history; it is not a universal Shinto scripture.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://d-museum.kokugakuin.ac.jp/eos/",
+      "metadataSources": [
+        "https://d-museum.kokugakuin.ac.jp/eos/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "nihon-shoki",
+      "description": "An early Japanese chronicle with multiple narrative variants and political context; it is not a simple duplicate of the Kojiki.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://d-museum.kokugakuin.ac.jp/eos/",
+      "metadataSources": [
+        "https://d-museum.kokugakuin.ac.jp/eos/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "norito",
+      "description": "A category of Japanese ritual prayers requiring rite-, period-, and edition-specific treatment.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://d-museum.kokugakuin.ac.jp/eos/",
+      "metadataSources": [
+        "https://d-museum.kokugakuin.ac.jp/eos/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "theogony",
+      "description": "Hesiodic theogonic poetry represented through a scholarly digital source; literary text and historical cult practice remain distinct.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130",
+      "metadataSources": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0130"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "homeric-hymns",
+      "description": "A collection of Greek hexameter hymns of varied date and authorship; it is not a single-author liturgy.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/",
+      "metadataSources": [
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "ovid-metamorphoses",
+      "description": "A Roman literary poem and major source for myth reception, not a transparent record of uniform Roman religious practice.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://www.perseus.tufts.edu/hopper/",
+      "metadataSources": [
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "poetic-edda",
+      "description": "A modern collection label grounded in medieval manuscript witnesses; individual poems, witnesses, and later reconstruction remain distinct.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://handrit.is/manuscript/view/en/GKS04-2365/0",
+      "metadataSources": [
+        "https://handrit.is/manuscript/view/en/GKS04-2365/0"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "prose-edda",
+      "description": "A medieval Icelandic work with multiple witnesses and strong literary context; it is not direct access to an unchanged ancient religion.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://handrit.is/manuscript/view/en/GKS04-2367/0",
+      "metadataSources": [
+        "https://handrit.is/manuscript/view/en/GKS04-2367/0"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "mabinogion",
+      "description": "A modern collective label for medieval Welsh narratives; manuscripts and individual tales require separate evidence.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://celt.ucc.ie/",
+      "metadataSources": [
+        "https://celt.ucc.ie/"
+      ],
+      "confidence": "C"
+    },
+    {
+      "id": "lebor-gabala-erenn",
+      "description": "A medieval Irish synthetic history with multiple recensions; it is not a direct transcript of pre-Christian practice.",
+      "historicalContext": "Composition, redaction, ritual use, witness history, translation, and later reception must be evaluated as separate claims.",
+      "manuscripts": "Witness-level associations remain unasserted until an item-level source is reviewed.",
+      "sourceStatus": "Reviewed institutional or scholarly discovery metadata; no new source text bundled",
+      "copyright": "Metadata only unless an existing edition states otherwise; item-level rights still govern reproduction.",
+      "sourceUrl": "https://celt.ucc.ie/",
+      "metadataSources": [
+        "https://celt.ucc.ie/"
+      ],
+      "confidence": "C"
+    }
+  ],
+  "batches": [
+    {
+      "id": "jainism",
+      "title": "Jainism",
+      "workIds": [
+        "acaranga-sutra",
+        "uttaradhyayana-sutra",
+        "tattvartha-sutra",
+        "jain-agama-collections",
+        "digambara-siddhanta-corpora"
+      ],
+      "source": "https://www.jainpedia.org/themes/principles/sacred-writings/",
+      "limit": "Sectarian canons and modern rights require edition-specific review."
+    },
+    {
+      "id": "sikhism",
+      "title": "Sikhism",
+      "workIds": [
+        "guru-granth-sahib",
+        "dasam-granth",
+        "sikh-rehat-maryada"
+      ],
+      "source": "https://sgpc.net/",
+      "limit": "Scripture, conduct code, historical corpus, and community practice remain separate."
+    },
+    {
+      "id": "iranian",
+      "title": "Iranian / Zoroastrian / Manichaean",
+      "workIds": [
+        "avesta",
+        "gathas",
+        "yasna",
+        "yashts",
+        "manichaean-kephalaia"
+      ],
+      "source": "https://www.iranicaonline.org/articles/avesta-holy-book/",
+      "limit": "Old/Young Avestan strata, ritual performance, Middle Persian texts, and Manichaeism are not flattened."
+    },
+    {
+      "id": "south-asia",
+      "title": "Hindu / Vedic and non-Chinese Buddhist",
+      "workIds": [
+        "rig-veda",
+        "devi-mahatmya",
+        "dhammapada",
+        "sutta-nipata",
+        "majjhima-nikaya",
+        "tibetan-kangyur",
+        "gandharan-buddhist-manuscript-corpus"
+      ],
+      "source": "https://gretil.sub.uni-goettingen.de/gretil.html",
+      "limit": "Recensions, oral transmission, canons, manuscripts, and translations require explicit evidence."
+    },
+    {
+      "id": "japan-korea",
+      "title": "Japan and Korea",
+      "workIds": [
+        "kojiki",
+        "nihon-shoki",
+        "norito",
+        "tripitaka-koreana",
+        "samguk-yusa-religious-narratives",
+        "korean-shamanic-oral-traditions"
+      ],
+      "source": "https://d-museum.kokugakuin.ac.jp/eos/",
+      "limit": "Chronicle, ritual, Buddhist canon, and living oral traditions are not one category."
+    },
+    {
+      "id": "southeast-asia",
+      "title": "Non-Indigenous South / Southeast Asia",
+      "workIds": [
+        "thai-pali-canon-traditions",
+        "khmer-buddhist-manuscript-traditions",
+        "truc-lam-thien-tradition"
+      ],
+      "source": "https://www.efeo.fr/base.php?code=643",
+      "limit": "National labels do not erase lineage, manuscript, language, or community differences."
+    },
+    {
+      "id": "inner-asia",
+      "title": "Central / Inner Asia, Caucasus, and minority traditions",
+      "workIds": [
+        "orkhon-inscriptions-and-tengri-religious-context",
+        "bon-kangyur",
+        "yazidi-qewl-oral-hymns",
+        "armenian-liturgical-manuscript-traditions"
+      ],
+      "source": "https://whc.unesco.org/en/list/1081/",
+      "limit": "Historical inscription, canon, oral hymn, and liturgy require distinct evidence and access rules."
+    },
+    {
+      "id": "mediterranean-europe",
+      "title": "Greek / Roman / Norse / Celtic",
+      "workIds": [
+        "theogony",
+        "homeric-hymns",
+        "derveni-papyrus",
+        "ovid-metamorphoses",
+        "sibylline-oracles",
+        "poetic-edda",
+        "prose-edda",
+        "mabinogion",
+        "lebor-gabala-erenn"
+      ],
+      "source": "https://www.perseus.tufts.edu/hopper/",
+      "limit": "Literary reception, physical witnesses, historical cult, and modern reconstruction remain separate."
+    }
+  ]
+}
