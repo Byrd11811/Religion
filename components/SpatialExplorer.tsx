@@ -435,7 +435,9 @@ export function WorldMap() {
         <Link href="/library/horn">Ethiopia, Eritrea &amp; the Horn collection</Link>{" "}
         for Geʽez manuscript heritage, community-specific canon evidence,
         Coptic corpora and Old Nubian witnesses. Atlas does not place those
-        records at a regional centroid.
+        records at a regional centroid. The{" "}<Link href="/library/indigenous">Global Indigenous traditions collection</Link>{" "}
+        likewise preserves community authority and cultural protocols without
+        invented map points.
       </aside>
       {selected.length > 0 && (
         <section

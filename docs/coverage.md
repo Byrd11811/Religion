@@ -31,3 +31,7 @@ All 37 existing coordinate-bearing works are mapped by default, including the 11
 The chronology spans 5000 BCE to the current year, excludes year zero and retains undated records in a separate list. Six sourced papyrus object dates can be explored separately from work composition; two witness dates remain unknown. Artifact and grouping records remain discoverable without guessed coordinates or normalized dates.
 
 Corpus totals are unchanged. This is a repair slice, not completion of mature historical geography: sourced borders, conflict transitions, independent snapshots, cultural-region geometry, additional event classes and reviewed site coordinates remain required. Earlier Phase 0 numbers above are retained as the starting baseline; generated reports now reflect the repaired map predicate.
+
+## Phase 9 cultural-protocol baseline
+
+The Phase 9 protocol registry currently contains 19 records. Each names a community authority or explicitly unresolved attribution, preserves recorder/context status, and blocks source-content export and AI use pending community review. These are enforcement records, not proof that regional coverage is complete. Circumpolar/Siberian and South/Southeast Asian Indigenous intake remain open, as do community-specific review and permission decisions for the current starter set.

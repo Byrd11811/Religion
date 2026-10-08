@@ -4,6 +4,7 @@ import { texts, editions } from "@/packages/shared/catalog";
 import { concepts, detectConcepts, tokenize } from "@/packages/ontology";
 import type { Passage, SearchHit } from "@/packages/shared/types";
 import { passageSeedFiles } from "@/packages/shared/seed-files";
+import { protocolDecision } from "@/packages/shared/protocols";
 let cached: Passage[] | undefined;
 let index: Map<string, Map<number, number>> | undefined;
 const stop = new Set(
@@ -89,6 +90,7 @@ export function search(
       const p = passages[i],
         t = textMap.get(p.textId);
       if (!t) return [];
+      if (!protocolDecision(t.id, "search").allowed) return [];
       if (
         options.contentTypes?.length &&
         !options.contentTypes.includes(p.contentType)

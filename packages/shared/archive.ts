@@ -3,6 +3,7 @@ import additions from "@/data/seed/archive-additions.json";
 import mesopotamiaArchive from "@/data/seed/mesopotamia-archive.json";
 import chinaArchive from "@/data/seed/china-archive.json";
 import hornArchive from "@/data/seed/horn-archive.json";
+import { protocolForWork } from "./protocols";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -204,8 +205,9 @@ export function workProfile(id: string): WorkProfile | undefined {
     copyright: t.copyright,
     sources: t.metadataSources,
     access: "Public metadata",
-    culturalRestrictions:
-      "Not assessed; public metadata does not authorize reproduction of cultural material",
+    culturalRestrictions: protocolForWork(id)
+      ? `${protocolForWork(id)!.protocolStatus}. ${protocolForWork(id)!.reviewNote}`
+      : "Not assessed; public metadata does not authorize reproduction of cultural material",
     sourceDepth: {
       Metadata: "Catalog record",
       "Primary text": coverage,

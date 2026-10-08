@@ -27,6 +27,7 @@ import { passageSeedFiles } from "../packages/shared/seed-files";
 import mesopotamiaAdditions from "../data/seed/mesopotamia-additions.json";
 import chinaAdditions from "../data/seed/china-additions.json";
 import hornAdditions from "../data/seed/horn-additions.json";
+import indigenous from "../data/seed/indigenous-collections.json";
 
 const input: CoverageInput = {
   texts,
@@ -46,6 +47,7 @@ const input: CoverageInput = {
     canonMemberships: hornAdditions.canonMemberships,
     recensions: hornAdditions.recensions,
     bibliographyWorks: hornAdditions.bibliographyWorks,
+    culturalProtocols: indigenous.culturalProtocols,
   },
 };
 const read = (file: string) => readFileSync(file, "utf8");
@@ -68,6 +70,7 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("recensions").seeded, 2);
   assert.equal(get("canonMemberships").seeded, 5);
   assert.equal(get("bibliographyWorks").seeded, 4);
+  assert.equal(get("culturalProtocols").seeded, 19);
   assert.ok(
     metrics.every(
       (m) => m.persisted === null && m.tested === null && !m.complete,

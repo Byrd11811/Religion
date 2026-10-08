@@ -24,7 +24,7 @@ import type {
   Relationship,
 } from "@/packages/shared/types";
 import { api, Heading, PassageCard, Empty, Dialog, Badge } from "./common";
-import { exportCsv, exportMarkdown } from "@/packages/citation";
+import { exportCsv, exportMarkdown, exportableCollection } from "@/packages/citation";
 import type { Actions } from "./Library";
 export function QuestionExplorer({
   initialQuery = "",
@@ -633,7 +633,7 @@ export function Workspace() {
     const snapshot = { ...current, notes };
     const content =
       format === "json"
-        ? JSON.stringify(snapshot, null, 2)
+        ? JSON.stringify(exportableCollection(snapshot), null, 2)
         : format === "csv"
           ? exportCsv(snapshot)
           : exportMarkdown(snapshot);

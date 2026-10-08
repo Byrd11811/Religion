@@ -34,7 +34,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | recensions | Recensions / textual families | 2 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 5 | Unknown | Unknown | Unknown | Unknown | No |
 | evidenceRecords | Structured evidence records | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| culturalProtocols | Cultural protocols | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| culturalProtocols | Cultural protocols | 19 | Unknown | Unknown | Unknown | Unknown | No |
 | suppressionEvents | Sourced suppression events | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | originalTextWorks | Works with original-language transcription | 30 | Unknown | Unknown | Unknown | Unknown | No |
 | transliterationWorks | Works with transliteration | 26 | Unknown | Unknown | Unknown | Unknown | No |

@@ -4,6 +4,7 @@ import { detectConcepts } from "@/packages/ontology";
 import { guideFor, evidence } from "./guides";
 import { mayTranslate, workProfile } from "@/packages/shared/archive";
 import type { QueryAnswer, SearchHit } from "@/packages/shared/types";
+import { protocolDecision } from "@/packages/shared/protocols";
 export interface SynthesisProvider {
   synthesize(question: string, passages: SearchHit[]): Promise<string>;
 }
@@ -17,7 +18,7 @@ export class CompatibleProvider implements SynthesisProvider {
     if (
       passages.some((p) => {
         const work = workProfile(p.textId);
-        return !work || !mayTranslate(work);
+        return !work || !mayTranslate(work) || !protocolDecision(p.textId, "ai").allowed;
       })
     )
       throw new Error(

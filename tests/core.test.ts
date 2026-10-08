@@ -33,6 +33,7 @@ import {
 } from "../packages/ai/guides";
 import { detectConcepts } from "../packages/ontology";
 import { exportCsv, exportMarkdown } from "../packages/citation";
+import { culturalProtocols, protocolDecision } from "../packages/shared/protocols";
 import type { Collection } from "../packages/shared/types";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
@@ -861,4 +862,17 @@ test("exports escape CSV formulas and preserve citation URLs", () => {
   assert.ok(exportCsv(c).includes("'=1+1"));
   assert.ok(exportCsv(c).includes('""quoted""'));
   assert.ok(exportMarkdown(c).includes("https://example.org/source"));
+});
+test("Indigenous protocols propagate through export and AI decisions", () => {
+  assert.equal(culturalProtocols.length, 19);
+  assert.ok(culturalProtocols.every((item) => item.communityAuthority && item.recorderContext && item.sourceUrl.startsWith("https://")));
+  const workId = "navajo-dine-creation-narratives";
+  assert.equal(protocolDecision(workId, "display").level, "metadata-only");
+  assert.equal(protocolDecision(workId, "display").metadataAllowed, true);
+  assert.equal(protocolDecision(workId, "display").allowed, false);
+  assert.equal(protocolDecision(workId, "export").allowed, false);
+  assert.equal(protocolDecision(workId, "ai").allowed, false);
+  const collection: Collection = { id: "protocol", name: "Protocol", notes: "", createdAt: "2026", updatedAt: "2026", items: [{ id: workId, kind: "text", title: "Restricted pending review", content: "Metadata", createdAt: "2026" }] };
+  assert.doesNotMatch(exportMarkdown(collection), /Restricted pending review/);
+  assert.doesNotMatch(exportCsv(collection), /Restricted pending review/);
 });
