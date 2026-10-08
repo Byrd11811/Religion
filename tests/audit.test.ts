@@ -28,6 +28,7 @@ import mesopotamiaAdditions from "../data/seed/mesopotamia-additions.json";
 import chinaAdditions from "../data/seed/china-additions.json";
 import hornAdditions from "../data/seed/horn-additions.json";
 import indigenous from "../data/seed/indigenous-collections.json";
+import indigenousAdditions from "../data/seed/indigenous-additions.json";
 
 const input: CoverageInput = {
   texts,
@@ -47,14 +48,14 @@ const input: CoverageInput = {
     canonMemberships: hornAdditions.canonMemberships,
     recensions: hornAdditions.recensions,
     bibliographyWorks: hornAdditions.bibliographyWorks,
-    culturalProtocols: indigenous.culturalProtocols,
+    culturalProtocols: [...indigenous.culturalProtocols, ...indigenousAdditions.culturalProtocols],
   },
 };
 const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 506);
+  assert.equal(get("works").seeded, 516);
   assert.equal(get("searchableWorks").seeded, 116);
   assert.equal(get("completeEditionWorks").seeded, 83);
   assert.equal(get("passages").seeded, 30680);
@@ -70,7 +71,7 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("recensions").seeded, 2);
   assert.equal(get("canonMemberships").seeded, 5);
   assert.equal(get("bibliographyWorks").seeded, 4);
-  assert.equal(get("culturalProtocols").seeded, 19);
+  assert.equal(get("culturalProtocols").seeded, 29);
   assert.ok(
     metrics.every(
       (m) => m.persisted === null && m.tested === null && !m.complete,

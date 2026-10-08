@@ -241,5 +241,23 @@
     "lng": null,
     "description": "A geographic discovery collection spanning distinct Ethiopian, Eritrean, Beta Israel, Islamic, Coptic and Old Nubian communities. Shared languages and transmission histories do not imply one tradition, church or canon.",
     "color": "#8f6848"
+  },
+  {
+    "id": "circumpolar-indigenous",
+    "name": "Circumpolar Indigenous traditions",
+    "region": "Arctic and sub-Arctic regions",
+    "lat": null,
+    "lng": null,
+    "description": "A discovery grouping for distinct Inuit, Sámi, Ainu and northern Eurasian communities; it is not one religion or one cultural authority.",
+    "color": "#537f86"
+  },
+  {
+    "id": "south-southeast-asian-indigenous",
+    "name": "South and Southeast Asian Indigenous traditions",
+    "region": "South and Southeast Asia",
+    "lat": null,
+    "lng": null,
+    "description": "A discovery grouping for distinct Indigenous communities; national or regional proximity does not imply a shared religion, canon or permission regime.",
+    "color": "#8b7155"
   }
 ]

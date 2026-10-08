@@ -864,8 +864,14 @@ test("exports escape CSV formulas and preserve citation URLs", () => {
   assert.ok(exportMarkdown(c).includes("https://example.org/source"));
 });
 test("Indigenous protocols propagate through export and AI decisions", () => {
-  assert.equal(culturalProtocols.length, 19);
+  assert.equal(culturalProtocols.length, 29);
   assert.ok(culturalProtocols.every((item) => item.communityAuthority && item.recorderContext && item.sourceUrl.startsWith("https://")));
+  assert.equal(new Set(culturalProtocols.map((item) => item.id)).size, culturalProtocols.length);
+  assert.equal(new Set(culturalProtocols.map((item) => item.workId)).size, culturalProtocols.length);
+  assert.ok(culturalProtocols.every((item) => texts.some((work) => work.id === item.workId)));
+  assert.ok(culturalProtocols.every((item) => item.protocolStatus === "Community review required"));
+  assert.ok(culturalProtocols.every((item) => item.exportPolicy === "blocked" && item.aiPolicy === "blocked"));
+  assert.ok(culturalProtocols.every((item) => !/^(Native American|African|Indigenous) religion$/i.test(item.communityAuthority)));
   const workId = "navajo-dine-creation-narratives";
   assert.equal(protocolDecision(workId, "display").level, "metadata-only");
   assert.equal(protocolDecision(workId, "display").metadataAllowed, true);
@@ -875,4 +881,14 @@ test("Indigenous protocols propagate through export and AI decisions", () => {
   const collection: Collection = { id: "protocol", name: "Protocol", notes: "", createdAt: "2026", updatedAt: "2026", items: [{ id: workId, kind: "text", title: "Restricted pending review", content: "Metadata", createdAt: "2026" }] };
   assert.doesNotMatch(exportMarkdown(collection), /Restricted pending review/);
   assert.doesNotMatch(exportCsv(collection), /Restricted pending review/);
+  assert.equal(protocolDecision("ifugao-hudhud-chants", "ai").allowed, false);
+  for (const workId of ["ainu-yukar-oral-epics", "ifugao-hudhud-chants", "maranao-darangen-epic", "atayal-gaga-traditions"]) {
+    const work = texts.find((item) => item.id === workId);
+    assert.ok(work);
+    assert.equal(work.editionId, null);
+    assert.equal(work.startDate, null);
+    assert.equal(work.endDate, null);
+    assert.equal(work.lat, null);
+    assert.equal(work.lng, null);
+  }
 });

@@ -1,4 +1,5 @@
 import data from "@/data/seed/indigenous-collections.json";
+import additions from "@/data/seed/indigenous-additions.json";
 
 export type ProtocolAction = "display" | "search" | "export" | "ai" | "cache";
 export interface CulturalProtocol {
@@ -17,7 +18,10 @@ export interface CulturalProtocol {
   reviewNote: string;
 }
 
-export const culturalProtocols = data.culturalProtocols as CulturalProtocol[];
+export const culturalProtocols = [
+  ...(data.culturalProtocols as CulturalProtocol[]),
+  ...(additions.culturalProtocols as CulturalProtocol[]),
+];
 export const protocolForWork = (workId: string) =>
   culturalProtocols.find((protocol) => protocol.workId === workId);
 

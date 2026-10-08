@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import data from "@/data/seed/indigenous-collections.json";
+import additions from "@/data/seed/indigenous-additions.json";
 import { texts } from "@/packages/shared/catalog";
 import { culturalProtocols } from "@/packages/shared/protocols";
 import { Heading } from "./common";
@@ -19,7 +20,7 @@ export function IndigenousCollection() {
     <Heading eyebrow="Map-first, protocol-first collection" title="Global Indigenous traditions" description="Navigate community-specific records by region while recorder context, cultural authority and access limits remain visible." />
     <p className="notice">“Indigenous” is a cross-regional discovery path, not one religion. Atlas does not create a generic Native American, African, Oceanic or Australian theology. Every record remains attached to a named community or an explicit unresolved attribution.</p>
     <div className="stat-grid">
-      <article className="stat"><strong>{data.collectionWorkIds.length}</strong><span>community-scoped catalog records</span></article>
+      <article className="stat"><strong>{data.collectionWorkIds.length + additions.collectionWorkIds.length}</strong><span>community-scoped catalog records</span></article>
       <article className="stat"><strong>{regions.length - 1}</strong><span>regional discovery areas</span></article>
       <article className="stat"><strong>{culturalProtocols.length}</strong><span>propagating protocol records</span></article>
       <article className="stat"><strong>0</strong><span>restricted narratives reproduced</span></article>

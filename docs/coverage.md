@@ -34,4 +34,4 @@ Corpus totals are unchanged. This is a repair slice, not completion of mature hi
 
 ## Phase 9 cultural-protocol baseline
 
-The Phase 9 protocol registry currently contains 19 records. Each names a community authority or explicitly unresolved attribution, preserves recorder/context status, and blocks source-content export and AI use pending community review. These are enforcement records, not proof that regional coverage is complete. Circumpolar/Siberian and South/Southeast Asian Indigenous intake remain open, as do community-specific review and permission decisions for the current starter set.
+The Phase 9 protocol registry currently contains 29 records. Each names a community authority or explicitly unresolved attribution, preserves recorder/context status, and blocks source-content export and AI use pending community review. The current regional discovery layer includes Circumpolar/Siberian, Ainu, Taiwan Indigenous, Ifugao and Maranao records alongside the earlier starter set. These are enforcement and discovery records, not proof that community-specific review or permission work is complete.

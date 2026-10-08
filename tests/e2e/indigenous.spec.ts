@@ -17,3 +17,13 @@ test("Australian intake warning does not publish a generic narrative", async ({ 
   await expect(page.getByText(/Generic title is retained only as an intake warning/)).toBeVisible();
   await expect(page.getByText("restricted narratives reproduced")).toBeVisible();
 });
+
+test("Circumpolar and Southeast Asian records retain distinct authorities", async ({ page }) => {
+  await page.goto("/library/indigenous");
+  await page.getByLabel("Map region").selectOption("Circumpolar");
+  await expect(page.getByRole("heading", { name: "Inuit Oral Traditions" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Sámi Oral and Joik Traditions" })).toBeVisible();
+  await page.getByLabel("Map region").selectOption("Southeast Asia");
+  await expect(page.getByRole("heading", { name: "Hudhud Chants of the Ifugao" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Darangen Epic of the Maranao" })).toBeVisible();
+});

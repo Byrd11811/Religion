@@ -10,6 +10,7 @@ import mesopotamiaEditions from "@/data/seed/mesopotamia-editions.json";
 import chinaAdditions from "@/data/seed/china-additions.json";
 import chinaEditions from "@/data/seed/china-editions.json";
 import hornAdditions from "@/data/seed/horn-additions.json";
+import indigenousAdditions from "@/data/seed/indigenous-additions.json";
 import type {
   TextRecord,
   Tradition,
@@ -53,6 +54,7 @@ export const texts = [
     (record) => !(textsData as TextRecord[]).some((item) => item.id === record.id),
   ),
   ...(hornAdditions.records as TextRecord[]),
+  ...(indigenousAdditions.records as TextRecord[]),
 ];
 export const traditions = traditionsData as Tradition[];
 export const editions = [
