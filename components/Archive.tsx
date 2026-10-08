@@ -227,6 +227,9 @@ export function WitnessDetail({ id }: { id: string }) {
                 </a>
               </p>
             ))}
+            {w.iiifManifest && (
+              <p><a href={w.iiifManifest} target="_blank" rel="noreferrer">Repository IIIF manifest ↗</a></p>
+            )}
           </section>
         }
       />

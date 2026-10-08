@@ -1,0 +1,788 @@
+{
+  "workRecords": [
+    {
+      "id": "book-of-isaiah",
+      "title": "Book of Isaiah",
+      "traditionId": "hebrew-jewish-tradition",
+      "tradition": "Hebrew / Jewish Tradition",
+      "category": "Historical text or manuscript corpus",
+      "canonStatus": "Community-, corpus-, and edition-specific",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition chronology is not inferred from this witness-level source",
+      "region": "Levant",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional or unknown; attribution requires source-specific review",
+      "description": "A work-level record added so independently cataloged Isaiah witnesses can be connected without treating one scroll as the composition.",
+      "historicalContext": "The composition, recension, physical witness, modern catalog record, and translation remain separate evidence layers.",
+      "manuscripts": "See independently modeled witness records.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional metadata; no source text bundled",
+      "copyright": "Metadata only; repository terms govern images and text",
+      "sourceUrl": "https://dss.collections.imj.org.il/isaiah",
+      "metadataSources": [
+        "https://dss.collections.imj.org.il/isaiah"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Manuscript expansion"
+    },
+    {
+      "id": "pesher-habakkuk",
+      "title": "Pesher Habakkuk",
+      "traditionId": "hebrew-jewish-tradition",
+      "tradition": "Hebrew / Jewish Tradition",
+      "category": "Historical text or manuscript corpus",
+      "canonStatus": "Community-, corpus-, and edition-specific",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition chronology is not inferred from this witness-level source",
+      "region": "Judean Desert",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional or unknown; attribution requires source-specific review",
+      "description": "A Qumran commentary work kept distinct from the Book of Habakkuk and from its physical manuscript.",
+      "historicalContext": "The composition, recension, physical witness, modern catalog record, and translation remain separate evidence layers.",
+      "manuscripts": "See independently modeled witness records.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional metadata; no source text bundled",
+      "copyright": "Metadata only; repository terms govern images and text",
+      "sourceUrl": "https://dss.collections.imj.org.il/habakkuk",
+      "metadataSources": [
+        "https://dss.collections.imj.org.il/habakkuk"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Manuscript expansion"
+    },
+    {
+      "id": "elephantine-passover-letter",
+      "title": "Elephantine Passover Letter",
+      "traditionId": "hebrew-jewish-tradition",
+      "tradition": "Hebrew / Jewish Tradition",
+      "category": "Historical text or manuscript corpus",
+      "canonStatus": "Community-, corpus-, and edition-specific",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition chronology is not inferred from this witness-level source",
+      "region": "Elephantine, Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional or unknown; attribution requires source-specific review",
+      "description": "A documentary letter relevant to Judean religious practice at Elephantine; it is not represented as scripture.",
+      "historicalContext": "The composition, recension, physical witness, modern catalog record, and translation remain separate evidence layers.",
+      "manuscripts": "See independently modeled witness records.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional metadata; no source text bundled",
+      "copyright": "Metadata only; repository terms govern images and text",
+      "sourceUrl": "https://search.smb.museum/object/obj-980034",
+      "metadataSources": [
+        "https://search.smb.museum/object/obj-980034"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Manuscript expansion"
+    },
+    {
+      "id": "codex-laud",
+      "title": "Codex Laud",
+      "traditionId": "mesoamerica",
+      "tradition": "Mesoamerica",
+      "category": "Historical text or manuscript corpus",
+      "canonStatus": "Community-, corpus-, and edition-specific",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Composition chronology is not inferred from this witness-level source",
+      "region": "Central Mexico",
+      "lat": null,
+      "lng": null,
+      "languages": [],
+      "author": "Traditional or unknown; attribution requires source-specific review",
+      "description": "A named Mesoamerican pictorial manuscript record. Precise cultural attribution and interpretive claims require specialist and community review.",
+      "historicalContext": "The composition, recension, physical witness, modern catalog record, and translation remain separate evidence layers.",
+      "manuscripts": "See independently modeled witness records.",
+      "themes": [],
+      "sourceStatus": "Reviewed institutional metadata; no source text bundled",
+      "copyright": "Metadata only; repository terms govern images and text",
+      "sourceUrl": "https://digital.bodleian.ox.ac.uk/objects/5e7b6452-38be-4ca7-a721-7cf49f5f75fc/",
+      "metadataSources": [
+        "https://digital.bodleian.ox.ac.uk/objects/5e7b6452-38be-4ca7-a721-7cf49f5f75fc/"
+      ],
+      "editionId": null,
+      "confidence": "C",
+      "subcollection": "Manuscript expansion"
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "dss-1qisaa",
+      "title": "Great Isaiah Scroll (1QIsaᵃ)",
+      "workIds": [
+        "book-of-isaiah"
+      ],
+      "recensionId": null,
+      "type": "Scroll",
+      "inventoryNumber": "HU 95.57/27",
+      "repository": "Shrine of the Book, Israel Museum",
+      "discoveryLocation": "Qumran Cave 1",
+      "currentLocation": "Jerusalem, Israel",
+      "dateStart": -100,
+      "dateEnd": -1,
+      "dateNotes": "Institutional page identifies the manuscript as first century BCE.",
+      "material": "Parchment",
+      "languages": [
+        "Hebrew"
+      ],
+      "scripts": [
+        "Square Hebrew"
+      ],
+      "condition": "Fragmentary damage but substantially preserved",
+      "completeness": "All 66 chapters represented",
+      "provenance": "Found in Qumran Cave 1; institutional custody and accession are stated by the Israel Museum.",
+      "digitizationUrl": "https://dss.collections.imj.org.il/isaiah",
+      "iiifManifest": null,
+      "rights": "Institutional site terms govern images and translation; metadata link only.",
+      "sources": [
+        "https://dss.collections.imj.org.il/isaiah"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A physical Isaiah witness; its readings are not silently substituted for later editions.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "dss-1qs-community-rule",
+      "title": "Community Rule Scroll (1QS)",
+      "workIds": [
+        "dead-sea-scrolls-community-rule"
+      ],
+      "recensionId": null,
+      "type": "Scroll",
+      "inventoryNumber": "1QS",
+      "repository": "Shrine of the Book, Israel Museum",
+      "discoveryLocation": "Qumran Cave 1",
+      "currentLocation": "Jerusalem, Israel",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "Date remains unnormalized pending item-level catalog review.",
+      "material": "Parchment",
+      "languages": [
+        "Hebrew"
+      ],
+      "scripts": [
+        "Square Hebrew"
+      ],
+      "condition": "Fragmentary",
+      "completeness": "Major surviving witness",
+      "provenance": "Qumran Cave 1 association is stated by the institutional digital collection.",
+      "digitizationUrl": "https://dss.collections.imj.org.il/community",
+      "iiifManifest": null,
+      "rights": "Institutional site terms; metadata link only.",
+      "sources": [
+        "https://dss.collections.imj.org.il/community"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "The principal Community Rule witness, distinct from the composition and related rule manuscripts.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "dss-1qm-war-scroll",
+      "title": "War Scroll (1QM)",
+      "workIds": [
+        "dead-sea-scrolls-war-scroll"
+      ],
+      "recensionId": null,
+      "type": "Scroll",
+      "inventoryNumber": "1QM",
+      "repository": "Shrine of the Book, Israel Museum",
+      "discoveryLocation": "Qumran Cave 1",
+      "currentLocation": "Jerusalem, Israel",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "Date remains unnormalized pending item-level catalog review.",
+      "material": "Parchment",
+      "languages": [
+        "Hebrew"
+      ],
+      "scripts": [
+        "Square Hebrew"
+      ],
+      "condition": "Fragmentary",
+      "completeness": "Substantial but incomplete",
+      "provenance": "Qumran Cave 1 association is stated by the institutional digital collection.",
+      "digitizationUrl": "https://dss.collections.imj.org.il/war",
+      "iiifManifest": null,
+      "rights": "Institutional site terms; metadata link only.",
+      "sources": [
+        "https://dss.collections.imj.org.il/war"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A major War Scroll witness, not a claim that all related fragments form one unproblematic text.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "dss-1qphab",
+      "title": "Pesher Habakkuk (1QpHab)",
+      "workIds": [
+        "pesher-habakkuk"
+      ],
+      "recensionId": null,
+      "type": "Scroll",
+      "inventoryNumber": "1QpHab",
+      "repository": "Shrine of the Book, Israel Museum",
+      "discoveryLocation": "Qumran Cave 1",
+      "currentLocation": "Jerusalem, Israel",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "Date remains unnormalized pending item-level catalog review.",
+      "material": "Parchment",
+      "languages": [
+        "Hebrew"
+      ],
+      "scripts": [
+        "Square Hebrew"
+      ],
+      "condition": "Fragmentary",
+      "completeness": "Substantial columns survive",
+      "provenance": "Qumran Cave 1 association is stated by the institutional digital collection.",
+      "digitizationUrl": "https://dss.collections.imj.org.il/habakkuk",
+      "iiifManifest": null,
+      "rights": "Institutional site terms; metadata link only.",
+      "sources": [
+        "https://dss.collections.imj.org.il/habakkuk"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A physical commentary witness kept separate from the biblical Book of Habakkuk.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "codex-sinaiticus",
+      "title": "Codex Sinaiticus",
+      "workIds": [
+        "genesis",
+        "gospel-of-matthew",
+        "gospel-of-mark",
+        "gospel-of-luke",
+        "gospel-of-john"
+      ],
+      "recensionId": null,
+      "type": "Codex",
+      "inventoryNumber": "Gregory-Aland 01 / multiple shelfmarks",
+      "repository": "British Library; Leipzig University Library; National Library of Russia; Saint Catherine’s Monastery",
+      "discoveryLocation": "Saint Catherine’s Monastery, Sinai",
+      "currentLocation": "Distributed across four repositories",
+      "dateStart": 325,
+      "dateEnd": 375,
+      "dateNotes": "Codex Sinaiticus Project dates the manuscript generally to the fourth century and often the middle of that century.",
+      "material": "Parchment",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek majuscule"
+      ],
+      "condition": "Distributed and incomplete in parts",
+      "completeness": "Earliest complete New Testament; Old Testament portion incomplete",
+      "provenance": "Preserved for centuries at Saint Catherine’s; surviving leaves are now distributed across four partner institutions.",
+      "digitizationUrl": "https://codexsinaiticus.org/en/manuscript.aspx",
+      "iiifManifest": null,
+      "rights": "Project transcription is CC BY-NC-SA 3.0; manuscript images and repository terms require separate review.",
+      "sources": [
+        "https://codexsinaiticus.org/en/codex/default.aspx",
+        "https://codexsinaiticus.org/en/project/history.aspx",
+        "https://codexsinaiticus.org/en/project/transcription_download.aspx"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A multi-work Greek biblical codex with a reunified digital project; work links do not imply a single modern canon or edition.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "codex-vaticanus",
+      "title": "Codex Vaticanus",
+      "workIds": [
+        "genesis",
+        "gospel-of-matthew",
+        "gospel-of-mark",
+        "gospel-of-luke",
+        "gospel-of-john"
+      ],
+      "recensionId": null,
+      "type": "Codex",
+      "inventoryNumber": "Vat.gr.1209",
+      "repository": "Biblioteca Apostolica Vaticana",
+      "discoveryLocation": null,
+      "currentLocation": "Vatican City",
+      "dateStart": 300,
+      "dateEnd": 399,
+      "dateNotes": "Repository and Codex Sinaiticus Project identify it as a fourth-century biblical manuscript.",
+      "material": "Parchment",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek majuscule"
+      ],
+      "condition": "Incomplete at beginning and end",
+      "completeness": "Substantial biblical codex",
+      "provenance": "Repository shelfmark and digital facsimile supplied by the Vatican Library.",
+      "digitizationUrl": "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+      "iiifManifest": "https://digi.vatlib.it/iiif/MSS_Vat.gr.1209/manifest.json",
+      "rights": "Vatican Library digital-use terms govern images; IIIF manifest is linked, not copied.",
+      "sources": [
+        "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+        "https://codexsinaiticus.org/en/codex/date.aspx"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A distinct fourth-century biblical codex with a verified repository IIIF manifest.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "codex-alexandrinus-nt",
+      "title": "Codex Alexandrinus, New Testament volume",
+      "workIds": [
+        "gospel-of-matthew",
+        "gospel-of-mark",
+        "gospel-of-luke",
+        "gospel-of-john"
+      ],
+      "recensionId": null,
+      "type": "Codex",
+      "inventoryNumber": "Royal MS 1 D VIII",
+      "repository": "British Library",
+      "discoveryLocation": "Alexandria-associated historical provenance",
+      "currentLocation": "London, United Kingdom",
+      "dateStart": 400,
+      "dateEnd": 499,
+      "dateNotes": "British Library catalogue dates the volume to the fifth century.",
+      "material": "Parchment",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek majuscule"
+      ],
+      "condition": "Missing leaves, including Matthew 1:1–25:6",
+      "completeness": "One of four codex volumes; this New Testament volume is incomplete",
+      "provenance": "Received by Sir Thomas Roe and given to Charles I in 1627; transferred with the Old Royal Library to the British Museum in 1757.",
+      "digitizationUrl": "https://searcharchives.bl.uk/catalog/040-002353500",
+      "iiifManifest": null,
+      "rights": "British Library access restrictions and reuse terms apply; metadata only.",
+      "sources": [
+        "https://searcharchives.bl.uk/catalog/040-002353500"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "The New Testament volume is linked to its cataloged Gospel contents without claiming the missing leaves survive.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "nag-hammadi-codex-ii",
+      "title": "Nag Hammadi Codex II",
+      "workIds": [
+        "apocryphon-of-john",
+        "gospel-of-thomas",
+        "gospel-of-philip"
+      ],
+      "recensionId": null,
+      "type": "Papyrus codex",
+      "inventoryNumber": "Codex II",
+      "repository": "Coptic Museum, Cairo",
+      "discoveryLocation": "Near Nag Hammadi, Egypt",
+      "currentLocation": "Cairo, Egypt",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No normalized date asserted from the collection landing page.",
+      "material": "Papyrus",
+      "languages": [
+        "Coptic"
+      ],
+      "scripts": [
+        "Coptic"
+      ],
+      "condition": "Physical codex with lacunae",
+      "completeness": "Multiple works preserved",
+      "provenance": "Discovered near Nag Hammadi; collection-level digital documentation is provided by the Claremont Colleges Digital Library.",
+      "digitizationUrl": "https://ccdl.claremont.edu/digital/collection/nha",
+      "iiifManifest": null,
+      "rights": "Repository and digital collection terms govern images; metadata link only.",
+      "sources": [
+        "https://ccdl.claremont.edu/digital/collection/nha"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A multi-work physical codex; individual works and pages remain separately citable.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "derveni-papyrus-witness",
+      "title": "Derveni Papyrus",
+      "workIds": [
+        "derveni-papyrus"
+      ],
+      "recensionId": null,
+      "type": "Papyrus scroll",
+      "inventoryNumber": "Derveni Papyrus",
+      "repository": "Archaeological Museum of Thessaloniki",
+      "discoveryLocation": "Derveni, Greece",
+      "currentLocation": "Thessaloniki, Greece",
+      "dateStart": -340,
+      "dateEnd": -320,
+      "dateNotes": "UNESCO documentation dates the papyrus between 340 and 320 BCE.",
+      "material": "Papyrus",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek"
+      ],
+      "condition": "Carbonized and fragmentary",
+      "completeness": "Substantial columns reconstructed from fragments",
+      "provenance": "Excavated in 1962 in a documented archaeological context at Derveni.",
+      "digitizationUrl": "https://www.unesco.org/en/memory-world/derveni-papyrus-oldest-book-europe?hub=1081",
+      "iiifManifest": null,
+      "rights": "Copyright belongs to the Archaeological Museum of Thessaloniki; metadata and source links only.",
+      "sources": [
+        "https://www.unesco.org/en/memory-world/derveni-papyrus-oldest-book-europe?hub=1081",
+        "https://media.unesco.org/sites/default/files/webform/mow001/greece_derveni_papyrus_en.pdf"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A carbonized physical witness containing ritual discussion and commentary on an Orphic poem.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "poxy-1-thomas",
+      "title": "P.Oxy. 1, Sayings of Jesus fragment",
+      "workIds": [
+        "gospel-of-thomas"
+      ],
+      "recensionId": null,
+      "type": "Papyrus fragment",
+      "inventoryNumber": "P.Oxy. 1",
+      "repository": "Bodleian Libraries, University of Oxford",
+      "discoveryLocation": "Oxyrhynchus, Egypt",
+      "currentLocation": "Oxford, United Kingdom",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "Date requires item-level catalog confirmation and remains unnormalized.",
+      "material": "Papyrus",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek"
+      ],
+      "condition": "Fragmentary",
+      "completeness": "Single leaf fragment",
+      "provenance": "Excavated at Oxyrhynchus and published as the first Oxyrhynchus papyrus; repository-level review remains pending.",
+      "digitizationUrl": "https://oxyrhynchus.web.ox.ac.uk/",
+      "iiifManifest": null,
+      "rights": "Oxford repository terms apply; metadata link only.",
+      "sources": [
+        "https://oxyrhynchus.web.ox.ac.uk/"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A Greek sayings fragment associated with the Gospel of Thomas tradition; association does not make it a complete codex.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "elephantine-passover-papyrus",
+      "title": "Elephantine Passover Letter",
+      "workIds": [
+        "elephantine-passover-letter"
+      ],
+      "recensionId": null,
+      "type": "Papyrus letter",
+      "inventoryNumber": "P 13464",
+      "repository": "Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin",
+      "discoveryLocation": "Elephantine, Egypt",
+      "currentLocation": "Berlin, Germany",
+      "dateStart": -419,
+      "dateEnd": -419,
+      "dateNotes": "Museum catalog identifies the documentary context; exact normalized year follows the standard 419 BCE identification and should receive curator review.",
+      "material": "Papyrus",
+      "languages": [
+        "Imperial Aramaic"
+      ],
+      "scripts": [
+        "Aramaic"
+      ],
+      "condition": "Fragmentary but legible",
+      "completeness": "Documentary letter",
+      "provenance": "Excavated at Elephantine by the Royal Museums expedition led by Otto Rubensohn and Friedrich Zucker in the early twentieth century; current custody is documented by the museum.",
+      "digitizationUrl": "https://search.smb.museum/object/obj-980034",
+      "iiifManifest": null,
+      "rights": "Staatliche Museen zu Berlin terms govern images; metadata link only.",
+      "sources": [
+        "https://search.smb.museum/object/obj-980034"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A documentary witness for calendrical/religious practice, not a scriptural manuscript.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "mawangdui-laozi-silk",
+      "title": "Mawangdui Laozi silk manuscripts",
+      "workIds": [
+        "tao-te-ching"
+      ],
+      "recensionId": null,
+      "type": "Silk manuscripts",
+      "inventoryNumber": null,
+      "repository": "Hunan Museum",
+      "discoveryLocation": "Mawangdui Tomb 3, Changsha",
+      "currentLocation": "Changsha, China",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No precise manuscript date normalized from the exhibition overview.",
+      "material": "Silk",
+      "languages": [
+        "Classical Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "condition": "Archaeologically recovered",
+      "completeness": "Two early textual witnesses conventionally labeled A and B",
+      "provenance": "Recovered from the Mawangdui Han tomb complex; Hunan Museum documents the silk-manuscript assemblage.",
+      "digitizationUrl": "https://web.hnmuseum.com/en/content/changsha-mawangdui-han-dynasty-tombs-exhibition",
+      "iiifManifest": null,
+      "rights": "Hunan Museum terms govern images; metadata link only.",
+      "sources": [
+        "https://web.hnmuseum.com/en/content/changsha-mawangdui-han-dynasty-tombs-exhibition"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "Early silk witnesses linked to the received Tao Te Ching tradition without assuming textual identity.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "guodian-laozi-slips",
+      "title": "Guodian Laozi bamboo-slip groups",
+      "workIds": [
+        "tao-te-ching"
+      ],
+      "recensionId": null,
+      "type": "Bamboo-slip groups",
+      "inventoryNumber": null,
+      "repository": "Hubei Provincial Museum",
+      "discoveryLocation": "Guodian Tomb 1, Jingmen",
+      "currentLocation": "Wuhan, China",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "Date remains unnormalized pending an accessible item-level institutional source.",
+      "material": "Bamboo",
+      "languages": [
+        "Classical Chinese"
+      ],
+      "scripts": [
+        "Chinese"
+      ],
+      "condition": "Archaeologically recovered and conserved",
+      "completeness": "Partial textual groups",
+      "provenance": "Recovered archaeologically at Guodian; this record preserves the limitation that item-level institutional review remains outstanding.",
+      "digitizationUrl": "https://www.hbww.org.cn/",
+      "iiifManifest": null,
+      "rights": "Repository terms govern images; metadata link only.",
+      "sources": [
+        "https://www.hbww.org.cn/"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Strong scholarly consensus",
+      "description": "Partial bamboo-slip parallels to the received text; they are not described as a complete edition of the Tao Te Ching.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "loc-gandhara-scroll",
+      "title": "Library of Congress Gandhara Scroll",
+      "workIds": [
+        "gandharan-buddhist-manuscript-corpus"
+      ],
+      "recensionId": null,
+      "type": "Birch-bark scroll",
+      "inventoryNumber": "2018305008",
+      "repository": "Library of Congress",
+      "discoveryLocation": "Gandhara region; exact find context not established by catalog",
+      "currentLocation": "Washington, D.C.",
+      "dateStart": -100,
+      "dateEnd": 99,
+      "dateNotes": "Library of Congress dates the scroll roughly between the first century BCE and first century CE.",
+      "material": "Birch bark",
+      "languages": [
+        "Gandhari Prakrit"
+      ],
+      "scripts": [
+        "Kharoshthi"
+      ],
+      "condition": "Fragile; conserved as multiple fragments",
+      "completeness": "Approximately 75–80% survives; beginning and end missing",
+      "provenance": "Acquired from a British antiquities dealer in 2003; catalog does not supply a secure excavation context.",
+      "digitizationUrl": "https://www.loc.gov/item/2018305008/",
+      "iiifManifest": null,
+      "rights": "Library of Congress states public domain or no known copyright restrictions for this collection.",
+      "sources": [
+        "https://www.loc.gov/item/2018305008/",
+        "https://guides.loc.gov/south-asian-manuscripts/gandhara"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A digitized early Buddhist scroll with explicit provenance limits and public IIIF image services.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "gilgit-lotus-sutra-manuscripts",
+      "title": "Gilgit manuscript Lotus Sutra witnesses",
+      "workIds": [
+        "lotus-sutra"
+      ],
+      "recensionId": null,
+      "type": "Birch-bark manuscript group",
+      "inventoryNumber": null,
+      "repository": "National Archives of India and Sri Pratap Singh Museum",
+      "discoveryLocation": "Gilgit region of Kashmir",
+      "currentLocation": "New Delhi and Jammu/Kashmir, India",
+      "dateStart": 400,
+      "dateEnd": 599,
+      "dateNotes": "UNESCO dates the collection paleographically to the fifth–sixth centuries CE.",
+      "material": "Birch bark and clay-coated material",
+      "languages": [
+        "Buddhist Hybrid Sanskrit"
+      ],
+      "scripts": [
+        "Gupta Brahmi",
+        "Post-Gupta Brahmi"
+      ],
+      "condition": "Multiple preserved manuscripts",
+      "completeness": "Collection includes canonical and non-canonical works",
+      "provenance": "Discovered in three instalments in the Gilgit region; holdings are divided between two institutions.",
+      "digitizationUrl": "https://www.unesco.org/en/memory-world/gilgit-manuscript",
+      "iiifManifest": null,
+      "rights": "UNESCO and holding-institution terms apply; metadata link only.",
+      "sources": [
+        "https://www.unesco.org/en/memory-world/gilgit-manuscript"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A manuscript group that includes Lotus Sutra material; no single codex or complete recension is inferred.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "vatican-codex-borgia",
+      "title": "Codex Borgia",
+      "workIds": [
+        "codex-borgia"
+      ],
+      "recensionId": null,
+      "type": "Screenfold manuscript",
+      "inventoryNumber": "Borg.mess.1",
+      "repository": "Biblioteca Apostolica Vaticana",
+      "discoveryLocation": null,
+      "currentLocation": "Vatican City",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No date normalized from the digital facsimile landing page.",
+      "material": "Deerskin support",
+      "languages": [
+        "Pictorial / Central Mexican"
+      ],
+      "scripts": [
+        "Pictorial"
+      ],
+      "condition": "Surviving screenfold",
+      "completeness": "Complete physical object; interpretive sequence remains debated",
+      "provenance": "Vatican Library shelfmark and digitization establish present custody; earlier provenance requires specialist review.",
+      "digitizationUrl": "https://digi.vatlib.it/view/MSS_Borg.mess.1",
+      "iiifManifest": null,
+      "rights": "Vatican Library digital-use terms govern images; metadata link only.",
+      "sources": [
+        "https://digi.vatlib.it/view/MSS_Borg.mess.1"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A physical Mesoamerican pictorial manuscript kept distinct from modern interpretations and community authority.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bodleian-codex-laud",
+      "title": "Codex Laud",
+      "workIds": [
+        "codex-laud"
+      ],
+      "recensionId": null,
+      "type": "Screenfold manuscript",
+      "inventoryNumber": "MS. Laud Misc. 678",
+      "repository": "Bodleian Libraries, University of Oxford",
+      "discoveryLocation": null,
+      "currentLocation": "Oxford, United Kingdom",
+      "dateStart": null,
+      "dateEnd": null,
+      "dateNotes": "No date normalized from the digital item record.",
+      "material": "Deerskin support",
+      "languages": [
+        "Pictorial / Central Mexican"
+      ],
+      "scripts": [
+        "Pictorial"
+      ],
+      "condition": "Surviving screenfold",
+      "completeness": "Physical manuscript survives",
+      "provenance": "Bodleian digital catalog establishes shelfmark and present custody; earlier provenance remains under review.",
+      "digitizationUrl": "https://digital.bodleian.ox.ac.uk/objects/5e7b6452-38be-4ca7-a721-7cf49f5f75fc/",
+      "iiifManifest": null,
+      "rights": "Bodleian Libraries terms govern digital images; metadata link only.",
+      "sources": [
+        "https://digital.bodleian.ox.ac.uk/objects/5e7b6452-38be-4ca7-a721-7cf49f5f75fc/"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A physical Mesoamerican manuscript record with no unsupported equation to Codex Borgia.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "herculaneum-papyrus-118",
+      "title": "Herculaneum Papyrus 118",
+      "workIds": [],
+      "recensionId": null,
+      "type": "Carbonized papyrus roll",
+      "inventoryNumber": "P.Herc. 118",
+      "repository": "Bodleian Libraries, University of Oxford",
+      "discoveryLocation": "Villa of the Papyri, Herculaneum",
+      "currentLocation": "Oxford, United Kingdom",
+      "dateStart": null,
+      "dateEnd": 79,
+      "dateNotes": "The roll was carbonized by the 79 CE eruption; composition and copying dates remain unnormalized.",
+      "material": "Papyrus",
+      "languages": [
+        "Ancient Greek"
+      ],
+      "scripts": [
+        "Greek"
+      ],
+      "condition": "Carbonized and damaged",
+      "completeness": "Fragmentary roll; work association not asserted",
+      "provenance": "Recovered from the Villa of the Papyri at Herculaneum; Bodleian images are linked through the Herculaneum Society resource guide.",
+      "digitizationUrl": "https://www.herculaneum.ox.ac.uk/index.php/online-resources-on-herculaneum-papyri/",
+      "iiifManifest": null,
+      "rights": "Bodleian and project terms govern images; metadata link only.",
+      "sources": [
+        "https://www.herculaneum.ox.ac.uk/index.php/papyri/",
+        "https://www.herculaneum.ox.ac.uk/index.php/online-resources-on-herculaneum-papyri/"
+      ],
+      "decipherment": "Partially deciphered",
+      "evidence": "Fragmentary",
+      "description": "A carbonized physical roll from the only surviving ancient Greco-Roman library; Atlas does not infer a work identity from collection membership.",
+      "access": "Public metadata"
+    }
+  ]
+}

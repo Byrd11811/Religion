@@ -48,6 +48,7 @@ const knownSeeds = [
   "images.json",
   "indigenous-additions.json",
   "indigenous-collections.json",
+  "manuscript-expansion.json",
   "mesopotamia-additions.json",
   "mesopotamia-archive.json",
   "mesopotamia-editions.json",

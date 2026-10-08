@@ -25,8 +25,8 @@ const filters: ExplorationFilters = {
 test("map includes undated anchors and reports unlocated records without invented geography", () => {
   const scope = explorationScope(explorationRecords, filters);
   assert.equal(scope.mapped.length, 34);
-  assert.equal(scope.unlocated.length, 500);
-  assert.equal(scope.undated.length, 502);
+  assert.equal(scope.unlocated.length, 504);
+  assert.equal(scope.undated.length, 506);
   assert.equal(
     explorationScope(explorationRecords, { ...filters, includeUndated: false })
       .mapped.length,
@@ -56,10 +56,10 @@ test("timeline and missing-date denominators follow the same community and layer
     ...filters,
     kind: "witness",
   });
-  assert.equal(witnesses.dated.length, 33);
-  assert.equal(witnesses.undated.length, 5);
+  assert.equal(witnesses.dated.length, 41);
+  assert.equal(witnesses.undated.length, 15);
   assert.equal(witnesses.mapped.length, 0);
-  assert.equal(witnesses.unlocated.length, 38);
+  assert.equal(witnesses.unlocated.length, 56);
   assert.ok(
     witnesses.dated.every(
       (w) => w.dateNotes && w.sources.length && w.kind === "witness",

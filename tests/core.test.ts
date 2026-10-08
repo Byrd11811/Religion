@@ -689,6 +689,7 @@ test("concept expansion is bounded and explicit", () => {
   assert.deepEqual(detectConcepts("zxqv"), []);
 });
 test("archive separates physical witnesses, works and image associations", () => {
+  assert.equal(witnesses.length, 56);
   assert.ok(texts.every((t) => workProfile(t.id)?.id === t.id));
   assert.equal(
     witnesses.find((w) => w.id === "codex-gigas")?.type,
@@ -725,6 +726,15 @@ test("archive separates physical witnesses, works and image associations", () =>
   );
   assert.deepEqual(bremnerRhind?.workIds, ["book-of-knowing-evolutions-ra"]);
   assert.equal(bremnerRhind?.dateStart, -305);
+  const isaiahWitnesses = witnesses.filter((witness) => witness.workIds.includes("book-of-isaiah"));
+  assert.ok(isaiahWitnesses.length >= 1);
+  const gospelJohnWitnesses = witnesses.filter((witness) => witness.workIds.includes("gospel-of-john"));
+  assert.ok(gospelJohnWitnesses.length >= 3);
+  const vaticanus = witnesses.find((witness) => witness.id === "codex-vaticanus");
+  assert.equal(vaticanus?.iiifManifest, "https://digi.vatlib.it/iiif/MSS_Vat.gr.1209/manifest.json");
+  assert.ok(vaticanus?.provenance && vaticanus.rights && vaticanus.repository && vaticanus.dateNotes);
+  assert.ok(witnesses.every((witness) => witness.sources.length > 0 && witness.sources.every((source) => source.startsWith("https://"))));
+  assert.ok(witnesses.every((witness) => witness.workIds.every((id) => texts.some((text) => text.id === id))));
   const metReview = JSON.parse(
     readFileSync("data/intake/met-egypt-reviewed.json", "utf8"),
   ) as {

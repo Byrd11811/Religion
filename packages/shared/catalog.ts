@@ -12,6 +12,7 @@ import chinaEditions from "@/data/seed/china-editions.json";
 import hornAdditions from "@/data/seed/horn-additions.json";
 import indigenousAdditions from "@/data/seed/indigenous-additions.json";
 import regionalCoverage from "@/data/seed/regional-coverage.json";
+import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
 import type {
   TextRecord,
   Tradition,
@@ -63,6 +64,7 @@ export const texts = [
   ...(hornAdditions.records as TextRecord[]),
   ...(indigenousAdditions.records as TextRecord[]),
   ...(regionalCoverage.records as TextRecord[]),
+  ...(manuscriptExpansion.workRecords as TextRecord[]),
 ];
 export const traditions = traditionsData as Tradition[];
 export const editions = [
