@@ -234,6 +234,7 @@ export async function GET(req: NextRequest, { params }: Context) {
           "subtradition",
           "person",
           "concept",
+          "unresolved-corpus",
           "witness",
           "artifact",
         ] as const;

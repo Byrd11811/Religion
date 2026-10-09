@@ -5,6 +5,10 @@ import { guideFor, evidence } from "./guides";
 import { mayTranslate, workProfile } from "@/packages/shared/archive";
 import type { QueryAnswer, SearchHit } from "@/packages/shared/types";
 import { protocolDecision } from "@/packages/shared/protocols";
+import {
+  hypothesesForCorpus,
+  unresolvedCorpusForQuestion,
+} from "@/packages/shared/undeciphered";
 export interface SynthesisProvider {
   synthesize(question: string, passages: SearchHit[]): Promise<string>;
 }
@@ -92,6 +96,41 @@ export async function answerQuestion(
   question: string,
   filters: SearchOptions = {},
 ): Promise<QueryAnswer> {
+  const unresolved = unresolvedCorpusForQuestion(question);
+  if (unresolved) {
+    const hypotheses = hypothesesForCorpus(unresolved.id);
+    return {
+      question,
+      mode: "Unresolved-corpus evidence safeguard",
+      summary: `${unresolved.translationState}. Atlas cannot translate ${unresolved.title}, assign a meaning to an unresolved glyph, identify an author or religion from the signs, or treat a proposed decipherment as source text.`,
+      agreements: [unresolved.known],
+      disagreements: hypotheses.length
+        ? hypotheses.map(
+            (hypothesis) =>
+              `${hypothesis.proponent}: ${hypothesis.reception}; ${hypothesis.criticism}`,
+          )
+        : [unresolved.strongestObjection],
+      distinctive: [
+        `Script identification: ${unresolved.scriptState}`,
+        `Sign values: ${unresolved.signValuesState}`,
+        `Language identification: ${unresolved.languageState}`,
+        `Semantic translation: ${unresolved.translationState}`,
+      ],
+      history: `${unresolved.period}. ${unresolved.discovery}`,
+      influence:
+        "Graphic resemblance or geographic contact does not establish shared sign values, linguistic descent, or translation.",
+      independent:
+        "A decipherment requires constrained readings that generalize across the corpus and survive independent testing; a visually plausible match is insufficient.",
+      alternatives: unresolved.strongestHypothesis,
+      uncertainty: [
+        unresolved.unknown,
+        unresolved.strongestObjection,
+        "Physical authenticity and material dating do not validate an interpretation.",
+        "No generated reading is added to primary-source data.",
+      ],
+      passages: [],
+    };
+  }
   const passages = await hybridSearch(question, {
     ...filters,
     diverse: true,

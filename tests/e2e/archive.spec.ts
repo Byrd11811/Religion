@@ -19,6 +19,9 @@ test("archive pages distinguish works, undeciphered witnesses and images", async
   await expect(
     page.getByText("No accepted translation exists.", { exact: true }),
   ).toBeVisible();
+  await page
+    .getByRole("link", { name: "Open repository-linked witness record" })
+    .click();
   await page.getByRole("tab", { name: "Modern / Popular Claims" }).click();
   await expect(
     page.getByText("No verified source currently available in this category."),

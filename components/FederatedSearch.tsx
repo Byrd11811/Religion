@@ -39,6 +39,7 @@ const labels: Record<FederatedSearchHit["type"], string> = {
   subtradition: "Branch / context",
   person: "Person",
   concept: "Concept",
+  "unresolved-corpus": "Unresolved corpus",
   witness: "Physical witness",
   artifact: "Artifact",
 };

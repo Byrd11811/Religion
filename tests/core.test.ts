@@ -35,6 +35,12 @@ import { detectConcepts } from "../packages/ontology";
 import { exportCsv, exportMarkdown } from "../packages/citation";
 import { culturalProtocols, protocolDecision } from "../packages/shared/protocols";
 import regionalCoverage from "../data/seed/regional-coverage.json";
+import {
+  unresolvedCorpora,
+  unresolvedStatuses,
+  deciphermentHypotheses,
+  validateUnresolvedCorpusData,
+} from "../packages/shared/undeciphered";
 import type { Collection } from "../packages/shared/types";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
@@ -674,6 +680,78 @@ test("query answer exposes limitations and source ids", async () => {
   );
   assert.ok(neutral(result.summary));
   assert.equal(neutral("This is the most true religion"), false);
+});
+test("unresolved corpora separate script, sign, language, and translation states", () => {
+  assert.equal(validateUnresolvedCorpusData(), true);
+  assert.ok(unresolvedCorpora.length >= 25);
+  for (const id of [
+    "voynich-manuscript",
+    "rohonc-codex",
+    "linear-a",
+    "cretan-hieroglyphic",
+    "archanes-script",
+    "phaistos-disc",
+    "cypro-minoan",
+    "eteocypriot",
+    "eteocretan",
+    "indus-script",
+    "rongorongo",
+    "proto-elamite",
+    "byblos-syllabary",
+    "meroitic",
+    "iberian",
+    "southwestern-paleohispanic",
+    "khitan-large",
+    "khitan-small",
+    "jurchen-unresolved",
+    "vinca-signs",
+    "tartaria-tablets",
+    "jiahu-signs",
+    "cascajal-block",
+    "isthmian-script",
+    "linear-elamite",
+  ]) assert.ok(unresolvedCorpora.some((corpus) => corpus.id === id), id);
+  assert.ok(unresolvedStatuses.includes("SCRIPT DECIPHERED / LANGUAGE UNKNOWN"));
+  assert.ok(unresolvedStatuses.includes("HOAX / PSEUDO-SCRIPT QUESTION"));
+  assert.ok(
+    unresolvedCorpora.every(
+      (corpus) =>
+        corpus.scriptState &&
+        corpus.signValuesState &&
+        corpus.languageState &&
+        corpus.translationState &&
+        corpus.known &&
+        corpus.unknown,
+    ),
+  );
+  assert.ok(
+    deciphermentHypotheses.every(
+      (hypothesis) =>
+        hypothesis.proponent &&
+        hypothesis.method &&
+        hypothesis.peerReviewStatus &&
+        hypothesis.independentReplication &&
+        hypothesis.criticism &&
+        hypothesis.reception,
+    ),
+  );
+});
+test("unresolved-script questions refuse invented translation", async () => {
+  for (const question of [
+    "Translate Linear A",
+    "What does this Indus script glyph mean?",
+    "Does the Voynich Manuscript mention Jesus?",
+    "Does Rongorongo prove aliens?",
+    "What religion wrote the Phaistos Disc?",
+    "Is the Rohonc Codex Hebrew?",
+  ]) {
+    const answer = await answerQuestion(question);
+    assert.equal(answer.mode, "Unresolved-corpus evidence safeguard");
+    assert.equal(answer.passages.length, 0);
+    assert.equal(answer.synthesis, undefined);
+    assert.match(answer.summary, /cannot translate|No accepted translation/i);
+    assert.ok(answer.uncertainty.some((item) => /No generated reading/i.test(item)));
+  }
 });
 test("relationships never omit evidence or uncertainty", () => {
   for (const r of relationships) {

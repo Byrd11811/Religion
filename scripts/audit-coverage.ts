@@ -59,6 +59,7 @@ const knownSeeds = [
   "taxonomy.json",
   "texts.json",
   "traditions.json",
+  "undeciphered-corpora.json",
 ];
 const actualSeeds = readdirSync("data/seed")
   .filter((f) => f.endsWith(".json"))

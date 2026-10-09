@@ -2,6 +2,7 @@ import { concepts, tokenize } from "@/packages/ontology";
 import { museumArtifacts, witnesses } from "@/packages/shared/archive";
 import { texts, traditions } from "@/packages/shared/catalog";
 import { subtraditions } from "@/packages/shared/taxonomy";
+import { unresolvedCorpora } from "@/packages/shared/undeciphered";
 import type {
   FederatedEntityType,
   FederatedSearchHit,
@@ -253,6 +254,35 @@ function candidates(): Candidate[] {
       },
     ),
   );
+  const unresolved = unresolvedCorpora.map((corpus) =>
+    candidate(
+      {
+        id: corpus.id,
+        type: "unresolved-corpus" as const,
+        title: corpus.title,
+        subtitle: `${corpus.region} · ${corpus.status}`,
+        description: `${corpus.known} ${corpus.translationState}.`,
+        href: `/undeciphered/${corpus.id}`,
+        aliases: corpus.aliases,
+        availability: corpus.translationState,
+      },
+      [
+        corpus.title,
+        corpus.aliases,
+        corpus.region,
+        corpus.artifact,
+        corpus.status,
+        corpus.scriptState,
+        corpus.languageState,
+      ],
+      {
+        regions: [corpus.region],
+        languages: [corpus.languageState, corpus.scriptState],
+        rights: "Public metadata",
+        confidence: "Reviewed",
+      },
+    ),
+  );
   return [
     ...works,
     ...navigation,
@@ -261,6 +291,7 @@ function candidates(): Candidate[] {
     ...people,
     ...physicalWitnesses,
     ...objects,
+    ...unresolved,
   ];
 }
 
@@ -268,6 +299,7 @@ const archiveTypes = new Set<FederatedEntityType>([
   "work",
   "witness",
   "artifact",
+  "unresolved-corpus",
 ]);
 
 export function federatedSearch(

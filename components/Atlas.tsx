@@ -47,6 +47,7 @@ import { ChinaCollection } from "./China";
 import { HornCollection } from "./Horn";
 import { IndigenousCollection } from "./Indigenous";
 import { GlobalCoverageCollection } from "./GlobalCoverage";
+import { UndecipheredCollection, UndecipheredDetail } from "./Undeciphered";
 import {
   Timeline,
   WorldMap,
@@ -86,6 +87,7 @@ const navigation = [
       ["library/horn", "Ethiopia, Eritrea & the Horn", ScrollText],
       ["library/indigenous", "Global Indigenous traditions", Globe2],
       ["library/global", "Global Religious Coverage", Globe2],
+      ["library/undeciphered", "Unresolved Writing Systems", Search],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -147,6 +149,8 @@ export default function Atlas({
           <IndigenousCollection />
         ) : id === "global" ? (
           <GlobalCoverageCollection />
+        ) : id === "undeciphered" ? (
+          <UndecipheredCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (
@@ -241,6 +245,9 @@ export default function Atlas({
           <Manuscripts />
         </>
       );
+      break;
+    case "undeciphered":
+      content = id ? <UndecipheredDetail id={id} /> : <UndecipheredCollection />;
       break;
     case "methodology":
       content = <Methodology />;

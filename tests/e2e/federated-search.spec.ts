@@ -33,7 +33,7 @@ test("manuscript mode searches witness metadata and API validates filters", asyn
 }) => {
   await page.goto("/search?q=MS%20408");
   await expect(
-    page.getByRole("heading", { name: "Voynich Manuscript" }),
+    page.getByRole("heading", { name: "Voynich Manuscript" }).first(),
   ).toBeVisible();
   await page.getByLabel("Search mode").selectOption("Manuscripts");
   await expect(

@@ -99,6 +99,7 @@ export type FederatedEntityType =
   | "subtradition"
   | "person"
   | "concept"
+  | "unresolved-corpus"
   | "witness"
   | "artifact";
 export interface FederatedSearchHit {
