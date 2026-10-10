@@ -108,6 +108,111 @@ export const absentDatasets = [
   ["researchQueue", "Unresolved research-queue records"],
 ] as const;
 
+// Phase 16 collections include both first-class seed records and deliberately
+// derived evidence-state counts. Keeping the state partitions separate stops a
+// metadata-only or culturally restricted slot from being reported as usable
+// comparative evidence.
+export const phase16CoverageMetrics = [
+  {
+    id: "comparisonPacks",
+    label: "Curated comparison packs",
+    rule: "Distinct pack IDs. A named pack is not evidence that every requested source range is evidence-ready.",
+    source: "data/seed/comparison-packs.json",
+  },
+  {
+    id: "comparisonPackSlots",
+    label: "Comparison-pack source slots",
+    rule: "Distinct requested source-range slots across all seven packs, regardless of evidence state.",
+    source: "data/seed/comparison-packs.json",
+  },
+  {
+    id: "comparisonEvidenceReadySlots",
+    label: "Evidence-ready comparison-pack slots",
+    rule: "Slots explicitly marked evidence-ready with a resolved passage or bounded research reference; metadata alone never counts.",
+    source:
+      "data/seed/comparison-packs.json + packages/shared/comparison-packs.ts",
+  },
+  {
+    id: "comparisonMetadataOnlySlots",
+    label: "Metadata-only comparison-pack slots",
+    rule: "Slots explicitly marked metadata-only. These remain visible gaps and do not count as comparative evidence.",
+    source: "data/seed/comparison-packs.json",
+  },
+  {
+    id: "comparisonUnclassifiedSelectionSlots",
+    label: "Unclassified comparison-pack source selections",
+    rule: "Bounded selections whose passage source role is still Unknown. They remain inspectable but cannot support comparison findings.",
+    source:
+      "data/seed/comparison-packs.json + packages/shared/comparison-packs.ts",
+  },
+  {
+    id: "comparisonMissingSourceSlots",
+    label: "Comparison-pack slots missing a source",
+    rule: "Slots explicitly marked missing-source with a visible gap; a title or requested range does not satisfy the evidence requirement.",
+    source: "data/seed/comparison-packs.json",
+  },
+  {
+    id: "comparisonRestrictedSlots",
+    label: "Culturally restricted comparison-pack slots",
+    rule: "Community-specific slots explicitly marked culturally restricted and linked to protocol records; their metadata remains discoverable but source content is excluded.",
+    source: "data/seed/comparison-packs.json + packages/shared/protocols.ts",
+  },
+  {
+    id: "comparisonPackOutputs",
+    label: "Source-aware comparison-pack outputs",
+    rule: "Distinct authored outputs split into evidence-backed findings and non-evidentiary coverage/protocol notes, each with source categories, influence assessments and cautions.",
+    source: "data/seed/comparison-packs.json",
+  },
+  {
+    id: "researchEngineSources",
+    label: "Research-engine source records",
+    rule: "Distinct cited source records retained with perspective and verification metadata; source presence is not independent scholarly review of every claim.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "oppositionPropositions",
+    label: "Reviewed opposition propositions",
+    rule: "Distinct reviewed propositions used to retrieve attributed stances; tradition names alone never create opposition.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "oppositionStances",
+    label: "Attributed opposition stances",
+    rule: "Distinct proposition-linked stances with speaker/community, context, uncertainty, confidence and citations.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "comparisonEngineCases",
+    label: "Research comparison-engine cases",
+    rule: "Distinct comparison cases. Mode-specific evidence items are counted separately and similarity never creates an influence relationship.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "comparisonEngineEvidence",
+    label: "Mode-specific comparison evidence items",
+    rule: "Distinct subject claims, synthesis findings, similarities, contradictions, chronology findings, documented influence relationships and alternative interpretations across reviewed cases.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "teachingConductCases",
+    label: "Teaching-versus-conduct cases",
+    rule: "Distinct historical cases that keep teaching, conduct, actors, motives, contemporary voices and later interpretations separate.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "teachingConductEvidence",
+    label: "Teaching-versus-conduct evidence items",
+    rule: "Distinct supported and cited items across all nine required evidence lanes; documented gaps are measured separately and cannot inflate this count.",
+    source: "data/seed/research-engines.json",
+  },
+  {
+    id: "teachingConductEvidenceGaps",
+    label: "Teaching-versus-conduct documented evidence gaps",
+    rule: "Distinct cited absence records explicitly tagged documented-gap. A gap keeps a required review lane visible but never counts as evidence.",
+    source: "data/seed/research-engines.json",
+  },
+] as const;
+
 export function measureCoverage(
   input: CoverageInput,
   throughYear: number,
@@ -382,6 +487,14 @@ export function measureCoverage(
       uniqueIds(input.additionalCollections?.[id] ?? [], id).size,
       "Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes.",
       "docs/phase-0-model-evaluation.md",
+    );
+  for (const metric of phase16CoverageMetrics)
+    add(
+      metric.id,
+      metric.label,
+      uniqueIds(input.additionalCollections?.[metric.id] ?? [], metric.id).size,
+      metric.rule,
+      metric.source,
     );
   return result;
 }

@@ -8,6 +8,7 @@ import {
   witnesses,
   museumArtifacts,
   archiveImages,
+  archiveImageDisplayAllowed,
   coverageStatuses,
   type WorkProfile,
 } from "@/packages/shared/archive";
@@ -239,7 +240,9 @@ export function WitnessDetail({ id }: { id: string }) {
         unknown="Detailed scholarly bibliography and recension links remain to be added. Image availability and rights are recorded separately below."
       />
       <ManuscriptGallery
-        images={archiveImages.filter((i) => i.witnessId === id)}
+        images={archiveImages.filter(
+          (i) => i.witnessId === id && archiveImageDisplayAllowed(i),
+        )}
       />
     </>
   );
@@ -258,7 +261,9 @@ export function ArtifactDetail({ id }: { id: string }) {
       )}
       <IIIFViewer artifactId={id} />
       <ManuscriptGallery
-        images={archiveImages.filter((i) => i.artifactId === id)}
+        images={archiveImages.filter(
+          (i) => i.artifactId === id && archiveImageDisplayAllowed(i),
+        )}
       />
     </>
   ) : (
@@ -282,8 +287,10 @@ export function EgyptCollection() {
       egyptArtifactWitnessIds.has(witness.id) ||
       witness.workIds.some((id) => egyptWorkIds.has(id)),
   );
-  const images = archiveImages.filter((image) =>
-    objects.some((artifact) => artifact.id === image.artifactId),
+  const images = archiveImages.filter(
+    (image) =>
+      archiveImageDisplayAllowed(image) &&
+      objects.some((artifact) => artifact.id === image.artifactId),
   );
   const tabs = [
     "Overview",

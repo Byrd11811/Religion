@@ -30,6 +30,7 @@ import {
   textFinding,
 } from "./common";
 import type { Finding, Passage, SearchHit } from "@/packages/shared/types";
+import { protocolDecision } from "@/packages/shared/protocols";
 export type Actions = {
   onSave: (f: Finding) => void;
   onOpen: (p: SearchHit) => void;
@@ -324,13 +325,15 @@ export function TextDetail({ id, ...actions }: Actions & { id: string }) {
         description={text.canonStatus}
       />
       <div className="row wrap">
-        <button
-          className="button"
-          onClick={() => actions.onSave(textFinding(text))}
-        >
-          <Bookmark size={17} />
-          Save text
-        </button>
+        {protocolDecision(text.id, "cache").allowed && (
+          <button
+            className="button"
+            onClick={() => actions.onSave(textFinding(text))}
+          >
+            <Bookmark size={17} />
+            Save text
+          </button>
+        )}
         <Link className="button secondary" href={`/compare?text=${id}`}>
           <Columns3 size={17} />
           Compare
@@ -708,12 +711,16 @@ export function CanonView(actions: Actions) {
                 <td>{t.tradition}</td>
                 <td>{t.canonStatus}</td>
                 <td>
-                  <button
-                    className="text-button"
-                    onClick={() => actions.onSave(textFinding(t))}
-                  >
-                    Save
-                  </button>
+                  {protocolDecision(t.id, "cache").allowed ? (
+                    <button
+                      className="text-button"
+                      onClick={() => actions.onSave(textFinding(t))}
+                    >
+                      Save
+                    </button>
+                  ) : (
+                    <span className="small muted">Restricted</span>
+                  )}
                 </td>
               </tr>
             ))}

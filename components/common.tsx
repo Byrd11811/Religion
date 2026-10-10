@@ -18,6 +18,11 @@ import type {
   Collection,
 } from "@/packages/shared/types";
 import { cite } from "@/packages/citation";
+import {
+  assertProtocolAllows,
+  protocolDecision,
+} from "@/packages/shared/protocols";
+import { passageAiRightsAllowed } from "@/packages/shared/rights";
 import { EvidenceLadder, SourceDepth } from "./ArchiveEvidence";
 export async function api<T>(url: string, options?: RequestInit): Promise<T> {
   const res = await fetch(url, options);
@@ -98,7 +103,7 @@ export function TextCard({
               : "Read source selections"
             : "Metadata only"}
         </span>
-        {onSave ? (
+        {onSave && protocolDecision(text.id, "cache").allowed ? (
           <button
             className="icon-button"
             aria-label={`Save ${text.title}`}
@@ -116,9 +121,11 @@ export function TextCard({
   );
 }
 export function textFinding(t: TextRecord): Finding {
+  assertProtocolAllows(t.id, "cache");
   return {
     id: t.id,
     kind: "text",
+    textId: t.id,
     title: t.title,
     content: `${t.description}\n${t.canonStatus}\n${dateLabel(t.startDate, t.endDate)} — ${t.dateConfidence}`,
     sourceUrl: t.sourceUrl ?? undefined,
@@ -156,28 +163,34 @@ export function PassageCard({
           : passage.content}
       </blockquote>
       <p className="small muted">
-        {passage.translator} · {sourceEdition?.language ?? "Edition language unavailable"}
+        {passage.translator} ·{" "}
+        {sourceEdition?.language ?? "Edition language unavailable"}
       </p>
       <div className="row">
         <button className="text-button" onClick={() => onOpen(passage)}>
           Open citation <ArrowUpRight size={15} />
         </button>
-        <button
-          className="icon-button"
-          aria-label={`Pin ${passage.reference}`}
-          onClick={() =>
-            onSave({
-              id: passage.id,
-              kind: "passage",
-              title: `${passage.textTitle} · ${passage.reference}`,
-              content: passage.content + "\n\n" + cite(passage),
-              sourceUrl: passage.sourceUrl,
-              createdAt: new Date().toISOString(),
-            })
-          }
-        >
-          <Bookmark size={17} />
-        </button>
+        {protocolDecision(passage.textId, "cache").allowed &&
+          passageAiRightsAllowed(passage) && (
+          <button
+            className="icon-button"
+            aria-label={`Pin ${passage.reference}`}
+            onClick={() =>
+              onSave({
+                id: passage.id,
+                kind: "passage",
+                textId: passage.textId,
+                editionId: passage.editionId,
+                title: `${passage.textTitle} · ${passage.reference}`,
+                content: passage.content + "\n\n" + cite(passage),
+                sourceUrl: passage.sourceUrl,
+                createdAt: new Date().toISOString(),
+              })
+            }
+          >
+            <Bookmark size={17} />
+          </button>
+        )}
       </div>
     </article>
   );

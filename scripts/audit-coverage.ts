@@ -19,7 +19,11 @@ import {
 } from "../packages/shared/archive";
 import type { Passage } from "../packages/shared/types";
 import { passageSeedFiles } from "../packages/shared/seed-files";
-import { absentDatasets, measureCoverage } from "../packages/audit/coverage";
+import {
+  absentDatasets,
+  measureCoverage,
+  phase16CoverageMetrics,
+} from "../packages/audit/coverage";
 import {
   corpusTargets,
   requirementInventory,
@@ -38,6 +42,7 @@ const knownSeeds = [
   "china-archive.json",
   "china-editions.json",
   "china-passages.json",
+  "comparison-packs.json",
   "downloads.json",
   "editions.json",
   "egypt-additions.json",
@@ -63,6 +68,7 @@ const knownSeeds = [
   "passages.json",
   "regional-coverage.json",
   "relationships.json",
+  "research-engines.json",
   "taxonomy.json",
   "texts.json",
   "traditions.json",
@@ -83,6 +89,10 @@ const sourcePaths = [
   "packages/shared/forbidden-lost-disputed.ts",
   "packages/shared/modern-religions.ts",
   "packages/shared/ontology-entities.ts",
+  "packages/shared/comparison-packs.ts",
+  "packages/shared/research-engines.ts",
+  "packages/shared/research-provenance.ts",
+  "packages/shared/research.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/protocols.ts",
@@ -95,9 +105,22 @@ const sourcePaths = [
   "packages/db/archive.ts",
   "packages/ontology/index.ts",
   "packages/search/index.ts",
+  "packages/search/abort.ts",
   "packages/search/hybrid.ts",
   "packages/search/federated.ts",
+  "packages/search/scope.ts",
   "packages/ai/index.ts",
+  "packages/ai/claims.ts",
+  "packages/ai/compatible-research-provider.ts",
+  "packages/ai/neutrality.ts",
+  "packages/ai/provider.ts",
+  "packages/ai/research-query.ts",
+  "packages/ai/stream.ts",
+  "packages/research/comparison.ts",
+  "packages/research/index.ts",
+  "packages/research/opposition.ts",
+  "packages/research/scope.ts",
+  "packages/research/teaching-conduct.ts",
   "packages/citation/index.ts",
   "scripts/database.ts",
   "scripts/classify.ts",
@@ -110,6 +133,8 @@ const sourcePaths = [
   "scripts/ingest-forbidden-lost-disputed.py",
   "scripts/ingest-modern-religions.py",
   "scripts/ingest-ontology-entities.py",
+  "scripts/ingest-comparison-packs.py",
+  "scripts/ingest-research-engines.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
@@ -124,6 +149,10 @@ const sourcePaths = [
   "components/ForbiddenLostDisputed.tsx",
   "components/ModernReligions.tsx",
   "components/OntologyEntities.tsx",
+  "components/ComparisonPacks.tsx",
+  "components/Research.tsx",
+  "components/ResearchEngines.tsx",
+  "components/StructuredQuestion.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
   "app/globals.css",
@@ -133,6 +162,13 @@ const sourcePaths = [
   "app/api/[...path]/route.ts",
   "packages/maps/provider.ts",
   "packages/maps/leaflet.ts",
+  "tests/comparison-engines.test.ts",
+  "tests/comparison-packs.test.ts",
+  "tests/question-engine.test.ts",
+  "tests/research-provenance.test.ts",
+  "tests/search-scope.test.ts",
+  "tests/e2e/comparison-packs.spec.ts",
+  "tests/e2e/research-engines.spec.ts",
   "docs/atlas-completion-gap-audit.md",
   "docs/atlas-completion-roadmap.md",
   "docs/atlas-final-completion-directive.md",
@@ -193,6 +229,148 @@ const collectionAliases: Partial<
     "ontology-entities.json": "conversionModeAssignments",
   },
 };
+
+type IdRecord = Record<string, unknown> & { id: string };
+const asObject = (value: unknown, label: string) => {
+  if (!value || typeof value !== "object" || Array.isArray(value))
+    throw new Error(`Invalid ${label} object`);
+  return value as Record<string, unknown>;
+};
+const asIdRecords = (value: unknown, label: string): IdRecord[] => {
+  if (
+    !Array.isArray(value) ||
+    value.some(
+      (row) =>
+        !row ||
+        typeof row !== "object" ||
+        Array.isArray(row) ||
+        typeof (row as Record<string, unknown>).id !== "string",
+    )
+  )
+    throw new Error(`Invalid ${label} collection`);
+  return value as IdRecord[];
+};
+const flattenIdCollections = (
+  parents: IdRecord[],
+  keys: readonly string[],
+  label: string,
+) =>
+  parents.flatMap((parent) =>
+    keys.flatMap((key) => asIdRecords(parent[key], `${label}.${key}`)),
+  );
+
+const comparisonPackSeed = asObject(
+  parsedSeeds.get("comparison-packs.json"),
+  "comparison-packs.json",
+);
+const comparisonPacks = asIdRecords(
+  comparisonPackSeed.packs,
+  "comparison-packs.json packs",
+);
+const comparisonPackSlots = flattenIdCollections(
+  comparisonPacks,
+  ["slots"],
+  "comparison pack",
+);
+const comparisonPackOutputs = flattenIdCollections(
+  comparisonPacks,
+  ["comparisons"],
+  "comparison pack",
+);
+
+const researchEngineSeed = asObject(
+  parsedSeeds.get("research-engines.json"),
+  "research-engines.json",
+);
+const researchComparisonCases = asIdRecords(
+  researchEngineSeed.comparisonCases,
+  "research comparison cases",
+);
+const teachingConductCases = asIdRecords(
+  researchEngineSeed.teachingConductCases,
+  "teaching/conduct cases",
+);
+const phase16Collections: Record<string, IdRecord[]> = {
+  comparisonPacks,
+  comparisonPackSlots,
+  comparisonEvidenceReadySlots: comparisonPackSlots.filter(
+    (record) => record.status === "evidence-ready",
+  ),
+  comparisonMetadataOnlySlots: comparisonPackSlots.filter(
+    (record) => record.status === "metadata-only",
+  ),
+  comparisonUnclassifiedSelectionSlots: comparisonPackSlots.filter(
+    (record) => record.status === "unclassified-selection",
+  ),
+  comparisonMissingSourceSlots: comparisonPackSlots.filter(
+    (record) => record.status === "missing-source",
+  ),
+  comparisonRestrictedSlots: comparisonPackSlots.filter(
+    (record) => record.status === "culturally-restricted",
+  ),
+  comparisonPackOutputs,
+  researchEngineSources: asIdRecords(
+    researchEngineSeed.sources,
+    "research engine sources",
+  ),
+  oppositionPropositions: asIdRecords(
+    researchEngineSeed.propositions,
+    "opposition propositions",
+  ),
+  oppositionStances: asIdRecords(
+    researchEngineSeed.oppositionStances,
+    "opposition stances",
+  ),
+  comparisonEngineCases: researchComparisonCases,
+  comparisonEngineEvidence: flattenIdCollections(
+    researchComparisonCases,
+    [
+      "subjectClaims",
+      "synthesisFindings",
+      "similarityFindings",
+      "contradictionFindings",
+      "chronologyFindings",
+      "influenceRelationships",
+      "alternativeInterpretations",
+    ],
+    "research comparison case",
+  ),
+  teachingConductCases,
+  teachingConductEvidence: flattenIdCollections(
+    teachingConductCases,
+    [
+      "teachingEvidence",
+      "conductEvidence",
+      "justificationsAtTheTime",
+      "textsUsedToJustify",
+      "supportingReligiousVoices",
+      "opposingReligiousVoices",
+      "nonreligiousMotives",
+      "laterTheologicalInterpretations",
+      "modernScholarlyInterpretations",
+    ],
+    "teaching/conduct case",
+  ).filter((record) => record.recordKind !== "documented-gap"),
+  teachingConductEvidenceGaps: flattenIdCollections(
+    teachingConductCases,
+    [
+      "teachingEvidence",
+      "conductEvidence",
+      "justificationsAtTheTime",
+      "textsUsedToJustify",
+      "supportingReligiousVoices",
+      "opposingReligiousVoices",
+      "nonreligiousMotives",
+      "laterTheologicalInterpretations",
+      "modernScholarlyInterpretations",
+    ],
+    "teaching/conduct case",
+  ).filter((record) => record.recordKind === "documented-gap"),
+};
+for (const metric of phase16CoverageMetrics) {
+  if (!phase16Collections[metric.id])
+    throw new Error(`Missing Phase 16 coverage adapter for ${metric.id}`);
+}
 const input = {
   texts,
   traditions,
@@ -204,8 +382,9 @@ const input = {
   passages: passageSeedFiles.flatMap(
     (filename) => parsedSeeds.get(filename) as Passage[],
   ),
-  additionalCollections: Object.fromEntries(
-    absentDatasets.map(([id]) => {
+  additionalCollections: {
+    ...Object.fromEntries(
+      absentDatasets.map(([id]) => {
       const records: { id: string }[] = [];
       for (const filename of actualSeeds) {
         const data = parsedSeeds.get(filename);
@@ -230,8 +409,10 @@ const input = {
         }
       }
       return [id, records];
-    }),
-  ),
+      }),
+    ),
+    ...phase16Collections,
+  },
 };
 const metrics = measureCoverage(input, 2026);
 const inventory = requirementInventory(
@@ -330,7 +511,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 16 — Question, opposition and comparison engines",
+        currentFocus: "Phase 17 — Relationship graph",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -350,7 +531,7 @@ const outputs = new Map([
           { id: "13", status: "acceptance-implemented-not-finally-certified" },
           { id: "14", status: "acceptance-implemented-not-finally-certified" },
           { id: "15", status: "acceptance-implemented-not-finally-certified" },
-          { id: "16", status: "in-progress" },
+          { id: "16", status: "acceptance-implemented-not-finally-certified" },
           ...Array.from({ length: 13 }, (_, index) => ({
             id: String(index + 17),
             status: "not-started",

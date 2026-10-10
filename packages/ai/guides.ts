@@ -1,5 +1,7 @@
 import { allPassages, type SearchOptions } from "@/packages/search";
 import { texts, editions } from "@/packages/shared/catalog";
+import { protocolDecision } from "@/packages/shared/protocols";
+import { passageAiRightsAllowed } from "@/packages/shared/rights";
 import type { QueryAnswer, SearchHit } from "@/packages/shared/types";
 
 type Guide = NonNullable<QueryAnswer["guide"]> & { match: RegExp };
@@ -125,7 +127,9 @@ export function guideFor(question: string, filters: SearchOptions) {
   // The whole guide compares a fixed set. Omit it when any source falls outside scope.
   const allowed = guide.perspectives.every((p) => {
     const t = texts.find((t) => t.id === p.textId)!;
+    const citedPassages = p.passageIds.map(evidence);
     return (
+      protocolDecision(t.id, "search").allowed &&
       (!filters.textIds?.length || filters.textIds.includes(t.id)) &&
       (!filters.traditions?.length ||
         filters.traditions.includes(t.traditionId)) &&
@@ -135,9 +139,14 @@ export function guideFor(question: string, filters: SearchOptions) {
       (filters.after === undefined ||
         (t.endDate !== null && t.endDate >= filters.after)) &&
       (!filters.editionIds?.length ||
-        p.passageIds.every((id) =>
-          filters.editionIds!.includes(evidence(id).editionId),
-        ))
+        citedPassages.every((passage) =>
+          filters.editionIds!.includes(passage.editionId),
+        )) &&
+      (!filters.contentTypes?.length ||
+        citedPassages.every((passage) =>
+          filters.contentTypes!.includes(passage.contentType),
+        )) &&
+      citedPassages.every((passage) => passageAiRightsAllowed(passage))
     );
   });
   if (!allowed) return;

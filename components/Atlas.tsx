@@ -32,7 +32,13 @@ import { questions } from "@/packages/ontology";
 import type { Finding, SearchHit } from "@/packages/shared/types";
 import { CitationDrawer, SaveDialog, TextCard, Empty } from "./common";
 import { Library, TextDetail, TraditionsView, CanonView } from "./Library";
-import { QuestionExplorer, Compare, Workspace } from "./Research";
+import { Compare, Workspace } from "./Research";
+import { StructuredQuestionExplorer } from "./StructuredQuestion";
+import { ComparisonPacks } from "./ComparisonPacks";
+import {
+  OppositionExplorer,
+  TeachingConductExplorer,
+} from "./ResearchEngines";
 import {
   DeepArchive,
   WitnessDetail,
@@ -68,8 +74,11 @@ const navigation = [
     [
       ["home", "Overview", Compass],
       ["questions", "Question Explorer", MessageCircle],
+      ["opposition", "Show the Opposition", Scale],
       ["library", "Text Library", BookOpen],
       ["compare", "Compare Texts", Columns3],
+      ["compare/packs", "Curated Comparison Packs", Layers3],
+      ["teaching-conduct", "Teaching vs Conduct", Scale],
     ],
   ],
   [
@@ -214,18 +223,26 @@ export default function Atlas({
       content = <TraditionsView id={id} {...actions} />;
       break;
     case "questions":
-    case "opposition":
       content = (
-        <QuestionExplorer
+        <StructuredQuestionExplorer
           initialQuery={initialQuery}
           initialText={initialText}
-          opposition={route === "opposition"}
           {...actions}
         />
       );
       break;
+    case "opposition":
+      content = <OppositionExplorer initialQuery={initialQuery} />;
+      break;
+    case "teaching-conduct":
+      content = <TeachingConductExplorer />;
+      break;
     case "compare":
-      content = <Compare initialText={initialText} {...actions} />;
+      content = id ? (
+        <ComparisonPacks packId={id} />
+      ) : (
+        <Compare initialText={initialText} {...actions} />
+      );
       break;
     case "timeline":
       content = <Timeline />;
@@ -307,24 +324,28 @@ export default function Atlas({
           {navigation.map(([group, items]) => (
             <div className="nav-group" key={group}>
               <span>{group}</span>
-              {items.map(([path, label, Icon]) => (
-                <Link
-                  onClick={() => setMenu(false)}
-                  className={
-                    route === path ||
-                    `${route}/${id ?? ""}` === path ||
-                    (path === "library" && route === "texts")
-                      ? "active"
-                      : ""
-                  }
-                  key={path}
-                  href={path === "home" ? "/" : `/${path}`}
-                >
-                  <Icon size={18} strokeWidth={1.6} />
-                  {label}
-                  {route === path && <span className="nav-dot" />}
-                </Link>
-              ))}
+              {items.map(([path, label, Icon]) => {
+                const active =
+                  path === "compare/packs"
+                    ? route === "compare" && Boolean(id)
+                    : path === "compare"
+                      ? route === "compare" && !id
+                      : route === path ||
+                        `${route}/${id ?? ""}` === path ||
+                        (path === "library" && route === "texts");
+                return (
+                  <Link
+                    onClick={() => setMenu(false)}
+                    className={active ? "active" : ""}
+                    key={path}
+                    href={path === "home" ? "/" : `/${path}`}
+                  >
+                    <Icon size={18} strokeWidth={1.6} />
+                    {label}
+                    {active && <span className="nav-dot" />}
+                  </Link>
+                );
+              })}
             </div>
           ))}
         </nav>
@@ -568,7 +589,7 @@ function Home({ onSave }: { onSave: (f: Finding) => void }) {
             Story parallels <ArrowUpRight size={16} />
           </span>
         </Link>
-        <Link href="/opposition?q=obedience" className="discovery-card">
+        <Link href="/opposition?q=religious%20coercion" className="discovery-card">
           <Scale size={25} />
           <h3>
             Make room for

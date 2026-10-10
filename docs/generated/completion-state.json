@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "declarationAllowed": false,
-  "currentFocus": "Phase 16 — Question, opposition and comparison engines",
+  "currentFocus": "Phase 17 — Relationship graph",
   "continuation": "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
   "phases": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "id": "16",
-      "status": "in-progress"
+      "status": "acceptance-implemented-not-finally-certified"
     },
     {
       "id": "17",

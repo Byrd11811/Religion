@@ -13,7 +13,21 @@ import { syncArchive } from "../packages/db/archive";
 import { syncOntology } from "../packages/db/ontology";
 import { syncTaxonomy } from "../packages/db/taxonomy";
 import { loadEnvConfig } from "@next/env";
+import { aiRightsDecision } from "../packages/shared/rights";
 loadEnvConfig(process.cwd());
+const editionRightsAllowed = (editionId: string) => {
+  const edition = editions.find((item) => item.id === editionId);
+  const work = edition && texts.find((item) => item.id === edition.textId);
+  return Boolean(
+    edition &&
+    work &&
+    aiRightsDecision(edition.license, work.copyright).allowed,
+  );
+};
+const workHasRightsClearedEdition = (textId: string) =>
+  editions.some(
+    (edition) => edition.textId === textId && editionRightsAllowed(edition.id),
+  );
 async function main() {
   const client = await database();
   try {
@@ -34,7 +48,7 @@ async function main() {
       );
     for (const t of texts)
       await client.query(
-        "INSERT INTO texts(id,title,tradition_id,category,canon_status,approximate_start_date,approximate_end_date,date_confidence,origin_region,origin_lat,origin_lng,original_language,authorship_summary,description,historical_context,manuscript_history,source_status,copyright_status,public_domain_available,primary_source_url,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21) ON CONFLICT(id) DO UPDATE SET title=EXCLUDED.title,canon_status=EXCLUDED.canon_status,approximate_start_date=EXCLUDED.approximate_start_date,approximate_end_date=EXCLUDED.approximate_end_date,metadata=EXCLUDED.metadata",
+        "INSERT INTO texts(id,title,tradition_id,category,canon_status,approximate_start_date,approximate_end_date,date_confidence,origin_region,origin_lat,origin_lng,original_language,authorship_summary,description,historical_context,manuscript_history,source_status,copyright_status,public_domain_available,primary_source_url,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21) ON CONFLICT(id) DO UPDATE SET title=EXCLUDED.title,canon_status=EXCLUDED.canon_status,approximate_start_date=EXCLUDED.approximate_start_date,approximate_end_date=EXCLUDED.approximate_end_date,copyright_status=EXCLUDED.copyright_status,public_domain_available=EXCLUDED.public_domain_available,metadata=EXCLUDED.metadata",
         [
           t.id,
           t.title,
@@ -54,14 +68,14 @@ async function main() {
           t.manuscripts,
           t.sourceStatus,
           t.copyright,
-          !!t.editionId,
+          workHasRightsClearedEdition(t.id),
           t.sourceUrl,
           JSON.stringify(t),
         ],
       );
     for (const e of editions)
       await client.query(
-        "INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9) ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,title=EXCLUDED.title,translator=EXCLUDED.translator,language=EXCLUDED.language,license=EXCLUDED.license,source_url=EXCLUDED.source_url,sha256=EXCLUDED.sha256,metadata=EXCLUDED.metadata",
+        "INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,public_domain,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10) ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,title=EXCLUDED.title,translator=EXCLUDED.translator,language=EXCLUDED.language,license=EXCLUDED.license,source_url=EXCLUDED.source_url,sha256=EXCLUDED.sha256,public_domain=EXCLUDED.public_domain,metadata=EXCLUDED.metadata",
         [
           e.id,
           e.textId,
@@ -71,6 +85,7 @@ async function main() {
           e.license,
           e.sourceUrl,
           e.sha256,
+          editionRightsAllowed(e.id),
           JSON.stringify(e),
         ],
       );
@@ -87,7 +102,7 @@ async function main() {
     for (const p of allPassages()) {
       const e = editions.find((e) => e.id === p.editionId)!;
       await client.query(
-        "INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9,$10,$11) ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,edition_id=EXCLUDED.edition_id,sequence=EXCLUDED.sequence,reference=EXCLUDED.reference,translation=EXCLUDED.translation,translator=EXCLUDED.translator,copyright_status=EXCLUDED.copyright_status,public_domain=EXCLUDED.public_domain,source_url=EXCLUDED.source_url,content_type=EXCLUDED.content_type,metadata=EXCLUDED.metadata",
+        "INSERT INTO passages(id,text_id,edition_id,sequence,reference,translation,translator,copyright_status,public_domain,source_url,content_type,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12) ON CONFLICT(id) DO UPDATE SET text_id=EXCLUDED.text_id,edition_id=EXCLUDED.edition_id,sequence=EXCLUDED.sequence,reference=EXCLUDED.reference,translation=EXCLUDED.translation,translator=EXCLUDED.translator,copyright_status=EXCLUDED.copyright_status,public_domain=EXCLUDED.public_domain,source_url=EXCLUDED.source_url,content_type=EXCLUDED.content_type,metadata=EXCLUDED.metadata",
         [
           p.id,
           p.textId,
@@ -97,6 +112,7 @@ async function main() {
           p.content,
           e.translator,
           e.license,
+          editionRightsAllowed(p.editionId),
           p.sourceUrl,
           p.contentType,
           JSON.stringify(p),

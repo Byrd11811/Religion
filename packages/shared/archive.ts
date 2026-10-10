@@ -5,7 +5,7 @@ import chinaArchive from "@/data/seed/china-archive.json";
 import hornArchive from "@/data/seed/horn-archive.json";
 import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
 import esotericArchive from "@/data/seed/esoteric-archive.json";
-import { protocolForWork } from "./protocols";
+import { protocolDecision, protocolForWork } from "./protocols";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -344,6 +344,16 @@ export const archiveImages: ArchiveImage[] = artifacts
     chinaArchive.images as ArchiveImage[],
     hornArchive.images as ArchiveImage[],
   );
+export function archiveImageDisplayAllowed(image: ArchiveImage) {
+  return (
+    image.publicDomain &&
+    image.rights.normalize("NFKC").trim().replace(/\s+/gu, " ") ===
+      "CC0 1.0 Universal · Met Open Access" &&
+    image.workIds.every(
+      (workId) => protocolDecision(workId, "display").allowed,
+    )
+  );
+}
 export function mayTranslate(record: {
   decipherment: Decipherment;
   coverage?: CoverageStatus;

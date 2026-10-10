@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased — Phase 16 question, opposition and comparison engines
+
+- Replaced the question view with a cancellable evidence-first structured stream that emits status before retrieval, covers all 15 required answer sections and falls back explicitly to evidence-only output when no model is configured or validation fails. Cancellation propagates through lexical and semantic retrieval, generation, audit and the response stream.
+- Added provider-independent typed claims, exact canonical citation resolution, evidence ladders and confidence, an independent audit of every provider-authored claim, individual entailment decisions for every resolved citation ID, the complete 12-item neutrality audit and one bounded regeneration attempt. Citation IDs are audited separately even when they point to the same source.
+- Added versioned saved-question provenance containing the immutable scope submitted with the completed result, evidence ladders and both audits without copying source passage bodies.
+- Replaced tradition-name opposition filtering with four reviewed propositions and 23 attributed stances spanning all nine required stance categories.
+- Added six distinct comparison modes backed by reviewed cases, chronology, contextual contradiction, documented influence boundaries and alternative readings.
+- Added four Teaching vs Historical Conduct dossiers across Christian, Islamic, Buddhist and Hindu contexts, with equal evidence lanes, claim-level inspected-source locators, named historical voices where established, explicit evidence gaps where they are not, and no conversion of adherent conduct into doctrine.
+- Added the seven required curated packs with 72 requested source slots, 10 evidence-backed findings, 11 coverage/protocol notes, explicit unclassified/metadata/restriction/missing states, source-category separation, and provenance exports that omit protocol-blocked slots.
+- Moved lexical and semantic source scope predicates before database candidate limits and added a large-distractor regression.
+- Added abort checkpoints throughout cold bundled-corpus indexing and a deterministic seed fingerprint that prevents repeat embedded-database starts from rewriting the entire passage corpus.
+
 ## Unreleased — Phase 15 ontology and entity expansion
 
 - Replaced the 17-label demo vocabulary with 89 sourced concepts, nine top-level branches, 115 typed concept links and 20 scoped original-language terms.

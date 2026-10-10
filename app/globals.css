@@ -1267,6 +1267,220 @@ details p {
   max-height: 450px;
   overflow: auto;
 }
+
+/* Audited question stream */
+.stream-status {
+  margin: 22px 0;
+  padding: 18px 22px;
+  border-left: 3px solid var(--gold);
+  background: var(--gold-light);
+}
+.stream-status ol {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+.stream-evidence-grid,
+.claim-citations,
+.source-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.stream-evidence-grid a,
+.claim-citations a,
+.source-index a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 15px;
+  border-radius: 4px;
+}
+.stream-evidence-grid a:hover,
+.claim-citations a:hover,
+.source-index a:hover {
+  border-color: var(--gold);
+}
+.stream-evidence-grid span,
+.claim-citations span,
+.source-index span {
+  color: var(--muted);
+  font-size: 11px;
+}
+.stream-evidence-grid q,
+.claim-citations q {
+  color: var(--muted);
+  font: 12px/1.55 Georgia, serif;
+}
+.research-sections {
+  display: grid;
+  gap: 26px;
+}
+.research-section {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  scroll-margin-top: 80px;
+}
+.section-heading.compact {
+  margin: 0 0 13px;
+  align-items: baseline;
+}
+.section-heading.compact h2 {
+  margin: 0;
+}
+.section-heading.compact > span {
+  color: var(--muted);
+  font-size: 11px;
+}
+.research-claim-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 14px;
+}
+.research-claim {
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.research-claim h3 {
+  margin: 14px 0 8px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+.research-claim > p,
+.claim-alternatives {
+  font-size: 13px;
+  line-height: 1.65;
+}
+.claim-status {
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+.status-disputed,
+.status-unsupported {
+  color: #8c3f2e;
+}
+.claim-citations {
+  grid-template-columns: 1fr;
+  margin: 16px 0;
+}
+.claim-alternatives ul,
+.neutrality-audit ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+.research-claim .evidence-detail ol {
+  padding-left: 20px;
+}
+.research-claim .evidence-detail li,
+.neutrality-audit li {
+  margin: 10px 0;
+}
+.research-claim .evidence-detail li span,
+.neutrality-audit li span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Phase 16 reviewed opposition, comparison, and conduct engines */
+.compact-filters {
+  margin: 18px 0 24px;
+  align-items: end;
+}
+.proposition-chips {
+  margin-bottom: 8px;
+}
+.engine-results,
+.stance-grid,
+.conduct-lanes {
+  display: grid;
+  gap: 16px;
+}
+.stance-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 20px;
+}
+.engine-source-links {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+}
+.engine-source-links a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 30px 10px 12px;
+  border-left: 2px solid var(--gold);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 11px;
+}
+.engine-source-links a > span,
+.engine-source-links a > small {
+  color: var(--muted);
+}
+.engine-source-links a > svg {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+}
+.conduct-case {
+  margin: 35px 0 55px;
+}
+.conduct-lanes {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.conduct-evidence-card {
+  border-top: 1px solid var(--line);
+  padding: 15px 0;
+}
+.conduct-evidence-card:first-of-type {
+  border-top: 0;
+}
+.conduct-evidence-card.documented-gap {
+  margin: 10px 0;
+  padding: 14px;
+  border: 1px dashed var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, var(--paper));
+}
+.conduct-evidence-card.documented-gap:first-of-type {
+  border-top: 1px dashed var(--gold);
+}
+.comparison-engine-results {
+  margin: 28px 0;
+}
+.comparison-engine-section {
+  border-top: 1px solid var(--line);
+  margin-top: 22px;
+  padding-top: 18px;
+}
+.comparison-engine-section > h3 {
+  text-transform: capitalize;
+}
+
+@media (max-width: 760px) {
+  .conduct-lanes,
+  .stance-grid,
+  .research-claim-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .print-notes {
   display: none;
 }

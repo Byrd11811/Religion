@@ -33,6 +33,66 @@ import esotericLiterature from "../data/seed/esoteric-literature.json";
 import modernReligions from "../data/seed/modern-religions.json";
 import forbiddenLostDisputed from "../data/seed/forbidden-lost-disputed.json";
 import ontologyEntities from "../data/seed/ontology-entities.json";
+import comparisonPackData from "../data/seed/comparison-packs.json";
+import researchEngineData from "../data/seed/research-engines.json";
+
+type IdRecord = { id: string; recordKind?: string };
+type PackSlot = IdRecord & { status: string };
+const packRecords = comparisonPackData.packs as unknown as {
+  id: string;
+  slots: PackSlot[];
+  comparisons: IdRecord[];
+}[];
+const comparisonPackSlots = packRecords.flatMap((pack) => pack.slots);
+const comparisonPackOutputs = packRecords.flatMap((pack) => pack.comparisons);
+const comparisonCases =
+  researchEngineData.comparisonCases as unknown as (IdRecord & {
+    subjectClaims: IdRecord[];
+    synthesisFindings: IdRecord[];
+    similarityFindings: IdRecord[];
+    contradictionFindings: IdRecord[];
+    chronologyFindings: IdRecord[];
+    influenceRelationships: IdRecord[];
+    alternativeInterpretations: IdRecord[];
+  })[];
+const conductCases =
+  researchEngineData.teachingConductCases as unknown as (IdRecord & {
+    teachingEvidence: IdRecord[];
+    conductEvidence: IdRecord[];
+    justificationsAtTheTime: IdRecord[];
+    textsUsedToJustify: IdRecord[];
+    supportingReligiousVoices: IdRecord[];
+    opposingReligiousVoices: IdRecord[];
+    nonreligiousMotives: IdRecord[];
+    laterTheologicalInterpretations: IdRecord[];
+    modernScholarlyInterpretations: IdRecord[];
+  })[];
+const comparisonEngineEvidence = comparisonCases.flatMap((item) => [
+  ...item.subjectClaims,
+  ...item.synthesisFindings,
+  ...item.similarityFindings,
+  ...item.contradictionFindings,
+  ...item.chronologyFindings,
+  ...item.influenceRelationships,
+  ...item.alternativeInterpretations,
+]);
+const teachingConductLaneItems = conductCases.flatMap((item) => [
+  ...item.teachingEvidence,
+  ...item.conductEvidence,
+  ...item.justificationsAtTheTime,
+  ...item.textsUsedToJustify,
+  ...item.supportingReligiousVoices,
+  ...item.opposingReligiousVoices,
+  ...item.nonreligiousMotives,
+  ...item.laterTheologicalInterpretations,
+  ...item.modernScholarlyInterpretations,
+]);
+const teachingConductEvidence = teachingConductLaneItems.filter(
+  (item) => item.recordKind !== "documented-gap",
+);
+const teachingConductEvidenceGaps = teachingConductLaneItems.filter(
+  (item) => item.recordKind === "documented-gap",
+);
 
 const input: CoverageInput = {
   texts,
@@ -83,6 +143,32 @@ const input: CoverageInput = {
     necromancy: esotericLiterature.necromancy,
     organizations: esotericLiterature.organizations,
     sacrificeEvidence: esotericLiterature.sacrificeEvidence,
+    comparisonPacks: packRecords,
+    comparisonPackSlots,
+    comparisonEvidenceReadySlots: comparisonPackSlots.filter(
+      (item) => item.status === "evidence-ready",
+    ),
+    comparisonMetadataOnlySlots: comparisonPackSlots.filter(
+      (item) => item.status === "metadata-only",
+    ),
+    comparisonUnclassifiedSelectionSlots: comparisonPackSlots.filter(
+      (item) => item.status === "unclassified-selection",
+    ),
+    comparisonMissingSourceSlots: comparisonPackSlots.filter(
+      (item) => item.status === "missing-source",
+    ),
+    comparisonRestrictedSlots: comparisonPackSlots.filter(
+      (item) => item.status === "culturally-restricted",
+    ),
+    comparisonPackOutputs,
+    researchEngineSources: researchEngineData.sources,
+    oppositionPropositions: researchEngineData.propositions,
+    oppositionStances: researchEngineData.oppositionStances,
+    comparisonEngineCases: comparisonCases,
+    comparisonEngineEvidence,
+    teachingConductCases: conductCases,
+    teachingConductEvidence,
+    teachingConductEvidenceGaps,
   },
 };
 const read = (file: string) => readFileSync(file, "utf8");
@@ -151,6 +237,22 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("necromancy").seeded, 4);
   assert.equal(get("organizations").seeded, 8);
   assert.equal(get("sacrificeEvidence").seeded, 9);
+  assert.equal(get("comparisonPacks").seeded, 7);
+  assert.equal(get("comparisonPackSlots").seeded, 72);
+  assert.equal(get("comparisonEvidenceReadySlots").seeded, 17);
+  assert.equal(get("comparisonMetadataOnlySlots").seeded, 23);
+  assert.equal(get("comparisonUnclassifiedSelectionSlots").seeded, 17);
+  assert.equal(get("comparisonMissingSourceSlots").seeded, 1);
+  assert.equal(get("comparisonRestrictedSlots").seeded, 14);
+  assert.equal(get("comparisonPackOutputs").seeded, 21);
+  assert.equal(get("researchEngineSources").seeded, 28);
+  assert.equal(get("oppositionPropositions").seeded, 4);
+  assert.equal(get("oppositionStances").seeded, 23);
+  assert.equal(get("comparisonEngineCases").seeded, 4);
+  assert.equal(get("comparisonEngineEvidence").seeded, 60);
+  assert.equal(get("teachingConductCases").seeded, 4);
+  assert.equal(get("teachingConductEvidence").seeded, 35);
+  assert.equal(get("teachingConductEvidenceGaps").seeded, 5);
   assert.ok(
     metrics.every(
       (m) => m.persisted === null && m.tested === null && !m.complete,

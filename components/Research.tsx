@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -24,8 +24,17 @@ import type {
   Relationship,
 } from "@/packages/shared/types";
 import { api, Heading, PassageCard, Empty, Dialog, Badge } from "./common";
-import { exportCsv, exportMarkdown, exportableCollection } from "@/packages/citation";
+import {
+  exportCsv,
+  exportMarkdown,
+  exportableCollection,
+} from "@/packages/citation";
 import type { Actions } from "./Library";
+import type { ComparisonResponse } from "@/packages/research/comparison";
+import type { ResearchEngineSource } from "@/packages/shared/research-engines";
+import { comparisonProvenanceSnapshot } from "@/packages/shared/research-provenance";
+import { ComparisonEngineResults } from "./ResearchEngines";
+import { orderTextsByCompositionDate } from "@/packages/research/chronology-order";
 export function QuestionExplorer({
   initialQuery = "",
   initialText = "",
@@ -316,8 +325,18 @@ type Comparison = {
   texts: TextRecord[];
   passages: { textId: string; passages: SearchHit[] }[];
   relationships: Relationship[];
+  engineAnalysis: ComparisonResponse;
+  researchSources: ResearchEngineSource[];
   note: string;
 };
+const comparisonModeApi = {
+  Synthesize: "synthesize",
+  "Show Contradictions": "contradictions",
+  "Show Similarities": "similarities",
+  "Show Earlier Parallels": "earlier-parallels",
+  "Show Later Echoes": "later-echoes",
+  "Show Alternative Interpretations": "alternative-interpretations",
+} as const;
 export function Compare({
   initialText = "",
   ...actions
@@ -325,31 +344,59 @@ export function Compare({
   const [ids, setIds] = useState<string[]>(
       initialText
         ? [initialText, "dhammapada"].filter((v, i, a) => a.indexOf(v) === i)
-        : ["bhagavad-gita", "dhammapada", "plato-phaedo"],
+        : [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching",
+            "the-satanic-bible",
+          ],
     ),
-    [q, setQ] = useState("soul"),
+    [q, setQ] = useState(initialText ? "soul" : "injury"),
     [search, setSearch] = useState(""),
     [data, setData] = useState<Comparison | null>(null),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false),
     [mode, setMode] = useState("Synthesize");
+  const comparisonRequest = useRef<AbortController | null>(null);
+
+  function invalidateComparison() {
+    comparisonRequest.current?.abort();
+    comparisonRequest.current = null;
+    setBusy(false);
+    setData(null);
+  }
+
   async function run(nextMode = "Synthesize") {
+    comparisonRequest.current?.abort();
+    const request = new AbortController();
+    comparisonRequest.current = request;
     setMode(nextMode);
     setBusy(true);
     setError("");
+    setData(null);
     try {
-      setData(
-        await api<Comparison>("/api/compare", {
-          method: "POST",
-          body: JSON.stringify({ textIds: ids, theme: q }),
+      const result = await api<Comparison>("/api/compare", {
+        method: "POST",
+        signal: request.signal,
+        body: JSON.stringify({
+          textIds: ids,
+          theme: q,
+          mode: comparisonModeApi[nextMode as keyof typeof comparisonModeApi],
         }),
-      );
+      });
+      if (comparisonRequest.current === request) setData(result);
     } catch (e) {
-      setError((e as Error).message);
+      if (comparisonRequest.current === request && !request.signal.aborted)
+        setError((e as Error).message);
     } finally {
-      setBusy(false);
+      if (comparisonRequest.current === request) {
+        comparisonRequest.current = null;
+        setBusy(false);
+      }
     }
   }
+  useEffect(() => () => comparisonRequest.current?.abort(), []);
   const selected = texts.filter((t) => ids.includes(t.id));
   const fields: [string, (t: TextRecord) => string][] = [
     ["Tradition", (t) => t.tradition],
@@ -385,7 +432,7 @@ export function Compare({
               key={t.id}
               onClick={() => {
                 setIds(ids.filter((id) => id !== t.id));
-                setData(null);
+                invalidateComparison();
               }}
               aria-label={`Remove ${t.title}`}
             >
@@ -408,7 +455,7 @@ export function Compare({
               value={q}
               onChange={(e) => {
                 setQ(e.target.value);
-                setData(null);
+                invalidateComparison();
               }}
             />
           </label>
@@ -437,7 +484,7 @@ export function Compare({
                   onClick={() => {
                     setIds([...ids, t.id]);
                     setSearch("");
-                    setData(null);
+                    invalidateComparison();
                   }}
                 >
                   <Plus size={15} />
@@ -497,7 +544,8 @@ export function Compare({
               <button
                 className={mode === m ? "selected" : ""}
                 key={m}
-                onClick={() => setMode(m)}
+                disabled={busy}
+                onClick={() => void run(m)}
               >
                 {m}
               </button>
@@ -508,12 +556,10 @@ export function Compare({
             <p>{analysis}</p>
             {mode.includes("Earlier") || mode.includes("Later") ? (
               <ol>
-                {[...selected]
-                  .sort(
-                    (a, b) =>
-                      (mode.includes("Earlier") ? 1 : -1) *
-                      ((a.startDate ?? 9999) - (b.startDate ?? 9999)),
-                  )
+                {orderTextsByCompositionDate(
+                  selected,
+                  mode.includes("Earlier") ? "earlier" : "later",
+                )
                   .map((t) => (
                     <li key={t.id}>
                       {t.title} · {dateLabel(t.startDate, t.endDate)}
@@ -522,6 +568,10 @@ export function Compare({
               </ol>
             ) : null}
           </div>
+          <ComparisonEngineResults
+            response={data.engineAnalysis}
+            sources={data.researchSources}
+          />
           {(mode === "Show Contradictions" ||
             mode === "Show Alternative Interpretations") &&
             (data.cases.length ? (
@@ -564,15 +614,28 @@ export function Compare({
           </div>
           <button
             className="button secondary"
-            onClick={() =>
+            onClick={() => {
+              const createdAt = new Date().toISOString();
               actions.onSave({
                 id: `compare-${Date.now()}`,
                 kind: "comparison",
                 title: `Comparison: ${q}`,
-                content: JSON.stringify(data, null, 2),
-                createdAt: new Date().toISOString(),
-              })
-            }
+                content: JSON.stringify(
+                  comparisonProvenanceSnapshot(
+                    data,
+                    {
+                      textIds: ids,
+                      theme: q,
+                      mode: data.engineAnalysis.mode,
+                    },
+                    createdAt,
+                  ),
+                  null,
+                  2,
+                ),
+                createdAt,
+              });
+            }}
           >
             Save comparison
           </button>
@@ -591,6 +654,9 @@ export function Workspace() {
     [remove, setRemove] = useState(false),
     [creating, setCreating] = useState(false);
   const current = collections.find((c) => c.id === active);
+  const printableSnapshot = current
+    ? exportableCollection({ ...current, notes })
+    : undefined;
   async function refresh() {
     try {
       setCollections(await api<Collection[]>("/api/collections"));
@@ -698,7 +764,7 @@ export function Workspace() {
         {current ? (
           <section className="collection-content">
             <div className="row between">
-              <h2>{current.name}</h2>
+              <h2>{printableSnapshot?.name}</h2>
               <button
                 className="icon-button"
                 aria-label="Delete collection"
@@ -747,8 +813,8 @@ export function Workspace() {
                 PDF / Print
               </button>
             </div>
-            <div className="print-notes">{notes}</div>
-            {current.items.map((item) => (
+            <div className="print-notes">{printableSnapshot?.notes}</div>
+            {(printableSnapshot?.items ?? []).map((item) => (
               <article className="panel saved-item" key={item.id}>
                 <div className="row between">
                   <span className="eyebrow">{item.kind}</span>

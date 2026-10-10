@@ -126,6 +126,8 @@ export interface FederatedNameAssertion {
 export interface Finding {
   id: string;
   kind: "text" | "passage" | "query" | "comparison";
+  textId?: string;
+  editionId?: string;
   title: string;
   content: string;
   sourceUrl?: string;

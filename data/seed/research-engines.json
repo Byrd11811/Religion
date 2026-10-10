@@ -1,0 +1,4053 @@
+{
+  "formatVersion": 1,
+  "reviewedAt": "2026-10-10",
+  "policy": {
+    "opposition": "Retrieve only reviewed proposition-linked stances. A tradition label, geography, or entity name never creates an opposition relationship.",
+    "comparison": "Filter every evidence section before applying limits. Similarity never implies influence; only a cited, explicit influence relationship may be labeled influence.",
+    "chronology": "Retain ranges, date confidence, unknown dates, and survival-bias warnings. Earlier surviving evidence does not prove earliest origin.",
+    "teachingConduct": "Cite teaching and conduct independently, name actors and mixed motives, preserve evidence gaps, and never convert conduct into doctrine or issue a theological verdict."
+  },
+  "sources": [
+    {
+      "id": "src-gutenberg-bible",
+      "label": "The King James Version of the Bible",
+      "url": "https://www.gutenberg.org/ebooks/10",
+      "kind": "primary-text-edition",
+      "perspective": "Public-domain historical English translation; wording is not a critical edition",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-dhammapada",
+      "label": "Dhammapada, translated by F. Max Müller",
+      "url": "https://www.gutenberg.org/ebooks/2017",
+      "kind": "primary-text-edition",
+      "perspective": "Public-domain historical translation; verse context and translation history matter",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-gita",
+      "label": "The Song Celestial (Bhagavad Gita), translated by Edwin Arnold",
+      "url": "https://www.gutenberg.org/ebooks/2388",
+      "kind": "primary-text-edition",
+      "perspective": "Public-domain poetic historical translation, not a critical Sanskrit edition",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-analects",
+      "label": "The Analects, translated by James Legge",
+      "url": "https://www.gutenberg.org/ebooks/3330",
+      "kind": "primary-text-edition",
+      "perspective": "Public-domain historical translation",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-tao",
+      "label": "Tao Te Ching, translated by James Legge",
+      "url": "https://www.gutenberg.org/ebooks/216",
+      "kind": "primary-text-edition",
+      "perspective": "Public-domain historical translation",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-hume",
+      "label": "Dialogues Concerning Natural Religion",
+      "url": "https://www.gutenberg.org/ebooks/4583",
+      "kind": "primary-philosophical-text",
+      "perspective": "Hume's dialogical speakers must not be collapsed into an unqualified authorial voice",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-lucretius",
+      "label": "On the Nature of Things",
+      "url": "https://www.gutenberg.org/ebooks/785",
+      "kind": "primary-philosophical-text",
+      "perspective": "Public-domain English translation of an Epicurean poem",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-meditations",
+      "label": "Meditations of Marcus Aurelius",
+      "url": "https://www.gutenberg.org/ebooks/2680",
+      "kind": "primary-philosophical-text",
+      "perspective": "Public-domain historical translation of Stoic reflections",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gutenberg-quran",
+      "label": "The Koran, translated by J. M. Rodwell",
+      "url": "https://www.gutenberg.org/ebooks/2800",
+      "kind": "primary-text-edition",
+      "perspective": "Outdated public-domain English translation; use with a modern edition for lexical conclusions",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-quran-corpus-2-256",
+      "label": "Quranic Arabic Corpus: verse 2:256",
+      "url": "https://corpus.quran.com/translation.jsp?chapter=2&verse=256",
+      "kind": "primary-text-edition",
+      "perspective": "Academic language project presenting Arabic analysis and multiple translations",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-church-satan-statements",
+      "label": "Church of Satan: The Nine Satanic Statements",
+      "url": "https://churchofsatan.com/nine-satanic-statements/",
+      "kind": "community-primary-source",
+      "perspective": "Official organization page for a specific LaVeyan statement; not representative of every Satanic movement",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-humanist-manifesto",
+      "label": "American Humanist Association: Humanist Manifesto III",
+      "url": "https://americanhumanist.org/humanism/humanist-manifesto-iii/",
+      "kind": "community-primary-source",
+      "perspective": "Official modern humanist statement; not representative of every secular view",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-sep-afterlife",
+      "label": "Stanford Encyclopedia of Philosophy: Afterlife",
+      "url": "https://plato.stanford.edu/entries/afterlife/index.html",
+      "kind": "scholarly-reference",
+      "perspective": "Peer-reviewed philosophical overview of competing survival accounts",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-sep-hume-religion",
+      "label": "Stanford Encyclopedia of Philosophy: Hume on Religion",
+      "url": "https://plato.stanford.edu/entries/hume-religion/",
+      "kind": "scholarly-reference",
+      "perspective": "Peer-reviewed analysis distinguishing Hume's arguments and dialogue speakers",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-met-flood",
+      "label": "The Metropolitan Museum of Art: Flood Stories",
+      "url": "https://www.metmuseum.org/essays/flood-stories",
+      "kind": "museum-scholarship",
+      "perspective": "Institutional essay on ancient Near Eastern flood texts and witnesses",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-sbl-jude-enoch",
+      "label": "Society of Biblical Literature: Reading 1–2 Peter and Jude",
+      "url": "https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf",
+      "kind": "scholarly-monograph",
+      "perspective": "Scholarly source explicitly identifying Jude 14b–15 as a quotation of 1 Enoch 1:9",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-church-england-codrington",
+      "label": "Church of England: historic links to enslavement FAQ",
+      "url": "https://www.churchofengland.org/about/governance/national-church-institutions/church-commissioners-england/who-we-are/historic-links-enslavement/frequently-asked-questions",
+      "kind": "institutional-archival-research",
+      "perspective": "Official retrospective research; distinguishes the Church Commissioners from the SPG/USPG",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-cambridge-atlantic-slavery",
+      "label": "The University of Cambridge in the Age of Atlantic Slavery",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6BC358D69084C40CBF93B4A5FC1CE3AB/9781009652544AR.pdf/The_University_of_Cambridge_in_the_Age_of_Atlantic_Slavery.pdf",
+      "kind": "scholarly-book",
+      "perspective": "Independent scholarly history using SPG committee records and contemporary Anglican publications; edition access remains subject to Cambridge Core terms",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-brill-spg-slavery",
+      "label": "Missions in Contested Places/Spaces: The SPG, Slavery, and Codrington College, Barbados",
+      "url": "https://brill.com/view/journals/mist/38/3/article-p325_6.xml",
+      "kind": "scholarly-article",
+      "perspective": "Peer-reviewed theological and mission-historical assessment of the SPG, slavery, scripture, liberation, and Codrington's legacy",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-nanzan-soto-apology",
+      "label": "The Social Response of Buddhists to the Modernization of Japan: The Contrasting Lives of Two Sōtō Zen Monks",
+      "url": "https://nirc.nanzan-u.ac.jp/journal/6/article/970/pdf/download",
+      "kind": "scholarly-article",
+      "perspective": "Ishikawa Rikizan's 1998 Japanese Journal of Religious Studies article documents wartime doctrines, named Sōtō voices, dissent, and the 1992 institutional apology",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-jstor-imperial-way-zen",
+      "label": "Imperial-Way Zen",
+      "url": "https://www.jstor.org/stable/j.ctt6wqwv8",
+      "kind": "scholarly-monograph",
+      "perspective": "Christopher Ives documents Zen institutional support, critics, and disputed responsibility",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-jstor-soka-wartime",
+      "label": "We Alone Can Save Japan: Soka Gakkai's Wartime Antecedents",
+      "url": "https://www.jstor.org/stable/48686682",
+      "kind": "scholarly-article",
+      "perspective": "Open-access study documenting Makiguchi's conflict with wartime ideology",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-soto-nonviolence",
+      "label": "SOTOZEN: non-violence and peace",
+      "url": "https://www.sotozen.com/eng/activities/sdgs/goal16.html",
+      "kind": "community-primary-source",
+      "perspective": "Contemporary institutional articulation, not evidence of uniform historical conduct",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-cambridge-devshirme",
+      "label": "Devshirme and Shari'a",
+      "url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/devshirme-and-sharia/3F2F8E9BE757BBD230CEF55689B0B1AD",
+      "kind": "scholarly-article",
+      "perspective": "Historical analysis emphasizing incompatibility debated between the levy and protected dhimmi status",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-cambridge-global-slavery",
+      "label": "Global Slavery in the Making of States and International Orders",
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/global-slavery-in-the-making-of-states-and-international-orders/EE455C018283685A1C3BAEADE8A63D04",
+      "kind": "scholarly-article",
+      "perspective": "Comparative state-formation analysis of institutionalized enslavement and devshirme",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-gandhi-vaikom",
+      "label": "Gandhi Heritage Portal: Vykom, Kerala",
+      "url": "https://www.gandhiheritageportal.org/sd/gandhi_heritage_site/writeup/NQ%3D%3D",
+      "kind": "institutional-history",
+      "perspective": "Government-supported Gandhi archive summary naming supporters, orthodox opponents, and dates",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-kerala-vaikom",
+      "label": "Government of Kerala: Vaikom Satyagraha",
+      "url": "https://prd.kerala.gov.in/sites/default/files/inline-files/VAIKKOM%20SATYAGRAHAM%20ENGLISH____________New.pdf",
+      "kind": "institutional-history",
+      "perspective": "Government historical publication; should be read with independent scholarship",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    },
+    {
+      "id": "src-oup-vaikom",
+      "label": "Gandhian Nonviolent Struggle and Untouchability in South India",
+      "url": "https://academic.oup.com/book/5656",
+      "kind": "scholarly-monograph",
+      "perspective": "Independent Oxford University Press study of the 1924–25 Vaikom campaign, its settlement, and competing explanations of change",
+      "accessed": "2026-10-10",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "verifiedAt": "2026-10-10"
+      }
+    }
+  ],
+  "propositions": [
+    {
+      "id": "prop-enemy-love",
+      "title": "Response to enemies",
+      "proposition": "A person should answer hostility with love or non-retaliation.",
+      "topic": "ethics",
+      "keywords": [
+        "enemy",
+        "enemies",
+        "injury",
+        "retaliation",
+        "vengeance",
+        "hatred"
+      ],
+      "sourceIds": [
+        "src-gutenberg-bible",
+        "src-gutenberg-dhammapada",
+        "src-gutenberg-analects",
+        "src-gutenberg-tao",
+        "src-church-satan-statements",
+        "src-humanist-manifesto"
+      ]
+    },
+    {
+      "id": "prop-surviving-self",
+      "title": "A self survives death",
+      "proposition": "A persisting self or person survives bodily death.",
+      "topic": "afterlife",
+      "keywords": [
+        "afterlife",
+        "death",
+        "soul",
+        "self",
+        "immortality",
+        "resurrection"
+      ],
+      "sourceIds": [
+        "src-gutenberg-gita",
+        "src-gutenberg-bible",
+        "src-gutenberg-lucretius",
+        "src-sep-afterlife",
+        "src-humanist-manifesto"
+      ]
+    },
+    {
+      "id": "prop-suffering-providence",
+      "title": "Suffering and providence",
+      "proposition": "The extent of suffering counts against a perfectly good and powerful providence.",
+      "topic": "suffering",
+      "keywords": [
+        "evil",
+        "suffering",
+        "providence",
+        "theodicy",
+        "pain"
+      ],
+      "sourceIds": [
+        "src-gutenberg-hume",
+        "src-sep-hume-religion",
+        "src-gutenberg-bible",
+        "src-gutenberg-meditations",
+        "src-gutenberg-dhammapada",
+        "src-gutenberg-lucretius"
+      ]
+    },
+    {
+      "id": "prop-religious-coercion",
+      "title": "Religious coercion",
+      "proposition": "Political authority may compel religious affiliation for institutional ends.",
+      "topic": "religion-and-power",
+      "keywords": [
+        "coercion",
+        "conversion",
+        "compel",
+        "religious freedom",
+        "devshirme"
+      ],
+      "sourceIds": [
+        "src-quran-corpus-2-256",
+        "src-gutenberg-quran",
+        "src-cambridge-devshirme",
+        "src-cambridge-global-slavery",
+        "src-humanist-manifesto"
+      ]
+    }
+  ],
+  "oppositionStances": [
+    {
+      "id": "stance-matthew-enemy-love",
+      "propositionId": "prop-enemy-love",
+      "title": "Love and pray for enemies",
+      "category": "doctrinal-opposition",
+      "relation": "supports",
+      "summary": "Matthew 5:44–45 commands love and prayer for enemies in a particular Matthean teaching context.",
+      "speakerOrCommunity": "Jesus as represented by the Gospel of Matthew",
+      "historicalContext": "First-century Christian gospel tradition; Atlas cites a historical English translation.",
+      "sourceIds": [
+        "src-gutenberg-bible"
+      ],
+      "confidence": "high",
+      "uncertainty": "Translation and the relation of this passage to other New Testament violence texts require separate analysis.",
+      "traditionIds": [
+        "christianity"
+      ],
+      "regions": [
+        "eastern-mediterranean"
+      ],
+      "startYear": 50,
+      "endYear": 100,
+      "locator": "Matthew 5:44–45",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-dhammapada-hatred",
+      "propositionId": "prop-enemy-love",
+      "title": "Hatred does not cease by hatred",
+      "category": "alternative-religious-interpretation",
+      "relation": "supports",
+      "summary": "Dhammapada verse 5 frames non-hatred as the means by which hatred ceases.",
+      "speakerOrCommunity": "Dhammapada's verse voice",
+      "historicalContext": "Pali Buddhist verse collection; the bundled Müller translation is historically situated.",
+      "sourceIds": [
+        "src-gutenberg-dhammapada"
+      ],
+      "confidence": "high",
+      "uncertainty": "This maxim does not settle every Buddhist account of force, punishment, or governance.",
+      "traditionIds": [
+        "buddhism"
+      ],
+      "regions": [
+        "south-asia"
+      ],
+      "startYear": -300,
+      "endYear": 100,
+      "locator": "Dhammapada verse 5; Atlas passage pg-2017-2",
+      "reviewStatus": "human-reviewed",
+      "canonicalPassageIds": [
+        "pg-2017-2"
+      ],
+      "textIds": [
+        "dhammapada"
+      ],
+      "contentTypes": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": "stance-analects-justice",
+      "propositionId": "prop-enemy-love",
+      "title": "Recompense injury with justice",
+      "category": "philosophical-critique",
+      "relation": "qualifies",
+      "summary": "Analects 14.34 distinguishes a just response to injury from repaying virtue with virtue.",
+      "speakerOrCommunity": "Confucius as represented in the Analects",
+      "historicalContext": "Received Confucian dialogue collection; translation of de and zhi affects nuance.",
+      "sourceIds": [
+        "src-gutenberg-analects"
+      ],
+      "confidence": "high",
+      "uncertainty": "Justice need not entail revenge, so this is a qualification rather than a simple inversion.",
+      "traditionIds": [
+        "confucian"
+      ],
+      "regions": [
+        "china"
+      ],
+      "startYear": -475,
+      "endYear": -221,
+      "locator": "Analects 14.34",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-tao-kindness",
+      "propositionId": "prop-enemy-love",
+      "title": "Recompense injury with kindness",
+      "category": "mystical-reinterpretation",
+      "relation": "supports",
+      "summary": "The received Tao Te Ching chapter 63 is translated by Legge as recompensing injury with kindness.",
+      "speakerOrCommunity": "Voice of the Tao Te Ching",
+      "historicalContext": "Received Chinese text in a nineteenth-century English translation.",
+      "sourceIds": [
+        "src-gutenberg-tao"
+      ],
+      "confidence": "medium",
+      "uncertainty": "The translation and textual history of the phrase are contested; no influence on Matthew is asserted.",
+      "traditionIds": [
+        "daoism"
+      ],
+      "regions": [
+        "china"
+      ],
+      "startYear": -400,
+      "endYear": -200,
+      "locator": "Tao Te Ching chapter 63",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-satanic-vengeance",
+      "propositionId": "prop-enemy-love",
+      "title": "Vengeance rather than turning the other cheek",
+      "category": "adversarial-reinterpretation",
+      "relation": "opposes",
+      "summary": "The Church of Satan's fifth statement explicitly presents vengeance as an alternative to turning the other cheek.",
+      "speakerOrCommunity": "Church of Satan / Anton LaVey",
+      "historicalContext": "A 1969 LaVeyan formulation reproduced by its official organization.",
+      "sourceIds": [
+        "src-church-satan-statements"
+      ],
+      "confidence": "high",
+      "uncertainty": "This is one organization and one Satanic current; it cannot stand for all Satanists.",
+      "traditionIds": [
+        "laveyan-satanism"
+      ],
+      "regions": [
+        "north-america"
+      ],
+      "startYear": 1969,
+      "endYear": 2026,
+      "locator": "The Nine Satanic Statements, statement 5",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-humanist-restraint",
+      "propositionId": "prop-enemy-love",
+      "title": "Human welfare and reciprocal responsibility",
+      "category": "modern-secular-critique",
+      "relation": "qualifies",
+      "summary": "Humanist Manifesto III grounds ethics in welfare and responsibility rather than a supernatural command to love enemies.",
+      "speakerOrCommunity": "American Humanist Association signatories",
+      "historicalContext": "Modern organizational statement issued in 2003.",
+      "sourceIds": [
+        "src-humanist-manifesto"
+      ],
+      "confidence": "high",
+      "uncertainty": "The manifesto does not directly adjudicate every response to attack; this is a bounded qualification.",
+      "traditionIds": [
+        "humanism"
+      ],
+      "regions": [
+        "north-america"
+      ],
+      "startYear": 2003,
+      "endYear": 2026,
+      "locator": "Humanist Manifesto III, ethical-values and responsibility paragraphs",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-gita-enduring-self",
+      "propositionId": "prop-surviving-self",
+      "title": "Birthless and deathless self",
+      "category": "doctrinal-opposition",
+      "relation": "supports",
+      "summary": "The Bhagavad Gita describes the enduring self as not born and not dying, within Krishna's counsel to Arjuna.",
+      "speakerOrCommunity": "Krishna as represented in the Bhagavad Gita",
+      "historicalContext": "Sanskrit epic dialogue in a historical poetic English translation.",
+      "sourceIds": [
+        "src-gutenberg-gita"
+      ],
+      "confidence": "high",
+      "uncertainty": "Ātman, person, and modern English 'self' are not automatically equivalent.",
+      "traditionIds": [
+        "hindu"
+      ],
+      "regions": [
+        "south-asia"
+      ],
+      "startYear": -200,
+      "endYear": 200,
+      "locator": "Bhagavad Gita 2:19–22; Atlas passage pg-2388-10",
+      "reviewStatus": "human-reviewed",
+      "canonicalPassageIds": [
+        "pg-2388-10"
+      ],
+      "textIds": [
+        "bhagavad-gita"
+      ],
+      "contentTypes": [
+        "Unknown"
+      ]
+    },
+    {
+      "id": "stance-john-resurrection",
+      "propositionId": "prop-surviving-self",
+      "title": "Resurrection rather than bare soul survival",
+      "category": "alternative-religious-interpretation",
+      "relation": "qualifies",
+      "summary": "John 5:28–29 depicts people in graves coming forth; this differs from a simple disembodied-soul claim.",
+      "speakerOrCommunity": "Jesus as represented by the Gospel of John",
+      "historicalContext": "First-century Christian gospel tradition in a historical translation.",
+      "sourceIds": [
+        "src-gutenberg-bible"
+      ],
+      "confidence": "high",
+      "uncertainty": "Resurrection and immortal-soul models must remain distinct even when both affirm postmortem life.",
+      "traditionIds": [
+        "christianity"
+      ],
+      "regions": [
+        "eastern-mediterranean"
+      ],
+      "startYear": 80,
+      "endYear": 110,
+      "locator": "John 5:28–29",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-ecclesiastes-dead",
+      "propositionId": "prop-surviving-self",
+      "title": "The dead know nothing",
+      "category": "internal-heterodox-opposition",
+      "relation": "opposes",
+      "summary": "Ecclesiastes 9:5 says the dead know nothing within a wisdom discourse about life under the sun.",
+      "speakerOrCommunity": "Qoheleth / Ecclesiastes' literary voice",
+      "historicalContext": "A biblical wisdom voice often placed in tension with later resurrection readings.",
+      "sourceIds": [
+        "src-gutenberg-bible"
+      ],
+      "confidence": "medium",
+      "uncertainty": "Scope ('under the sun') and canonical harmonization are disputed; this is not a summary of Judaism.",
+      "traditionIds": [
+        "judaism"
+      ],
+      "regions": [
+        "levant"
+      ],
+      "startYear": -350,
+      "endYear": -180,
+      "locator": "Ecclesiastes 9:5–10",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-lucretius-mortal-mind",
+      "propositionId": "prop-surviving-self",
+      "title": "Mind and soul are mortal",
+      "category": "materialist-critique",
+      "relation": "opposes",
+      "summary": "Lucretius' Epicurean poem argues that mind and soul are bodily and dissolve rather than persist after death.",
+      "speakerOrCommunity": "Lucretius' didactic speaker",
+      "historicalContext": "First-century BCE Roman Epicurean philosophical poetry.",
+      "sourceIds": [
+        "src-gutenberg-lucretius"
+      ],
+      "confidence": "high",
+      "uncertainty": "A poetic philosophical argument is not empirical proof of every modern materialist account.",
+      "traditionIds": [
+        "epicureanism"
+      ],
+      "regions": [
+        "mediterranean"
+      ],
+      "startYear": -55,
+      "endYear": -45,
+      "locator": "On the Nature of Things, Book III, mortality-of-mind argument",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-afterlife-identity",
+      "propositionId": "prop-surviving-self",
+      "title": "Personal-identity objections",
+      "category": "philosophical-critique",
+      "relation": "qualifies",
+      "summary": "Contemporary philosophy distinguishes bodily, psychological, resurrection, and soul-based criteria, with objections to each.",
+      "speakerOrCommunity": "Scholarly field summarized by SEP",
+      "historicalContext": "Contemporary peer-reviewed philosophical overview.",
+      "sourceIds": [
+        "src-sep-afterlife"
+      ],
+      "confidence": "high",
+      "uncertainty": "The field has no single consensus model of postmortem identity.",
+      "traditionIds": [
+        "philosophy-of-religion"
+      ],
+      "regions": [
+        "global"
+      ],
+      "startYear": 1900,
+      "endYear": 2026,
+      "locator": "Stanford Encyclopedia of Philosophy, Afterlife, sections 2–4",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-humanist-finite-life",
+      "propositionId": "prop-surviving-self",
+      "title": "Life accepted without supernaturalism",
+      "category": "modern-secular-critique",
+      "relation": "opposes",
+      "summary": "Humanist Manifesto III treats nature as self-existing and this life as enough without affirming supernatural survival.",
+      "speakerOrCommunity": "American Humanist Association signatories",
+      "historicalContext": "Modern organizational statement, not all secular persons.",
+      "sourceIds": [
+        "src-humanist-manifesto"
+      ],
+      "confidence": "high",
+      "uncertainty": "Absence of affirmation is not a scientific demonstration that survival is impossible.",
+      "traditionIds": [
+        "humanism"
+      ],
+      "regions": [
+        "north-america"
+      ],
+      "startYear": 2003,
+      "endYear": 2026,
+      "locator": "Humanist Manifesto III, naturalism and life's fulfillment paragraphs",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-hume-philo-evil",
+      "propositionId": "prop-suffering-providence",
+      "title": "Philo's challenge from suffering",
+      "category": "skeptical-critique",
+      "relation": "supports",
+      "summary": "Philo's catalogue of suffering challenges inference to a perfectly good and powerful cause of the world.",
+      "speakerOrCommunity": "Philo, a speaker in Hume's Dialogues",
+      "historicalContext": "Eighteenth-century philosophical dialogue; speaker and author must remain distinct.",
+      "sourceIds": [
+        "src-gutenberg-hume",
+        "src-sep-hume-religion"
+      ],
+      "confidence": "high",
+      "uncertainty": "Scholars dispute the exact relation between Philo and Hume's final position.",
+      "traditionIds": [
+        "skepticism",
+        "philosophy-of-religion"
+      ],
+      "regions": [
+        "europe"
+      ],
+      "startYear": 1779,
+      "endYear": 1779,
+      "locator": "Dialogues Concerning Natural Religion, Parts X–XI; SEP Hume on Religion, problem-of-evil discussion",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-job-divine-speech",
+      "propositionId": "prop-suffering-providence",
+      "title": "Limits of the sufferer's standpoint",
+      "category": "doctrinal-opposition",
+      "relation": "qualifies",
+      "summary": "Job 38 responds to Job by stressing the limits of his standpoint rather than supplying a simple causal theodicy.",
+      "speakerOrCommunity": "Divine speech as represented in Job",
+      "historicalContext": "Hebrew wisdom poetry in a historical English translation.",
+      "sourceIds": [
+        "src-gutenberg-bible"
+      ],
+      "confidence": "medium",
+      "uncertainty": "Job contains several competing speeches; one speech cannot be made the whole book's answer.",
+      "traditionIds": [
+        "judaism",
+        "christianity"
+      ],
+      "regions": [
+        "levant"
+      ],
+      "startYear": -600,
+      "endYear": -300,
+      "locator": "Job 38:1–41",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-demea-future-redress",
+      "propositionId": "prop-suffering-providence",
+      "title": "Future redress",
+      "category": "mystical-reinterpretation",
+      "relation": "opposes",
+      "summary": "Demea proposes that present evils are rectified in another region or future existence.",
+      "speakerOrCommunity": "Demea, a speaker in Hume's Dialogues",
+      "historicalContext": "A position staged and criticized within Hume's dialogue.",
+      "sourceIds": [
+        "src-gutenberg-hume",
+        "src-sep-hume-religion"
+      ],
+      "confidence": "high",
+      "uncertainty": "This is Demea's reply, not an endorsed resolution by the whole dialogue.",
+      "traditionIds": [
+        "philosophy-of-religion"
+      ],
+      "regions": [
+        "europe"
+      ],
+      "startYear": 1779,
+      "endYear": 1779,
+      "locator": "Dialogues Concerning Natural Religion, Part X, Demea's future-state reply",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-stoic-judgment",
+      "propositionId": "prop-suffering-providence",
+      "title": "Suffering and judgments",
+      "category": "philosophical-critique",
+      "relation": "qualifies",
+      "summary": "Marcus Aurelius repeatedly reframes distress through judgments, agency, and participation in nature rather than a personal theodicy.",
+      "speakerOrCommunity": "Marcus Aurelius' reflective voice",
+      "historicalContext": "Second-century Roman Stoic notebook tradition.",
+      "sourceIds": [
+        "src-gutenberg-meditations"
+      ],
+      "confidence": "medium",
+      "uncertainty": "Stoic providence and modern therapeutic readings should not be conflated.",
+      "traditionIds": [
+        "stoicism"
+      ],
+      "regions": [
+        "mediterranean"
+      ],
+      "startYear": 161,
+      "endYear": 180,
+      "locator": "Meditations 8.47–49",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-dhammapada-practice",
+      "propositionId": "prop-suffering-providence",
+      "title": "A path responding to suffering",
+      "category": "alternative-religious-interpretation",
+      "relation": "qualifies",
+      "summary": "The Dhammapada emphasizes impermanence, suffering, and a path of practice rather than an omnipotent creator's purposes.",
+      "speakerOrCommunity": "Dhammapada's verse voice",
+      "historicalContext": "Pali Buddhist verse collection in historical translation.",
+      "sourceIds": [
+        "src-gutenberg-dhammapada"
+      ],
+      "confidence": "high",
+      "uncertainty": "This changes the question rather than logically refuting or defending classical theism.",
+      "traditionIds": [
+        "buddhism"
+      ],
+      "regions": [
+        "south-asia"
+      ],
+      "startYear": -300,
+      "endYear": 100,
+      "locator": "Dhammapada verses 277–279",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-lucretius-natural-causes",
+      "propositionId": "prop-suffering-providence",
+      "title": "Natural causes without providence",
+      "category": "materialist-critique",
+      "relation": "supports",
+      "summary": "Lucretius explains natural events through atoms and natural processes and attacks fear-producing providential explanations.",
+      "speakerOrCommunity": "Lucretius' didactic speaker",
+      "historicalContext": "Roman Epicurean philosophical poem.",
+      "sourceIds": [
+        "src-gutenberg-lucretius"
+      ],
+      "confidence": "high",
+      "uncertainty": "Ancient atomism differs from contemporary sciences and materialisms.",
+      "traditionIds": [
+        "epicureanism"
+      ],
+      "regions": [
+        "mediterranean"
+      ],
+      "startYear": -55,
+      "endYear": -45,
+      "locator": "On the Nature of Things, Books V–VI, natural-cause arguments",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-quran-no-compulsion",
+      "propositionId": "prop-religious-coercion",
+      "title": "No compulsion in religion",
+      "category": "doctrinal-opposition",
+      "relation": "opposes",
+      "summary": "Qur'an 2:256 states no compulsion in religion; interpretation, legal scope, and historical application require contextual study.",
+      "speakerOrCommunity": "Qur'anic verse",
+      "historicalContext": "Seventh-century Arabic text presented through an academic corpus and historical translation.",
+      "sourceIds": [
+        "src-quran-corpus-2-256",
+        "src-gutenberg-quran"
+      ],
+      "confidence": "high",
+      "uncertainty": "The verse alone does not describe every Islamic legal or political practice.",
+      "traditionIds": [
+        "islam"
+      ],
+      "regions": [
+        "arabia"
+      ],
+      "startYear": 610,
+      "endYear": 632,
+      "locator": "Qur'an 2:256",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-devshirme-state",
+      "propositionId": "prop-religious-coercion",
+      "title": "Imperial levy and forced conversion",
+      "category": "doctrinal-opposition",
+      "relation": "supports",
+      "summary": "The Ottoman devshirme periodically levied Christian boys, enslaved them, converted them, and trained them for state service.",
+      "speakerOrCommunity": "Ottoman imperial administration",
+      "historicalContext": "Institutional practice developing from the fifteenth century; frequency and local implementation varied.",
+      "sourceIds": [
+        "src-cambridge-devshirme",
+        "src-cambridge-global-slavery"
+      ],
+      "confidence": "high",
+      "uncertainty": "Benefits later attained by some recruits do not erase coercive intake; neither does the case describe all Ottoman conversion.",
+      "traditionIds": [
+        "ottoman-state"
+      ],
+      "regions": [
+        "balkans",
+        "anatolia"
+      ],
+      "startYear": 1400,
+      "endYear": 1700,
+      "locator": "Wittek, Devshirme and Shari'a, pp. 271–278; Global Slavery, devshirme discussion",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-devshirme-juristic",
+      "propositionId": "prop-religious-coercion",
+      "title": "Protected-status legal objection",
+      "category": "internal-heterodox-opposition",
+      "relation": "opposes",
+      "summary": "Wittek frames devshirme as incompatible with sharia protections for Christian dhimmi subjects and notes Muslim objections.",
+      "speakerOrCommunity": "Muslim juristic conscience as reconstructed by Paul Wittek",
+      "historicalContext": "Modern scholarship on a historical legal controversy.",
+      "sourceIds": [
+        "src-cambridge-devshirme"
+      ],
+      "confidence": "medium",
+      "uncertainty": "The included abstract does not name or reproduce every contemporary juristic voice.",
+      "traditionIds": [
+        "islamic-jurisprudence"
+      ],
+      "regions": [
+        "ottoman-empire"
+      ],
+      "startYear": 1400,
+      "endYear": 1700,
+      "locator": "Wittek, Devshirme and Shari'a, p. 271 and article extract",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-devshirme-statebuilding",
+      "propositionId": "prop-religious-coercion",
+      "title": "Centralization and state formation",
+      "category": "materialist-critique",
+      "relation": "qualifies",
+      "summary": "Comparative scholarship situates devshirme within military staffing, enslavement, elite formation, and centralization rather than reducing it to doctrine.",
+      "speakerOrCommunity": "Comparative political-historical scholarship",
+      "historicalContext": "Modern state-formation analysis.",
+      "sourceIds": [
+        "src-cambridge-global-slavery"
+      ],
+      "confidence": "high",
+      "uncertainty": "Institutional and religious motives can coexist; the categories are not mutually exclusive.",
+      "traditionIds": [
+        "historical-material-analysis"
+      ],
+      "regions": [
+        "ottoman-empire"
+      ],
+      "startYear": 1400,
+      "endYear": 1700,
+      "locator": "Global Slavery in the Making of States and International Orders, Ottoman devshirme section",
+      "reviewStatus": "human-reviewed"
+    },
+    {
+      "id": "stance-humanist-freedom",
+      "propositionId": "prop-religious-coercion",
+      "title": "Freedom and responsibility",
+      "category": "modern-secular-critique",
+      "relation": "opposes",
+      "summary": "Humanist Manifesto III ties dignity and ethical choice to freedom consonant with responsibility, opposing compelled affiliation as an ethical norm.",
+      "speakerOrCommunity": "American Humanist Association signatories",
+      "historicalContext": "Modern secular organizational statement.",
+      "sourceIds": [
+        "src-humanist-manifesto"
+      ],
+      "confidence": "medium",
+      "uncertainty": "The manifesto does not discuss devshirme and is a modern ethical comparison, not a contemporary historical witness.",
+      "traditionIds": [
+        "humanism"
+      ],
+      "regions": [
+        "north-america"
+      ],
+      "startYear": 2003,
+      "endYear": 2026,
+      "locator": "Humanist Manifesto III, freedom-and-responsibility paragraph",
+      "reviewStatus": "human-reviewed"
+    }
+  ],
+  "comparisonCases": [
+    {
+      "id": "cmp-response-to-injury",
+      "title": "Responses to injury and enemies",
+      "topic": "ethics",
+      "scopeNote": "A comparison of attributed passages and one modern organizational inversion; it is not a ranking of traditions or a complete ethic of violence.",
+      "subjectClaims": [
+        {
+          "id": "claim-matthew-love",
+          "summary": "Matthew commands love and prayer for enemies.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "eastern-mediterranean"
+          ],
+          "startYear": 50,
+          "endYear": 100,
+          "confidence": "high",
+          "proposition": "Love and pray for enemies.",
+          "speaker": "Jesus as represented by Matthew",
+          "context": "Sermon on the Mount, Matthew 5:44–45",
+          "textIds": [
+            "gospel-of-matthew"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Matthew 5:44–45",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-dhammapada-nonhatred",
+          "summary": "Dhammapada verse 5 says hatred does not cease through hatred.",
+          "sourceIds": [
+            "src-gutenberg-dhammapada"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "south-asia"
+          ],
+          "startYear": -300,
+          "endYear": 100,
+          "confidence": "high",
+          "proposition": "Non-hatred ends hatred.",
+          "speaker": "Dhammapada verse voice",
+          "context": "Opening paired verses",
+          "textIds": [
+            "dhammapada"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2)",
+          "reviewStatus": "human-reviewed",
+          "canonicalPassageIds": [
+            "pg-2017-2"
+          ],
+          "contentTypes": [
+            "Unknown"
+          ]
+        },
+        {
+          "id": "claim-analects-justice",
+          "summary": "Analects 14.34 recommends justice for injury and virtue for virtue.",
+          "sourceIds": [
+            "src-gutenberg-analects"
+          ],
+          "traditionIds": [
+            "confucian"
+          ],
+          "regions": [
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": -221,
+          "confidence": "high",
+          "proposition": "Recompense injury with justice.",
+          "speaker": "Confucius as represented in the Analects",
+          "context": "Dialogue answering a proposed response to injury",
+          "textIds": [
+            "analects"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-tao-kindness",
+          "summary": "Tao Te Ching 63 is rendered as recompensing injury with kindness.",
+          "sourceIds": [
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "daoism"
+          ],
+          "regions": [
+            "china"
+          ],
+          "startYear": -400,
+          "endYear": -200,
+          "confidence": "medium",
+          "proposition": "Recompense injury with kindness.",
+          "speaker": "Voice of the Tao Te Ching",
+          "context": "A chapter on difficult action and small beginnings",
+          "textIds": [
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-satanic-vengeance",
+          "summary": "The Church of Satan statement prefers vengeance to turning the other cheek.",
+          "sourceIds": [
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "north-america"
+          ],
+          "startYear": 1969,
+          "endYear": 2026,
+          "confidence": "high",
+          "proposition": "Prefer vengeance to turning the other cheek.",
+          "speaker": "Church of Satan / Anton LaVey",
+          "context": "Fifth of the Nine Satanic Statements",
+          "textIds": [
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "synthesisFindings": [
+        {
+          "id": "syn-injury-shared",
+          "summary": "All selected passages or statements address a response to experienced hostility, but they define the proper response differently.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china",
+            "north-america"
+          ],
+          "startYear": -475,
+          "endYear": 2026,
+          "confidence": "high",
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "syn-injury-difference",
+          "summary": "Love, non-hatred, kindness, justice, and vengeance are not interchangeable; genre and addressed situation constrain each claim.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china",
+            "north-america"
+          ],
+          "startYear": -475,
+          "endYear": 2026,
+          "confidence": "high",
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "similarityFindings": [
+        {
+          "id": "sim-injury-motif",
+          "summary": "Each item uses interpersonal injury or hostility as its motivating motif.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": 100,
+          "confidence": "high",
+          "dimension": "motif",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-injury-semantic",
+          "summary": "The terms translated love, non-hatred, kindness, and justice occupy overlapping ethical fields without lexical equivalence.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": 100,
+          "confidence": "medium",
+          "dimension": "semantic",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-injury-ritual",
+          "summary": "None of the selected excerpts prescribes a shared ritual; their similarity is ethical rather than ritual.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": 100,
+          "confidence": "high",
+          "dimension": "ritual",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-injury-theological",
+          "summary": "The passages make different or absent theological claims, so topic overlap does not establish a shared theology.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "daoism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": 100,
+          "confidence": "high",
+          "dimension": "theological",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "contradictionFindings": [
+        {
+          "id": "con-injury-kindness-justice",
+          "summary": "The surface prescriptions differ: the Tao Te Ching translation says kindness, while the Analects says justice rather than virtue for injury.",
+          "sourceIds": [
+            "src-gutenberg-tao",
+            "src-gutenberg-analects"
+          ],
+          "traditionIds": [
+            "daoism",
+            "confucian"
+          ],
+          "regions": [
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": -200,
+          "confidence": "medium",
+          "propositionAId": "claim-tao-kindness",
+          "propositionBId": "claim-analects-justice",
+          "speakerContext": "Two received Chinese works and historical English translations, not timeless representatives of all Daoism or Confucianism.",
+          "harmonization": "Justice might be administered benevolently, and the statements may address different practical cases.",
+          "counterReading": "The Analects' explicit contrast can be read as rejecting undifferentiated repayment of injury with virtue.",
+          "textIds": [
+            "analects",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "con-injury-love-vengeance",
+          "summary": "The Church of Satan statement explicitly inverts the Christian turn-the-other-cheek ethic associated with the Matthean teaching.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "north-america"
+          ],
+          "startYear": 50,
+          "endYear": 2026,
+          "confidence": "high",
+          "propositionAId": "claim-matthew-love",
+          "propositionBId": "claim-satanic-vengeance",
+          "speakerContext": "A gospel teaching is compared with a named twentieth-century organization's polemical statement.",
+          "harmonization": "One could distinguish private retaliation from institutional justice, but that does not erase the explicit rhetorical inversion.",
+          "counterReading": "The fifth Satanic statement directly presents vengeance as the preferred alternative.",
+          "textIds": [
+            "gospel-of-matthew",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Matthew 5:44–45; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "chronologyFindings": [
+        {
+          "id": "chron-injury-dhammapada-matthew",
+          "summary": "The Dhammapada tradition may preserve an earlier non-hatred formulation than Matthew, but broad composition ranges and later witnesses prevent a precise priority claim.",
+          "sourceIds": [
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "buddhism",
+            "christianity"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 100,
+          "confidence": "low",
+          "kind": "earlier-parallel",
+          "earlierSubject": "Dhammapada verse tradition",
+          "laterSubject": "Gospel of Matthew",
+          "earlierDate": {
+            "label": "approximately third century BCE to first century CE",
+            "startYear": -300,
+            "endYear": 100,
+            "confidence": "low"
+          },
+          "laterDate": {
+            "label": "approximately 50–100 CE",
+            "startYear": 50,
+            "endYear": 100,
+            "confidence": "medium"
+          },
+          "survivalBiasWarning": "Surviving textual dates do not date oral teachings or prove transmission.",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "dhammapada",
+            "gospel-of-matthew"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "chron-injury-satanic-inversion",
+          "summary": "The 1969 Satanic statement is a later, explicit rhetorical inversion of the turn-the-other-cheek language.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "north-america"
+          ],
+          "startYear": 50,
+          "endYear": 1969,
+          "confidence": "high",
+          "kind": "later-echo",
+          "earlierSubject": "Matthean turn-the-other-cheek/love-enemy tradition",
+          "laterSubject": "Fifth Satanic Statement",
+          "earlierDate": {
+            "label": "first-century gospel tradition",
+            "startYear": 50,
+            "endYear": 100,
+            "confidence": "medium"
+          },
+          "laterDate": {
+            "label": "1969 publication",
+            "startYear": 1969,
+            "endYear": 1969,
+            "confidence": "high"
+          },
+          "survivalBiasWarning": "The later statement names the phrase it inverts; this does not imply dependence on one modern Bible edition.",
+          "influenceRelationshipId": "influence-matthew-satanic-inversion",
+          "textIds": [
+            "gospel-of-matthew",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Matthew 5:44–45; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "influenceRelationships": [
+        {
+          "id": "influence-matthew-satanic-inversion",
+          "summary": "The Church of Satan statement explicitly invokes and reverses 'turning the other cheek,' documenting an adversarial reception relationship.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "north-america"
+          ],
+          "startYear": 50,
+          "endYear": 1969,
+          "confidence": "high",
+          "relationshipType": "explicit-polemical-reception",
+          "documented": true,
+          "textIds": [
+            "gospel-of-matthew",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Matthew 5:44–45; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "alternativeInterpretations": [
+        {
+          "id": "alt-injury-situations",
+          "summary": "Read the prescriptions as responses to different situations: personal hostility, cycles of hatred, civic justice, and polemical identity construction.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-gutenberg-dhammapada",
+            "src-gutenberg-analects",
+            "src-church-satan-statements"
+          ],
+          "traditionIds": [
+            "christianity",
+            "buddhism",
+            "confucian",
+            "laveyan-satanism"
+          ],
+          "regions": [
+            "eastern-mediterranean",
+            "south-asia",
+            "china",
+            "north-america"
+          ],
+          "startYear": -475,
+          "endYear": 2026,
+          "confidence": "high",
+          "interpretationSource": "Primary texts compared in their named literary contexts",
+          "textIds": [
+            "analects",
+            "dhammapada",
+            "gospel-of-matthew",
+            "the-satanic-bible"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-dhammapada — Dhammapada verse 5 (Atlas passage pg-2017-2); src-gutenberg-bible — Matthew 5:44–45; src-church-satan-statements — The Nine Satanic Statements, statement 5",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "alt-injury-translation",
+          "summary": "Treat kindness/virtue/justice terminology as a translation problem requiring original-language review before stronger semantic claims.",
+          "sourceIds": [
+            "src-gutenberg-analects",
+            "src-gutenberg-tao"
+          ],
+          "traditionIds": [
+            "confucian",
+            "daoism"
+          ],
+          "regions": [
+            "china"
+          ],
+          "startYear": -475,
+          "endYear": -200,
+          "confidence": "medium",
+          "interpretationSource": "Legge translations and their distinct source passages",
+          "textIds": [
+            "analects",
+            "tao-te-ching"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-analects — Analects 14.34; src-gutenberg-tao — Tao Te Ching chapter 63",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "themes": [
+        "ethics",
+        "enemy",
+        "enemies",
+        "injury",
+        "hatred",
+        "kindness",
+        "justice",
+        "love",
+        "nonviolence",
+        "retaliation",
+        "vengeance"
+      ],
+      "textIds": [
+        "analects",
+        "dhammapada",
+        "gospel-of-matthew",
+        "tao-te-ching",
+        "the-satanic-bible"
+      ]
+    },
+    {
+      "id": "cmp-death-continuity",
+      "title": "Death, self, and continuity",
+      "topic": "afterlife",
+      "scopeNote": "The comparison separates enduring-self, resurrection, mortality, and philosophical identity accounts.",
+      "subjectClaims": [
+        {
+          "id": "claim-gita-self",
+          "summary": "The Gita describes a birthless, deathless self amid counsel about duty and grief.",
+          "sourceIds": [
+            "src-gutenberg-gita"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "south-asia"
+          ],
+          "startYear": -200,
+          "endYear": 200,
+          "confidence": "high",
+          "proposition": "The enduring self is not killed when the body is killed.",
+          "speaker": "Krishna as represented in the Gita",
+          "context": "Battlefield counsel to Arjuna",
+          "textIds": [
+            "bhagavad-gita"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10)",
+          "reviewStatus": "human-reviewed",
+          "canonicalPassageIds": [
+            "pg-2388-10"
+          ],
+          "contentTypes": [
+            "Unknown"
+          ]
+        },
+        {
+          "id": "claim-john-resurrection",
+          "summary": "John depicts a future resurrection from graves and judgment.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "eastern-mediterranean"
+          ],
+          "startYear": 80,
+          "endYear": 110,
+          "confidence": "high",
+          "proposition": "Those in graves will come forth.",
+          "speaker": "Jesus as represented in John",
+          "context": "John 5:28–29",
+          "textIds": [
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-ecclesiastes-dead",
+          "summary": "Ecclesiastes says the dead know nothing in its discourse about mortal life.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "judaism"
+          ],
+          "regions": [
+            "levant"
+          ],
+          "startYear": -350,
+          "endYear": -180,
+          "confidence": "high",
+          "proposition": "The dead know nothing.",
+          "speaker": "Qoheleth's literary voice",
+          "context": "Ecclesiastes 9 under-the-sun discourse",
+          "textIds": [
+            "ecclesiastes"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Ecclesiastes 9:5–10",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-lucretius-mortal",
+          "summary": "Lucretius argues that mind and soul dissolve with the body.",
+          "sourceIds": [
+            "src-gutenberg-lucretius"
+          ],
+          "traditionIds": [
+            "epicureanism"
+          ],
+          "regions": [
+            "mediterranean"
+          ],
+          "startYear": -55,
+          "endYear": -45,
+          "confidence": "high",
+          "proposition": "Mind and soul are mortal bodily compounds.",
+          "speaker": "Lucretius' didactic speaker",
+          "context": "Epicurean argument against fear of death",
+          "textIds": [
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "synthesisFindings": [
+        {
+          "id": "syn-death-models",
+          "summary": "The sources present distinct models: enduring self, resurrection, the dead's lack of knowledge, and dissolution of mind and soul.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible",
+            "src-gutenberg-lucretius",
+            "src-sep-afterlife"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity",
+            "judaism",
+            "epicureanism",
+            "philosophy-of-religion"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean",
+            "levant",
+            "mediterranean",
+            "global"
+          ],
+          "startYear": -350,
+          "endYear": 2026,
+          "confidence": "high",
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29; src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument; src-sep-afterlife — Stanford Encyclopedia of Philosophy, Afterlife, sections 1–4",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "syn-death-identity",
+          "summary": "Agreement that death matters does not settle what, if anything, preserves personal identity.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible",
+            "src-gutenberg-lucretius",
+            "src-sep-afterlife"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity",
+            "judaism",
+            "epicureanism",
+            "philosophy-of-religion"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean",
+            "levant",
+            "mediterranean",
+            "global"
+          ],
+          "startYear": -350,
+          "endYear": 2026,
+          "confidence": "high",
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29; src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument; src-sep-afterlife — Stanford Encyclopedia of Philosophy, Afterlife, sections 1–4",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "similarityFindings": [
+        {
+          "id": "sim-death-motif",
+          "summary": "All four claims use death to frame questions of continuity, knowledge, judgment, or fear.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible",
+            "src-gutenberg-lucretius"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity",
+            "judaism",
+            "epicureanism"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean",
+            "levant",
+            "mediterranean"
+          ],
+          "startYear": -350,
+          "endYear": 200,
+          "confidence": "high",
+          "dimension": "motif",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29; src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-death-narrative",
+          "summary": "The Gita and John place death claims in different narrative settings: battlefield counsel and a gospel discourse.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean"
+          ],
+          "startYear": -200,
+          "endYear": 110,
+          "confidence": "high",
+          "dimension": "narrative",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "bhagavad-gita",
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-death-theological",
+          "summary": "The Gita and John both reject death as the final word, but their accounts of continuity are not theologically equivalent.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean"
+          ],
+          "startYear": -200,
+          "endYear": 110,
+          "confidence": "high",
+          "dimension": "theological",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "bhagavad-gita",
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-death-semantic",
+          "summary": "Soul, self, person, resurrection body, mind, and identity require separate terms rather than one universalized category.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible",
+            "src-gutenberg-lucretius",
+            "src-sep-afterlife"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity",
+            "judaism",
+            "epicureanism",
+            "philosophy-of-religion"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean",
+            "levant",
+            "mediterranean",
+            "global"
+          ],
+          "startYear": -350,
+          "endYear": 2026,
+          "confidence": "high",
+          "dimension": "semantic",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29; src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument; src-sep-afterlife — Stanford Encyclopedia of Philosophy, Afterlife, sections 1–4",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "contradictionFindings": [
+        {
+          "id": "con-death-gita-lucretius",
+          "summary": "The Gita's deathless self and Lucretius' mortal mind/soul make opposed ontological claims.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-lucretius"
+          ],
+          "traditionIds": [
+            "hindu",
+            "epicureanism"
+          ],
+          "regions": [
+            "south-asia",
+            "mediterranean"
+          ],
+          "startYear": -200,
+          "endYear": 200,
+          "confidence": "high",
+          "propositionAId": "claim-gita-self",
+          "propositionBId": "claim-lucretius-mortal",
+          "speakerContext": "A Sanskrit epic dialogue and a Roman didactic poem address death for different ethical purposes.",
+          "harmonization": "A metaphorical reading could soften conflict, but both texts are commonly read as advancing materially different accounts.",
+          "counterReading": "On a straightforward ontological reading, persistence and dissolution cannot both describe the same self in the same respect.",
+          "textIds": [
+            "bhagavad-gita",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-lucretius — On the Nature of Things, Book III, mortality-of-mind argument",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "con-death-ecclesiastes-john",
+          "summary": "The dead knowing nothing and a later resurrection can appear inconsistent when treated as descriptions of the same interval and scope.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -350,
+          "endYear": 110,
+          "confidence": "medium",
+          "propositionAId": "claim-ecclesiastes-dead",
+          "propositionBId": "claim-john-resurrection",
+          "speakerContext": "Two literary voices from different works and historical settings within later Christian canonical reception.",
+          "harmonization": "A reader may limit Ecclesiastes to present earthly activity and place resurrection in the future.",
+          "counterReading": "The plain contrast remains significant if both claims are generalized beyond their literary scopes.",
+          "textIds": [
+            "ecclesiastes",
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "chronologyFindings": [
+        {
+          "id": "chron-death-gita-john",
+          "summary": "The broad Gita composition range begins before the Gospel of John, creating an earlier parallel without a documented transmission chain.",
+          "sourceIds": [
+            "src-gutenberg-gita",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "hindu",
+            "christianity"
+          ],
+          "regions": [
+            "south-asia",
+            "eastern-mediterranean"
+          ],
+          "startYear": -200,
+          "endYear": 110,
+          "confidence": "low",
+          "kind": "earlier-parallel",
+          "earlierSubject": "Bhagavad Gita tradition",
+          "laterSubject": "Gospel of John",
+          "earlierDate": {
+            "label": "broadly c. 200 BCE–200 CE",
+            "startYear": -200,
+            "endYear": 200,
+            "confidence": "low"
+          },
+          "laterDate": {
+            "label": "approximately 80–110 CE",
+            "startYear": 80,
+            "endYear": 110,
+            "confidence": "medium"
+          },
+          "survivalBiasWarning": "Overlapping composition ranges and unequal manuscript survival prevent a priority or borrowing inference.",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "bhagavad-gita",
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-gita — Bhagavad Gita 2:19–22 (Atlas passage pg-2388-10); src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "chron-death-ecclesiastes-john",
+          "summary": "Ecclesiastes is earlier than John in conventional composition ranges, but later canonical juxtaposition is not evidence that John answers this verse directly.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -350,
+          "endYear": 110,
+          "confidence": "medium",
+          "kind": "earlier-parallel",
+          "earlierSubject": "Ecclesiastes",
+          "laterSubject": "Gospel of John",
+          "earlierDate": {
+            "label": "approximately 350–180 BCE",
+            "startYear": -350,
+            "endYear": -180,
+            "confidence": "medium"
+          },
+          "laterDate": {
+            "label": "approximately 80–110 CE",
+            "startYear": 80,
+            "endYear": 110,
+            "confidence": "medium"
+          },
+          "survivalBiasWarning": "Dating literary works does not prove that one author interpreted the other.",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "ecclesiastes",
+            "gospel-of-john"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "influenceRelationships": [],
+      "alternativeInterpretations": [
+        {
+          "id": "alt-death-identity-models",
+          "summary": "Compare bodily, psychological, soul-based, and resurrection criteria before asking whether the same person survives.",
+          "sourceIds": [
+            "src-sep-afterlife"
+          ],
+          "traditionIds": [
+            "philosophy-of-religion"
+          ],
+          "regions": [
+            "global"
+          ],
+          "startYear": 1900,
+          "endYear": 2026,
+          "confidence": "high",
+          "interpretationSource": "Stanford Encyclopedia of Philosophy's reviewed afterlife survey",
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-sep-afterlife — Stanford Encyclopedia of Philosophy, Afterlife, sections 1–4",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "alt-death-canonical",
+          "summary": "A canonical harmonization can limit Ecclesiastes to present experience and John to future resurrection; a historical reading can preserve their distinct voices.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-sep-afterlife"
+          ],
+          "traditionIds": [
+            "judaism",
+            "christianity",
+            "philosophy-of-religion"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean",
+            "global"
+          ],
+          "startYear": -350,
+          "endYear": 2026,
+          "confidence": "medium",
+          "interpretationSource": "Primary passages plus contemporary philosophical distinctions",
+          "textIds": [
+            "bhagavad-gita",
+            "ecclesiastes",
+            "gospel-of-john",
+            "lucretius-de-rerum-natura"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Ecclesiastes 9:5–10; src-gutenberg-bible — John 5:28–29; src-sep-afterlife — Stanford Encyclopedia of Philosophy, Afterlife, sections 1–4",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "themes": [
+        "afterlife",
+        "death",
+        "identity",
+        "immortality",
+        "mortality",
+        "reincarnation",
+        "resurrection",
+        "self",
+        "soul"
+      ],
+      "textIds": [
+        "bhagavad-gita",
+        "ecclesiastes",
+        "gospel-of-john",
+        "lucretius-de-rerum-natura"
+      ]
+    },
+    {
+      "id": "cmp-ancient-floods",
+      "title": "Ancient Near Eastern flood narratives",
+      "topic": "flood",
+      "scopeNote": "Museum scholarship supports comparison of Atrahasis, Gilgamesh Tablet XI, and Genesis. Shared motifs alone are not a direct-borrowing claim.",
+      "subjectClaims": [
+        {
+          "id": "claim-atrahasis-flood",
+          "summary": "Atrahasis presents a divinely sent flood, a warned survivor, a boat, and post-flood sacrifice within a Mesopotamian account of human-divine relations.",
+          "sourceIds": [
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "mesopotamian"
+          ],
+          "regions": [
+            "mesopotamia"
+          ],
+          "startYear": -1700,
+          "endYear": -1600,
+          "confidence": "medium",
+          "proposition": "A warned human survives a divine flood in a boat.",
+          "speaker": "Atrahasis narrative voice",
+          "context": "Old Babylonian literary tradition known through fragmentary witnesses",
+          "textIds": [
+            "atrahasis-epic"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-gilgamesh-flood",
+          "summary": "Gilgamesh Tablet XI embeds Utnapishtim's flood account inside Gilgamesh's search for immortality.",
+          "sourceIds": [
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "mesopotamian"
+          ],
+          "regions": [
+            "mesopotamia"
+          ],
+          "startYear": -1300,
+          "endYear": -650,
+          "confidence": "medium",
+          "proposition": "Utnapishtim recounts surviving the flood.",
+          "speaker": "Utnapishtim within the Epic of Gilgamesh",
+          "context": "Standard Babylonian epic with older antecedents",
+          "textIds": [
+            "epic-of-gilgamesh"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-genesis-flood",
+          "summary": "Genesis 6–9 narrates Noah, the ark, animals, flood, sacrifice, and covenant.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant"
+          ],
+          "startYear": -700,
+          "endYear": -400,
+          "confidence": "medium",
+          "proposition": "Noah survives a divinely sent flood and receives a covenant.",
+          "speaker": "Genesis narrative voice",
+          "context": "Pentateuchal flood narrative",
+          "textIds": [
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "synthesisFindings": [
+        {
+          "id": "syn-flood-shared",
+          "summary": "The narratives share a catastrophic flood, warned survivor, vessel, preservation of life, and sacrifice, while assigning these motifs different narrative and theological functions.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "high",
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "syn-flood-limits",
+          "summary": "Ancient Near Eastern contact makes transmission historically discussable, but this dataset does not claim a single direct line from one surviving tablet to Genesis.",
+          "sourceIds": [
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "similarityFindings": [
+        {
+          "id": "sim-flood-motif",
+          "summary": "A deity or deities send a destructive flood and a warned human survives in a constructed vessel.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "high",
+          "dimension": "motif",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-flood-narrative",
+          "summary": "Release or use of birds, post-flood landing, and sacrifice form a comparable narrative sequence.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "dimension": "narrative",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-flood-ritual",
+          "summary": "Post-flood sacrifice appears in the compared traditions, but its divine reception and covenantal role differ.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "dimension": "ritual",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-flood-semantic",
+          "summary": "Modern English terms such as flood, ark, and sacrifice can conceal differences in source languages and objects.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "high",
+          "dimension": "semantic",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-flood-theological",
+          "summary": "All narratives place catastrophe in relation to divine agency; they disagree about divine plurality, motive, restraint, and covenant.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "high",
+          "dimension": "theological",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "contradictionFindings": [
+        {
+          "id": "con-flood-divine-motive",
+          "summary": "Atrahasis and Genesis give different reasons and divine configurations for the flood.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "propositionAId": "claim-atrahasis-flood",
+          "propositionBId": "claim-genesis-flood",
+          "speakerContext": "Literary narratives from different languages, periods, and theological settings.",
+          "harmonization": "A comparative reader may treat both as culturally specific retellings of a broad flood tradition.",
+          "counterReading": "Their stated divine motives and divine worlds remain materially different within the texts.",
+          "textIds": [
+            "atrahasis-epic",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "con-flood-outcome",
+          "summary": "Genesis culminates in covenant, while Gilgamesh uses the flood survivor chiefly within a meditation on mortality.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism",
+            "christianity"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1300,
+          "endYear": -400,
+          "confidence": "medium",
+          "propositionAId": "claim-gilgamesh-flood",
+          "propositionBId": "claim-genesis-flood",
+          "speakerContext": "An embedded first-person recollection in an epic and a third-person ancestral narrative.",
+          "harmonization": "Both can be read as accounts of reordered human-divine relations after catastrophe.",
+          "counterReading": "The covenant and immortality-search functions cannot be reduced to one message.",
+          "textIds": [
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "chronologyFindings": [
+        {
+          "id": "chron-flood-atrahasis-genesis",
+          "summary": "Old Babylonian Atrahasis witnesses predate the usual composition ranges assigned to Genesis, establishing an earlier surviving parallel but not direct dependence.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "kind": "earlier-parallel",
+          "earlierSubject": "Old Babylonian Atrahasis witnesses",
+          "laterSubject": "Genesis flood narrative",
+          "earlierDate": {
+            "label": "approximately seventeenth century BCE",
+            "startYear": -1700,
+            "endYear": -1600,
+            "confidence": "medium"
+          },
+          "laterDate": {
+            "label": "first-millennium BCE literary formation",
+            "startYear": -700,
+            "endYear": -400,
+            "confidence": "low"
+          },
+          "survivalBiasWarning": "Earlier surviving clay witnesses do not date the first oral flood story, and missing texts distort the sample.",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "atrahasis-epic",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "chron-flood-gilgamesh-genesis",
+          "summary": "Surviving Gilgamesh flood witnesses are earlier than the extant Genesis manuscript tradition; cultural contact is relevant but the path of literary transmission remains debated.",
+          "sourceIds": [
+            "src-met-flood",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1300,
+          "endYear": -400,
+          "confidence": "low",
+          "kind": "earlier-parallel",
+          "earlierSubject": "Gilgamesh Tablet XI tradition",
+          "laterSubject": "Genesis flood narrative",
+          "earlierDate": {
+            "label": "second- to first-millennium BCE witnesses",
+            "startYear": -1300,
+            "endYear": -650,
+            "confidence": "medium"
+          },
+          "laterDate": {
+            "label": "first-millennium BCE literary formation",
+            "startYear": -700,
+            "endYear": -400,
+            "confidence": "low"
+          },
+          "survivalBiasWarning": "Overlapping textual development, lost intermediaries, and unequal material survival block a simple before/after borrowing claim.",
+          "influenceRelationshipId": null,
+          "textIds": [
+            "epic-of-gilgamesh",
+            "genesis"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section; src-gutenberg-bible — Genesis 6–9; src-met-flood — Metropolitan Museum of Art, Flood Stories, Genesis comparison",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "influenceRelationships": [],
+      "alternativeInterpretations": [
+        {
+          "id": "alt-flood-shared-milieu",
+          "summary": "Explain the correspondences through a shared ancient Near Eastern literary milieu and multiple stages of retelling rather than a single copied document.",
+          "sourceIds": [
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "medium",
+          "interpretationSource": "Metropolitan Museum's comparative essay",
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "alt-flood-independent-memory",
+          "summary": "Treat some flood motifs as potentially arising from environmental memory or common narrative logic; this remains possible but does not explain detailed correspondences by itself.",
+          "sourceIds": [
+            "src-met-flood"
+          ],
+          "traditionIds": [
+            "mesopotamian",
+            "judaism"
+          ],
+          "regions": [
+            "mesopotamia",
+            "levant"
+          ],
+          "startYear": -1700,
+          "endYear": -400,
+          "confidence": "low",
+          "interpretationSource": "Museum synthesis used as a boundary; no independent-development claim is promoted to fact",
+          "textIds": [
+            "atrahasis-epic",
+            "epic-of-gilgamesh"
+          ],
+          "locator": "Compared inspected spans: src-met-flood — Metropolitan Museum of Art, Flood Stories, Atra-hasis section; src-met-flood — Metropolitan Museum of Art, Flood Stories, Gilgamesh Tablet XI section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "themes": [
+        "deluge",
+        "flood",
+        "flood myth",
+        "flood narrative"
+      ],
+      "textIds": [
+        "atrahasis-epic",
+        "epic-of-gilgamesh",
+        "genesis"
+      ]
+    },
+    {
+      "id": "cmp-enoch-jude-reception",
+      "title": "1 Enoch and the Letter of Jude",
+      "topic": "reception",
+      "scopeNote": "A documented quotation provides a stronger relationship than motif similarity; canon and interpretation remain community-specific.",
+      "subjectClaims": [
+        {
+          "id": "claim-enoch-judgment",
+          "summary": "1 Enoch 1:9 depicts the holy ones coming for judgment.",
+          "sourceIds": [
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "ethiopian-christianity"
+          ],
+          "regions": [
+            "levant",
+            "horn-of-africa"
+          ],
+          "startYear": -300,
+          "endYear": -100,
+          "confidence": "medium",
+          "proposition": "The Holy One comes with holy ones to execute judgment.",
+          "speaker": "1 Enoch's pseudepigraphal prophetic voice",
+          "context": "Opening judgment oracle",
+          "textIds": [
+            "1-enoch"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "claim-jude-enoch",
+          "summary": "Jude 14–15 attributes a judgment saying to Enoch and quotes 1 Enoch 1:9.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "eastern-mediterranean"
+          ],
+          "startYear": 50,
+          "endYear": 120,
+          "confidence": "high",
+          "proposition": "Enoch prophesied the coming judgment.",
+          "speaker": "Authorial voice of Jude",
+          "context": "Polemical warning in Jude 14–15",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "synthesisFindings": [
+        {
+          "id": "syn-enoch-jude",
+          "summary": "Jude's quotation documents reception of an Enochic judgment oracle in an early Christian letter; it does not by itself settle the canon status of all Enochic books.",
+          "sourceIds": [
+            "src-gutenberg-bible",
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity",
+            "ethiopian-christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean",
+            "horn-of-africa"
+          ],
+          "startYear": -300,
+          "endYear": 120,
+          "confidence": "high",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "similarityFindings": [
+        {
+          "id": "sim-enoch-jude-verbal",
+          "summary": "Jude 14b–15 has a direct verbal relationship to 1 Enoch 1:9 according to the cited SBL study.",
+          "sourceIds": [
+            "src-sbl-jude-enoch",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 120,
+          "confidence": "high",
+          "dimension": "semantic",
+          "influenceRelationshipId": "influence-enoch-jude-quotation",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "sim-enoch-jude-theological",
+          "summary": "Both passages deploy a coming judgment against the ungodly, while Jude adapts the saying to its own polemical context.",
+          "sourceIds": [
+            "src-sbl-jude-enoch",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 120,
+          "confidence": "high",
+          "dimension": "theological",
+          "influenceRelationshipId": "influence-enoch-jude-quotation",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "contradictionFindings": [
+        {
+          "id": "con-enoch-canon",
+          "summary": "Use of an Enochic quotation does not entail identical canon status across later Jewish, Ethiopian, Catholic, Orthodox, or Protestant communities.",
+          "sourceIds": [
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity",
+            "ethiopian-christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean",
+            "horn-of-africa"
+          ],
+          "startYear": -300,
+          "endYear": 2026,
+          "confidence": "high",
+          "propositionAId": "claim-enoch-judgment",
+          "propositionBId": "claim-jude-enoch",
+          "speakerContext": "A source text and a later citing letter are distinct witnesses with distinct reception histories.",
+          "harmonization": "A community may value or quote a work without granting it the same canonical status as the citing work.",
+          "counterReading": "Some communities' canonical reception of 1 Enoch gives the quotation a different theological setting.",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "chronologyFindings": [
+        {
+          "id": "chron-enoch-jude",
+          "summary": "The Enochic oracle predates Jude, and Jude 14b–15 directly quotes it.",
+          "sourceIds": [
+            "src-sbl-jude-enoch",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 120,
+          "confidence": "high",
+          "kind": "later-echo",
+          "earlierSubject": "1 Enoch 1:9",
+          "laterSubject": "Jude 14b–15",
+          "earlierDate": {
+            "label": "Second Temple period before Jude",
+            "startYear": -300,
+            "endYear": -100,
+            "confidence": "medium"
+          },
+          "laterDate": {
+            "label": "first or early second century CE",
+            "startYear": 50,
+            "endYear": 120,
+            "confidence": "medium"
+          },
+          "survivalBiasWarning": "Dating ranges remain approximate, but an explicit quotation is stronger than chronology alone.",
+          "influenceRelationshipId": "influence-enoch-jude-quotation",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "influenceRelationships": [
+        {
+          "id": "influence-enoch-jude-quotation",
+          "summary": "Jude 14b–15 quotes 1 Enoch 1:9; the relationship is textually documented rather than inferred from resemblance.",
+          "sourceIds": [
+            "src-sbl-jude-enoch",
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 120,
+          "confidence": "high",
+          "relationshipType": "explicit-quotation",
+          "documented": true,
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-gutenberg-bible — Jude 14b–15; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "alternativeInterpretations": [
+        {
+          "id": "alt-enoch-authority",
+          "summary": "Interpret quotation as evidence of use and authority in Jude's context without assuming a universal later canon decision.",
+          "sourceIds": [
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "second-temple-judaism",
+            "christianity"
+          ],
+          "regions": [
+            "levant",
+            "eastern-mediterranean"
+          ],
+          "startYear": -300,
+          "endYear": 2026,
+          "confidence": "high",
+          "interpretationSource": "Society of Biblical Literature commentary",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "alt-enoch-opponents",
+          "summary": "Some interpreters ask whether Jude cites material valued by its opponents; the quotation relationship remains even when rhetorical ownership is disputed.",
+          "sourceIds": [
+            "src-sbl-jude-enoch"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "eastern-mediterranean"
+          ],
+          "startYear": 50,
+          "endYear": 2026,
+          "confidence": "medium",
+          "interpretationSource": "Scholarly alternatives surveyed in SBL commentary",
+          "textIds": [
+            "1-enoch",
+            "catholic-epistles"
+          ],
+          "locator": "Compared inspected spans: src-sbl-jude-enoch — Reading 1–2 Peter and Jude, 1 Enoch 1:9 discussion; src-sbl-jude-enoch — Reading 1–2 Peter and Jude, Jude 14b–15 discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "themes": [
+        "canon",
+        "enoch",
+        "jude",
+        "judgment",
+        "quotation",
+        "reception",
+        "watchers"
+      ],
+      "textIds": [
+        "1-enoch",
+        "catholic-epistles"
+      ]
+    }
+  ],
+  "teachingConductCases": [
+    {
+      "id": "tc-spg-codrington",
+      "title": "Christian ethical teaching and SPG plantation ownership",
+      "traditionId": "christianity",
+      "dateLabel": "1710–1838",
+      "startYear": 1710,
+      "endYear": 1838,
+      "locations": [
+        "Barbados"
+      ],
+      "actorsAndInstitutions": [
+        "Society for the Propagation of the Gospel in Foreign Parts (SPG)",
+        "Codrington and Consett plantations",
+        "enslaved African workers"
+      ],
+      "teachingEvidence": [
+        {
+          "id": "tc-spg-teaching-golden-rule",
+          "summary": "Matthew 7:12 presents the Golden Rule; Matthew 22:39 presents love of neighbor. These are selected Christian teachings, not an exhaustive doctrine of slavery.",
+          "sourceIds": [
+            "src-gutenberg-bible"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "eastern-mediterranean"
+          ],
+          "startYear": 50,
+          "endYear": 100,
+          "confidence": "high",
+          "locator": "Matthew 7:12; Matthew 22:39",
+          "evidenceType": "primary-teaching",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "conductEvidence": [
+        {
+          "id": "tc-spg-conduct-ownership",
+          "summary": "The SPG inherited two Barbados sugar plantations and about 300 enslaved Africans in 1710 and continued exploiting enslaved labor; the Church of England FAQ also documents branding with 'Society'.",
+          "sourceIds": [
+            "src-church-england-codrington"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "caribbean"
+          ],
+          "startYear": 1710,
+          "endYear": 1838,
+          "confidence": "high",
+          "locator": "Church of England Historic Links FAQ, Codrington section",
+          "evidenceType": "institutional-archival-research",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "justificationsAtTheTime": [
+        {
+          "id": "tc-spg-justification-endowment",
+          "summary": "Rev. Thomas Thompson defended slavery through the law of nations, biblical appeal, nature, necessity, and commerce. This is a named Anglican argument, not a uniform Christian or SPG theology.",
+          "sourceIds": [
+            "src-cambridge-atlantic-slavery"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "caribbean",
+            "britain"
+          ],
+          "startYear": 1748,
+          "endYear": 1772,
+          "confidence": "high",
+          "attributedTo": "Rev. Thomas Thompson as documented in the cited study",
+          "evidenceStatus": "scholarly-analysis-of-named-contemporary-religious-argument",
+          "locator": "The University of Cambridge in the Age of Atlantic Slavery, chapter 2, pp. 49–51",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "textsUsedToJustify": [
+        {
+          "id": "tc-spg-text-gospel-property",
+          "summary": "Independent scholarship documents SPG-linked Anglican arguments that the Christian gospel did not interfere with civil property, with enslaved Africans treated as property, and a contemporary debate that invoked Christ's example and the authority of Scripture.",
+          "sourceIds": [
+            "src-cambridge-atlantic-slavery"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "caribbean",
+            "britain"
+          ],
+          "startYear": 1710,
+          "endYear": 1838,
+          "confidence": "high",
+          "locator": "The University of Cambridge in the Age of Atlantic Slavery, chapter 2, pp. 70–72",
+          "attributedTo": "Thomas Sherlock, Thomas Thompson, Benjamin Hoadly, and other named Anglican clergy in the cited study",
+          "evidenceStatus": "scholarly-analysis-of-contemporary-religious-arguments",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "supportingReligiousVoices": [
+        {
+          "id": "tc-spg-support-board",
+          "summary": "The SPG continued the plantation arrangement, while Rev. Thomas Thompson and named Anglican bishops argued that Christian conversion and the gospel did not dissolve enslavers' civil property claims.",
+          "sourceIds": [
+            "src-church-england-codrington",
+            "src-cambridge-atlantic-slavery"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "caribbean",
+            "britain"
+          ],
+          "startYear": 1710,
+          "endYear": 1838,
+          "confidence": "high",
+          "attributedTo": "SPG governors, Thomas Thompson, Benjamin Hoadly, and Thomas Sherlock in the cited records",
+          "evidenceStatus": "institutional-and-named-religious-support",
+          "locator": "Cambridge Atlantic Slavery, chapter 2, pp. 49–51 and 70–72; Church of England FAQ, Codrington section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "opposingReligiousVoices": [
+        {
+          "id": "tc-spg-opposition-bolton",
+          "summary": "Granville Sharp answered Thompson's proslavery case as a committed Christian, appealing to the gospel and universal benevolence while rejecting the claimed biblical and natural-law warrant.",
+          "sourceIds": [
+            "src-cambridge-atlantic-slavery"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "britain",
+            "caribbean"
+          ],
+          "startYear": 1769,
+          "endYear": 1772,
+          "confidence": "high",
+          "attributedTo": "Granville Sharp",
+          "evidenceStatus": "scholarly-analysis-of-named-contemporary-religious-opposition",
+          "locator": "The University of Cambridge in the Age of Atlantic Slavery, chapter 2, pp. 49–51",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "nonreligiousMotives": [
+        {
+          "id": "tc-spg-motive-sugar",
+          "summary": "Sugar production, plantation revenue, labor control, and preservation of an endowment were economic and institutional motives alongside religious mission identity.",
+          "sourceIds": [
+            "src-church-england-codrington"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "caribbean",
+            "britain"
+          ],
+          "startYear": 1710,
+          "endYear": 1838,
+          "confidence": "high",
+          "motiveType": "economic-and-institutional",
+          "locator": "Church of England Historic Links FAQ, Codrington plantation and endowment paragraphs",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "laterTheologicalInterpretations": [
+        {
+          "id": "tc-spg-later-response",
+          "summary": "Later mission theology reads the Codrington legacy through scripture, liberation, repentance, and repair, while current Church research treats historic benefit from chattel enslavement as requiring accountability. These later readings do not erase institutional distinctions.",
+          "sourceIds": [
+            "src-brill-spg-slavery",
+            "src-church-england-codrington"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "britain",
+            "caribbean"
+          ],
+          "startYear": 2021,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Mission Studies scholarship and Church of England institutional review",
+          "evidenceStatus": "later-theological-and-institutional-interpretation",
+          "locator": "Mission Studies 38.3 (2021), pp. 325–346; Church of England Historic Links FAQ, response programme paragraphs",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "modernScholarlyInterpretations": [
+        {
+          "id": "tc-spg-modern-archive",
+          "summary": "Independent scholarship and the institutional archival review both document ownership, management, religious argument, and exploitation while keeping the SPG and later legally distinct institutions historically specific.",
+          "sourceIds": [
+            "src-cambridge-atlantic-slavery",
+            "src-church-england-codrington"
+          ],
+          "traditionIds": [
+            "christianity"
+          ],
+          "regions": [
+            "britain",
+            "caribbean"
+          ],
+          "startYear": 2023,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Independent historians and Church Commissioners historical research",
+          "evidenceStatus": "independent-and-institutional-research",
+          "locator": "Cambridge Atlantic Slavery, chapter 2, pp. 40–75; Church of England Historic Links FAQ",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "evidenceStatus": "High for ownership, labor exploitation, dates, and the cited scholarly reconstruction of named religious arguments; no single uniform SPG prooftext is asserted.",
+      "disputes": "Responsibility and institutional continuity must distinguish the historic SPG, modern USPG, Church Commissioners, and the broader Church of England. Selected ethical verses do not establish how every historical Anglican interpreted slavery.",
+      "neutralityNote": "Atlas juxtaposes a selected teaching and documented institutional conduct without declaring divine approval, collective guilt, or a theological verdict.",
+      "sourceIds": [
+        "src-gutenberg-bible",
+        "src-church-england-codrington",
+        "src-cambridge-atlantic-slavery",
+        "src-brill-spg-slavery"
+      ]
+    },
+    {
+      "id": "tc-soto-imperial-war",
+      "title": "Buddhist non-harm teaching and Japanese Zen wartime support",
+      "traditionId": "buddhism",
+      "dateLabel": "1904–1945, with postwar reassessment",
+      "startYear": 1904,
+      "endYear": 1945,
+      "locations": [
+        "Japan",
+        "colonial East Asia"
+      ],
+      "actorsAndInstitutions": [
+        "leaders and institutions within Japanese Zen",
+        "Sōtō school",
+        "Japanese imperial state",
+        "Uchiyama Gudō",
+        "Makiguchi Tsunesaburō"
+      ],
+      "teachingEvidence": [
+        {
+          "id": "tc-soto-teaching-nonhatred",
+          "summary": "Dhammapada verse 5 states that hatred does not cease by hatred; this is a selected Buddhist teaching, not proof that all Buddhist ethics are absolute pacifism.",
+          "sourceIds": [
+            "src-gutenberg-dhammapada"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "south-asia"
+          ],
+          "startYear": -300,
+          "endYear": 100,
+          "confidence": "high",
+          "locator": "Dhammapada verse 5; Atlas passage pg-2017-2",
+          "evidenceType": "historical-translation-unclassified-selection",
+          "reviewStatus": "human-reviewed",
+          "canonicalPassageIds": [
+            "pg-2017-2"
+          ],
+          "textIds": [
+            "dhammapada"
+          ],
+          "contentTypes": [
+            "Unknown"
+          ]
+        },
+        {
+          "id": "tc-soto-teaching-modern-nonviolence",
+          "summary": "The contemporary Sōtō organization explicitly presents non-violence and avoidance of warlike confrontation as Buddhist responsibilities.",
+          "sourceIds": [
+            "src-soto-nonviolence"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "global",
+            "japan"
+          ],
+          "startYear": 2015,
+          "endYear": 2026,
+          "confidence": "high",
+          "locator": "SOTOZEN SDG 16, non-violence and peace statement",
+          "evidenceType": "current-institutional-teaching",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "conductEvidence": [
+        {
+          "id": "tc-soto-conduct-war-support",
+          "summary": "Scholarship documents Zen leaders and institutions supporting Japanese imperial projects through propaganda, patriotic organizations, fundraising, ritual, and exhortation; the inspected article records specific Sōtō arguments and voices.",
+          "sourceIds": [
+            "src-jstor-imperial-way-zen",
+            "src-nanzan-soto-apology"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan",
+            "east-asia"
+          ],
+          "startYear": 1931,
+          "endYear": 1945,
+          "confidence": "high",
+          "evidenceType": "scholarly-historical-analysis",
+          "locator": "Ishikawa Rikizan (1998), pp. 88–93; Imperial-Way Zen, wartime-mobilization chapters",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "justificationsAtTheTime": [
+        {
+          "id": "tc-soto-justification-realm",
+          "summary": "Wartime rhetoric drew on loyalty, service to the public, protection of the realm, national emergency, and interpretations connecting Zen discipline with imperial duty.",
+          "sourceIds": [
+            "src-jstor-imperial-way-zen"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan",
+            "east-asia"
+          ],
+          "startYear": 1931,
+          "endYear": 1945,
+          "confidence": "high",
+          "attributedTo": "Documented wartime Zen leaders",
+          "evidenceStatus": "scholarly-synthesis-of-primary-material",
+          "locator": "Imperial-Way Zen, chapters on imperial-way doctrine and protection of the realm",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "textsUsedToJustify": [
+        {
+          "id": "tc-soto-texts-metaphysical",
+          "summary": "Wartime Sōtō argument used the 'two truths' theory to subordinate Buddhist law to imperial law and presented loyalty to the emperor as an absolute religious obligation. The cited article preserves these as historically situated arguments.",
+          "sourceIds": [
+            "src-nanzan-soto-apology"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan"
+          ],
+          "startYear": 1931,
+          "endYear": 1945,
+          "confidence": "high",
+          "attributedTo": "Wartime Sōtō doctrinal argument documented by Ishikawa Rikizan",
+          "evidenceStatus": "scholarly-analysis-of-specific-doctrinal-argument",
+          "locator": "Ishikawa Rikizan (1998), pp. 88–89",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "supportingReligiousVoices": [
+        {
+          "id": "tc-soto-support-leaders",
+          "summary": "Named Zen leaders including Sawaki Kōdō and Nanjo Bun'yū linked Buddhist language, imperial loyalty, and wartime service; broader institutional mobilization included enlistment, fundraising, and ritual.",
+          "sourceIds": [
+            "src-nanzan-soto-apology",
+            "src-jstor-imperial-way-zen"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan"
+          ],
+          "startYear": 1931,
+          "endYear": 1945,
+          "confidence": "high",
+          "attributedTo": "Sawaki Kōdō, Nanjo Bun'yū, and other documented Zen leaders",
+          "evidenceStatus": "scholarly-documented-named-voices",
+          "locator": "Ishikawa Rikizan (1998), pp. 91–93; Imperial-Way Zen, named-leader chapters",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "opposingReligiousVoices": [
+        {
+          "id": "tc-soto-opposition-gudo",
+          "summary": "Sōtō priest Uchiyama Gudō opposed imperial authority and was later rehabilitated; the Sōtō apology literature treats his case as part of institutional reckoning.",
+          "sourceIds": [
+            "src-nanzan-soto-apology"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan"
+          ],
+          "startYear": 1904,
+          "endYear": 1911,
+          "confidence": "high",
+          "attributedTo": "Uchiyama Gudō",
+          "evidenceStatus": "historically-documented",
+          "locator": "Ishikawa Rikizan (1998), Uchiyama Gudō discussion, pp. 74–87",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "tc-soto-opposition-makiguchi",
+          "summary": "Makiguchi Tsunesaburō's conflict with wartime ideology provides a distinct Buddhist resistance case; it must not be generalized to all Sōka or Nichiren actors.",
+          "sourceIds": [
+            "src-jstor-soka-wartime"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan"
+          ],
+          "startYear": 1937,
+          "endYear": 1944,
+          "confidence": "high",
+          "attributedTo": "Makiguchi Tsunesaburō",
+          "evidenceStatus": "scholarly-documented",
+          "locator": "We Alone Can Save Japan, Makiguchi and wartime-resistance sections",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "nonreligiousMotives": [
+        {
+          "id": "tc-soto-motive-state",
+          "summary": "Nationalism, state pressure, institutional survival, colonial expansion, military mobilization, and access to public legitimacy were non-doctrinal factors.",
+          "sourceIds": [
+            "src-jstor-imperial-way-zen",
+            "src-nanzan-soto-apology"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan",
+            "east-asia"
+          ],
+          "startYear": 1931,
+          "endYear": 1945,
+          "confidence": "medium",
+          "motiveType": "political-institutional-and-nationalist",
+          "locator": "Imperial-Way Zen, institutional-accommodation chapters; Ishikawa Rikizan (1998), pp. 88–105",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "laterTheologicalInterpretations": [
+        {
+          "id": "tc-soto-later-apology",
+          "summary": "The 1992 Sōtō statement acknowledged harm, loss of autonomy, and institutional responsibility; contemporary Sōtō materials articulate a no-war ethic.",
+          "sourceIds": [
+            "src-nanzan-soto-apology",
+            "src-soto-nonviolence"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan",
+            "global"
+          ],
+          "startYear": 1992,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Sōtō institutional leadership",
+          "evidenceStatus": "documented-institutional-reassessment",
+          "locator": "Ishikawa Rikizan (1998), p. 105; SOTOZEN SDG 16 statement",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "modernScholarlyInterpretations": [
+        {
+          "id": "tc-soto-modern-debate",
+          "summary": "Ives analyzes both active support and disputes about whether Zen doctrines, institutional accommodation, nationalism, or political coercion best explain wartime conduct.",
+          "sourceIds": [
+            "src-jstor-imperial-way-zen"
+          ],
+          "traditionIds": [
+            "buddhism"
+          ],
+          "regions": [
+            "japan",
+            "east-asia"
+          ],
+          "startYear": 2009,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Christopher Ives",
+          "evidenceStatus": "scholarly-monograph",
+          "locator": "Imperial-Way Zen, conclusion and responsibility analysis",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "evidenceStatus": "High for documented institutional mobilization and later apology; medium for causal weight assigned to doctrine versus state, nationalist, and institutional pressures.",
+      "disputes": "Scholars dispute the representativeness of individual figures, the interpretation of wartime rhetoric, and how much explanatory weight belongs to Zen ideas versus modern nationalism and coercive institutions.",
+      "neutralityNote": "The case neither treats wartime conduct as Buddhist doctrine nor exempts documented religious institutions from historical analysis.",
+      "sourceIds": [
+        "src-gutenberg-dhammapada",
+        "src-jstor-imperial-way-zen",
+        "src-nanzan-soto-apology",
+        "src-jstor-soka-wartime",
+        "src-soto-nonviolence"
+      ]
+    },
+    {
+      "id": "tc-ottoman-devshirme",
+      "title": "No-compulsion teaching and Ottoman devshirme",
+      "traditionId": "islam",
+      "dateLabel": "approximately fifteenth–seventeenth centuries",
+      "startYear": 1400,
+      "endYear": 1700,
+      "locations": [
+        "Ottoman Balkans",
+        "Anatolia",
+        "Istanbul"
+      ],
+      "actorsAndInstitutions": [
+        "Ottoman imperial administration",
+        "Christian subject families",
+        "levied boys",
+        "Janissary and palace institutions"
+      ],
+      "teachingEvidence": [
+        {
+          "id": "tc-devshirme-teaching-compulsion",
+          "summary": "Qur'an 2:256 states that there is no compulsion in religion. Its legal scope and historical applications have multiple interpretations.",
+          "sourceIds": [
+            "src-quran-corpus-2-256",
+            "src-gutenberg-quran"
+          ],
+          "traditionIds": [
+            "islam"
+          ],
+          "regions": [
+            "arabia"
+          ],
+          "startYear": 610,
+          "endYear": 632,
+          "confidence": "high",
+          "locator": "Qur'an 2:256",
+          "evidenceType": "primary-teaching",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "tc-devshirme-teaching-dhimmi",
+          "summary": "Wittek summarizes the sharia principle that protected Christian subjects retained personal liberty and the right to practice their religion.",
+          "sourceIds": [
+            "src-cambridge-devshirme"
+          ],
+          "traditionIds": [
+            "islamic-jurisprudence"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "medium",
+          "locator": "Wittek, Devshirme and Shari'a, p. 271 and article extract",
+          "evidenceType": "scholarly-summary-of-legal-norm",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "conductEvidence": [
+        {
+          "id": "tc-devshirme-conduct",
+          "summary": "The devshirme was a periodic forced levy of Christian boys involving enslavement, conversion to Islam, and training for imperial military or administrative service.",
+          "sourceIds": [
+            "src-cambridge-devshirme",
+            "src-cambridge-global-slavery"
+          ],
+          "traditionIds": [
+            "ottoman-state",
+            "islam"
+          ],
+          "regions": [
+            "balkans",
+            "anatolia",
+            "istanbul"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "high",
+          "evidenceType": "scholarly-historical-analysis",
+          "locator": "Wittek, Devshirme and Shari'a, pp. 271–278; Global Slavery, Ottoman devshirme section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "justificationsAtTheTime": [
+        {
+          "id": "tc-devshirme-justification-service",
+          "summary": "The included scholarship reconstructs service, military recruitment, household formation, and centralization as state rationales, but it does not establish a named contemporary religious justification. Atlas records that evidentiary limit instead of converting state practice into theology.",
+          "sourceIds": [
+            "src-cambridge-devshirme",
+            "src-cambridge-global-slavery"
+          ],
+          "traditionIds": [
+            "ottoman-state",
+            "islam"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "low",
+          "recordKind": "documented-gap",
+          "attributedTo": "Evidence gap",
+          "evidenceStatus": "named-contemporary-religious-justification-not-established",
+          "locator": "Global Slavery, Ottoman state-formation section; Wittek, pp. 271–278 (named religious defender not located)",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "textsUsedToJustify": [
+        {
+          "id": "tc-devshirme-prooftext-gap",
+          "summary": "The included sources do not establish a single Qur'anic prooftext used by Ottoman administrators to authorize the levy. Atlas records the legal controversy instead of fabricating one.",
+          "sourceIds": [
+            "src-cambridge-devshirme"
+          ],
+          "traditionIds": [
+            "ottoman-state",
+            "islamic-jurisprudence"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "low",
+          "recordKind": "documented-gap",
+          "attributedTo": "Evidence gap",
+          "evidenceStatus": "not-established-in-included-source",
+          "locator": "Wittek, Devshirme and Shari'a, pp. 271–278 (reviewed for, but does not establish, a Qur'anic prooftext)",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "supportingReligiousVoices": [
+        {
+          "id": "tc-devshirme-support-gap",
+          "summary": "No named contemporary religious scholar explicitly defending devshirme is established in the included evidence. State implementation demonstrates political support, not automatically a juristic endorsement.",
+          "sourceIds": [
+            "src-cambridge-devshirme",
+            "src-cambridge-global-slavery"
+          ],
+          "traditionIds": [
+            "ottoman-state",
+            "islamic-jurisprudence"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "low",
+          "recordKind": "documented-gap",
+          "attributedTo": "Evidence gap",
+          "evidenceStatus": "named-supporting-religious-voice-not-established",
+          "locator": "Wittek, pp. 271–278 and Global Slavery devshirme section (reviewed for, but do not establish, a named juristic defender)",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "opposingReligiousVoices": [
+        {
+          "id": "tc-devshirme-opposition-law",
+          "summary": "Wittek reports that the levy appeared incompatible with the holy law's protection of Christian subjects, but the inspected material does not establish a named contemporary religious opponent. The legal conflict is evidence; a named voice remains a gap.",
+          "sourceIds": [
+            "src-cambridge-devshirme"
+          ],
+          "traditionIds": [
+            "islamic-jurisprudence"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1955,
+          "confidence": "low",
+          "recordKind": "documented-gap",
+          "attributedTo": "Evidence gap",
+          "evidenceStatus": "named-contemporary-religious-opponent-not-established",
+          "locator": "Wittek, pp. 271–278 (legal conflict established; named contemporary religious opponent not established)",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "nonreligiousMotives": [
+        {
+          "id": "tc-devshirme-motive-centralization",
+          "summary": "Military labor, an imperial service elite, central control over frontier nobles, and state formation were major political and institutional motives.",
+          "sourceIds": [
+            "src-cambridge-global-slavery"
+          ],
+          "traditionIds": [
+            "ottoman-state"
+          ],
+          "regions": [
+            "ottoman-empire"
+          ],
+          "startYear": 1400,
+          "endYear": 1700,
+          "confidence": "high",
+          "motiveType": "military-political-and-institutional",
+          "locator": "Global Slavery in the Making of States and International Orders, Ottoman devshirme section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "laterTheologicalInterpretations": [
+        {
+          "id": "tc-devshirme-later-legal",
+          "summary": "Louis Massignon later described devshirme as a breach of the Prophet's compact protecting Christian subjects; Wittek develops the legal-historical problem without treating that judgment as a universal Muslim view.",
+          "sourceIds": [
+            "src-cambridge-devshirme"
+          ],
+          "traditionIds": [
+            "islamic-jurisprudence"
+          ],
+          "regions": [
+            "ottoman-empire",
+            "global"
+          ],
+          "startYear": 1930,
+          "endYear": 1955,
+          "confidence": "medium",
+          "attributedTo": "Louis Massignon as discussed by Paul Wittek",
+          "evidenceStatus": "named-later-legal-theological-interpretation",
+          "locator": "Wittek, Devshirme and Shari'a, p. 271, Massignon and protected-subject compact discussion",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "modernScholarlyInterpretations": [
+        {
+          "id": "tc-devshirme-modern-state",
+          "summary": "Recent comparative scholarship treats devshirme as coerced enslavement and conversion embedded in state formation while also noting later advancement available to some recruits.",
+          "sourceIds": [
+            "src-cambridge-global-slavery"
+          ],
+          "traditionIds": [
+            "ottoman-state"
+          ],
+          "regions": [
+            "ottoman-empire",
+            "global"
+          ],
+          "startYear": 2000,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Comparative slavery and state-formation scholarship",
+          "evidenceStatus": "modern-scholarship",
+          "locator": "Global Slavery in the Making of States and International Orders, Ottoman devshirme section",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "evidenceStatus": "High for coercive levy, conversion, and service; medium for legal debates; the current evidence set lacks a named contemporary religious defender and records that gap.",
+      "disputes": "Frequency, recruitment patterns, local agency, family strategies, and the experience of later elite advancement vary. None removes coercive intake, and none warrants generalizing devshirme to all Ottoman or Islamic conversion.",
+      "neutralityNote": "The case compares a Qur'anic/legal norm with a state institution without declaring the institution representative of Islam as a whole.",
+      "sourceIds": [
+        "src-quran-corpus-2-256",
+        "src-gutenberg-quran",
+        "src-cambridge-devshirme",
+        "src-cambridge-global-slavery"
+      ]
+    },
+    {
+      "id": "tc-vaikom-exclusion",
+      "title": "Equal vision teaching and Vaikom road exclusion",
+      "traditionId": "hindu",
+      "dateLabel": "1924–1925, with 1936 temple-entry reform",
+      "startYear": 1924,
+      "endYear": 1936,
+      "locations": [
+        "Vaikom",
+        "Travancore",
+        "Kerala"
+      ],
+      "actorsAndInstitutions": [
+        "Travancore authorities",
+        "Vaikom temple-associated orthodox leaders",
+        "Ezhava and other excluded communities",
+        "Vaikom Satyagraha volunteers",
+        "Sri Narayana Guru",
+        "M. K. Gandhi"
+      ],
+      "teachingEvidence": [
+        {
+          "id": "tc-vaikom-teaching-equal-vision",
+          "summary": "Bhagavad Gita 5:18 praises equal vision toward people of different social standing. This selected verse is not a complete account of Hindu varna or caste traditions.",
+          "sourceIds": [
+            "src-gutenberg-gita"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "south-asia"
+          ],
+          "startYear": -200,
+          "endYear": 200,
+          "confidence": "high",
+          "locator": "Bhagavad Gita 5:18; Atlas passage pg-2388-26",
+          "evidenceType": "historical-translation-unclassified-selection",
+          "reviewStatus": "human-reviewed",
+          "canonicalPassageIds": [
+            "pg-2388-26"
+          ],
+          "textIds": [
+            "bhagavad-gita"
+          ],
+          "contentTypes": [
+            "Unknown"
+          ]
+        }
+      ],
+      "conductEvidence": [
+        {
+          "id": "tc-vaikom-conduct-roads",
+          "summary": "Roads surrounding the Vaikom temple were closed to Ezhavas and other communities deemed untouchable, and authorities arrested nonviolent protesters seeking access.",
+          "sourceIds": [
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu",
+            "travancore-state"
+          ],
+          "regions": [
+            "vaikom",
+            "kerala"
+          ],
+          "startYear": 1924,
+          "endYear": 1925,
+          "confidence": "high",
+          "evidenceType": "institutional-historical-record",
+          "locator": "Government of Kerala, Vaikom Satyagraha, campaign narrative pp. 1–22; Gandhi Heritage Portal chronology",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "justificationsAtTheTime": [
+        {
+          "id": "tc-vaikom-justification-custom",
+          "summary": "Indam Thurutthi Devan Nilakanthan Nampyathiri defended inherited exclusion through Hindu Dharma Shastra, Shankarasmriti, tradition, karma, and reincarnation during the 1925 discussions. This is a named historical position, not a summary of Hinduism.",
+          "sourceIds": [
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "vaikom",
+            "travancore"
+          ],
+          "startYear": 1925,
+          "endYear": 1925,
+          "confidence": "high",
+          "attributedTo": "Indam Thurutthi Devan Nilakanthan Nampyathiri",
+          "evidenceStatus": "named-contemporary-religious-argument",
+          "locator": "Government of Kerala, Vaikom Satyagraha, pp. 20–22",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "textsUsedToJustify": [
+        {
+          "id": "tc-vaikom-prooftext-gap",
+          "summary": "The government history records an orthodox appeal to Hindu Dharma Shastra and Shankarasmriti during Gandhi's discussion with caste-Hindu leaders. The cited pages do not establish a single verse as the exclusive warrant.",
+          "sourceIds": [
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "vaikom",
+            "travancore"
+          ],
+          "startYear": 1925,
+          "endYear": 1925,
+          "confidence": "high",
+          "attributedTo": "Indam Thurutthi Devan Nilakanthan Nampyathiri",
+          "evidenceStatus": "named-textual-traditions-without-invented-verse",
+          "locator": "Government of Kerala, Vaikom Satyagraha, pp. 20–22",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "supportingReligiousVoices": [
+        {
+          "id": "tc-vaikom-support-orthodox",
+          "summary": "Indam Thurutthi Devan Nilakanthan Nampyathiri and other named attendees defended the inherited restriction and rejected Gandhi's proposed tests for change during the March 1925 discussion.",
+          "sourceIds": [
+            "src-kerala-vaikom",
+            "src-gandhi-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "vaikom"
+          ],
+          "startYear": 1925,
+          "endYear": 1925,
+          "confidence": "high",
+          "attributedTo": "Indam Thurutthi Devan Nilakanthan Nampyathiri and the documented caste-Hindu delegation",
+          "evidenceStatus": "named-contemporary-religious-support",
+          "locator": "Government of Kerala, Vaikom Satyagraha, pp. 20–22; Gandhi Heritage Portal, March 1925 meeting",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "opposingReligiousVoices": [
+        {
+          "id": "tc-vaikom-opposition-guru",
+          "summary": "Sri Narayana Guru supported the struggle against exclusion and met Gandhi during the campaign.",
+          "sourceIds": [
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "kerala"
+          ],
+          "startYear": 1924,
+          "endYear": 1925,
+          "confidence": "high",
+          "attributedTo": "Sri Narayana Guru",
+          "evidenceStatus": "institutional-history-summary",
+          "locator": "Government of Kerala, Sree Narayana Guru campaign section; Gandhi Heritage Portal, Guru meeting",
+          "reviewStatus": "human-reviewed"
+        },
+        {
+          "id": "tc-vaikom-opposition-gandhi",
+          "summary": "Gandhi joined prayer with protesters, negotiated with orthodox leaders and state figures, and argued for change within a religious and political reform framework.",
+          "sourceIds": [
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "kerala"
+          ],
+          "startYear": 1925,
+          "endYear": 1925,
+          "confidence": "high",
+          "attributedTo": "M. K. Gandhi",
+          "evidenceStatus": "archival-heritage-summary",
+          "locator": "Government of Kerala, Gandhi negotiations pp. 20–22; Gandhi Heritage Portal, March 1925 chronology",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "nonreligiousMotives": [
+        {
+          "id": "tc-vaikom-motive-status",
+          "summary": "Social status, control of public space, princely-state order, anti-caste mobilization, and Indian nationalist politics shaped the conflict alongside religious custom.",
+          "sourceIds": [
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom",
+            "src-oup-vaikom"
+          ],
+          "traditionIds": [
+            "hindu",
+            "travancore-state"
+          ],
+          "regions": [
+            "kerala"
+          ],
+          "startYear": 1924,
+          "endYear": 1936,
+          "confidence": "high",
+          "motiveType": "social-political-and-status",
+          "locator": "Gandhian Nonviolent Struggle and Untouchability, campaign and settlement chapters; Government of Kerala campaign narrative",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "laterTheologicalInterpretations": [
+        {
+          "id": "tc-vaikom-later-reform",
+          "summary": "The included sources establish later reform memory around Vaikom and the 1936 Temple Entry Proclamation, but they do not establish one defined later theological interpretation with an inspected doctrinal source. Atlas records that limitation explicitly.",
+          "sourceIds": [
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom",
+            "src-oup-vaikom"
+          ],
+          "traditionIds": [
+            "hindu"
+          ],
+          "regions": [
+            "kerala"
+          ],
+          "startYear": 1936,
+          "endYear": 2026,
+          "confidence": "low",
+          "recordKind": "documented-gap",
+          "attributedTo": "Evidence gap",
+          "evidenceStatus": "later-doctrinal-interpretation-not-established",
+          "locator": "Gandhian Nonviolent Struggle and Untouchability, conclusion; Kerala and Gandhi public histories (reviewed for, but do not establish, one later doctrinal school)",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "modernScholarlyInterpretations": [
+        {
+          "id": "tc-vaikom-modern-civil-rights",
+          "summary": "Independent scholarship treats Vaikom as a nonviolent anti-untouchability campaign, disputes romanticized conversion narratives, and analyzes the campaign's controversial settlement alongside the public-history accounts.",
+          "sourceIds": [
+            "src-oup-vaikom",
+            "src-gandhi-vaikom",
+            "src-kerala-vaikom"
+          ],
+          "traditionIds": [
+            "hindu",
+            "indian-national-movement"
+          ],
+          "regions": [
+            "kerala",
+            "india"
+          ],
+          "startYear": 2015,
+          "endYear": 2026,
+          "confidence": "high",
+          "attributedTo": "Mary Elizabeth King with government and Gandhi heritage histories retained as public-memory sources",
+          "evidenceStatus": "independent-scholarship-with-institutional-comparison",
+          "locator": "Gandhian Nonviolent Struggle and Untouchability, campaign, settlement, and conclusion chapters",
+          "reviewStatus": "human-reviewed"
+        }
+      ],
+      "evidenceStatus": "High for exclusion, protest dates, named reformers, and negotiated road opening; medium for motives and orthodox justifications summarized by commemorative sources.",
+      "disputes": "The campaign's partial 1925 settlement, relationship to temple entry, roles of Gandhi and local reformers, and the weight of religious custom versus state and caste power require fuller independent scholarship.",
+      "neutralityNote": "Atlas neither treats exclusion as the essence of Hindu doctrine nor hides the religious institutions and arguments present in the historical record.",
+      "sourceIds": [
+        "src-gutenberg-gita",
+        "src-gandhi-vaikom",
+        "src-kerala-vaikom",
+        "src-oup-vaikom"
+      ]
+    }
+  ]
+}

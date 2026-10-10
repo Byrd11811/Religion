@@ -8,11 +8,28 @@ import {
   artifacts,
 } from "@/packages/shared/catalog";
 import { themes, concepts } from "@/packages/ontology";
-import { allPassages, search } from "@/packages/search";
+import { allPassages } from "@/packages/search";
+import {
+  assertPayloadProtocols,
+  protocolDecision,
+} from "@/packages/shared/protocols";
 import { hybridSearch } from "@/packages/search/hybrid";
 import { federatedSearch } from "@/packages/search/federated";
-import { answerQuestion } from "@/packages/ai";
-import { comparisonCases } from "@/packages/ai/guides";
+import { answerEvidenceOnlyQuestion } from "@/packages/ai";
+import { configuredResearchProvider } from "@/packages/ai/compatible-research-provider";
+import { prepareResearchQuestion } from "@/packages/ai/research-query";
+import { createQuestionNdjsonStream } from "@/packages/ai/stream";
+import {
+  comparisonModes,
+  findOpposition,
+  findTeachingConductCases,
+  runComparison,
+} from "@/packages/research";
+import { buildLegacyComparisonSections } from "@/packages/research/legacy-comparison";
+import {
+  researchSources,
+  type ResearchConfidence,
+} from "@/packages/shared/research-engines";
 import { getCollections, mutateCollections } from "@/packages/db/collections";
 import { randomUUID } from "node:crypto";
 import { database } from "@/packages/db/client";
@@ -25,20 +42,25 @@ import {
   readOntology,
 } from "@/packages/db/ontology";
 import { createManifest } from "@/packages/shared/iiif";
+import { findingRightsAllowed } from "@/packages/citation";
 import { explorationRecords } from "@/packages/shared/exploration-catalog";
 import { explorationScope } from "@/packages/shared/exploration";
 import { parseExplorationQuery } from "@/packages/shared/exploration-query";
 import {
+  archiveImageDisplayAllowed,
   coverageStatuses,
   witnesses,
   museumArtifacts,
   archiveImages,
 } from "@/packages/shared/archive";
+import { passageAiRightsAllowed } from "@/packages/shared/rights";
 export const runtime = "nodejs";
 type Context = { params: Promise<{ path: string[] }> };
 const finding = z.object({
   id: z.string().max(100),
   kind: z.enum(["text", "passage", "query", "comparison"]),
+  textId: z.string().max(160).optional(),
+  editionId: z.string().max(160).optional(),
   title: z.string().max(500),
   content: z.string().max(60000),
   sourceUrl: z
@@ -47,9 +69,157 @@ const finding = z.object({
     .regex(/^https?:\/\//)
     .optional(),
   createdAt: z.string(),
+}).superRefine((value, context) => {
+  if (
+    value.kind === "passage" &&
+    (!value.textId || !value.editionId)
+  )
+    context.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: "Passage findings require canonical work and edition IDs",
+    });
 });
 const send = (data: unknown, status = 200) =>
   NextResponse.json(data, { status });
+const questionRequest = z.object({
+  question: z.string().trim().min(3).max(1000),
+  traditions: z.array(z.string()).max(26).optional(),
+  textIds: z.array(z.string()).max(12).optional(),
+  editionIds: z.array(z.string()).max(24).optional(),
+  contentTypes: z
+    .array(
+      z.enum([
+        "Primary text",
+        "Translator note",
+        "Editorial introduction",
+        "Scholarly commentary",
+        "Footnote",
+        "Appendix",
+        "Unknown",
+      ]),
+    )
+    .max(7)
+    .optional(),
+  before: z.number().optional(),
+  after: z.number().optional(),
+  region: z.string().max(200).optional(),
+});
+const researchScopeRequest = z.object({
+  textIds: z.array(z.string().max(160)).max(12).optional(),
+  traditionIds: z.array(z.string().max(120)).max(30).optional(),
+  regions: z.array(z.string().max(120)).max(30).optional(),
+  sourceIds: z.array(z.string().max(160)).max(50).optional(),
+  sourceKinds: z.array(z.string().max(160)).max(30).optional(),
+  beforeYear: z.number().int().min(-10000).max(3000).optional(),
+  afterYear: z.number().int().min(-10000).max(3000).optional(),
+  minConfidence: z.enum(["high", "medium", "low", "contested"]).optional(),
+  contentTypes: z
+    .array(
+      z.enum([
+        "Primary text",
+        "Translator note",
+        "Editorial introduction",
+        "Scholarly commentary",
+        "Footnote",
+        "Appendix",
+        "Unknown",
+      ]),
+    )
+    .max(7)
+    .optional(),
+});
+
+function engineSources(sourceIds: string[]) {
+  const ids = new Set(sourceIds);
+  return researchSources.filter((source) => ids.has(source.id));
+}
+
+function ndjsonResponse(stream: ReadableStream<Uint8Array>) {
+  return new Response(stream, {
+    headers: {
+      "Content-Type": "application/x-ndjson; charset=utf-8",
+      "Cache-Control": "no-store",
+      "X-Content-Type-Options": "nosniff",
+    },
+  });
+}
+
+function preparedQuestionStream(
+  data: z.infer<typeof questionRequest>,
+  requestSignal: AbortSignal,
+) {
+  const encoder = new TextEncoder();
+  const controller = new AbortController();
+  const signal = AbortSignal.any([requestSignal, controller.signal]);
+  let innerReader: ReadableStreamDefaultReader<Uint8Array> | undefined;
+  const line = (value: unknown) => encoder.encode(`${JSON.stringify(value)}\n`);
+
+  return new ReadableStream<Uint8Array>({
+    start(stream) {
+      stream.enqueue(
+        line({
+          type: "status",
+          stage: "retrieval-started",
+          message:
+            "Applying source scope and retrieving canonical evidence before synthesis.",
+        }),
+      );
+      if (signal.aborted) {
+        stream.close();
+        return;
+      }
+      void (async () => {
+        try {
+          const prepared = await prepareResearchQuestion(
+            data.question,
+            data,
+            signal,
+          );
+          if (prepared.kind === "unresolved-safeguard") {
+            stream.enqueue(
+              line({
+                type: "status",
+                stage: "safeguard-applied",
+                message:
+                  "Unresolved-corpus safeguard applied; no canonical source span was emitted or claimed as verified evidence.",
+              }),
+            );
+            stream.enqueue(line({ type: "complete", result: prepared.result }));
+            stream.close();
+            return;
+          }
+          innerReader = createQuestionNdjsonStream({
+            question: data.question,
+            evidence: prepared.evidence,
+            provider: configuredResearchProvider(),
+            signal,
+          }).getReader();
+          while (true) {
+            const chunk = await innerReader.read();
+            if (chunk.done) break;
+            stream.enqueue(chunk.value);
+          }
+          stream.close();
+        } catch (error) {
+          if (!signal.aborted) stream.error(error);
+          else {
+            try {
+              stream.close();
+            } catch {
+              // The consumer may already have cancelled the stream.
+            }
+          }
+        }
+      })();
+    },
+    async cancel(reason) {
+      controller.abort(
+        reason ?? new DOMException("Stream consumer cancelled", "AbortError"),
+      );
+      await innerReader?.cancel(reason);
+    },
+  });
+}
 export async function GET(req: NextRequest, { params }: Context) {
   try {
     const [route, id, subroute] = (await params).path;
@@ -63,7 +233,7 @@ export async function GET(req: NextRequest, { params }: Context) {
         const artifact = museumArtifacts.find((a) => a.id === id);
         const images = archiveImages.filter(
           (i) =>
-            i.artifactId === id && i.publicDomain && i.rights.includes("CC0"),
+            i.artifactId === id && archiveImageDisplayAllowed(i),
         );
         return artifact && images.length
           ? send(
@@ -127,7 +297,7 @@ export async function GET(req: NextRequest, { params }: Context) {
             : send({ error: "Artifact not found" }, 404)
           : send(museumArtifacts);
       case "archive-images":
-        return send(archiveImages);
+        return send(archiveImages.filter(archiveImageDisplayAllowed));
       case "texts":
         return id
           ? texts.find((t) => t.id === id)
@@ -167,7 +337,15 @@ export async function GET(req: NextRequest, { params }: Context) {
           : send({ error: "Evolution path not found" }, 404);
       }
       case "images":
-        return send(artifacts);
+        return send(
+          artifacts.filter((artifact) =>
+            archiveImages.some(
+              (image) =>
+                image.artifactId === artifact.id &&
+                archiveImageDisplayAllowed(image),
+            ),
+          ),
+        );
       case "timeline":
       case "map": {
         const parsed = parseExplorationQuery(q);
@@ -235,12 +413,33 @@ export async function GET(req: NextRequest, { params }: Context) {
         const validContentTypeSet = new Set<string>(validContentTypes);
         if (contentType.some((type) => !validContentTypeSet.has(type)))
           return send({ error: "Invalid content type" }, 400);
+        const limitValue = q.get("limit");
+        const limit = limitValue === null ? 24 : Number(limitValue);
+        const beforeValue = q.get("before");
+        const afterValue = q.get("after");
+        const before = beforeValue === null ? undefined : Number(beforeValue);
+        const after = afterValue === null ? undefined : Number(afterValue);
+        if (!Number.isInteger(limit) || limit < 1 || limit > 100)
+          return send({ error: "Search limit must be an integer from 1 to 100" }, 400);
+        if (
+          (before !== undefined &&
+            (!Number.isFinite(before) || before < -10000 || before > 3000)) ||
+          (after !== undefined &&
+            (!Number.isFinite(after) || after < -10000 || after > 3000))
+        )
+          return send({ error: "Invalid search date boundary" }, 400);
+        const region = q.get("region") ?? undefined;
+        if (region && region.length > 200)
+          return send({ error: "Search region is too long" }, 400);
         return send(
           await hybridSearch(q.get("q") ?? "", {
             textIds: q.getAll("text"),
             editionIds: q.getAll("edition"),
             traditions: q.getAll("tradition"),
-            limit: Math.min(Number(q.get("limit")) || 24, 100),
+            region,
+            before,
+            after,
+            limit,
             exact: q.get("exact") === "true",
             contentTypes: contentType as (typeof validContentTypes)[number][],
             preferPrimary: q.get("preferPrimary") !== "false",
@@ -313,11 +512,19 @@ export async function GET(req: NextRequest, { params }: Context) {
       }
       case "passages": {
         if (id) {
-          const p = allPassages().find((p) => p.id === id);
+          const p = allPassages().find(
+            (p) =>
+              p.id === id &&
+              protocolDecision(p.textId, "display").allowed &&
+              passageAiRightsAllowed(p),
+          );
           return p ? send(p) : send({ error: "Passage not found" }, 404);
         }
         const filtered = allPassages().filter(
-          (p) => p.editionId === q.get("edition"),
+          (p) =>
+            p.editionId === q.get("edition") &&
+            protocolDecision(p.textId, "display").allowed &&
+            passageAiRightsAllowed(p),
         );
         const page = Math.max(0, Number(q.get("page")) || 0);
         return send({
@@ -362,40 +569,104 @@ export async function POST(req: NextRequest, { params }: Context) {
     const raw = await req.text();
     if (raw.length > 250000) return send({ error: "Request too large" }, 413);
     const body = JSON.parse(raw);
-    const [route] = (await params).path;
+    const [route, subroute] = (await params).path;
+    if (route === "query" && subroute === "stream") {
+      const data = questionRequest.parse(body);
+      return ndjsonResponse(preparedQuestionStream(data, req.signal));
+    }
     if (route === "query") {
+      const data = questionRequest.parse(body);
+      // This retained JSON contract has no place to preserve per-claim and
+      // per-citation audits. Keep it retrieval-only; audited model synthesis is
+      // available through the structured /api/query/stream contract above.
+      return send(await answerEvidenceOnlyQuestion(data.question, data));
+    }
+    if (route === "opposition") {
       const data = z
         .object({
-          question: z.string().trim().min(3).max(1000),
-          traditions: z.array(z.string()).max(26).optional(),
-          textIds: z.array(z.string()).max(12).optional(),
-          before: z.number().optional(),
-          after: z.number().optional(),
-          region: z.string().optional(),
+          propositionId: z.string().max(160).optional(),
+          query: z.string().trim().max(1000).optional(),
+          scope: researchScopeRequest.optional(),
+          limit: z.number().int().min(1).max(100).optional(),
         })
         .parse(body);
-      return send(await answerQuestion(data.question, data));
+      const result = findOpposition(data);
+      return send({
+        ...result,
+        sources: engineSources(
+          result.matches.flatMap((match) => [
+            ...match.proposition.sourceIds,
+            ...match.stances.flatMap((stance) => stance.sourceIds),
+          ]),
+        ),
+      });
+    }
+    if (route === "teaching-conduct") {
+      const data = z
+        .object({
+          caseIds: z.array(z.string().max(160)).max(20).optional(),
+          scope: researchScopeRequest.optional(),
+          limit: z.number().int().min(1).max(20).optional(),
+        })
+        .parse(body);
+      const result = findTeachingConductCases(data);
+      return send({
+        ...result,
+        sources: engineSources(result.cases.flatMap((item) => item.sourceIds)),
+      });
     }
     if (["compare", "similarity", "contradictions"].includes(route)) {
       const data = z
         .object({
-          textIds: z.array(z.string()).min(2).max(12),
+          textIds: z
+            .array(z.string())
+            .min(2)
+            .max(12)
+            .refine((ids) => new Set(ids).size === ids.length, {
+              message: "Text selections must be unique",
+            }),
           theme: z.string().max(200).default("soul"),
+          mode: z.enum(comparisonModes as [string, ...string[]]).optional(),
+          caseIds: z.array(z.string().max(160)).max(20).optional(),
+          scope: researchScopeRequest.optional(),
+          limitPerSection: z.number().int().min(1).max(100).optional(),
         })
         .parse(body);
       const selected = texts.filter((t) => data.textIds.includes(t.id));
       if (selected.length !== new Set(data.textIds).size)
         return send({ error: "Unknown text selection" }, 400);
+      const requestedMode =
+        route === "similarity"
+          ? "similarities"
+          : route === "contradictions"
+            ? "contradictions"
+            : (data.mode ?? "synthesize");
+      const researchScope = {
+        ...data.scope,
+        minConfidence: data.scope?.minConfidence as
+          ResearchConfidence | undefined,
+      };
+      const legacy = buildLegacyComparisonSections({
+        textIds: data.textIds,
+        theme: data.theme,
+        scope: researchScope,
+      });
+      const scopedTextIds = legacy.texts.map(({ id }) => id);
+      const engineAnalysis = runComparison(
+        requestedMode as (typeof comparisonModes)[number],
+        {
+          caseIds: data.caseIds,
+          textIds: scopedTextIds,
+          theme: data.theme,
+          scope: researchScope,
+          limitPerSection: data.limitPerSection,
+        },
+      );
       return send({
-        texts: selected,
-        cases: comparisonCases(data.textIds, data.theme),
-        passages: selected.map((t) => ({
-          textId: t.id,
-          passages: search(data.theme, { textIds: [t.id], limit: 2 }),
-        })),
-        relationships: relationships.filter(
-          (r) =>
-            data.textIds.includes(r.source) || data.textIds.includes(r.target),
+        ...legacy,
+        engineAnalysis,
+        researchSources: engineSources(
+          engineAnalysis.cases.flatMap((item) => item.sourceIds),
         ),
         note: "Retrieved parallels are reading aids. Doctrinal contradiction and historical influence require interpretation and supporting evidence.",
       });
@@ -404,6 +675,7 @@ export async function POST(req: NextRequest, { params }: Context) {
       const data = z
         .object({ name: z.string().trim().min(1).max(120) })
         .parse(body);
+      assertPayloadProtocols(data, "cache");
       const now = new Date().toISOString();
       const c = {
         id: randomUUID(),
@@ -447,6 +719,23 @@ export async function PATCH(req: NextRequest, { params }: Context) {
         remove: z.string().optional(),
       })
       .parse(JSON.parse(raw));
+    // A removal must remain possible after a protocol revocation. Validate
+    // only fields that can introduce or retain payload content.
+    assertPayloadProtocols(
+      { name: data.name, notes: data.notes, add: data.add },
+      "cache",
+    );
+    if (data.add && !findingRightsAllowed(data.add))
+      throw new Error("Finding is not eligible for storage under current rights");
+    if (data.add?.kind === "passage") {
+      const passage = allPassages().find(({ id }) => id === data.add!.id);
+      if (
+        !passage ||
+        passage.textId !== data.add.textId ||
+        passage.editionId !== data.add.editionId
+      )
+        throw new Error("Passage finding does not match a canonical passage");
+    }
     let found = false;
     const all = await mutateCollections((all) =>
       all.map((c) => {

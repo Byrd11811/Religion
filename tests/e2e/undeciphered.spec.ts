@@ -46,7 +46,8 @@ test("question API refuses to invent unresolved-script readings", async ({ reque
   expect(answer.passages).toEqual([]);
   expect(answer.synthesis).toBeUndefined();
   expect(answer.summary).toContain("cannot translate Linear A");
-  expect(answer.distinctive).toHaveLength(4);
+  expect(answer.distinctive).toEqual([]);
+  expect(JSON.stringify(answer)).not.toContain("John Justeson");
 });
 
 test("federated search finds unresolved corpora as metadata", async ({ page }) => {

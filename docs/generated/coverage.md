@@ -86,6 +86,22 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | symbols | Symbol records | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | symbolInterpretations | Symbol-interpretation records | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | researchQueue | Unresolved research-queue records | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonPacks | Curated comparison packs | 7 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonPackSlots | Comparison-pack source slots | 72 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonEvidenceReadySlots | Evidence-ready comparison-pack slots | 17 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonMetadataOnlySlots | Metadata-only comparison-pack slots | 23 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonUnclassifiedSelectionSlots | Unclassified comparison-pack source selections | 17 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonMissingSourceSlots | Comparison-pack slots missing a source | 1 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonRestrictedSlots | Culturally restricted comparison-pack slots | 14 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonPackOutputs | Source-aware comparison-pack outputs | 21 | Unknown | Unknown | Unknown | Unknown | No |
+| researchEngineSources | Research-engine source records | 28 | Unknown | Unknown | Unknown | Unknown | No |
+| oppositionPropositions | Reviewed opposition propositions | 4 | Unknown | Unknown | Unknown | Unknown | No |
+| oppositionStances | Attributed opposition stances | 23 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonEngineCases | Research comparison-engine cases | 4 | Unknown | Unknown | Unknown | Unknown | No |
+| comparisonEngineEvidence | Mode-specific comparison evidence items | 60 | Unknown | Unknown | Unknown | Unknown | No |
+| teachingConductCases | Teaching-versus-conduct cases | 4 | Unknown | Unknown | Unknown | Unknown | No |
+| teachingConductEvidence | Teaching-versus-conduct evidence items | 35 | Unknown | Unknown | Unknown | Unknown | No |
+| teachingConductEvidenceGaps | Teaching-versus-conduct documented evidence gaps | 5 | Unknown | Unknown | Unknown | Unknown | No |
 
 ## Counting rules
 
@@ -167,6 +183,22 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **symbols:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **symbolInterpretations:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **researchQueue:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **comparisonPacks:** Distinct pack IDs. A named pack is not evidence that every requested source range is evidence-ready. Source: `data/seed/comparison-packs.json`.
+- **comparisonPackSlots:** Distinct requested source-range slots across all seven packs, regardless of evidence state. Source: `data/seed/comparison-packs.json`.
+- **comparisonEvidenceReadySlots:** Slots explicitly marked evidence-ready with a resolved passage or bounded research reference; metadata alone never counts. Source: `data/seed/comparison-packs.json + packages/shared/comparison-packs.ts`.
+- **comparisonMetadataOnlySlots:** Slots explicitly marked metadata-only. These remain visible gaps and do not count as comparative evidence. Source: `data/seed/comparison-packs.json`.
+- **comparisonUnclassifiedSelectionSlots:** Bounded selections whose passage source role is still Unknown. They remain inspectable but cannot support comparison findings. Source: `data/seed/comparison-packs.json + packages/shared/comparison-packs.ts`.
+- **comparisonMissingSourceSlots:** Slots explicitly marked missing-source with a visible gap; a title or requested range does not satisfy the evidence requirement. Source: `data/seed/comparison-packs.json`.
+- **comparisonRestrictedSlots:** Community-specific slots explicitly marked culturally restricted and linked to protocol records; their metadata remains discoverable but source content is excluded. Source: `data/seed/comparison-packs.json + packages/shared/protocols.ts`.
+- **comparisonPackOutputs:** Distinct authored outputs split into evidence-backed findings and non-evidentiary coverage/protocol notes, each with source categories, influence assessments and cautions. Source: `data/seed/comparison-packs.json`.
+- **researchEngineSources:** Distinct cited source records retained with perspective and verification metadata; source presence is not independent scholarly review of every claim. Source: `data/seed/research-engines.json`.
+- **oppositionPropositions:** Distinct reviewed propositions used to retrieve attributed stances; tradition names alone never create opposition. Source: `data/seed/research-engines.json`.
+- **oppositionStances:** Distinct proposition-linked stances with speaker/community, context, uncertainty, confidence and citations. Source: `data/seed/research-engines.json`.
+- **comparisonEngineCases:** Distinct comparison cases. Mode-specific evidence items are counted separately and similarity never creates an influence relationship. Source: `data/seed/research-engines.json`.
+- **comparisonEngineEvidence:** Distinct subject claims, synthesis findings, similarities, contradictions, chronology findings, documented influence relationships and alternative interpretations across reviewed cases. Source: `data/seed/research-engines.json`.
+- **teachingConductCases:** Distinct historical cases that keep teaching, conduct, actors, motives, contemporary voices and later interpretations separate. Source: `data/seed/research-engines.json`.
+- **teachingConductEvidence:** Distinct supported and cited items across all nine required evidence lanes; documented gaps are measured separately and cannot inflate this count. Source: `data/seed/research-engines.json`.
+- **teachingConductEvidenceGaps:** Distinct cited absence records explicitly tagged documented-gap. A gap keeps a required review lane visible but never counts as evidence. Source: `data/seed/research-engines.json`.
 
 ## Limitations
 

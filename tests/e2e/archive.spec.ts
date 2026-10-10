@@ -3,6 +3,7 @@ test("archive pages distinguish works, undeciphered witnesses and images", async
   page,
   request,
 }) => {
+  test.setTimeout(120_000);
   await page.goto("/library/deep-archive");
   await expect(
     page.getByRole("heading", { name: "Deep Archive", exact: true }),

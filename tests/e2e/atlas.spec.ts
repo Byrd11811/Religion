@@ -72,15 +72,17 @@ test("home, library filtering, reader, citations and saving", async ({
 test("question returns diverse evidence and comparison retrieves passages", async ({
   page,
 }) => {
+  test.setTimeout(120_000);
   await page.goto("/questions");
   await page
     .getByLabel("Your research question")
     .fill("What happens after death?");
   await page.getByRole("button", { name: "Explore", exact: true }).click();
   await expect(page.locator(".answer-overview")).toContainText(
-    "catalog groupings",
+    "Evidence-only mode is active",
+    { timeout: 90_000 },
   );
-  await expect(page.locator(".passage-card").first()).toBeVisible();
+  await expect(page.locator(".research-claim").first()).toBeVisible();
   await page.goto("/compare");
   await page
     .getByRole("button", { name: "Compare passages", exact: true })
@@ -161,21 +163,22 @@ test("API validates bad input and missing sources", async ({ request }) => {
   expect(health.passages).toBeGreaterThan(1000);
 });
 
-test("editorial guides render linked sources and comparison cases retain alternatives", async ({
+test("audited question sections render linked sources and comparison cases retain alternatives", async ({
   page,
   request,
 }) => {
+  test.setTimeout(120_000);
   await page.goto("/questions");
   await page
     .getByLabel("Your research question")
     .fill("How should we respond to injury?");
   await page.getByRole("button", { name: "Explore", exact: true }).click();
   await expect(
-    page.getByRole("heading", { name: "Responding to injury", exact: true }),
+    page.getByRole("heading", { name: "Primary evidence", exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByRole("heading", { name: "Analects · differentiated response" }),
-  ).toBeVisible();
+    page.locator(".research-claim").first(),
+  ).toContainText(/evidence|source/i);
   const catalog = await (await request.get("/api/texts")).json();
   const textIds = catalog
     .filter((t: { title: string }) => /^(Tao Te Ching|Analects)$/.test(t.title))

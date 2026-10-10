@@ -12,6 +12,7 @@ import {
   witnesses,
   museumArtifacts,
   archiveImages,
+  archiveImageDisplayAllowed,
   validateImage,
   mayTranslate,
 } from "../packages/shared/archive";
@@ -33,7 +34,7 @@ import {
 } from "../packages/ai/guides";
 import { detectConcepts } from "../packages/ontology";
 import { exportCsv, exportMarkdown } from "../packages/citation";
-import { culturalProtocols, protocolDecision } from "../packages/shared/protocols";
+import { assertPayloadProtocols, culturalProtocols, payloadProtocolAllowed, protocolDecision } from "../packages/shared/protocols";
 import regionalCoverage from "../data/seed/regional-coverage.json";
 import {
   unresolvedCorpora,
@@ -1246,6 +1247,30 @@ test("federated modes filter scope before applying limits", () => {
   });
   assert.equal(metadata[0]?.availability, "Metadata only");
 });
+test("federated rights facets follow current edition and work rights", () => {
+  const edition = editions.find(({ id }) => id === "pg-10-genesis");
+  assert.ok(edition);
+  const original = edition.license;
+  try {
+    edition.license = "Public domain status remains under review";
+    assert.equal(
+      federatedSearch("Genesis", {
+        types: ["work"],
+        rights: "Public-domain text",
+      }).some(({ id }) => id === "genesis"),
+      false,
+    );
+    assert.equal(
+      federatedSearch("Genesis", {
+        types: ["work"],
+        rights: "Rights review required",
+      })[0]?.id,
+      "genesis",
+    );
+  } finally {
+    edition.license = original;
+  }
+});
 test("unknown queries never fabricate source results", () => {
   assert.deepEqual(search("zxqvnonexistentword"), []);
   assert.deepEqual(search("the and what"), []);
@@ -1336,7 +1361,13 @@ test("unresolved-script questions refuse invented translation", async () => {
     assert.equal(answer.passages.length, 0);
     assert.equal(answer.synthesis, undefined);
     assert.match(answer.summary, /cannot translate|No accepted translation/i);
-    assert.ok(answer.uncertainty.some((item) => /No generated reading/i.test(item)));
+    assert.match(answer.summary, /no generated reading/iu);
+    assert.deepEqual(answer.distinctive, []);
+    assert.ok(
+      answer.uncertainty.every(
+        (item) => !/century|archive|museum|hypothesis|proponent/iu.test(item),
+      ),
+    );
   }
 });
 test("relationships never omit evidence or uncertainty", () => {
@@ -1448,6 +1479,18 @@ test("archive separates physical witnesses, works and image associations", () =>
   assert.throws(() =>
     validateImage({ ...archiveImages[0], sourceUrl: "javascript:alert(1)" }),
   );
+  for (const rights of [
+    "Not CC0",
+    "CC0 status under review",
+    "CC0 permission required",
+    "Unverified CC0 claim",
+  ])
+    assert.equal(
+      archiveImageDisplayAllowed({ ...archiveImages[0], rights }),
+      false,
+      rights,
+    );
+  assert.equal(archiveImageDisplayAllowed(archiveImages[0]), true);
 });
 test("IIIF manifests preserve source images and reject unsafe content URLs", () => {
   const images = archiveImages.filter((i) => i.artifactId === "met-548344");
@@ -1556,6 +1599,15 @@ test("Indigenous protocols propagate through export and AI decisions", () => {
   const collection: Collection = { id: "protocol", name: "Protocol", notes: "", createdAt: "2026", updatedAt: "2026", items: [{ id: workId, kind: "text", title: "Restricted pending review", content: "Metadata", createdAt: "2026" }] };
   assert.doesNotMatch(exportMarkdown(collection), /Restricted pending review/);
   assert.doesNotMatch(exportCsv(collection), /Restricted pending review/);
+  const nested: Collection = { ...collection, id: "nested-protocol", items: [
+    { id: "nested-comparison", kind: "comparison", title: "Saved comparison", content: JSON.stringify({ result: { texts: [{ id: "popol-vuh" }] } }), createdAt: "2026" },
+    { id: "safe-item", kind: "query", title: "Safe finding", content: "Public evidence", createdAt: "2026" },
+  ] };
+  assert.equal(payloadProtocolAllowed(nested.items[0], "export"), false);
+  assert.throws(() => assertPayloadProtocols(nested.items[0], "cache"), /popol-vuh/iu);
+  assert.doesNotMatch(exportMarkdown(nested), /popol[- ]vuh/iu);
+  assert.doesNotMatch(exportCsv(nested), /popol[- ]vuh/iu);
+  assert.match(exportMarkdown(nested), /Safe finding/);
   assert.equal(protocolDecision("ifugao-hudhud-chants", "ai").allowed, false);
   for (const workId of ["ainu-yukar-oral-epics", "ifugao-hudhud-chants", "maranao-darangen-epic", "atayal-gaga-traditions"]) {
     const work = texts.find((item) => item.id === workId);

@@ -1,5 +1,6 @@
 import { museumArtifacts, witnesses } from "@/packages/shared/archive";
-import { texts, traditions } from "@/packages/shared/catalog";
+import { editions, texts, traditions } from "@/packages/shared/catalog";
+import { aiRightsDecision } from "@/packages/shared/rights";
 import {
   entityNameAssertions,
   entityOccurrences,
@@ -87,6 +88,11 @@ function candidates(): Candidate[] {
       ...(workAliases[work.id] ?? []),
       ...(work.alternateTitles ?? []),
     ].filter((alias, index, all) => all.indexOf(alias) === index);
+    const hasRightsClearedEdition = editions.some(
+      (edition) =>
+        edition.textId === work.id &&
+        aiRightsDecision(edition.license, work.copyright).allowed,
+    );
     return candidate(
       {
         id: work.id,
@@ -116,7 +122,7 @@ function candidates(): Candidate[] {
         regions: [work.region],
         languages: work.languages,
         canon: [work.canonStatus],
-        rights: work.editionId
+        rights: hasRightsClearedEdition
           ? "Public-domain text"
           : "Rights review required",
         confidence:

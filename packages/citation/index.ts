@@ -1,8 +1,44 @@
 import type { Collection, SearchHit } from "@/packages/shared/types";
-import { editions } from "@/packages/shared/catalog";
-import { protocolDecision } from "@/packages/shared/protocols";
+import { editions, texts } from "@/packages/shared/catalog";
+import { payloadProtocolAllowed } from "@/packages/shared/protocols";
+import { aiRightsDecision } from "@/packages/shared/rights";
+
+/** Re-evaluate saved provenance against current edition/work rights. */
+export function findingRightsAllowed(item: Collection["items"][number]) {
+  if (item.kind === "passage") {
+    const edition = editions.find(({ id }) => id === item.editionId);
+    const work = texts.find(({ id }) => id === item.textId);
+    return Boolean(
+      edition &&
+        work &&
+        edition.textId === work.id &&
+        aiRightsDecision(edition.license, work.copyright).allowed,
+    );
+  }
+  const serialized = JSON.stringify(item);
+  return editions.every(
+    (edition) => {
+      const work = texts.find(({ id }) => id === edition.textId);
+      return (
+        Boolean(
+          work && aiRightsDecision(edition.license, work.copyright).allowed,
+        ) || !serialized.includes(edition.id)
+      );
+    },
+  );
+}
 export function exportableCollection(c: Collection): Collection {
-  return { ...c, items: c.items.filter((item) => protocolDecision(item.id, "export").allowed) };
+  return {
+    ...c,
+    name: payloadProtocolAllowed(c.name, "export")
+      ? c.name
+      : "Restricted collection",
+    notes: payloadProtocolAllowed(c.notes, "export") ? c.notes : "",
+    items: c.items.filter(
+      (item) =>
+        payloadProtocolAllowed(item, "export") && findingRightsAllowed(item),
+    ),
+  };
 }
 export function cite(p: SearchHit) {
   const edition = editions.find((item) => item.id === p.editionId);
