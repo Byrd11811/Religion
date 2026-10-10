@@ -1,0 +1,2586 @@
+{
+  "sources": [
+    {
+      "id": "src-vatican-1616-index",
+      "label": "Vatican Observatory — Heliocentrism condemned in 1616",
+      "url": "https://www.vaticanobservatory.org/sacred-space-astronomy/heliocentrism-condemned-400-years-ago-on-march-5-2/",
+      "kind": "Institutional historical transcription",
+      "perspective": "Catholic scientific and historical institution",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-vatican-1966-index",
+      "label": "Congregation for the Doctrine of the Faith — Notification regarding the Index",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19660614_de-indicis-libr-prohib_en.html",
+      "kind": "Official notification",
+      "perspective": "Catholic institutional source",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-tyndale",
+      "label": "Cambridge University Library — The Bible in English",
+      "url": "https://wwwe.lib.cam.ac.uk/CUL/exhibitions/KJV/bibleinen.html",
+      "kind": "Library exhibition",
+      "perspective": "Institutional history",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-loc-tyndale",
+      "label": "Library of Congress — The English Bible before King James",
+      "url": "https://www.loc.gov/loc/lcib/9707/tyndale.html",
+      "kind": "Library essay",
+      "perspective": "Institutional history",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-ushmm-witnesses-germany",
+      "label": "United States Holocaust Memorial Museum — Jehovah's Witnesses in Germany",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/jehovahs-witnesses-in-germany-from-the-1890s-to-the-1930s",
+      "kind": "Museum encyclopedia",
+      "perspective": "Institutional historical synthesis",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-loc-maya-destruction",
+      "label": "Library of Congress — Maya languages and religion",
+      "url": "https://www.loc.gov/exhibits/exploring-the-early-americas/languages-and-religion.html",
+      "kind": "Library exhibition",
+      "perspective": "Institutional historical synthesis",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cecc-spiritual-movements-2010",
+      "label": "Congressional-Executive Commission on China — Policies toward spiritual movements",
+      "url": "https://www.cecc.gov/sites/evo-subsites/cecc.house.gov/files/documents/roundtables/2010/CECC%20Roundtable%20-%20China%27s%20Policies%20Toward%20Spiritual%20Movements%20-%206.18.10.pdf",
+      "kind": "Government hearing record",
+      "perspective": "Government and witness testimony",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cecc-annual-2009",
+      "label": "Congressional-Executive Commission on China — 2009 Annual Report",
+      "url": "https://www.cecc.gov/publications/annual-reports/2009-annual-report",
+      "kind": "Government report",
+      "perspective": "Government human-rights reporting",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-sinaiticus-significance",
+      "label": "Codex Sinaiticus Project — Significance",
+      "url": "https://codexsinaiticus.org/en/codex/significance.aspx",
+      "kind": "Manuscript project",
+      "perspective": "Institutional manuscript scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-sefaria-hagigah-2-1",
+      "label": "Mishnah Hagigah 2:1",
+      "url": "https://www.sefaria.org/Mishnah_Chagigah.2.1?lang=bi",
+      "kind": "Primary text edition",
+      "perspective": "Digital Jewish text library",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-echr-blasphemy-case",
+      "label": "European Court of Human Rights archive — X Ltd and Y v United Kingdom",
+      "url": "https://hudoc.echr.coe.int/app/conversion/pdf/?filename=X.+Ltd.+and+Y.+v.+UNITED+KINGDOM.pdf&id=001-74315&library=ECHR",
+      "kind": "Legal record",
+      "perspective": "International court archive",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-uk-2008-act",
+      "label": "Criminal Justice and Immigration Act 2008",
+      "url": "https://www.legislation.gov.uk/ukpga/2008/4/pdfs/ukpga_20080004_en.pdf",
+      "kind": "Primary legislation",
+      "perspective": "Official UK legislation",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-portugal-censorship",
+      "label": "Cambridge University Library — A revolutionary anthology in 1960s Portugal",
+      "url": "https://languagecollections-blog.lib.cam.ac.uk/2020/04/22/a-revolutionary-anthology-in-1960s-portugal/",
+      "kind": "Library collection essay",
+      "perspective": "Institutional historical synthesis",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-sefaria-numbers-21-14",
+      "label": "Numbers 21:14",
+      "url": "https://www.sefaria.org/Numbers.21.14?lang=bi",
+      "kind": "Primary textual witness",
+      "perspective": "Digital Jewish text library",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-sefaria-joshua-10-13",
+      "label": "Joshua 10:13",
+      "url": "https://www.sefaria.org/Joshua.10.13?lang=bi",
+      "kind": "Primary textual witness",
+      "perspective": "Digital Jewish text library",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-sefaria-2-samuel-1-18",
+      "label": "2 Samuel 1:18",
+      "url": "https://www.sefaria.org/II_Samuel.1.18?lang=bi",
+      "kind": "Primary textual witness",
+      "perspective": "Digital Jewish text library",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-nasscal-gospel-egyptians",
+      "label": "NASSCAL e-Clavis — Gospel of the Egyptians",
+      "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-egyptians/",
+      "kind": "Academic reference entry",
+      "perspective": "Scholarly Christian apocrypha project",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-nasscal-gospel-ebionites",
+      "label": "NASSCAL e-Clavis — Gospel of the Ebionites",
+      "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/gospel-of-the-ebionites/",
+      "kind": "Academic reference entry",
+      "perspective": "Scholarly Christian apocrypha project",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-iranica-cihrdad",
+      "label": "Encyclopaedia Iranica — Čihrdād Nask",
+      "url": "https://www.iranicaonline.org/articles/cihrdad-nask-one-of-the-lost-nasks-of-the-avesta-q/",
+      "kind": "Academic encyclopedia",
+      "perspective": "Iranian studies scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-iranica-arzang",
+      "label": "Encyclopaedia Iranica — Aržang",
+      "url": "https://www.iranicaonline.org/articles/arzang-mid/",
+      "kind": "Academic encyclopedia",
+      "perspective": "Iranian studies scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-iranica-book-giants",
+      "label": "Encyclopaedia Iranica — The Book of Giants",
+      "url": "https://www.iranicaonline.org/articles/giants-the-book-of/",
+      "kind": "Academic encyclopedia",
+      "perspective": "Iranian studies scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-iranica-berossus",
+      "label": "Encyclopaedia Iranica — Berossus",
+      "url": "https://www.iranicaonline.org/articles/berossus-babylonian-4th-3rd-century-priest-chronicler-whose-work-has-some-bearing-on-iranian-history/",
+      "kind": "Academic encyclopedia",
+      "perspective": "Ancient Near Eastern scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-wiley-berossus-transmission",
+      "label": "Berossus and Babylonian transmission",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.2041-5370.2012.00041.x",
+      "kind": "Peer-reviewed article",
+      "perspective": "Academic analysis",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-nagoya-manetho",
+      "label": "Nagoya University repository — Manetho transmission study",
+      "url": "https://cir.nii.ac.jp/crid/1390022222475670912",
+      "kind": "Academic article record",
+      "perspective": "University-hosted scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-orphic-rhapsodies",
+      "label": "Cambridge — A possible direct fragment of the Orphic Rhapsodies",
+      "url": "https://doi.org/10.1017/S175027052400006X",
+      "kind": "Peer-reviewed article",
+      "perspective": "Classics scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-classic-music",
+      "label": "Early China — Who said there was a Classic of Music?",
+      "url": "https://www.cambridge.org/core/journals/early-china/article/abs/who-said-there-was-a-classic-of-music/A6D9D81606DBCF10101DC3E929E5DFB5",
+      "kind": "Peer-reviewed article",
+      "perspective": "Early China scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-q",
+      "label": "Cambridge — The state of play for Q",
+      "url": "https://www.cambridge.org/core/books/abs/an-aramaic-approach-to-q/state-of-play/5274B39383585A4F13E5A695B72EF292",
+      "kind": "Academic book chapter",
+      "perspective": "New Testament scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-pentateuch",
+      "label": "Oxford Academic — Pentateuchal source models",
+      "url": "https://academic.oup.com/book/4657/chapter-abstract/146820100",
+      "kind": "Academic book chapter",
+      "perspective": "Hebrew Bible scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-deuteronomistic-encyclopedia",
+      "label": "Oxford Research Encyclopedia — Deuteronomistic History",
+      "url": "https://academic.oup.com/reference/62341/reference-article-abstract/561710003",
+      "kind": "Academic reference article",
+      "perspective": "Hebrew Bible scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-deuteronomistic-challenges",
+      "label": "Oxford Handbook — Challenges to the Deuteronomistic History model",
+      "url": "https://academic.oup.com/edited-volume/34226/chapter-abstract/290218228",
+      "kind": "Academic book chapter",
+      "perspective": "Hebrew Bible scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-pie-religion",
+      "label": "Oxford Academic — Proto-Indo-European religious reconstruction",
+      "url": "https://academic.oup.com/book/48521/chapter-abstract/422392689",
+      "kind": "Academic book chapter",
+      "perspective": "Historical linguistics and religious studies",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-iranica-indo-iranian-religion",
+      "label": "Encyclopaedia Iranica — Indo-Iranian religion",
+      "url": "https://www.iranicaonline.org/articles/indo-iranian-religion/",
+      "kind": "Academic encyclopedia",
+      "perspective": "Iranian and Vedic studies",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-rigvedic-oral",
+      "label": "Oxford Academic — Rigvedic oral composition",
+      "url": "https://academic.oup.com/book/33632/chapter-abstract/288152909",
+      "kind": "Academic book chapter",
+      "perspective": "Vedic scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-gjw-forgery",
+      "label": "New Testament Studies — Textual evidence and the Gospel of Jesus' Wife",
+      "url": "https://doi.org/10.1017/S0028688515000077",
+      "kind": "Peer-reviewed article",
+      "perspective": "Coptic and New Testament scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-harvard-gjw-testing",
+      "label": "Harvard Gazette — Papyrus fragment put to test",
+      "url": "https://news.harvard.edu/gazette/story/2014/04/papyrus-fragment-put-to-test/",
+      "kind": "University report",
+      "perspective": "Institutional report of material testing",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-oxford-secret-mark",
+      "label": "Journal of Theological Studies — Secret Mark forgery argument",
+      "url": "https://academic.oup.com/jts/article-abstract/61/1/128/1674031",
+      "kind": "Peer-reviewed article",
+      "perspective": "Early Christian scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-yale-secret-mark",
+      "label": "Yale Scholarship Online — Secret Gospel of Mark reassessment",
+      "url": "https://academic.oup.com/yale-scholarship-online/book/51315",
+      "kind": "Academic monograph",
+      "perspective": "Early Christian scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-brill-oera-linda",
+      "label": "Fabula — Oera Linda analysis",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/FABL.2007.019/html",
+      "kind": "Peer-reviewed article",
+      "perspective": "Folklore scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-groningen-oera-linda",
+      "label": "University of Groningen — Oera Linda provenance research",
+      "url": "https://research.rug.nl/en/publications/de-gemaskerde-god-francois-haver-schmidt-en-het-oera-linda-boek/",
+      "kind": "University research record",
+      "perspective": "Historical and literary scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-chicago-book-veles",
+      "label": "University of Chicago — The Book of Veles unearthed",
+      "url": "https://ahd.uchicago.edu/news/unearthed",
+      "kind": "University expert interview",
+      "perspective": "Historical linguistics",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-cambridge-book-veles",
+      "label": "Cambridge University Press — Slavic Native Faith and the Book of Veles",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C6AC26C0A15F84A0D7D8243B60C362F7/9781009539593AR.pdf/slavic_native_faith.pdf",
+      "kind": "Academic book extract",
+      "perspective": "Religious studies",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-lds-kinderhook",
+      "label": "Church History Topics — Kinderhook Plates",
+      "url": "https://www.churchofjesuschrist.org/study/history/topics/kinderhook-plates?lang=eng",
+      "kind": "Official institutional history",
+      "perspective": "Latter-day Saint institutional source",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-byu-kinderhook",
+      "label": "BYU Religious Studies Center — Kinderhook Plates",
+      "url": "https://rsc.byu.edu/reason-faith/kinderhook-plates",
+      "kind": "Academic institutional essay",
+      "perspective": "Latter-day Saint university scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-tel-aviv-jehoash",
+      "label": "Tel Aviv — Jehoash inscription forgery evidence",
+      "url": "https://www.tandfonline.com/doi/abs/10.1179/tav.2004.2004.1.3",
+      "kind": "Peer-reviewed article",
+      "perspective": "Epigraphy and archaeology",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-jas-jehoash",
+      "label": "Journal of Archaeological Science — Jehoash inscription archaeometry",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0305440308001404",
+      "kind": "Peer-reviewed article",
+      "perspective": "Archaeometry",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-latimes-jehoash-verdict",
+      "label": "Los Angeles Times — 2012 antiquities-forgery verdict",
+      "url": "https://www.latimes.com/archives/blogs/world-now/story/2012-03-14/israeli-antiquities-collectors-acquitted-of-ossuary-forgery",
+      "kind": "Contemporary legal reporting",
+      "perspective": "Criminal-case outcome and evidentiary scope",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-monash-shapira",
+      "label": "Monash University — The Valediction of Moses",
+      "url": "https://research.monash.edu/en/publications/the-valediction-of-moses-new-evidence-on-the-shapira-deuteronomy-/",
+      "kind": "University research record",
+      "perspective": "Philological authenticity argument",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-degruyter-shapira",
+      "label": "Zeitschrift für die Alttestamentliche Wissenschaft — Shapira orthography",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/zaw-2021-2008/html",
+      "kind": "Peer-reviewed article",
+      "perspective": "Hebrew philology",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-peeters-shapira",
+      "label": "Peeters — Critical assessment of the Shapira strips",
+      "url": "https://poj.peeters-leuven.be/content.php?id=3289918&url=article",
+      "kind": "Peer-reviewed article",
+      "perspective": "Hebrew Bible scholarship",
+      "accessed": "2026-10-10"
+    },
+    {
+      "id": "src-byu-salamander",
+      "label": "BYU Studies — Manuscripts, murder, and the Salamander Letter",
+      "url": "https://byustudies.byu.edu/article/manuscripts-murder-and-a-miniseries-a-personal-essay",
+      "kind": "Academic institutional essay",
+      "perspective": "Historical and forensic synthesis",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "definitions": {
+    "policy": "These are research records about restriction, survival, reconstruction, and authenticity. They are not catalog TextRecord editions. Atlas never fabricates missing passages, hypothetical quotations, or substitute artifacts, and it keeps physical evidence separate from claimed authorship and provenance.",
+    "restrictionTypes": {
+      "canon-excluded": "Outside a stated canon boundary; this alone is not a ban.",
+      "ecclesiastically-prohibited": "Prohibited by a named religious authority in a documented place and period.",
+      "state-banned": "Prohibited by a named government or state authority.",
+      "censored": "Publication, import, circulation, or access was officially constrained.",
+      "destroyed": "Copies or a corpus were deliberately destroyed by a documented authority or actor.",
+      "restricted-to-qualified-audience": "Teaching or exposition was limited by audience qualification; this is not automatically a whole-work ban.",
+      "blasphemy-restriction": "Restricted under a blasphemy rule or offense.",
+      "obscenity-restriction": "Restricted under an obscenity or public-morals rule.",
+      "political-religious-suppression": "Suppression combined political control with regulation of a religious community or practice."
+    },
+    "survivalStatuses": {
+      "LOST": "Known from references or quotations, but no direct manuscript of the work survives.",
+      "INDIRECTLY_ATTESTED": "Known principally through another writer, catalog, epitome, or quotation chain.",
+      "FRAGMENTARY": "Direct fragments survive; gaps must remain visible and cannot be filled as primary text.",
+      "DISPUTED_LOST_WORK": "Later sources allege a lost work, but its earlier existence or form remains disputed."
+    },
+    "authenticityStatuses": {
+      "DEMONSTRATED_MODERN_FORGERY": "Evidence establishes modern creation despite an older attribution.",
+      "DISPUTED_AUTHENTICITY": "Authenticity remains materially contested.",
+      "MODERN_FORGERY_OR_HOAX": "Scholarship identifies a modern creation whose initial or later presentation involved hoax claims.",
+      "MODERN_FORGERY": "Scholarship rejects the claimed antiquity and identifies modern manufacture.",
+      "DEMONSTRATED_HOAX": "The makers or evidence establish deliberate deceptive manufacture.",
+      "SUSPECTED_FORGERY_DISPUTED": "The majority view favors forgery, while a documented minority disputes that conclusion."
+    },
+    "sourceChainStages": [
+      "ORIGINAL",
+      "COPY_OR_QUOTE",
+      "TRANSLATION",
+      "SECONDARY",
+      "DERIVATIVE"
+    ],
+    "truthfulnessRegressionCases": [
+      {
+        "headline": "Lost Work",
+        "recordId": "lost-book-of-wars-of-yhwh",
+        "rule": "Do not invent contents."
+      },
+      {
+        "headline": "Fragmentary Text",
+        "recordId": "fragmentary-mani-book-of-giants",
+        "rule": "Do not fill gaps as primary text."
+      },
+      {
+        "headline": "Hypothetical Q Source",
+        "recordId": "hypothetical-q-source",
+        "rule": "Do not invent a physical witness."
+      },
+      {
+        "headline": "Disputed Forgery",
+        "recordId": "forgery-gospel-of-jesus-wife",
+        "rule": "Keep physical evidence separate from authorship claims."
+      }
+    ]
+  },
+  "suppressionEvents": [
+    {
+      "id": "forbidden-copernicus-de-revolutionibus-1616",
+      "title": "De revolutionibus orbium coelestium — 1616 restriction",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "Christianity",
+        "Catholic history",
+        "history of science"
+      ],
+      "regions": [
+        "Rome",
+        "Catholic jurisdictions"
+      ],
+      "dateLabel": "5 March 1616",
+      "statusLabel": "ECCLESIASTICALLY PROHIBITED UNTIL CORRECTED",
+      "headline": "Ecclesiastical prohibition — historical restriction",
+      "summary": "The Congregation of the Index suspended Copernicus's work until correction in the 1616 decree. The Index ceased to carry ecclesiastical-law force in 1966.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-vatican-1616-index",
+        "src-vatican-1966-index"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "ecclesiastically-prohibited",
+        "censored"
+      ],
+      "authority": "Sacred Congregation of the Index",
+      "jurisdiction": "Rome and jurisdictions applying the Roman Index",
+      "restrictionDate": "1616-03-05",
+      "restrictionEnd": "The Index ceased to have the force of ecclesiastical law under the 14 June 1966 notification.",
+      "reasonAsStated": "The decree treated the work's heliocentric teaching as contrary to Scripture and suspended it until correction.",
+      "currentStatus": "No current Index prohibition with force of ecclesiastical law; the 1966 notification retained a general moral admonition concerning writings that endanger faith or morals.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "ecclesiastically-prohibited",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "forbidden-foscarini-letter-1616",
+      "title": "Foscarini's Letter on the Pythagorean and Copernican Opinion — 1616 prohibition",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "Christianity",
+        "Catholic history",
+        "history of science"
+      ],
+      "regions": [
+        "Rome",
+        "Catholic jurisdictions"
+      ],
+      "dateLabel": "5 March 1616",
+      "statusLabel": "ECCLESIASTICALLY PROHIBITED",
+      "headline": "Ecclesiastical prohibition — historical restriction",
+      "summary": "The 1616 Index decree prohibited Paolo Antonio Foscarini's defense of reconciling Copernicanism with Scripture.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-vatican-1616-index",
+        "src-vatican-1966-index"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "ecclesiastically-prohibited"
+      ],
+      "authority": "Sacred Congregation of the Index",
+      "jurisdiction": "Rome and jurisdictions applying the Roman Index",
+      "restrictionDate": "1616-03-05",
+      "restrictionEnd": "The Index ceased to have the force of ecclesiastical law under the 14 June 1966 notification.",
+      "reasonAsStated": "The decree prohibited Foscarini's work in the context of judging heliocentric claims contrary to Scripture.",
+      "currentStatus": "Historical prohibition; no current Index prohibition with force of ecclesiastical law.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "ecclesiastically-prohibited",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "forbidden-tyndale-new-testament-1526",
+      "title": "Tyndale New Testament — suppression and destruction",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "Christianity",
+        "Reformation"
+      ],
+      "regions": [
+        "England",
+        "Worms"
+      ],
+      "dateLabel": "From 1526",
+      "statusLabel": "TRANSLATION SUPPRESSED AND COPIES BURNED",
+      "headline": "Banned translation — copies were destroyed",
+      "summary": "Tyndale's English New Testament was printed abroad, smuggled into England, officially suppressed, and publicly burned; only a small number of copies of the first edition survive.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-cambridge-tyndale",
+        "src-loc-tyndale"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "ecclesiastically-prohibited",
+        "censored",
+        "destroyed"
+      ],
+      "authority": "English ecclesiastical and royal authorities",
+      "jurisdiction": "England",
+      "restrictionDate": "1526 onward",
+      "restrictionEnd": "Historical and inactive; later English Bible publication followed different legal and ecclesiastical regimes.",
+      "reasonAsStated": "An unauthorized vernacular translation was treated as religiously and politically impermissible.",
+      "currentStatus": "Historical suppression only; surviving copies are held and displayed by research libraries.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "ecclesiastically-prohibited",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "forbidden-watchtower-golden-age-germany-1933",
+      "title": "Watchtower and Golden Age literature — German bans and seizures",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "Jehovah's Witnesses",
+        "Christianity"
+      ],
+      "regions": [
+        "Germany"
+      ],
+      "dateLabel": "1933",
+      "statusLabel": "STATE BANS AND SEIZURES",
+      "headline": "Political-religious suppression by state authorities",
+      "summary": "German jurisdictions and Nazi authorities banned organizations and seized Jehovah's Witness literature as pressure intensified in 1933.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-ushmm-witnesses-germany"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "state-banned",
+        "censored",
+        "political-religious-suppression"
+      ],
+      "authority": "German state and Nazi authorities, with measures varying by jurisdiction",
+      "jurisdiction": "Germany",
+      "restrictionDate": "1933",
+      "restrictionEnd": "Historical Nazi-era suppression; no current German restriction is asserted by this record.",
+      "reasonAsStated": "Authorities portrayed proselytizing and refusal of state loyalty, military service, or Nazi practices as subversive.",
+      "currentStatus": "Historical suppression record; current access is outside the scope of the cited historical source.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "state-banned",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "destroyed-maya-books-yucatan-1562",
+      "title": "Maya books destroyed in Yucatán under Diego de Landa",
+      "collection": "forbidden",
+      "recordKind": "destruction-event",
+      "traditions": [
+        "Maya religions",
+        "Indigenous traditions"
+      ],
+      "regions": [
+        "Yucatán"
+      ],
+      "dateLabel": "From 1562",
+      "statusLabel": "CORPUS DESTRUCTION",
+      "headline": "Destroyed corpus — surviving contents cannot be invented",
+      "summary": "Library of Congress reporting describes Diego de Landa's destruction of Maya books in Yucatán beginning in 1562. This is a corpus-level event, not an invented title, a more precise location claim, or a claim that all Maya books were destroyed.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-loc-maya-destruction"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [
+        "Treat Maya knowledge as living cultural heritage and do not synthesize replacement books."
+      ],
+      "safetyNotes": [
+        "Colonial descriptions such as 'devil worship' are attributed to suppressors, not adopted as neutral descriptions."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "destroyed",
+        "political-religious-suppression"
+      ],
+      "authority": "Diego de Landa and Franciscan authorities",
+      "jurisdiction": "Yucatán; the cited source does not establish a more precise event location",
+      "restrictionDate": "From 1562",
+      "restrictionEnd": "The destruction is irreversible; this record does not assert a continuing legal ban.",
+      "reasonAsStated": "The suppressors characterized Maya religious books and practices as idolatrous or demonic.",
+      "currentStatus": "Historical destruction event; surviving Maya manuscripts and living traditions must be documented independently.",
+      "isCanonExcluded": false,
+      "isBanned": false,
+      "restrictionType": "destroyed",
+      "isLegallyOrInstitutionallyProhibited": false
+    },
+    {
+      "id": "forbidden-zhuan-falun-china-1996",
+      "title": "Zhuan Falun — PRC publication restriction",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "Falun Gong",
+        "Falun Dafa"
+      ],
+      "regions": [
+        "China"
+      ],
+      "dateLabel": "1996; later controls documented through 2009",
+      "statusLabel": "STATE CENSORSHIP AND POLITICAL-RELIGIOUS SUPPRESSION",
+      "headline": "State restriction — current status bounded by source dates",
+      "summary": "Commission testimony reports that Zhuan Falun was taken out of print in 1996; later government reporting documents confiscation and suppression of Falun Gong materials.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-cecc-spiritual-movements-2010",
+        "src-cecc-annual-2009"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Copyrighted modern work. Metadata and outbound evidence links only; no full text or extended excerpts.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Claims are attributed to their government or witness source and are not silently updated beyond the source period."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "state-banned",
+        "censored",
+        "political-religious-suppression"
+      ],
+      "authority": "People's Republic of China publishing and security authorities",
+      "jurisdiction": "China",
+      "restrictionDate": "1996; expanded suppression documented after 1999",
+      "restrictionEnd": "Not established by the cited sources.",
+      "reasonAsStated": "Official action formed part of broader state control of Falun Gong publication and practice; exact rationales vary by order and source.",
+      "currentStatus": "Restrictions are documented through the latest cited historical reporting; post-2009 legal status is not independently verified in this record.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "state-banned",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "canon-shepherd-of-hermas-sinaiticus",
+      "title": "Shepherd of Hermas in Codex Sinaiticus",
+      "collection": "forbidden",
+      "recordKind": "canon-boundary",
+      "traditions": [
+        "Christianity",
+        "early Christianity"
+      ],
+      "regions": [
+        "Eastern Mediterranean"
+      ],
+      "dateLabel": "Fourth-century manuscript witness",
+      "statusLabel": "CANON BOUNDARY — NOT A BAN",
+      "headline": "Canon boundary — not a ban",
+      "summary": "Codex Sinaiticus preserves the Shepherd after the New Testament sequence, evidence of early collection boundaries and use. Canon status must be stated by community and period; exclusion from a later canon is not prohibition.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-sinaiticus-significance"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "canon-excluded"
+      ],
+      "authority": "No banning authority; the Codex Sinaiticus manuscript arrangement is the evidence",
+      "jurisdiction": "Specific fourth-century manuscript context; later canon boundaries vary by community",
+      "restrictionDate": "Fourth century manuscript context; no prohibition date",
+      "restrictionEnd": "Not applicable",
+      "reasonAsStated": "No prohibition reason exists; this is a canon-boundary control record.",
+      "currentStatus": "Not treated as a ban. Present-day canonical reception must be described tradition by tradition.",
+      "isCanonExcluded": true,
+      "isBanned": false,
+      "restrictionType": "canon-excluded",
+      "isLegallyOrInstitutionallyProhibited": false
+    },
+    {
+      "id": "restricted-chariot-and-creation-exposition-hagigah",
+      "title": "Mishnah Hagigah 2:1 — audience limits on exposition",
+      "collection": "forbidden",
+      "recordKind": "audience-restriction",
+      "traditions": [
+        "Judaism",
+        "rabbinic literature"
+      ],
+      "regions": [
+        "Land of Israel"
+      ],
+      "dateLabel": "Mishnah compiled around the early third century CE",
+      "statusLabel": "AUDIENCE-RESTRICTED TEACHING — NOT A BOOK BAN",
+      "headline": "Qualified-audience restriction — possession is not prohibited",
+      "summary": "Mishnah Hagigah 2:1 limits exposition of creation and chariot subjects according to audience and qualification. It does not prohibit possessing or reading the Mishnah as a whole.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-sefaria-hagigah-2-1"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [
+        "Do not generalize this historical textual rule into a uniform present-day Jewish access policy."
+      ],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "restricted-to-qualified-audience"
+      ],
+      "authority": "Rabbinic norm recorded in Mishnah Hagigah 2:1",
+      "jurisdiction": "Rabbinic teaching context represented by the Mishnah",
+      "restrictionDate": "Mishnaic period; the passage does not supply a modern enforcement date",
+      "restrictionEnd": "Current application varies and is not established by this record.",
+      "reasonAsStated": "The passage ties exposition of specified subjects to audience size and demonstrated understanding.",
+      "currentStatus": "Historical teaching restriction; not a whole-work ban and not a claim of universal current practice.",
+      "isCanonExcluded": false,
+      "isBanned": false,
+      "restrictionType": "restricted-to-qualified-audience",
+      "isLegallyOrInstitutionallyProhibited": false
+    },
+    {
+      "id": "forbidden-love-that-dares-to-speak-1977",
+      "title": "The Love That Dares to Speak Its Name — blasphemous-libel prosecution",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "religion and law",
+        "Christian cultural history"
+      ],
+      "regions": [
+        "England and Wales"
+      ],
+      "dateLabel": "1977 conviction; offense abolished in 2008",
+      "statusLabel": "BLASPHEMY RESTRICTION — OFFENSE ABOLISHED",
+      "headline": "Blasphemy prosecution — historical legal restriction",
+      "summary": "Publication of James Kirkup's poem led to a blasphemous-libel conviction. The common-law offenses of blasphemy and blasphemous libel were abolished in England and Wales in 2008.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-echr-blasphemy-case",
+        "src-uk-2008-act"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Copyrighted modern poem. Metadata and legal history only; the poem is not reproduced.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Do not reproduce sexually explicit text in summaries or search snippets."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "blasphemy-restriction",
+        "censored"
+      ],
+      "authority": "English criminal courts; conviction followed a private prosecution",
+      "jurisdiction": "England and Wales",
+      "restrictionDate": "1977 conviction and subsequent appeals",
+      "restrictionEnd": "2008 abolition of the common-law offenses",
+      "reasonAsStated": "Publication was prosecuted as blasphemous libel under the law then in force.",
+      "currentStatus": "The relevant common-law offenses were abolished in England and Wales in 2008.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "blasphemy-restriction",
+      "isLegallyOrInstitutionallyProhibited": true
+    },
+    {
+      "id": "forbidden-kama-sutra-portugal-1965",
+      "title": "Kama Sutra — 1965 Portuguese censorship episode",
+      "collection": "forbidden",
+      "recordKind": "restriction-event",
+      "traditions": [
+        "South Asian literature",
+        "history of sexuality",
+        "Hindu cultural history"
+      ],
+      "regions": [
+        "Portugal"
+      ],
+      "dateLabel": "1965",
+      "statusLabel": "OBSCENITY RESTRICTION",
+      "headline": "Obscenity restriction — exact rescission date unverified",
+      "summary": "Cambridge University Library records that a Portuguese edition of the Kama Sutra was swiftly banned under the Estado Novo censorship environment in 1965.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-cambridge-portugal-censorship"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Treat the work as a Sanskrit cultural and literary text; do not automatically label it scripture."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "restrictionTypes": [
+        "obscenity-restriction",
+        "censored"
+      ],
+      "authority": "Estado Novo censorship apparatus; the cited source does not identify the precise order-issuing office",
+      "jurisdiction": "Portugal",
+      "restrictionDate": "1965",
+      "restrictionEnd": "Exact rescission date not established by the cited source.",
+      "reasonAsStated": "The episode occurred within state censorship of erotic or allegedly pornographic publication.",
+      "currentStatus": "Historical restriction; exact rescission date remains unverified in this record.",
+      "isCanonExcluded": false,
+      "isBanned": true,
+      "restrictionType": "obscenity-restriction",
+      "isLegallyOrInstitutionallyProhibited": true
+    }
+  ],
+  "lostWorks": [
+    {
+      "id": "lost-book-of-wars-of-yhwh",
+      "title": "Book of the Wars of YHWH",
+      "collection": "lost",
+      "recordKind": "lost-work",
+      "traditions": [
+        "ancient Israelite literature",
+        "Hebrew Bible"
+      ],
+      "regions": [
+        "ancient Levant"
+      ],
+      "dateLabel": "Attested in Numbers 21:14; composition date not independently established",
+      "statusLabel": "LOST",
+      "headline": "Lost Work",
+      "summary": "Numbers refers to a Book of the Wars of YHWH, but no direct manuscript or complete text survives. Atlas records only the attestation and does not infer the work's scope.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-sefaria-numbers-21-14"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "LOST",
+      "attestationType": "named reference in another work",
+      "earliestAttestation": "Numbers 21:14 is the surviving textual attestation used here; this record does not assign a date to the lost work.",
+      "attestingSourceIds": [
+        "src-sefaria-numbers-21-14"
+      ],
+      "survivingMaterial": "A title/reference and the bounded material present in Numbers 21:14; no continuous manuscript of the cited work.",
+      "reconstructionLevel": "title-only",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Book of the Wars of YHWH — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Reference preserved in Numbers 21:14",
+          "sourceId": "src-sefaria-numbers-21-14",
+          "independenceGroup": "numbers-witness"
+        }
+      ],
+      "fragmentCitations": [],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-sefaria-numbers-21-14"
+      ]
+    },
+    {
+      "id": "lost-book-of-jashar",
+      "title": "Book of Jashar",
+      "collection": "lost",
+      "recordKind": "lost-work",
+      "traditions": [
+        "ancient Israelite literature",
+        "Hebrew Bible"
+      ],
+      "regions": [
+        "ancient Levant"
+      ],
+      "dateLabel": "Attested in Joshua 10:13 and 2 Samuel 1:18",
+      "statusLabel": "LOST",
+      "headline": "Lost work with bounded scriptural attestations",
+      "summary": "Joshua and 2 Samuel name a Book of Jashar. The cited passages may preserve material associated with it, but no complete manuscript survives and the original order and extent cannot be recovered.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-sefaria-joshua-10-13",
+        "src-sefaria-2-samuel-1-18"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "LOST",
+      "attestationType": "named references with possible embedded quotations",
+      "earliestAttestation": "The surviving witnesses used here are Joshua 10:13 and 2 Samuel 1:18; this record does not impose a date on the lost compilation.",
+      "attestingSourceIds": [
+        "src-sefaria-joshua-10-13",
+        "src-sefaria-2-samuel-1-18"
+      ],
+      "survivingMaterial": "Two named references and bounded passages associated with the work; no continuous Book of Jashar manuscript.",
+      "reconstructionLevel": "quoted-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Book of Jashar — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Reference in Joshua 10:13",
+          "sourceId": "src-sefaria-joshua-10-13",
+          "independenceGroup": "joshua-witness"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Reference in 2 Samuel 1:18",
+          "sourceId": "src-sefaria-2-samuel-1-18",
+          "independenceGroup": "samuel-witness"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-sefaria-joshua-10-13",
+          "locator": "Joshua 10:13",
+          "note": "Bounded scriptural attestation; attribution of adjacent wording remains explicit."
+        },
+        {
+          "sourceId": "src-sefaria-2-samuel-1-18",
+          "locator": "2 Samuel 1:18",
+          "note": "Bounded scriptural attestation; no expanded reconstruction."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-sefaria-joshua-10-13",
+        "src-sefaria-2-samuel-1-18"
+      ]
+    },
+    {
+      "id": "lost-gospel-of-the-egyptians",
+      "title": "Gospel of the Egyptians",
+      "collection": "lost",
+      "recordKind": "indirectly-attested-work",
+      "traditions": [
+        "early Christianity",
+        "Christian apocrypha"
+      ],
+      "regions": [
+        "Egypt",
+        "Mediterranean world"
+      ],
+      "dateLabel": "Attested by Clement of Alexandria and later writers",
+      "statusLabel": "INDIRECTLY ATTESTED",
+      "headline": "Patristic quotations survive; no continuous gospel manuscript",
+      "summary": "The Gospel of the Egyptians is known through quotations and reports in Clement of Alexandria and later sources. Their sequence cannot be expanded into a continuous gospel.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-nasscal-gospel-egyptians"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "INDIRECTLY_ATTESTED",
+      "attestationType": "patristic quotation and report",
+      "earliestAttestation": "Clement of Alexandria provides the earliest attestations summarized by the cited scholarly record.",
+      "attestingSourceIds": [
+        "src-nasscal-gospel-egyptians"
+      ],
+      "survivingMaterial": "Attributed quotations and reports; no continuous manuscript.",
+      "reconstructionLevel": "quoted-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Gospel of the Egyptians — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Clement and later patristic quotations",
+          "sourceId": "src-nasscal-gospel-egyptians",
+          "independenceGroup": "patristic-transmission"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "NASSCAL e-Clavis synthesis",
+          "sourceId": "src-nasscal-gospel-egyptians",
+          "independenceGroup": "nasscal"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-nasscal-gospel-egyptians",
+          "locator": "Witness and contents sections",
+          "note": "Use only quotations explicitly assigned and cited by the scholarly entry."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-nasscal-gospel-egyptians"
+      ]
+    },
+    {
+      "id": "indirect-gospel-of-the-ebionites",
+      "title": "Gospel of the Ebionites",
+      "collection": "lost",
+      "recordKind": "indirectly-attested-work",
+      "traditions": [
+        "early Christianity",
+        "Jewish Christianity",
+        "Christian apocrypha"
+      ],
+      "regions": [
+        "eastern Mediterranean"
+      ],
+      "dateLabel": "Fragments assigned from Epiphanius's fourth-century Panarion",
+      "statusLabel": "INDIRECTLY ATTESTED — MODERN SCHOLARLY TITLE",
+      "headline": "Seven conventionally assigned fragments; grouping remains qualified",
+      "summary": "The title is a modern scholarly label for seven passages assigned from Epiphanius. Whether they belonged to one work and whether its users called themselves Ebionites remain open questions.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-nasscal-gospel-ebionites"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "INDIRECTLY_ATTESTED",
+      "attestationType": "hostile heresiological quotation and report",
+      "earliestAttestation": "Epiphanius's Panarion is the witness from which the seven conventionally assigned fragments are drawn.",
+      "attestingSourceIds": [
+        "src-nasscal-gospel-ebionites"
+      ],
+      "survivingMaterial": "Seven passages conventionally grouped by modern scholars; no direct manuscript and no securely attested ancient title.",
+      "reconstructionLevel": "quoted-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Proposed source text — lost and ancient title unknown"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Epiphanius's quotations and reports",
+          "sourceId": "src-nasscal-gospel-ebionites",
+          "independenceGroup": "epiphanius-witness"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Modern grouping under Gospel of the Ebionites",
+          "sourceId": "src-nasscal-gospel-ebionites",
+          "independenceGroup": "nasscal"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-nasscal-gospel-ebionites",
+          "locator": "Seven-fragment inventory",
+          "note": "Keep the modern grouping and hostile-witness limitation visible."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-nasscal-gospel-ebionites"
+      ]
+    },
+    {
+      "id": "lost-cihrdad-nask",
+      "title": "Čihrdād Nask",
+      "collection": "lost",
+      "recordKind": "lost-work",
+      "traditions": [
+        "Zoroastrianism",
+        "Avestan literature"
+      ],
+      "regions": [
+        "Iran"
+      ],
+      "dateLabel": "Known through the medieval Dēnkard's summary of a lost Avestan nask",
+      "statusLabel": "LOST — LATER OUTLINE SURVIVES",
+      "headline": "Lost Avestan nask summarized by a later source",
+      "summary": "The Čihrdād Nask is known through later listing and summary, especially Dēnkard VIII. No direct Avestan text securely survives.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-iranica-cihrdad"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "LOST",
+      "attestationType": "later catalog and summary",
+      "earliestAttestation": "The Dēnkard summary is the attesting source used by the cited Iranica entry; the record does not equate its date with the lost nask's composition.",
+      "attestingSourceIds": [
+        "src-iranica-cihrdad"
+      ],
+      "survivingMaterial": "Later outline and description; no direct Avestan manuscript securely identified.",
+      "reconstructionLevel": "outline",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Čihrdād Nask — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Dēnkard VIII summary"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Encyclopaedia Iranica synthesis",
+          "sourceId": "src-iranica-cihrdad",
+          "independenceGroup": "iranica"
+        }
+      ],
+      "fragmentCitations": [],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-iranica-cihrdad"
+      ]
+    },
+    {
+      "id": "lost-mani-arzhang",
+      "title": "Mani's Aržang",
+      "collection": "lost",
+      "recordKind": "lost-work",
+      "traditions": [
+        "Manichaeism"
+      ],
+      "regions": [
+        "Iran",
+        "Central Asia"
+      ],
+      "dateLabel": "Third-century work known through Manichaean and later reports",
+      "statusLabel": "LOST ILLUSTRATED WORK — COMMENTARY FRAGMENTS SURVIVE",
+      "headline": "Lost images must not be synthetically replaced",
+      "summary": "The illustrated Aržang attributed to Mani is lost. Reports and Parthian commentary fragments inform its history, but they do not permit reconstruction of the original image sequence.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-iranica-arzang"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [
+        "Do not generate replacement sacred illustrations or present modern imagery as Mani's lost originals."
+      ],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "LOST",
+      "attestationType": "later reports with commentary fragments",
+      "earliestAttestation": "Manichaean and later reports summarized in the cited reference; individual witness dates must remain source-specific.",
+      "attestingSourceIds": [
+        "src-iranica-arzang"
+      ],
+      "survivingMaterial": "Parthian commentary fragments and later descriptions; the original drawings do not survive.",
+      "reconstructionLevel": "outline",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Mani's illustrated Aržang — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Parthian commentary fragments and later reports",
+          "sourceId": "src-iranica-arzang",
+          "independenceGroup": "arzang-transmission"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Encyclopaedia Iranica synthesis",
+          "sourceId": "src-iranica-arzang",
+          "independenceGroup": "iranica"
+        }
+      ],
+      "fragmentCitations": [],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-iranica-arzang"
+      ]
+    },
+    {
+      "id": "fragmentary-mani-book-of-giants",
+      "title": "Manichaean Book of Giants",
+      "collection": "lost",
+      "recordKind": "fragmentary-work",
+      "traditions": [
+        "Manichaeism"
+      ],
+      "regions": [
+        "Iran",
+        "Central Asia"
+      ],
+      "dateLabel": "Third-century composition; fragments survive in several Central Asian languages",
+      "statusLabel": "FRAGMENTARY",
+      "headline": "Fragmentary Text",
+      "summary": "The original Aramaic form does not survive as a complete manuscript, but direct fragments in Middle Persian, Sogdian, and Old Turkic preserve portions of the Manichaean work.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-iranica-book-giants"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "FRAGMENTARY",
+      "attestationType": "direct multilingual fragments and indirect attestations",
+      "earliestAttestation": "The work belongs to Mani's scriptural corpus; surviving witnesses and lists are described individually in the cited reference.",
+      "attestingSourceIds": [
+        "src-iranica-book-giants"
+      ],
+      "survivingMaterial": "Direct Middle Persian, Sogdian, and Old Turkic fragments, plus quotations or allusions; no complete original Aramaic text.",
+      "reconstructionLevel": "direct-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Aramaic Book of Giants attributed to Mani — original form lost"
+        },
+        {
+          "stage": "TRANSLATION",
+          "label": "Middle Persian, Sogdian, and Old Turkic fragmentary witnesses",
+          "sourceId": "src-iranica-book-giants",
+          "independenceGroup": "central-asian-fragments"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Encyclopaedia Iranica synthesis",
+          "sourceId": "src-iranica-book-giants",
+          "independenceGroup": "iranica"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-iranica-book-giants",
+          "locator": "Fragment and language inventory",
+          "note": "Only directly identified fragments may be displayed; lacunae remain visible."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-iranica-book-giants"
+      ]
+    },
+    {
+      "id": "lost-berossus-babyloniaca",
+      "title": "Berossus's Babyloniaca",
+      "collection": "lost",
+      "recordKind": "indirectly-attested-work",
+      "traditions": [
+        "Babylonian religion",
+        "Hellenistic historiography"
+      ],
+      "regions": [
+        "Babylonia",
+        "Hellenistic Mediterranean"
+      ],
+      "dateLabel": "Composed in the early Hellenistic period; preserved through later quotation chains",
+      "statusLabel": "INDIRECTLY ATTESTED — DERIVATIVE SOURCE CHAIN",
+      "headline": "Indirect witnesses are not independent copies",
+      "summary": "Berossus's original work is lost. Material reaches modern scholarship through authors and epitomes including Alexander Polyhistor, Josephus, Abydenus, and Eusebius, with possible alteration at successive stages.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-iranica-berossus",
+        "src-wiley-berossus-transmission"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "INDIRECTLY_ATTESTED",
+      "attestationType": "branched quotation, epitome, and derivative transmission",
+      "earliestAttestation": "Hellenistic work known through later authors; each transmitted passage requires its own chain.",
+      "attestingSourceIds": [
+        "src-iranica-berossus",
+        "src-wiley-berossus-transmission"
+      ],
+      "survivingMaterial": "Quoted and epitomized material only; no original manuscript.",
+      "reconstructionLevel": "quoted-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Berossus, Babyloniaca — lost",
+          "nodeId": "berossus-original"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Alexander Polyhistor's epitome — itself lost and known through later witnesses",
+          "sourceId": "src-iranica-berossus",
+          "independenceGroup": "polyhistor-dependent",
+          "nodeId": "polyhistor-epitome",
+          "derivedFrom": [
+            "berossus-original"
+          ]
+        },
+        {
+          "stage": "DERIVATIVE",
+          "label": "Josephus preserves material attributed through Alexander Polyhistor",
+          "sourceId": "src-iranica-berossus",
+          "independenceGroup": "polyhistor-dependent",
+          "nodeId": "josephus-witness",
+          "derivedFrom": [
+            "polyhistor-epitome"
+          ]
+        },
+        {
+          "stage": "DERIVATIVE",
+          "label": "Abydenus adapts Alexander Polyhistor's account rather than independently witnessing Berossus",
+          "sourceId": "src-iranica-berossus",
+          "independenceGroup": "polyhistor-dependent",
+          "nodeId": "abydenus-witness",
+          "derivedFrom": [
+            "polyhistor-epitome"
+          ]
+        },
+        {
+          "stage": "DERIVATIVE",
+          "label": "Eusebius preserves extracts from Polyhistor and from Abydenus's later adaptation",
+          "sourceId": "src-iranica-berossus",
+          "independenceGroup": "eusebius-preservation",
+          "nodeId": "eusebius-witness",
+          "derivedFrom": [
+            "polyhistor-epitome",
+            "abydenus-witness"
+          ]
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Modern critical analysis compares these dependent and branching witnesses",
+          "sourceId": "src-wiley-berossus-transmission",
+          "nodeId": "modern-analysis",
+          "derivedFrom": [
+            "josephus-witness",
+            "eusebius-witness"
+          ]
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-iranica-berossus",
+          "locator": "Transmission and fragments discussion",
+          "note": "Record the immediate quoting author and dependency chain for every displayed fragment."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-iranica-berossus",
+        "src-wiley-berossus-transmission"
+      ]
+    },
+    {
+      "id": "lost-manetho-aegyptiaca",
+      "title": "Manetho's Aegyptiaca",
+      "collection": "lost",
+      "recordKind": "indirectly-attested-work",
+      "traditions": [
+        "ancient Egyptian religion",
+        "Hellenistic historiography"
+      ],
+      "regions": [
+        "Ptolemaic Egypt",
+        "Mediterranean world"
+      ],
+      "dateLabel": "Ptolemaic-period work transmitted through later citations and epitomes",
+      "statusLabel": "INDIRECTLY ATTESTED",
+      "headline": "Later citations preserve material, not Manetho's complete wording",
+      "summary": "Manetho's Egyptian history does not survive as an original continuous text. Later Jewish and Christian citations and epitomes transmit material with varying fidelity.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-nagoya-manetho"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "INDIRECTLY_ATTESTED",
+      "attestationType": "later citation and epitome",
+      "earliestAttestation": "The Ptolemaic work is known through later transmitters discussed in the cited academic study.",
+      "attestingSourceIds": [
+        "src-nagoya-manetho"
+      ],
+      "survivingMaterial": "Citations, epitomes, and king-list material; no original continuous manuscript.",
+      "reconstructionLevel": "quoted-fragments",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Manetho, Aegyptiaca — lost"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Later Jewish and Christian citations and epitomes",
+          "sourceId": "src-nagoya-manetho",
+          "independenceGroup": "manetho-transmission"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Modern critical reconstruction",
+          "sourceId": "src-nagoya-manetho",
+          "independenceGroup": "modern-scholarship"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-nagoya-manetho",
+          "locator": "Transmission analysis",
+          "note": "Do not flatten conflicting epitomes into a single original reading."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-nagoya-manetho"
+      ]
+    },
+    {
+      "id": "fragmentary-orphic-rhapsodies",
+      "title": "Orphic Rhapsodies",
+      "collection": "lost",
+      "recordKind": "fragmentary-work",
+      "traditions": [
+        "Orphism",
+        "ancient Greek religion"
+      ],
+      "regions": [
+        "eastern Mediterranean",
+        "Sinai"
+      ],
+      "dateLabel": "Known principally through late antique indirect tradition; a Sinai fragment has been proposed",
+      "statusLabel": "FRAGMENTARY / RECONSTRUCTED",
+      "headline": "Possible direct fragment — attribution remains qualified",
+      "summary": "The twenty-four-book Orphic Rhapsodies are known from extensive indirect tradition. A Sinai palimpsest has been argued to preserve a direct fragment, but that association must remain explicit and qualified.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-cambridge-orphic-rhapsodies"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "FRAGMENTARY",
+      "attestationType": "indirect quotation tradition and proposed direct palimpsest fragment",
+      "earliestAttestation": "Late antique witnesses preserve the indirect tradition; the cited article evaluates the proposed Sinai fragment.",
+      "attestingSourceIds": [
+        "src-cambridge-orphic-rhapsodies"
+      ],
+      "survivingMaterial": "Extensive indirect quotations plus a proposed direct fragment whose relationship is argued rather than certain.",
+      "reconstructionLevel": "partial-text",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Orphic Rhapsodies — no complete original manuscript"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Late antique indirect quotations",
+          "sourceId": "src-cambridge-orphic-rhapsodies",
+          "independenceGroup": "late-antique-witnesses"
+        },
+        {
+          "stage": "COPY_OR_QUOTE",
+          "label": "Proposed Sinai palimpsest fragment",
+          "sourceId": "src-cambridge-orphic-rhapsodies",
+          "independenceGroup": "sinai-fragment"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Modern reconstruction and attribution",
+          "sourceId": "src-cambridge-orphic-rhapsodies",
+          "independenceGroup": "modern-scholarship"
+        }
+      ],
+      "fragmentCitations": [
+        {
+          "sourceId": "src-cambridge-orphic-rhapsodies",
+          "locator": "Palimpsest analysis",
+          "note": "Label the direct-fragment identification as proposed, not established."
+        }
+      ],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-cambridge-orphic-rhapsodies"
+      ]
+    },
+    {
+      "id": "alleged-lost-classic-of-music",
+      "title": "Alleged Classic of Music",
+      "collection": "lost",
+      "recordKind": "disputed-lost-work",
+      "traditions": [
+        "early Chinese thought",
+        "Confucian textual tradition"
+      ],
+      "regions": [
+        "China"
+      ],
+      "dateLabel": "Explicit lost-classic claims appear much later than the proposed pre-Qin work",
+      "statusLabel": "DISPUTED LOST WORK",
+      "headline": "Alleged lost work — earlier existence is not established",
+      "summary": "Later tradition speaks of a lost Classic of Music, but the cited scholarship finds no convincing pre-Qin evidence for a separate classic and dates explicit lost-work claims much later.",
+      "confidence": "low",
+      "sourceIds": [
+        "src-cambridge-classic-music"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "survivalStatus": "DISPUTED_LOST_WORK",
+      "attestationType": "late retrospective claim",
+      "earliestAttestation": "The cited study places explicit claims of a lost Classic of Music in the late Six Dynasties rather than the pre-Qin period.",
+      "attestingSourceIds": [
+        "src-cambridge-classic-music"
+      ],
+      "survivingMaterial": "No securely identified physical witness or quotation corpus from the alleged early book.",
+      "reconstructionLevel": "none",
+      "sourceChain": [
+        {
+          "stage": "ORIGINAL",
+          "label": "Proposed pre-Qin Classic of Music — existence disputed"
+        },
+        {
+          "stage": "DERIVATIVE",
+          "label": "Late retrospective lost-work tradition",
+          "sourceId": "src-cambridge-classic-music",
+          "independenceGroup": "late-tradition"
+        },
+        {
+          "stage": "SECONDARY",
+          "label": "Modern critical reassessment",
+          "sourceId": "src-cambridge-classic-music",
+          "independenceGroup": "modern-scholarship"
+        }
+      ],
+      "fragmentCitations": [],
+      "hasCompleteText": false,
+      "attestingSources": [
+        "src-cambridge-classic-music"
+      ]
+    }
+  ],
+  "hypotheticalSources": [
+    {
+      "id": "hypothetical-q-source",
+      "title": "Q source",
+      "collection": "hypothetical",
+      "recordKind": "hypothetical-source",
+      "traditions": [
+        "early Christianity",
+        "New Testament studies"
+      ],
+      "regions": [
+        "eastern Mediterranean"
+      ],
+      "dateLabel": "Modern scholarly hypothesis concerning first-century Gospel relationships",
+      "statusLabel": "HYPOTHETICAL",
+      "headline": "Hypothetical Q Source",
+      "summary": "Q is a scholarly source hypothesis used to explain material shared by Matthew and Luke but absent from Mark. No Q manuscript has been found.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-cambridge-q"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "literary-source hypothesis",
+      "proposedEntity": "A proposed sayings or source collection used in the composition of Matthew and Luke",
+      "argumentsFor": [
+        "Substantial shared Matthew-Luke material is absent from Mark.",
+        "Patterns of wording and sequence can be modeled through a shared source."
+      ],
+      "argumentsAgainst": [
+        "Direct literary dependence models can explain the same data without Q.",
+        "There is no physical witness and no universally agreed reconstruction."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "Q remains influential but contested; reconstructions are models of Gospel relationships, not recovered documents.",
+      "modelBoundary": "Never create a manuscript, inventory number, edition, quotation, or first-person voice for Q."
+    },
+    {
+      "id": "reconstructed-pentateuchal-source-models",
+      "title": "Pentateuchal source models",
+      "collection": "hypothetical",
+      "recordKind": "reconstructed-source-family",
+      "traditions": [
+        "Judaism",
+        "Hebrew Bible studies"
+      ],
+      "regions": [
+        "ancient Levant"
+      ],
+      "dateLabel": "Modern models of ancient composition",
+      "statusLabel": "RECONSTRUCTED MODEL FAMILY",
+      "headline": "Reconstructed strata — not recovered scrolls",
+      "summary": "J, E, P, D and later supplementary or fragmentary models infer compositional layers from the received Pentateuch. Scholars disagree over source boundaries and whether each model represents an independent document.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-oxford-pentateuch"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "literary and redactional reconstruction",
+      "proposedEntity": "Proposed source strata and editorial stages within the Pentateuch",
+      "argumentsFor": [
+        "Repetitions, narrative tensions, vocabulary, and style support compositional differentiation.",
+        "Some legal and narrative groupings show internally coherent patterns."
+      ],
+      "argumentsAgainst": [
+        "Competing documentary, supplementary, and fragmentary models divide the evidence differently.",
+        "No manuscript labeled J, E, P, or D survives as a separate source document."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "Source analysis remains a family of debated models rather than a single recovered textual history.",
+      "modelBoundary": "Do not turn sigla into physical works, assign unsupported exact dates, or synthesize continuous source texts."
+    },
+    {
+      "id": "hypothetical-deuteronomistic-history",
+      "title": "Deuteronomistic History",
+      "collection": "hypothetical",
+      "recordKind": "hypothetical-literary-construct",
+      "traditions": [
+        "Judaism",
+        "Hebrew Bible studies"
+      ],
+      "regions": [
+        "ancient Levant"
+      ],
+      "dateLabel": "Modern hypothesis concerning Deuteronomy through Kings",
+      "statusLabel": "HYPOTHETICAL LITERARY CONSTRUCT",
+      "headline": "Shared editorial patterns — no recovered master manuscript",
+      "summary": "The Deuteronomistic History proposes editorial unity across Deuteronomy through Kings. The model has influential variants and substantial challenges.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-oxford-deuteronomistic-encyclopedia",
+        "src-oxford-deuteronomistic-challenges"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "literary-history hypothesis",
+      "proposedEntity": "A proposed editorial work or process linking Deuteronomy, Joshua, Judges, Samuel, and Kings",
+      "argumentsFor": [
+        "Recurring language, covenant themes, and evaluations of kings support shared editorial activity.",
+        "Some historical and theological patterns span the proposed corpus."
+      ],
+      "argumentsAgainst": [
+        "Block, library, and multiple-redaction models explain the corpus without one unified history.",
+        "The scale, date, and number of editorial layers remain disputed."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "The construct remains important but is neither a physical manuscript nor a consensus single-author work.",
+      "modelBoundary": "Represent model variants and evidence, not a fabricated Deuteronomistic book."
+    },
+    {
+      "id": "reconstructed-proto-indo-european-religion",
+      "title": "Proto-Indo-European religious reconstruction",
+      "collection": "hypothetical",
+      "recordKind": "comparative-reconstruction",
+      "traditions": [
+        "Indo-European comparative religion"
+      ],
+      "regions": [
+        "Eurasia"
+      ],
+      "dateLabel": "Modern reconstruction of prehistoric linguistic and cultural evidence",
+      "statusLabel": "RECONSTRUCTED",
+      "headline": "Comparative reconstruction — no unitary scripture",
+      "summary": "Comparative linguistics and mythology support a limited set of inherited terms and patterns, while many proposed deities and narratives remain doubtful.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-oxford-pie-religion"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "comparative linguistic and mythological reconstruction",
+      "proposedEntity": "Selected inherited religious vocabulary, formulae, and cultural patterns",
+      "argumentsFor": [
+        "Regular linguistic cognates can support inherited names or concepts.",
+        "Some poetic and ritual formulas recur across separated Indo-European traditions."
+      ],
+      "argumentsAgainst": [
+        "Contact, convergence, semantic change, and chance resemblance complicate comparisons.",
+        "The evidence does not recover a complete or uniform religion."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "Only bounded, method-specific reconstructions should be presented; confidence varies term by term.",
+      "modelBoundary": "Never create a Proto-Indo-European scripture, canonical narrative, or verbatim prayer."
+    },
+    {
+      "id": "reconstructed-proto-indo-iranian-religion",
+      "title": "Proto-Indo-Iranian religious reconstruction",
+      "collection": "hypothetical",
+      "recordKind": "comparative-reconstruction",
+      "traditions": [
+        "Vedic traditions",
+        "Zoroastrianism",
+        "Indo-Iranian studies"
+      ],
+      "regions": [
+        "Central and South Asia",
+        "Iran"
+      ],
+      "dateLabel": "Modern reconstruction from Vedic and Avestan evidence",
+      "statusLabel": "RECONSTRUCTED",
+      "headline": "Recoverable elements — not a complete religious system",
+      "summary": "Vedic and Avestan correspondences support reconstruction of some inherited vocabulary, deities, and ritual concepts, but not a complete organic system.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-iranica-indo-iranian-religion"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "comparative linguistic and religious reconstruction",
+      "proposedEntity": "Selected inherited Indo-Iranian religious elements",
+      "argumentsFor": [
+        "Systematic Vedic-Avestan correspondences support shared inherited elements.",
+        "Related ritual and poetic terminology can be compared historically."
+      ],
+      "argumentsAgainst": [
+        "Later developments differ sharply and cannot be projected wholesale backward.",
+        "The cited scholarship cautions that an organic complete system cannot be reconstructed."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "A bounded comparative reconstruction is possible for selected features only.",
+      "modelBoundary": "Do not merge later Vedic and Zoroastrian traditions or generate a proto-canon."
+    },
+    {
+      "id": "reconstructed-rigvedic-oral-compositional-history",
+      "title": "Rigvedic oral compositional history",
+      "collection": "hypothetical",
+      "recordKind": "reconstructed-transmission",
+      "traditions": [
+        "Vedic traditions",
+        "Hinduism"
+      ],
+      "regions": [
+        "South Asia"
+      ],
+      "dateLabel": "Modern reconstruction of ancient oral composition and transmission",
+      "statusLabel": "RECONSTRUCTED TRANSMISSION",
+      "headline": "Oral history model — not a lost predecessor book",
+      "summary": "Formulaic reuse, poet lineages, arrangement, and preservation practices support models of Rigvedic oral composition. Exact early stages and dates remain uncertain.",
+      "confidence": "medium",
+      "sourceIds": [
+        "src-oxford-rigvedic-oral"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and original neutral summary only. Edition, translation, image, and facsimile rights require separate review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "hypothesisType": "oral-compositional and transmission reconstruction",
+      "proposedEntity": "Stages and practices in the oral composition and preservation of the Rigveda",
+      "argumentsFor": [
+        "Formulaic language, reuse, and lineage organization provide internal evidence.",
+        "Highly controlled oral preservation explains later textual stability."
+      ],
+      "argumentsAgainst": [
+        "No contemporary manuscript witnesses the earliest compositional stages.",
+        "Oral development cannot be reduced to one lost written archetype."
+      ],
+      "physicalWitness": null,
+      "quotations": [],
+      "quotationPolicy": "none",
+      "currentAssessment": "Scholarship can model oral composition and transmission without manufacturing an earlier canonical text.",
+      "modelBoundary": "Do not synthesize a false canonical oral version or present reconstructed stages as verbatim quotations."
+    }
+  ],
+  "disputedWorks": [
+    {
+      "id": "forgery-gospel-of-jesus-wife",
+      "title": "Gospel of Jesus' Wife fragment",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "early Christianity",
+        "modern manuscript controversy"
+      ],
+      "regions": [
+        "unknown claimed origin",
+        "modern private collection"
+      ],
+      "dateLabel": "Publicly announced in 2012; material and textual studies followed",
+      "statusLabel": "DEMONSTRATED MODERN FORGERY",
+      "headline": "Modern forgery — ancient papyrus does not date the writing",
+      "summary": "Material testing initially left open the possibility of an old papyrus support, but textual dependence on a modern online Gospel of Thomas edition and provenance failures establish modern composition.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-cambridge-gjw-forgery",
+        "src-harvard-gjw-testing"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Do not repeat sensational claims about Jesus or early Christianity as established history."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "DEMONSTRATED_MODERN_FORGERY",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed as an ancient Coptic fragment",
+      "claimedAuthorship": "Presented as an otherwise unknown early Christian gospel witness",
+      "claimedProvenance": "Undocumented private-collection account",
+      "physicalDate": "Papyrus support may be ancient; that result does not date the inscription",
+      "materialDescription": "Small Coptic-inscribed papyrus fragment",
+      "findProvenance": "No secure archaeological provenance",
+      "evidenceFor": [
+        {
+          "claim": "Radiocarbon and ink reporting initially did not prove that the support or ink was modern.",
+          "sourceIds": [
+            "src-harvard-gjw-testing"
+          ]
+        }
+      ],
+      "evidenceAgainst": [
+        {
+          "claim": "Textual correspondences include dependence on a modern online Gospel of Thomas edition and its error.",
+          "sourceIds": [
+            "src-cambridge-gjw-forgery"
+          ]
+        },
+        {
+          "claim": "The ownership and acquisition account lacks secure independent provenance.",
+          "sourceIds": [
+            "src-cambridge-gjw-forgery"
+          ]
+        }
+      ],
+      "receptionHistory": [],
+      "legalDisposition": null,
+      "currentAssessment": "Modern forgery. An ancient writing support, if present, is not evidence for ancient inscription or authorship.",
+      "majorityView": "The textual and provenance evidence establishes modern composition.",
+      "minorityView": "Early material tests once sustained a limited possibility of antiquity before stronger textual evidence emerged.",
+      "historiography": {
+        "olderView": "Initial reporting described an uncertain fragment whose papyrus and ink required testing.",
+        "laterChallenge": "Textual analysis identified dependence on a modern online source, including a distinctive error.",
+        "currentMajority": "Modern forgery.",
+        "minorityPosition": "No substantial current authenticity position is represented by the cited evidence.",
+        "supersededClaims": [
+          "Material age alone could authenticate the writing."
+        ],
+        "evidenceCausingChange": [
+          "Textual dependence",
+          "provenance investigation",
+          "separation of support age from inscription date"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "disputed-secret-gospel-of-mark",
+      "title": "Secret Gospel of Mark",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "early Christianity",
+        "Christian apocrypha"
+      ],
+      "regions": [
+        "Mar Saba",
+        "Jerusalem region"
+      ],
+      "dateLabel": "Reported discovery in 1958 of a claimed eighteenth-century copy",
+      "statusLabel": "DISPUTED AUTHENTICITY",
+      "headline": "Authenticity unestablished — original manuscript unavailable",
+      "summary": "Morton Smith reported a copied letter attributed to Clement of Alexandria. The manuscript is unavailable, and scholarship remains divided between contextual plausibility and modern-forgery arguments.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-oxford-secret-mark",
+        "src-yale-secret-mark"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "DISPUTED_AUTHENTICITY",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed Clementine letter preserving passages from a longer Markan text",
+      "claimedAuthorship": "Attributed to Clement of Alexandria, quoting or discussing a secret form of Mark",
+      "claimedProvenance": "Reported in a manuscript at Mar Saba by Morton Smith in 1958",
+      "physicalDate": "The reported manuscript was described as an eighteenth-century hand; the physical object is now unavailable",
+      "materialDescription": "Photographs and published transcription of an unavailable manuscript",
+      "findProvenance": "Reported library context, but no presently inspectable original",
+      "evidenceFor": [
+        {
+          "claim": "Recent scholarship argues that neither a first-century gospel nor a twentieth-century forgery fully explains all evidence.",
+          "sourceIds": [
+            "src-yale-secret-mark"
+          ]
+        }
+      ],
+      "evidenceAgainst": [
+        {
+          "claim": "Internal anomalies and circumstances of discovery have been advanced as evidence of modern forgery.",
+          "sourceIds": [
+            "src-oxford-secret-mark"
+          ]
+        }
+      ],
+      "receptionHistory": [],
+      "legalDisposition": null,
+      "currentAssessment": "Authenticity remains disputed. The unavailable original sharply limits new material testing.",
+      "majorityView": "No settled consensus is encoded beyond the fact of active, serious dispute.",
+      "minorityView": "Published scholarship includes both modern-forgery arguments and more recent defenses of a non-forgery historical manuscript context.",
+      "historiography": {
+        "olderView": "Early debate polarized between major discovery and suspicion of Smith.",
+        "laterChallenge": "Detailed internal and contextual forgery arguments intensified skepticism.",
+        "currentMajority": "Authenticity remains unestablished; views vary by scholar.",
+        "minorityPosition": "Some recent work argues against both simple ancient-gospel and modern-hoax classifications.",
+        "supersededClaims": [
+          "Photographs alone settle the physical manuscript's date."
+        ],
+        "evidenceCausingChange": [
+          "Loss or unavailability of the original",
+          "literary analysis",
+          "expanded historiography"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "hoax-oera-linda-book",
+      "title": "Oera Linda Book",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "modern esotericism",
+        "Frisian nationalism",
+        "new religious reception"
+      ],
+      "regions": [
+        "Netherlands",
+        "Friesland"
+      ],
+      "dateLabel": "Surfaced in 1867",
+      "statusLabel": "MODERN FORGERY OR HOAX",
+      "headline": "Nineteenth-century creation — not an ancient Frisian chronicle",
+      "summary": "The Oera Linda Book appeared in the nineteenth century with claims of remote Frisian antiquity. Linguistic, material, literary, and provenance research places it in its modern setting.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-brill-oera-linda",
+        "src-groningen-oera-linda"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Contextualize nationalist and racial uses without reproducing them as factual ancient history."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "MODERN_FORGERY_OR_HOAX",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed deep antiquity and transmission as an old Frisian chronicle",
+      "claimedAuthorship": "Presented through a family-manuscript narrative",
+      "claimedProvenance": "Surfaced through nineteenth-century Dutch and Frisian networks",
+      "physicalDate": "Nineteenth-century material context",
+      "materialDescription": "Manuscript associated with the modern publication history",
+      "findProvenance": "Documented modern chain is more secure than the claimed ancient chain",
+      "evidenceFor": [],
+      "evidenceAgainst": [
+        {
+          "claim": "Language, paper, historical setting, and literary analysis place manufacture in the nineteenth century.",
+          "sourceIds": [
+            "src-brill-oera-linda",
+            "src-groningen-oera-linda"
+          ]
+        }
+      ],
+      "receptionHistory": [
+        {
+          "claim": "Later adherents and interpreters have treated the book as preserving genuine ancient wisdom; reception is not evidence of ancient authorship.",
+          "sourceIds": [
+            "src-brill-oera-linda"
+          ]
+        }
+      ],
+      "legalDisposition": null,
+      "currentAssessment": "Modern literary forgery or hoax-associated creation with a significant later reception history.",
+      "majorityView": "Academic scholarship treats the claimed ancient provenance as false.",
+      "minorityView": "Modern religious and nationalist reception persists but is not evidence of ancient authorship.",
+      "historiography": {
+        "olderView": "Initial publication promoted an ancient Frisian manuscript claim.",
+        "laterChallenge": "Philological and provenance research located the work in the nineteenth century.",
+        "currentMajority": "Modern creation.",
+        "minorityPosition": "Nonacademic authenticity advocacy persists.",
+        "supersededClaims": [
+          "The narrative's claimed family transmission proves antiquity."
+        ],
+        "evidenceCausingChange": [
+          "linguistic analysis",
+          "material context",
+          "historical provenance research"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "forgery-book-of-veles",
+      "title": "Book of Veles",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "Slavic Native Faith",
+        "modern Slavic esotericism"
+      ],
+      "regions": [
+        "Eastern Europe",
+        "Russian and Ukrainian diaspora"
+      ],
+      "dateLabel": "Published through twentieth-century transcription claims",
+      "statusLabel": "MODERN FORGERY",
+      "headline": "Modern forgery — alleged wooden originals are unavailable",
+      "summary": "The Book of Veles is known through twentieth-century claims about lost wooden planks. Linguistic anachronisms and the lack of inspectable originals support modern manufacture, although some adherents continue to value it religiously.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-chicago-book-veles",
+        "src-cambridge-book-veles"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Describe living Slavic Native Faith communities respectfully and separate reception from authenticity."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "MODERN_FORGERY",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed premodern Slavic text on wooden planks",
+      "claimedAuthorship": "Attributed to ancient or early medieval Slavic communities",
+      "claimedProvenance": "Allegedly copied from planks later lost; survives through modern publication claims",
+      "physicalDate": "No original planks available for testing; surviving transmission is modern",
+      "materialDescription": "Transcriptions, publications, and limited photographic claims",
+      "findProvenance": "Unverified modern discovery narrative",
+      "evidenceFor": [],
+      "evidenceAgainst": [
+        {
+          "claim": "Historical linguists identify anachronistic and inconsistent language incompatible with the claimed date.",
+          "sourceIds": [
+            "src-chicago-book-veles"
+          ]
+        },
+        {
+          "claim": "The alleged original objects are unavailable for independent examination.",
+          "sourceIds": [
+            "src-chicago-book-veles"
+          ]
+        }
+      ],
+      "receptionHistory": [
+        {
+          "claim": "Some contemporary religious adherents accept or value the text as ancient or spiritually authoritative; that reception is not evidence of antiquity.",
+          "sourceIds": [
+            "src-cambridge-book-veles"
+          ]
+        }
+      ],
+      "legalDisposition": null,
+      "currentAssessment": "Modern literary forgery in scholarly assessment; its later religious reception is a separate documented fact.",
+      "majorityView": "Historical-linguistic scholarship rejects the claimed antiquity.",
+      "minorityView": "Some adherents continue to defend authenticity or religious value.",
+      "historiography": {
+        "olderView": "Publishers promoted a lost ancient plank text.",
+        "laterChallenge": "Linguistic analysis exposed anachronism and inconsistency.",
+        "currentMajority": "Modern forgery.",
+        "minorityPosition": "Adherent authenticity claims persist.",
+        "supersededClaims": [
+          "A transcription and reported photograph substitute for accessible originals."
+        ],
+        "evidenceCausingChange": [
+          "historical linguistics",
+          "missing provenance",
+          "modern transmission history"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "hoax-kinderhook-plates",
+      "title": "Kinderhook Plates",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "Latter Day Saint history",
+        "American religious history"
+      ],
+      "regions": [
+        "Illinois",
+        "United States"
+      ],
+      "dateLabel": "Manufactured and presented in 1843",
+      "statusLabel": "DEMONSTRATED HOAX",
+      "headline": "Demonstrated nineteenth-century hoax",
+      "summary": "The Kinderhook Plates were manufactured and planted in 1843. A participant's confession and later production and material evidence establish the hoax; questions about Joseph Smith's exact response are separate.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-lds-kinderhook",
+        "src-byu-kinderhook"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Do not use the plates' manufacture status to adjudicate the truth of a religion."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "DEMONSTRATED_HOAX",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Presented as ancient inscribed metal plates",
+      "claimedAuthorship": "No authentic ancient author; claims were designed to attract interpretation",
+      "claimedProvenance": "Planted near Kinderhook, Illinois",
+      "physicalDate": "Nineteenth-century manufacture",
+      "materialDescription": "Small inscribed metal plates; one survivor was examined",
+      "findProvenance": "Documented planted discovery",
+      "evidenceFor": [],
+      "evidenceAgainst": [
+        {
+          "claim": "A maker confessed to the prank, and production and material evidence support modern manufacture.",
+          "sourceIds": [
+            "src-lds-kinderhook",
+            "src-byu-kinderhook"
+          ]
+        }
+      ],
+      "receptionHistory": [
+        {
+          "claim": "Early observers treated the objects as potentially ancient because of the staged discovery; being deceived is not evidence of authenticity.",
+          "sourceIds": [
+            "src-lds-kinderhook"
+          ]
+        }
+      ],
+      "legalDisposition": null,
+      "currentAssessment": "Demonstrated hoax. The precise scope of Joseph Smith's attempted engagement remains a distinct historical question.",
+      "majorityView": "Modern manufacture is established.",
+      "minorityView": "Interpretations differ over Joseph Smith's response, not over the plates' modern manufacture.",
+      "historiography": {
+        "olderView": "The staged find invited ancient-artifact interpretation.",
+        "laterChallenge": "Confession and scientific examination established manufacture.",
+        "currentMajority": "Demonstrated hoax.",
+        "minorityPosition": "No material-authenticity minority is represented by the cited sources.",
+        "supersededClaims": [
+          "The plates constitute an ancient written record."
+        ],
+        "evidenceCausingChange": [
+          "maker confession",
+          "manufacturing evidence",
+          "material examination"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "disputed-jehoash-inscription",
+      "title": "Jehoash Inscription",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "ancient Israelite history",
+        "biblical archaeology"
+      ],
+      "regions": [
+        "Israel",
+        "unprovenanced antiquities market"
+      ],
+      "dateLabel": "Public controversy in the early 2000s",
+      "statusLabel": "SUSPECTED FORGERY DISPUTED",
+      "headline": "Disputed authenticity — acquittal is not authentication",
+      "summary": "The unprovenanced stone inscription has competing archaeometric and epigraphic assessments. Most epigraphic scholarship favors forgery, while a minority archaeometric argument supports authenticity.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-tel-aviv-jehoash",
+        "src-jas-jehoash",
+        "src-latimes-jehoash-verdict"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "SUSPECTED_FORGERY_DISPUTED",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed First Temple-period inscription concerning Temple repairs",
+      "claimedAuthorship": "Attributed to the reign of King Jehoash",
+      "claimedProvenance": "Unprovenanced antiquities-market object",
+      "physicalDate": "Stone may be ancient; the inscription and patina dates remain disputed",
+      "materialDescription": "Inscribed black stone with patina",
+      "findProvenance": "No controlled archaeological find context",
+      "evidenceFor": [
+        {
+          "claim": "An archaeometric study argues that features of the patina support authenticity.",
+          "sourceIds": [
+            "src-jas-jehoash"
+          ]
+        }
+      ],
+      "evidenceAgainst": [
+        {
+          "claim": "Philological, palaeographic, and patina analyses identify anomalies consistent with modern manufacture.",
+          "sourceIds": [
+            "src-tel-aviv-jehoash"
+          ]
+        }
+      ],
+      "receptionHistory": [],
+      "legalDisposition": {
+        "claim": "The 2012 criminal acquittal reflected failure to prove forgery beyond a reasonable doubt; contemporary reporting states that authenticity remained unproven.",
+        "sourceIds": [
+          "src-latimes-jehoash-verdict"
+        ]
+      },
+      "currentAssessment": "Suspected forgery with documented minority dissent. Legal acquittal does not authenticate the object.",
+      "majorityView": "The majority epigraphic and philological assessment favors forgery.",
+      "minorityView": "Some archaeometric researchers argue for authenticity.",
+      "historiography": {
+        "olderView": "Initial announcement promoted a major First Temple-period inscription.",
+        "laterChallenge": "Epigraphic, linguistic, and patina criticism challenged authenticity.",
+        "currentMajority": "Likely forgery.",
+        "minorityPosition": "A published archaeometric defense remains part of the record.",
+        "supersededClaims": [
+          "Criminal acquittal establishes archaeological authenticity.",
+          "Ancient stone necessarily means ancient inscription."
+        ],
+        "evidenceCausingChange": [
+          "palaeography",
+          "philology",
+          "patina analysis",
+          "lack of provenance"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "disputed-shapira-deuteronomy-strips",
+      "title": "Shapira Deuteronomy strips",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "Hebrew Bible",
+        "biblical manuscripts"
+      ],
+      "regions": [
+        "Transjordan claimed origin",
+        "Europe"
+      ],
+      "dateLabel": "Presented in 1883; originals now lost",
+      "statusLabel": "SUSPECTED FORGERY DISPUTED",
+      "headline": "Lost physical strips — revived authenticity claim remains minority",
+      "summary": "The Shapira strips were rejected as forgeries in the nineteenth century and later disappeared. A recent authenticity argument has revived debate, while orthographic and philological studies continue to support modern manufacture.",
+      "confidence": "contested",
+      "sourceIds": [
+        "src-monash-shapira",
+        "src-degruyter-shapira",
+        "src-peeters-shapira"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "SUSPECTED_FORGERY_DISPUTED",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed ancient Deuteronomy-related manuscript",
+      "claimedAuthorship": "Presented as an early form of Deuteronomy",
+      "claimedProvenance": "Unprovenanced acquisition account associated with Moses Shapira",
+      "physicalDate": "Original strips unavailable; material cannot now be retested directly",
+      "materialDescription": "Reported leather strips known through descriptions, drawings, and transcriptions",
+      "findProvenance": "No controlled archaeological provenance",
+      "evidenceFor": [
+        {
+          "claim": "A recent philological reconstruction argues that the text could preserve an early form of Deuteronomy.",
+          "sourceIds": [
+            "src-monash-shapira"
+          ]
+        }
+      ],
+      "evidenceAgainst": [
+        {
+          "claim": "Orthographic and linguistic features have been argued to reflect nineteenth-century knowledge and manufacture.",
+          "sourceIds": [
+            "src-degruyter-shapira",
+            "src-peeters-shapira"
+          ]
+        },
+        {
+          "claim": "Loss of the physical strips prevents decisive new material examination.",
+          "sourceIds": [
+            "src-peeters-shapira"
+          ]
+        }
+      ],
+      "receptionHistory": [],
+      "legalDisposition": null,
+      "currentAssessment": "Current majority assessment remains forgery, with a visible recent minority authenticity argument.",
+      "majorityView": "Forgery remains the dominant assessment in the cited critical scholarship.",
+      "minorityView": "A recent scholarly argument proposes authenticity and an early Deuteronomy text.",
+      "historiography": {
+        "olderView": "The strips were rejected soon after their 1883 presentation.",
+        "laterChallenge": "A modern reconstruction reopened the authenticity question.",
+        "currentMajority": "Likely nineteenth-century forgery.",
+        "minorityPosition": "A revived authenticity case is published and must be represented.",
+        "supersededClaims": [
+          "A modern textual reconstruction substitutes for examination of the lost strips."
+        ],
+        "evidenceCausingChange": [
+          "orthographic comparison",
+          "philology",
+          "reassessment of nineteenth-century drawings and transcriptions"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    },
+    {
+      "id": "forgery-salamander-letter",
+      "title": "Salamander Letter",
+      "collection": "disputed",
+      "recordKind": "authenticity-case",
+      "traditions": [
+        "Latter Day Saint history",
+        "American religious history"
+      ],
+      "regions": [
+        "Utah",
+        "United States"
+      ],
+      "dateLabel": "Surfaced in 1984; forgery exposed in 1985–1987 investigations",
+      "statusLabel": "DEMONSTRATED MODERN FORGERY",
+      "headline": "Demonstrated Mark Hofmann forgery",
+      "summary": "The Salamander Letter was one of Mark Hofmann's fabricated historical documents. Period materials and deceptive provenance initially delayed detection, but confession and the wider forensic investigation settle its status.",
+      "confidence": "high",
+      "sourceIds": [
+        "src-byu-salamander"
+      ],
+      "reviewedAt": "2026-10-10",
+      "rightsStatus": "Metadata and evidence summaries only. Images, transcriptions, editions, and facsimiles require separate rights review.",
+      "culturalRestrictions": [],
+      "safetyNotes": [
+        "Do not use a forged document to adjudicate the truth of a faith tradition."
+      ],
+      "mayTranslate": false,
+      "editions": [],
+      "segments": [],
+      "fullText": null,
+      "authenticityStatus": "DEMONSTRATED_MODERN_FORGERY",
+      "forgeryStatusProminent": true,
+      "claimedDate": "Claimed nineteenth-century letter about early Latter-day Saint history",
+      "claimedAuthorship": "Purportedly authored by Martin Harris",
+      "claimedProvenance": "Presented through a fabricated collecting and ownership history",
+      "physicalDate": "Modern writing on selected period-compatible materials",
+      "materialDescription": "Forged historical document",
+      "findProvenance": "Provenance supplied by the forger",
+      "evidenceFor": [
+        {
+          "claim": "Period-compatible materials and plausible surface details initially persuaded some examiners and buyers.",
+          "sourceIds": [
+            "src-byu-salamander"
+          ]
+        }
+      ],
+      "evidenceAgainst": [
+        {
+          "claim": "Hofmann's confession and the connected forensic and criminal investigation established fabrication.",
+          "sourceIds": [
+            "src-byu-salamander"
+          ]
+        }
+      ],
+      "receptionHistory": [],
+      "legalDisposition": null,
+      "currentAssessment": "Demonstrated modern forgery.",
+      "majorityView": "Forgery is settled by confession and corroborating investigation.",
+      "minorityView": "No material-authenticity minority is represented by the cited evidence.",
+      "historiography": {
+        "olderView": "The document initially circulated as a potentially authentic historical letter.",
+        "laterChallenge": "The murder and forgery investigation exposed Hofmann's production methods and provenance fabrications.",
+        "currentMajority": "Demonstrated forgery.",
+        "minorityPosition": "None in the cited scholarship.",
+        "supersededClaims": [
+          "Period paper or ink alone authenticates authorship."
+        ],
+        "evidenceCausingChange": [
+          "confession",
+          "forensic investigation",
+          "provenance collapse"
+        ],
+        "lastReviewed": "2026-10-10"
+      }
+    }
+  ]
+}

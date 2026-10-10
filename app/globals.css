@@ -981,7 +981,8 @@ select {
   margin: 25px 0;
   overflow-x: auto;
 }
-.tabs button {
+.tabs button,
+.tabs a {
   border: 0;
   background: none;
   padding: 10px 0 13px;
@@ -989,9 +990,11 @@ select {
   font-size: 14px;
   white-space: nowrap;
   border-bottom: 2px solid transparent;
+  text-decoration: none;
 }
 .tabs button.active,
-.tabs button.selected {
+.tabs button.selected,
+.tabs a.active {
   color: var(--ink);
   border-color: var(--gold);
 }
@@ -1924,7 +1927,8 @@ dialog::backdrop {
   .tabs {
     gap: 20px;
   }
-  .tabs button {
+  .tabs button,
+  .tabs a {
     font-size: 13px;
   }
   .panel {

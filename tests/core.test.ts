@@ -60,6 +60,18 @@ import {
   modernBibliography,
   modernOriginClaims,
 } from "../packages/shared/modern-religions";
+import {
+  restrictionTypes,
+  forbiddenLostDisputedDefinitions,
+  forbiddenLostDisputedPolicy,
+  forbiddenLostDisputedSources,
+  suppressionEvents,
+  lostWorks,
+  hypotheticalSources,
+  disputedWorks,
+  forbiddenLostDisputedRecords,
+  validateForbiddenLostDisputedData,
+} from "../packages/shared/forbidden-lost-disputed";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
   const oracc = JSON.parse(
@@ -576,6 +588,355 @@ test("Phase 13 research records use HTTPS provenance throughout", () => {
   assert.ok(urls.length > 0);
   assert.ok(urls.every((url) => typeof url === "string" && url.startsWith("https://")));
   assert.ok(modernBibliography.every((entry) => entry.perspective.trim().length > 0));
+});
+test("Phase 14 has the exact forbidden, lost, hypothetical, and disputed inventories", () => {
+  const expectedSuppression = [
+    "forbidden-copernicus-de-revolutionibus-1616",
+    "forbidden-foscarini-letter-1616",
+    "forbidden-tyndale-new-testament-1526",
+    "forbidden-watchtower-golden-age-germany-1933",
+    "destroyed-maya-books-yucatan-1562",
+    "forbidden-zhuan-falun-china-1996",
+    "canon-shepherd-of-hermas-sinaiticus",
+    "restricted-chariot-and-creation-exposition-hagigah",
+    "forbidden-love-that-dares-to-speak-1977",
+    "forbidden-kama-sutra-portugal-1965",
+  ].sort();
+  const expectedLost = [
+    "lost-book-of-wars-of-yhwh",
+    "lost-book-of-jashar",
+    "lost-gospel-of-the-egyptians",
+    "indirect-gospel-of-the-ebionites",
+    "lost-cihrdad-nask",
+    "lost-mani-arzhang",
+    "fragmentary-mani-book-of-giants",
+    "lost-berossus-babyloniaca",
+    "lost-manetho-aegyptiaca",
+    "fragmentary-orphic-rhapsodies",
+    "alleged-lost-classic-of-music",
+  ].sort();
+  const expectedHypothetical = [
+    "hypothetical-q-source",
+    "reconstructed-pentateuchal-source-models",
+    "hypothetical-deuteronomistic-history",
+    "reconstructed-proto-indo-european-religion",
+    "reconstructed-proto-indo-iranian-religion",
+    "reconstructed-rigvedic-oral-compositional-history",
+  ].sort();
+  const expectedDisputed = [
+    "forgery-gospel-of-jesus-wife",
+    "disputed-secret-gospel-of-mark",
+    "hoax-oera-linda-book",
+    "forgery-book-of-veles",
+    "hoax-kinderhook-plates",
+    "disputed-jehoash-inscription",
+    "disputed-shapira-deuteronomy-strips",
+    "forgery-salamander-letter",
+  ].sort();
+  assert.deepEqual(
+    suppressionEvents.map((record) => record.id).sort(),
+    expectedSuppression,
+  );
+  assert.deepEqual(lostWorks.map((record) => record.id).sort(), expectedLost);
+  assert.deepEqual(
+    hypotheticalSources.map((record) => record.id).sort(),
+    expectedHypothetical,
+  );
+  assert.deepEqual(
+    disputedWorks.map((record) => record.id).sort(),
+    expectedDisputed,
+  );
+  assert.equal(forbiddenLostDisputedRecords.length, 35);
+  assert.equal(
+    new Set(forbiddenLostDisputedRecords.map((record) => record.id)).size,
+    35,
+  );
+  assert.equal(validateForbiddenLostDisputedData(), true);
+  assert.match(
+    forbiddenLostDisputedPolicy,
+    /never fabricates missing passages/i,
+  );
+  assert.deepEqual(
+    forbiddenLostDisputedDefinitions.truthfulnessRegressionCases.map(
+      (fixture) => fixture.headline,
+    ),
+    [
+      "Lost Work",
+      "Fragmentary Text",
+      "Hypothetical Q Source",
+      "Disputed Forgery",
+    ],
+  );
+  for (const record of forbiddenLostDisputedRecords) {
+    assert.ok(
+      record.title &&
+        record.recordKind &&
+        record.dateLabel &&
+        record.statusLabel,
+    );
+    assert.ok(
+      record.headline &&
+        record.summary &&
+        record.reviewedAt &&
+        record.rightsStatus,
+    );
+    assert.ok(record.traditions.length > 0 && record.regions.length > 0);
+    assert.ok(record.sourceIds.length > 0);
+    assert.equal(record.mayTranslate, false);
+    assert.deepEqual(record.editions, []);
+    assert.deepEqual(record.segments, []);
+    assert.equal(record.fullText, null);
+  }
+});
+test("Phase 14 distinguishes all nine restriction states from canon and audience boundaries", () => {
+  const requiredRestrictions = [
+    "canon-excluded",
+    "ecclesiastically-prohibited",
+    "state-banned",
+    "censored",
+    "destroyed",
+    "restricted-to-qualified-audience",
+    "blasphemy-restriction",
+    "obscenity-restriction",
+    "political-religious-suppression",
+  ].sort();
+  assert.deepEqual([...restrictionTypes].sort(), requiredRestrictions);
+  assert.deepEqual(
+    [
+      ...new Set(
+        suppressionEvents.flatMap((record) => record.restrictionTypes),
+      ),
+    ].sort(),
+    requiredRestrictions,
+  );
+  for (const record of suppressionEvents) {
+    assert.equal(record.collection, "forbidden");
+    assert.ok(
+      record.authority && record.jurisdiction && record.restrictionDate,
+    );
+    assert.ok(
+      record.restrictionEnd && record.reasonAsStated && record.currentStatus,
+    );
+    assert.ok(record.restrictionTypes.length > 0);
+    assert.equal(record.restrictionType, record.restrictionTypes[0]);
+    assert.equal(typeof record.isCanonExcluded, "boolean");
+    assert.equal(typeof record.isBanned, "boolean");
+    assert.equal(typeof record.isLegallyOrInstitutionallyProhibited, "boolean");
+    if (record.isCanonExcluded) assert.equal(record.isBanned, false);
+  }
+  const shepherd = suppressionEvents.find(
+    (record) => record.id === "canon-shepherd-of-hermas-sinaiticus",
+  );
+  assert.ok(shepherd);
+  assert.equal(shepherd.recordKind, "canon-boundary");
+  assert.equal(shepherd.headline, "Canon boundary — not a ban");
+  assert.equal(shepherd.isCanonExcluded, true);
+  assert.equal(shepherd.isBanned, false);
+  assert.equal(shepherd.isLegallyOrInstitutionallyProhibited, false);
+  const hagigah = suppressionEvents.find(
+    (record) =>
+      record.id === "restricted-chariot-and-creation-exposition-hagigah",
+  );
+  assert.ok(hagigah);
+  assert.equal(hagigah.recordKind, "audience-restriction");
+  assert.deepEqual(hagigah.restrictionTypes, [
+    "restricted-to-qualified-audience",
+  ]);
+  assert.equal(hagigah.isBanned, false);
+  assert.equal(hagigah.isLegallyOrInstitutionallyProhibited, false);
+  assert.match(hagigah.currentStatus, /not a whole-work ban/i);
+  const mayaDestruction = suppressionEvents.find(
+    (record) => record.id === "destroyed-maya-books-yucatan-1562",
+  );
+  assert.ok(mayaDestruction);
+  assert.equal(mayaDestruction.isBanned, false);
+  assert.equal(
+    mayaDestruction.isLegallyOrInstitutionallyProhibited,
+    false,
+  );
+  assert.doesNotMatch(mayaDestruction.title, /Maní/);
+});
+test("Phase 14 lost and hypothetical records cannot acquire fabricated text or witnesses", () => {
+  for (const record of lostWorks) {
+    assert.equal(record.collection, "lost");
+    assert.ok(
+      record.attestationType &&
+        record.earliestAttestation &&
+        record.survivingMaterial,
+    );
+    assert.ok(
+      record.attestingSourceIds.length > 0 && record.sourceChain.length > 0,
+    );
+    assert.equal(record.hasCompleteText, false);
+    assert.equal(record.fullText, null);
+    assert.equal(record.mayTranslate, false);
+    assert.deepEqual(record.editions, []);
+    assert.deepEqual(record.segments, []);
+    if (record.survivalStatus === "FRAGMENTARY")
+      assert.ok(record.fragmentCitations.length > 0);
+  }
+  for (const record of hypotheticalSources) {
+    assert.equal(record.collection, "hypothetical");
+    assert.equal(record.physicalWitness, null);
+    assert.deepEqual(record.quotations, []);
+    assert.equal(record.quotationPolicy, "none");
+    assert.equal(record.fullText, null);
+    assert.equal(record.mayTranslate, false);
+    assert.deepEqual(record.editions, []);
+    assert.deepEqual(record.segments, []);
+    assert.ok(
+      record.argumentsFor.length > 0 && record.argumentsAgainst.length > 0,
+    );
+    assert.ok(
+      record.hypothesisType &&
+        record.proposedEntity &&
+        record.currentAssessment,
+    );
+    assert.match(record.modelBoundary, /never|no |not |cannot/i);
+  }
+  const researchIds = new Set(
+    [...lostWorks, ...hypotheticalSources].map((record) => record.id),
+  );
+  assert.ok(editions.every((edition) => !researchIds.has(edition.textId)));
+  assert.ok(allPassages().every((passage) => !researchIds.has(passage.textId)));
+});
+test("Phase 14 disputed records foreground status and separate claims from physical evidence", () => {
+  for (const record of disputedWorks) {
+    assert.equal(record.collection, "disputed");
+    assert.equal(record.forgeryStatusProminent, true);
+    assert.ok(
+      record.authenticityStatus &&
+        record.claimedDate &&
+        record.claimedAuthorship,
+    );
+    assert.ok(
+      record.claimedProvenance &&
+        record.physicalDate &&
+        record.materialDescription,
+    );
+    assert.ok(
+      record.findProvenance && record.currentAssessment && record.majorityView,
+    );
+    assert.ok(record.minorityView && record.evidenceAgainst.length > 0);
+    assert.notEqual(record.claimedDate, record.physicalDate);
+    assert.notEqual(record.claimedProvenance, record.findProvenance);
+    assert.ok(
+      record.historiography.olderView && record.historiography.laterChallenge,
+    );
+    assert.ok(
+      record.historiography.currentMajority &&
+        record.historiography.minorityPosition,
+    );
+    assert.ok(record.historiography.supersededClaims.length > 0);
+    assert.ok(record.historiography.evidenceCausingChange.length > 0);
+  }
+  const jesusWife = disputedWorks.find(
+    (record) => record.id === "forgery-gospel-of-jesus-wife",
+  );
+  assert.ok(jesusWife);
+  assert.equal(jesusWife.authenticityStatus, "DEMONSTRATED_MODERN_FORGERY");
+  assert.equal(
+    jesusWife.headline,
+    "Modern forgery — ancient papyrus does not date the writing",
+  );
+  assert.match(jesusWife.claimedDate, /ancient Coptic fragment/i);
+  assert.match(jesusWife.physicalDate, /papyrus support may be ancient/i);
+  assert.match(jesusWife.currentAssessment, /modern forgery/i);
+  assert.match(
+    jesusWife.evidenceAgainst.map((item) => item.claim).join(" "),
+    /modern online.*error/i,
+  );
+  for (const id of [
+    "hoax-oera-linda-book",
+    "forgery-book-of-veles",
+    "hoax-kinderhook-plates",
+  ]) {
+    const settled = disputedWorks.find((record) => record.id === id);
+    assert.ok(settled);
+    assert.deepEqual(settled.evidenceFor, []);
+    assert.ok(settled.receptionHistory.length > 0);
+  }
+  const jehoash = disputedWorks.find(
+    (record) => record.id === "disputed-jehoash-inscription",
+  );
+  assert.ok(jehoash?.legalDisposition);
+  assert.deepEqual(jehoash.legalDisposition.sourceIds, [
+    "src-latimes-jehoash-verdict",
+  ]);
+  assert.match(jehoash.legalDisposition.claim, /beyond a reasonable doubt/i);
+});
+test("Phase 14 sources resolve through HTTPS and Berossus preserves its derivation chain", () => {
+  const sourceIds = new Set(
+    forbiddenLostDisputedSources.map((source) => source.id),
+  );
+  assert.equal(sourceIds.size, forbiddenLostDisputedSources.length);
+  for (const source of forbiddenLostDisputedSources) {
+    assert.ok(
+      source.label && source.kind && source.perspective && source.accessed,
+    );
+    assert.ok(source.url.startsWith("https://"));
+  }
+  for (const record of forbiddenLostDisputedRecords)
+    assert.ok(record.sourceIds.every((sourceId) => sourceIds.has(sourceId)));
+  for (const record of lostWorks) {
+    assert.ok(
+      record.attestingSourceIds.every((sourceId) => sourceIds.has(sourceId)),
+    );
+    assert.ok(
+      record.sourceChain.every(
+        (node) => !node.sourceId || sourceIds.has(node.sourceId),
+      ),
+    );
+    assert.ok(
+      record.fragmentCitations.every((citation) =>
+        sourceIds.has(citation.sourceId),
+      ),
+    );
+  }
+  for (const record of disputedWorks)
+    assert.ok(
+      [
+        ...record.evidenceFor,
+        ...record.evidenceAgainst,
+        ...record.receptionHistory,
+        ...(record.legalDisposition ? [record.legalDisposition] : []),
+      ].every(
+        (item) =>
+          item.sourceIds.length > 0 &&
+          item.sourceIds.every((sourceId) => sourceIds.has(sourceId)),
+      ),
+    );
+  const berossus = lostWorks.find(
+    (record) => record.id === "lost-berossus-babyloniaca",
+  );
+  assert.ok(berossus);
+  const berossusNodes = new Map(
+    berossus.sourceChain.map((node) => [node.nodeId, node]),
+  );
+  assert.equal(berossusNodes.size, berossus.sourceChain.length);
+  assert.ok(
+    berossus.sourceChain.some((node) =>
+      /Alexander Polyhistor/.test(node.label),
+    ),
+  );
+  assert.ok(
+    berossus.sourceChain.some((node) => /Josephus/.test(node.label)),
+  );
+  assert.deepEqual(
+    berossusNodes.get("josephus-witness")?.derivedFrom,
+    ["polyhistor-epitome"],
+  );
+  assert.deepEqual(berossusNodes.get("abydenus-witness")?.derivedFrom, [
+    "polyhistor-epitome",
+  ]);
+  assert.deepEqual(berossusNodes.get("eusebius-witness")?.derivedFrom, [
+    "polyhistor-epitome",
+    "abydenus-witness",
+  ]);
+  assert.ok(
+    !berossus.sourceChain.some((node) => /Syncellus/i.test(node.label)),
+  );
+  assert.ok(!berossus.sourceChain.some((node) => node.stage === "TRANSLATION"));
 });
 test("Egypt expansion distinguishes sourced metadata from bounded editions", () => {
   const sinuhe = texts.find((text) => text.id === "tale-of-sinuhe");

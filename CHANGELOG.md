@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — Phase 14 forbidden, lost and disputed works
+
+- Added dedicated discovery routes for documented restriction and suppression cases, lost and indirectly attested works, hypothetical reconstructions, and disputed, forged or hoax-associated works.
+- Kept prohibition, canon exclusion and audience restriction on separate axes, with authority, jurisdiction, dates, stated reasons and current status where sources support them.
+- Added survival and source-chain evidence without generating missing text, quotations or physical witnesses for lost and hypothetical records.
+- Added prominent authenticity assessments, claimed-versus-physical provenance, evidence for and against, and historiography for disputed cases.
+- Added a deterministic ingestion script, coverage metrics and regression tests for category boundaries, no-fabrication rules and route accessibility.
+
 ## Unreleased — Phase 13 modern religions and Scientology
 
 - Added a dedicated modern-religions collection with profiles for 18 movements and analytic groupings, including Nation of Islam and copyright-safe Scientology coverage.

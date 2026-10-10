@@ -47,6 +47,7 @@ const knownSeeds = [
   "esoteric-editions.json",
   "esoteric-literature.json",
   "esoteric-passages.json",
+  "forbidden-lost-disputed.json",
   "horn-additions.json",
   "horn-archive.json",
   "images.json",
@@ -78,6 +79,7 @@ const sourcePaths = [
   "packages/shared/archive.ts",
   "packages/shared/catalog.ts",
   "packages/shared/esoteric.ts",
+  "packages/shared/forbidden-lost-disputed.ts",
   "packages/shared/modern-religions.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
@@ -101,6 +103,7 @@ const sourcePaths = [
   "scripts/ingest-china.py",
   "scripts/ingest-horn.py",
   "scripts/ingest-esoteric-literature.py",
+  "scripts/ingest-forbidden-lost-disputed.py",
   "scripts/ingest-modern-religions.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
@@ -113,6 +116,7 @@ const sourcePaths = [
   "components/GlobalCoverage.tsx",
   "components/Indigenous.tsx",
   "components/Esoteric.tsx",
+  "components/ForbiddenLostDisputed.tsx",
   "components/ModernReligions.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
@@ -289,7 +293,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 14 — Forbidden, lost and disputed works",
+        currentFocus: "Phase 15 — Ontology and entity expansion",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -307,9 +311,10 @@ const outputs = new Map([
           { id: "11", status: "acceptance-implemented-not-finally-certified" },
           { id: "12", status: "acceptance-implemented-not-finally-certified" },
           { id: "13", status: "acceptance-implemented-not-finally-certified" },
-          { id: "14", status: "in-progress" },
-          ...Array.from({ length: 15 }, (_, index) => ({
-            id: String(index + 15),
+          { id: "14", status: "acceptance-implemented-not-finally-certified" },
+          { id: "15", status: "in-progress" },
+          ...Array.from({ length: 14 }, (_, index) => ({
+            id: String(index + 16),
             status: "not-started",
           })),
         ],

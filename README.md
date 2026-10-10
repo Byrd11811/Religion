@@ -35,6 +35,7 @@ Run only one server against the embedded database directory. Keep the terminal r
 - An unresolved-writing research lab covering 25 minimum corpora from Voynich and Rohonc through Aegean, Indus, Rapa Nui, Iranian, African, Iberian, Inner Asian, European-Neolithic and Mesoamerican evidence. Script identity, sign values, language identity and semantic translation remain separate, and unresolved-script questions trigger a no-fabrication response.
 - A historical-literature collection with 33 source-linked grimoire, Hermetic, alchemical, demonological and non-scriptural literary records pending scholarly review; five complete public-domain editions; 804 searchable segments; and five shelfmark-level repository witnesses. Sixteen differentiated practice records, four necromancy records, all nine sacrifice-evidence categories and eight documented organizations preserve evidence and cultural boundaries. The interface labels literature as non-scriptural and does not turn ritual content into an operating guide.
 - A modern-religions collection with 18 distinct movement profiles, 23 copyright-safe Scientology records, all eight required evidence categories, eight bibliography entries and seven claim-versus-documentary chronology records. Protected works remain metadata-only, legal records retain case scope, Church responses link to the criticism they address, and the existing 1830 Book of Mormon reader remains available.
+- Three evidence-specific discovery collections for 10 documented suppression or restriction cases, 11 lost or fragmentary works, six hypothetical reconstructions and eight disputed, forged or hoax-associated works. Canon exclusion remains distinct from prohibition; lost and hypothetical records contain no synthetic source text; authenticity labels, source chains and counterevidence stay visible.
 
 - The specification’s 250-item source list remains mapped to 248 deduplicated requirements, with later reviewed collection expansions tracked additively.
 - 600 catalog works/corpora and 124 source editions covering 121 works with 31,484 verbatim segments. Twenty-six editions are Sumerian transliterations and 30 are Classical Chinese transcriptions rather than English translations. Eighty-eight works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, composite transliterations and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension or physical witness is present.
@@ -91,6 +92,7 @@ npm run ingest:china
 npm run ingest:horn
 npm run ingest:esoteric
 npm run ingest:modern
+npm run ingest:disputed
 npm run classify
 npm run ingest:images
 ```
@@ -132,7 +134,7 @@ The global search route queries works, broad traditions, sourced subtraditions, 
 
 Run `npm run audit:coverage` to regenerate repository coverage and requirement reports, or `npm run audit:check` to check for drift. CI runs the drift check. Reports are in [docs/generated/coverage.md](docs/generated/coverage.md), [docs/generated/requirements.md](docs/generated/requirements.md), and [docs/generated/corpus-targets.json](docs/generated/corpus-targets.json). The command does not connect to a database or fetch sources; deployment counts remain unknown.
 
-The audit reports 59 metrics, maps all 114 authoritative audit sections and 58 quality rules, and preserves the 250 original title requirements (248 distinct targets) plus all 53 expansion sections. Catalog presence is separate from reviewed depth and completion. See [Phase 0 model evaluation](docs/phase-0-model-evaluation.md) for normalization decisions and representative acceptance targets. The authoritative execution order remains [the completion roadmap](docs/atlas-completion-roadmap.md).
+The audit reports 65 metrics, maps all 233 authoritative audit sections and 58 quality rules, and preserves the 250 original title requirements (248 distinct targets) plus all 53 expansion sections. Catalog presence is separate from reviewed depth and completion. See [Phase 0 model evaluation](docs/phase-0-model-evaluation.md) for normalization decisions and representative acceptance targets. The authoritative execution order remains [the completion roadmap](docs/atlas-completion-roadmap.md).
 
 ## Verification
 

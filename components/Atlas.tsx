@@ -50,6 +50,7 @@ import { GlobalCoverageCollection } from "./GlobalCoverage";
 import { UndecipheredCollection, UndecipheredDetail } from "./Undeciphered";
 import { EsotericCollection } from "./Esoteric";
 import { ModernReligionsCollection } from "./ModernReligions";
+import { ForbiddenLostDisputedCollection } from "./ForbiddenLostDisputed";
 import {
   Timeline,
   WorldMap,
@@ -92,6 +93,9 @@ const navigation = [
       ["library/undeciphered", "Unresolved Writing Systems", Search],
       ["library/esoteric", "Esoteric & Religious Literature", BookOpen],
       ["library/modern", "Modern Religions & New Movements", Globe2],
+      ["library/forbidden", "Forbidden & Restricted Texts", Scale],
+      ["library/lost", "Lost Works & Hypothetical Sources", ScrollText],
+      ["library/disputed", "Disputed & Forged Works", Search],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -159,6 +163,8 @@ export default function Atlas({
           <EsotericCollection />
         ) : id === "modern" ? (
           <ModernReligionsCollection />
+        ) : id === "forbidden" || id === "lost" || id === "disputed" ? (
+          <ForbiddenLostDisputedCollection section={id} />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (

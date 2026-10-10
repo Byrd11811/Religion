@@ -31,6 +31,7 @@ import indigenous from "../data/seed/indigenous-collections.json";
 import indigenousAdditions from "../data/seed/indigenous-additions.json";
 import esotericLiterature from "../data/seed/esoteric-literature.json";
 import modernReligions from "../data/seed/modern-religions.json";
+import forbiddenLostDisputed from "../data/seed/forbidden-lost-disputed.json";
 
 const input: CoverageInput = {
   texts,
@@ -54,6 +55,10 @@ const input: CoverageInput = {
     evidenceRecords: modernReligions.evidenceRecords,
     modernProfiles: modernReligions.profiles,
     originClaims: modernReligions.originClaims,
+    suppressionEvents: forbiddenLostDisputed.suppressionEvents,
+    lostWorks: forbiddenLostDisputed.lostWorks,
+    hypotheticalSources: forbiddenLostDisputed.hypotheticalSources,
+    disputedWorks: forbiddenLostDisputed.disputedWorks,
     culturalProtocols: [...indigenous.culturalProtocols, ...indigenousAdditions.culturalProtocols],
     ritualPractices: esotericLiterature.ritualPractices,
     necromancy: esotericLiterature.necromancy,
@@ -85,6 +90,19 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("evidenceRecords").seeded, modernReligions.evidenceRecords.length);
   assert.equal(get("modernProfiles").seeded, modernReligions.profiles.length);
   assert.equal(get("originClaims").seeded, modernReligions.originClaims.length);
+  assert.equal(
+    get("suppressionEvents").seeded,
+    forbiddenLostDisputed.suppressionEvents.length,
+  );
+  assert.equal(get("lostWorks").seeded, forbiddenLostDisputed.lostWorks.length);
+  assert.equal(
+    get("hypotheticalSources").seeded,
+    forbiddenLostDisputed.hypotheticalSources.length,
+  );
+  assert.equal(
+    get("disputedWorks").seeded,
+    forbiddenLostDisputed.disputedWorks.length,
+  );
   assert.equal(get("culturalProtocols").seeded, 29);
   assert.equal(get("ritualPractices").seeded, 16);
   assert.equal(get("necromancy").seeded, 4);
