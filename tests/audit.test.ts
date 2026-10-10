@@ -30,6 +30,7 @@ import hornAdditions from "../data/seed/horn-additions.json";
 import indigenous from "../data/seed/indigenous-collections.json";
 import indigenousAdditions from "../data/seed/indigenous-additions.json";
 import esotericLiterature from "../data/seed/esoteric-literature.json";
+import modernReligions from "../data/seed/modern-religions.json";
 
 const input: CoverageInput = {
   texts,
@@ -49,6 +50,10 @@ const input: CoverageInput = {
     canonMemberships: hornAdditions.canonMemberships,
     recensions: hornAdditions.recensions,
     bibliographyWorks: hornAdditions.bibliographyWorks,
+    bibliographyEntries: modernReligions.bibliographyEntries,
+    evidenceRecords: modernReligions.evidenceRecords,
+    modernProfiles: modernReligions.profiles,
+    originClaims: modernReligions.originClaims,
     culturalProtocols: [...indigenous.culturalProtocols, ...indigenousAdditions.culturalProtocols],
     ritualPractices: esotericLiterature.ritualPractices,
     necromancy: esotericLiterature.necromancy,
@@ -60,7 +65,7 @@ const read = (file: string) => readFileSync(file, "utf8");
 test("coverage distinguishes real edition content, complete editions, unknown classification and deployment counts", () => {
   const metrics = measureCoverage(input, 2026);
   const get = (id: string) => metrics.find((m) => m.id === id)!;
-  assert.equal(get("works").seeded, 562);
+  assert.equal(get("works").seeded, 600);
   assert.equal(get("searchableWorks").seeded, 121);
   assert.equal(get("completeEditionWorks").seeded, 88);
   assert.equal(get("passages").seeded, 31484);
@@ -70,12 +75,16 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("witnesses").seeded, 61);
   assert.equal(get("mappedWorks").seeded, 33);
   assert.equal(get("coordinateWorks").seeded, 33);
-  assert.equal(get("languageMetadataWorks").seeded, 305);
+  assert.equal(get("languageMetadataWorks").seeded, 357);
   assert.equal(get("originalTextWorks").seeded, 30);
   assert.equal(get("transliterationWorks").seeded, 26);
   assert.equal(get("recensions").seeded, 2);
   assert.equal(get("canonMemberships").seeded, 5);
-  assert.equal(get("bibliographyWorks").seeded, 4);
+  assert.equal(get("bibliographyWorks").seeded, hornAdditions.bibliographyWorks.length);
+  assert.equal(get("bibliographyEntries").seeded, modernReligions.bibliographyEntries.length);
+  assert.equal(get("evidenceRecords").seeded, modernReligions.evidenceRecords.length);
+  assert.equal(get("modernProfiles").seeded, modernReligions.profiles.length);
+  assert.equal(get("originClaims").seeded, modernReligions.originClaims.length);
   assert.equal(get("culturalProtocols").seeded, 29);
   assert.equal(get("ritualPractices").seeded, 16);
   assert.equal(get("necromancy").seeded, 4);

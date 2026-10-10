@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — Phase 13 modern religions and Scientology
+
+- Added a dedicated modern-religions collection with profiles for 18 movements and analytic groupings, including Nation of Islam and copyright-safe Scientology coverage.
+- Added the required Scientology bibliography, creed and codes as metadata-only records, plus additional Hubbard works, without creating reader editions for protected text.
+- Separated official teaching, academic history, legal and government records, criticism, Church responses, former-member accounts, journalism and unverified claims into explicit evidence categories.
+- Added source-linked bibliography and modern-origin records that keep claimed ancient, extraterrestrial or channeled origins distinct from documented modern publication dates.
+- Preserved the existing public-domain Book of Mormon reader and added tests for rights, evidence traceability, profile discovery and chronology.
+
 ## Unreleased — Phase 2 taxonomy foundation
 
 - Added 42 sourced branch, community, regional and practice-context records with 48 nonexclusive relationships while preserving all legacy tradition IDs.

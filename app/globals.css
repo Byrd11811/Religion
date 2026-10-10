@@ -990,7 +990,8 @@ select {
   white-space: nowrap;
   border-bottom: 2px solid transparent;
 }
-.tabs button.active {
+.tabs button.active,
+.tabs button.selected {
   color: var(--ink);
   border-color: var(--gold);
 }

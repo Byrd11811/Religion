@@ -57,6 +57,7 @@ const knownSeeds = [
   "mesopotamia-archive.json",
   "mesopotamia-editions.json",
   "mesopotamia-passages.json",
+  "modern-religions.json",
   "passages.json",
   "regional-coverage.json",
   "relationships.json",
@@ -77,6 +78,7 @@ const sourcePaths = [
   "packages/shared/archive.ts",
   "packages/shared/catalog.ts",
   "packages/shared/esoteric.ts",
+  "packages/shared/modern-religions.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/protocols.ts",
@@ -99,6 +101,7 @@ const sourcePaths = [
   "scripts/ingest-china.py",
   "scripts/ingest-horn.py",
   "scripts/ingest-esoteric-literature.py",
+  "scripts/ingest-modern-religions.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
@@ -110,8 +113,10 @@ const sourcePaths = [
   "components/GlobalCoverage.tsx",
   "components/Indigenous.tsx",
   "components/Esoteric.tsx",
+  "components/ModernReligions.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
+  "app/globals.css",
   "packages/shared/exploration.ts",
   "packages/shared/exploration-catalog.ts",
   "packages/shared/exploration-query.ts",
@@ -146,6 +151,11 @@ const parsedSeeds = new Map(
     JSON.parse(read(`data/seed/${filename}`)) as unknown,
   ]),
 );
+const collectionAliases: Partial<
+  Record<(typeof absentDatasets)[number][0], Record<string, string>>
+> = {
+  modernProfiles: { "modern-religions.json": "profiles" },
+};
 const input = {
   texts,
   traditions,
@@ -162,13 +172,14 @@ const input = {
       const records: { id: string }[] = [];
       for (const filename of actualSeeds) {
         const data = parsedSeeds.get(filename);
+        const collectionKey = collectionAliases[id]?.[filename] ?? id;
         if (
           data &&
           typeof data === "object" &&
           !Array.isArray(data) &&
-          id in data
+          collectionKey in data
         ) {
-          const collection = (data as Record<string, unknown>)[id];
+          const collection = (data as Record<string, unknown>)[collectionKey];
           if (
             !Array.isArray(collection) ||
             collection.some((row) => !row || typeof row.id !== "string")
@@ -278,7 +289,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 13 — Modern religions and new religious movements",
+        currentFocus: "Phase 14 — Forbidden, lost and disputed works",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -295,9 +306,10 @@ const outputs = new Map([
           { id: "10", status: "acceptance-implemented-not-finally-certified" },
           { id: "11", status: "acceptance-implemented-not-finally-certified" },
           { id: "12", status: "acceptance-implemented-not-finally-certified" },
-          { id: "13", status: "in-progress" },
-          ...Array.from({ length: 16 }, (_, index) => ({
-            id: String(index + 14),
+          { id: "13", status: "acceptance-implemented-not-finally-certified" },
+          { id: "14", status: "in-progress" },
+          ...Array.from({ length: 15 }, (_, index) => ({
+            id: String(index + 15),
             status: "not-started",
           })),
         ],

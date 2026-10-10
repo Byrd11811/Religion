@@ -8,12 +8,12 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 
 | ID | Metric | Seeded | Persisted | Reviewed | Exposed | Tested | Complete |
 |---|---|---:|---|---|---|---|---|
-| works | Catalog/work records | 562 | Unknown | Unknown | Unknown | Unknown | No |
-| traditions | Broad tradition groupings | 34 | Unknown | Unknown | Unknown | Unknown | No |
+| works | Catalog/work records | 600 | Unknown | Unknown | Unknown | Unknown | No |
+| traditions | Broad tradition groupings | 52 | Unknown | Unknown | Unknown | Unknown | No |
 | editions | Source editions | 124 | Unknown | Unknown | Unknown | Unknown | No |
 | searchableWorks | Searchable edition-backed works | 121 | Unknown | Unknown | Unknown | Unknown | No |
 | completeEditionWorks | Complete named-work/edition coverage | 88 | Unknown | Unknown | Unknown | Unknown | No |
-| metadataOnly | Works without source editions | 441 | Unknown | Unknown | Unknown | Unknown | No |
+| metadataOnly | Works without source editions | 479 | Unknown | Unknown | Unknown | Unknown | No |
 | passages | Edition segments | 31484 | Unknown | Unknown | Unknown | Unknown | No |
 | primaryPassages | Explicitly classified primary segments | 18011 | Unknown | Unknown | Unknown | Unknown | No |
 | editorialPassages | Explicitly classified editorial segments | 281 | Unknown | Unknown | Unknown | Unknown | No |
@@ -23,22 +23,25 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | images | Archive image references | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | rightsAttributedImages | Images with source/rights/attribution | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | relationships | Curated relationship records | 5 | Unknown | Unknown | Unknown | Unknown | No |
-| datedWorks | Works with start dates | 64 | Unknown | Unknown | Unknown | Unknown | No |
-| undatedWorks | Works without start dates | 498 | Unknown | Unknown | Unknown | Unknown | No |
+| datedWorks | Works with start dates | 111 | Unknown | Unknown | Unknown | Unknown | No |
+| undatedWorks | Works without start dates | 489 | Unknown | Unknown | Unknown | Unknown | No |
 | coordinateWorks | Works with coordinates | 33 | Unknown | Unknown | Unknown | Unknown | No |
-| unlocatedWorks | Works without coordinates | 529 | Unknown | Unknown | Unknown | Unknown | No |
+| unlocatedWorks | Works without coordinates | 567 | Unknown | Unknown | Unknown | Unknown | No |
 | mappedWorks | Map-eligible works through 2026 | 33 | Unknown | Unknown | 33 | Unknown | No |
-| timelineWorks | Timeline-eligible works through 2026 | 64 | Unknown | Unknown | Unknown | Unknown | No |
-| languageMetadataWorks | Works with language metadata | 305 | Unknown | Unknown | Unknown | Unknown | No |
+| timelineWorks | Timeline-eligible works through 2026 | 111 | Unknown | Unknown | Unknown | Unknown | No |
+| languageMetadataWorks | Works with language metadata | 357 | Unknown | Unknown | Unknown | Unknown | No |
 | subtraditions | Subtraditions | 42 | Unknown | Unknown | Unknown | Unknown | No |
 | recensions | Recensions / textual families | 2 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 5 | Unknown | Unknown | Unknown | Unknown | No |
-| evidenceRecords | Structured evidence records | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| evidenceRecords | Structured evidence records | 13 | Unknown | Unknown | Unknown | Unknown | No |
+| modernProfiles | Modern religion and movement profiles | 18 | Unknown | Unknown | Unknown | Unknown | No |
+| originClaims | Modern origin-claim chronology records | 7 | Unknown | Unknown | Unknown | Unknown | No |
 | culturalProtocols | Cultural protocols | 29 | Unknown | Unknown | Unknown | Unknown | No |
 | suppressionEvents | Sourced suppression events | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | originalTextWorks | Works with original-language transcription | 30 | Unknown | Unknown | Unknown | Unknown | No |
 | transliterationWorks | Works with transliteration | 26 | Unknown | Unknown | Unknown | Unknown | No |
 | bibliographyWorks | Works with reviewed scholarly bibliography | 4 | Unknown | Unknown | Unknown | Unknown | No |
+| bibliographyEntries | Reviewed bibliography entries | 8 | Unknown | Unknown | Unknown | Unknown | No |
 | polities | Historical polity records | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | territorialSnapshots | Territorial snapshots | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | conflicts | Conflict records | 0 | Unknown | Unknown | Unknown | Unknown | No |
@@ -96,11 +99,14 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **recensions:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **canonMemberships:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **evidenceRecords:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **modernProfiles:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **originClaims:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **culturalProtocols:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **suppressionEvents:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **originalTextWorks:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **transliterationWorks:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **bibliographyWorks:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **bibliographyEntries:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **polities:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **territorialSnapshots:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **conflicts:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.

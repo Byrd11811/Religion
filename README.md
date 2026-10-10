@@ -34,9 +34,10 @@ Run only one server against the embedded database directory. Keep the terminal r
 - A 61-record witness archive spanning Dead Sea Scrolls, biblical codices, Nag Hammadi, Derveni, Oxyrhynchus, Herculaneum, Elephantine, Dunhuang, Mawangdui, Guodian, Gandharan, Gilgit, Ethiopian, Mesoamerican and Mesopotamian material, with provenance, date notes, repository, rights, work links and repository IIIF when verified.
 - An unresolved-writing research lab covering 25 minimum corpora from Voynich and Rohonc through Aegean, Indus, Rapa Nui, Iranian, African, Iberian, Inner Asian, European-Neolithic and Mesoamerican evidence. Script identity, sign values, language identity and semantic translation remain separate, and unresolved-script questions trigger a no-fabrication response.
 - A historical-literature collection with 33 source-linked grimoire, Hermetic, alchemical, demonological and non-scriptural literary records pending scholarly review; five complete public-domain editions; 804 searchable segments; and five shelfmark-level repository witnesses. Sixteen differentiated practice records, four necromancy records, all nine sacrifice-evidence categories and eight documented organizations preserve evidence and cultural boundaries. The interface labels literature as non-scriptural and does not turn ritual content into an operating guide.
+- A modern-religions collection with 18 distinct movement profiles, 23 copyright-safe Scientology records, all eight required evidence categories, eight bibliography entries and seven claim-versus-documentary chronology records. Protected works remain metadata-only, legal records retain case scope, Church responses link to the criticism they address, and the existing 1830 Book of Mormon reader remains available.
 
-- 468 distinct metadata records based on the specification’s 250-item list, deduplicated to 248 records, plus reviewed collection expansions.
-- 562 catalog works/corpora and 124 source editions covering 121 works with 31,484 verbatim segments. Twenty-six editions are Sumerian transliterations and 30 are Classical Chinese transcriptions rather than English translations. Eighty-eight works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, composite transliterations and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension or physical witness is present.
+- The specification’s 250-item source list remains mapped to 248 deduplicated requirements, with later reviewed collection expansions tracked additively.
+- 600 catalog works/corpora and 124 source editions covering 121 works with 31,484 verbatim segments. Twenty-six editions are Sumerian transliterations and 30 are Classical Chinese transcriptions rather than English translations. Eighty-eight works have a complete named work or digitized edition; study editions, incomplete ancient witnesses, composite transliterations and translator reconstructions remain explicitly distinguished. Completeness does not imply every ancient recension or physical witness is present.
 - Three cited editorial guides compare responses to injury, death and suffering. Two textual-tension cases include source passages and alternative readings. Guides are omitted when their evidence falls outside the selected filters.
 - Metadata search with tradition, theme, category, availability and date filters; full passage search, exact phrase mode, and explicit translation filtering.
 - Text profiles, paginated reading, citation dialogs, translator and license details, and thematic comparison of the two Quran translations.
@@ -89,6 +90,7 @@ npm run ingest:mesopotamia
 npm run ingest:china
 npm run ingest:horn
 npm run ingest:esoteric
+npm run ingest:modern
 npm run classify
 npm run ingest:images
 ```

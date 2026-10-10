@@ -52,6 +52,14 @@ import {
   esotericOrganizations,
   esotericPracticeVocabulary,
 } from "../packages/shared/esoteric";
+import {
+  modernProfiles,
+  modernWorks,
+  scientologyWorks,
+  modernEvidenceRecords,
+  modernBibliography,
+  modernOriginClaims,
+} from "../packages/shared/modern-religions";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
   const oracc = JSON.parse(
@@ -412,6 +420,162 @@ test("Phase 12 separates grimoires, polemic, Hermetic works, and non-scriptural 
   assert.equal(esotericOrganizations.length, 8);
   assert.ok(esotericOrganizations.every((item) => item.evidenceStatus && item.historicalBoundary && item.legendBoundary));
   assert.match(esotericOrganizations.find((item) => item.id === "bavarian-illuminati")!.legendBoundary, /global rule/i);
+});
+test("Phase 13 includes the exact modern-religion profile inventory without collapsing traditions", () => {
+  const requiredProfiles = [
+    "scientology",
+    "bahai-faith-modern",
+    "latter-day-saint-movement",
+    "christian-science",
+    "theosophy-modern",
+    "anthroposophy",
+    "modern-spiritualism",
+    "cao-dai",
+    "tenrikyo",
+    "falun-gong",
+    "rastafari",
+    "nation-of-islam",
+    "thelema",
+    "modern-satanism",
+    "luciferian-traditions",
+    "new-thought",
+    "new-age-movements",
+    "ufo-religions",
+  ].sort();
+  assert.deepEqual(
+    modernProfiles.map((profile) => profile.id).sort(),
+    requiredProfiles,
+  );
+  assert.ok(modernProfiles.every((profile) =>
+    profile.classificationBoundary.length > 40 &&
+    !/\bcults?\b/i.test(`${profile.name} ${profile.summary} ${profile.classificationBoundary}`)
+  ));
+  const workIds = new Set(modernWorks.map((work) => work.id));
+  assert.ok(modernProfiles.every((profile) =>
+    profile.workIds.every((id) => workIds.has(id))
+  ));
+  const spiritualism = modernProfiles.find((profile) => profile.id === "modern-spiritualism");
+  assert.deepEqual(spiritualism?.workIds, ["modern-spiritualism-literature-guide"]);
+  assert.ok(!modernWorks.some((work) => work.id === "spirits-book"));
+  assert.ok(modernWorks.every((work) => !["B", "C"].includes(work.confidence)));
+});
+test("Phase 13 Scientology records are complete, source-linked, and metadata-only", () => {
+  const requiredRecords = [
+    "dianetics-modern-science-mental-health",
+    "dianetics-original-thesis",
+    "dianetics-evolution-science",
+    "science-of-survival",
+    "self-analysis-hubbard",
+    "handbook-for-preclears",
+    "scientology-history-of-man",
+    "scientology-8-80",
+    "scientology-8-8008",
+    "creation-of-human-ability",
+    "scientology-fundamentals-thought",
+    "problems-of-work",
+    "scientology-new-slant-life",
+    "phoenix-lectures",
+    "creed-church-scientology",
+    "auditors-code",
+    "code-of-honor-scientology",
+    "code-of-a-scientologist",
+  ];
+  const requiredIds = new Set(requiredRecords);
+  const scientologyIds = new Set(scientologyWorks.map((work) => work.id));
+  assert.ok(requiredRecords.every((id) => scientologyIds.has(id)));
+  for (const id of [
+    "advanced-procedure-and-axioms",
+    "dianetics-55",
+    "introduction-scientology-ethics",
+  ]) assert.ok(scientologyIds.has(id), id);
+  assert.ok(scientologyWorks.length >= requiredIds.size + 3);
+  assert.ok(scientologyWorks.filter((work) => requiredIds.has(work.id)).every((work) =>
+    work.editionId === null &&
+    /copyright/i.test(work.copyright) &&
+    /metadata only/i.test(work.sourceStatus) &&
+    typeof work.sourceUrl === "string" && work.sourceUrl.startsWith("https://")
+  ));
+  assert.ok(editions.every((edition) =>
+    !scientologyWorks.some((work) => work.id === edition.textId)
+  ));
+  const bookOfMormon = texts.find((work) => work.id === "book-of-mormon");
+  assert.equal(bookOfMormon?.editionId, "pg-17");
+  assert.equal(bookOfMormon?.lat, 43);
+  assert.equal(bookOfMormon?.lng, -77);
+  assert.deepEqual(bookOfMormon?.themes, ["revelation", "law", "afterlife"]);
+  for (const id of [
+    "philosophy-of-freedom",
+    "the-satanic-bible",
+    "the-satanic-rituals",
+    "selected-modern-satanic-philosophical-texts",
+  ])
+    assert.ok(
+      !modernWorks.find((work) => work.id === id)?.themes.includes("revelation"),
+      `${id} must not receive a generic revelation tag`,
+    );
+  assert.ok(editions.some((edition) =>
+    edition.id === "pg-17" && edition.textId === "book-of-mormon"
+  ));
+});
+test("Phase 13 keeps eight evidence categories, responses, and modern origin dates traceable", () => {
+  assert.deepEqual(
+    [...new Set(modernEvidenceRecords.map((record) => record.category))].sort(),
+    [
+      "Academic history",
+      "Church response",
+      "Criticism",
+      "Former-member account",
+      "Legal/government record",
+      "Media report",
+      "Official teaching",
+      "Unverified claim",
+    ].sort(),
+  );
+  const evidenceIds = new Set(modernEvidenceRecords.map((record) => record.id));
+  const responses = modernEvidenceRecords.filter((record) => record.category === "Church response");
+  assert.ok(responses.length >= 2);
+  assert.ok(responses.every((record) =>
+    record.responseToIds.length > 0 &&
+    record.responseToIds.every((id) => evidenceIds.has(id))
+  ));
+  const unverified = modernEvidenceRecords.filter((record) => record.category === "Unverified claim");
+  assert.ok(unverified.length > 0 && unverified.every((record) =>
+    record.status === "Unverified" &&
+    /not independently verified/i.test(record.evidentiaryLimit)
+  ));
+  const requiredOriginWorks = [
+    "book-of-mormon",
+    "oahspe",
+    "urantia-book",
+    "a-course-in-miracles",
+    "law-of-one-ra-material",
+    "seth-material",
+    "the-book-of-the-law",
+  ].sort();
+  assert.deepEqual(
+    modernOriginClaims.map((claim) => claim.workId).sort(),
+    requiredOriginWorks,
+  );
+  for (const claim of modernOriginClaims) {
+    const work = modernWorks.find((candidate) => candidate.id === claim.workId);
+    assert.ok(work, claim.workId);
+    assert.ok(work.startDate !== null && work.startDate >= 1800, claim.workId);
+    assert.match(claim.documentedDate, /\b(?:18|19|20)\d{2}\b/);
+    assert.ok(claim.claimedOrigin.length > 20);
+    assert.ok(claim.datingExplanation.length > 40);
+  }
+});
+test("Phase 13 research records use HTTPS provenance throughout", () => {
+  const urls = [
+    ...modernProfiles.flatMap((profile) => profile.sources.map((source) => source.url)),
+    ...modernWorks.flatMap((work) => [work.sourceUrl, ...work.metadataSources]),
+    ...modernEvidenceRecords.flatMap((record) => [record.sourceUrl, ...(record.additionalSourceUrls ?? [])]),
+    ...modernBibliography.map((entry) => entry.sourceUrl),
+    ...modernOriginClaims.map((claim) => claim.sourceUrl),
+  ];
+  assert.ok(urls.length > 0);
+  assert.ok(urls.every((url) => typeof url === "string" && url.startsWith("https://")));
+  assert.ok(modernBibliography.every((entry) => entry.perspective.trim().length > 0));
 });
 test("Egypt expansion distinguishes sourced metadata from bounded editions", () => {
   const sinuhe = texts.find((text) => text.id === "tale-of-sinuhe");

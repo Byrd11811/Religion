@@ -15,6 +15,7 @@ import regionalCoverage from "@/data/seed/regional-coverage.json";
 import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
 import esotericLiterature from "@/data/seed/esoteric-literature.json";
 import esotericEditions from "@/data/seed/esoteric-editions.json";
+import modernReligions from "@/data/seed/modern-religions.json";
 import type {
   TextRecord,
   Tradition,
@@ -46,12 +47,28 @@ const regionalOverrides = new Map(
   ),
 );
 const esotericOverrides = new Map(
-  (esotericLiterature.overrides as (Partial<TextRecord> & { id: string })[]).map(
+  (
+    esotericLiterature.overrides as (Partial<TextRecord> & { id: string })[]
+  ).map((record) => [record.id, record]),
+);
+const modernOverrides = new Map(
+  (modernReligions.overrides as (Partial<TextRecord> & { id: string })[]).map(
     (record) => [record.id, record],
   ),
 );
 for (const id of egyptOverrides.keys()) {
   if (mesopotamiaOverrides.has(id))
+    throw new Error(`Catalog override collision for ${id}`);
+}
+for (const id of modernOverrides.keys()) {
+  if (
+    egyptOverrides.has(id) ||
+    mesopotamiaOverrides.has(id) ||
+    chinaOverrides.has(id) ||
+    hornOverrides.has(id) ||
+    regionalOverrides.has(id) ||
+    esotericOverrides.has(id)
+  )
     throw new Error(`Catalog override collision for ${id}`);
 }
 export const texts = [
@@ -63,21 +80,25 @@ export const texts = [
     ...(hornOverrides.get(record.id) ?? {}),
     ...(regionalOverrides.get(record.id) ?? {}),
     ...(esotericOverrides.get(record.id) ?? {}),
+    ...(modernOverrides.get(record.id) ?? {}),
   })),
   ...(egyptAdditions.records as TextRecord[]),
   ...(mesopotamiaAdditions.records as TextRecord[]),
   ...(chinaAdditions.records as TextRecord[]).filter(
-    (record) => !(textsData as TextRecord[]).some((item) => item.id === record.id),
+    (record) =>
+      !(textsData as TextRecord[]).some((item) => item.id === record.id),
   ),
   ...(hornAdditions.records as TextRecord[]),
   ...(indigenousAdditions.records as TextRecord[]),
   ...(regionalCoverage.records as TextRecord[]),
   ...(manuscriptExpansion.workRecords as TextRecord[]),
   ...(esotericLiterature.records as TextRecord[]),
+  ...(modernReligions.records as TextRecord[]),
 ];
 export const traditions = [
   ...(traditionsData as Tradition[]),
   ...(esotericLiterature.traditions as Tradition[]),
+  ...(modernReligions.traditions as Tradition[]),
 ];
 export const editions = [
   ...(editionsData as Edition[]),

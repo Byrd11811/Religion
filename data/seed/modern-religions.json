@@ -1,0 +1,2860 @@
+{
+  "policy": "Modern religious claims remain attributed to their source perspective. Official teaching, scholarship, courts, government records, criticism, former-member testimony, journalism, unverified claims, and institutional responses are not interchangeable. Copyrighted texts stay metadata-only unless an exact licensed or public-domain edition is verified.",
+  "copyrightPolicy": "No copyrighted full text, confidential material, archival restriction, generated channeling, or imitated revelatory voice is included. Historical public-domain status never transfers automatically to a modern translation, edition, image, mark, or editorial apparatus.",
+  "traditions": [
+    {
+      "id": "scientology",
+      "name": "Scientology",
+      "region": "United States with international development",
+      "lat": null,
+      "lng": null,
+      "description": "A modern religious movement developed by L. Ron Hubbard from Dianetics and organized through churches beginning in the 1950s.",
+      "color": "#74533d"
+    },
+    {
+      "id": "bahai-faith-modern",
+      "name": "Bahá’í Faith",
+      "region": "Iran and Ottoman domains; now global",
+      "lat": null,
+      "lng": null,
+      "description": "A monotheistic religion emerging from the Bábí movement and the teachings of Bahá’u’lláh in the nineteenth century.",
+      "color": "#557a6b"
+    },
+    {
+      "id": "latter-day-saint-movement",
+      "name": "Latter Day Saint movement",
+      "region": "United States; now global",
+      "lat": null,
+      "lng": null,
+      "description": "A family of restorationist Christian churches whose documented public emergence includes the 1830 publication of the Book of Mormon and organization of the Church of Christ.",
+      "color": "#596c8e"
+    },
+    {
+      "id": "christian-science",
+      "name": "Christian Science",
+      "region": "United States; now international",
+      "lat": null,
+      "lng": null,
+      "description": "A Christian-derived religious movement founded by Mary Baker Eddy; its church was organized in 1879 after the 1875 first edition of Science and Health.",
+      "color": "#7a5d78"
+    },
+    {
+      "id": "theosophy-modern",
+      "name": "Theosophy",
+      "region": "United States, India, and transnational networks",
+      "lat": null,
+      "lng": null,
+      "description": "A modern esoteric movement associated with the Theosophical Society, founded in New York in 1875 and later headquartered at Adyar.",
+      "color": "#6d6a3f"
+    },
+    {
+      "id": "anthroposophy",
+      "name": "Anthroposophy",
+      "region": "Central Europe; now international",
+      "lat": null,
+      "lng": null,
+      "description": "An esoteric and philosophical movement developed by Rudolf Steiner, institutionally separated from Theosophy in 1912–1913 and reorganized in 1923.",
+      "color": "#47747c"
+    },
+    {
+      "id": "modern-spiritualism",
+      "name": "Modern Spiritualism",
+      "region": "United States and Europe; now international",
+      "lat": null,
+      "lng": null,
+      "description": "A modern religious movement centered on claimed communication with spirits, conventionally linked to the 1848 Hydesville events and later institutions and publications.",
+      "color": "#8a6255"
+    },
+    {
+      "id": "cao-dai",
+      "name": "Cao Đài",
+      "region": "Vietnam",
+      "lat": null,
+      "lng": null,
+      "description": "A Vietnamese syncretic religion whose early public organization and declaration occurred in 1925–1926.",
+      "color": "#5f6f55"
+    },
+    {
+      "id": "tenrikyo",
+      "name": "Tenrikyo",
+      "region": "Japan; now international",
+      "lat": null,
+      "lng": null,
+      "description": "A Japanese religion tracing its founding event to Miki Nakayama in 1838, with later legal organization and international development.",
+      "color": "#765b8a"
+    },
+    {
+      "id": "falun-gong",
+      "name": "Falun Gong / Falun Dafa",
+      "region": "China; now transnational",
+      "lat": null,
+      "lng": null,
+      "description": "A modern spiritual movement publicly disseminated by Li Hongzhi beginning in 1992.",
+      "color": "#4f778f"
+    },
+    {
+      "id": "rastafari",
+      "name": "Rastafari",
+      "region": "Jamaica and global diaspora",
+      "lat": null,
+      "lng": null,
+      "description": "A decentralized religious and cultural movement emerging in Jamaica in the early 1930s from Garveyist, Ethiopianist, biblical, and local currents.",
+      "color": "#79544d"
+    },
+    {
+      "id": "nation-of-islam",
+      "name": "Nation of Islam",
+      "region": "United States",
+      "lat": null,
+      "lng": null,
+      "description": "An African American new religious movement founded in 1930 and shaped by Wallace Fard Muhammad and Elijah Muhammad.",
+      "color": "#526b7c"
+    },
+    {
+      "id": "thelema",
+      "name": "Thelema",
+      "region": "Egypt and Britain; now international",
+      "lat": null,
+      "lng": null,
+      "description": "A modern religious and esoteric current rooted in Aleister Crowley's reception and composition of The Book of the Law in 1904.",
+      "color": "#6c597f"
+    },
+    {
+      "id": "modern-satanism",
+      "name": "Modern Satanism",
+      "region": "United States and transnational movements",
+      "lat": null,
+      "lng": null,
+      "description": "A plural field of self-identified modern Satanist religions and organizations, including distinct nontheistic, symbolic, and theistic currents.",
+      "color": "#7b5848"
+    },
+    {
+      "id": "luciferian-traditions",
+      "name": "Luciferian traditions",
+      "region": "Europe and transnational currents",
+      "lat": null,
+      "lng": null,
+      "description": "A plural category for literary, esoteric, philosophical, and self-identified religious currents that interpret Lucifer positively or symbolically.",
+      "color": "#6d657b"
+    },
+    {
+      "id": "new-thought",
+      "name": "New Thought",
+      "region": "United States and transnational networks",
+      "lat": null,
+      "lng": null,
+      "description": "A diverse family of metaphysical religious and self-development movements that coalesced in the late nineteenth century.",
+      "color": "#537563"
+    },
+    {
+      "id": "new-age-movements",
+      "name": "New Age movements",
+      "region": "Transnational",
+      "lat": null,
+      "lng": null,
+      "description": "An analytic label for diverse alternative spiritualities and networks that became especially visible in the 1970s.",
+      "color": "#7a6b4e"
+    },
+    {
+      "id": "ufo-religions",
+      "name": "UFO religions",
+      "region": "Transnational",
+      "lat": null,
+      "lng": null,
+      "description": "An analytic umbrella for distinct religious movements in which extraterrestrial or space-age narratives play a major role, including Unarius, the Aetherius Society, Raëlism, and Heaven's Gate.",
+      "color": "#5c637f"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "scientology",
+      "name": "Scientology",
+      "aliases": [],
+      "originStart": 1950,
+      "originEnd": 1954,
+      "region": "United States with international development",
+      "summary": "A modern religious movement developed by L. Ron Hubbard from Dianetics and organized through churches beginning in the 1950s.",
+      "classificationBoundary": "Official teachings, academic interpretation, legal decisions, journalism, former-member testimony, criticism, and Church responses remain separate evidence types. Religious status, organizational conduct, and truth claims are not collapsed into one judgment.",
+      "centralAuthority": "Multiple Church of Scientology entities; source and jurisdiction must be named",
+      "canonNote": "The Church identifies Hubbard's written and recorded works as scripture; all are treated as copyrighted metadata unless an edition license is verified.",
+      "workIds": [
+        "dianetics-modern-science-mental-health",
+        "dianetics-original-thesis",
+        "dianetics-evolution-science",
+        "science-of-survival",
+        "self-analysis-hubbard",
+        "handbook-for-preclears",
+        "scientology-history-of-man",
+        "scientology-8-80",
+        "scientology-8-8008",
+        "creation-of-human-ability",
+        "scientology-fundamentals-thought",
+        "problems-of-work",
+        "scientology-new-slant-life",
+        "phoenix-lectures",
+        "creed-church-scientology",
+        "auditors-code",
+        "code-of-honor-scientology",
+        "code-of-a-scientologist",
+        "advanced-procedure-and-axioms",
+        "dianetics-55",
+        "introduction-scientology-ethics",
+        "scientology-introductory-writings-guide",
+        "hubbard-bibliography-guide"
+      ],
+      "sources": [
+        {
+          "label": "Scientology background",
+          "url": "https://www.scientology.org/what-is-scientology/scientology-background/",
+          "perspective": "Official self-description"
+        },
+        {
+          "label": "L. Ron Hubbard and Scientology Studies",
+          "url": "https://www.cambridge.org/core/elements/abs/l-ron-hubbard-and-scientology-studies/7CFAFCE453BE67F5168A99F4DD4A6801",
+          "perspective": "Academic study"
+        }
+      ]
+    },
+    {
+      "id": "bahai-faith-modern",
+      "name": "Bahá’í Faith",
+      "aliases": [
+        "Baha'i Faith"
+      ],
+      "originStart": 1844,
+      "originEnd": 1863,
+      "region": "Iran and Ottoman domains; now global",
+      "summary": "A monotheistic religion emerging from the Bábí movement and the teachings of Bahá’u’lláh in the nineteenth century.",
+      "classificationBoundary": "Bahá’í authoritative texts and institutional explanations are identified as community sources; Bábí chronology and Bahá’í development remain historically distinct.",
+      "centralAuthority": "Universal House of Justice within the Bahá’í administrative order",
+      "canonNote": "A large body of writings by the Báb, Bahá’u’lláh, and ‘Abdu’l-Bahá; no single work is treated as the whole canon.",
+      "workIds": [
+        "baha-i-kitab-i-aqdas",
+        "kitab-i-iqan"
+      ],
+      "sources": [
+        {
+          "label": "Bahá’í Reference Library",
+          "url": "https://www.bahai.org/library/authoritative-texts/",
+          "perspective": "Official authoritative-text library"
+        },
+        {
+          "label": "Bahá’í legal terms",
+          "url": "https://www.bahai.org/legal",
+          "perspective": "Official rights policy"
+        }
+      ]
+    },
+    {
+      "id": "latter-day-saint-movement",
+      "name": "Latter Day Saint movement",
+      "aliases": [
+        "LDS movement"
+      ],
+      "originStart": 1830,
+      "originEnd": 1830,
+      "region": "United States; now global",
+      "summary": "A family of restorationist Christian churches whose documented public emergence includes the 1830 publication of the Book of Mormon and organization of the Church of Christ.",
+      "classificationBoundary": "The Church of Jesus Christ of Latter-day Saints is the largest body but does not represent every Latter Day Saint denomination; canon and edition claims remain community-specific.",
+      "centralAuthority": "Varies by denomination",
+      "canonNote": "The Book of Mormon is shared broadly; other standard works and versions vary by Latter Day Saint community.",
+      "workIds": [
+        "book-of-mormon",
+        "doctrine-and-covenants",
+        "pearl-of-great-price"
+      ],
+      "sources": [
+        {
+          "label": "1830 Book of Mormon",
+          "url": "https://www.loc.gov/resource/rbc.2015gen34953c1/?st=gallery",
+          "perspective": "Library of Congress primary edition"
+        },
+        {
+          "label": "Joseph Smith Papers",
+          "url": "https://www.josephsmithpapers.org/paper-summary/book-of-mormon-1830/1",
+          "perspective": "Scholarly documentary edition"
+        }
+      ]
+    },
+    {
+      "id": "christian-science",
+      "name": "Christian Science",
+      "aliases": [
+        "Church of Christ, Scientist"
+      ],
+      "originStart": 1879,
+      "originEnd": 1879,
+      "region": "United States; now international",
+      "summary": "A Christian-derived religious movement founded by Mary Baker Eddy; its church was organized in 1879 after the 1875 first edition of Science and Health.",
+      "classificationBoundary": "Religious healing teachings are described as doctrine and adherent testimony, not clinical evidence or advice to forgo medical care. Christian Science is not interchangeable with New Thought.",
+      "centralAuthority": "The First Church of Christ, Scientist",
+      "canonNote": "The Bible and Science and Health with Key to the Scriptures are the denomination's stated pastor texts.",
+      "workIds": [
+        "science-and-health"
+      ],
+      "sources": [
+        {
+          "label": "Christian Science FAQ",
+          "url": "https://www.christianscience.com/what-we-believe/frequently-asked-questions",
+          "perspective": "Official self-description"
+        },
+        {
+          "label": "Science and Health",
+          "url": "https://www.christianscience.com/publishing/primary-texts-the-bible-and-science-and-health/science-and-health",
+          "perspective": "Official publication record"
+        }
+      ]
+    },
+    {
+      "id": "theosophy-modern",
+      "name": "Theosophy",
+      "aliases": [
+        "Theosophical movement"
+      ],
+      "originStart": 1875,
+      "originEnd": 1875,
+      "region": "United States, India, and transnational networks",
+      "summary": "A modern esoteric movement associated with the Theosophical Society, founded in New York in 1875 and later headquartered at Adyar.",
+      "classificationBoundary": "The Theosophical Society and later organizations or currents are historically related but not one continuous centralized authority.",
+      "centralAuthority": "No single authority across all Theosophical organizations",
+      "canonNote": "Influential writings are not a closed universal canon.",
+      "workIds": [
+        "the-secret-doctrine",
+        "isis-unveiled"
+      ],
+      "sources": [
+        {
+          "label": "Theosophical Society history",
+          "url": "https://www.ts-adyar.org/early-history",
+          "perspective": "Official institutional history"
+        },
+        {
+          "label": "Secret Doctrine Volume I",
+          "url": "https://www.gutenberg.org/ebooks/54824",
+          "perspective": "Public-domain edition record"
+        }
+      ]
+    },
+    {
+      "id": "anthroposophy",
+      "name": "Anthroposophy",
+      "aliases": [
+        "Anthroposophical movement"
+      ],
+      "originStart": 1912,
+      "originEnd": 1913,
+      "region": "Central Europe; now international",
+      "summary": "An esoteric and philosophical movement developed by Rudolf Steiner, institutionally separated from Theosophy in 1912–1913 and reorganized in 1923.",
+      "classificationBoundary": "Waldorf education, biodynamics, art, and anthroposophical medicine are related applications; they do not by themselves establish organizational membership or clinical efficacy.",
+      "centralAuthority": "General Anthroposophical Society at the Goetheanum",
+      "canonNote": "Steiner's writings and lectures form a broad corpus rather than a closed canon.",
+      "workIds": [
+        "philosophy-of-freedom",
+        "theosophy-rudolf-steiner"
+      ],
+      "sources": [
+        {
+          "label": "Goetheanum history",
+          "url": "https://goetheanum.ch/en/society/history",
+          "perspective": "Official institutional history"
+        },
+        {
+          "label": "Foundation Statute of 1923",
+          "url": "https://www.goetheanum.org/en/members/foundation-statute-of-1923",
+          "perspective": "Official organizational document"
+        }
+      ]
+    },
+    {
+      "id": "modern-spiritualism",
+      "name": "Modern Spiritualism",
+      "aliases": [
+        "Spiritualism"
+      ],
+      "originStart": 1848,
+      "originEnd": 1848,
+      "region": "United States and Europe; now international",
+      "summary": "A modern religious movement centered on claimed communication with spirits, conventionally linked to the 1848 Hydesville events and later institutions and publications.",
+      "classificationBoundary": "Believer testimony, archival records, skeptical interpretation, and paranormal claims remain distinct. Anglo-American Spiritualism is not identical to Kardecist Spiritism.",
+      "centralAuthority": "No single global authority",
+      "canonNote": "No universal closed canon; institutional principles and literature vary.",
+      "workIds": [
+        "modern-spiritualism-literature-guide"
+      ],
+      "sources": [
+        {
+          "label": "Hydesville Park history",
+          "url": "https://nsac.org/hydesville-park-history/",
+          "perspective": "Spiritualist institutional history"
+        },
+        {
+          "label": "Library of Congress teaching essay",
+          "url": "https://blogs.loc.gov/teachers/2023/04/teaching-scientific-literacy-the-case-of-the-psychic-force/",
+          "perspective": "Institutional historical context"
+        }
+      ]
+    },
+    {
+      "id": "cao-dai",
+      "name": "Cao Đài",
+      "aliases": [
+        "Caodaism"
+      ],
+      "originStart": 1925,
+      "originEnd": 1926,
+      "region": "Vietnam",
+      "summary": "A Vietnamese syncretic religion whose early public organization and declaration occurred in 1925–1926.",
+      "classificationBoundary": "Tây Ninh and other branches must be identified separately; a source from one organization is not automatically authoritative for every Cao Đài community.",
+      "centralAuthority": "Multiple branch institutions",
+      "canonNote": "Scriptural and legal corpora vary by branch and publication history.",
+      "workIds": [
+        "thanh-ngon-hiep-tuyen"
+      ],
+      "sources": [
+        {
+          "label": "A Brief History",
+          "url": "https://www.caodaicenter.org/a-brief-history",
+          "perspective": "Community history"
+        },
+        {
+          "label": "Cao Đài origins",
+          "url": "https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/an-introduction-to-caodaism-i-origins-and-early-history/428DC9D8444E7BA43D2A6543C0C9ABE0",
+          "perspective": "Academic history"
+        }
+      ]
+    },
+    {
+      "id": "tenrikyo",
+      "name": "Tenrikyo",
+      "aliases": [
+        "Tenrikyō"
+      ],
+      "originStart": 1838,
+      "originEnd": 1838,
+      "region": "Japan; now international",
+      "summary": "A Japanese religion tracing its founding event to Miki Nakayama in 1838, with later legal organization and international development.",
+      "classificationBoundary": "The 1838 teaching origin, 1888 headquarters recognition, and 1908 sectarian independence are separate historical milestones.",
+      "centralAuthority": "Tenrikyo Church Headquarters",
+      "canonNote": "Official teaching identifies Ofudesaki, Mikagura-uta, and Osashizu as foundational scriptures.",
+      "workIds": [
+        "ofudesaki"
+      ],
+      "sources": [
+        {
+          "label": "Tenrikyo history",
+          "url": "https://www.tenrikyo.or.jp/eng/history/",
+          "perspective": "Official history"
+        },
+        {
+          "label": "Ofudesaki overview",
+          "url": "https://www.tenrikyo.or.jp/en/newsletter/html/tt6/ofudesaki.html",
+          "perspective": "Official text overview"
+        }
+      ]
+    },
+    {
+      "id": "falun-gong",
+      "name": "Falun Gong / Falun Dafa",
+      "aliases": [
+        "Falun Dafa"
+      ],
+      "originStart": 1992,
+      "originEnd": 1992,
+      "region": "China; now transnational",
+      "summary": "A modern spiritual movement publicly disseminated by Li Hongzhi beginning in 1992.",
+      "classificationBoundary": "Official teaching, state action, human-rights reporting, movement advocacy, and disputed allegations require explicit source attribution.",
+      "centralAuthority": "No conventional membership institution recorded; official publishing sources identify Li Hongzhi's teachings",
+      "canonNote": "Zhuan Falun is a central text; current translations remain copyrighted.",
+      "workIds": [
+        "zhuan-falun"
+      ],
+      "sources": [
+        {
+          "label": "Falun Dafa books",
+          "url": "https://www.falundafa.org/eng/falun-dafa-books.html",
+          "perspective": "Official publication catalog"
+        },
+        {
+          "label": "US State Department China report",
+          "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/china/",
+          "perspective": "Government religious-freedom reporting"
+        }
+      ]
+    },
+    {
+      "id": "rastafari",
+      "name": "Rastafari",
+      "aliases": [
+        "Rastafarian movement"
+      ],
+      "originStart": 1930,
+      "originEnd": 1935,
+      "region": "Jamaica and global diaspora",
+      "summary": "A decentralized religious and cultural movement emerging in Jamaica in the early 1930s from Garveyist, Ethiopianist, biblical, and local currents.",
+      "classificationBoundary": "Mansions and communities differ; Rastafari is not reducible to reggae, a single lifestyle marker, or one universal doctrine.",
+      "centralAuthority": "No single centralized authority",
+      "canonNote": "The Bible and several influential Ethiopianist works matter in varied ways; there is no universal closed Rastafari canon.",
+      "workIds": [
+        "holy-piby"
+      ],
+      "sources": [
+        {
+          "label": "Smithsonian Folklife history",
+          "url": "https://folklife.si.edu/magazine/black-history-in-roots-reggae-music",
+          "perspective": "Institutional cultural history"
+        },
+        {
+          "label": "Rastafari evolution",
+          "url": "https://academic.oup.com/nyu-press-scholarship-online/book/45995/chapter-abstract/404439064",
+          "perspective": "Academic history"
+        }
+      ]
+    },
+    {
+      "id": "nation-of-islam",
+      "name": "Nation of Islam",
+      "aliases": [
+        "NOI"
+      ],
+      "originStart": 1930,
+      "originEnd": 1930,
+      "region": "United States",
+      "summary": "An African American new religious movement founded in 1930 and shaped by Wallace Fard Muhammad and Elijah Muhammad.",
+      "classificationBoundary": "The Nation of Islam uses Islamic vocabulary within a distinct institutional and doctrinal history; it is not interchangeable with Sunni Islam, Shi'a Islam, or Muslims generally.",
+      "centralAuthority": "Nation of Islam leadership",
+      "canonNote": "The Qur'an, Bible, and Elijah Muhammad's teachings have distinct roles; no equivalence to other Muslim communities is inferred.",
+      "workIds": [
+        "message-to-blackman-in-america"
+      ],
+      "sources": [
+        {
+          "label": "National Park Service profile",
+          "url": "https://www.nps.gov/articles/000/wendy-l-muhammad-foundation-trust.htm",
+          "perspective": "Government historical context"
+        },
+        {
+          "label": "The Muslim Program",
+          "url": "https://noi.org/muslim-program/",
+          "perspective": "Official self-description"
+        }
+      ]
+    },
+    {
+      "id": "thelema",
+      "name": "Thelema",
+      "aliases": [],
+      "originStart": 1904,
+      "originEnd": 1904,
+      "region": "Egypt and Britain; now international",
+      "summary": "A modern religious and esoteric current rooted in Aleister Crowley's reception and composition of The Book of the Law in 1904.",
+      "classificationBoundary": "Thelema is broader than any one organization. O.T.O. and A∴A∴ are important institutions but are not synonyms for every Thelemite or Thelemic current.",
+      "centralAuthority": "No single authority across all Thelemic communities",
+      "canonNote": "The Book of the Law is central in many Thelemic communities; editions and other classed writings require organization-specific context.",
+      "workIds": [
+        "the-book-of-the-law"
+      ],
+      "sources": [
+        {
+          "label": "Liber AL history",
+          "url": "https://bubastis.oto-usa.org/about/liber-al-the-book-of-the-law",
+          "perspective": "O.T.O. official text history"
+        },
+        {
+          "label": "Yorke Collection",
+          "url": "https://warburg.sas.ac.uk/library-collections/warburg-institute-archive/archive-collections/yorke-collection",
+          "perspective": "University archive"
+        }
+      ]
+    },
+    {
+      "id": "modern-satanism",
+      "name": "Modern Satanism",
+      "aliases": [
+        "Religious Satanism"
+      ],
+      "originStart": 1966,
+      "originEnd": 1966,
+      "region": "United States and transnational movements",
+      "summary": "A plural field of self-identified modern Satanist religions and organizations, including distinct nontheistic, symbolic, and theistic currents.",
+      "classificationBoundary": "Church of Satan, The Satanic Temple, Temple of Set, theistic currents, and unaffiliated identities remain distinct. Satanism is not equated with crime, abuse, or sacrifice without case-specific evidence.",
+      "centralAuthority": "No single authority across modern Satanisms",
+      "canonNote": "Organization-specific texts do not constitute a universal Satanist canon.",
+      "workIds": [
+        "the-satanic-bible",
+        "the-satanic-rituals",
+        "selected-modern-satanic-philosophical-texts"
+      ],
+      "sources": [
+        {
+          "label": "Satanism",
+          "url": "https://www.cambridge.org/core/elements/abs/satanism/4150D0B522022169485FCD56FA7FE2BE",
+          "perspective": "Academic taxonomy"
+        },
+        {
+          "label": "Church of Satan history",
+          "url": "https://churchofsatan.com/history/",
+          "perspective": "Organization self-description"
+        },
+        {
+          "label": "The Satanic Temple",
+          "url": "https://thesatanictemple.com/pages/about-us/",
+          "perspective": "Organization self-description"
+        }
+      ]
+    },
+    {
+      "id": "luciferian-traditions",
+      "name": "Luciferian traditions",
+      "aliases": [
+        "Luciferianism"
+      ],
+      "originStart": 1906,
+      "originEnd": 1906,
+      "region": "Europe and transnational currents",
+      "summary": "A plural category for literary, esoteric, philosophical, and self-identified religious currents that interpret Lucifer positively or symbolically.",
+      "classificationBoundary": "Luciferian currents are not one church and are not automatically Satanism, Devil worship, or criminality. Literary reception and self-identified religion remain separate.",
+      "centralAuthority": "No single authority",
+      "canonNote": "No universal canon; named works and organizations require their own dates and contexts.",
+      "workIds": [
+        "selected-luciferian-writings",
+        "dawn-of-a-new-morning"
+      ],
+      "sources": [
+        {
+          "label": "Luciferian Witchcraft",
+          "url": "https://academic.oup.com/book/11601/chapter-abstract/160465083",
+          "perspective": "Academic study"
+        },
+        {
+          "label": "From Milton to Modern Satanism",
+          "url": "https://brill.com/view/journals/jre/3/1/article-p103_4.xml",
+          "perspective": "Academic study"
+        }
+      ]
+    },
+    {
+      "id": "new-thought",
+      "name": "New Thought",
+      "aliases": [
+        "New Thought movement"
+      ],
+      "originStart": 1890,
+      "originEnd": 1899,
+      "region": "United States and transnational networks",
+      "summary": "A diverse family of metaphysical religious and self-development movements that coalesced in the late nineteenth century.",
+      "classificationBoundary": "New Thought is an umbrella, not a single church or canon. Spiritual, prosperity, and healing claims are doctrines or testimony, not verified medical or financial outcomes.",
+      "centralAuthority": "No single authority; multiple denominations and networks",
+      "canonNote": "No universal canon.",
+      "workIds": [
+        "science-of-mind"
+      ],
+      "sources": [
+        {
+          "label": "International New Thought Alliance",
+          "url": "https://www.newthoughtalliance.org/about",
+          "perspective": "Umbrella-organization history"
+        },
+        {
+          "label": "Unity Digital Archive",
+          "url": "https://www.unity.org/en/static/unity-digital-archive-and-museum",
+          "perspective": "Institutional archive"
+        }
+      ]
+    },
+    {
+      "id": "new-age-movements",
+      "name": "New Age movements",
+      "aliases": [
+        "New Age spiritualities"
+      ],
+      "originStart": 1970,
+      "originEnd": 1979,
+      "region": "Transnational",
+      "summary": "An analytic label for diverse alternative spiritualities and networks that became especially visible in the 1970s.",
+      "classificationBoundary": "New Age is a diffuse field, not one organization, founder, dogma, or religion. Shared vocabulary does not prove common authority or lineage.",
+      "centralAuthority": "None",
+      "canonNote": "No universal canon or representative sacred text.",
+      "workIds": [
+        "a-course-in-miracles",
+        "law-of-one-ra-material",
+        "seth-material"
+      ],
+      "sources": [
+        {
+          "label": "New Age movement",
+          "url": "https://www.cambridge.org/core/elements/abs/new-age-movement/C739F64CCC20918EFF40756AB1BDABE9",
+          "perspective": "Academic synthesis"
+        },
+        {
+          "label": "New Age Spiritualities",
+          "url": "https://academic.oup.com/book/8388/chapter-abstract/154107792",
+          "perspective": "Academic study"
+        }
+      ]
+    },
+    {
+      "id": "ufo-religions",
+      "name": "UFO religions",
+      "aliases": [
+        "UFO religious movements"
+      ],
+      "originStart": 1954,
+      "originEnd": 1954,
+      "region": "Transnational",
+      "summary": "An analytic umbrella for distinct religious movements in which extraterrestrial or space-age narratives play a major role, including Unarius, the Aetherius Society, Raëlism, and Heaven's Gate.",
+      "classificationBoundary": "The category does not make distinct movements one organization and does not classify all UFO interest or ancient-astronaut speculation as religion.",
+      "centralAuthority": "None across the category",
+      "canonNote": "Each movement has its own writings; there is no umbrella canon.",
+      "workIds": [
+        "twelve-blessings",
+        "book-which-tells-the-truth",
+        "oahspe",
+        "urantia-book"
+      ],
+      "sensitiveNote": "Heaven's Gate history includes 39 deaths by mass suicide in March 1997. Atlas omits method details and avoids glamorizing or instructional material.",
+      "sources": [
+        {
+          "label": "UFO religions classification",
+          "url": "https://www.loc.gov/aba/publications/Archived-LCC02/BL-BQ-text.pdf",
+          "perspective": "Library of Congress classification"
+        },
+        {
+          "label": "UFO religions scholarship",
+          "url": "https://academic.oup.com/edited-volume/28304/chapter-abstract/215000998",
+          "perspective": "Academic study"
+        },
+        {
+          "label": "Heaven's Gate research",
+          "url": "https://online.ucpress.edu/nr/article-abstract/10/2/75/95305/Scaling-Heaven-s-Gate-Individualism-and-Salvation",
+          "perspective": "Academic study"
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "id": "book-of-mormon",
+      "title": "Book of Mormon",
+      "traditionId": "latter-day-saint-movement",
+      "tradition": "Latter Day Saint movement",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Canonical across many Latter Day Saint movements; edition and interpretive authority vary by community.",
+      "startDate": 1830,
+      "endDate": 1830,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": 43,
+      "lng": -77,
+      "languages": [
+        "English"
+      ],
+      "author": "Joseph Smith, translator/author according to edition and community framing",
+      "description": "The 1830 Palmyra publication is documented separately from the text's account of ancient source plates. Atlas preserves the existing public-domain Project Gutenberg edition.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [
+        "revelation",
+        "law",
+        "afterlife"
+      ],
+      "sourceStatus": "Complete public-domain edition available",
+      "copyright": "Public-domain 1830 English edition and Project Gutenberg transcription in the United States; modern editions and Church site content may be protected.",
+      "sourceUrl": "https://www.loc.gov/resource/rbc.2015gen34953c1/?st=gallery",
+      "metadataSources": [
+        "https://www.loc.gov/resource/rbc.2015gen34953c1/?st=gallery",
+        "https://www.josephsmithpapers.org/paper-summary/book-of-mormon-1830/1",
+        "https://www.gutenberg.org/ebooks/17"
+      ],
+      "editionId": "pg-17",
+      "confidence": "D",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "doctrine-and-covenants",
+      "title": "Doctrine and Covenants",
+      "traditionId": "latter-day-saint-movement",
+      "tradition": "Latter Day Saint movement",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Canonical form and section inventory vary across Latter Day Saint denominations.",
+      "startDate": 1835,
+      "endDate": 1835,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Compilation with Joseph Smith and other contributors; contents vary by denomination and edition",
+      "description": "A collection of revelations and documents first published under this title in 1835. Later contents and canon status differ among Latter Day Saint communities.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://www.josephsmithpapers.org/bc-jsp/content/jsp/images/content/pdf/TOC/R2TOC.pdf",
+      "metadataSources": [
+        "https://www.josephsmithpapers.org/bc-jsp/content/jsp/images/content/pdf/TOC/R2TOC.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "pearl-of-great-price",
+      "title": "Pearl of Great Price",
+      "traditionId": "latter-day-saint-movement",
+      "tradition": "Latter Day Saint movement",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "A standard work in The Church of Jesus Christ of Latter-day Saints; not universal to all Latter Day Saint denominations.",
+      "startDate": 1851,
+      "endDate": 1851,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Compiled by Franklin D. Richards from Joseph Smith materials",
+      "description": "First published at Liverpool in 1851 and canonized by The Church of Jesus Christ of Latter-day Saints in 1880; contents changed across editions.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://www.josephsmithpapers.org/site/the-pearl-of-great-price",
+      "metadataSources": [
+        "https://www.josephsmithpapers.org/site/the-pearl-of-great-price",
+        "https://www.churchofjesuschrist.org/study/manual/about-the-scriptures/history?lang=eng"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "baha-i-kitab-i-aqdas",
+      "title": "The Kitáb-i-Aqdas",
+      "traditionId": "bahai-faith-modern",
+      "tradition": "Bahá’í Faith",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Authoritative Bahá’í text; later supplements and authorized interpretation remain distinct.",
+      "startDate": 1873,
+      "endDate": 1873,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Arabic"
+      ],
+      "author": "Bahá’u’lláh",
+      "description": "Bahá’u’lláh's book of laws, composed in Arabic around 1873. The linked authorized English translation was first published in 1992 and remains protected.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Original historical work and modern authorized translation have edition-specific rights. Atlas links to the authorized text and stores metadata only.",
+      "sourceUrl": "https://www.bahai.org/library/authoritative-texts/bahaullah/kitab-i-aqdas",
+      "metadataSources": [
+        "https://www.bahai.org/library/authoritative-texts/bahaullah/kitab-i-aqdas"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "kitab-i-iqan",
+      "title": "The Kitáb-i-Íqán",
+      "traditionId": "bahai-faith-modern",
+      "tradition": "Bahá’í Faith",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1861,
+      "endDate": 1861,
+      "dateConfidence": "Composed in 1861/62; the timeline anchor uses the documented modern composition period.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Persian"
+      ],
+      "author": "Bahá’u’lláh",
+      "description": "A treatise revealed in Baghdad in 1861/62; the authorized English translation was first published in 1931.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Original historical work and modern authorized translation have edition-specific rights. Atlas links to the authorized text and stores metadata only.",
+      "sourceUrl": "https://www.bahai.org/library/authoritative-texts/bahaullah/kitab-i-iqan/",
+      "metadataSources": [
+        "https://www.bahai.org/library/authoritative-texts/bahaullah/kitab-i-iqan/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "oahspe",
+      "title": "Oahspe",
+      "traditionId": "ufo-religions",
+      "tradition": "UFO religions",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Influential in some later spiritual and UFO-religion currents; not a universal canon.",
+      "startDate": 1882,
+      "endDate": 1882,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "John Ballou Newbrough, compiler/claimed amanuensis",
+      "description": "First published in 1882 and presented by its compiler as received through automatic writing. Atlas records that origin as a claim, not independently verified authorship.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://books.google.com/books/about/Oahspe.html?id=yPsb0QEACAAJ",
+      "metadataSources": [
+        "https://books.google.com/books/about/Oahspe.html?id=yPsb0QEACAAJ",
+        "https://books.google.com/books/about/Oahspe_a_New_Bible_in_the_Words_of_Jehov.html?id=uN9CAQAAMAAJ"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "urantia-book",
+      "title": "The Urantia Book",
+      "traditionId": "ufo-religions",
+      "tradition": "UFO religions",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1955,
+      "endDate": 1955,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous / attributed within the work to superhuman authors",
+      "description": "First published in 1955. Claims of celestial authorship are presented as the book's origin narrative, not independently verified history.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "The Urantia Foundation states the original 1955 English text is public domain; translations, marks, covers, and editorial material remain protected. No text is bundled here.",
+      "sourceUrl": "https://www.urantia.org/urantia-book/front-matter",
+      "metadataSources": [
+        "https://www.urantia.org/urantia-book/front-matter",
+        "https://www.urantia.org/terms-and-conditions"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "a-course-in-miracles",
+      "title": "A Course in Miracles",
+      "traditionId": "new-age-movements",
+      "tradition": "New Age movements",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1975,
+      "endDate": 1975,
+      "dateConfidence": "First offset edition in 1975; formal hardcover publication followed in 1976.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Helen Schucman, scribe; William Thetford, collaborator",
+      "description": "A modern work whose first offset sets appeared in 1975 and whose origin account describes inner dictation. Atlas separates that claim from documentary publication history.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Only the exact 1975 Criswell Edition is stated by the publisher to be public domain in the United States. Later editions, translations, supplements, additions, and editorial matter remain protected; no text is bundled.",
+      "sourceUrl": "https://acim.org/fip/fip-timeline/",
+      "metadataSources": [
+        "https://acim.org/fip/fip-timeline/",
+        "https://acim.org/permissions-policy/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "the-book-of-the-law",
+      "title": "The Book of the Law / Liber AL vel Legis",
+      "traditionId": "thelema",
+      "tradition": "Thelema",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1904,
+      "endDate": 1904,
+      "dateConfidence": "Composed/claimed received in 1904; first Thelemic printing dated 1909.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Aleister Crowley",
+      "description": "A central Thelemic work described by Crowley as received in Cairo on 8–10 April 1904. The receipt claim and modern composition date are displayed separately.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://bubastis.oto-usa.org/about/liber-al-the-book-of-the-law",
+      "metadataSources": [
+        "https://bubastis.oto-usa.org/about/liber-al-the-book-of-the-law",
+        "https://warburg.sas.ac.uk/library-collections/warburg-institute-archive/archive-collections/yorke-collection"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements",
+      "alternateTitles": [
+        "Liber AL vel Legis"
+      ]
+    },
+    {
+      "id": "the-secret-doctrine",
+      "title": "The Secret Doctrine",
+      "traditionId": "theosophy-modern",
+      "tradition": "Theosophy",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1888,
+      "endDate": 1888,
+      "dateConfidence": "First published in 1888; the linked public-domain transcription reflects a later revised edition.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Helena Petrovna Blavatsky",
+      "description": "A major Theosophical work first published in 1888. Later revised editions must remain distinct from the first publication.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/54824",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/54824"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "isis-unveiled",
+      "title": "Isis Unveiled",
+      "traditionId": "theosophy-modern",
+      "tradition": "Theosophy",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1877,
+      "endDate": 1877,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Helena Petrovna Blavatsky",
+      "description": "A two-volume Theosophical work first published in 1877.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://www.loc.gov/books/?q=%22Isis+Unveiled%22+Blavatsky",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=%22Isis+Unveiled%22+Blavatsky"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "the-satanic-bible",
+      "title": "The Satanic Bible",
+      "traditionId": "modern-satanism",
+      "tradition": "Modern Satanism",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Foundational for the Church of Satan; not authoritative for all modern Satanist organizations or individuals.",
+      "startDate": 1969,
+      "endDate": 1969,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anton Szandor LaVey",
+      "description": "A 1969 work associated with the Church of Satan. It represents one modern Satanist current and is not a universal Satanist scripture.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://churchofsatan.com/faq-literature/",
+      "metadataSources": [
+        "https://churchofsatan.com/faq-literature/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "the-satanic-rituals",
+      "title": "The Satanic Rituals",
+      "traditionId": "modern-satanism",
+      "tradition": "Modern Satanism",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Organization-specific historical publication; not a universal Satanist canon.",
+      "startDate": 1972,
+      "endDate": 1972,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anton Szandor LaVey",
+      "description": "A copyrighted Church of Satan publication cataloged as an organization-specific work. Atlas does not reproduce or operationalize its ritual content.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://churchofsatan.com/faq-literature/",
+      "metadataSources": [
+        "https://churchofsatan.com/faq-literature/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "selected-luciferian-writings",
+      "title": "Luciferian traditions — collection guide",
+      "traditionId": "luciferian-traditions",
+      "tradition": "Luciferian traditions",
+      "category": "Collection guide — not a discrete work",
+      "canonStatus": "No universal Luciferian canon.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Collection guide; no single publication date is assigned",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Multiple authors and currents",
+      "description": "A navigation guide to named Luciferian literary, esoteric, and self-identified religious works. It is not a discrete work and has no invented publication date.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Collection guide — metadata links only",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://academic.oup.com/book/11601/chapter-abstract/160465083",
+      "metadataSources": [
+        "https://academic.oup.com/book/11601/chapter-abstract/160465083"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "selected-modern-satanic-philosophical-texts",
+      "title": "Modern Satanist writings — collection guide",
+      "traditionId": "modern-satanism",
+      "tradition": "Modern Satanism",
+      "category": "Collection guide — not a discrete work",
+      "canonStatus": "No universal modern Satanist canon.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Collection guide; no single publication date is assigned",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Multiple authors and organizations",
+      "description": "A navigation guide for organization-specific modern Satanist philosophical texts. It is not a discrete work or universal canon.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Collection guide — metadata links only",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://www.cambridge.org/core/elements/abs/satanism/4150D0B522022169485FCD56FA7FE2BE",
+      "metadataSources": [
+        "https://www.cambridge.org/core/elements/abs/satanism/4150D0B522022169485FCD56FA7FE2BE"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    }
+  ],
+  "records": [
+    {
+      "id": "dianetics-modern-science-mental-health",
+      "title": "Dianetics: The Modern Science of Mental Health",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1950,
+      "endDate": 1950,
+      "dateConfidence": "First published 9 May 1950.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Dianetics: The Modern Science of Mental Health. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/dianetics-the-modern-science-of-mental-health-paperback.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/dianetics-the-modern-science-of-mental-health-paperback.html",
+        "https://search.worldcat.org/ko/title/Dianetics-%3A-the-modern-science-of-mental-health-%3A-a-handbook-of-dianetic-therapy/oclc/2711108"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "dianetics-original-thesis",
+      "title": "Dianetics: The Original Thesis",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "A 1947 manuscript circulated before first publication in 1951.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Dianetics: The Original Thesis. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/dianetics-the-original-thesis-paperback.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/dianetics-the-original-thesis-paperback.html",
+        "https://search.worldcat.org/title/16764608"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "dianetics-evolution-science",
+      "title": "Dianetics: The Evolution of a Science",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1955,
+      "endDate": 1955,
+      "dateConfidence": "First appeared as a magazine article in May 1950; first separate book publication is dated 1955.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Dianetics: The Evolution of a Science. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/evolution-of-a-science-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/evolution-of-a-science-hardcover.html",
+        "https://search.worldcat.org/title/362924343"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "science-of-survival",
+      "title": "Science of Survival",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Science of Survival. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/science-of-survival-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/science-of-survival-hardcover.html",
+        "https://search.worldcat.org/title/2291077"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "self-analysis-hubbard",
+      "title": "Self Analysis",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Self Analysis. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/self-analysis-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/self-analysis-hardcover.html",
+        "https://search.worldcat.org/fr/title/Self-analysis-a-simple-self-help-volume-of-tests-and-precesses-based-on-the-discoveries-contained-in-dianetics/oclc/1358594"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "handbook-for-preclears",
+      "title": "Handbook for Preclears",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Handbook for Preclears. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/handbook-for-preclears-paperback.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/handbook-for-preclears-paperback.html",
+        "https://obnb.uk/p14510720-handbook-for-preclears"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "scientology-history-of-man",
+      "title": "Scientology: A History of Man",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1952,
+      "endDate": 1952,
+      "dateConfidence": "First published as What to Audit in 1952; later editions use the current title.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Scientology: A History of Man. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/scientology-a-history-of-man-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/scientology-a-history-of-man-hardcover.html",
+        "https://archives.sdsu.edu/repositories/2/archival_objects/137217",
+        "https://books.google.com/books?id=sGOpqE3QY0QC"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements",
+      "alternateTitles": [
+        "What to Audit"
+      ]
+    },
+    {
+      "id": "scientology-8-80",
+      "title": "Scientology 8-80",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1952,
+      "endDate": 1952,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Scientology 8-80. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/scientology-8-80-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/scientology-8-80-hardcover.html",
+        "https://cesnur.net/wp-content/uploads/2018/08/tjoc_2_4_3_camacho.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "scientology-8-8008",
+      "title": "Scientology 8-8008",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1953,
+      "endDate": 1953,
+      "dateConfidence": "Course manuscript/content dates to December 1952; the first separately cataloged edition is dated 1953.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Scientology 8-8008. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/scientology-8-8008-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/scientology-8-8008-hardcover.html",
+        "https://books.google.com/books/about/Scientology_8_8008.html?id=3YZKAQAAIAAJ"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "creation-of-human-ability",
+      "title": "The Creation of Human Ability",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1954,
+      "endDate": 1954,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Creation of Human Ability. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/creation-of-human-ability-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/creation-of-human-ability-hardcover.html",
+        "https://openlibrary.org/books/OL22927420M/The_creation_of_human_ability"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "scientology-fundamentals-thought",
+      "title": "Scientology: The Fundamentals of Thought",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1956,
+      "endDate": 1956,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Scientology: The Fundamentals of Thought. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/scientology-the-fundamentals-of-thought-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/scientology-the-fundamentals-of-thought-hardcover.html",
+        "https://cesnur.net/wp-content/uploads/2018/08/tjoc_2_4_3_camacho.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "problems-of-work",
+      "title": "The Problems of Work",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1956,
+      "endDate": 1956,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Problems of Work. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/problems-of-work-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/problems-of-work-hardcover.html",
+        "https://openlibrary.org/books/OL26446274M/The_Problems_of_Work"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "scientology-new-slant-life",
+      "title": "Scientology: A New Slant on Life",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1965,
+      "endDate": 1965,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Scientology: A New Slant on Life. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/scientology-a-new-slant-on-life-paperback.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/scientology-a-new-slant-on-life-paperback.html",
+        "https://books.google.com/books?id=DZyuzQEACAAJ"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "phoenix-lectures",
+      "title": "The Phoenix Lectures",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1968,
+      "endDate": 1968,
+      "dateConfidence": "Lectures were delivered in 1954; the first book/transcript publication is dated 1968.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Phoenix Lectures. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/phoenix-lectures.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/phoenix-lectures.html",
+        "https://openlibrary.org/books/OL20291879M/The_Phoenix_lectures"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "creed-church-scientology",
+      "title": "The Creed of the Church of Scientology",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1954,
+      "endDate": 1954,
+      "dateConfidence": "Official page dates composition to shortly after formation of the Los Angeles church in February 1954.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Creed of the Church of Scientology. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-creed-of-the-church.html",
+      "metadataSources": [
+        "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-creed-of-the-church.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "auditors-code",
+      "title": "The Auditor's Code",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "Written in 1947, first published in 1951, revised later, with the final version dated June 1980.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Auditor's Code. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-auditors-code.html",
+      "metadataSources": [
+        "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-auditors-code.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "code-of-honor-scientology",
+      "title": "The Code of Honor",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1954,
+      "endDate": 1954,
+      "dateConfidence": "Official page dates issue to 1954.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Code of Honor. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-code-of-honor.html",
+      "metadataSources": [
+        "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-code-of-honor.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "code-of-a-scientologist",
+      "title": "The Code of a Scientologist",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1954,
+      "endDate": 1954,
+      "dateConfidence": "First issued in 1954 and revised in 1969 and 1973.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for The Code of a Scientologist. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-code-of-a-scientologist.html",
+      "metadataSources": [
+        "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/the-code-of-a-scientologist.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "advanced-procedure-and-axioms",
+      "title": "Advanced Procedure and Axioms",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1951,
+      "endDate": 1951,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Advanced Procedure and Axioms. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/advanced-procedure-and-axioms-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/advanced-procedure-and-axioms-hardcover.html",
+        "https://obnb.uk/p9001834-advanced-procedure-and-axioms"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "dianetics-55",
+      "title": "Dianetics 55!",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1954,
+      "endDate": 1954,
+      "dateConfidence": "Limited manuscript release is dated 1954; regular printed editions followed in 1955.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Dianetics 55!. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/dianetics-55-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/dianetics-55-hardcover.html",
+        "https://cesnur.net/wp-content/uploads/2018/08/tjoc_2_4_3_camacho.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "introduction-scientology-ethics",
+      "title": "Introduction to Scientology Ethics",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "The Church of Scientology identifies Hubbard's works and recorded lectures as religious scripture; this record does not infer how every Scientologist uses this item.",
+      "startDate": 1968,
+      "endDate": 1968,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A copyright-safe bibliographic record for Introduction to Scientology Ethics. Atlas describes publication history and source perspective without reproducing the work or treating its religious, psychological, historical, or health claims as independently verified.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/item/introduction-to-scientology-ethics-hardcover.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/item/introduction-to-scientology-ethics-hardcover.html",
+        "https://search.worldcat.org/title/introduction-to-scientology-ethics/oclc/6572"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "scientology-introductory-writings-guide",
+      "title": "Major introductory Scientology writings — collection guide",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Collection guide — not a discrete work",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Collection guide; no single publication date is assigned",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Multiple works by L. Ron Hubbard",
+      "description": "A navigation record for source-linked introductory writings. It is not a discrete authored work and has no fabricated publication date.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Collection guide — metadata links only",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/",
+      "metadataSources": [
+        "https://www.scientology.org/what-is-scientology/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "hubbard-bibliography-guide",
+      "title": "Broader L. Ron Hubbard bibliography — collection guide",
+      "traditionId": "scientology",
+      "tradition": "Scientology",
+      "category": "Collection guide — not a discrete work",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Collection guide; no single publication date is assigned",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L. Ron Hubbard",
+      "description": "A navigation record for the wider bibliography. Individual editions require their own publication dates and rights review.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Collection guide — metadata links only",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.scientology.org/store/category/books.html",
+      "metadataSources": [
+        "https://www.scientology.org/store/category/books.html",
+        "https://obnb.uk/a00191772-l-ron-hubbard"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "science-and-health",
+      "title": "Science and Health with Key to the Scriptures",
+      "traditionId": "christian-science",
+      "tradition": "Christian Science",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1875,
+      "endDate": 1875,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Mary Baker Eddy",
+      "description": "The central Christian Science textbook, first published in 1875. Religious healing claims are presented as teachings, not clinical evidence or health advice.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "The English historical text is public domain in the United States according to Church guidance; current editions, translations, typography, editorial matter, and marks may be protected. No text is bundled.",
+      "sourceUrl": "https://www.christianscience.com/publishing/primary-texts-the-bible-and-science-and-health/science-and-health",
+      "metadataSources": [
+        "https://www.christianscience.com/publishing/primary-texts-the-bible-and-science-and-health/science-and-health",
+        "https://www.christianscience.com/legal/introduction-to-hybrid-services-guidelines/copyright-guidelines-for-branches-holding-hybrid-services-in-the-us"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "philosophy-of-freedom",
+      "title": "The Philosophy of Freedom",
+      "traditionId": "anthroposophy",
+      "tradition": "Anthroposophy",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1894,
+      "endDate": 1894,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Rudolf Steiner",
+      "description": "A philosophical work that became important in Steiner's later Anthroposophical corpus.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://erste.goetheanum.org/medicine/Section_new/further_reading.htm",
+      "metadataSources": [
+        "https://erste.goetheanum.org/medicine/Section_new/further_reading.htm"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements",
+      "alternateTitles": [
+        "The Philosophy of Spiritual Activity"
+      ]
+    },
+    {
+      "id": "theosophy-rudolf-steiner",
+      "title": "Theosophy",
+      "traditionId": "anthroposophy",
+      "tradition": "Anthroposophy",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1904,
+      "endDate": 1904,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Rudolf Steiner",
+      "description": "A 1904 work in Steiner's developing spiritual-scientific corpus; it should not be confused with the broader Theosophical movement or Blavatsky's works.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://erste.goetheanum.org/rsteiner_e/1904.html",
+      "metadataSources": [
+        "https://erste.goetheanum.org/rsteiner_e/1904.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "modern-spiritualism-literature-guide",
+      "title": "Modern Spiritualist literature — collection guide",
+      "traditionId": "modern-spiritualism",
+      "tradition": "Modern Spiritualism",
+      "category": "Collection guide — not a discrete work",
+      "canonStatus": "No universal closed canon; organization, community, mediumship, and publication contexts require separate records.",
+      "startDate": null,
+      "endDate": null,
+      "dateConfidence": "Collection guide; no single publication date is assigned",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Multiple authors, organizations, and historical communities",
+      "description": "A navigation record for source-linked Modern Spiritualist literature. It is not a discrete work, does not assign a closed canon, and does not collapse Anglo-American Spiritualism into Kardecist Spiritism.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Collection guide — metadata links only",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://nsac.org/education/",
+      "metadataSources": [
+        "https://nsac.org/education/",
+        "https://blogs.loc.gov/teachers/2023/04/teaching-scientific-literacy-the-case-of-the-psychic-force/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "thanh-ngon-hiep-tuyen",
+      "title": "Thánh Ngôn Hiệp Tuyển, volume 1",
+      "traditionId": "cao-dai",
+      "tradition": "Cao Đài",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important in the Tây Ninh textual tradition; authority across all branches is not inferred.",
+      "startDate": 1928,
+      "endDate": 1928,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Vietnamese"
+      ],
+      "author": "Cao Đài compilation; contributor and branch context require edition-specific study",
+      "description": "An early Cao Đài scripture compilation first published in 1928. The linked organization asserts rights over its edition.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "The linked Cao Đài organization asserts copyright. Atlas stores metadata and links only; no text is bundled.",
+      "sourceUrl": "https://caodaism.org/thumuc2.htm",
+      "metadataSources": [
+        "https://caodaism.org/thumuc2.htm",
+        "https://www.daotam.info/booksv/tailieusuutap-pdf/19280000-ThanhNgonHiepTuyen_Q-1_1928_%28v2024%29.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "ofudesaki",
+      "title": "Ofudesaki",
+      "traditionId": "tenrikyo",
+      "tradition": "Tenrikyo",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1928,
+      "endDate": 1928,
+      "dateConfidence": "Composed 1869–1882; first published April 1928. Timeline uses the documented publication date.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Japanese"
+      ],
+      "author": "Miki Nakayama",
+      "description": "A Tenrikyo scripture composed from 1869 to 1882 in 1,711 verses and first published in 1928.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Metadata and links only. Edition-specific rights remain under review; no text is bundled.",
+      "sourceUrl": "https://www.tenrikyo.or.jp/en/newsletter/html/tt6/ofudesaki.html",
+      "metadataSources": [
+        "https://www.tenrikyo.or.jp/en/newsletter/html/tt6/ofudesaki.html",
+        "https://online.tenrikyo.or.jp/?p=5626"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "zhuan-falun",
+      "title": "Zhuan Falun",
+      "traditionId": "falun-gong",
+      "tradition": "Falun Gong / Falun Dafa",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1994,
+      "endDate": 1994,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Chinese"
+      ],
+      "author": "Li Hongzhi",
+      "description": "A central Falun Dafa text dated December 1994 in the movement's publication catalog. Supernatural and health propositions are presented as teachings, not verified outcomes or medical advice.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyright © Li Hongzhi; official terms prohibit unauthorized copying, distribution, modification, or derivative use. Metadata and links only.",
+      "sourceUrl": "https://www.falundafa.org/eng/falun-dafa-books.html",
+      "metadataSources": [
+        "https://www.falundafa.org/eng/falun-dafa-books.html",
+        "https://falundafa.org/index.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "holy-piby",
+      "title": "The Holy Piby",
+      "traditionId": "rastafari",
+      "tradition": "Rastafari",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1924,
+      "endDate": 1924,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Robert Athlyi Rogers",
+      "description": "An Ethiopianist text that influenced some later Rastafari currents. It predates Rastafari's early-1930s emergence and is not a universal Rastafari canon.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://search.worldcat.org/title/The-Holy-Piby/oclc/587369683",
+      "metadataSources": [
+        "https://search.worldcat.org/title/The-Holy-Piby/oclc/587369683"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "message-to-blackman-in-america",
+      "title": "Message to the Blackman in America",
+      "traditionId": "nation-of-islam",
+      "tradition": "Nation of Islam",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1965,
+      "endDate": 1965,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Elijah Muhammad",
+      "description": "A major Nation of Islam publication from 1965. It is cataloged within the movement's distinct institutional history.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://search.worldcat.org/title/1036679279",
+      "metadataSources": [
+        "https://search.worldcat.org/title/1036679279"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "dawn-of-a-new-morning",
+      "title": "Den ny morgens gry: verdensbygmesterens genkomst",
+      "traditionId": "luciferian-traditions",
+      "tradition": "Luciferian traditions",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1906,
+      "endDate": 1906,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Danish"
+      ],
+      "author": "Carl William Hansen (Ben Kadosh)",
+      "description": "A 1906 Danish work discussed in scholarship on modern Luciferian esotericism. Later translations remain edition-specific.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "Historical original is public domain in the United States; modern editions, translations, editorial matter, typography, and images may remain protected. No text is bundled in this record.",
+      "sourceUrl": "https://lup.lub.lu.se/search/publication/64758e13-dce6-4207-b7a4-912f5428441d",
+      "metadataSources": [
+        "https://lup.lub.lu.se/search/publication/64758e13-dce6-4207-b7a4-912f5428441d"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements",
+      "alternateTitles": [
+        "Dawn of a New Morning: Return of the World's Master Builder"
+      ]
+    },
+    {
+      "id": "science-of-mind",
+      "title": "The Science of Mind",
+      "traditionId": "new-thought",
+      "tradition": "New Thought",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1926,
+      "endDate": 1926,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Ernest Holmes",
+      "description": "A 1926 work associated with Religious Science. It represents one New Thought organization and is not a universal New Thought canon.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — source linked; no edition bundled",
+      "copyright": "The original 1926 edition is described by its publisher as public domain; the expanded 1938 text and current editions remain protected. No text is bundled.",
+      "sourceUrl": "https://search.worldcat.org/title/Science-of-Mind-%28The-Original-1926-Edition%29/oclc/1006243439",
+      "metadataSources": [
+        "https://search.worldcat.org/title/Science-of-Mind-%28The-Original-1926-Edition%29/oclc/1006243439",
+        "https://www.scienceofmind.com/e-mail/som_book.html"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "twelve-blessings",
+      "title": "The Twelve Blessings",
+      "traditionId": "ufo-religions",
+      "tradition": "UFO religions",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Aetherius Society publication; not an umbrella UFO-religion canon.",
+      "startDate": 1958,
+      "endDate": 1958,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "George King",
+      "description": "An Aetherius Society work based on addresses dated from July to October 1958. It belongs to one movement within the UFO-religion umbrella.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.aetherius.org/the-twelve-blessings/",
+      "metadataSources": [
+        "https://www.aetherius.org/the-twelve-blessings/"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "book-which-tells-the-truth",
+      "title": "The Book Which Tells the Truth",
+      "traditionId": "ufo-religions",
+      "tradition": "UFO religions",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Raëlian movement publication; not an umbrella UFO-religion canon.",
+      "startDate": 1974,
+      "endDate": 1974,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "French"
+      ],
+      "author": "Claude Vorilhon (Raël)",
+      "description": "An early Raëlian movement publication from 1974, now circulated within later compilations. Claimed extraterrestrial revelation remains an attributed movement claim.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted; no open license identified. Atlas stores metadata, a brief original neutral summary, and outbound links only; no full text or extended excerpts.",
+      "sourceUrl": "https://www.rael.org/wp-content/uploads/2019/07/ID_en.pdf",
+      "metadataSources": [
+        "https://www.rael.org/wp-content/uploads/2019/07/ID_en.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "law-of-one-ra-material",
+      "title": "The Law of One / Ra Material",
+      "traditionId": "new-age-movements",
+      "tradition": "New Age movements",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1981,
+      "endDate": 1981,
+      "dateConfidence": "Documented publication or issue year in the linked source",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "L/L Research participants; attributed by the publishers to a channeled source called Ra",
+      "description": "A session-based publication whose first recorded session is dated 15 January 1981. The channeling account is a source claim, not verified authorship or contact.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Copyrighted and not public domain under the publisher's policy. Atlas stores metadata and links only and does not reproduce, index, embed, imitate, or generate new material in the source's claimed voice.",
+      "sourceUrl": "https://www.llresearch.org/channeling/ra-contact/intro",
+      "metadataSources": [
+        "https://www.llresearch.org/channeling/ra-contact/intro",
+        "https://www.llresearch.org/copyright"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    },
+    {
+      "id": "seth-material",
+      "title": "The Seth Material",
+      "traditionId": "new-age-movements",
+      "tradition": "New Age movements",
+      "category": "Modern religious work — metadata only",
+      "canonStatus": "Important source within the named modern tradition; community use and authority must be described source by source.",
+      "startDate": 1963,
+      "endDate": 1963,
+      "dateConfidence": "Claimed channeling began in December 1963; subsequent books and archival materials have separate publication dates.",
+      "region": "Multiple regions",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Jane Roberts; attributed by Roberts to a channeled personality called Seth",
+      "description": "A body of books and archival material developing from sessions Roberts reported beginning in December 1963. The channeling account remains attributed, and published texts are copyrighted.",
+      "historicalContext": "Atlas dates this record from documented modern composition, issue, or publication evidence. Revelatory, ancient, extraterrestrial, paranormal, healing, or supernatural origin claims remain attributed community claims.",
+      "manuscripts": "No physical witness is inferred from a current website or catalog record. Edition- and archive-specific witnesses require separate records.",
+      "themes": [],
+      "sourceStatus": "Metadata only — copyrighted text not reproduced",
+      "copyright": "Published works and much archival material remain copyrighted or permission-controlled. Atlas stores archive metadata and links only; confidential archival material is excluded.",
+      "sourceUrl": "https://hdl.handle.net/10079/fa/mssa.ms.1090",
+      "metadataSources": [
+        "https://hdl.handle.net/10079/fa/mssa.ms.1090",
+        "https://ead-pdfs.library.yale.edu/4482.pdf"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Modern religions and new religious movements"
+    }
+  ],
+  "evidenceRecords": [
+    {
+      "id": "scientology-official-beliefs",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Official Teaching",
+      "category": "Official teaching",
+      "sourceType": "Official primary source",
+      "perspective": "Church of Scientology self-description",
+      "status": "Attributed institutional teaching",
+      "summary": "The Church presents Scientology as a religion centered on the spiritual being and a path of study and auditing.",
+      "evidentiaryLimit": "Documents what the Church teaches; it is not independent verification of spiritual, therapeutic, historical, or organizational claims.",
+      "sourceTitle": "What is Scientology?",
+      "publisher": "Church of Scientology International",
+      "publicationDate": "Current official page; accessed 2026-10-10",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/",
+      "independenceGroup": "official-scientology",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Metadata, paraphrase, and link only."
+    },
+    {
+      "id": "scientology-official-creeds-codes",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Official Teaching",
+      "category": "Official teaching",
+      "sourceType": "Official primary source",
+      "perspective": "Church of Scientology self-description",
+      "status": "Attributed institutional teaching",
+      "summary": "The Church publishes a portal for its creed and several public codes, each of which is cataloged separately where dated.",
+      "evidentiaryLimit": "Documents public institutional texts and their stated roles; it does not establish universal individual adherence.",
+      "sourceTitle": "The Scientology Creeds and Codes",
+      "publisher": "Church of Scientology International",
+      "publicationDate": "Current official page; accessed 2026-10-10",
+      "sourceUrl": "https://www.scientology.org/what-is-scientology/the-scientology-creeds-and-codes/",
+      "independenceGroup": "official-scientology",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Metadata, paraphrase, and link only."
+    },
+    {
+      "id": "scientology-academic-westbrook",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Historical / Academic Analysis",
+      "category": "Academic history",
+      "sourceType": "Academic monograph",
+      "perspective": "Religious-studies scholarship based on interviews and fieldwork",
+      "status": "Published academic analysis",
+      "summary": "Donald Westbrook studies Scientology's history, theology, institutions, and lived practice.",
+      "evidentiaryLimit": "One scholarly monograph with a stated method and scope; it is not a substitute for the full literature or source-specific verification.",
+      "sourceTitle": "Among the Scientologists: History, Theology, and Praxis",
+      "publisher": "Oxford University Press",
+      "publicationDate": "2018 online; 2019 print",
+      "sourceUrl": "https://academic.oup.com/book/6885",
+      "independenceGroup": "academic-westbrook",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Bibliographic metadata and link only."
+    },
+    {
+      "id": "scientology-academic-urban",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Historical / Academic Analysis",
+      "category": "Academic history",
+      "sourceType": "Academic monograph excerpt",
+      "perspective": "Historical and religious-studies analysis",
+      "status": "Published academic analysis",
+      "summary": "Hugh Urban examines Scientology as a modern religion within twentieth-century American history and debates over secrecy, law, and religion.",
+      "evidentiaryLimit": "A scholarly interpretation; contested claims and events still require direct source and case review.",
+      "sourceTitle": "The Church of Scientology: A History of a New Religion",
+      "publisher": "Princeton University Press",
+      "publicationDate": "2011",
+      "sourceUrl": "https://assets.press.princeton.edu/chapters/i9515.pdf",
+      "independenceGroup": "academic-urban",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Publisher excerpt; link only."
+    },
+    {
+      "id": "scientology-legal-hernandez",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Legal / Government Records",
+      "category": "Legal/government record",
+      "sourceType": "Court judgment",
+      "perspective": "United States Supreme Court",
+      "status": "Decided case",
+      "summary": "The Court addressed whether fixed payments for Scientology auditing and training were deductible charitable contributions under federal tax law.",
+      "evidentiaryLimit": "The holding concerns the tax issue and record before the Court; it is not a general judgment on every Scientology belief or practice.",
+      "sourceTitle": "Hernandez v. Commissioner, 490 U.S. 680",
+      "publisher": "United States Supreme Court / U.S. Reports",
+      "publicationDate": "1989-06-05",
+      "sourceUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep490/usrep490680/usrep490680.pdf",
+      "independenceGroup": "court-us-hernandez",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "jurisdiction": "United States",
+      "docketReference": "No. 87-963",
+      "decisionDate": "1989-06-05",
+      "disposition": "Judgment affirmed; fixed payments were not deductible as charitable contributions on the record considered.",
+      "rights": "Official court record."
+    },
+    {
+      "id": "scientology-legal-hodkin",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Legal / Government Records",
+      "category": "Legal/government record",
+      "sourceType": "Court judgment",
+      "perspective": "United Kingdom Supreme Court",
+      "status": "Decided case",
+      "summary": "The Court considered whether a Scientology chapel qualified as a place of meeting for religious worship under English registration law.",
+      "evidentiaryLimit": "The decision interprets a specific statutory question in the United Kingdom and does not settle religious status for every jurisdiction or purpose.",
+      "sourceTitle": "R (Hodkin) v Registrar General [2013] UKSC 77",
+      "publisher": "UK Supreme Court",
+      "publicationDate": "2013-12-11",
+      "sourceUrl": "https://www.supremecourt.uk/cases/uksc-2013-0030",
+      "independenceGroup": "court-uk-hodkin",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "jurisdiction": "United Kingdom",
+      "docketReference": "UKSC 2013/0030",
+      "decisionDate": "2013-12-11",
+      "disposition": "Appeal allowed; the chapel could be registered under the Court's interpretation of religious worship.",
+      "rights": "Official court record."
+    },
+    {
+      "id": "scientology-legal-echr-moscow",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Legal / Government Records",
+      "category": "Legal/government record",
+      "sourceType": "International court judgment",
+      "perspective": "European Court of Human Rights",
+      "status": "Decided case",
+      "summary": "The Court reviewed Russia's refusal to re-register the Church of Scientology Moscow under Convention rights.",
+      "evidentiaryLimit": "The judgment concerns the applicant, evidence, law, and period before the Court; it is not a global organizational finding.",
+      "sourceTitle": "Church of Scientology Moscow v. Russia",
+      "publisher": "European Court of Human Rights",
+      "publicationDate": "2007-04-05",
+      "sourceUrl": "https://hudoc.echr.coe.int/eng?i=001-80039",
+      "independenceGroup": "court-echr-moscow",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "jurisdiction": "Council of Europe / Russian Federation",
+      "docketReference": "Application no. 18147/02",
+      "decisionDate": "2007-04-05",
+      "disposition": "Court found violations of Articles 11 and 9 in the refusal to re-register.",
+      "rights": "Official court record."
+    },
+    {
+      "id": "scientology-criticism-going-clear",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Criticism / Controversy",
+      "category": "Criticism",
+      "sourceType": "Investigative journalism book",
+      "perspective": "Critical journalistic investigation",
+      "status": "Published critical account",
+      "summary": "Lawrence Wright's book presents a journalistic history and critical investigation of Scientology and reported member experiences.",
+      "evidentiaryLimit": "Documents the author's investigation, sourcing, and analysis; contested claims require claim-specific corroboration and linked responses.",
+      "sourceTitle": "Going Clear",
+      "publisher": "Penguin Random House",
+      "publicationDate": "2013",
+      "sourceUrl": "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/",
+      "independenceGroup": "journalism-wright",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Bibliographic metadata and link only."
+    },
+    {
+      "id": "scientology-former-member-remini",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Criticism / Controversy",
+      "category": "Former-member account",
+      "sourceType": "First-person memoir",
+      "perspective": "Former-member personal account",
+      "status": "Attributed testimony",
+      "summary": "Leah Remini recounts her experience in and departure from Scientology and allegations about the organization.",
+      "evidentiaryLimit": "Documents the author's reported experience and perspective; it does not independently prove every allegation.",
+      "sourceTitle": "Troublemaker",
+      "publisher": "Penguin Random House",
+      "publicationDate": "2015",
+      "sourceUrl": "https://www.penguinrandomhouse.com/books/253674/troublemaker-by-leah-remini/",
+      "independenceGroup": "memoir-remini",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Bibliographic metadata and link only."
+    },
+    {
+      "id": "scientology-media-remini-lawsuit",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Criticism / Controversy",
+      "category": "Media report",
+      "sourceType": "News report",
+      "perspective": "Journalistic report of a filed complaint and response",
+      "status": "Allegations and denial reported; adjudication not established here",
+      "summary": "The report describes allegations in Leah Remini's 2023 lawsuit and records a Church response.",
+      "evidentiaryLimit": "Documents what the complaint alleged, the Church's response, and procedural status as reported; filing an allegation is not adjudication.",
+      "sourceTitle": "Leah Remini sues Scientology",
+      "publisher": "Los Angeles Times",
+      "publicationDate": "2023-08-02",
+      "sourceUrl": "https://www.latimes.com/entertainment-arts/story/2023-08-02/leah-remini-sues-scientology-alleging-stalking-defamation-harassment",
+      "independenceGroup": "journalism-latimes-remini",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "News metadata, original summary, and link only."
+    },
+    {
+      "id": "scientology-unverified-membership",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Criticism / Controversy",
+      "category": "Unverified claim",
+      "sourceType": "Official claim with non-equivalent census context",
+      "perspective": "Church claim compared with limited-jurisdiction public statistics",
+      "status": "Unverified",
+      "summary": "The Church states global membership and organizational-scale figures; this record preserves the claim without converting it into an audited count.",
+      "evidentiaryLimit": "The global membership figure is a claim by the Church and is not independently verified in this record. Census affiliation counts cover limited jurisdictions and use different definitions, so they neither verify nor directly disprove the global claim.",
+      "sourceTitle": "Scientology global-scale claim and ONS Census context",
+      "publisher": "Church of Scientology International; UK Office for National Statistics",
+      "publicationDate": "Current claim and 2021 census",
+      "sourceUrl": "https://www.scientology.org/spiritual-technology/index.foreign.html",
+      "independenceGroup": "official-claim-with-ons-context",
+      "derivedFromIds": [],
+      "responseToIds": [],
+      "rights": "Metadata and source links only.",
+      "additionalSourceUrls": [
+        "https://www.ons.gov.uk/datasets/TS031/editions/2021/versions/2?showAll=religion_58a"
+      ]
+    },
+    {
+      "id": "scientology-response-going-clear",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Church Responses",
+      "category": "Church response",
+      "sourceType": "Official response",
+      "perspective": "Church-affiliated publication response",
+      "status": "Attributed institutional rebuttal",
+      "summary": "Freedom Magazine presents the Church's response to Going Clear and related claims.",
+      "evidentiaryLimit": "Documents the Church's stated rebuttal; it is not independent corroboration.",
+      "sourceTitle": "Church response to Going Clear",
+      "publisher": "Freedom Magazine / Church-affiliated publication",
+      "publicationDate": "2015",
+      "sourceUrl": "https://www.freedommag.org/going-clear/",
+      "independenceGroup": "official-scientology-response",
+      "derivedFromIds": [],
+      "responseToIds": [
+        "scientology-criticism-going-clear"
+      ],
+      "rights": "Metadata, paraphrase, and link only."
+    },
+    {
+      "id": "scientology-response-remini",
+      "subjectType": "tradition",
+      "subjectId": "scientology",
+      "section": "Church Responses",
+      "category": "Church response",
+      "sourceType": "Official response",
+      "perspective": "Church of Scientology response",
+      "status": "Attributed institutional rebuttal",
+      "summary": "The Church published a response to ABC questions concerning Leah Remini and her book.",
+      "evidentiaryLimit": "Documents the Church's stated rebuttal; it is not independent corroboration and does not adjudicate disputed allegations.",
+      "sourceTitle": "Church of Scientology response to ABC News 20/20 inquiry",
+      "publisher": "Church of Scientology International",
+      "publicationDate": "2015-10-26",
+      "sourceUrl": "https://www.scientologynews.org/statements/abc-news/church-of-scientology-response-to-abc-news-20x20-inquiry-1.html",
+      "independenceGroup": "official-scientology-response",
+      "derivedFromIds": [],
+      "responseToIds": [
+        "scientology-former-member-remini"
+      ],
+      "rights": "Metadata, paraphrase, and link only."
+    }
+  ],
+  "bibliographyEntries": [
+    {
+      "id": "bib-scientology-westbrook",
+      "subjectId": "scientology",
+      "title": "Among the Scientologists: History, Theology, and Praxis",
+      "author": "Donald A. Westbrook",
+      "published": "2018 online / 2019 print",
+      "perspective": "Academic religious-studies monograph",
+      "sourceUrl": "https://academic.oup.com/book/6885",
+      "rights": "Bibliographic metadata and link only",
+      "scope": "Academic monograph using interviews, fieldwork, and historical analysis."
+    },
+    {
+      "id": "bib-scientology-lewis",
+      "subjectId": "scientology",
+      "title": "Scientology",
+      "author": "James R. Lewis, editor",
+      "published": "2009",
+      "perspective": "Academic multi-author collection",
+      "sourceUrl": "https://academic.oup.com/book/2335",
+      "rights": "Bibliographic metadata and link only",
+      "scope": "Multi-author academic collection with varied topics and methods."
+    },
+    {
+      "id": "bib-scientology-genter",
+      "subjectId": "scientology",
+      "title": "Constructing a Plan for Survival: Scientology as Cold War Psychology",
+      "author": "Robert Genter",
+      "published": "2018",
+      "perspective": "Academic historical analysis",
+      "sourceUrl": "https://www.cambridge.org/core/journals/religion-and-american-culture/article/abs/constructing-a-plan-for-survival-scientology-as-cold-war-psychology/D1B26338C158D41BCBDAC6DDC2DFF4A3",
+      "rights": "Bibliographic metadata and link only",
+      "scope": "Academic historical analysis of a bounded period and argument."
+    },
+    {
+      "id": "bib-scientology-urban",
+      "subjectId": "scientology",
+      "title": "The Church of Scientology: A History of a New Religion",
+      "author": "Hugh B. Urban",
+      "published": "2011",
+      "perspective": "Academic history and religious-studies analysis",
+      "sourceUrl": "https://assets.press.princeton.edu/chapters/i9515.pdf",
+      "rights": "Publisher excerpt; link only",
+      "scope": "Academic history with source-specific arguments that should be assessed alongside primary records."
+    },
+    {
+      "id": "bib-scientology-wright",
+      "subjectId": "scientology",
+      "title": "Going Clear",
+      "author": "Lawrence Wright",
+      "published": "2013",
+      "perspective": "Investigative journalism",
+      "sourceUrl": "https://www.penguinrandomhouse.com/books/212925/going-clear-by-lawrence-wright/9780307745309/",
+      "rights": "Bibliographic metadata and link only",
+      "scope": "Investigative journalism; not labeled as academic consensus."
+    },
+    {
+      "id": "bib-scientology-remini",
+      "subjectId": "scientology",
+      "title": "Troublemaker",
+      "author": "Leah Remini with Rebecca Paley",
+      "published": "2015",
+      "perspective": "Former-member memoir",
+      "sourceUrl": "https://www.penguinrandomhouse.com/books/253674/troublemaker-by-leah-remini/",
+      "rights": "Bibliographic metadata and link only",
+      "scope": "Former-member memoir and personal account."
+    },
+    {
+      "id": "bib-scientology-terms",
+      "subjectId": "scientology",
+      "title": "Scientology website terms",
+      "author": "Church of Scientology International",
+      "published": "Current policy; accessed 2026-10-10",
+      "perspective": "Official rights policy",
+      "sourceUrl": "https://www.scientology.org/terms.html",
+      "rights": "Official rights policy",
+      "scope": "Establishes the site's asserted copyright and permitted-access boundary."
+    },
+    {
+      "id": "bib-scientology-cst",
+      "subjectId": "scientology",
+      "title": "Church of Spiritual Technology copyright role",
+      "author": "Church of Scientology International",
+      "published": "Current official page; accessed 2026-10-10",
+      "perspective": "Official institutional self-description",
+      "sourceUrl": "https://www.scientology.org/faq/church-management/what-is-church-of-spiritual-technology.html",
+      "rights": "Official self-description",
+      "scope": "Documents the Church's description of CST's copyright role; not independent legal adjudication."
+    }
+  ],
+  "originClaims": [
+    {
+      "id": "origin-book-of-mormon",
+      "workId": "book-of-mormon",
+      "documentedDate": "1830 first publication",
+      "claimedOrigin": "The text and movement describe translation from ancient plates delivered by an angel.",
+      "datingExplanation": "Atlas uses the documented 1830 publication for the timeline and records the ancient-plate account as a religious origin claim.",
+      "sourceUrl": "https://www.loc.gov/resource/rbc.2015gen34953c1/?st=gallery"
+    },
+    {
+      "id": "origin-oahspe",
+      "workId": "oahspe",
+      "documentedDate": "1882 first publication",
+      "claimedOrigin": "Newbrough presented the work as received through automatic writing from nonhuman spiritual sources.",
+      "datingExplanation": "The record is dated to the 1882 publication, not to the cosmological chronology narrated in the work.",
+      "sourceUrl": "https://books.google.com/books/about/Oahspe.html?id=yPsb0QEACAAJ"
+    },
+    {
+      "id": "origin-urantia",
+      "workId": "urantia-book",
+      "documentedDate": "1955 first publication",
+      "claimedOrigin": "The work presents its papers as authored or sponsored by superhuman personalities.",
+      "datingExplanation": "The timeline uses the documented 1955 publication and does not treat claimed celestial authorship as historical dating evidence.",
+      "sourceUrl": "https://www.urantia.org/urantia-book/front-matter"
+    },
+    {
+      "id": "origin-acim",
+      "workId": "a-course-in-miracles",
+      "documentedDate": "1975 first offset edition; 1976 hardcover",
+      "claimedOrigin": "The publication history describes Schucman's experience of inner dictation identified within the project with Jesus.",
+      "datingExplanation": "Atlas dates the work to its modern transcription and publication history while attributing the revelatory claim to the source community.",
+      "sourceUrl": "https://acim.org/fip/fip-timeline/"
+    },
+    {
+      "id": "origin-law-one",
+      "workId": "law-of-one-ra-material",
+      "documentedDate": "Sessions began 15 January 1981",
+      "claimedOrigin": "The publishers attribute the session speech to a source called Ra.",
+      "datingExplanation": "The timeline uses the recorded 1981 session date. Atlas does not verify channeling, imitate the source voice, or generate new sessions.",
+      "sourceUrl": "https://www.llresearch.org/channeling/ra-contact/intro"
+    },
+    {
+      "id": "origin-seth",
+      "workId": "seth-material",
+      "documentedDate": "Reported sessions began December 1963",
+      "claimedOrigin": "Roberts attributed the communications to a personality called Seth.",
+      "datingExplanation": "The record uses the documented modern session and archival chronology; the claimed communicating identity remains attributed testimony.",
+      "sourceUrl": "https://hdl.handle.net/10079/fa/mssa.ms.1090"
+    },
+    {
+      "id": "origin-book-law",
+      "workId": "the-book-of-the-law",
+      "documentedDate": "Composed/claimed received 8–10 April 1904; printed 1909",
+      "claimedOrigin": "Crowley described the text as dictated by a praeterhuman intelligence called Aiwass.",
+      "datingExplanation": "Atlas uses the modern 1904 composition/receipt claim and 1909 publication history; no ancient date is assigned.",
+      "sourceUrl": "https://bubastis.oto-usa.org/about/liber-al-the-book-of-the-law"
+    }
+  ]
+}

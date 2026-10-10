@@ -49,6 +49,7 @@ import { IndigenousCollection } from "./Indigenous";
 import { GlobalCoverageCollection } from "./GlobalCoverage";
 import { UndecipheredCollection, UndecipheredDetail } from "./Undeciphered";
 import { EsotericCollection } from "./Esoteric";
+import { ModernReligionsCollection } from "./ModernReligions";
 import {
   Timeline,
   WorldMap,
@@ -90,6 +91,7 @@ const navigation = [
       ["library/global", "Global Religious Coverage", Globe2],
       ["library/undeciphered", "Unresolved Writing Systems", Search],
       ["library/esoteric", "Esoteric & Religious Literature", BookOpen],
+      ["library/modern", "Modern Religions & New Movements", Globe2],
       ["explore/anunnaki", "Anunna / Anunnaki", Search],
     ],
   ],
@@ -155,6 +157,8 @@ export default function Atlas({
           <UndecipheredCollection />
         ) : id === "esoteric" ? (
           <EsotericCollection />
+        ) : id === "modern" ? (
+          <ModernReligionsCollection />
         ) : id ? (
           <DeepArchive collection={id} />
         ) : (
