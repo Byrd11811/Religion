@@ -3,4 +3,5 @@ export const passageSeedFiles = [
   "egypt-passages.json",
   "mesopotamia-passages.json",
   "china-passages.json",
+  "esoteric-passages.json",
 ] as const;

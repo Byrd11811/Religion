@@ -4,6 +4,7 @@ import mesopotamiaArchive from "@/data/seed/mesopotamia-archive.json";
 import chinaArchive from "@/data/seed/china-archive.json";
 import hornArchive from "@/data/seed/horn-archive.json";
 import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
+import esotericArchive from "@/data/seed/esoteric-archive.json";
 import { protocolForWork } from "./protocols";
 
 export const coverageStatuses = [
@@ -239,6 +240,7 @@ export const witnesses: Witness[] = [
   ...(chinaArchive.witnesses as Witness[]),
   ...(hornArchive.witnesses as Witness[]),
   ...(manuscriptExpansion.witnesses as Witness[]),
+  ...(esotericArchive.witnesses as Witness[]),
   {
     id: "voynich-ms-408",
     title: "Voynich Manuscript",

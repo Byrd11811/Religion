@@ -42,6 +42,16 @@ import {
   validateUnresolvedCorpusData,
 } from "../packages/shared/undeciphered";
 import type { Collection } from "../packages/shared/types";
+import {
+  esotericWorks,
+  esotericWitnesses,
+  esotericPolicy,
+  ritualPractices,
+  necromancyRecords,
+  sacrificeEvidence,
+  esotericOrganizations,
+  esotericPracticeVocabulary,
+} from "../packages/shared/esoteric";
 test("ingested editions preserve every source word in sequence", () => {
   const normalize = (s: string) => s.replace(/\s+/g, " ").trim();
   const oracc = JSON.parse(
@@ -351,6 +361,57 @@ test("catalog has unique records and valid tradition/edition references", () => 
     if (t.startDate !== null)
       assert.ok(t.endDate !== null && t.startDate <= t.endDate);
   }
+});
+test("Phase 12 separates grimoires, polemic, Hermetic works, and non-scriptural literature", () => {
+  const required = [
+    "lesser-key-of-solomon", "ars-goetia", "ars-theurgia-goetia",
+    "ars-paulina", "ars-almadel", "ars-notoria", "the-key-of-solomon",
+    "testament-of-solomon", "book-of-abramelin", "picatrix",
+    "sworn-book-of-honorius", "heptameron", "arbatel-of-magic",
+    "grimorium-verum", "grand-grimoire", "sixth-seventh-books-of-moses",
+    "dictionnaire-infernal", "malleus-maleficarum",
+    "three-books-occult-philosophy", "corpus-hermeticum",
+    "divine-comedy", "inferno", "purgatorio", "paradiso",
+    "faust-part-one", "faust-part-two", "doctor-faustus",
+    "paradise-lost", "paradise-regained", "cain-by-lord-byron",
+    "revolt-of-the-angels",
+  ];
+  assert.ok(required.every((id) => esotericWorks.some((work) => work.id === id)));
+  const literary = esotericWorks.filter((work) => work.subcollection === "Religious literature");
+  assert.equal(literary.length, 11);
+  assert.ok(literary.every((work) => work.category.includes("NON-SCRIPTURAL") && work.canonStatus.includes("non-scriptural")));
+  const occult = esotericWorks.filter((work) => work.subcollection === "Occult / esoteric");
+  assert.ok(occult.every((work) => !/satanic/i.test(`${work.category} ${work.tradition}`)));
+  assert.ok(occult.some((work) => /Hermetic/.test(work.category)));
+  assert.ok(occult.some((work) => /witch-trial/.test(work.category)));
+  assert.match(esotericPolicy, /does not convert.*instructions/i);
+  assert.deepEqual(esotericWitnesses.map((item) => item.id).sort(), [
+    "bl-sloane-3648-lemegeton", "bl-sloane-3825-solomonic",
+    "bl-yates-thompson-36-dante", "hab-47-13-aug-4-abramelin",
+    "wellcome-malleus-1494",
+  ]);
+  for (const id of ["divine-comedy", "faust-part-one", "faust-part-two", "doctor-faustus", "paradise-regained"])
+    assert.ok(editions.some((edition) => edition.textId === id && edition.complete));
+  assert.equal(texts.find((work) => work.id === "paradise-lost")?.editionId, "pg-20");
+  assert.equal(ritualPractices.length, 16);
+  assert.equal(necromancyRecords.length, 4);
+  assert.equal(esotericPracticeVocabulary.length, 19);
+  assert.ok(["ancestor communication", "necromancy", "shamanic spirit interaction", "modern Spiritualism"].every((item) => esotericPracticeVocabulary.includes(item)));
+  assert.ok(new Set(ritualPractices.map((item) => item.practiceType)).size >= 10);
+  assert.ok(esotericPracticeVocabulary.every((term) =>
+    ritualPractices.some((item) => item.practiceType.toLowerCase().includes(term.toLowerCase()))
+  ));
+  assert.ok(ritualPractices.every((item) => item.operationalBoundary.length > 30));
+  assert.deepEqual(new Set(sacrificeEvidence.map((item) => item.classification)), new Set([
+    "ARCHAEOLOGICALLY SUPPORTED RITUAL KILLING", "TEXTUALLY DOCUMENTED PRACTICE",
+    "DOCUMENTED BUT INTERPRETATION DISPUTED", "HOSTILE OUTSIDER ACCUSATION",
+    "RELIGIOUS POLEMIC", "COLONIAL ACCOUNT", "LATER LEGEND", "MODERN CLAIM",
+    "UNVERIFIED CONSPIRACY CLAIM",
+  ]));
+  assert.ok(sacrificeEvidence.every((item) => !item.graphicContent && item.sourceUrls.every((url) => url.startsWith("https://"))));
+  assert.equal(esotericOrganizations.length, 8);
+  assert.ok(esotericOrganizations.every((item) => item.evidenceStatus && item.historicalBoundary && item.legendBoundary));
+  assert.match(esotericOrganizations.find((item) => item.id === "bavarian-illuminati")!.legendBoundary, /global rule/i);
 });
 test("Egypt expansion distinguishes sourced metadata from bounded editions", () => {
   const sinuhe = texts.find((text) => text.id === "tale-of-sinuhe");
@@ -767,7 +828,7 @@ test("concept expansion is bounded and explicit", () => {
   assert.deepEqual(detectConcepts("zxqv"), []);
 });
 test("archive separates physical witnesses, works and image associations", () => {
-  assert.equal(witnesses.length, 56);
+  assert.ok(witnesses.length >= 61);
   assert.ok(texts.every((t) => workProfile(t.id)?.id === t.id));
   assert.equal(
     witnesses.find((w) => w.id === "codex-gigas")?.type,

@@ -13,6 +13,8 @@ import hornAdditions from "@/data/seed/horn-additions.json";
 import indigenousAdditions from "@/data/seed/indigenous-additions.json";
 import regionalCoverage from "@/data/seed/regional-coverage.json";
 import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
+import esotericLiterature from "@/data/seed/esoteric-literature.json";
+import esotericEditions from "@/data/seed/esoteric-editions.json";
 import type {
   TextRecord,
   Tradition,
@@ -43,6 +45,11 @@ const regionalOverrides = new Map(
     (record) => [record.id, record],
   ),
 );
+const esotericOverrides = new Map(
+  (esotericLiterature.overrides as (Partial<TextRecord> & { id: string })[]).map(
+    (record) => [record.id, record],
+  ),
+);
 for (const id of egyptOverrides.keys()) {
   if (mesopotamiaOverrides.has(id))
     throw new Error(`Catalog override collision for ${id}`);
@@ -55,6 +62,7 @@ export const texts = [
     ...(chinaOverrides.get(record.id) ?? {}),
     ...(hornOverrides.get(record.id) ?? {}),
     ...(regionalOverrides.get(record.id) ?? {}),
+    ...(esotericOverrides.get(record.id) ?? {}),
   })),
   ...(egyptAdditions.records as TextRecord[]),
   ...(mesopotamiaAdditions.records as TextRecord[]),
@@ -65,13 +73,18 @@ export const texts = [
   ...(indigenousAdditions.records as TextRecord[]),
   ...(regionalCoverage.records as TextRecord[]),
   ...(manuscriptExpansion.workRecords as TextRecord[]),
+  ...(esotericLiterature.records as TextRecord[]),
 ];
-export const traditions = traditionsData as Tradition[];
+export const traditions = [
+  ...(traditionsData as Tradition[]),
+  ...(esotericLiterature.traditions as Tradition[]),
+];
 export const editions = [
   ...(editionsData as Edition[]),
   ...(egyptEditions as Edition[]),
   ...(mesopotamiaEditions as Edition[]),
   ...(chinaEditions as Edition[]),
+  ...(esotericEditions as Edition[]),
 ];
 export const relationships = relationshipsData as Relationship[];
 export const artifacts = imagesData as Artifact[];

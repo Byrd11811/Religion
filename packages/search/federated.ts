@@ -50,8 +50,12 @@ function candidate(
 }
 
 function candidates(): Candidate[] {
-  const works = texts.map((work) =>
-    candidate(
+  const works = texts.map((work) => {
+    const aliases = [
+      ...(workAliases[work.id] ?? []),
+      ...(work.alternateTitles ?? []),
+    ].filter((alias, index, all) => all.indexOf(alias) === index);
+    return candidate(
       {
         id: work.id,
         type: "work" as const,
@@ -59,14 +63,14 @@ function candidates(): Candidate[] {
         subtitle: `${work.tradition} · ${work.region}`,
         description: work.description,
         href: `/texts/${work.id}`,
-        aliases: workAliases[work.id] ?? [],
+        aliases,
         availability: work.editionId ? work.sourceStatus : "Metadata only",
         opposition:
           work.traditionId === "skeptical-atheistic-materialist-critical",
       },
       [
         work.title,
-        workAliases[work.id],
+        aliases,
         work.tradition,
         work.region,
         work.category,
@@ -90,8 +94,8 @@ function candidates(): Candidate[] {
               ? "Reviewed"
               : "Provisional",
       },
-    ),
-  );
+    );
+  });
   const navigation = traditions.map((tradition) =>
     candidate(
       {

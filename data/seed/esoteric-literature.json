@@ -1,0 +1,2063 @@
+{
+  "policy": "Historical description is not endorsement or proof. Atlas does not convert ritual, conjuration, coercive, or harmful passages into instructions. Literary works are labeled non-scriptural.",
+  "classifications": [
+    "Grimoire / ritual magic",
+    "Hermetic / philosophical",
+    "Demonology / witch-trial polemic",
+    "Alchemical literature",
+    "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL"
+  ],
+  "practiceVocabulary": [
+    "necromancy",
+    "spirit invocation",
+    "ancestor communication",
+    "divination",
+    "mediumship",
+    "possession",
+    "exorcism",
+    "theurgy",
+    "ceremonial magic",
+    "demonology",
+    "angelology",
+    "ghost rites",
+    "funerary spirit practices",
+    "shamanic spirit interaction",
+    "oracle consultation",
+    "magical protection",
+    "curse traditions",
+    "spirit-binding",
+    "modern Spiritualism"
+  ],
+  "traditions": [
+    {
+      "id": "religious-literature",
+      "name": "Literature / Cultural Influence",
+      "region": "Global",
+      "lat": null,
+      "lng": null,
+      "description": "A discovery category for literary works that engage religious themes. Inclusion explicitly does not classify a work as scripture.",
+      "color": "#8b6f47"
+    }
+  ],
+  "ritualPractices": [
+    {
+      "id": "mesopotamian-necromancy-k2779",
+      "title": "Late Babylonian necromantic tablet K.2779",
+      "practiceType": "necromancy",
+      "community": "Late Babylonian scholarly tradition represented by a tablet from Kouyunjik",
+      "period": "Seventh-century BCE copy",
+      "region": "Nineveh / Mesopotamia",
+      "description": "The British Museum identifies K.2779 as a rare cuneiform necromantic incantation and ritual. The artifact establishes a textual witness, not efficacy or prevalence.",
+      "distinction": "Necromancy; kept distinct from routine ancestor offerings, exorcism, and demon worship.",
+      "evidenceSummary": "A cataloged physical tablet with an institutionally assigned description and date.",
+      "operationalBoundary": "Atlas stores catalog metadata and historical interpretation only; no operational transcription is reproduced.",
+      "workIds": [],
+      "evidenceStatus": "Secure artifact; interpretation follows repository catalog",
+      "culturalReview": "Ancient object metadata; no modern community practice is inferred.",
+      "sources": [
+        {
+          "label": "British Museum: tablet K.2779",
+          "url": "https://www.britishmuseum.org/collection/object/W_K-2779",
+          "kind": "Institutional object record"
+        }
+      ]
+    },
+    {
+      "id": "mesopotamian-kispu-ghost-offerings",
+      "title": "Mesopotamian kispu offerings for the dead",
+      "practiceType": "ancestor communication / ghost rites",
+      "community": "Ancient Mesopotamian communities; period and city varied",
+      "period": "Second and first millennia BCE",
+      "region": "Mesopotamia",
+      "description": "Regular offerings and commemoration for deceased kin are modeled as mortuary and ancestor practice, not recast as Western demon worship.",
+      "distinction": "Ancestor/funerary practice; not automatically necromancy or spirit-binding.",
+      "evidenceSummary": "The Metropolitan Museum of Art's educator publication describes food and drink offerings for deceased ancestors within ancient Mesopotamian family religion.",
+      "operationalBoundary": "No offering formula, invocation sequence, or performance instruction is reproduced.",
+      "workIds": [],
+      "evidenceStatus": "Museum scholarly synthesis",
+      "culturalReview": "Public ancient-historical scholarship; no living community permission is inferred.",
+      "sources": [
+        {
+          "label": "Metropolitan Museum of Art: Art of the Ancient Near East",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/art-of-the-ancient-near-east.pdf",
+          "kind": "Museum education publication"
+        }
+      ]
+    },
+    {
+      "id": "egyptian-funerary-transformation-texts",
+      "title": "Egyptian funerary transformation and protection texts",
+      "practiceType": "funerary spirit practices / magical protection",
+      "community": "Ancient Egyptian mortuary traditions",
+      "period": "Pharaonic Egypt; corpus-specific dates vary",
+      "region": "Egypt",
+      "description": "Funerary compositions and material rites addressed protection and transformation of the deceased. A text's prescription is not proof that every Egyptian performed it.",
+      "distinction": "Mortuary and protective practice; not classified as demonology.",
+      "evidenceSummary": "Museum context and Atlas work records document funerary texts and physical objects separately.",
+      "operationalBoundary": "Atlas exposes historical context and source records, not a performable rite.",
+      "workIds": [
+        "book-of-the-dead"
+      ],
+      "evidenceStatus": "Material and textual evidence; practice scope varies",
+      "culturalReview": "Ancient material shown through public institutional metadata.",
+      "sources": [
+        {
+          "label": "Metropolitan Museum of Art: Transforming the Dead",
+          "url": "https://www.metmuseum.org/-/media/files/about-the-met/curatorial-departments/egyptian/facsimiles/2014_transformingthedead_web.pdf",
+          "kind": "Museum scholarship"
+        }
+      ]
+    },
+    {
+      "id": "mesopotamian-exorcistic-protection-utukku-12",
+      "title": "Mesopotamian exorcistic protection tablet",
+      "practiceType": "possession / exorcism / magical protection",
+      "community": "Neo-Assyrian learned and ritual tradition",
+      "period": "First millennium BCE",
+      "region": "Mesopotamia",
+      "description": "The tablet belongs to an incantation series directed against harmful demons and ghosts. Museum scholarship places such exorcism within historically specific ideas about affliction and possession; Atlas does not treat those ideas as medical diagnoses.",
+      "distinction": "Possession belief, exorcism, and protection; not necromancy, ancestor communication, or generic demon worship.",
+      "evidenceSummary": "The Metropolitan Museum catalogs the object and separately explains ancient Near Eastern exorcism as driving a demon from a person.",
+      "operationalBoundary": "No incantation or performance sequence is reproduced, and the record gives no health guidance.",
+      "workIds": [],
+      "evidenceStatus": "Secure artifact and museum interpretation; supernatural and medical claims not verified",
+      "culturalReview": "Ancient object metadata; historical categories are not applied as diagnoses.",
+      "sources": [
+        {
+          "label": "Metropolitan Museum of Art: Cuneiform tablet, Utukku Lemnutu 12",
+          "url": "https://www.metmuseum.org/art/collection/search/321991",
+          "kind": "Institutional object record"
+        },
+        {
+          "label": "Metropolitan Museum of Art: Art of the Ancient Near East",
+          "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/art-of-the-ancient-near-east.pdf",
+          "kind": "Museum education publication"
+        }
+      ]
+    },
+    {
+      "id": "shang-pyromantic-divination-oa156",
+      "title": "Shang oracle-bone divination, OA+.156",
+      "practiceType": "divination / oracle consultation",
+      "community": "Late Shang royal divination context",
+      "period": "About 1200–1050 BCE",
+      "region": "China",
+      "description": "A cataloged oracle bone demonstrates pyromantic divination. Atlas does not generalize one inscription to all Chinese traditions or relabel it as demonology.",
+      "distinction": "Divination and oracle consultation; spirit communication is not asserted without inscription-specific evidence.",
+      "evidenceSummary": "British Museum object metadata supplies date, material, and context.",
+      "operationalBoundary": "No divinatory procedure is extracted.",
+      "workIds": [],
+      "evidenceStatus": "Securely attested artifact",
+      "culturalReview": "Ancient object metadata; no living-practice claim.",
+      "sources": [
+        {
+          "label": "British Museum: oracle bone OA+.156",
+          "url": "https://www.britishmuseum.org/collection/object/A_OA-156",
+          "kind": "Institutional object record"
+        }
+      ]
+    },
+    {
+      "id": "roman-curse-petition-uley",
+      "title": "Roman curse petition from Uley",
+      "practiceType": "curse traditions / petition for divine intervention",
+      "community": "Roman Britain sanctuary context",
+      "period": "Roman period",
+      "region": "Uley, Britain",
+      "description": "The British Museum contextualizes many so-called curse tablets as complaints or petitions, often concerning theft. The record retains that social and legal function.",
+      "distinction": "Petition/curse tradition; not automatically spirit-binding, Satanism, or evidence of harm achieved.",
+      "evidenceSummary": "Institutional artifact catalog and find context.",
+      "operationalBoundary": "The petition is studied historically; no template is generated.",
+      "workIds": [],
+      "evidenceStatus": "Securely attested artifact",
+      "culturalReview": "Ancient object metadata.",
+      "sources": [
+        {
+          "label": "British Museum: Uley curse tablet",
+          "url": "https://www.britishmuseum.org/collection/object/H_1978-0102-131",
+          "kind": "Institutional object record"
+        }
+      ]
+    },
+    {
+      "id": "asmat-ancestor-memorial-bisj",
+      "title": "Asmat bis pole memorial context",
+      "practiceType": "ancestor memorial / funerary rite",
+      "community": "Asmat context described for a collected object; present-day scope not inferred",
+      "period": "Twentieth-century collected object",
+      "region": "Papua, Indonesia",
+      "description": "The Met describes bis poles as a focus of a memorial feast for recently deceased ancestors. Atlas reports that object-specific museum context without universalizing or disclosing restricted practice.",
+      "distinction": "Ancestor memorial practice; not recast as necromancy or demonology.",
+      "evidenceSummary": "Museum object metadata and curatorial context.",
+      "operationalBoundary": "No ceremonial sequence, restricted knowledge, or reproduction beyond the source link is included.",
+      "workIds": [],
+      "evidenceStatus": "Institutional object context; community review still required",
+      "culturalReview": "Protocol review required before any expansion beyond public museum metadata.",
+      "sources": [
+        {
+          "label": "Metropolitan Museum of Art: Bis Pole",
+          "url": "https://www.metmuseum.org/art/collection/search/311719",
+          "kind": "Institutional object record"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-shamanic-spirit-interaction-object-context",
+      "title": "Shamanic spirit interaction in object-specific museum context",
+      "practiceType": "shamanic spirit interaction",
+      "community": "Several distinct Indigenous communities represented by selected museum objects; no universal category is asserted",
+      "period": "Object-specific historical contexts",
+      "region": "Americas",
+      "description": "A Smithsonian exhibition brochure describes selected instruments in relation to healing, spirit assistance, or communication. Atlas preserves each description as museum interpretation and does not generalize it to all Indigenous peoples or living practice.",
+      "distinction": "Object-specific shamanic context; distinct from Western ceremonial magic, demonology, and generic mediumship.",
+      "evidenceSummary": "Public National Museum of the American Indian exhibition interpretation; community-specific verification remains necessary for expansion.",
+      "operationalBoundary": "No ceremony, song, restricted knowledge, or technique is reproduced.",
+      "workIds": [],
+      "evidenceStatus": "Institutional interpretive source; broader claims withheld",
+      "culturalReview": "High sensitivity. Expansion requires community-led review and item-specific provenance.",
+      "sources": [
+        {
+          "label": "National Museum of the American Indian: Beauty Surrounds Us",
+          "url": "https://americanindian.si.edu/sites/1/files/pdf/exhibitions/beautysurroundsus-brochure.pdf",
+          "kind": "Museum exhibition publication"
+        }
+      ]
+    },
+    {
+      "id": "early-modern-demonology-polemic",
+      "title": "Early modern demonology and witch-trial polemic",
+      "practiceType": "demonology / witch-trial polemic",
+      "community": "Late-medieval and early-modern European clerical, legal, and print contexts",
+      "period": "Late fifteenth century onward",
+      "region": "Europe",
+      "description": "The Malleus Maleficarum is evidence for a demonological and prosecutorial textual tradition. Its accusations, misogyny, and supernatural claims are historical source content, not verified descriptions of accused people.",
+      "distinction": "Demonology and persecution history; not proof of witchcraft, Satanism, possession, or ritual crime.",
+      "evidenceSummary": "A dated Wellcome incunable and catalog subject record document the work and its print history.",
+      "operationalBoundary": "No coercive interrogation, accusation template, or harmful procedure is extracted.",
+      "workIds": [
+        "malleus-maleficarum"
+      ],
+      "evidenceStatus": "Secure printed witness; allegations and supernatural claims unverified",
+      "culturalReview": "Persecution and misogyny context must remain visible.",
+      "sources": [
+        {
+          "label": "Wellcome Collection: Malleus maleficarum, 1494",
+          "url": "https://wellcomecollection.org/works/thjfeu2r",
+          "kind": "Institutional catalog record"
+        }
+      ]
+    },
+    {
+      "id": "endor-medium-narrative",
+      "title": "Saul and the medium of Endor",
+      "practiceType": "mediumship / necromancy narrative",
+      "community": "Ancient Israelite textual tradition",
+      "period": "Narrative in 1 Samuel 28; composition and transmission require separate study",
+      "region": "Levant",
+      "description": "A biblical narrative depicts Saul consulting a medium and must be distinguished from evidence for a standardized community ritual.",
+      "distinction": "Textual narrative and prohibition context; not a field report or operational template.",
+      "evidenceSummary": "The public-domain Bible edition preserves the narrative; interpretation and historical practice remain separate questions.",
+      "operationalBoundary": "No procedure is extracted from the narrative.",
+      "workIds": [],
+      "evidenceStatus": "Textually attested narrative; historical-practice inference limited",
+      "culturalReview": "Public textual evidence; community interpretations are not collapsed.",
+      "sources": [
+        {
+          "label": "Project Gutenberg King James Bible",
+          "url": "https://www.gutenberg.org/ebooks/10",
+          "kind": "Public-domain source edition"
+        }
+      ]
+    },
+    {
+      "id": "odyssey-book-11-nekuia",
+      "title": "Odyssey Book 11 nekuia",
+      "practiceType": "literary necromancy / consultation of the dead",
+      "community": "Archaic Greek literary tradition",
+      "period": "First millennium BCE epic tradition",
+      "region": "Greek world",
+      "description": "Odysseus's encounter with the dead is literary evidence for imagined ritual and afterlife, not direct proof of routine historical practice.",
+      "distinction": "Epic narrative; not equated with later grimoire necromancy.",
+      "evidenceSummary": "Perseus provides the Greek epic and scholarly navigation.",
+      "operationalBoundary": "The narrative is described, not reformatted as instructions.",
+      "workIds": [
+        "odyssey"
+      ],
+      "evidenceStatus": "Textually attested literary representation",
+      "culturalReview": "Public classical text; no modern community ritual is inferred.",
+      "sources": [
+        {
+          "label": "Perseus Digital Library: Odyssey, Book 11",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Hom.%20Od.%2011",
+          "kind": "University primary-text edition"
+        }
+      ]
+    },
+    {
+      "id": "medieval-latin-necromancy",
+      "title": "Medieval Latin necromancy manuscripts",
+      "practiceType": "necromancy / spirit invocation",
+      "community": "Medieval European learned-magic milieus",
+      "period": "Medieval Europe",
+      "region": "Western Europe",
+      "description": "Manuscript texts document learned magical literature and allegations about practice; textual survival alone does not show who performed a rite or with what result.",
+      "distinction": "Historically bounded learned-magic category; not projected onto non-European spirit traditions.",
+      "evidenceSummary": "British Library catalog search identifies manuscript holdings without Atlas reproducing instructions.",
+      "operationalBoundary": "Only historical metadata and evidence limits are presented.",
+      "workIds": [
+        "sworn-book-of-honorius"
+      ],
+      "evidenceStatus": "Manuscript-attested literature; practice frequency uncertain",
+      "culturalReview": "Public medieval-manuscript metadata.",
+      "sources": [
+        {
+          "label": "British Library Archives and Manuscripts: necromancy search",
+          "url": "https://searcharchives.bl.uk/?q=necromancy",
+          "kind": "Institutional manuscript catalog"
+        }
+      ]
+    },
+    {
+      "id": "solomonic-spirit-invocation",
+      "title": "Solomonic spirit-invocation literature",
+      "practiceType": "spirit invocation / spirit-binding / ceremonial magic",
+      "community": "Early modern European manuscript compilers and readers",
+      "period": "Sixteenth to eighteenth centuries",
+      "region": "Europe",
+      "description": "Solomonic manuscripts prescribe engagements with spirits, angels, and demons. Atlas records this textual category without affirming the entities or efficacy.",
+      "distinction": "Textual ritual prescription; evidence for a manuscript tradition is not proof of successful supernatural contact.",
+      "evidenceSummary": "British Library catalog records separately identify Sloane MS 3825's Clavicle material and Sloane MS 3648's Lemegeton.",
+      "operationalBoundary": "Names and genres may be cataloged; procedural sequences are not extracted.",
+      "workIds": [
+        "the-key-of-solomon",
+        "lesser-key-of-solomon"
+      ],
+      "evidenceStatus": "Secure manuscript evidence; performance history requires further sources",
+      "culturalReview": "Public institutional metadata.",
+      "sources": [
+        {
+          "label": "British Library: Sloane MS 3825",
+          "url": "https://searcharchives.bl.uk/catalog/040-002116215",
+          "kind": "Institutional manuscript record"
+        },
+        {
+          "label": "British Library: Sloane MS 3648",
+          "url": "https://searcharchives.bl.uk/catalog/040-002116038",
+          "kind": "Institutional manuscript record"
+        }
+      ]
+    },
+    {
+      "id": "renaissance-ceremonial-magic",
+      "title": "Renaissance ceremonial and occult philosophy",
+      "practiceType": "ceremonial magic / angelology / theurgy",
+      "community": "Early modern European learned esotericism",
+      "period": "Sixteenth century",
+      "region": "Europe",
+      "description": "Agrippa's synthesis distinguishes natural, celestial, and ceremonial subjects within Renaissance intellectual history.",
+      "distinction": "Occult philosophy and theurgy are not automatically demon worship or Satanism.",
+      "evidenceSummary": "Institutional catalog records support bibliographic study; modern scholarship is still needed for interpretation.",
+      "operationalBoundary": "Atlas does not reorganize historical passages into a usable ritual sequence.",
+      "workIds": [
+        "three-books-occult-philosophy"
+      ],
+      "evidenceStatus": "Printed-text tradition",
+      "culturalReview": "Historical public text; no living initiatory access is claimed.",
+      "sources": [
+        {
+          "label": "Bibliothèque nationale de France: Agrippa catalog search",
+          "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=De+occulta+philosophia+Agrippa",
+          "kind": "National library catalog"
+        }
+      ]
+    },
+    {
+      "id": "nineteenth-century-spiritualism",
+      "title": "Nineteenth-century Spiritualism and séance mediumship",
+      "practiceType": "mediumship / modern Spiritualism",
+      "community": "Spiritualist movements in Europe and North America",
+      "period": "Nineteenth century onward",
+      "region": "Europe and North America",
+      "description": "Modern Spiritualism developed institutions, publications, séances, and competing investigations; it is distinct from ancient ancestor rites and medieval necromancy.",
+      "distinction": "Modern religious movement and claimed communication practice; not retroactively applied to ancient evidence.",
+      "evidenceSummary": "Library of Congress holdings document historical claims, publications, and investigation without verifying supernatural effects.",
+      "operationalBoundary": "No séance directions or claims of verified contact are provided.",
+      "workIds": [],
+      "evidenceStatus": "Historically documented movement; supernatural claims not verified",
+      "culturalReview": "Public library metadata.",
+      "sources": [
+        {
+          "label": "Library of Congress: Harry Houdini Collection",
+          "url": "https://www.loc.gov/rr/rarebook/coll/122.html",
+          "kind": "Institutional collection guide"
+        },
+        {
+          "label": "Library of Congress: Hockley manuscript record",
+          "url": "https://www.loc.gov/item/2010414646/",
+          "kind": "Institutional manuscript record"
+        }
+      ]
+    },
+    {
+      "id": "delphic-oracle-consultation",
+      "title": "Consultation of the Delphic oracle",
+      "practiceType": "oracle consultation / divination",
+      "community": "Ancient Greek civic and sanctuary contexts",
+      "period": "Ancient Greek and Roman periods",
+      "region": "Delphi, Greece",
+      "description": "Consultation at Delphi belongs to sanctuary, civic, and divinatory history and should not be collapsed into necromancy.",
+      "distinction": "Oracle consultation; distinct from mediumship, ancestor communication, and demonology.",
+      "evidenceSummary": "UNESCO documents the sanctuary's institutional and cultural setting.",
+      "operationalBoundary": "Historical questions and evidence are presented without divination instructions.",
+      "workIds": [],
+      "evidenceStatus": "Archaeological, inscriptional, and literary evidence",
+      "culturalReview": "Public heritage documentation.",
+      "sources": [
+        {
+          "label": "UNESCO World Heritage Centre: Archaeological Site of Delphi",
+          "url": "https://whc.unesco.org/en/list/393/",
+          "kind": "International heritage record"
+        }
+      ]
+    }
+  ],
+  "necromancy": [
+    {
+      "id": "necromancy-k2779",
+      "practiceId": "mesopotamian-necromancy-k2779",
+      "classification": "Artifact-attested necromantic incantation and ritual text",
+      "sourceBasis": "British Museum K.2779 catalog record",
+      "limitation": "One rare textual witness does not establish prevalence or supernatural efficacy.",
+      "sourceUrls": [
+        "https://www.britishmuseum.org/collection/object/W_K-2779"
+      ]
+    },
+    {
+      "id": "necromancy-endor",
+      "practiceId": "endor-medium-narrative",
+      "classification": "Textual necromancy/medium narrative",
+      "sourceBasis": "1 Samuel 28 narrative",
+      "limitation": "Does not establish a standardized Israelite rite or validate spirit contact.",
+      "sourceUrls": [
+        "https://www.gutenberg.org/ebooks/10"
+      ]
+    },
+    {
+      "id": "necromancy-odyssey-11",
+      "practiceId": "odyssey-book-11-nekuia",
+      "classification": "Literary representation of consultation of the dead",
+      "sourceBasis": "Odyssey Book 11",
+      "limitation": "Epic representation is not direct observation of community practice.",
+      "sourceUrls": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Hom.%20Od.%2011"
+      ]
+    },
+    {
+      "id": "necromancy-medieval-latin",
+      "practiceId": "medieval-latin-necromancy",
+      "classification": "Manuscript-attested learned necromancy",
+      "sourceBasis": "Institutional manuscript catalog records",
+      "limitation": "Text possession, copying, allegation, and performance must remain separate.",
+      "sourceUrls": [
+        "https://searcharchives.bl.uk/?q=necromancy"
+      ]
+    }
+  ],
+  "sacrificeEvidence": [
+    {
+      "id": "sacrifice-archaeological-ur-retainers",
+      "title": "Retainer killings in the Royal Cemetery at Ur",
+      "classification": "ARCHAEOLOGICALLY SUPPORTED RITUAL KILLING",
+      "region": "Ur, Mesopotamia",
+      "period": "Early Dynastic III",
+      "caseSummary": "Human remains in elite funerary contexts support deliberate retainer killing. Changing reconstructions of the deaths remain visible, and Atlas does not describe the dead as willing.",
+      "evidence": "Excavation context, skeletal remains, and later reassessment.",
+      "sourceBias": "Early excavation interpretations and later scholarship used different evidence and methods.",
+      "disagreement": "The mechanism, staging, royal identification, and interpretation have been revised; intent or consent is not inferred.",
+      "confidence": "Ritual killing supported; circumstances partly disputed",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.penn.museum/sites/expedition/a-spectacular-discovery/",
+        "https://www.penn.museum/sites/expedition/what-do-we-know-about-the-people-buried-in-the-royal-cemetery/"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-textual-forum-boarium",
+      "title": "Livy's report of the Forum Boarium burials in 216 BCE",
+      "classification": "TEXTUALLY DOCUMENTED PRACTICE",
+      "region": "Rome",
+      "period": "216 BCE event reported in a later Roman history",
+      "caseSummary": "Livy reports the live burial of two couples after Cannae. Atlas records the literary report and its chronology without claiming archaeological confirmation.",
+      "evidence": "Ancient textual report, Livy 22.57.",
+      "sourceBias": "Livy wrote long after the reported event and shaped it within Roman historiography.",
+      "disagreement": "Historical interpretation and terminology require comparison with other evidence.",
+      "confidence": "Text securely attested; event evidence is literary",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Aabo%3Aphi%2C0914%2C00122%3A57"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-disputed-carthage",
+      "title": "Carthage tophet interpretation debate",
+      "classification": "DOCUMENTED BUT INTERPRETATION DISPUTED",
+      "region": "Carthage, Tunisia",
+      "period": "First millennium BCE",
+      "caseSummary": "Cremated infant remains and inscriptions are documented, while cemetery-versus-sacrifice interpretation and frequency remain disputed.",
+      "evidence": "Archaeology, osteology, inscriptions, and ancient literary testimony.",
+      "sourceBias": "Ancient hostile accounts and preservation/age-estimation limits require separate treatment.",
+      "disagreement": "Published scholars reach different conclusions about sacrifice and mortality profiles.",
+      "confidence": "Material evidence secure; interpretation disputed",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0009177",
+        "https://www.cambridge.org/core/journals/antiquity/article/abs/aging-cremated-infants-the-problem-of-sacrifice-at-the-tophet-of-carthage/7F572DE957BE72A634867AC52E6BD2E8"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-hostile-caesar-druids",
+      "title": "Caesar's allegation about Druid sacrifice",
+      "classification": "HOSTILE OUTSIDER ACCUSATION",
+      "region": "Gaul",
+      "period": "First century BCE Roman conquest narrative",
+      "caseSummary": "Caesar alleges sacrificial killings in Gallic War 6.16. Atlas presents this as a conqueror's report, not verified generic Druid history.",
+      "evidence": "Roman literary allegation.",
+      "sourceBias": "Caesar was a military conqueror writing about peoples he fought; no ancient image securely depicts a Druid.",
+      "disagreement": "The account's rhetoric, sources, and relationship to archaeological evidence remain debated.",
+      "confidence": "Allegation securely attested; practice not established by this source alone",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0001%3Abook%3D6%3Achapter%3D16",
+        "https://www.britishmuseum.org/collection/term/THES236611"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-polemic-blood-libel",
+      "title": "Medieval blood-libel accusation",
+      "classification": "RELIGIOUS POLEMIC",
+      "region": "Europe",
+      "period": "Medieval period onward",
+      "caseSummary": "Blood libel falsely accused Jews of ritual murder. Atlas records the polemic and its consequences while marking the accusation false.",
+      "evidence": "Historical documentation of a false accusation and persecution.",
+      "sourceBias": "The allegation is antisemitic propaganda, not evidence of Jewish ritual practice.",
+      "disagreement": "No evidentiary ambiguity is suggested about the accusation's falsity.",
+      "confidence": "False accusation historically documented",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://encyclopedia.ushmm.org/content/en/article/blood-libel"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-colonial-florentine-codex",
+      "title": "Colonial-era descriptions of Mexica sacrifice",
+      "classification": "COLONIAL ACCOUNT",
+      "region": "Central Mexico",
+      "period": "Sixteenth century",
+      "caseSummary": "The Florentine Codex preserves Nahua testimony through a colonial Franciscan project. Its images and texts require attention to Indigenous collaborators, translation, colonial power, and genre.",
+      "evidence": "Bilingual colonial manuscript testimony and images.",
+      "sourceBias": "Created within a colonial missionary setting; neither discarded wholesale nor read transparently.",
+      "disagreement": "Translation, editorial mediation, event scale, and representativeness need source-specific review.",
+      "confidence": "Manuscript evidence secure; interpretation context-dependent",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.loc.gov/item/2021667847/",
+        "https://florentinecodex.getty.edu/en/"
+      ],
+      "workIds": [
+        "florentine-codex"
+      ]
+    },
+    {
+      "id": "sacrifice-legend-iphigenia",
+      "title": "Iphigenia sacrificial tradition",
+      "classification": "LATER LEGEND",
+      "region": "Greek Mediterranean",
+      "period": "Ancient mythic and dramatic traditions with later reception",
+      "caseSummary": "The sacrifice or substitution of Iphigenia appears in changing mythic and literary versions; it is not direct evidence for a specific historical killing.",
+      "evidence": "Literary and artistic reception.",
+      "sourceBias": "Versions serve different dramatic, ritual, and interpretive purposes.",
+      "disagreement": "Variant endings and relationships to historical ritual must remain visible.",
+      "confidence": "Literary tradition secure; historical event not established",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.britishmuseum.org/collection/object/G_1865-0103-21?selectedImageId=1496117001",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0112"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-modern-liberia-reports",
+      "title": "Modern reports of alleged ritual killings in Liberia",
+      "classification": "MODERN CLAIM",
+      "region": "Liberia",
+      "period": "Early twenty-first century reporting",
+      "caseSummary": "United Nations documents report allegations and calls for investigation. Atlas does not assert guilt, adjudication, or a generalized religious or ethnic practice.",
+      "evidence": "International human-rights reporting of alleged cases and investigations.",
+      "sourceBias": "The sources use allegation language; reporting is not a criminal judgment.",
+      "disagreement": "Case outcomes and evidentiary status require further reviewed sources.",
+      "confidence": "Reported allegation; adjudication unknown",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://digitallibrary.un.org/record/1312127/files/CCPR_C_LBR_Q_1-EN.pdf",
+        "https://digitallibrary.un.org/record/556201/files/S_2005_560-EN.pdf"
+      ],
+      "workIds": []
+    },
+    {
+      "id": "sacrifice-conspiracy-satanic-panic",
+      "title": "Satanic ritual-abuse and sacrifice conspiracy claims",
+      "classification": "UNVERIFIED CONSPIRACY CLAIM",
+      "region": "United States and transnational media",
+      "period": "Late twentieth century onward",
+      "caseSummary": "Claims of organized secret networks committing ritual sacrifice are recorded as a modern moral-panic and investigative-history topic, not as established criminal evidence.",
+      "evidence": "Law-enforcement review of allegations and investigative indicators.",
+      "sourceBias": "Reports must distinguish allegations, substantiated crimes, suggestive symbols, and repeated media narratives.",
+      "disagreement": "Individual crimes require case evidence; broad hidden-network claims lack verified support in the cited review.",
+      "confidence": "Claim documented; network allegation unverified",
+      "graphicContent": false,
+      "sourceUrls": [
+        "https://www.ojp.gov/ncjrs/virtual-library/abstracts/investigators-guide-allegations-ritual-child-abuse"
+      ],
+      "workIds": []
+    }
+  ],
+  "organizations": [
+    {
+      "id": "knights-templar",
+      "title": "Knights Templar",
+      "aliases": [
+        "Poor Fellow-Soldiers of Christ and of the Temple of Solomon"
+      ],
+      "founding": "About 1119; early chronology remains approximate",
+      "founders": "Historical formation associated with Hugues de Payens and companions; exact early development requires source review",
+      "geography": "Latin Christian Europe and eastern Mediterranean",
+      "purpose": "Medieval religious military order",
+      "context": "A Catholic military order in crusading and pilgrimage contexts, not retroactively a modern secret society.",
+      "structure": "Order with rule, officers, houses, and ecclesiastical status",
+      "evidenceStatus": "Historically documented organization",
+      "historicalBoundary": "Suppressed in 1312; later groups claiming Templar succession are not automatically the medieval order.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Later neo-Templar and fraternal claimants require separate records"
+      ],
+      "legendBoundary": "Treasure, occult-survival, and global-control stories belong to later reception unless independently evidenced.",
+      "sources": [
+        {
+          "label": "Bibliothèque nationale de France authority: Knights Templar",
+          "url": "https://catalogue.bnf.fr/ark%3A/12148/cb11877777b.public",
+          "kind": "National library authority record"
+        },
+        {
+          "label": "UK National Archives: religious houses and lands",
+          "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/religious-houses-lands-1000-1530/",
+          "kind": "National archival guide"
+        }
+      ]
+    },
+    {
+      "id": "freemasonry",
+      "title": "Freemasonry",
+      "aliases": [
+        "Freemasons"
+      ],
+      "founding": "Organized English Grand Lodge baseline 1717; documentary constitution baseline 1723; lodge traditions predate both",
+      "founders": "No single founder",
+      "geography": "Originating in Britain with global development",
+      "purpose": "Fraternal organization using moral instruction, ritual, and lodge structures",
+      "context": "Historically documented fraternity with diverse jurisdictions; not one centralized world organization.",
+      "structure": "Grand lodges and local lodges with jurisdiction-specific governance",
+      "evidenceStatus": "Historically documented organization family",
+      "historicalBoundary": "Claims about any lodge or member require jurisdictional records and dates.",
+      "successors": [],
+      "claimedSuccessors": [],
+      "legendBoundary": "Gestures, architecture, or symbols alone do not prove membership or control.",
+      "sources": [
+        {
+          "label": "United Grand Lodge of England: 1723 Constitutions",
+          "url": "https://www.ugle.org.uk/discover-freemasonry/1723-constitutions",
+          "kind": "Institutional history"
+        },
+        {
+          "label": "Wellcome Collection: Constitutions of the Free-Masons",
+          "url": "https://preview.wellcomecollection.org/works/u45qheak",
+          "kind": "Institutional catalog"
+        }
+      ]
+    },
+    {
+      "id": "bavarian-illuminati",
+      "title": "Bavarian Illuminati",
+      "aliases": [
+        "Order of the Illuminati",
+        "Illuminatenorden"
+      ],
+      "founding": "1776",
+      "founders": "Adam Weishaupt",
+      "geography": "Bavaria and parts of German-speaking Europe",
+      "purpose": "Enlightenment-era secret association",
+      "context": "A documented late-eighteenth-century organization distinct from later global Illuminati conspiracy traditions.",
+      "structure": "Initiatory grades and cells described in surviving organizational papers",
+      "evidenceStatus": "Historically documented, suppressed organization",
+      "historicalBoundary": "Bavarian authorities banned and suppressed the order in 1784–1785; continuity claims need independent evidence.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Modern groups using Illuminati names are separate identities"
+      ],
+      "legendBoundary": "Claims of continuous global rule, entertainment control, or hidden sacrifice remain contested-history claims.",
+      "sources": [
+        {
+          "label": "Bavarikon: Illuminati source record",
+          "url": "https://www.bavarikon.de/object/bav%3ABSB-MDZ-00000BSB10381782",
+          "kind": "State cultural portal"
+        },
+        {
+          "label": "Bavarian State Library: 1787 Illuminati documents",
+          "url": "https://www.digitale-sammlungen.de/de/details/bsb11099015",
+          "kind": "Institutional digital collection"
+        }
+      ]
+    },
+    {
+      "id": "skull-and-bones",
+      "title": "Skull and Bones",
+      "aliases": [
+        "The Order",
+        "Russell Trust Association"
+      ],
+      "founding": "1832; Russell Trust incorporated 1856",
+      "founders": "William Huntington Russell and Alphonso Taft",
+      "geography": "Yale University, New Haven, Connecticut",
+      "purpose": "Senior collegiate society",
+      "context": "A documented Yale society; secrecy about internal activity does not validate broad political-control claims.",
+      "structure": "Selective senior society with an incorporated alumni body",
+      "evidenceStatus": "Historically documented organization",
+      "historicalBoundary": "Membership and activities require archival or reliable biographical evidence; Atlas publishes no roster from this seed.",
+      "successors": [],
+      "claimedSuccessors": [],
+      "legendBoundary": "Photographs, family relationships, or symbols alone do not establish a specific claim.",
+      "sources": [
+        {
+          "label": "Yale Archives: Russell Trust Association records",
+          "url": "https://hdl.handle.net/10079/fa/mssa.ru.1135",
+          "kind": "University archival finding aid"
+        }
+      ]
+    },
+    {
+      "id": "rosicrucian-traditions",
+      "title": "Rosicrucian manifesto traditions",
+      "aliases": [
+        "Rosicrucianism"
+      ],
+      "founding": "Early seventeenth-century manifesto tradition; later organizations are distinct",
+      "founders": "Anonymous authors of the early manifestos; later groups have their own founders",
+      "geography": "Europe with later global organizations",
+      "purpose": "Esoteric reform, philosophical, and initiatory traditions",
+      "context": "A manifesto and reception tradition cannot be treated as one continuously documented organization.",
+      "structure": "Early textual brotherhood claims and multiple later independent organizations",
+      "evidenceStatus": "Documented textual tradition; organizational continuities vary",
+      "historicalBoundary": "Each later Rosicrucian body requires its own identity and source chain.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Multiple later orders claim inspiration or succession"
+      ],
+      "legendBoundary": "Claimed ancient or continuous descent is recorded as a claim unless documented.",
+      "sources": [
+        {
+          "label": "British Library: Rosicrucian manuscript record",
+          "url": "https://searcharchives.bl.uk/catalog/040-002107359",
+          "kind": "Institutional manuscript catalog"
+        },
+        {
+          "label": "Wellcome Collection: Fama and Confessio edition",
+          "url": "https://preview.wellcomecollection.org/works/p2tj427p/items?canvas=5",
+          "kind": "Institutional digital collection"
+        }
+      ]
+    },
+    {
+      "id": "hermetic-order-golden-dawn",
+      "title": "Hermetic Order of the Golden Dawn",
+      "aliases": [
+        "Golden Dawn"
+      ],
+      "founding": "1887–1888",
+      "founders": "William Wynn Westcott, Samuel Liddell MacGregor Mathers, and William Robert Woodman",
+      "geography": "Britain with later derivative bodies",
+      "purpose": "Initiatory organization studying ceremonial magic and Hermetic subjects",
+      "context": "A documented late-Victorian order with later schisms and successor claims.",
+      "structure": "Temples and graded initiation",
+      "evidenceStatus": "Historically documented organization",
+      "historicalBoundary": "Original order, schisms, and modern namesakes remain separate.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Modern Golden Dawn claimants require separate provenance"
+      ],
+      "legendBoundary": "Literary influence or possession of symbols is not membership evidence.",
+      "sources": [
+        {
+          "label": "Queen's College Oxford: Golden Dawn archival history",
+          "url": "https://www.queens.ox.ac.uk/blog/secrets-from-the-stacks/",
+          "kind": "University collection essay"
+        },
+        {
+          "label": "National Library of Ireland: Golden Dawn manuscript record",
+          "url": "https://catalogue.nli.ie/Record/vtls000823942",
+          "kind": "National library catalog"
+        }
+      ]
+    },
+    {
+      "id": "ordo-templi-orientis",
+      "title": "Ordo Templi Orientis",
+      "aliases": [
+        "O.T.O."
+      ],
+      "founding": "Early twentieth century; early chronology remains under review",
+      "founders": "Carl Kellner and Theodor Reuss are central to its early history",
+      "geography": "Europe with international development",
+      "purpose": "Initiatory and fraternal esoteric organization; later closely associated with Thelema",
+      "context": "Documented organization whose early history and later Thelemic development require chronological separation.",
+      "structure": "Degree-based initiatory body",
+      "evidenceStatus": "Historically documented organization",
+      "historicalBoundary": "Competing succession claims and contemporary branches do not become one identity automatically.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Competing successor bodies require separate records"
+      ],
+      "legendBoundary": "A person's interest in Crowley or Thelema is not O.T.O. membership evidence.",
+      "sources": [
+        {
+          "label": "Warburg Institute: Yorke Collection",
+          "url": "https://warburg.sas.ac.uk/library-collections/warburg-institute-archive/archive-collections/yorke-collection",
+          "kind": "University archive collection"
+        },
+        {
+          "label": "Warburg Institute: Yorke Microfilm Index",
+          "url": "https://warburg.sas.ac.uk/sites/default/files/Yorke%20Microfilm%20Index.pdf",
+          "kind": "Archival collection index"
+        }
+      ]
+    },
+    {
+      "id": "martinist-organizations",
+      "title": "Ordre Martiniste and related Martinist organizations",
+      "aliases": [
+        "Martinism"
+      ],
+      "founding": "Late nineteenth-century organization; exact formation chronology remains source-dependent",
+      "founders": "Papus (Gérard Encausse) and Augustin Chaboseau are associated with the modern order; antecedent figures are not the same organization",
+      "geography": "France with international branches",
+      "purpose": "Christian esoteric and initiatory study",
+      "context": "Teachings associated with Saint-Martin and Martinez de Pasqually must be distinguished from later formal orders.",
+      "structure": "Multiple orders and lineages",
+      "evidenceStatus": "Documented movement and organizations; lineages vary",
+      "historicalBoundary": "Intellectual influence, initiation, and institutional succession are separate relationships.",
+      "successors": [],
+      "claimedSuccessors": [
+        "Multiple modern Martinist orders"
+      ],
+      "legendBoundary": "Lineage claims need documentary support and are not resolved by shared symbols.",
+      "sources": [
+        {
+          "label": "Bibliothèque nationale de France authority: Ordre Martiniste",
+          "url": "https://catalogue.bnf.fr/ark%3A/12148/cb11995961m",
+          "kind": "National library authority record"
+        },
+        {
+          "label": "CCFr: Papus archive catalog",
+          "url": "https://ccfr.bnf.fr/portailccfr/ark%3A/16871/006FRFONDS-693836101-3946",
+          "kind": "National archival catalog"
+        }
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "id": "the-key-of-solomon",
+      "title": "Key of Solomon / Clavicula Salomonis",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / Solomonic ritual literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1400,
+      "endDate": 1600,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin",
+        "Italian",
+        "French",
+        "English"
+      ],
+      "author": "Anonymous; pseudonymously attributed to Solomon",
+      "description": "A family of manuscript texts rather than one stable ancient original. Sloane MS 3825 contains a French Clavicle of Solomon dated 1572.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "British Library Sloane MS 3825 catalogs a French Clavicle of Solomon at ff. 100–179, dated 1572, within a later magical miscellany.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116215",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116215"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Greater Key of Solomon",
+        "Clavicula Salomonis"
+      ]
+    },
+    {
+      "id": "book-of-abramelin",
+      "title": "Book of Abramelin",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / initiatory ritual literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Central Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "German"
+      ],
+      "author": "Anonymous; framed as Abraham of Worms",
+      "description": "An early modern work known through differing manuscript and printed versions. The linked Herzog August Bibliothek witness is cataloged as a seventeenth-century German manuscript; Atlas does not project the text's claimed 1438 date or a Hebrew original into the witness chronology.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "Herzog August Bibliothek Cod. Guelf. 47.13 Aug. 4° is a seventeenth-century German paper manuscript containing the work at ff. 1–31v.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://diglib.hab.de/?catalog=Heinemann&db=mss&id=47-13-aug-4f&list=ms&mode=print",
+      "metadataSources": [
+        "https://diglib.hab.de/?catalog=Heinemann&db=mss&id=47-13-aug-4f&list=ms&mode=print"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "The Book of the Sacred Magic of Abramelin the Mage"
+      ]
+    },
+    {
+      "id": "picatrix",
+      "title": "Picatrix / Ghāyat al-Ḥakīm",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Astrological magic and philosophical esotericism",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1000,
+      "endDate": 1100,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Al-Andalus",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Arabic",
+        "Latin"
+      ],
+      "author": "Anonymous; attribution disputed",
+      "description": "The Latin Picatrix derives from the Arabic Ghāyat al-Ḥakīm. Work identity, translation history, and manuscript witnesses must remain distinct.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=Picatrix",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=Picatrix"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Ghāyat al-Ḥakīm"
+      ]
+    },
+    {
+      "id": "corpus-hermeticum",
+      "title": "Corpus Hermeticum",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Hermetic philosophical and religious literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 100,
+      "endDate": 300,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Roman Egypt",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Greek"
+      ],
+      "author": "Multiple anonymous authors; attributed in the texts to Hermes Trismegistus",
+      "description": "A collection of Greek philosophical and religious dialogues from Roman-period Egypt, transmitted separately from the later medieval and early modern grimoires.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=%22Corpus+Hermeticum%22",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=%22Corpus+Hermeticum%22"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "asclepius",
+      "title": "Asclepius",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Hermetic philosophical and religious literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 100,
+      "endDate": 400,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Roman Mediterranean",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin",
+        "Greek"
+      ],
+      "author": "Anonymous; attributed to Hermes Trismegistus",
+      "description": "A Hermetic dialogue preserved completely in Latin, with Greek and Coptic evidence for parts of the tradition.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=Hermetica+Asclepius",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=Hermetica+Asclepius"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "emerald-tablet",
+      "title": "Emerald Tablet",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Alchemical and Hermetic literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 700,
+      "endDate": 900,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Arabic-speaking world",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Arabic",
+        "Latin"
+      ],
+      "author": "Anonymous; pseudonymously attributed to Hermes Trismegistus",
+      "description": "A short Hermetic-alchemical text with Arabic attestations and a long Latin reception. Later legends about extreme antiquity remain distinct from manuscript evidence.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=%22Emerald+Tablet%22+Hermes",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=%22Emerald+Tablet%22+Hermes"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Tabula Smaragdina"
+      ]
+    },
+    {
+      "id": "paradise-lost",
+      "title": "Paradise Lost",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1667,
+      "endDate": 1674,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "John Milton",
+      "description": "Milton's epic poem on the fall, temptation, and redemption. It is influential religious literature, explicitly not scripture.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Public-domain English edition (USA)",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/20",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/20"
+      ],
+      "editionId": "pg-20",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "cain-by-lord-byron",
+      "title": "Cain: A Mystery",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1821,
+      "endDate": 1821,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Lord Byron",
+      "description": "Byron's dramatic poem reworking Cain and Abel. Its biblical characters do not make it scripture.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Metadata only; public-domain source linked where available; scholarly review pending",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.loc.gov/books/?q=Byron+Cain+a+mystery",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=Byron+Cain+a+mystery"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature",
+      "alternateTitles": [
+        "Cain by Lord Byron"
+      ]
+    },
+    {
+      "id": "revolt-of-the-angels",
+      "title": "The Revolt of the Angels",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1914,
+      "endDate": 1914,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "France",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "French"
+      ],
+      "author": "Anatole France",
+      "description": "A satirical novel using angelic rebellion to explore power, religion, and revolution. It is modern literature, not a doctrinal or scriptural source.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Metadata only; public-domain source linked where available; scholarly review pending",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/32596",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/32596"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    }
+  ],
+  "records": [
+    {
+      "id": "lesser-key-of-solomon",
+      "title": "Lesser Key of Solomon / Lemegeton",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / composite manuscript tradition",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous; traditionally attributed to Solomon",
+      "description": "A seventeenth-century English compilation conventionally divided into five books. Its manuscript witnesses and later printed editions vary; it is not one ancient Solomonic autograph.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "British Library Sloane MS 3648 catalogs a French Lesser Key of Solomon (Lemegeton) at ff. 1–47, dated 1572. The catalog does not independently inventory every later conventional sub-book.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116038",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Lemegeton",
+        "Clavicula Salomonis Regis"
+      ]
+    },
+    {
+      "id": "ars-goetia",
+      "title": "Ars Goetia",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / spirit catalog and conjuration literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous compiler",
+      "description": "The first book conventionally printed within the Lemegeton. Atlas treats its catalog and conjuration material as historical textual evidence, not as verified demonology or an operational guide.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No sub-book-specific witness is linked. Sloane MS 3648 catalogs a Lemegeton section, but that record alone does not establish this later conventional subdivision in the volume.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116038",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "ars-theurgia-goetia",
+      "title": "Ars Theurgia-Goetia",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / spirit-contact literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous compiler",
+      "description": "The second Lemegeton book, distinguished from the Ars Goetia rather than flattened into a single category.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No sub-book-specific witness is linked. Sloane MS 3648 catalogs a Lemegeton section, but that record alone does not establish this later conventional subdivision in the volume.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116038",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "ars-paulina",
+      "title": "Ars Paulina",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / angelic and astrological ritual literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous compiler",
+      "description": "The third Lemegeton book, with angelic and astrological material; the label is descriptive of the text, not an efficacy claim.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No sub-book-specific witness is linked. Sloane MS 3648 catalogs a Lemegeton section, but that record alone does not establish this later conventional subdivision in the volume.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116038",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "ars-almadel",
+      "title": "Ars Almadel",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / angelic ritual literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1600,
+      "endDate": 1700,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Anonymous compiler",
+      "description": "The fourth Lemegeton book, transmitted as part of a changing manuscript compilation.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No sub-book-specific witness is linked. Sloane MS 3648 catalogs a Lemegeton section, but that record alone does not establish this later conventional subdivision in the volume.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/catalog/040-002116038",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "ars-notoria",
+      "title": "Ars Notoria",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Medieval ritual and devotional magic",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1200,
+      "endDate": 1300,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Western Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Anonymous; pseudonymously Solomonic",
+      "description": "A medieval Latin tradition of prayers and figures aimed at acquiring knowledge. Its separate medieval transmission predates its placement as a fifth Lemegeton book in some later witnesses.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/?q=%22Ars%20notoria%22",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/?q=%22Ars%20notoria%22"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "testament-of-solomon",
+      "title": "Testament of Solomon",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Pseudepigraphal demonological literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 100,
+      "endDate": 500,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Eastern Mediterranean",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Greek"
+      ],
+      "author": "Anonymous; pseudonymously attributed to Solomon",
+      "description": "A late antique pseudepigraphal work in which Solomon interrogates and controls demons. It is distinct from medieval Solomonic grimoires.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=%22Testament+of+Solomon%22",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=%22Testament+of+Solomon%22"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "sworn-book-of-honorius",
+      "title": "Sworn Book of Honorius / Liber Juratus",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Medieval ritual magic",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1200,
+      "endDate": 1400,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Western Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Anonymous; pseudonymously attributed to Honorius of Thebes",
+      "description": "A medieval Latin ritual-magic tradition preserved in multiple manuscripts and associated with an oath-framed transmission narrative.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://searcharchives.bl.uk/?q=%22Liber%20juratus%22",
+      "metadataSources": [
+        "https://searcharchives.bl.uk/?q=%22Liber%20juratus%22"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Liber Juratus Honorii"
+      ]
+    },
+    {
+      "id": "heptameron",
+      "title": "Heptameron",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Renaissance ritual magic",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1500,
+      "endDate": 1600,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Attributed to Pietro d'Abano; attribution disputed",
+      "description": "A short ritual-magic text organized by days of the week and printed with early modern magical collections; attribution to Pietro d'Abano is not secure.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=Heptameron+Pietro+d%27Abano",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=Heptameron+Pietro+d%27Abano"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "arbatel-of-magic",
+      "title": "Arbatel of Magic",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Renaissance Christian esotericism",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1575,
+      "endDate": 1575,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Basel",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Anonymous",
+      "description": "A Latin aphoristic work first printed in 1575, notable for its Christian moral framing and Olympic spirits. It should not be reduced to Satanism.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=Arbatel+de+magia+veterum",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=Arbatel+de+magia+veterum"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Arbatel de magia veterum"
+      ]
+    },
+    {
+      "id": "grimorium-verum",
+      "title": "Grimorium Verum",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / spirit-contact literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1700,
+      "endDate": 1800,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Western Europe",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "French",
+        "Italian"
+      ],
+      "author": "Anonymous; pseudonymous attributions",
+      "description": "An early modern grimoire with a complicated publication and attribution history; asserted dates on title pages require bibliographic caution.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=Grimorium+Verum",
+      "metadataSources": [
+        "https://catalogue.bnf.fr/rechercher.do?motRecherche=Grimorium+Verum"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "grand-grimoire",
+      "title": "Grand Grimoire",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Grimoire / spirit-contact literature",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1700,
+      "endDate": 1800,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "France",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "French"
+      ],
+      "author": "Anonymous",
+      "description": "A French grimoire tradition also associated with the title Dragon rouge. Later print history must not be projected into antiquity.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://catalogue.bnf.fr/ark:/12148/cb39310596k",
+      "metadataSources": [
+        "https://catalogue.bnf.fr/ark:/12148/cb39310596k"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Le Dragon rouge"
+      ]
+    },
+    {
+      "id": "sixth-seventh-books-of-moses",
+      "title": "Sixth and Seventh Books of Moses",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Printed grimoire / vernacular magic",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1800,
+      "endDate": 1850,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Germany",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "German",
+        "English"
+      ],
+      "author": "Anonymous compiler",
+      "description": "A nineteenth-century printed work presenting itself as additional Mosaic books. The claimed ancient framing does not establish ancient composition.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://www.loc.gov/books/?q=%22Sixth+and+Seventh+Books+of+Moses%22",
+      "metadataSources": [
+        "https://www.loc.gov/books/?q=%22Sixth+and+Seventh+Books+of+Moses%22"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "dictionnaire-infernal",
+      "title": "Dictionnaire Infernal",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Demonology / illustrated reference and cultural history",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1818,
+      "endDate": 1863,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "France",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "French"
+      ],
+      "author": "Jacques Collin de Plancy",
+      "description": "A repeatedly revised French encyclopedia of demons, superstitions, and related lore. Its famous illustrations belong to later editions and are cultural artifacts, not entity evidence.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k5754923d",
+      "metadataSources": [
+        "https://gallica.bnf.fr/ark:/12148/bpt6k5754923d"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric"
+    },
+    {
+      "id": "malleus-maleficarum",
+      "title": "Malleus Maleficarum",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Demonology / witch-trial polemic and legal history",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1486,
+      "endDate": 1487,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Speyer",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Heinrich Kramer; historical attribution to Jacob Sprenger is disputed",
+      "description": "An influential late-fifteenth-century polemic about witchcraft and prosecution. Atlas contextualizes its misogyny, coercion, and role in persecution; its allegations are not treated as verified events.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "Wellcome Collection EPB/INC/4.a.12 is a repository-cataloged Nuremberg incunable printed by Anton Koberger in 1494.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://wellcomecollection.org/works/thjfeu2r",
+      "metadataSources": [
+        "https://wellcomecollection.org/works/thjfeu2r"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "Hammer of Witches"
+      ]
+    },
+    {
+      "id": "three-books-occult-philosophy",
+      "title": "Three Books of Occult Philosophy",
+      "traditionId": "gnostic-hermetic-esoteric",
+      "tradition": "Esoteric and occult literature",
+      "category": "Renaissance occult philosophy",
+      "canonStatus": "Historical esoteric work; not classified as scripture and not evidence that described operations are effective",
+      "startDate": 1531,
+      "endDate": 1533,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Cologne",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Latin"
+      ],
+      "author": "Heinrich Cornelius Agrippa",
+      "description": "Agrippa's synthesis of natural, celestial, and ceremonial magic. It is classified as Renaissance intellectual history, not simply as Satanic literature.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "No physical witness has yet been linked to this work record.",
+      "themes": [
+        "ritual",
+        "magic"
+      ],
+      "sourceStatus": "Source-linked metadata; scholarly review pending; no operational instructions extracted",
+      "copyright": "Metadata only; linked repository terms govern source access",
+      "sourceUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=De+occulta+philosophia+Agrippa",
+      "metadataSources": [
+        "https://catalogue.bnf.fr/rechercher.do?motRecherche=De+occulta+philosophia+Agrippa"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Occult / esoteric",
+      "alternateTitles": [
+        "De occulta philosophia libri tres"
+      ]
+    },
+    {
+      "id": "divine-comedy",
+      "title": "Divine Comedy",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1308,
+      "endDate": 1320,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Italy",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Italian"
+      ],
+      "author": "Dante Alighieri",
+      "description": "Dante's three-part narrative poem—Inferno, Purgatorio, and Paradiso—presented as literature and cultural influence, not scripture.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1004",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/1004"
+      ],
+      "editionId": "pg-1004-phase12",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "inferno",
+      "title": "Inferno",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1307,
+      "endDate": 1314,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Italy",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Italian"
+      ],
+      "author": "Dante Alighieri",
+      "description": "The first cantica of the Divine Comedy, a poetic journey through Hell.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Metadata only; public-domain source linked where available; scholarly review pending",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1001",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/1001"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "purgatorio",
+      "title": "Purgatorio",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1308,
+      "endDate": 1316,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Italy",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Italian"
+      ],
+      "author": "Dante Alighieri",
+      "description": "The second cantica of the Divine Comedy, a poetic ascent of Mount Purgatory.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Metadata only; public-domain source linked where available; scholarly review pending",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1004",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/1004"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "paradiso",
+      "title": "Paradiso",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1316,
+      "endDate": 1321,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Italy",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "Italian"
+      ],
+      "author": "Dante Alighieri",
+      "description": "The third cantica of the Divine Comedy, a poetic journey through the celestial spheres.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Metadata only; public-domain source linked where available; scholarly review pending",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/1004",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/1004"
+      ],
+      "editionId": null,
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "faust-part-one",
+      "title": "Faust, Part One",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1808,
+      "endDate": 1808,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Germany",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "German"
+      ],
+      "author": "Johann Wolfgang von Goethe",
+      "description": "Goethe's dramatic poem about knowledge, striving, desire, and a wager with Mephistopheles.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/14591",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/14591"
+      ],
+      "editionId": "pg-14591-phase12",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "faust-part-two",
+      "title": "Faust, Part Two",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1832,
+      "endDate": 1832,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "Germany",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "German"
+      ],
+      "author": "Johann Wolfgang von Goethe",
+      "description": "The second part of Goethe's dramatic poem, published posthumously.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2230",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/2230"
+      ],
+      "editionId": "pg-2230-phase12",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    },
+    {
+      "id": "doctor-faustus",
+      "title": "The Tragical History of Doctor Faustus",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1592,
+      "endDate": 1604,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "Christopher Marlowe",
+      "description": "An early modern play surviving in materially different 1604 and 1616 printed versions; the bundled edition identifies its quarto.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/779",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/779"
+      ],
+      "editionId": "pg-779-phase12",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature",
+      "alternateTitles": [
+        "Doctor Faustus"
+      ]
+    },
+    {
+      "id": "paradise-regained",
+      "title": "Paradise Regained",
+      "traditionId": "religious-literature",
+      "tradition": "Literature / Cultural Influence",
+      "category": "LITERATURE / CULTURAL INFLUENCE — NON-SCRIPTURAL",
+      "canonStatus": "Literary work; explicitly non-scriptural",
+      "startDate": 1671,
+      "endDate": 1671,
+      "dateConfidence": "Approximate work chronology; consult the linked catalog or edition for witness-specific dating",
+      "region": "England",
+      "lat": null,
+      "lng": null,
+      "languages": [
+        "English"
+      ],
+      "author": "John Milton",
+      "description": "Milton's shorter epic poem about the temptation of Jesus in the wilderness.",
+      "historicalContext": "Atlas presents this as literature and historical evidence. Descriptions of supernatural beings, magic, witchcraft, or cosmology report the source's contents and reception; they do not verify supernatural efficacy.",
+      "manuscripts": "See linked witness records where available; a digitized edition is not itself the medieval or authorial manuscript.",
+      "themes": [
+        "afterlife",
+        "evil",
+        "salvation"
+      ],
+      "sourceStatus": "Complete public-domain literary edition available",
+      "copyright": "Work is public domain; edition rights are recorded separately",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/58",
+      "metadataSources": [
+        "https://www.gutenberg.org/ebooks/58"
+      ],
+      "editionId": "pg-58-phase12",
+      "confidence": "Unreviewed",
+      "subcollection": "Religious literature"
+    }
+  ]
+}

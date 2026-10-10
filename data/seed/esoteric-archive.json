@@ -1,0 +1,189 @@
+{
+  "witnesses": [
+    {
+      "id": "hab-47-13-aug-4-abramelin",
+      "title": "Cod. Guelf. 47.13 Aug. 4°: Book of Abramelin",
+      "workIds": [
+        "book-of-abramelin"
+      ],
+      "recensionId": null,
+      "type": "Bound manuscript miscellany",
+      "inventoryNumber": "Cod. Guelf. 47.13 Aug. 4°",
+      "repository": "Herzog August Bibliothek Wolfenbüttel",
+      "discoveryLocation": null,
+      "currentLocation": "Herzog August Bibliothek, Wolfenbüttel",
+      "dateStart": 1600,
+      "dateEnd": 1699,
+      "dateNotes": "The repository catalog dates the paper manuscript to the seventeenth century. The text's internal claim of 1438 is not used as the witness date.",
+      "material": "Paper; 428 leaves; parchment binding",
+      "languages": [
+        "German"
+      ],
+      "scripts": [
+        "Latin"
+      ],
+      "condition": null,
+      "completeness": "The Abramelin work occupies ff. 1–31v; the remainder contains Jewish prayers and a register.",
+      "provenance": "The catalog records a 1775 loan to Duke Friedrich August of Brunswick-Oels and return from the Berlin state archive in 1858.",
+      "digitizationUrl": null,
+      "iiifManifest": null,
+      "rights": "Catalog metadata public; physical and reproduction access governed by the Herzog August Bibliothek.",
+      "sources": [
+        "https://diglib.hab.de/?catalog=Heinemann&db=mss&id=47-13-aug-4f&list=ms&mode=print"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A repository-cataloged seventeenth-century German manuscript witness. Atlas keeps its physical date separate from the narrative date claimed by the work.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bl-sloane-3648-lemegeton",
+      "title": "Sloane MS 3648: Lesser Key of Solomon (Lemegeton)",
+      "workIds": [
+        "lesser-key-of-solomon"
+      ],
+      "recensionId": null,
+      "type": "Bound manuscript miscellany",
+      "inventoryNumber": "Sloane MS 3648",
+      "repository": "British Library",
+      "discoveryLocation": null,
+      "currentLocation": "British Library, London",
+      "dateStart": 1572,
+      "dateEnd": 1699,
+      "dateNotes": "The repository catalogs ff. 1–47 as the French Lesser Key of Solomon (Lemegeton), dated 1572, within a manuscript whose other contents extend through the seventeenth century.",
+      "material": null,
+      "languages": [
+        "French",
+        "English"
+      ],
+      "scripts": [
+        "Latin"
+      ],
+      "condition": null,
+      "completeness": "The catalog identifies the Lemegeton section at ff. 1–47; Atlas does not infer that it contains every later standardized subdivision.",
+      "provenance": "Sloane Collection; no earlier ownership chain is asserted here.",
+      "digitizationUrl": null,
+      "iiifManifest": null,
+      "rights": "Catalog metadata public; physical and reproduction access governed by the British Library.",
+      "sources": [
+        "https://searcharchives.bl.uk/catalog/040-002116038"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A repository-cataloged physical witness for the Lemegeton. The five conventional book records cite this catalog but are not each claimed as separately cataloged sections.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bl-sloane-3825-solomonic",
+      "title": "Sloane MS 3825: Clavicle of Solomon and magical miscellany",
+      "workIds": [
+        "the-key-of-solomon"
+      ],
+      "recensionId": null,
+      "type": "Bound manuscript miscellany",
+      "inventoryNumber": "Sloane MS 3825",
+      "repository": "British Library",
+      "discoveryLocation": null,
+      "currentLocation": "British Library, London",
+      "dateStart": 1572,
+      "dateEnd": 1700,
+      "dateNotes": "The catalog identifies the French Clavicle of Solomon at ff. 100–179 as 1572 and other magical texts as seventeenth century; these dates describe contents in this physical volume.",
+      "material": null,
+      "languages": [
+        "French",
+        "English"
+      ],
+      "scripts": [
+        "Latin"
+      ],
+      "condition": null,
+      "completeness": "Composite manuscript; not a complete witness to every Solomonic work",
+      "provenance": "Owned by John Somers and Sir Joseph Jekyll; acquired from Jekyll's 1739/40 sale, according to the British Library catalog.",
+      "digitizationUrl": null,
+      "iiifManifest": null,
+      "rights": "Catalog metadata public; physical and reproduction access governed by the British Library.",
+      "sources": [
+        "https://searcharchives.bl.uk/catalog/040-002116215"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A real physical witness linked only to the Key of Solomon material explicitly identified by the repository. It is not asserted as a Lemegeton witness.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "bl-yates-thompson-36-dante",
+      "title": "Yates Thompson MS 36: Dante, Divina commedia",
+      "workIds": [
+        "divine-comedy",
+        "inferno",
+        "purgatorio",
+        "paradiso"
+      ],
+      "recensionId": null,
+      "type": "Illuminated manuscript",
+      "inventoryNumber": "Yates Thompson MS 36",
+      "repository": "British Library",
+      "discoveryLocation": "Tuscany, Italy",
+      "currentLocation": "British Library, London",
+      "dateStart": 1444,
+      "dateEnd": 1450,
+      "dateNotes": "British Library catalog: made in Tuscany after 1444, conventionally dated to about 1444–1450; the date describes this witness, not Dante's composition.",
+      "material": "Parchment",
+      "languages": [
+        "Italian"
+      ],
+      "scripts": [
+        "Latin"
+      ],
+      "condition": null,
+      "completeness": "Inferno, Purgatorio, and Paradiso in one volume",
+      "provenance": "Recorded at San Miguel de los Reyes, Valencia, in 1613; bought by Henry Yates Thompson in 1901 and bequeathed to the British Museum in 1941.",
+      "digitizationUrl": "https://iiif.bl.uk/uv/#?manifest=https://bl.digirati.io/iiif/ark:/81055/vdc_100165175579.0x000001",
+      "iiifManifest": "https://bl.digirati.io/iiif/ark:/81055/vdc_100165175579.0x000001",
+      "rights": "British Library catalog and digitized-content terms apply.",
+      "sources": [
+        "https://searcharchives.bl.uk/catalog/040-002354967"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A repository-cataloged physical manuscript of all three cantiche, kept distinct from the bundled Longfellow translation.",
+      "access": "Public metadata"
+    },
+    {
+      "id": "wellcome-malleus-1494",
+      "title": "Malleus maleficarum, Nuremberg 1494",
+      "workIds": [
+        "malleus-maleficarum"
+      ],
+      "recensionId": null,
+      "type": "Incunable",
+      "inventoryNumber": "EPB/INC/4.a.12",
+      "repository": "Wellcome Collection",
+      "discoveryLocation": null,
+      "currentLocation": "Wellcome Collection, London",
+      "dateStart": 1494,
+      "dateEnd": 1494,
+      "dateNotes": "Printed at Nuremberg by Anton Koberger in 1494, according to the institutional catalog.",
+      "material": "Printed book; 146 unnumbered leaves",
+      "languages": [
+        "Latin"
+      ],
+      "scripts": [
+        "Latin"
+      ],
+      "condition": null,
+      "completeness": null,
+      "provenance": "Institutional holding metadata; no earlier ownership chain is asserted here.",
+      "digitizationUrl": null,
+      "iiifManifest": null,
+      "rights": "Catalog metadata public; item access and reproduction follow Wellcome Collection terms.",
+      "sources": [
+        "https://wellcomecollection.org/works/thjfeu2r"
+      ],
+      "decipherment": "Readable edition available",
+      "evidence": "Securely attested",
+      "description": "A dated physical copy that supports print-history research. Its claims about witchcraft are historical allegations, not verified evidence of supernatural acts.",
+      "access": "Public metadata"
+    }
+  ]
+}

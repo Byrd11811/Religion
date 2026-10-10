@@ -43,6 +43,10 @@ const knownSeeds = [
   "egypt-additions.json",
   "egypt-editions.json",
   "egypt-passages.json",
+  "esoteric-archive.json",
+  "esoteric-editions.json",
+  "esoteric-literature.json",
+  "esoteric-passages.json",
   "horn-additions.json",
   "horn-archive.json",
   "images.json",
@@ -72,6 +76,7 @@ const sourcePaths = [
   ...actualSeeds.map((f) => `data/seed/${f}`),
   "packages/shared/archive.ts",
   "packages/shared/catalog.ts",
+  "packages/shared/esoteric.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/protocols.ts",
@@ -93,6 +98,7 @@ const sourcePaths = [
   "scripts/ingest-mesopotamia.py",
   "scripts/ingest-china.py",
   "scripts/ingest-horn.py",
+  "scripts/ingest-esoteric-literature.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
@@ -103,6 +109,7 @@ const sourcePaths = [
   "components/Horn.tsx",
   "components/GlobalCoverage.tsx",
   "components/Indigenous.tsx",
+  "components/Esoteric.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
   "packages/shared/exploration.ts",
@@ -124,6 +131,11 @@ const sourcePaths = [
   "data/open-data/oracc-epsd2-literary-selected.json",
   "data/open-data/oracc-qcat-selected.json",
   "data/research/anunnaki-evidence.json",
+  "data/public-domain/58.txt",
+  "data/public-domain/779.txt",
+  "data/public-domain/1004.txt",
+  "data/public-domain/2230.txt",
+  "data/public-domain/14591.txt",
 ];
 const sources = Object.fromEntries(
   sourcePaths.sort().map((file) => [file, hash(read(file))]),
@@ -266,7 +278,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 9 — Global Indigenous traditions",
+        currentFocus: "Phase 13 — Modern religions and new religious movements",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -279,9 +291,13 @@ const outputs = new Map([
           { id: "6", status: "acceptance-implemented-not-finally-certified" },
           { id: "7", status: "acceptance-implemented-not-finally-certified" },
           { id: "8", status: "acceptance-implemented-not-finally-certified" },
-          { id: "9", status: "in-progress" },
-          ...Array.from({ length: 20 }, (_, index) => ({
-            id: String(index + 10),
+          { id: "9", status: "acceptance-implemented-not-finally-certified" },
+          { id: "10", status: "acceptance-implemented-not-finally-certified" },
+          { id: "11", status: "acceptance-implemented-not-finally-certified" },
+          { id: "12", status: "acceptance-implemented-not-finally-certified" },
+          { id: "13", status: "in-progress" },
+          ...Array.from({ length: 16 }, (_, index) => ({
+            id: String(index + 14),
             status: "not-started",
           })),
         ],
