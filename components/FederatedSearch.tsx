@@ -38,6 +38,7 @@ const labels: Record<FederatedSearchHit["type"], string> = {
   tradition: "Tradition",
   subtradition: "Branch / context",
   person: "Person",
+  entity: "Entity / institution",
   concept: "Concept",
   "unresolved-corpus": "Unresolved corpus",
   witness: "Physical witness",
@@ -284,8 +285,28 @@ export function FederatedSearchPage({
                 <p>{item.description}</p>
                 {item.aliases.length > 0 && (
                   <p className="small muted">
-                    Search aliases: {item.aliases.join(", ")}
+                    Alternate search titles: {item.aliases.join(", ")}
                   </p>
+                )}
+                {item.nameAssertions && item.nameAssertions.length > 0 && (
+                  <details>
+                    <summary className="small">
+                      Sourced name forms ({item.nameAssertions.length})
+                    </summary>
+                    <ul className="small muted">
+                      {item.nameAssertions.map((assertion, index) => (
+                        <li
+                          key={`${assertion.name}-${assertion.assertionType}-${index}`}
+                        >
+                          <strong>{assertion.name}</strong> —{" "}
+                          {assertion.assertionType.replaceAll("-", " ")};{" "}
+                          {assertion.language}, {assertion.script}.{" "}
+                          {assertion.scope}
+                          {` Confidence: ${assertion.confidence}.`}
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
                 )}
                 <Link href={item.href}>
                   Open record <ArrowUpRight size={15} />

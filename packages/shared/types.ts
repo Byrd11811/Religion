@@ -98,6 +98,7 @@ export type FederatedEntityType =
   | "tradition"
   | "subtradition"
   | "person"
+  | "entity"
   | "concept"
   | "unresolved-corpus"
   | "witness"
@@ -110,8 +111,17 @@ export interface FederatedSearchHit {
   description: string;
   href: string;
   aliases: string[];
+  nameAssertions?: FederatedNameAssertion[];
   availability: string;
   score: number;
+}
+export interface FederatedNameAssertion {
+  name: string;
+  assertionType: string;
+  language: string;
+  script: string;
+  scope: string;
+  confidence: string;
 }
 export interface Finding {
   id: string;

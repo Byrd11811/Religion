@@ -32,6 +32,7 @@ import indigenousAdditions from "../data/seed/indigenous-additions.json";
 import esotericLiterature from "../data/seed/esoteric-literature.json";
 import modernReligions from "../data/seed/modern-religions.json";
 import forbiddenLostDisputed from "../data/seed/forbidden-lost-disputed.json";
+import ontologyEntities from "../data/seed/ontology-entities.json";
 
 const input: CoverageInput = {
   texts,
@@ -59,7 +60,25 @@ const input: CoverageInput = {
     lostWorks: forbiddenLostDisputed.lostWorks,
     hypotheticalSources: forbiddenLostDisputed.hypotheticalSources,
     disputedWorks: forbiddenLostDisputed.disputedWorks,
-    culturalProtocols: [...indigenous.culturalProtocols, ...indigenousAdditions.culturalProtocols],
+    ontologyConcepts: ontologyEntities.concepts,
+    conceptEdges: ontologyEntities.conceptEdges,
+    conceptTerms: ontologyEntities.conceptTerms,
+    spiritEntities: ontologyEntities.entities,
+    entityAliases: ontologyEntities.nameAssertions,
+    entityOccurrences: ontologyEntities.occurrences,
+    entityRelationships: ontologyEntities.relationships,
+    entityEvolutionPaths: ontologyEntities.evolutionPaths,
+    entityEvolutionStages: ontologyEntities.evolutionStages,
+    conflictCauses: ontologyEntities.classificationSchemes.conflictCauses,
+    conversionModes: ontologyEntities.classificationSchemes.conversionModes,
+    conflictClassificationCases: ontologyEntities.conflictCases,
+    conflictCauseAssignments: ontologyEntities.conflictCauseAssignments,
+    conversionClassificationCases: ontologyEntities.conversionCases,
+    conversionModeAssignments: ontologyEntities.conversionModeAssignments,
+    culturalProtocols: [
+      ...indigenous.culturalProtocols,
+      ...indigenousAdditions.culturalProtocols,
+    ],
     ritualPractices: esotericLiterature.ritualPractices,
     necromancy: esotericLiterature.necromancy,
     organizations: esotericLiterature.organizations,
@@ -85,9 +104,18 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
   assert.equal(get("transliterationWorks").seeded, 26);
   assert.equal(get("recensions").seeded, 2);
   assert.equal(get("canonMemberships").seeded, 5);
-  assert.equal(get("bibliographyWorks").seeded, hornAdditions.bibliographyWorks.length);
-  assert.equal(get("bibliographyEntries").seeded, modernReligions.bibliographyEntries.length);
-  assert.equal(get("evidenceRecords").seeded, modernReligions.evidenceRecords.length);
+  assert.equal(
+    get("bibliographyWorks").seeded,
+    hornAdditions.bibliographyWorks.length,
+  );
+  assert.equal(
+    get("bibliographyEntries").seeded,
+    modernReligions.bibliographyEntries.length,
+  );
+  assert.equal(
+    get("evidenceRecords").seeded,
+    modernReligions.evidenceRecords.length,
+  );
   assert.equal(get("modernProfiles").seeded, modernReligions.profiles.length);
   assert.equal(get("originClaims").seeded, modernReligions.originClaims.length);
   assert.equal(
@@ -103,6 +131,21 @@ test("coverage distinguishes real edition content, complete editions, unknown cl
     get("disputedWorks").seeded,
     forbiddenLostDisputed.disputedWorks.length,
   );
+  assert.equal(get("ontologyConcepts").seeded, 89);
+  assert.equal(get("conceptEdges").seeded, 115);
+  assert.equal(get("conceptTerms").seeded, 20);
+  assert.equal(get("spiritEntities").seeded, 17);
+  assert.equal(get("entityAliases").seeded, 73);
+  assert.equal(get("entityOccurrences").seeded, 54);
+  assert.equal(get("entityRelationships").seeded, 8);
+  assert.equal(get("entityEvolutionPaths").seeded, 9);
+  assert.equal(get("entityEvolutionStages").seeded, 28);
+  assert.equal(get("conflictCauses").seeded, 15);
+  assert.equal(get("conversionModes").seeded, 17);
+  assert.equal(get("conflictClassificationCases").seeded, 2);
+  assert.equal(get("conflictCauseAssignments").seeded, 9);
+  assert.equal(get("conversionClassificationCases").seeded, 2);
+  assert.equal(get("conversionModeAssignments").seeded, 7);
   assert.equal(get("culturalProtocols").seeded, 29);
   assert.equal(get("ritualPractices").seeded, 16);
   assert.equal(get("necromancy").seeded, 4);
@@ -215,7 +258,13 @@ test("requirement inventory covers all audit sections and both safety suites wit
   );
   assert.deepEqual(sections(audit), sections(audit.replace(/\r?\n/g, "\r\n")));
   assert.throws(
-    () => requirementInventory(audit, expansion, roadmap, directive.replace("# 119.", "# 120.")),
+    () =>
+      requirementInventory(
+        audit,
+        expansion,
+        roadmap,
+        directive.replace("# 119.", "# 120."),
+      ),
     /directive inventory changed/i,
   );
 });

@@ -1,6 +1,12 @@
-import { concepts, tokenize } from "@/packages/ontology";
 import { museumArtifacts, witnesses } from "@/packages/shared/archive";
 import { texts, traditions } from "@/packages/shared/catalog";
+import {
+  entityNameAssertions,
+  entityOccurrences,
+  ontologyConcepts,
+  ontologyConceptTerms,
+  ontologyEntities,
+} from "@/packages/shared/ontology-entities";
 import { subtraditions } from "@/packages/shared/taxonomy";
 import { unresolvedCorpora } from "@/packages/shared/undeciphered";
 import type {
@@ -18,6 +24,32 @@ const workAliases: Record<string, string[]> = {
   "rig-veda": ["Rigveda"],
   "book-of-mormon": ["BoM"],
 };
+
+/**
+ * Search normalization keeps letters and numbers from every script. Marks are
+ * removed after compatibility decomposition so pointed and unpointed forms,
+ * or Latin text with and without accents, can meet without deleting the base
+ * characters. This intentionally does not transliterate or equate names;
+ * source-specific name assertions supply those search paths.
+ */
+export function tokenizeFederatedSearch(value: string): string[] {
+  const originals =
+    value
+      .normalize("NFC")
+      .toLocaleLowerCase()
+      .match(/[\p{L}\p{N}][\p{L}\p{N}\p{M}]*/gu) ?? [];
+  const folded =
+    value
+      .normalize("NFKD")
+      .toLocaleLowerCase()
+      .replace(/\p{M}+/gu, "")
+      .match(/[\p{L}\p{N}][\p{L}\p{N}\p{M}]*/gu) ?? [];
+  return [...new Set([...originals, ...folded])];
+}
+
+export function normalizeFederatedSearch(value: string): string {
+  return tokenizeFederatedSearch(value).join(" ");
+}
 
 type Candidate = Omit<FederatedSearchHit, "score"> & {
   searchable: string;
@@ -134,34 +166,124 @@ function candidates(): Candidate[] {
       },
     ),
   );
-  const themes = Object.entries(concepts).map(([name, aliases]) =>
+  const themes = ontologyConcepts.map((concept) => {
+    const terms = ontologyConceptTerms.filter(
+      (term) => term.conceptId === concept.id,
+    );
+    return candidate(
+      {
+        id: concept.id,
+        type: "concept" as const,
+        title: concept.label,
+        subtitle: `${concept.level === "branch" ? "Ontology branch" : concept.level === "root" ? "Ontology root" : "Comparative concept"} · ${terms.length} scoped term${terms.length === 1 ? "" : "s"}`,
+        description: concept.description,
+        href: `/ontology/${concept.id}`,
+        aliases: concept.keywords.filter(
+          (keyword, index, all) =>
+            normalizeFederatedSearch(keyword) !==
+              normalizeFederatedSearch(concept.label) &&
+            all.indexOf(keyword) === index,
+        ),
+        availability: "Source-linked ontology record",
+      },
+      [
+        concept.label,
+        concept.keywords,
+        concept.description,
+        terms.flatMap((term) => [
+          term.term,
+          term.transliteration,
+          term.language,
+          term.script,
+          term.scope,
+        ]),
+      ],
+      { confidence: "Reviewed" },
+    );
+  });
+  // This established guide remains the preferred Anunna/Anunnaki result. The
+  // Phase 15 entity record appears separately and never turns later
+  // identifications or relationships into unconditional aliases.
+  const researchGuides = [
     candidate(
       {
-        id: name,
+        id: "anunnaki",
         type: "concept" as const,
-        title: name[0].toUpperCase() + name.slice(1),
-        subtitle:
-          name === "anunnaki"
-            ? "Sourced Mesopotamian research guide"
-            : "Comparative search concept",
+        title: "Anunnaki",
+        subtitle: "Sourced Mesopotamian research guide",
         description:
-          name === "anunnaki"
-            ? "Review ancient Anunna attestations, physical witnesses, mainstream scholarship, alternative readings, and separately sourced modern claims."
-            : `Search label connected to: ${aliases.join(", ")}. Similar words do not establish equivalent teachings.`,
-        href:
-          name === "anunnaki"
-            ? "/explore/anunnaki"
-            : `/themes?q=${encodeURIComponent(name)}`,
-        aliases,
-        availability:
-          name === "anunnaki"
-            ? "Sourced research guide"
-            : "Exploratory vocabulary",
+          "Review ancient Anunna attestations, physical witnesses, mainstream scholarship, alternative readings, and separately sourced modern claims.",
+        href: "/explore/anunnaki",
+        aliases: ["Anunna", "Anuna", "Anunnaku", "Anunnaki"],
+        availability: "Sourced research guide",
       },
-      [name, aliases],
-      name === "anunnaki" ? { confidence: "Reviewed" } : {},
+      ["Anunnaki", "Anunna", "Anuna", "Anunnaku"],
+      { confidence: "Reviewed" },
     ),
-  );
+  ];
+  const entities = ontologyEntities.map((entity) => {
+    const names = entityNameAssertions.filter(
+      (assertion) => assertion.entityId === entity.id,
+    );
+    const occurrences = entityOccurrences.filter(
+      (occurrence) => occurrence.entityId === entity.id,
+    );
+    // Entity names are assertions with language, period/source scope, and an
+    // assertion kind. Keep them searchable, but never flatten them into the
+    // unconditional alias list used by ordinary catalog titles.
+    const nameAssertions = names.map((assertion) => ({
+      name: assertion.name,
+      assertionType: assertion.assertionType,
+      language: assertion.language,
+      script: assertion.script,
+      scope: assertion.scope,
+      confidence: assertion.confidence,
+    }));
+    return candidate(
+      {
+        id: entity.id,
+        type: "entity" as const,
+        title: entity.canonicalName,
+        subtitle: [
+          entity.entityType.replaceAll("-", " "),
+          ...entity.traditions,
+        ].join(" · "),
+        description: entity.description,
+        href: `/entities/${entity.id}`,
+        aliases: [],
+        nameAssertions,
+        availability: `${names.length} sourced name assertion${names.length === 1 ? "" : "s"} · ${occurrences.length} occurrence${occurrences.length === 1 ? "" : "s"}`,
+      },
+      [
+        entity.canonicalName,
+        entity.entityType,
+        entity.traditions,
+        entity.earliestAttestation,
+        entity.description,
+        names.flatMap((name) => [
+          name.name,
+          name.normalizedName,
+          name.language,
+          name.script,
+          name.transliteration,
+          name.scope,
+        ]),
+        occurrences.flatMap((occurrence) => [
+          occurrence.attestedForm,
+          occurrence.transliteration,
+          occurrence.language,
+          occurrence.script,
+          occurrence.role,
+          occurrence.description,
+          occurrence.locator,
+        ]),
+      ],
+      {
+        languages: names.flatMap((name) => [name.language, name.script]),
+        confidence: "Reviewed",
+      },
+    );
+  });
   const people = ["Plato", "Marcus Aurelius", "John Milton"].map((name) => {
     const related = texts.filter((work) => work.author === name);
     return candidate(
@@ -291,7 +413,9 @@ function candidates(): Candidate[] {
     ...works,
     ...navigation,
     ...branches,
+    ...researchGuides,
     ...themes,
+    ...entities,
     ...people,
     ...physicalWitnesses,
     ...objects,
@@ -319,7 +443,7 @@ export function federatedSearch(
     limit?: number;
   } = {},
 ): FederatedSearchHit[] {
-  const terms = tokenize(query);
+  const terms = tokenizeFederatedSearch(query);
   if (!terms.length) return [];
   const normalized = terms.join(" ");
   const mode = options.mode ?? "Broad";
@@ -335,7 +459,9 @@ export function federatedSearch(
       const includes = (values: string[], sought?: string) =>
         !sought ||
         values.some((value) =>
-          tokenize(value).join(" ").includes(tokenize(sought).join(" ")),
+          normalizeFederatedSearch(value).includes(
+            normalizeFederatedSearch(sought),
+          ),
         );
       if (!includes(item.facets.regions, options.region)) return false;
       if (!includes(item.facets.languages, options.language)) return false;
@@ -346,11 +472,17 @@ export function federatedSearch(
       return true;
     })
     .flatMap((item) => {
-      const title = tokenize(item.title).join(" ");
-      const aliases = item.aliases.map((alias) => tokenize(alias).join(" "));
-      const searchable = new Set(tokenize(item.searchable));
+      const title = normalizeFederatedSearch(item.title);
+      const aliases = [
+        ...item.aliases,
+        ...(item.nameAssertions?.map((assertion) => assertion.name) ?? []),
+      ]
+        .map(normalizeFederatedSearch)
+        .filter((alias) => alias !== title);
+      const searchable = new Set(tokenizeFederatedSearch(item.searchable));
       if (!terms.every((term) => searchable.has(term))) return [];
       const score =
+        (item.href === "/explore/anunnaki" ? 20 : 0) +
         (title === normalized ? 100 : 0) +
         (aliases.includes(normalized) ? 90 : 0) +
         (title.startsWith(normalized) ? 40 : 0) +
@@ -365,6 +497,7 @@ export function federatedSearch(
           description: item.description,
           href: item.href,
           aliases: item.aliases,
+          nameAssertions: item.nameAssertions,
           availability: item.availability,
           score,
         },

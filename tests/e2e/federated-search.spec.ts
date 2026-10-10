@@ -14,7 +14,7 @@ test("global search resolves aliases and separates metadata from passages", asyn
     page.getByRole("heading", { name: "Tao Te Ching" }),
   ).toBeVisible();
   await expect(
-    page.getByText("Search aliases: Dao De Jing, Daodejing"),
+    page.getByText("Alternate search titles: Dao De Jing, Daodejing"),
   ).toBeVisible();
 
   await page.getByText("Metadata filters").click();

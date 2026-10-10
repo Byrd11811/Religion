@@ -62,8 +62,21 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | historicalMapCases | Curated historical map case studies | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | ritualPractices | Ritual-practice records | 16 | Unknown | Unknown | Unknown | Unknown | No |
 | necromancy | Necromancy records | 4 | Unknown | Unknown | Unknown | Unknown | No |
-| spiritEntities | Demon/spirit/entity records | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| entityAliases | Source-specific entity aliases | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| ontologyConcepts | Ontology concepts | 89 | Unknown | Unknown | Unknown | Unknown | No |
+| conceptEdges | Ontology hierarchy and cross-links | 115 | Unknown | Unknown | Unknown | Unknown | No |
+| conceptTerms | Source-scoped original-language concept terms | 20 | Unknown | Unknown | Unknown | Unknown | No |
+| spiritEntities | Demon/spirit/entity records | 17 | Unknown | Unknown | Unknown | Unknown | No |
+| entityAliases | Source-specific entity name assertions | 73 | Unknown | Unknown | Unknown | Unknown | No |
+| entityOccurrences | Source-specific entity occurrences | 54 | Unknown | Unknown | Unknown | Unknown | No |
+| entityRelationships | Contextual entity relationships | 8 | Unknown | Unknown | Unknown | Unknown | No |
+| entityEvolutionPaths | Entity evolution paths | 9 | Unknown | Unknown | Unknown | Unknown | No |
+| entityEvolutionStages | Entity evolution stages | 28 | Unknown | Unknown | Unknown | Unknown | No |
+| conflictCauses | Conflict-causation classification values | 15 | Unknown | Unknown | Unknown | Unknown | No |
+| conversionModes | Coercion and conversion classification values | 17 | Unknown | Unknown | Unknown | Unknown | No |
+| conflictClassificationCases | Evidence-backed conflict classification cases | 2 | Unknown | Unknown | Unknown | Unknown | No |
+| conflictCauseAssignments | Case-specific conflict-cause assignments | 9 | Unknown | Unknown | Unknown | Unknown | No |
+| conversionClassificationCases | Evidence-backed conversion classification cases | 2 | Unknown | Unknown | Unknown | Unknown | No |
+| conversionModeAssignments | Case-specific conversion-mode assignments | 7 | Unknown | Unknown | Unknown | Unknown | No |
 | organizations | Organization records | 8 | Unknown | Unknown | Unknown | Unknown | No |
 | memberships | Organization memberships | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | membershipEvidence | Membership-evidence records | 0 | Unknown | Unknown | Unknown | Unknown | No |
@@ -130,8 +143,21 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **historicalMapCases:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **ritualPractices:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **necromancy:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **ontologyConcepts:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conceptEdges:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conceptTerms:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **spiritEntities:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **entityAliases:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **entityOccurrences:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **entityRelationships:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **entityEvolutionPaths:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **entityEvolutionStages:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conflictCauses:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conversionModes:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conflictClassificationCases:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conflictCauseAssignments:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conversionClassificationCases:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
+- **conversionModeAssignments:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **organizations:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **memberships:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **membershipEvidence:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.

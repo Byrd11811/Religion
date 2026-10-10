@@ -10,6 +10,7 @@ import {
 import { allPassages } from "../packages/search";
 import { themes, concepts } from "../packages/ontology";
 import { syncArchive } from "../packages/db/archive";
+import { syncOntology } from "../packages/db/ontology";
 import { syncTaxonomy } from "../packages/db/taxonomy";
 import { loadEnvConfig } from "@next/env";
 loadEnvConfig(process.cwd());
@@ -20,6 +21,7 @@ async function main() {
       await client.exec(readFileSync("packages/db/schema.sql", "utf8"));
       await syncTaxonomy(client);
       await syncArchive(client);
+      await syncOntology(client);
       console.log("PostgreSQL schema and pgvector extension are ready.");
       return;
     }
@@ -138,6 +140,7 @@ async function main() {
       );
     await syncTaxonomy(client);
     await syncArchive(client);
+    await syncOntology(client);
     await client.query("COMMIT");
     console.log(
       `Seeded ${texts.length} texts, ${editions.length} editions and ${allPassages().length} passages.`,

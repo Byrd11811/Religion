@@ -42,3 +42,222 @@ CREATE TABLE IF NOT EXISTS suppression_events (id text PRIMARY KEY,work_id text 
 CREATE TABLE IF NOT EXISTS tradition_hierarchy (parent_id text NOT NULL REFERENCES traditions(id),child_id text NOT NULL REFERENCES traditions(id),relationship text NOT NULL CHECK(relationship IN ('navigation','within','cross-cutting')),source_url text NOT NULL CHECK(source_url LIKE 'https://%'),notes text NOT NULL CHECK(length(trim(notes))>0),PRIMARY KEY(parent_id,child_id,relationship),CHECK(parent_id<>child_id));
 CREATE TABLE IF NOT EXISTS research_queue (id text PRIMARY KEY,title text NOT NULL CHECK(length(trim(title))>0),summary text NOT NULL CHECK(length(trim(summary))>0),status text NOT NULL CHECK(status IN ('new-lead','source-needed','primary-source-located','awaiting-rights-review','awaiting-cultural-review','awaiting-scholarly-review','disputed','provisionally-resolved','rejected-false-lead','published-to-atlas')),source_urls jsonb NOT NULL DEFAULT '[]' CHECK(jsonb_typeof(source_urls)='array'),rights_review text NOT NULL DEFAULT 'unassessed' CHECK(rights_review IN ('unassessed','not-required','cleared','blocked')),cultural_review text NOT NULL DEFAULT 'unassessed' CHECK(cultural_review IN ('unassessed','not-required','cleared','blocked')),scholarly_review text NOT NULL DEFAULT 'unassessed' CHECK(scholarly_review IN ('unassessed','not-required','cleared','blocked')),publication_target text,metadata jsonb NOT NULL DEFAULT '{}',created_at timestamptz NOT NULL DEFAULT now(),updated_at timestamptz NOT NULL DEFAULT now());
 CREATE TABLE IF NOT EXISTS research_queue_events (id bigserial PRIMARY KEY,queue_id text NOT NULL REFERENCES research_queue(id) ON DELETE RESTRICT,from_status text,to_status text NOT NULL,note text NOT NULL CHECK(length(trim(note))>0),created_at timestamptz NOT NULL DEFAULT now());
+
+-- Phase 15 ontology and entity-history model. These tables stay separate from the
+-- legacy flat concepts table so existing concept_mentions remain valid while the
+-- source-backed hierarchy is introduced additively.
+CREATE TABLE IF NOT EXISTS ontology_sources (
+  id text PRIMARY KEY,
+  label text NOT NULL CHECK(length(trim(label))>0),
+  url text NOT NULL CHECK(url LIKE 'https://%'),
+  source_type text NOT NULL CHECK(length(trim(source_type))>0),
+  perspective text NOT NULL DEFAULT 'Unspecified',
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE TABLE IF NOT EXISTS ontology_concepts (
+  id text PRIMARY KEY,
+  canonical_name text NOT NULL CHECK(length(trim(canonical_name))>0),
+  definition text NOT NULL CHECK(length(trim(definition))>0),
+  concept_kind text NOT NULL CHECK(concept_kind IN ('root','branch','concept')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_concepts_name_idx ON ontology_concepts(lower(canonical_name));
+CREATE TABLE IF NOT EXISTS ontology_concept_edges (
+  id text PRIMARY KEY,
+  broader_id text NOT NULL REFERENCES ontology_concepts(id) ON DELETE RESTRICT,
+  narrower_id text NOT NULL REFERENCES ontology_concepts(id) ON DELETE RESTRICT,
+  relationship_type text NOT NULL CHECK(relationship_type IN ('root','primary','secondary')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  UNIQUE(broader_id,narrower_id,relationship_type),
+  CHECK(broader_id<>narrower_id)
+);
+CREATE INDEX IF NOT EXISTS ontology_concept_edges_broader_idx ON ontology_concept_edges(broader_id);
+CREATE INDEX IF NOT EXISTS ontology_concept_edges_narrower_idx ON ontology_concept_edges(narrower_id);
+CREATE TABLE IF NOT EXISTS ontology_concept_terms (
+  id text PRIMARY KEY,
+  concept_id text NOT NULL REFERENCES ontology_concepts(id) ON DELETE RESTRICT,
+  term text NOT NULL CHECK(length(trim(term))>0),
+  language text NOT NULL CHECK(length(trim(language))>0),
+  script text NOT NULL CHECK(length(trim(script))>0),
+  transliteration text,
+  semantic_relation text NOT NULL CHECK(semantic_relation IN ('tradition-specific','translation-gloss','related','contrast','language-form')),
+  semantic_scope text NOT NULL CHECK(length(trim(semantic_scope))>0),
+  note text NOT NULL CHECK(length(trim(note))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_concept_terms_concept_idx ON ontology_concept_terms(concept_id);
+CREATE INDEX IF NOT EXISTS ontology_concept_terms_term_idx ON ontology_concept_terms(lower(term));
+CREATE TABLE IF NOT EXISTS ontology_entities (
+  id text PRIMARY KEY,
+  canonical_name text NOT NULL CHECK(length(trim(canonical_name))>0),
+  entity_type text NOT NULL CHECK(entity_type IN ('deity','person','work','religious-figure','institution','council')),
+  description text NOT NULL CHECK(length(trim(description))>0),
+  earliest_attestation text NOT NULL CHECK(length(trim(earliest_attestation))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_entities_name_idx ON ontology_entities(lower(canonical_name));
+CREATE TABLE IF NOT EXISTS ontology_name_assertions (
+  id text PRIMARY KEY,
+  entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  asserted_name text NOT NULL CHECK(length(trim(asserted_name))>0),
+  normalized_name text NOT NULL CHECK(length(trim(normalized_name))>0),
+  assertion_kind text NOT NULL CHECK(assertion_kind IN ('canonical','alternate-name','language-form','transliteration','translation-rendering','former-name','abbreviation')),
+  language text,
+  script text,
+  transliteration text,
+  scope text NOT NULL CHECK(length(trim(scope))>0),
+  confidence text NOT NULL CHECK(confidence IN ('high','medium','low','contested')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_name_assertions_entity_idx ON ontology_name_assertions(entity_id);
+CREATE INDEX IF NOT EXISTS ontology_name_assertions_name_idx ON ontology_name_assertions(lower(asserted_name));
+CREATE TABLE IF NOT EXISTS ontology_occurrences (
+  id text PRIMARY KEY,
+  entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  attested_form text NOT NULL CHECK(length(trim(attested_form))>0),
+  language text NOT NULL CHECK(length(trim(language))>0),
+  script text NOT NULL CHECK(length(trim(script))>0),
+  transliteration text,
+  work_id text,
+  source_id text NOT NULL REFERENCES ontology_sources(id) ON DELETE RESTRICT,
+  locator text NOT NULL CHECK(length(trim(locator))>0),
+  role_or_context text NOT NULL CHECK(length(trim(role_or_context))>0),
+  description text NOT NULL CHECK(length(trim(description))>0),
+  confidence text NOT NULL CHECK(confidence IN ('high','medium','low','contested')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_occurrences_entity_idx ON ontology_occurrences(entity_id);
+CREATE INDEX IF NOT EXISTS ontology_occurrences_work_idx ON ontology_occurrences(work_id);
+CREATE TABLE IF NOT EXISTS ontology_contextual_relationships (
+  id text PRIMARY KEY,
+  source_entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  target_entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  relationship_type text NOT NULL CHECK(length(trim(relationship_type))>0),
+  context_summary text NOT NULL CHECK(length(trim(context_summary))>0),
+  scope text NOT NULL CHECK(length(trim(scope))>0),
+  start_date text,
+  end_date text,
+  confidence text NOT NULL CHECK(confidence IN ('high','medium','low','contested')),
+  is_equivalence boolean NOT NULL DEFAULT false CHECK(is_equivalence=false),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  CHECK(source_entity_id<>target_entity_id)
+);
+CREATE INDEX IF NOT EXISTS ontology_relationships_source_idx ON ontology_contextual_relationships(source_entity_id);
+CREATE INDEX IF NOT EXISTS ontology_relationships_target_idx ON ontology_contextual_relationships(target_entity_id);
+CREATE TABLE IF NOT EXISTS ontology_evolution_paths (
+  id text PRIMARY KEY,
+  entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  title text NOT NULL CHECK(length(trim(title))>0),
+  summary text NOT NULL CHECK(length(trim(summary))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_evolution_paths_entity_idx ON ontology_evolution_paths(entity_id);
+CREATE TABLE IF NOT EXISTS ontology_evolution_stages (
+  id text PRIMARY KEY,
+  path_id text NOT NULL REFERENCES ontology_evolution_paths(id) ON DELETE RESTRICT,
+  entity_id text NOT NULL REFERENCES ontology_entities(id) ON DELETE RESTRICT,
+  sequence integer NOT NULL CHECK(sequence>=0),
+  stage_type text NOT NULL CHECK(length(trim(stage_type))>0),
+  stage_label text NOT NULL CHECK(length(trim(stage_label))>0),
+  date_label text NOT NULL CHECK(length(trim(date_label))>0),
+  role_or_interpretation text NOT NULL CHECK(length(trim(role_or_interpretation))>0),
+  summary text NOT NULL CHECK(length(trim(summary))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  UNIQUE(path_id,sequence)
+);
+CREATE INDEX IF NOT EXISTS ontology_evolution_stages_path_idx ON ontology_evolution_stages(path_id,sequence);
+CREATE TABLE IF NOT EXISTS ontology_classification_schemes (
+  id text PRIMARY KEY,
+  label text NOT NULL CHECK(length(trim(label))>0),
+  evidence_required boolean NOT NULL DEFAULT true CHECK(evidence_required),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE TABLE IF NOT EXISTS ontology_classification_values (
+  id text PRIMARY KEY,
+  scheme_id text NOT NULL REFERENCES ontology_classification_schemes(id) ON DELETE RESTRICT,
+  value text NOT NULL CHECK(length(trim(value))>0),
+  label text NOT NULL CHECK(length(trim(label))>0),
+  definition text NOT NULL CHECK(length(trim(definition))>0),
+  evidence_required boolean NOT NULL DEFAULT true CHECK(evidence_required),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  UNIQUE(scheme_id,value)
+);
+ALTER TABLE ontology_classification_values ADD COLUMN IF NOT EXISTS source_ids text[];
+UPDATE ontology_classification_values
+SET source_ids=ARRAY(SELECT jsonb_array_elements_text(metadata->'sourceIds'))
+WHERE source_ids IS NULL AND jsonb_typeof(metadata->'sourceIds')='array';
+ALTER TABLE ontology_classification_values ALTER COLUMN source_ids SET NOT NULL;
+ALTER TABLE ontology_classification_values DROP CONSTRAINT IF EXISTS ontology_classification_values_source_ids_check;
+ALTER TABLE ontology_classification_values ADD CONSTRAINT ontology_classification_values_source_ids_check CHECK(cardinality(source_ids)>0);
+CREATE INDEX IF NOT EXISTS ontology_classification_values_scheme_idx ON ontology_classification_values(scheme_id);
+CREATE TABLE IF NOT EXISTS ontology_conflict_cases (
+  id text PRIMARY KEY,
+  name text NOT NULL CHECK(length(trim(name))>0),
+  start_date text NOT NULL CHECK(length(trim(start_date))>0),
+  end_date text NOT NULL CHECK(length(trim(end_date))>0),
+  date_label text NOT NULL CHECK(length(trim(date_label))>0),
+  locations text[] NOT NULL CHECK(cardinality(locations)>0),
+  actors text[] NOT NULL CHECK(cardinality(actors)>0),
+  summary text NOT NULL CHECK(length(trim(summary))>0),
+  stated_cause text NOT NULL CHECK(length(trim(stated_cause))>0),
+  participant_justifications text[] NOT NULL CHECK(cardinality(participant_justifications)>0),
+  scholarly_interpretations text[] NOT NULL CHECK(cardinality(scholarly_interpretations)>0),
+  disputed_causation text NOT NULL CHECK(length(trim(disputed_causation))>0),
+  uncertainty text NOT NULL CHECK(length(trim(uncertainty))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_conflict_cases_name_idx ON ontology_conflict_cases(lower(name));
+CREATE TABLE IF NOT EXISTS ontology_conflict_cause_assignments (
+  id text PRIMARY KEY,
+  conflict_case_id text NOT NULL REFERENCES ontology_conflict_cases(id) ON DELETE RESTRICT,
+  cause_id text NOT NULL REFERENCES ontology_classification_values(id) ON DELETE RESTRICT,
+  evidence text NOT NULL CHECK(length(trim(evidence))>0),
+  evidence_basis text NOT NULL CHECK(evidence_basis IN ('primary-source','archival-primary-source-dossier','scholarly-analysis','primary-and-scholarly')),
+  confidence text NOT NULL CHECK(confidence IN ('high','medium','low','contested')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  UNIQUE(conflict_case_id,cause_id)
+);
+CREATE INDEX IF NOT EXISTS ontology_conflict_assignments_case_idx ON ontology_conflict_cause_assignments(conflict_case_id);
+CREATE INDEX IF NOT EXISTS ontology_conflict_assignments_cause_idx ON ontology_conflict_cause_assignments(cause_id);
+CREATE TABLE IF NOT EXISTS ontology_conversion_cases (
+  id text PRIMARY KEY,
+  name text NOT NULL CHECK(length(trim(name))>0),
+  start_date text NOT NULL CHECK(length(trim(start_date))>0),
+  end_date text NOT NULL CHECK(length(trim(end_date))>0),
+  date_label text NOT NULL CHECK(length(trim(date_label))>0),
+  locations text[] NOT NULL CHECK(cardinality(locations)>0),
+  actors text[] NOT NULL CHECK(cardinality(actors)>0),
+  summary text NOT NULL CHECK(length(trim(summary))>0),
+  stated_policy text NOT NULL CHECK(length(trim(stated_policy))>0),
+  stated_justification text NOT NULL CHECK(length(trim(stated_justification))>0),
+  resistance_continuity text NOT NULL CHECK(length(trim(resistance_continuity))>0),
+  disputes_uncertainty text NOT NULL CHECK(length(trim(disputes_uncertainty))>0),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS ontology_conversion_cases_name_idx ON ontology_conversion_cases(lower(name));
+CREATE TABLE IF NOT EXISTS ontology_conversion_mode_assignments (
+  id text PRIMARY KEY,
+  conversion_case_id text NOT NULL REFERENCES ontology_conversion_cases(id) ON DELETE RESTRICT,
+  mode_id text NOT NULL REFERENCES ontology_classification_values(id) ON DELETE RESTRICT,
+  evidence text NOT NULL CHECK(length(trim(evidence))>0),
+  evidence_standard text NOT NULL CHECK(evidence_standard IN ('documented-direct-force','documented-threat','documented-state-policy','documented-continuity','documented-discrimination')),
+  confidence text NOT NULL CHECK(confidence IN ('high','medium','low','contested')),
+  source_ids text[] NOT NULL CHECK(cardinality(source_ids)>0),
+  metadata jsonb NOT NULL DEFAULT '{}',
+  UNIQUE(conversion_case_id,mode_id)
+);
+CREATE INDEX IF NOT EXISTS ontology_conversion_assignments_case_idx ON ontology_conversion_mode_assignments(conversion_case_id);
+CREATE INDEX IF NOT EXISTS ontology_conversion_assignments_mode_idx ON ontology_conversion_mode_assignments(mode_id);

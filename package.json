@@ -19,6 +19,7 @@
     "ingest:esoteric": "python scripts/ingest-esoteric-literature.py",
     "ingest:modern": "python scripts/ingest-modern-religions.py",
     "ingest:disputed": "python scripts/ingest-forbidden-lost-disputed.py",
+    "ingest:ontology": "python scripts/ingest-ontology-entities.py",
     "ingest:images": "tsx scripts/images.ts",
     "ingest:met": "python scripts/import-met.py",
     "refresh:manifest": "python scripts/refresh-manifest.py",

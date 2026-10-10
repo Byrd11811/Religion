@@ -17,6 +17,13 @@ import { getCollections, mutateCollections } from "@/packages/db/collections";
 import { randomUUID } from "node:crypto";
 import { database } from "@/packages/db/client";
 import { readTaxonomy } from "@/packages/db/taxonomy";
+import {
+  readConcept,
+  readEntity,
+  readEntityOccurrences,
+  readEvolution,
+  readOntology,
+} from "@/packages/db/ontology";
 import { createManifest } from "@/packages/shared/iiif";
 import { explorationRecords } from "@/packages/shared/exploration-catalog";
 import { explorationScope } from "@/packages/shared/exploration";
@@ -45,11 +52,13 @@ const send = (data: unknown, status = 200) =>
   NextResponse.json(data, { status });
 export async function GET(req: NextRequest, { params }: Context) {
   try {
-    const [route, id] = (await params).path;
+    const [route, id, subroute] = (await params).path;
     const q = req.nextUrl.searchParams;
     switch (route) {
       case "taxonomy":
         return send(await readTaxonomy(await database()));
+      case "ontology":
+        return send(await readOntology(await database()));
       case "iiif": {
         const artifact = museumArtifacts.find((a) => a.id === id);
         const images = archiveImages.filter(
@@ -134,8 +143,29 @@ export async function GET(req: NextRequest, { params }: Context) {
           : send(traditions);
       case "themes":
         return send(themes);
-      case "concepts":
-        return send(concepts);
+      case "concepts": {
+        if (!id) return send(concepts);
+        const result = await readConcept(await database(), id);
+        return result
+          ? send(result)
+          : send({ error: "Concept not found" }, 404);
+      }
+      case "entities": {
+        if (!id) return send({ error: "Entity ID is required" }, 400);
+        if (subroute && subroute !== "occurrences")
+          return send({ error: "Endpoint not found" }, 404);
+        const result = subroute
+          ? await readEntityOccurrences(await database(), id)
+          : await readEntity(await database(), id);
+        return result ? send(result) : send({ error: "Entity not found" }, 404);
+      }
+      case "evolution": {
+        if (!id) return send({ error: "Entity or path ID is required" }, 400);
+        const result = await readEvolution(await database(), id);
+        return result
+          ? send(result)
+          : send({ error: "Evolution path not found" }, 404);
+      }
       case "images":
         return send(artifacts);
       case "timeline":
@@ -234,6 +264,7 @@ export async function GET(req: NextRequest, { params }: Context) {
           "subtradition",
           "person",
           "concept",
+          "entity",
           "unresolved-corpus",
           "witness",
           "artifact",

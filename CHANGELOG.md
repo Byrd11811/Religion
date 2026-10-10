@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased — Phase 15 ontology and entity expansion
+
+- Replaced the 17-label demo vocabulary with 89 sourced concepts, nine top-level branches, 115 typed concept links and 20 scoped original-language terms.
+- Added 17 first-class deity, person, work and institution records with 73 source-specific name assertions, 54 occurrences, eight contextual relationships and nine evolution paths containing 28 stages.
+- Added Unicode-aware concept/entity search and dedicated ontology and entity routes with visible source, scope, confidence and non-equivalence labels.
+- Kept Belial distinct from Baal, represented Lucifer/Satan only through a later contextual-conflation relationship, and linked Yijing/I Ching to the existing work record.
+- Added normalized database synchronization and read APIs plus exact-count, provenance, alias-boundary, Unicode, persistence and browser regression tests.
+- Added evidence-required vocabularies for 15 conflict-causation categories and 17 coercion/conversion modes, plus two conflict and two conversion cases with 16 case-specific, cited assignments. Mixed causation, direct force, state sponsorship, continuity and disputed interpretation remain separate.
+
 ## Unreleased — Phase 14 forbidden, lost and disputed works
 
 - Added dedicated discovery routes for documented restriction and suppression cases, lost and indirectly attested works, hypothetical reconstructions, and disputed, forged or hoax-associated works.

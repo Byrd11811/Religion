@@ -59,6 +59,7 @@ const knownSeeds = [
   "mesopotamia-editions.json",
   "mesopotamia-passages.json",
   "modern-religions.json",
+  "ontology-entities.json",
   "passages.json",
   "regional-coverage.json",
   "relationships.json",
@@ -81,15 +82,18 @@ const sourcePaths = [
   "packages/shared/esoteric.ts",
   "packages/shared/forbidden-lost-disputed.ts",
   "packages/shared/modern-religions.ts",
+  "packages/shared/ontology-entities.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/protocols.ts",
   "packages/shared/taxonomy.ts",
   "packages/db/taxonomy.ts",
   "packages/db/research-queue.ts",
+  "packages/db/ontology.ts",
   "packages/db/schema.sql",
   "packages/db/client.ts",
   "packages/db/archive.ts",
+  "packages/ontology/index.ts",
   "packages/search/index.ts",
   "packages/search/hybrid.ts",
   "packages/search/federated.ts",
@@ -105,6 +109,7 @@ const sourcePaths = [
   "scripts/ingest-esoteric-literature.py",
   "scripts/ingest-forbidden-lost-disputed.py",
   "scripts/ingest-modern-religions.py",
+  "scripts/ingest-ontology-entities.py",
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
@@ -118,6 +123,7 @@ const sourcePaths = [
   "components/Esoteric.tsx",
   "components/ForbiddenLostDisputed.tsx",
   "components/ModernReligions.tsx",
+  "components/OntologyEntities.tsx",
   "components/Explore.tsx",
   "components/SpatialExplorer.tsx",
   "app/globals.css",
@@ -159,6 +165,33 @@ const collectionAliases: Partial<
   Record<(typeof absentDatasets)[number][0], Record<string, string>>
 > = {
   modernProfiles: { "modern-religions.json": "profiles" },
+  ontologyConcepts: { "ontology-entities.json": "concepts" },
+  conceptEdges: { "ontology-entities.json": "conceptEdges" },
+  conceptTerms: { "ontology-entities.json": "conceptTerms" },
+  spiritEntities: { "ontology-entities.json": "entities" },
+  entityAliases: { "ontology-entities.json": "nameAssertions" },
+  entityOccurrences: { "ontology-entities.json": "occurrences" },
+  entityRelationships: { "ontology-entities.json": "relationships" },
+  entityEvolutionPaths: { "ontology-entities.json": "evolutionPaths" },
+  entityEvolutionStages: { "ontology-entities.json": "evolutionStages" },
+  conflictCauses: {
+    "ontology-entities.json": "classificationSchemes.conflictCauses",
+  },
+  conversionModes: {
+    "ontology-entities.json": "classificationSchemes.conversionModes",
+  },
+  conflictClassificationCases: {
+    "ontology-entities.json": "conflictCases",
+  },
+  conflictCauseAssignments: {
+    "ontology-entities.json": "conflictCauseAssignments",
+  },
+  conversionClassificationCases: {
+    "ontology-entities.json": "conversionCases",
+  },
+  conversionModeAssignments: {
+    "ontology-entities.json": "conversionModeAssignments",
+  },
 };
 const input = {
   texts,
@@ -177,13 +210,17 @@ const input = {
       for (const filename of actualSeeds) {
         const data = parsedSeeds.get(filename);
         const collectionKey = collectionAliases[id]?.[filename] ?? id;
-        if (
-          data &&
-          typeof data === "object" &&
-          !Array.isArray(data) &&
-          collectionKey in data
-        ) {
-          const collection = (data as Record<string, unknown>)[collectionKey];
+        if (data && typeof data === "object" && !Array.isArray(data)) {
+          const collection = collectionKey
+            .split(".")
+            .reduce<unknown>(
+              (value, key) =>
+                value && typeof value === "object" && !Array.isArray(value)
+                  ? (value as Record<string, unknown>)[key]
+                  : undefined,
+              data,
+            );
+          if (collection === undefined) continue;
           if (
             !Array.isArray(collection) ||
             collection.some((row) => !row || typeof row.id !== "string")
@@ -293,7 +330,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 15 — Ontology and entity expansion",
+        currentFocus: "Phase 16 — Question, opposition and comparison engines",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -312,16 +349,20 @@ const outputs = new Map([
           { id: "12", status: "acceptance-implemented-not-finally-certified" },
           { id: "13", status: "acceptance-implemented-not-finally-certified" },
           { id: "14", status: "acceptance-implemented-not-finally-certified" },
-          { id: "15", status: "in-progress" },
-          ...Array.from({ length: 14 }, (_, index) => ({
-            id: String(index + 16),
+          { id: "15", status: "acceptance-implemented-not-finally-certified" },
+          { id: "16", status: "in-progress" },
+          ...Array.from({ length: 13 }, (_, index) => ({
+            id: String(index + 17),
             status: "not-started",
           })),
         ],
         requirementCounts: {
           total: inventory.requirements.length,
-          certifiedComplete: inventory.requirements.filter((item) => item.complete).length,
-          incomplete: inventory.requirements.filter((item) => !item.complete).length,
+          certifiedComplete: inventory.requirements.filter(
+            (item) => item.complete,
+          ).length,
+          incomplete: inventory.requirements.filter((item) => !item.complete)
+            .length,
         },
       },
       null,

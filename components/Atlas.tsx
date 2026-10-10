@@ -51,6 +51,7 @@ import { UndecipheredCollection, UndecipheredDetail } from "./Undeciphered";
 import { EsotericCollection } from "./Esoteric";
 import { ModernReligionsCollection } from "./ModernReligions";
 import { ForbiddenLostDisputedCollection } from "./ForbiddenLostDisputed";
+import { EntityExplorer, OntologyExplorer } from "./OntologyEntities";
 import {
   Timeline,
   WorldMap,
@@ -81,6 +82,8 @@ const navigation = [
       ["canon", "Canon / Non-Canon", Scale],
       ["graph", "Influence Graph", Network],
       ["themes", "Themes", Shapes],
+      ["ontology", "Concept Ontology", Shapes],
+      ["entities", "Historical Entities", Users],
       ["people", "People & Authors", Users],
       ["manuscripts", "Manuscripts & Objects", ScrollText],
       ["library/deep-archive", "Deep Archive", Layers3],
@@ -242,6 +245,12 @@ export default function Atlas({
       break;
     case "themes":
       content = <ThemesView />;
+      break;
+    case "ontology":
+      content = <OntologyExplorer conceptId={id} />;
+      break;
+    case "entities":
+      content = <EntityExplorer entityId={id} />;
       break;
     case "people":
       content = <People {...actions} />;

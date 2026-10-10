@@ -10,6 +10,8 @@ Phase 13 adds 38 catalog records and reviewed metadata overrides for 15 existing
 
 Phase 14 adds four specialized evidence datasets without inflating the 600-record work catalog: 10 sourced suppression, prohibition, canon-boundary or audience-restriction cases; 11 lost, indirectly attested or fragmentary works; six hypothetical or reconstructed sources; and eight disputed, forged or hoax-associated works. The three dedicated routes expose the records' evidence boundaries. Lost and hypothetical entries add no editions, passages, reconstructed quotations or invented witnesses. Suppression status does not turn canon exclusion into a ban, and disputed records display authenticity and provenance assessments instead of presenting claims as resolved fact.
 
+Phase 15 adds 89 concept records arranged under one root and nine branches, with 79 leaf concepts, 115 typed edges and 20 source-scoped original-language terms. The entity layer contains 17 first-class records, 73 sourced name assertions, 54 source occurrences, eight contextual relationships, nine evolution paths and 28 evolution stages. These records do not increase the 600-work catalog. The 15 conflict-cause and 17 conversion-mode values are applied to two conflict and two conversion cases through nine and seven case-specific evidence assignments respectively. Dedicated ontology/entity routes, Unicode-aware federated search, normalized persistence and read APIs expose the data while retaining scope, sources, confidence and non-equivalence boundaries.
+
 Three editorial question guides and two textual-tension comparisons cite bundled passages and distinguish provisional interpretation from source wording. Restricted queries omit guides whose evidence falls outside their scope. These are curated examples, not comprehensive scholarly consensus.
 
 Operational: browsing, filtering, paginated reading, source citations, edition comparison, question retrieval, optional synthesis adapter, comparison sets, geographic markers, timeline controls, reading paths, relationship inspection, canon status inspection, local collections, notes and exports.
@@ -20,7 +22,6 @@ Provider-dependent: free-form model synthesis and externally generated semantic 
 
 Future research scope from the supplied specification: full original-language corpus, manuscript collation, comprehensive historical-event/empire tracks, cultural permission workflows, deep linguistic comparison, reviewed influence/contradiction datasets, institutional collaboration, cloud identity and sharing. These are not represented as completed historical datasets.
 
-
 ## Completion roadmap Phase 0 — repository instrumentation
 
 Implemented a reproducible read-only audit: `npm run audit:coverage` generates five reports and `npm run audit:check` detects source/report drift in CI. See [coverage](generated/coverage.md), [requirement matrix](generated/requirements.md), [corpus targets](generated/corpus-targets.json), and [model decisions](phase-0-model-evaluation.md).
@@ -28,7 +29,6 @@ Implemented a reproducible read-only audit: `npm run audit:coverage` generates f
 Corpus counts are unchanged: 252 works, 44 editions / 43 searchable works, 41 complete-work/edition coverage records, 20,991 segments, eight witnesses, eight artifacts, 57 image references and three relationships. All 20,991 segments lack explicit primary/editorial classification. The current map predicate includes 26 of 37 coordinate-bearing works; 32 works are dated and 220 undated. These are baseline observations, not completion claims.
 
 The reports include 59 metrics, all 110 audit sections, 23 expansion and 35 historical quality rules, 250 original title requirements representing 248 distinct catalog targets, and 53 expansion sections. Unpopulated historical seed datasets report zero; deployment counts report unknown. No private database, source intake, model provider, migration or historical-map implementation is performed by the audit. The model decision record assigns normalized foundations and source-review acceptance cases to subsequent phases.
-
 
 ## Phase 1 — map and timeline repair slice
 
