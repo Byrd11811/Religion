@@ -16,6 +16,82 @@ CREATE TABLE IF NOT EXISTS text_people (text_id text REFERENCES texts(id),person
 CREATE TABLE IF NOT EXISTS concepts (id text PRIMARY KEY,name text NOT NULL,definition text,original_language text);
 CREATE TABLE IF NOT EXISTS concept_mentions (concept_id text REFERENCES concepts(id),passage_id text REFERENCES passages(id),relevance_score real,stance text,notes text,PRIMARY KEY(concept_id,passage_id));
 CREATE TABLE IF NOT EXISTS relationships (id text PRIMARY KEY,source_text_id text REFERENCES texts(id),target_text_id text REFERENCES texts(id),relationship_type text NOT NULL,evidence_level text NOT NULL,scholar_summary text,confidence text NOT NULL,citation text NOT NULL,metadata jsonb NOT NULL);
+
+-- Phase 17 heterogeneous relationship graph. The legacy work-to-work table
+-- remains available above; these tables retain typed non-work endpoints and
+-- normalized provenance without forcing people, traditions, organizations,
+-- concepts, or artifacts into the texts table.
+CREATE TABLE IF NOT EXISTS relationship_nodes (
+  id text PRIMARY KEY,
+  node_type text NOT NULL CHECK (node_type IN ('work','tradition','person','concept','organization','artifact')),
+  label text NOT NULL,
+  subtitle text NOT NULL,
+  description text NOT NULL,
+  href text,
+  source_urls text[] NOT NULL DEFAULT '{}',
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE INDEX IF NOT EXISTS relationship_nodes_type_idx ON relationship_nodes(node_type);
+CREATE TABLE IF NOT EXISTS relationship_edges (
+  id text PRIMARY KEY,
+  source_node_id text NOT NULL REFERENCES relationship_nodes(id),
+  target_node_id text NOT NULL REFERENCES relationship_nodes(id),
+  relationship_type text NOT NULL,
+  display_type text NOT NULL,
+  evidence_level text NOT NULL CHECK (evidence_level IN ('documented','strong','qualified','exploratory','disputed')),
+  confidence text NOT NULL,
+  scholar_summary text NOT NULL,
+  chronology text NOT NULL,
+  contact_summary text NOT NULL,
+  difference_summary text NOT NULL,
+  primary_citation_url text NOT NULL,
+  claim_status text NOT NULL,
+  interpretation_kind text,
+  asserts_occult_intent boolean,
+  metadata jsonb NOT NULL DEFAULT '{}',
+  CHECK (asserts_occult_intent IS NULL OR asserts_occult_intent = false)
+);
+CREATE INDEX IF NOT EXISTS relationship_edges_source_idx ON relationship_edges(source_node_id);
+CREATE INDEX IF NOT EXISTS relationship_edges_target_idx ON relationship_edges(target_node_id);
+CREATE INDEX IF NOT EXISTS relationship_edges_type_idx ON relationship_edges(relationship_type);
+CREATE TABLE IF NOT EXISTS relationship_citations (
+  edge_id text NOT NULL REFERENCES relationship_edges(id) ON DELETE CASCADE,
+  id text NOT NULL,
+  label text NOT NULL,
+  url text NOT NULL CHECK (url LIKE 'https://%'),
+  locator text,
+  source_type text NOT NULL,
+  PRIMARY KEY(edge_id,id)
+);
+CREATE TABLE IF NOT EXISTS relationship_counterarguments (
+  edge_id text NOT NULL REFERENCES relationship_edges(id) ON DELETE CASCADE,
+  id text NOT NULL,
+  summary text NOT NULL,
+  citation_ids text[] NOT NULL DEFAULT '{}',
+  PRIMARY KEY(edge_id,id)
+);
+CREATE TABLE IF NOT EXISTS relationship_source_chain (
+  edge_id text NOT NULL REFERENCES relationship_edges(id) ON DELETE CASCADE,
+  ordinal integer NOT NULL,
+  citation_id text NOT NULL,
+  role text NOT NULL CHECK (role IN ('evidence','counterevidence','claim-origin','context')),
+  note text NOT NULL,
+  PRIMARY KEY(edge_id,ordinal),
+  FOREIGN KEY(edge_id,citation_id) REFERENCES relationship_citations(edge_id,id) ON DELETE CASCADE
+);
+CREATE TABLE IF NOT EXISTS relationship_object_facts (
+  id text PRIMARY KEY,
+  artifact_node_id text NOT NULL REFERENCES relationship_nodes(id),
+  fact_type text NOT NULL CHECK (fact_type IN ('identity','creator','date','location','purpose','access')),
+  statement text NOT NULL,
+  citation jsonb NOT NULL,
+  metadata jsonb NOT NULL DEFAULT '{}'
+);
+CREATE TABLE IF NOT EXISTS relationship_edge_object_facts (
+  edge_id text NOT NULL REFERENCES relationship_edges(id) ON DELETE CASCADE,
+  fact_id text NOT NULL REFERENCES relationship_object_facts(id),
+  PRIMARY KEY(edge_id,fact_id)
+);
 CREATE TABLE IF NOT EXISTS claims (id text PRIMARY KEY,statement text NOT NULL,claim_type text NOT NULL,confidence text NOT NULL,model_generated boolean DEFAULT false,reviewed boolean DEFAULT false,created_at timestamptz DEFAULT now());
 CREATE TABLE IF NOT EXISTS claim_sources (id bigserial PRIMARY KEY,claim_id text REFERENCES claims(id),source_type text,source_id text,source_url text,quote text,citation_label text);
 CREATE TABLE IF NOT EXISTS images (id text PRIMARY KEY,text_id text REFERENCES texts(id),type text,caption text,source_url text NOT NULL,image_url text NOT NULL,license text NOT NULL,creator text,date text,museum text,public_domain boolean DEFAULT false,metadata jsonb NOT NULL);

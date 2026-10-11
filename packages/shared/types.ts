@@ -146,12 +146,118 @@ export interface Relationship {
   source: string;
   target: string;
   type: string;
+  relationshipType: RelationshipType;
   confidence: Confidence;
+  evidenceLevel: RelationshipEvidenceLevel;
   summary: string;
   sourceUrl: string;
   chronology: string;
   contact: string;
   difference: string;
+  citations: RelationshipCitation[];
+  counterarguments: RelationshipCounterargument[];
+  sourceChain: RelationshipSourceChainLink[];
+  claimStatus: RelationshipClaimStatus;
+  interpretation?: ObjectInterpretation;
+}
+export const relationshipTypes = [
+  "direct-citation",
+  "translation-lineage",
+  "commentary",
+  "polemical-response",
+  "shared-source",
+  "likely-influence",
+  "possible-influence",
+  "cultural-contact",
+  "thematic-parallel",
+  "ritual-parallel",
+  "linguistic-relationship",
+  "modern-reinterpretation",
+  "organization-membership",
+  "organization-contact",
+  "successor-claim",
+  "object-interpretation",
+] as const;
+export type RelationshipType = (typeof relationshipTypes)[number];
+export type RelationshipNodeType =
+  | "work"
+  | "tradition"
+  | "person"
+  | "concept"
+  | "organization"
+  | "artifact";
+export interface RelationshipNode {
+  id: string;
+  type: RelationshipNodeType;
+  label: string;
+  subtitle: string;
+  description: string;
+  href: string | null;
+  sourceUrls: string[];
+}
+export type RelationshipEvidenceLevel =
+  | "documented"
+  | "strong"
+  | "qualified"
+  | "exploratory"
+  | "disputed";
+export interface RelationshipCitation {
+  id: string;
+  label: string;
+  url: string;
+  locator?: string;
+  sourceType:
+    | "primary-source"
+    | "scholarly-source"
+    | "institutional-record"
+    | "collection-record"
+    | "community-source";
+}
+export interface RelationshipCounterargument {
+  id: string;
+  summary: string;
+  citationIds: string[];
+}
+export interface RelationshipSourceChainLink {
+  citationId: string;
+  role: "evidence" | "counterevidence" | "claim-origin" | "context";
+  note: string;
+}
+export type RelationshipClaimStatus =
+  | "documented"
+  | "documented-member"
+  | "strong-documentary-evidence"
+  | "probable-association"
+  | "documented-contact-not-membership"
+  | "claimed-member"
+  | "later-attribution"
+  | "no-verified-evidence"
+  | "disproven-misidentified"
+  | "claimed-successor"
+  | "alleged"
+  | "disputed"
+  | "not-applicable";
+export interface ObjectInterpretation {
+  kind:
+    | "object-fact"
+    | "maker-explanation"
+    | "institutional-explanation"
+    | "iconographic-scholarship"
+    | "religious-interpretation"
+    | "esoteric-interpretation"
+    | "later-popular-interpretation"
+    | "contested-interpretation"
+    | "unsupported-association";
+  objectFactIds: string[];
+  explanation: string;
+  assertsOccultIntent: false;
+}
+export interface RelationshipObjectFact {
+  id: string;
+  artifactId: string;
+  factType: "identity" | "creator" | "date" | "location" | "purpose" | "access";
+  statement: string;
+  citation: RelationshipCitation;
 }
 export interface Artifact {
   id: string;

@@ -5,6 +5,7 @@ import type {
   Passage,
   Tradition,
   Relationship,
+  RelationshipNode,
 } from "../shared/types";
 import type { Witness, MuseumArtifact, ArchiveImage } from "../shared/archive";
 
@@ -16,6 +17,7 @@ export interface CoverageInput {
   witnesses: Witness[];
   artifacts: MuseumArtifact[];
   images: ArchiveImage[];
+  relationshipNodes: RelationshipNode[];
   relationships: Relationship[];
   additionalCollections?: Record<string, { id: string }[]>;
 }
@@ -226,6 +228,10 @@ export function measureCoverage(
   const witnessIds = uniqueIds(input.witnesses, "witnesses");
   const artifactIds = uniqueIds(input.artifacts, "artifacts");
   uniqueIds(input.images, "images");
+  const relationshipNodeIds = uniqueIds(
+    input.relationshipNodes,
+    "relationship nodes",
+  );
   uniqueIds(input.relationships, "relationships");
   for (const collection of [
     "originalTextWorks",
@@ -267,8 +273,12 @@ export function measureCoverage(
     )
       throw new Error(`Orphan image ${i.id}`);
   }
+  for (const node of input.relationshipNodes) {
+    if (node.type === "work" && !workIds.has(node.id))
+      throw new Error(`Orphan relationship work node ${node.id}`);
+  }
   for (const r of input.relationships) {
-    if (!workIds.has(r.source) || !workIds.has(r.target))
+    if (!relationshipNodeIds.has(r.source) || !relationshipNodeIds.has(r.target))
       throw new Error(`Orphan relationship ${r.id}`);
   }
   const available = input.editions.filter(

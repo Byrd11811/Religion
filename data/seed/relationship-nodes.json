@@ -1,0 +1,332 @@
+[
+  {
+    "id": "atrahasis-epic",
+    "type": "work",
+    "label": "Atrahasis Epic",
+    "subtitle": "Akkadian literary work",
+    "description": "A Mesopotamian composition containing a flood narrative; surviving witnesses and later literary relationships require separate study.",
+    "href": "/texts/atrahasis-epic",
+    "sourceUrls": ["https://oracc.museum.upenn.edu/amgg/Listofdeities/Igigi/index.html"]
+  },
+  {
+    "id": "epic-of-gilgamesh",
+    "type": "work",
+    "label": "Epic of Gilgamesh",
+    "subtitle": "Akkadian epic tradition",
+    "description": "A composite Mesopotamian epic whose Standard Babylonian version includes Uta-napishti's flood account.",
+    "href": "/texts/epic-of-gilgamesh",
+    "sourceUrls": ["https://www.metmuseum.org/essays/flood-stories"]
+  },
+  {
+    "id": "torah-pentateuch",
+    "type": "work",
+    "label": "Torah / Pentateuch",
+    "subtitle": "Hebrew scriptural collection",
+    "description": "The five-book Torah includes the Genesis flood narrative; comparison does not by itself establish a transmission route.",
+    "href": "/texts/torah-pentateuch",
+    "sourceUrls": ["https://www.sefaria.org/Genesis.6"]
+  },
+  {
+    "id": "plato-phaedo",
+    "type": "work",
+    "label": "Plato — Phaedo",
+    "subtitle": "Greek philosophical dialogue",
+    "description": "A dialogue about Socrates' final hours that develops arguments concerning the soul and death.",
+    "href": "/texts/plato-phaedo",
+    "sourceUrls": ["https://www.gutenberg.org/ebooks/1658"]
+  },
+  {
+    "id": "bhagavad-gita",
+    "type": "work",
+    "label": "Bhagavad Gita",
+    "subtitle": "Sanskrit dialogue within the Mahabharata",
+    "description": "A dialogue between Arjuna and Krishna treating duty, disciplined action, knowledge, devotion, and the self.",
+    "href": "/texts/bhagavad-gita",
+    "sourceUrls": ["https://www.gutenberg.org/ebooks/2388"]
+  },
+  {
+    "id": "1-enoch",
+    "type": "work",
+    "label": "1 Enoch",
+    "subtitle": "Second Temple Jewish composite work",
+    "description": "An ancient Jewish composite work preserved completely in Geʽez and quoted in the Letter of Jude.",
+    "href": "/texts/1-enoch",
+    "sourceUrls": ["https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf"]
+  },
+  {
+    "id": "catholic-epistles",
+    "type": "work",
+    "label": "Catholic Epistles",
+    "subtitle": "New Testament letter collection",
+    "description": "A catalog grouping that includes the Letter of Jude; the cited relationship concerns Jude 14b–15 specifically.",
+    "href": "/texts/catholic-epistles",
+    "sourceUrls": ["https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf"]
+  },
+  {
+    "id": "ethiopian-enoch-tradition",
+    "type": "work",
+    "label": "Ethiopian Enoch tradition",
+    "subtitle": "Geʽez preservation and reception context",
+    "description": "A research record for the Geʽez transmission and Ethiopian reception of 1 Enoch, separate from any one manuscript or English edition.",
+    "href": "/texts/ethiopian-enoch-tradition",
+    "sourceUrls": ["https://www.ethiopianorthodox.org/english/ethiopian/literature.html"]
+  },
+  {
+    "id": "ethiopic-qeddase",
+    "type": "work",
+    "label": "Ethiopic Qeddase tradition",
+    "subtitle": "Geʽez liturgical tradition",
+    "description": "A metadata record for a continuing liturgical tradition; it is not a claim that every community uses an identical recension.",
+    "href": "/texts/ethiopic-qeddase",
+    "sourceUrls": ["https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/"]
+  },
+  {
+    "id": "deggwa-saint-yared",
+    "type": "work",
+    "label": "Dǝggʷa associated with Saint Yared",
+    "subtitle": "Geʽez hymnographic tradition",
+    "description": "A Geʽez hymnographic record modeled separately from church identity and from individual physical witnesses.",
+    "href": "/texts/deggwa-saint-yared",
+    "sourceUrls": ["https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/"]
+  },
+  {
+    "id": "lotus-sutra",
+    "type": "work",
+    "label": "Lotus Sutra",
+    "subtitle": "Mahāyāna Buddhist scripture",
+    "description": "A scripture central to Tiantai interpretation and practice.",
+    "href": "/texts/lotus-sutra",
+    "sourceUrls": ["https://plato.stanford.edu/entries/buddhism-tiantai/"]
+  },
+  {
+    "id": "profound-meaning-of-the-lotus-sutra",
+    "type": "work",
+    "label": "Profound Meaning of the Lotus Sutra",
+    "subtitle": "Tiantai exegetical work",
+    "description": "A Tiantai interpretive work associated with Zhiyi's exposition of the Lotus Sutra.",
+    "href": "/texts/profound-meaning-of-the-lotus-sutra",
+    "sourceUrls": ["https://plato.stanford.edu/entries/buddhism-tiantai/"]
+  },
+  {
+    "id": "gospel-of-matthew",
+    "type": "work",
+    "label": "Gospel of Matthew",
+    "subtitle": "New Testament gospel",
+    "description": "One of the three Synoptic Gospels and a later object of both commentary and polemical reception.",
+    "href": "/texts/gospel-of-matthew",
+    "sourceUrls": ["https://www.gutenberg.org/ebooks/10"]
+  },
+  {
+    "id": "gospel-of-mark",
+    "type": "work",
+    "label": "Gospel of Mark",
+    "subtitle": "New Testament gospel",
+    "description": "One of the three Synoptic Gospels; its source relationship to Matthew and Luke remains a scholarly problem with competing hypotheses.",
+    "href": "/texts/gospel-of-mark",
+    "sourceUrls": ["https://www.cambridge.org/core/journals/new-testament-studies/article/abs/major-agreements-of-matthew-and-luke-against-mark/B580E03796B506B49A232D6F91C513CA"]
+  },
+  {
+    "id": "gospel-of-luke",
+    "type": "work",
+    "label": "Gospel of Luke",
+    "subtitle": "New Testament gospel",
+    "description": "One of the three Synoptic Gospels; models of its sources must retain the live scholarly alternatives.",
+    "href": "/texts/gospel-of-luke",
+    "sourceUrls": ["https://www.cambridge.org/core/journals/new-testament-studies/article/abs/major-agreements-of-matthew-and-luke-against-mark/B580E03796B506B49A232D6F91C513CA"]
+  },
+  {
+    "id": "the-satanic-bible",
+    "type": "work",
+    "label": "The Satanic Bible",
+    "subtitle": "Modern religious literature",
+    "description": "A copyrighted modern work represented by metadata and an official public statement rather than reproduced text.",
+    "href": "/texts/the-satanic-bible",
+    "sourceUrls": ["https://churchofsatan.com/nine-satanic-statements/"]
+  },
+  {
+    "id": "instruction-of-amenemope",
+    "type": "work",
+    "label": "Instruction of Amenemope",
+    "subtitle": "Ancient Egyptian wisdom instruction",
+    "description": "An Egyptian wisdom composition frequently studied alongside Proverbs 22:17–23:11.",
+    "href": "/texts/instruction-of-amenemope",
+    "sourceUrls": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html"]
+  },
+  {
+    "id": "proverbs",
+    "type": "work",
+    "label": "Proverbs",
+    "subtitle": "Hebrew wisdom collection",
+    "description": "A composite wisdom collection whose relationship to Egyptian instruction literature is studied at the level of particular sections.",
+    "href": "/texts/proverbs",
+    "sourceUrls": ["https://www.cambridge.org/core/books/abs/book-of-proverbs-in-social-and-theological-context/social-contexts-in-proverbs-22173131/2252D8D658419FB8D65429F8C619A03B"]
+  },
+  {
+    "id": "book-of-the-dead",
+    "type": "work",
+    "label": "Book of the Dead",
+    "subtitle": "Ancient Egyptian funerary composition tradition",
+    "description": "A modern collective title for variable ancient Egyptian funerary compositions, not one invariant book.",
+    "href": "/texts/book-of-the-dead",
+    "sourceUrls": ["https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd136.html"]
+  },
+  {
+    "id": "opening-of-the-mouth-ritual",
+    "type": "work",
+    "label": "Opening of the Mouth Ritual",
+    "subtitle": "Ancient Egyptian ritual-text tradition",
+    "description": "A ritual complex associated with animation and funerary practice, modeled separately from the Book of the Dead.",
+    "href": "/texts/opening-of-the-mouth-ritual",
+    "sourceUrls": ["https://www.britishmuseum.org/collection/object/Y_EA884"]
+  },
+  {
+    "id": "mawangdui-laozi-silk",
+    "type": "artifact",
+    "label": "Mawangdui Laozi silk manuscripts",
+    "subtitle": "Early Laozi textual witnesses",
+    "description": "Silk-text witnesses from Mawangdui that predate the received ordering and illuminate textual variation.",
+    "href": null,
+    "sourceUrls": ["https://www.loc.gov/resource/gdcwdl.wdl_13543/?st=list"]
+  },
+  {
+    "id": "tao-te-ching",
+    "type": "work",
+    "label": "Tao Te Ching / Daodejing",
+    "subtitle": "Received Laozi textual tradition",
+    "description": "The received textual tradition associated with Laozi; early witnesses differ in sequence and wording.",
+    "href": "/texts/tao-te-ching",
+    "sourceUrls": ["https://www.loc.gov/resource/gdcwdl.wdl_13543/?st=list"]
+  },
+  {
+    "id": "spring-and-autumn-annals",
+    "type": "work",
+    "label": "Spring and Autumn Annals",
+    "subtitle": "Chinese chronicle",
+    "description": "A concise chronicle transmitted with major commentary traditions.",
+    "href": "/texts/spring-and-autumn-annals",
+    "sourceUrls": ["https://ctext.org/chun-qiu-zuo-zhuan"]
+  },
+  {
+    "id": "zuo-commentary",
+    "type": "work",
+    "label": "Zuo Commentary",
+    "subtitle": "Commentary and narrative tradition",
+    "description": "A major commentary and narrative tradition transmitted in relation to the Spring and Autumn Annals.",
+    "href": "/texts/zuo-commentary",
+    "sourceUrls": ["https://ctext.org/chun-qiu-zuo-zhuan"]
+  },
+  {
+    "id": "hebrew-jewish-tradition",
+    "type": "tradition",
+    "label": "Hebrew / Jewish traditions",
+    "subtitle": "Nonexclusive Atlas tradition grouping",
+    "description": "A broad discovery grouping that must not replace period-specific Jewish communities or texts.",
+    "href": "/traditions/hebrew-jewish-tradition",
+    "sourceUrls": ["https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf"]
+  },
+  {
+    "id": "christianity",
+    "type": "tradition",
+    "label": "Christian traditions",
+    "subtitle": "Nonexclusive Atlas tradition grouping",
+    "description": "A broad discovery grouping whose early textual relationships require period-specific evidence.",
+    "href": "/traditions/christianity",
+    "sourceUrls": ["https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf"]
+  },
+  {
+    "id": "person-george-washington",
+    "type": "person",
+    "label": "George Washington",
+    "subtitle": "1732–1799",
+    "description": "Historical person with documented Masonic membership and documented correspondence about claims concerning the Illuminati.",
+    "href": null,
+    "sourceUrls": [
+      "https://www.mountvernon.org/george-washington/freemasonry/masonic-associations",
+      "https://www.loc.gov/item/mgw441338/"
+    ]
+  },
+  {
+    "id": "person-adam-weishaupt",
+    "type": "person",
+    "label": "Adam Weishaupt",
+    "subtitle": "Founder associated with the Bavarian Illuminati",
+    "description": "Historical person linked to the documented eighteenth-century Bavarian organization; this record makes no claim about later namesakes.",
+    "href": null,
+    "sourceUrls": ["https://www.bavarikon.de/object/bav%3ABSB-MDZ-00000BSB10381782"]
+  },
+  {
+    "id": "freemasonry",
+    "type": "organization",
+    "label": "Freemasonry",
+    "subtitle": "Documented fraternal organization family",
+    "description": "A historically documented fraternity with jurisdiction-specific lodges and records, not a single centralized world organization.",
+    "href": null,
+    "sourceUrls": ["https://www.ugle.org.uk/discover-freemasonry/1723-constitutions"]
+  },
+  {
+    "id": "bavarian-illuminati",
+    "type": "organization",
+    "label": "Bavarian Illuminati",
+    "subtitle": "Documented late-eighteenth-century association",
+    "description": "A historically documented Bavarian organization, kept distinct from modern continuous-global-control claims.",
+    "href": null,
+    "sourceUrls": [
+      "https://www.bavarikon.de/object/bav%3ABSB-MDZ-00000BSB10381782",
+      "https://www.digitale-sammlungen.de/de/details/bsb11099015"
+    ]
+  },
+  {
+    "id": "concept-modern-illuminati-continuity",
+    "type": "concept",
+    "label": "Modern Illuminati continuity claim",
+    "subtitle": "Contested successor claim",
+    "description": "A later claim that the suppressed Bavarian organization continued as a hidden global body; Atlas does not treat the claim as established history.",
+    "href": null,
+    "sourceUrls": ["https://www.loc.gov/item/mgw441338/"]
+  },
+  {
+    "id": "concept-satan",
+    "type": "concept",
+    "label": "Satan in later reception",
+    "subtitle": "Historically changing concept",
+    "description": "A reception concept whose meanings vary by source and period; it is not a universal alias for every adversarial being.",
+    "href": "/ontology/evil",
+    "sourceUrls": ["https://www.bibleodyssey.org/dictionary/satan/"]
+  },
+  {
+    "id": "concept-sacred-kingship",
+    "type": "concept",
+    "label": "Sacred kingship",
+    "subtitle": "Ontology concept",
+    "description": "A comparative concept for religious dimensions of rulership; object-level claims remain source-specific.",
+    "href": "/ontology/sacred-kingship",
+    "sourceUrls": ["https://www.metmuseum.org/art/collection/search/324794"]
+  },
+  {
+    "id": "concept-scripture",
+    "type": "concept",
+    "label": "Scripture and manuscript practice",
+    "subtitle": "Ontology concept",
+    "description": "A discovery concept linking physical manuscript facts to religious textual practice without identifying an unspecified leaf with a named work.",
+    "href": "/ontology/scripture",
+    "sourceUrls": ["https://www.metmuseum.org/art/collection/search/74875"]
+  },
+  {
+    "id": "assyrian-tablet",
+    "type": "artifact",
+    "label": "Stone cuneiform tablet of Ashurnasirpal II",
+    "subtitle": "Metropolitan Museum of Art 58.31.57",
+    "description": "An Assyrian royal inscription from Nimrud; it is not a tablet of the Epic of Gilgamesh.",
+    "href": "/artifacts/assyrian-tablet",
+    "sourceUrls": ["https://www.metmuseum.org/art/collection/search/324794"]
+  },
+  {
+    "id": "buddhist-leaf",
+    "type": "artifact",
+    "label": "Leaf from an illuminated Buddhist manuscript",
+    "subtitle": "Metropolitan Museum of Art 55.121.37.2",
+    "description": "A fourteenth-century palm-leaf manuscript object from Nepal; Atlas does not identify it as a Dhammapada witness.",
+    "href": "/artifacts/buddhist-leaf",
+    "sourceUrls": ["https://www.metmuseum.org/art/collection/search/74875"]
+  }
+]

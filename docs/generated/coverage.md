@@ -22,7 +22,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | artifacts | Museum artifacts | 33 | Unknown | Unknown | Unknown | Unknown | No |
 | images | Archive image references | 105 | Unknown | Unknown | Unknown | Unknown | No |
 | rightsAttributedImages | Images with source/rights/attribution | 105 | Unknown | Unknown | Unknown | Unknown | No |
-| relationships | Curated relationship records | 5 | Unknown | Unknown | Unknown | Unknown | No |
+| relationships | Curated relationship records | 22 | Unknown | Unknown | Unknown | Unknown | No |
 | datedWorks | Works with start dates | 111 | Unknown | Unknown | Unknown | Unknown | No |
 | undatedWorks | Works without start dates | 489 | Unknown | Unknown | Unknown | Unknown | No |
 | coordinateWorks | Works with coordinates | 33 | Unknown | Unknown | Unknown | Unknown | No |

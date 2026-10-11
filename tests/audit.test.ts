@@ -16,6 +16,7 @@ import {
   traditions,
   editions,
   relationships,
+  relationshipNodes,
 } from "../packages/shared/catalog";
 import {
   witnesses,
@@ -102,6 +103,7 @@ const input: CoverageInput = {
   witnesses,
   artifacts: museumArtifacts,
   images: archiveImages,
+  relationshipNodes,
   passages: passageSeedFiles.flatMap(
     (filename) =>
       JSON.parse(readFileSync(`data/seed/${filename}`, "utf8")) as Passage[],
@@ -319,6 +321,7 @@ test("coordinates at zero count while null coordinates and unknown dates are dis
     witnesses: [],
     artifacts: [],
     images: [],
+    relationshipNodes: [],
     relationships: [],
   };
   const m = measureCoverage(minimal, 2026);

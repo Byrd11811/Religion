@@ -11,6 +11,7 @@ import {
   traditions,
   editions,
   relationships,
+  relationshipNodes,
 } from "../packages/shared/catalog";
 import {
   witnesses,
@@ -67,6 +68,8 @@ const knownSeeds = [
   "ontology-entities.json",
   "passages.json",
   "regional-coverage.json",
+  "relationship-nodes.json",
+  "relationship-object-facts.json",
   "relationships.json",
   "research-engines.json",
   "taxonomy.json",
@@ -93,12 +96,14 @@ const sourcePaths = [
   "packages/shared/research-engines.ts",
   "packages/shared/research-provenance.ts",
   "packages/shared/research.ts",
+  "packages/shared/relationships.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
   "packages/shared/protocols.ts",
   "packages/shared/taxonomy.ts",
   "packages/db/taxonomy.ts",
   "packages/db/research-queue.ts",
+  "packages/db/relationships.ts",
   "packages/db/ontology.ts",
   "packages/db/schema.sql",
   "packages/db/client.ts",
@@ -379,6 +384,7 @@ const input = {
   witnesses,
   artifacts: museumArtifacts,
   images: archiveImages,
+  relationshipNodes,
   passages: passageSeedFiles.flatMap(
     (filename) => parsedSeeds.get(filename) as Passage[],
   ),
@@ -511,7 +517,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 17 — Relationship graph",
+        currentFocus: "Phase 18 — Original language / translation alignment",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -532,8 +538,9 @@ const outputs = new Map([
           { id: "14", status: "acceptance-implemented-not-finally-certified" },
           { id: "15", status: "acceptance-implemented-not-finally-certified" },
           { id: "16", status: "acceptance-implemented-not-finally-certified" },
-          ...Array.from({ length: 13 }, (_, index) => ({
-            id: String(index + 17),
+          { id: "17", status: "acceptance-implemented-not-finally-certified" },
+          ...Array.from({ length: 12 }, (_, index) => ({
+            id: String(index + 18),
             status: "not-started",
           })),
         ],

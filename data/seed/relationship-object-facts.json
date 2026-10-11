@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fact-assyrian-tablet-identity",
+    "artifactId": "assyrian-tablet",
+    "factType": "identity",
+    "statement": "The Metropolitan Museum of Art identifies 58.31.57 as a stone cuneiform tablet with an inscription of Ashurnasirpal II from the Northwest Palace at Nimrud, dated ca. 883–859 BCE.",
+    "citation": {
+      "id": "src-met-assyrian-tablet",
+      "label": "The Met: Stone cuneiform tablet with inscription of Ashurnasirpal II",
+      "url": "https://www.metmuseum.org/art/collection/search/324794",
+      "locator": "Object 58.31.57",
+      "sourceType": "collection-record"
+    }
+  },
+  {
+    "id": "fact-buddhist-leaf-identity",
+    "artifactId": "buddhist-leaf",
+    "factType": "identity",
+    "statement": "The Metropolitan Museum of Art identifies 55.121.37.2 as a fourteenth-century illuminated Buddhist palm-leaf manuscript leaf from Nepal's Kathmandu Valley.",
+    "citation": {
+      "id": "src-met-buddhist-leaf",
+      "label": "The Met: Leaf from an Illuminated Buddhist Manuscript",
+      "url": "https://www.metmuseum.org/art/collection/search/74875",
+      "locator": "Object 55.121.37.2",
+      "sourceType": "collection-record"
+    }
+  }
+]

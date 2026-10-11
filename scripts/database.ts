@@ -4,7 +4,6 @@ import {
   texts,
   traditions,
   editions,
-  relationships,
   artifacts,
 } from "../packages/shared/catalog";
 import { allPassages } from "../packages/search";
@@ -12,6 +11,7 @@ import { themes, concepts } from "../packages/ontology";
 import { syncArchive } from "../packages/db/archive";
 import { syncOntology } from "../packages/db/ontology";
 import { syncTaxonomy } from "../packages/db/taxonomy";
+import { syncRelationships } from "../packages/db/relationships";
 import { loadEnvConfig } from "@next/env";
 import { aiRightsDecision } from "../packages/shared/rights";
 loadEnvConfig(process.cwd());
@@ -36,6 +36,7 @@ async function main() {
       await syncTaxonomy(client);
       await syncArchive(client);
       await syncOntology(client);
+      await syncRelationships(client);
       console.log("PostgreSQL schema and pgvector extension are ready.");
       return;
     }
@@ -125,20 +126,6 @@ async function main() {
             [p.id, tag, "Explicit keyword taxonomy", "E"],
           );
     }
-    for (const r of relationships)
-      await client.query(
-        "INSERT INTO relationships(id,source_text_id,target_text_id,relationship_type,evidence_level,scholar_summary,confidence,citation,metadata) VALUES($1,$2,$3,$4,$5,$6,$5,$7,$8) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
-        [
-          r.id,
-          r.source,
-          r.target,
-          r.type,
-          r.confidence,
-          r.summary,
-          r.sourceUrl,
-          JSON.stringify(r),
-        ],
-      );
     for (const a of artifacts)
       await client.query(
         "INSERT INTO images(id,caption,source_url,image_url,license,creator,date,museum,public_domain,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9) ON CONFLICT(id) DO UPDATE SET metadata=EXCLUDED.metadata",
@@ -157,6 +144,7 @@ async function main() {
     await syncTaxonomy(client);
     await syncArchive(client);
     await syncOntology(client);
+    await syncRelationships(client);
     await client.query("COMMIT");
     console.log(
       `Seeded ${texts.length} texts, ${editions.length} editions and ${allPassages().length} passages.`,

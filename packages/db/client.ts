@@ -8,13 +8,13 @@ import {
   texts,
   traditions,
   editions,
-  relationships,
   artifacts,
 } from "@/packages/shared/catalog";
 import { themes } from "@/packages/ontology";
 import { syncArchive } from "./archive";
 import { syncTaxonomy } from "./taxonomy";
 import { syncOntology } from "./ontology";
+import { syncRelationships } from "./relationships";
 import type { Passage, Collection } from "@/packages/shared/types";
 import { passageSeedFiles } from "@/packages/shared/seed-files";
 import { aiRightsDecision } from "@/packages/shared/rights";
@@ -87,7 +87,7 @@ async function acquirePoolClient(pool: Pool, signal: AbortSignal) {
 // Bump this whenever the seed-to-database adapter or its schema interpretation
 // changes. Seed contents alone cannot reveal a changed transformation.
 const BUNDLED_SEED_ADAPTER_SCHEMA_REVISION =
-  "atlas-local-sync-adapter-schema-v4";
+  "atlas-local-sync-adapter-schema-v5";
 
 function editionRightsAllowed(editionId: string) {
   const edition = editions.find((item) => item.id === editionId);
@@ -378,19 +378,7 @@ async function initialize(): Promise<AtlasDatabase> {
       }
       for (const t of themes)
         await tx.query("INSERT INTO themes(id,name) VALUES($1,$1)", [t]);
-      for (const r of relationships)
-        await tx.query(
-          "INSERT INTO relationships(id,source_text_id,target_text_id,relationship_type,evidence_level,confidence,citation,metadata) VALUES($1,$2,$3,$4,$5,$5,$6,$7)",
-          [
-            r.id,
-            r.source,
-            r.target,
-            r.type,
-            r.confidence,
-            r.sourceUrl,
-            JSON.stringify(r),
-          ],
-        );
+      await syncRelationships(tx);
       for (const a of artifacts)
         await tx.query(
           "INSERT INTO images(id,caption,source_url,image_url,license,creator,date,museum,public_domain,metadata) VALUES($1,$2,$3,$4,$5,$6,$7,$8,true,$9)",
@@ -450,21 +438,6 @@ async function initialize(): Promise<AtlasDatabase> {
         [JSON.stringify(batch)],
       );
     }
-    for (const r of relationships)
-      await db.query(
-        `INSERT INTO relationships(id,source_text_id,target_text_id,relationship_type,evidence_level,confidence,citation,metadata)
-       VALUES($1,$2,$3,$4,$5,$5,$6,$7)
-       ON CONFLICT(id) DO UPDATE SET source_text_id=EXCLUDED.source_text_id,target_text_id=EXCLUDED.target_text_id,relationship_type=EXCLUDED.relationship_type,evidence_level=EXCLUDED.evidence_level,confidence=EXCLUDED.confidence,citation=EXCLUDED.citation,metadata=EXCLUDED.metadata`,
-        [
-          r.id,
-          r.source,
-          r.target,
-          r.type,
-          r.confidence,
-          r.sourceUrl,
-          JSON.stringify(r),
-        ],
-      );
     for (const e of editions)
       await db.query(
         `INSERT INTO editions(id,text_id,title,translator,language,license,source_url,sha256,public_domain,metadata)
@@ -512,6 +485,7 @@ async function initialize(): Promise<AtlasDatabase> {
     await syncTaxonomy(tx);
     await syncArchive(tx);
     await syncOntology(tx);
+    await syncRelationships(tx);
   });
   await db.query(
     `INSERT INTO atlas_internal_metadata(key,value)

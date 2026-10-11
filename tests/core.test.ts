@@ -23,6 +23,7 @@ import {
   traditions,
   editions,
   relationships,
+  relationshipNodes,
 } from "../packages/shared/catalog";
 import { allPassages, search } from "../packages/search";
 import { federatedSearch } from "../packages/search/federated";
@@ -1371,12 +1372,22 @@ test("unresolved-script questions refuse invented translation", async () => {
   }
 });
 test("relationships never omit evidence or uncertainty", () => {
+  const nodeById = new Map(relationshipNodes.map((node) => [node.id, node]));
   for (const r of relationships) {
-    assert.ok(texts.some((t) => t.id === r.source));
-    assert.ok(texts.some((t) => t.id === r.target));
+    const source = nodeById.get(r.source);
+    const target = nodeById.get(r.target);
+    assert.ok(source, `missing relationship source ${r.source}`);
+    assert.ok(target, `missing relationship target ${r.target}`);
+    if (source.type === "work") assert.ok(texts.some((t) => t.id === r.source));
+    if (target.type === "work") assert.ok(texts.some((t) => t.id === r.target));
     assert.ok(r.sourceUrl.startsWith("https://"));
     assert.ok(r.confidence);
     assert.ok(r.difference);
+    assert.ok(r.citations.length > 0);
+    assert.ok(r.counterarguments.length > 0);
+    const citationIds = new Set(r.citations.map(({ id }) => id));
+    assert.ok(r.sourceChain.length > 0);
+    assert.ok(r.sourceChain.every(({ citationId }) => citationIds.has(citationId)));
   }
 });
 test("concept expansion is bounded and explicit", () => {

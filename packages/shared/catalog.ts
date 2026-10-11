@@ -1,7 +1,6 @@
 import textsData from "@/data/seed/texts.json";
 import traditionsData from "@/data/seed/traditions.json";
 import editionsData from "@/data/seed/editions.json";
-import relationshipsData from "@/data/seed/relationships.json";
 import imagesData from "@/data/seed/images.json";
 import egyptAdditions from "@/data/seed/egypt-additions.json";
 import egyptEditions from "@/data/seed/egypt-editions.json";
@@ -20,9 +19,16 @@ import type {
   TextRecord,
   Tradition,
   Edition,
-  Relationship,
   Artifact,
 } from "./types";
+export {
+  relationshipEdges,
+  relationshipNodes,
+  relationshipObjectFacts,
+  relationshipNode,
+  relationshipsForNode,
+} from "./relationships";
+import { relationshipEdges } from "./relationships";
 const egyptOverrides = new Map(
   (egyptAdditions.overrides as (Partial<TextRecord> & { id: string })[]).map(
     (record) => [record.id, record],
@@ -107,7 +113,7 @@ export const editions = [
   ...(chinaEditions as Edition[]),
   ...(esotericEditions as Edition[]),
 ];
-export const relationships = relationshipsData as Relationship[];
+export const relationships = relationshipEdges;
 export const artifacts = imagesData as Artifact[];
 export function dateLabel(start: number | null, end?: number | null) {
   if (start === null) return "Date unreviewed";

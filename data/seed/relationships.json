@@ -1,1 +1,580 @@
-[{"id":"flood-mesopotamia","source":"atrahasis-epic","target":"epic-of-gilgamesh","type":"Shared narrative tradition","confidence":"D","summary":"Both preserve Mesopotamian flood narratives. The transmission between surviving versions requires textual study.","sourceUrl":"https://www.metmuseum.org/essays/flood-stories","chronology":"Surviving witnesses belong to different periods; composition and copy dates differ.","contact":"Shared Mesopotamian literary setting.","difference":"The narratives have different settings and literary purposes."},{"id":"flood-genesis","source":"epic-of-gilgamesh","target":"torah-pentateuch","type":"Thematic parallel","confidence":"D","summary":"Compare a catastrophic flood and a human survivor. Similarity alone does not establish direct borrowing.","sourceUrl":"https://www.metmuseum.org/essays/flood-stories","chronology":"Earlier surviving evidence is not proof of the earliest oral telling.","contact":"Ancient Near Eastern cultural contact is relevant; a direct transmission chain is not established here.","difference":"Divine agency and the narrative role of the survivor differ."},{"id":"self-dialogue","source":"plato-phaedo","target":"bhagavad-gita","type":"Thematic parallel","confidence":"E","summary":"Both provide material for studying the soul. This is an exploratory comparison, not a claim of historical contact.","sourceUrl":"https://www.gutenberg.org/ebooks/1658","chronology":"Overlapping editorial date ranges cannot determine transmission.","contact":"Data unavailable; no direct contact claim.","difference":"A Greek philosophical dialogue and a Hindu dialogue within an epic frame their arguments differently."},{"id":"enoch-geez-preservation","source":"1-enoch","target":"ethiopian-enoch-tradition","type":"Textual preservation and reception","confidence":"B","summary":"The complete Book of Enoch survives in Geʽez and has a distinct Ethiopian reception history. This edge does not identify the bundled English translation with a physical Geʽez witness.","sourceUrl":"https://www.ethiopianorthodox.org/english/ethiopian/literature.html","chronology":"Ancient composition history, Geʽez transmission, physical manuscript dates and modern editions are separate chronological layers.","contact":"The Ethiopian Orthodox Tewahedo Church source describes preservation in Geʽez.","difference":"A literary work, a community reception tradition, a manuscript, and a modern translation are not interchangeable."},{"id":"ethiopian-eritrean-geez-heritage","source":"ethiopic-qeddase","target":"deggwa-saint-yared","type":"Shared Geʽez liturgical heritage","confidence":"C","summary":"Ethiopian and Eritrean Tewahedo communities share Geʽez liturgical heritage while remaining independently modeled communities.","sourceUrl":"https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/","chronology":"No single date is assigned to a continuing liturgical and manuscript heritage.","contact":"Shared language and ecclesiastical transmission are documented; community-specific uses require separate sources.","difference":"Shared heritage does not make the Ethiopian and Eritrean churches one institutional entity or prove identical local canons."}]
+[
+  {
+    "id": "flood-mesopotamia",
+    "source": "atrahasis-epic",
+    "target": "epic-of-gilgamesh",
+    "type": "Shared Mesopotamian flood tradition",
+    "relationshipType": "thematic-parallel",
+    "confidence": "C",
+    "evidenceLevel": "qualified",
+    "summary": "Atrahasis and the Standard Babylonian Gilgamesh tradition preserve closely related Mesopotamian flood narratives, while the relationship among surviving tablets, earlier compositions, and oral traditions remains a textual-history question.",
+    "sourceUrl": "https://www.metmuseum.org/essays/flood-stories",
+    "chronology": "Atrahasis is attested earlier than the Standard Babylonian Gilgamesh witnesses, but tablet date, composition date, and narrative transmission are separate questions.",
+    "contact": "Both records belong to Mesopotamian scribal settings where related flood traditions circulated.",
+    "difference": "The flood episodes occupy different compositions and serve different literary structures.",
+    "citations": [
+      {"id":"src-met-flood","label":"The Metropolitan Museum of Art: Flood Stories","url":"https://www.metmuseum.org/essays/flood-stories","locator":"Mesopotamian flood traditions","sourceType":"scholarly-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-flood-mesopotamia-layering","summary":"Shared narrative material does not identify a single surviving tablet as the direct physical source of another recension.","citationIds":["src-met-flood"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-met-flood","role":"evidence","note":"Museum essay supplies the comparative textual-history context."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "flood-genesis",
+    "source": "epic-of-gilgamesh",
+    "target": "torah-pentateuch",
+    "type": "Ancient Near Eastern flood parallel",
+    "relationshipType": "thematic-parallel",
+    "confidence": "D",
+    "evidenceLevel": "qualified",
+    "summary": "The Gilgamesh and Genesis flood narratives share a catastrophic flood and a human survivor, but comparison alone does not establish a direct borrowing chain.",
+    "sourceUrl": "https://www.metmuseum.org/essays/flood-stories",
+    "chronology": "Earlier surviving Mesopotamian witnesses establish chronological possibility, not the date of every oral or written source behind Genesis.",
+    "contact": "Ancient Near Eastern contact makes comparison historically relevant; this record does not claim a traced manuscript route.",
+    "difference": "Divine agency, covenant, characterization, and the flood's function differ materially.",
+    "citations": [
+      {"id":"src-met-flood-genesis","label":"The Metropolitan Museum of Art: Flood Stories","url":"https://www.metmuseum.org/essays/flood-stories","locator":"Gilgamesh and Genesis comparison","sourceType":"scholarly-source"},
+      {"id":"src-sefaria-genesis-6","label":"Sefaria: Genesis 6","url":"https://www.sefaria.org/Genesis.6","locator":"Genesis 6–9","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-flood-direct-borrowing","summary":"The available comparison does not demonstrate that the author of Genesis copied the surviving Gilgamesh tablet directly.","citationIds":["src-met-flood-genesis"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-met-flood-genesis","role":"evidence","note":"Museum essay establishes the reviewed comparison."},
+      {"citationId":"src-sefaria-genesis-6","role":"context","note":"Primary text anchors the Genesis side of the comparison."}
+    ],
+    "claimStatus": "not-applicable"
+  },
+  {
+    "id": "self-dialogue",
+    "source": "plato-phaedo",
+    "target": "bhagavad-gita",
+    "type": "Exploratory comparison of self and death",
+    "relationshipType": "thematic-parallel",
+    "confidence": "E",
+    "evidenceLevel": "exploratory",
+    "summary": "Both dialogues support comparison of the self and death, but this edge asserts neither equivalence nor historical influence.",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/1658",
+    "chronology": "Broad editorial date ranges are insufficient to establish direction of transmission.",
+    "contact": "No contact mechanism is asserted by this record.",
+    "difference": "A Greek philosophical dialogue and a Sanskrit dialogue within an epic frame their arguments, duties, and soteriologies differently.",
+    "citations": [
+      {"id":"src-gutenberg-phaedo","label":"Project Gutenberg: Phaedo, translated by Benjamin Jowett","url":"https://www.gutenberg.org/ebooks/1658","sourceType":"primary-source"},
+      {"id":"src-gutenberg-gita","label":"Project Gutenberg: The Song Celestial, translated by Edwin Arnold","url":"https://www.gutenberg.org/ebooks/2388","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-self-dialogue-contact","summary":"No independently sourced linguistic or contact evidence is attached; the edge must remain an exploratory reading path.","citationIds":[]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-gutenberg-phaedo","role":"evidence","note":"Public-domain translation supports inspection of the first work."},
+      {"citationId":"src-gutenberg-gita","role":"evidence","note":"Public-domain historical translation supports inspection of the second work."}
+    ],
+    "claimStatus": "not-applicable"
+  },
+  {
+    "id": "enoch-geez-preservation",
+    "source": "1-enoch",
+    "target": "ethiopian-enoch-tradition",
+    "type": "Geʽez preservation and reception",
+    "relationshipType": "translation-lineage",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The complete Book of Enoch survives in Geʽez and has a distinct Ethiopian reception history; the relationship does not identify the bundled English translation with a physical Geʽez witness.",
+    "sourceUrl": "https://www.ethiopianorthodox.org/english/ethiopian/literature.html",
+    "chronology": "Ancient composition, Geʽez translation and transmission, surviving manuscript dates, and modern editions remain separate layers.",
+    "contact": "The Ethiopian Orthodox Tewahedo Church source describes preservation in Geʽez.",
+    "difference": "A literary work, a community reception tradition, a manuscript, and a modern translation are not interchangeable.",
+    "citations": [
+      {"id":"src-eotc-enoch-literature","label":"Ethiopian Orthodox Tewahedo Church: Ethiopian literature","url":"https://www.ethiopianorthodox.org/english/ethiopian/literature.html","locator":"Book of Enoch and Geʽez literature","sourceType":"community-source"},
+      {"id":"src-gutenberg-enoch","label":"Project Gutenberg: The Book of Enoch, R. H. Charles translation","url":"https://www.gutenberg.org/ebooks/77935","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-enoch-witness-edition","summary":"The modern English edition is not evidence that a particular physical Geʽez manuscript supplied its complete text.","citationIds":["src-gutenberg-enoch"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-eotc-enoch-literature","role":"evidence","note":"Community source documents the Geʽez preservation context."},
+      {"citationId":"src-gutenberg-enoch","role":"context","note":"Identifies the bundled public-domain English edition as a separate modern layer."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "ethiopian-eritrean-geez-heritage",
+    "source": "ethiopic-qeddase",
+    "target": "deggwa-saint-yared",
+    "type": "Shared Geʽez liturgical language context",
+    "relationshipType": "linguistic-relationship",
+    "confidence": "C",
+    "evidenceLevel": "qualified",
+    "summary": "These records share a Geʽez liturgical and manuscript context while remaining distinct works and community practices.",
+    "sourceUrl": "https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/",
+    "chronology": "No single date is assigned to a continuing language and manuscript heritage.",
+    "contact": "Shared ecclesiastical and manuscript settings are documented; community-specific uses need their own sources.",
+    "difference": "Shared language does not collapse Ethiopian and Eritrean churches, local canons, or hymn and liturgy genres.",
+    "citations": [
+      {"id":"src-hmml-geez","label":"Hill Museum & Manuscript Library: Donald Davies Ethiopian manuscript microfilms","url":"https://hmml.org/collections/news/28-microfilms-of-the-donald-davies-microfilm-collection-are-now-active-in-reading-room/","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-geez-institutional-collapse","summary":"A shared liturgical language is not evidence that distinct churches or local textual practices are institutionally identical.","citationIds":["src-hmml-geez"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-hmml-geez","role":"evidence","note":"Manuscript collection context supports the qualified linguistic connection."}
+    ],
+    "claimStatus": "not-applicable"
+  },
+  {
+    "id": "enoch-jude-quotation",
+    "source": "1-enoch",
+    "target": "catholic-epistles",
+    "type": "Jude quotes 1 Enoch",
+    "relationshipType": "direct-citation",
+    "confidence": "A",
+    "evidenceLevel": "documented",
+    "summary": "Jude 14b–15 quotes 1 Enoch 1:9; this is a textually documented reception relationship rather than one inferred from general resemblance.",
+    "sourceUrl": "https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf",
+    "chronology": "The cited Enochic material predates the Letter of Jude; dates for the composite work and its witnesses remain ranges.",
+    "contact": "The quotation itself documents textual access or reception at the level needed for this edge.",
+    "difference": "Quotation in Jude does not by itself establish the canonical status of all of 1 Enoch in every Christian community.",
+    "citations": [
+      {"id":"src-sbl-jude-enoch","label":"Society of Biblical Literature: Reading 1–2 Peter and Jude","url":"https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf","locator":"Discussion of Jude 14b–15 and 1 Enoch 1:9","sourceType":"scholarly-source"},
+      {"id":"src-gutenberg-bible-jude","label":"Project Gutenberg: King James Version, Jude","url":"https://www.gutenberg.org/ebooks/10","locator":"Jude 14–15","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-enoch-canon","summary":"A direct quotation demonstrates reception of a passage, not uniform community-wide acceptance of the whole work as canon.","citationIds":["src-sbl-jude-enoch"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-sbl-jude-enoch","role":"evidence","note":"Scholarly monograph explicitly identifies the quotation."},
+      {"citationId":"src-gutenberg-bible-jude","role":"context","note":"Public-domain edition exposes the receiving passage."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "lotus-profound-meaning-commentary",
+    "source": "lotus-sutra",
+    "target": "profound-meaning-of-the-lotus-sutra",
+    "type": "Tiantai commentary and philosophical exposition",
+    "relationshipType": "commentary",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "Zhiyi's Tiantai exposition develops philosophical interpretations of the Lotus Sutra rather than functioning as another witness to the sutra's wording.",
+    "sourceUrl": "https://plato.stanford.edu/entries/buddhism-tiantai/",
+    "chronology": "The Lotus Sutra predates Zhiyi's sixth-century Tiantai exegesis.",
+    "contact": "The receiving Tiantai work explicitly interprets the Lotus Sutra tradition.",
+    "difference": "Scripture and later commentary remain separate genres and authorities.",
+    "citations": [
+      {"id":"src-sep-tiantai","label":"Stanford Encyclopedia of Philosophy: Tiantai Buddhism","url":"https://plato.stanford.edu/entries/buddhism-tiantai/","locator":"Zhiyi and Tiantai interpretation of the Lotus Sutra","sourceType":"scholarly-source"},
+      {"id":"src-cbeta-lotus","label":"Chinese Buddhist Electronic Text Association","url":"https://www.cbeta.org/","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-lotus-commentary-genre","summary":"This edge does not treat Zhiyi's philosophical system as identical to every reading of the Lotus Sutra.","citationIds":["src-sep-tiantai"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-sep-tiantai","role":"evidence","note":"Peer-reviewed reference establishes the exegetical relationship."},
+      {"citationId":"src-cbeta-lotus","role":"context","note":"Institutional corpus identifies the relevant Chinese Buddhist works."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "matthew-satanic-polemical-reception",
+    "source": "gospel-of-matthew",
+    "target": "the-satanic-bible",
+    "type": "Explicit adversarial reception of turning the other cheek",
+    "relationshipType": "polemical-response",
+    "confidence": "A",
+    "evidenceLevel": "documented",
+    "summary": "The Church of Satan's public statement explicitly invokes and reverses 'turning the other cheek,' documenting an adversarial reception relationship.",
+    "sourceUrl": "https://churchofsatan.com/nine-satanic-statements/",
+    "chronology": "The modern statement postdates the Gospel of Matthew by many centuries.",
+    "contact": "Explicit wording supplies the reception link; no inference from thematic similarity is needed.",
+    "difference": "An institutional summary statement and a copyrighted modern book are distinct records; the edge does not reproduce the book.",
+    "citations": [
+      {"id":"src-gutenberg-matthew","label":"Project Gutenberg: King James Version, Matthew","url":"https://www.gutenberg.org/ebooks/10","locator":"Matthew 5:39–45","sourceType":"primary-source"},
+      {"id":"src-church-satan-statements","label":"Church of Satan: The Nine Satanic Statements","url":"https://churchofsatan.com/nine-satanic-statements/","locator":"Statement 5","sourceType":"community-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-satanic-book-scope","summary":"The official statement documents polemical reception but does not license reproduction or full-text claims about the copyrighted book.","citationIds":["src-church-satan-statements"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-gutenberg-matthew","role":"context","note":"Anchors the earlier teaching being invoked."},
+      {"citationId":"src-church-satan-statements","role":"evidence","note":"Official statement explicitly supplies the adversarial reception."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "synoptic-shared-mark-source",
+    "source": "gospel-of-matthew",
+    "target": "gospel-of-luke",
+    "type": "Shared Markan source hypothesis",
+    "relationshipType": "shared-source",
+    "confidence": "C",
+    "evidenceLevel": "qualified",
+    "summary": "A widely held solution to the Synoptic Problem proposes that Matthew and Luke both used Mark; competing source models remain live and visible.",
+    "sourceUrl": "https://www.cambridge.org/core/journals/new-testament-studies/article/abs/major-agreements-of-matthew-and-luke-against-mark/B580E03796B506B49A232D6F91C513CA",
+    "chronology": "The model generally places Mark before Matthew and Luke, while precise dates remain debated.",
+    "contact": "The relationship is a literary-source hypothesis based on close textual comparison, not a claim about personal meetings among named evangelists.",
+    "difference": "Matthew and Luke contain distinct material, arrangements, and theological emphases.",
+    "citations": [
+      {"id":"src-cambridge-synoptic-major-agreements","label":"New Testament Studies: The Major Agreements of Matthew and Luke Against Mark","url":"https://www.cambridge.org/core/journals/new-testament-studies/article/abs/major-agreements-of-matthew-and-luke-against-mark/B580E03796B506B49A232D6F91C513CA","sourceType":"scholarly-source"},
+      {"id":"src-cambridge-synoptic-alternative","label":"New Testament Studies: A Paradigm Perplex — Luke, Matthew and Mark","url":"https://www.cambridge.org/core/journals/new-testament-studies/article/abs/paradigm-perplex-luke-matthew-and-mark/AB7BFA6076D1336BE3AE412AFD10A106","sourceType":"scholarly-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-synoptic-alternatives","summary":"Griesbach, Farrer, Matthean-posteriority, and more complex source models contest a simple independent-use-of-Mark account.","citationIds":["src-cambridge-synoptic-alternative"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-cambridge-synoptic-major-agreements","role":"evidence","note":"Presents the majority critical position supporting direct use of Mark."},
+      {"citationId":"src-cambridge-synoptic-alternative","role":"counterevidence","note":"Documents competing models and complexity."}
+    ],
+    "claimStatus": "disputed"
+  },
+  {
+    "id": "amenemope-proverbs-influence",
+    "source": "instruction-of-amenemope",
+    "target": "proverbs",
+    "type": "Likely literary influence on Proverbs 22:17–23:11",
+    "relationshipType": "likely-influence",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "Scholarship widely argues that Proverbs 22:17–23:11 used and reshaped material from the Egyptian Instruction of Amenemope; the relationship applies to a delimited section, not every proverb.",
+    "sourceUrl": "https://www.cambridge.org/core/books/abs/book-of-proverbs-in-social-and-theological-context/social-contexts-in-proverbs-22173131/2252D8D658419FB8D65429F8C619A03B",
+    "chronology": "Amenemope is generally dated earlier than the relevant Proverbs material and circulated for centuries.",
+    "contact": "International wisdom and scribal exchange provides a plausible literary setting, while the precise intermediary is not identified.",
+    "difference": "Proverbs reorganizes and adapts material within an Israelite theological and literary setting.",
+    "citations": [
+      {"id":"src-cambridge-amenemope-proverbs","label":"Cambridge University Press: Social context(s) in Proverbs 22:17–31:31","url":"https://www.cambridge.org/core/books/abs/book-of-proverbs-in-social-and-theological-context/social-contexts-in-proverbs-22173131/2252D8D658419FB8D65429F8C619A03B","locator":"Proverbs 22:17–23:11 and Amenemope","sourceType":"scholarly-source"},
+      {"id":"src-oxford-proverbs-instruction","label":"Oxford Academic: Proverbs 1–9 as an Instruction","url":"https://academic.oup.com/book/11971/chapter-abstract/161205705","sourceType":"scholarly-source"},
+      {"id":"src-ucl-amenemope","label":"UCL Digital Egypt: Late Egyptian literature","url":"https://www.ucl.ac.uk/museums-static/digitalegypt/literature/literaturelateegyptian.html","locator":"Instruction of Amenemope","sourceType":"institutional-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-amenemope-intermediary","summary":"The specific route and intermediary of literary access are not preserved, and similarity should be assessed section by section.","citationIds":["src-oxford-proverbs-instruction"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-cambridge-amenemope-proverbs","role":"evidence","note":"Scholarly study supports directional dependence for the delimited section."},
+      {"citationId":"src-oxford-proverbs-instruction","role":"counterevidence","note":"Frames the limits of accessible foreign instruction and genre comparison."},
+      {"citationId":"src-ucl-amenemope","role":"context","note":"Institutional record anchors the Egyptian work."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "gilgamesh-genesis-possible-influence",
+    "source": "epic-of-gilgamesh",
+    "target": "torah-pentateuch",
+    "type": "Possible Ancient Near Eastern literary influence",
+    "relationshipType": "possible-influence",
+    "confidence": "D",
+    "evidenceLevel": "exploratory",
+    "summary": "Chronology, regional circulation, and narrative specificity make an indirect literary relationship possible, but the reviewed evidence here does not establish a direct copying chain from the surviving Gilgamesh witness to Genesis.",
+    "sourceUrl": "https://www.metmuseum.org/essays/flood-stories",
+    "chronology": "Mesopotamian flood accounts are attested earlier than surviving biblical manuscripts; composition histories remain layered.",
+    "contact": "Ancient Near Eastern cultural contact provides possibility rather than proof of a particular route.",
+    "difference": "Genesis gives the flood a covenantal role and differs in divine characterization and narrative structure.",
+    "citations": [
+      {"id":"src-met-flood-possible","label":"The Metropolitan Museum of Art: Flood Stories","url":"https://www.metmuseum.org/essays/flood-stories","sourceType":"scholarly-source"},
+      {"id":"src-sefaria-genesis-possible","label":"Sefaria: Genesis 6–9","url":"https://www.sefaria.org/Genesis.6","locator":"Genesis 6–9","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-gilgamesh-direct-chain","summary":"No source in this record traces a physical manuscript or named translator connecting the extant Gilgamesh tablet directly to Genesis.","citationIds":["src-met-flood-possible"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-met-flood-possible","role":"evidence","note":"Provides the historically bounded comparison."},
+      {"citationId":"src-sefaria-genesis-possible","role":"context","note":"Anchors the receiving narrative."}
+    ],
+    "claimStatus": "not-applicable"
+  },
+  {
+    "id": "jewish-christian-enoch-contact",
+    "source": "hebrew-jewish-tradition",
+    "target": "christianity",
+    "type": "Early Jewish textual reception in a Christian letter",
+    "relationshipType": "cultural-contact",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "Jude's quotation of 1 Enoch documents one specific channel of early Christian reception of Jewish literature; it does not reduce either broad tradition to a single lineage.",
+    "sourceUrl": "https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf",
+    "chronology": "The relationship belongs to Second Temple and early Christian literary history rather than an undifferentiated timeless contact.",
+    "contact": "The textual quotation supplies a concrete contact case.",
+    "difference": "Broad tradition nodes contain diverse communities, periods, and canonical decisions.",
+    "citations": [
+      {"id":"src-sbl-enoch-contact","label":"Society of Biblical Literature: Reading 1–2 Peter and Jude","url":"https://www.sbl-site.org/wp-content/uploads/2024/11/ReadingPeterJude_MasonMartin_SBL.pdf","locator":"Jude 14b–15 and 1 Enoch 1:9","sourceType":"scholarly-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-contact-broad-traditions","summary":"One quoted work cannot establish uniform contact, agreement, or dependence across every Jewish and Christian community.","citationIds":["src-sbl-enoch-contact"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-sbl-enoch-contact","role":"evidence","note":"A documented quotation grounds this otherwise broad cross-tradition edge."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "egyptian-funerary-ritual-parallel",
+    "source": "opening-of-the-mouth-ritual",
+    "target": "book-of-the-dead",
+    "type": "Distinct practices in Egyptian funerary settings",
+    "relationshipType": "ritual-parallel",
+    "confidence": "C",
+    "evidenceLevel": "qualified",
+    "summary": "Both records belong to ancient Egyptian funerary settings, but the Opening of the Mouth ceremony and Book of the Dead compositions are not the same ritual or text.",
+    "sourceUrl": "https://www.britishmuseum.org/collection/object/Y_EA884",
+    "chronology": "Both traditions developed across long periods; object, composition, and copied-witness dates remain distinct.",
+    "contact": "Shared funerary settings support comparison without requiring a borrowing claim.",
+    "difference": "One record concerns a ritual complex while the other is a variable corpus of funerary compositions.",
+    "citations": [
+      {"id":"src-british-museum-ea884","label":"British Museum collection record EA884","url":"https://www.britishmuseum.org/collection/object/Y_EA884","sourceType":"collection-record"},
+      {"id":"src-ucl-book-dead","label":"UCL Digital Egypt: Book of the Dead","url":"https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd136.html","sourceType":"institutional-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-egyptian-ritual-equivalence","summary":"A shared funerary context does not make the two records interchangeable or prove identical performance across periods.","citationIds":["src-british-museum-ea884","src-ucl-book-dead"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-british-museum-ea884","role":"evidence","note":"Object record grounds the ritual context."},
+      {"citationId":"src-ucl-book-dead","role":"evidence","note":"University resource grounds the funerary composition context."}
+    ],
+    "claimStatus": "not-applicable"
+  },
+  {
+    "id": "mawangdui-received-laozi",
+    "source": "mawangdui-laozi-silk",
+    "target": "tao-te-ching",
+    "type": "Early witness and received Laozi textual tradition",
+    "relationshipType": "linguistic-relationship",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The Mawangdui silk texts are early witnesses to the Laozi textual tradition and help document variation before later received editions.",
+    "sourceUrl": "https://www.loc.gov/resource/gdcwdl.wdl_13543/?st=list",
+    "chronology": "The Mawangdui tomb dates to 168 BCE; the Library of Congress item is a later Song printed edition with a separate custody history.",
+    "contact": "The witnesses belong to the same evolving Chinese textual tradition.",
+    "difference": "An excavated silk witness, a received work abstraction, and a Song printed edition are different objects.",
+    "citations": [
+      {"id":"src-loc-laozi-witnesses","label":"Library of Congress: Laozi Dao de jing","url":"https://www.loc.gov/resource/gdcwdl.wdl_13543/?st=list","locator":"Description of Guodian and Mawangdui witnesses","sourceType":"collection-record"},
+      {"id":"src-sep-laozi","label":"Stanford Encyclopedia of Philosophy: Laozi","url":"https://plato.stanford.edu/entries/laozi/","sourceType":"scholarly-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-laozi-single-original","summary":"Early witness variation cautions against treating the received order or wording as one unchanged authorial original.","citationIds":["src-loc-laozi-witnesses","src-sep-laozi"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-loc-laozi-witnesses","role":"evidence","note":"Institutional description establishes witness dates and identities."},
+      {"citationId":"src-sep-laozi","role":"counterevidence","note":"Scholarly reference supplies textual-history cautions."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "satanic-modern-reinterpretation",
+    "source": "concept-satan",
+    "target": "the-satanic-bible",
+    "type": "Modern reinterpretation of Satan",
+    "relationshipType": "modern-reinterpretation",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The Church of Satan presents Satan through a modern symbolic and adversarial framework that is historically distinct from the range of satan figures in ancient and later Christian sources.",
+    "sourceUrl": "https://churchofsatan.com/nine-satanic-statements/",
+    "chronology": "The modern institutional formulation postdates ancient Jewish and Christian source developments.",
+    "contact": "The institution explicitly adopts and reinterprets the name and adversarial language.",
+    "difference": "The modern symbolic framework is not an unchanged survival of one biblical entity concept.",
+    "citations": [
+      {"id":"src-bibleodyssey-satan","label":"Bible Odyssey: Satan","url":"https://www.bibleodyssey.org/dictionary/satan/","sourceType":"scholarly-source"},
+      {"id":"src-church-satan-modern","label":"Church of Satan: The Nine Satanic Statements","url":"https://churchofsatan.com/nine-satanic-statements/","sourceType":"community-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-satan-universal-identity","summary":"Shared naming does not create a universal identity across every ancient adversarial figure, later Christian Satan, and modern symbolic use.","citationIds":["src-bibleodyssey-satan"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-bibleodyssey-satan","role":"context","note":"Scholarly reference documents historical semantic development."},
+      {"citationId":"src-church-satan-modern","role":"evidence","note":"Official source documents the modern institution's formulation."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "zuo-commentary-annals",
+    "source": "spring-and-autumn-annals",
+    "target": "zuo-commentary",
+    "type": "Commentary and narrative expansion",
+    "relationshipType": "commentary",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The Zuo Commentary is transmitted as a commentary and narrative expansion associated with the Spring and Autumn Annals.",
+    "sourceUrl": "https://ctext.org/chun-qiu-zuo-zhuan",
+    "chronology": "The Annals' entries and the formation of the Zuo tradition are separate textual-history layers.",
+    "contact": "The Zuo text is organized in explicit relation to the chronicle.",
+    "difference": "The chronicle's terse entries and the commentary's extensive narratives remain distinct textual forms.",
+    "citations": [
+      {"id":"src-ctext-zuo","label":"Chinese Text Project: Chunqiu Zuo Zhuan","url":"https://ctext.org/chun-qiu-zuo-zhuan","sourceType":"collection-record"},
+      {"id":"src-gutenberg-zuo","label":"Project Gutenberg: The Chinese Classics, volume containing the Ch'un Ts'ew with the Tso Chuen","url":"https://www.gutenberg.org/ebooks/24136","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-zuo-authorship-date","summary":"The commentary relationship does not resolve traditional authorship attribution or the date and layering of the received text.","citationIds":["src-ctext-zuo"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-ctext-zuo","role":"evidence","note":"Digital scholarly collection exposes the linked chronicle/commentary structure."},
+      {"citationId":"src-gutenberg-zuo","role":"context","note":"Historical public-domain edition supports text inspection."}
+    ],
+    "claimStatus": "documented"
+  },
+  {
+    "id": "washington-freemasonry-membership",
+    "source": "person-george-washington",
+    "target": "freemasonry",
+    "type": "Documented Masonic membership",
+    "relationshipType": "organization-membership",
+    "confidence": "A",
+    "evidenceLevel": "documented",
+    "summary": "The surviving Fredericksburg Lodge minute book and related records document George Washington's initiation and later Masonic associations.",
+    "sourceUrl": "https://www.mountvernon.org/george-washington/freemasonry/masonic-associations",
+    "chronology": "Washington entered the Fredericksburg lodge in 1752 and advanced through degrees in 1753; later honorary and lodge relationships have separate dates.",
+    "contact": "Lodge records document membership rather than inferring it from portraits, gestures, clothing, or architecture.",
+    "difference": "Membership in particular lodges does not imply control of every Masonic jurisdiction or membership in another organization.",
+    "citations": [
+      {"id":"src-mount-vernon-washington-masonry","label":"George Washington's Mount Vernon: Masonic Associations","url":"https://www.mountvernon.org/george-washington/freemasonry/masonic-associations","locator":"Fredericksburg Lodge minute-book chronology","sourceType":"institutional-record"},
+      {"id":"src-mount-vernon-washington-diary","label":"George Washington Presidential Library: Masonic chronology and diary record","url":"https://catalog.mountvernon.org/digital/api/collection/p16829coll4/id/1915/download","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-washington-masonic-scope","summary":"The record supports membership and selected lodge offices, not broad claims of centralized Masonic political command.","citationIds":["src-mount-vernon-washington-masonry"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-mount-vernon-washington-masonry","role":"evidence","note":"Institutional historical account cites surviving lodge records."},
+      {"citationId":"src-mount-vernon-washington-diary","role":"evidence","note":"Collection record supplies a documentary chronology."}
+    ],
+    "claimStatus": "documented-member"
+  },
+  {
+    "id": "washington-illuminati-correspondence",
+    "source": "person-george-washington",
+    "target": "bavarian-illuminati",
+    "type": "Documented correspondence about Illuminati claims; no membership",
+    "relationshipType": "organization-contact",
+    "confidence": "A",
+    "evidenceLevel": "documented",
+    "summary": "Washington received a book and correspondence about Illuminati claims and replied to the sender; the documents do not establish Washington as an Illuminati member.",
+    "sourceUrl": "https://www.loc.gov/item/mgw441338/",
+    "chronology": "The exchange occurred in 1798, after the Bavarian suppression orders and during later controversy about alleged survival and spread.",
+    "contact": "The contact is with a claim, a book, and its correspondent—not a documented organizational membership or meeting.",
+    "difference": "Washington's documented Freemasonry membership is a separate relationship and cannot be transferred to the Bavarian Illuminati.",
+    "citations": [
+      {"id":"src-loc-washington-snyder-sept","label":"Library of Congress: George Washington to G. W. Snyder, September 25, 1798","url":"https://www.loc.gov/item/mgw441338/","locator":"Washington Papers, Series 4","sourceType":"primary-source"},
+      {"id":"src-loc-washington-letterbook","label":"Library of Congress: Washington letterbook, 1798","url":"https://www.loc.gov/resource/mgw2.021/?q=Illuminati&sp=182&st=text","locator":"Pages containing the Snyder exchange","sourceType":"primary-source"},
+      {"id":"src-mount-vernon-washington-membership","label":"George Washington's Mount Vernon: Masonic Associations","url":"https://www.mountvernon.org/george-washington/freemasonry/masonic-associations","sourceType":"institutional-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-washington-illuminati-membership","summary":"The correspondence shows awareness of and engagement with claims; it supplies no lodge roll, order document, diary entry, or other membership evidence for the Illuminati.","citationIds":["src-loc-washington-snyder-sept","src-loc-washington-letterbook"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-loc-washington-snyder-sept","role":"evidence","note":"Primary correspondence documents receipt and discussion."},
+      {"citationId":"src-loc-washington-letterbook","role":"counterevidence","note":"The exchange bounds what Washington actually stated and does not record membership."},
+      {"citationId":"src-mount-vernon-washington-membership","role":"context","note":"Separately documents his real Masonic membership so the organizations are not conflated."}
+    ],
+    "claimStatus": "documented-contact-not-membership"
+  },
+  {
+    "id": "weishaupt-illuminati-founder",
+    "source": "person-adam-weishaupt",
+    "target": "bavarian-illuminati",
+    "type": "Documented founder and member",
+    "relationshipType": "organization-membership",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "Bavarian institutional collections identify Adam Weishaupt with the documented eighteenth-century Order of the Illuminati.",
+    "sourceUrl": "https://www.bavarikon.de/object/bav%3ABSB-MDZ-00000BSB10381782",
+    "chronology": "The association begins with the order's 1776 foundation and belongs to its documented Bavarian period.",
+    "contact": "Institutional source records and surviving organizational documents ground the association.",
+    "difference": "The relationship does not attach Weishaupt to modern organizations using the Illuminati name.",
+    "citations": [
+      {"id":"src-bavarikon-illuminati","label":"Bavarikon: Illuminati source record","url":"https://www.bavarikon.de/object/bav%3ABSB-MDZ-00000BSB10381782","sourceType":"collection-record"},
+      {"id":"src-bsb-illuminati-documents","label":"Bavarian State Library: 1787 Illuminati documents","url":"https://www.digitale-sammlungen.de/de/details/bsb11099015","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-weishaupt-modern-namesakes","summary":"Historical membership cannot be inherited automatically by later groups or people using similar names or symbols.","citationIds":["src-bavarikon-illuminati","src-bsb-illuminati-documents"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-bavarikon-illuminati","role":"evidence","note":"State cultural portal anchors the historical identity."},
+      {"citationId":"src-bsb-illuminati-documents","role":"evidence","note":"Digitized documentary collection grounds the organization context."}
+    ],
+    "claimStatus": "documented-member"
+  },
+  {
+    "id": "illuminati-modern-continuity-claim",
+    "source": "bavarian-illuminati",
+    "target": "concept-modern-illuminati-continuity",
+    "type": "Claimed survival into a modern global organization",
+    "relationshipType": "successor-claim",
+    "confidence": "E",
+    "evidenceLevel": "disputed",
+    "summary": "Later sources and conspiracy traditions claim continuity after the Bavarian order's suppression; the sources in this record do not verify a continuous global successor organization.",
+    "sourceUrl": "https://www.loc.gov/item/mgw441338/",
+    "chronology": "The documented Bavarian organization and late-eighteenth-century survival allegations must be dated separately from modern global-control claims.",
+    "contact": "A repeated allegation or shared name is not an institutional succession chain.",
+    "difference": "Historical source collections document the Bavarian order; later continuity claims require independent organizational records that are absent here.",
+    "citations": [
+      {"id":"src-bsb-historical-illuminati","label":"Bavarian State Library: 1787 Illuminati documents","url":"https://www.digitale-sammlungen.de/de/details/bsb11099015","sourceType":"collection-record"},
+      {"id":"src-loc-later-illuminati-claims","label":"Library of Congress: Washington–Snyder correspondence about later Illuminati claims","url":"https://www.loc.gov/item/mgw441338/","sourceType":"primary-source"}
+    ],
+    "counterarguments": [
+      {"id":"counter-illuminati-continuity-chain","summary":"No cited membership roll, charter, archive, or dated succession instrument establishes a continuous organization from the suppressed Bavarian order to a modern global body.","citationIds":["src-bsb-historical-illuminati","src-loc-later-illuminati-claims"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-loc-later-illuminati-claims","role":"claim-origin","note":"Primary correspondence documents that survival and spread claims circulated by 1798."},
+      {"citationId":"src-bsb-historical-illuminati","role":"counterevidence","note":"Historical collection grounds the bounded Bavarian organization and provides no modern succession chain."}
+    ],
+    "claimStatus": "no-verified-evidence"
+  },
+  {
+    "id": "assyrian-tablet-sacred-kingship",
+    "source": "assyrian-tablet",
+    "target": "concept-sacred-kingship",
+    "type": "Royal inscription object fact and bounded interpretation",
+    "relationshipType": "object-interpretation",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The museum identifies the object as a royal inscription of Ashurnasirpal II from the Northwest Palace at Nimrud; Atlas links that documented fact to sacred-kingship research without inferring occult intent.",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/324794",
+    "chronology": "The object is dated to the reign of Ashurnasirpal II, ca. 883–859 BCE; later collection and interpretation histories are separate.",
+    "contact": "The link is an object-to-concept research association grounded in the museum description.",
+    "difference": "The object is not a Gilgamesh tablet and the concept link does not claim a hidden ritual program.",
+    "citations": [
+      {"id":"src-met-assyrian-tablet","label":"The Met: Stone cuneiform tablet with inscription of Ashurnasirpal II","url":"https://www.metmuseum.org/art/collection/search/324794","locator":"Object 58.31.57","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-assyrian-occult-intent","summary":"No visual resemblance, symbol, or online allegation is used to infer occult intent or secret membership.","citationIds":["src-met-assyrian-tablet"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-met-assyrian-tablet","role":"evidence","note":"Museum object record supplies identity, date, material, provenance, and inscription context."}
+    ],
+    "claimStatus": "documented",
+    "interpretation": {
+      "kind": "institutional-explanation",
+      "objectFactIds": ["fact-assyrian-tablet-identity"],
+      "explanation": "The association is limited to the museum's identification of a royal inscription and its palace context.",
+      "assertsOccultIntent": false
+    }
+  },
+  {
+    "id": "buddhist-leaf-scripture",
+    "source": "buddhist-leaf",
+    "target": "concept-scripture",
+    "type": "Buddhist manuscript object fact and bounded interpretation",
+    "relationshipType": "object-interpretation",
+    "confidence": "B",
+    "evidenceLevel": "strong",
+    "summary": "The museum identifies the object as an illuminated Buddhist palm-leaf manuscript leaf; Atlas links it to manuscript and scripture practice without assigning it to an unsupported named text.",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/74875",
+    "chronology": "The museum dates the leaf to the fourteenth century; the age of Buddhist textual traditions is a separate question.",
+    "contact": "The relationship is grounded in the cataloged object type and medium.",
+    "difference": "The leaf is not identified here as a Dhammapada manuscript, and imagery alone does not determine its complete textual contents.",
+    "citations": [
+      {"id":"src-met-buddhist-leaf","label":"The Met: Leaf from an Illuminated Buddhist Manuscript","url":"https://www.metmuseum.org/art/collection/search/74875","locator":"Object 55.121.37.2","sourceType":"collection-record"}
+    ],
+    "counterarguments": [
+      {"id":"counter-buddhist-leaf-named-work","summary":"The institutional record does not support assigning this leaf to the Dhammapada or another specific Atlas work solely from its appearance.","citationIds":["src-met-buddhist-leaf"]}
+    ],
+    "sourceChain": [
+      {"citationId":"src-met-buddhist-leaf","role":"evidence","note":"Museum object record supplies identity, date, region, medium, and collection context."}
+    ],
+    "claimStatus": "documented",
+    "interpretation": {
+      "kind": "institutional-explanation",
+      "objectFactIds": ["fact-buddhist-leaf-identity"],
+      "explanation": "The association is limited to the museum's identification of the object as a Buddhist manuscript leaf.",
+      "assertsOccultIntent": false
+    }
+  }
+]
