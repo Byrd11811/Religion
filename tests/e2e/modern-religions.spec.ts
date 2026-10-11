@@ -4,12 +4,10 @@ test("Phase 13 navigation opens the complete modern-religions research guide", a
   page,
 }) => {
   await page.goto("/");
-  await page
-    .getByRole("navigation")
-    .getByRole("link", {
-      name: "Modern Religions & New Movements",
-      exact: true,
-    })
+  const navigation = page.getByRole("navigation", { name: "Main navigation" });
+  await navigation.getByText("Collections", { exact: true }).click();
+  await navigation
+    .getByRole("link", { name: "Modern religions", exact: true })
     .click();
   await expect(page).toHaveURL(/\/library\/modern$/);
   await expect(

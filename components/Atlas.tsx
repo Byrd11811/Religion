@@ -1,44 +1,16 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  BookOpen,
-  Compass,
-  Search,
-  Columns3,
-  Globe2,
-  Clock3,
-  Network,
-  Layers3,
-  Shapes,
-  Users,
-  Bookmark,
-  NotebookPen,
-  Info,
-  Sun,
-  Moon,
-  Menu,
-  X,
-  MessageCircle,
-  Shuffle,
-  ScrollText,
-  Scale,
-} from "lucide-react";
-import { texts, editions, artifacts } from "@/packages/shared/catalog";
-import { questions } from "@/packages/ontology";
+import { Compass, Search, Info, Sun, Moon, Menu, X } from "lucide-react";
 import type { Finding, SearchHit } from "@/packages/shared/types";
-import { CitationDrawer, SaveDialog, TextCard, Empty } from "./common";
+import { CitationDrawer, SaveDialog, Empty } from "./common";
 import { Library, TextDetail, TraditionsView, CanonView } from "./Library";
 import { Compare, Workspace } from "./Research";
 import { StructuredQuestionExplorer } from "./StructuredQuestion";
 import { ComparisonPacks } from "./ComparisonPacks";
-import {
-  OppositionExplorer,
-  TeachingConductExplorer,
-} from "./ResearchEngines";
+import { OppositionExplorer, TeachingConductExplorer } from "./ResearchEngines";
 import {
   DeepArchive,
   WitnessDetail,
@@ -59,8 +31,6 @@ import { ModernReligionsCollection } from "./ModernReligions";
 import { ForbiddenLostDisputedCollection } from "./ForbiddenLostDisputed";
 import { EntityExplorer, OntologyExplorer } from "./OntologyEntities";
 import {
-  Timeline,
-  WorldMap,
   Graph,
   Stories,
   ThemesView,
@@ -68,57 +38,30 @@ import {
   Manuscripts,
   Methodology,
 } from "./Explore";
-const navigation = [
-  [
-    "Explore",
-    [
-      ["home", "Overview", Compass],
-      ["questions", "Question Explorer", MessageCircle],
-      ["opposition", "Show the Opposition", Scale],
-      ["library", "Text Library", BookOpen],
-      ["compare", "Compare Texts", Columns3],
-      ["compare/packs", "Curated Comparison Packs", Layers3],
-      ["teaching-conduct", "Teaching vs Conduct", Scale],
-    ],
-  ],
-  [
-    "Discover",
-    [
-      ["traditions", "Traditions", Globe2],
-      ["timeline", "Timeline", Clock3],
-      ["map", "World Map", Globe2],
-      ["stories", "Story Parallels", Layers3],
-      ["canon", "Canon / Non-Canon", Scale],
-      ["graph", "Influence Graph", Network],
-      ["themes", "Themes", Shapes],
-      ["ontology", "Concept Ontology", Shapes],
-      ["entities", "Historical Entities", Users],
-      ["people", "People & Authors", Users],
-      ["manuscripts", "Manuscripts & Objects", ScrollText],
-      ["library/deep-archive", "Deep Archive", Layers3],
-      ["library/egypt", "Ancient Egypt", ScrollText],
-      ["library/mesopotamia", "Ancient Mesopotamia", ScrollText],
-      ["library/china", "Chinese Traditions", ScrollText],
-      ["library/horn", "Ethiopia, Eritrea & the Horn", ScrollText],
-      ["library/indigenous", "Global Indigenous traditions", Globe2],
-      ["library/global", "Global Religious Coverage", Globe2],
-      ["library/undeciphered", "Unresolved Writing Systems", Search],
-      ["library/esoteric", "Esoteric & Religious Literature", BookOpen],
-      ["library/modern", "Modern Religions & New Movements", Globe2],
-      ["library/forbidden", "Forbidden & Restricted Texts", Scale],
-      ["library/lost", "Lost Works & Hypothetical Sources", ScrollText],
-      ["library/disputed", "Disputed & Forged Works", Search],
-      ["explore/anunnaki", "Anunna / Anunnaki", Search],
-    ],
-  ],
-  [
-    "Your research",
-    [
-      ["workspace", "Research Workspace", NotebookPen],
-      ["collections", "Saved Collections", Bookmark],
-    ],
-  ],
-] as const;
+import { AtlasNavigation } from "./AtlasNavigation";
+import Home from "./Home";
+
+const SacredCurrents = dynamic(() => import("./SacredCurrents"), {
+  ssr: false,
+  loading: () => (
+    <div className="sacred-currents-loading" role="status">
+      <Compass size={25} aria-hidden="true" />
+      <span>Preparing the map and timeline…</span>
+    </div>
+  ),
+});
+
+const routeTitles: Record<string, string> = {
+  home: "Overview",
+  map: "Sacred Currents",
+  timeline: "Sacred Currents · Timeline",
+  questions: "Question Explorer",
+  library: "Text Library",
+  compare: "Compare",
+  graph: "Relationship Graph",
+  texts: "Text profile",
+  works: "Work profile",
+};
 export default function Atlas({
   route,
   id,
@@ -135,7 +78,9 @@ export default function Atlas({
     [citation, setCitation] = useState<SearchHit | null>(null),
     [finding, setFinding] = useState<Finding | null>(null),
     [toast, setToast] = useState(""),
-    [global, setGlobal] = useState("");
+    [global, setGlobal] = useState(""),
+    [searchOpen, setSearchOpen] = useState(false);
+  const searchInput = useRef<HTMLInputElement>(null);
   const router = useRouter();
   useEffect(() => {
     const saved = localStorage.getItem("atlas-theme");
@@ -150,10 +95,11 @@ export default function Atlas({
     return () => clearTimeout(timer);
   }, [toast]);
   const actions = { onSave: setFinding, onOpen: setCitation };
+  const sacredCurrentsRoute = route === "map" || route === "timeline";
   let content: React.ReactNode;
   switch (route) {
     case "home":
-      content = <Home onSave={setFinding} />;
+      content = <Home />;
       break;
     case "library":
       content =
@@ -184,7 +130,12 @@ export default function Atlas({
         );
       break;
     case "explore":
-      content = id === "anunnaki" ? <AnunnakiResearch /> : <Empty>This research guide is not available.</Empty>;
+      content =
+        id === "anunnaki" ? (
+          <AnunnakiResearch />
+        ) : (
+          <Empty>This research guide is not available.</Empty>
+        );
       break;
     case "search":
       content = (
@@ -245,10 +196,10 @@ export default function Atlas({
       );
       break;
     case "timeline":
-      content = <Timeline />;
+      content = <SacredCurrents initialView="timeline" />;
       break;
     case "map":
-      content = <WorldMap />;
+      content = <SacredCurrents initialView="map" />;
       break;
     case "stories":
       content = <Stories />;
@@ -287,7 +238,11 @@ export default function Atlas({
       );
       break;
     case "undeciphered":
-      content = id ? <UndecipheredDetail id={id} /> : <UndecipheredCollection />;
+      content = id ? (
+        <UndecipheredDetail id={id} />
+      ) : (
+        <UndecipheredCollection />
+      );
       break;
     case "methodology":
       content = <Methodology />;
@@ -320,35 +275,11 @@ export default function Atlas({
         >
           <X />
         </button>
-        <nav aria-label="Main navigation">
-          {navigation.map(([group, items]) => (
-            <div className="nav-group" key={group}>
-              <span>{group}</span>
-              {items.map(([path, label, Icon]) => {
-                const active =
-                  path === "compare/packs"
-                    ? route === "compare" && Boolean(id)
-                    : path === "compare"
-                      ? route === "compare" && !id
-                      : route === path ||
-                        `${route}/${id ?? ""}` === path ||
-                        (path === "library" && route === "texts");
-                return (
-                  <Link
-                    onClick={() => setMenu(false)}
-                    className={active ? "active" : ""}
-                    key={path}
-                    href={path === "home" ? "/" : `/${path}`}
-                  >
-                    <Icon size={18} strokeWidth={1.6} />
-                    {label}
-                    {active && <span className="nav-dot" />}
-                  </Link>
-                );
-              })}
-            </div>
-          ))}
-        </nav>
+        <AtlasNavigation
+          route={route}
+          id={id}
+          onNavigate={() => setMenu(false)}
+        />
         <div className="sidebar-foot">
           <Link href="/methodology">
             <Info size={17} />
@@ -366,7 +297,9 @@ export default function Atlas({
           onClick={() => setMenu(false)}
         />
       )}
-      <div className="app-main">
+      <div
+        className={`app-main ${sacredCurrentsRoute ? "app-main--immersive" : ""}`}
+      >
         <header className="topbar">
           <button
             className="mobile-toggle icon-button"
@@ -375,32 +308,55 @@ export default function Atlas({
           >
             <Menu />
           </button>
-          <div className="breadcrumb">
+          <div className="breadcrumb" aria-label="Current location">
             Humanity’s search for meaning<span>/</span>
             <strong>
-              {route === "home"
-                ? "Overview"
-                : route === "texts"
-                  ? "Text profile"
-                  : route.charAt(0).toUpperCase() + route.slice(1)}
+              {routeTitles[route] ??
+                route.charAt(0).toUpperCase() + route.slice(1)}
             </strong>
           </div>
           <form
-            className="global-search"
+            className={`global-search ${searchOpen ? "global-search--open" : ""}`}
             onSubmit={(e) => {
               e.preventDefault();
               if (global.trim())
                 router.push(`/search?q=${encodeURIComponent(global)}`);
             }}
+            onKeyDown={(event) => {
+              if (event.key === "Escape") {
+                setSearchOpen(false);
+                searchInput.current?.blur();
+              }
+            }}
           >
-            <Search size={17} />
-            <input
-              aria-label="Search the atlas"
-              placeholder="Search the atlas…"
-              value={global}
-              onChange={(e) => setGlobal(e.target.value)}
-            />
-            <kbd>↵</kbd>
+            <button
+              className="icon-button global-search__toggle"
+              type="button"
+              aria-label={
+                searchOpen ? "Close atlas search" : "Open atlas search"
+              }
+              aria-expanded={searchOpen}
+              onClick={() => {
+                const next = !searchOpen;
+                setSearchOpen(next);
+                if (next)
+                  requestAnimationFrame(() => searchInput.current?.focus());
+              }}
+            >
+              {searchOpen ? <X size={17} /> : <Search size={17} />}
+            </button>
+            <div className="global-search__field">
+              <Search size={16} aria-hidden="true" />
+              <input
+                ref={searchInput}
+                aria-label="Search the atlas"
+                placeholder="Search texts, passages, people…"
+                value={global}
+                onChange={(e) => setGlobal(e.target.value)}
+                tabIndex={searchOpen ? 0 : -1}
+              />
+              <kbd>↵</kbd>
+            </div>
           </form>
           <button
             className="icon-button theme-switch"
@@ -418,7 +374,12 @@ export default function Atlas({
             A
           </span>
         </header>
-        <main id="main">{content}</main>
+        <main
+          id="main"
+          className={sacredCurrentsRoute ? "atlas-main--immersive" : undefined}
+        >
+          {content}
+        </main>
         <footer className="main-footer">
           <span>Many traditions. Open questions.</span>
           <Link href="/methodology">Sources, uncertainty & methodology ↗</Link>
@@ -439,226 +400,6 @@ export default function Atlas({
           {toast}
         </div>
       )}
-    </>
-  );
-}
-function Home({ onSave }: { onSave: (f: Finding) => void }) {
-  const [q, setQ] = useState("");
-  const router = useRouter();
-  return (
-    <>
-      <div className="home-heading">
-        <span className="eyebrow">
-          THE UNIVERSAL RELIGION & SACRED TEXT ATLAS
-        </span>
-        <div className="row between">
-          <h1>
-            Explore humanity’s
-            <br />
-            <em>search for meaning.</em>
-          </h1>
-          <div className="home-note">
-            Across cultures.
-            <br />
-            Across centuries.
-            <br />
-            Always with sources.
-          </div>
-        </div>
-        <p>
-          Sacred texts, ancient stories, and philosophical questions.
-          <br className="desktop-only" /> A place to explore what connects
-          us—and where our ideas diverge.
-        </p>
-      </div>
-      <form
-        className="question-form home-question"
-        onSubmit={(e) => {
-          e.preventDefault();
-          if (q.trim()) router.push(`/questions?q=${encodeURIComponent(q)}`);
-        }}
-      >
-        <Search size={23} />
-        <input
-          aria-label="Ask a big question"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder="What do you want to understand?"
-        />
-        <button className="button">
-          Explore a question
-          <ArrowRight size={18} />
-        </button>
-      </form>
-      <div className="question-suggestions">
-        <span>BEGIN WITH</span>
-        {questions.slice(0, 3).map((q) => (
-          <Link key={q} href={`/questions?q=${encodeURIComponent(q)}`}>
-            {q}
-            <ArrowUpRight size={13} />
-          </Link>
-        ))}
-      </div>
-      <div className="stats-strip">
-        <div>
-          <strong>{texts.length}</strong>
-          <span>texts in the catalog</span>
-        </div>
-        <div>
-          <strong>26</strong>
-          <span>tradition groupings</span>
-        </div>
-        <div>
-          <strong>{new Set(editions.map((e) => e.textId)).size}</strong>
-          <span>searchable primary works</span>
-        </div>
-        <div className="stats-note">
-          <span className="tiny-ring" />
-          <span>
-            Evidence, interpretation,
-            <br />
-            and uncertainty—kept visible.
-          </span>
-        </div>
-      </div>
-      <section className="home-paths">
-        <Link href="/map" className="path-card map-path">
-          <div>
-            <span className="eyebrow">ACROSS THE WORLD</span>
-            <h2>
-              Every idea
-              <br />
-              comes from somewhere.
-            </h2>
-            <span className="text-button">
-              Explore the world map <ArrowUpRight size={17} />
-            </span>
-          </div>
-          <Globe2 className="path-globe" size={190} strokeWidth={0.6} />
-        </Link>
-        <Link href="/timeline" className="path-card time-path">
-          <span className="eyebrow">ACROSS TIME</span>
-          <h2>
-            Follow the long
-            <br />
-            conversation.
-          </h2>
-          <div className="mini-timeline">
-            <span>750 BCE</span>
-            <span>1 CE</span>
-            <span>1900 CE</span>
-            <i />
-            <i />
-            <i />
-            <i />
-            <i />
-          </div>
-          <span className="text-button">
-            Explore the timeline <ArrowUpRight size={17} />
-          </span>
-        </Link>
-      </section>
-      <section>
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">THE READING ROOM</span>
-            <h2>A few places to begin</h2>
-          </div>
-          <Link href="/library" className="text-button">
-            Browse all texts <ArrowRight size={17} />
-          </Link>
-        </div>
-        <div className="text-grid home-texts">
-          {["bhagavad-gita", "dhammapada", "tao-te-ching"]
-            .map((id) => texts.find((t) => t.id === id)!)
-            .map((t) => (
-              <TextCard key={t.id} text={t} onSave={onSave} />
-            ))}
-        </div>
-      </section>
-      <section className="discovery-row">
-        <Link href="/stories" className="discovery-card">
-          <Layers3 size={25} />
-          <h3>
-            Familiar stories.
-            <br />
-            Different worlds.
-          </h3>
-          <p>Explore narrative parallels with their differences in view.</p>
-          <span>
-            Story parallels <ArrowUpRight size={16} />
-          </span>
-        </Link>
-        <Link href="/opposition?q=religious%20coercion" className="discovery-card">
-          <Scale size={25} />
-          <h3>
-            Make room for
-            <br />
-            another perspective.
-          </h3>
-          <p>Find the critiques, inversions, and competing ideas.</p>
-          <span>
-            Show the Opposition <ArrowUpRight size={16} />
-          </span>
-        </Link>
-        <Link href="/canon" className="discovery-card">
-          <ScrollText size={25} />
-          <h3>
-            Beyond the
-            <br />
-            accepted canon.
-          </h3>
-          <p>Ask which communities accepted a text, and when.</p>
-          <span>
-            Canon / Non-Canon <ArrowUpRight size={16} />
-          </span>
-        </Link>
-        <Link href="/library/horn" className="discovery-card">
-          <Globe2 size={25} />
-          <h3>
-            Geʽez heritage.
-            <br />
-            Distinct communities.
-          </h3>
-          <p>Explore Ethiopia, Eritrea and the Horn through community-specific canon and manuscript evidence.</p>
-          <span>
-            Open the Horn collection <ArrowUpRight size={16} />
-          </span>
-        </Link>
-      </section>
-      <section className="artifact-feature">
-        <div className="artifact-preview">
-          <img
-            src={artifacts[0].imageUrl}
-            alt={artifacts[0].title}
-            loading="lazy"
-          />
-        </div>
-        <div>
-          <span className="eyebrow">A MATERIAL HISTORY</span>
-          <h2>Ideas leave traces.</h2>
-          <p>
-            A stone inscription. A palm-leaf manuscript. Meet the objects
-            through which writing survives.
-          </p>
-          <Link className="text-button" href="/manuscripts">
-            Explore manuscripts & objects <ArrowUpRight size={17} />
-          </Link>
-          <p className="small muted">
-            {artifacts[0].date} · The Metropolitan Museum of Art
-            <br />
-            CC0 / Open Access ·{" "}
-            <a href={artifacts[0].sourceUrl} target="_blank" rel="noreferrer">
-              Object attribution
-            </a>
-          </p>
-        </div>
-        <Link href="/random" className="random-link">
-          <Shuffle size={21} />
-          Follow a random connection
-          <ArrowRight size={17} />
-        </Link>
-      </section>
     </>
   );
 }

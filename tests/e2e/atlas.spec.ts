@@ -23,7 +23,7 @@ test("home, library filtering, reader, citations and saving", async ({
 }) => {
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: /Explore humanity/ }),
+    page.getByRole("heading", { name: /Follow humanity’s long conversation/ }),
   ).toBeVisible();
   await page.goto("/library");
   await page.getByLabel("Search text library").fill("Dhammapada");
@@ -99,27 +99,31 @@ test("question returns diverse evidence and comparison retrieves passages", asyn
 });
 test("timeline, map, graph and canon controls work", async ({ page }) => {
   await page.goto("/timeline");
-  await page.getByRole("button", { name: "Vertical view" }).click();
-  await expect(page.locator(".vertical-timeline")).toBeVisible();
-  await page.getByLabel("Timeline year").fill("-5000");
-  await expect(page.locator(".empty")).toContainText("No reviewed");
-  await page.goto("/map");
-  await expect(page.locator(".leaflet-container")).toBeVisible();
-  await page.locator(".map-list button").first().click();
   await expect(
-    page.getByRole("link", { name: "Open text profile" }),
+    page.getByRole("heading", { name: "Sacred Currents", exact: true }),
+  ).toBeVisible();
+  await expect(page.getByRole("button", { name: "Timeline", exact: true })).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
+  await page.getByRole("button", { name: "Map", exact: true }).click();
+  await expect(page.locator(".leaflet-container")).toBeVisible();
+  await page.getByText(/Keyboard anchor list/).click();
+  await page.locator("details").filter({ hasText: "Keyboard anchor list" }).getByRole("button").first().click();
+  await expect(
+    page.getByRole("link", { name: "Open record" }),
   ).toBeVisible();
   await page.goto("/graph");
   await expect(page.locator(".graph-surface svg")).toBeVisible();
-  await page
-    .getByRole("button", {
-      name: "Plato - Phaedo ↔ Bhagavad Gita",
-      exact: true,
-    })
-    .click();
-  await expect(page.locator(".graph-layout .panel")).toContainText(
-    "exploratory comparison",
-  );
+  const thematicParallel = page.getByRole("button", {
+    name: /Thematic Parallel: Plato .* Phaedo to Bhagavad Gita.*Exploratory evidence/,
+  });
+  await thematicParallel.scrollIntoViewIfNeeded();
+  await thematicParallel.press("Enter");
+  await expect(page.locator(".graph-evidence--exploratory")).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Counterarguments and limits" }),
+  ).toBeVisible();
   await page.goto("/canon");
   await page
     .getByLabel("Community grouping")

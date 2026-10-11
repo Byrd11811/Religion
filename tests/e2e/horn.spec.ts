@@ -24,6 +24,26 @@ test("Meqabyan and manuscript evidence retain their limits", async ({ page }) =>
 
 test("world map links unlocated Horn records without inventing a centroid", async ({ page }) => {
   await page.goto("/map");
-  await expect(page.getByRole("link", { name: "Ethiopia, Eritrea & the Horn collection" })).toBeVisible();
-  await expect(page.getByText(/does not place those records at a regional centroid/)).toBeVisible();
+
+  const navigation = page.getByRole("navigation", { name: "Main navigation" });
+  await navigation.locator("summary").filter({ hasText: "Collections" }).click();
+  await expect(
+    navigation.getByRole("link", { name: "Ethiopia, Eritrea & the Horn" }),
+  ).toHaveAttribute("href", "/library/horn");
+
+  await page
+    .getByPlaceholder("Find a text, witness, region or tradition…")
+    .fill("Kebra Nagast, British Library Or 818");
+  await page
+    .getByRole("option", { name: /Kebra Nagast, British Library Or 818/ })
+    .click();
+
+  const evidence = page.getByTestId("currents-evidence-drawer");
+  await expect(
+    evidence.getByRole("heading", {
+      name: "Kebra Nagast, British Library Or 818",
+    }),
+  ).toBeVisible();
+  await expect(evidence.getByText("Coordinates unavailable")).toBeVisible();
+  await expect(evidence.getByText(/without inferred coordinates/)).toBeVisible();
 });

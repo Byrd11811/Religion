@@ -4,6 +4,7 @@ test("global search resolves aliases and separates metadata from passages", asyn
   page,
 }) => {
   await page.goto("/");
+  await page.getByRole("button", { name: "Open atlas search" }).click();
   await page.getByLabel("Search the atlas").fill("Dao De Jing");
   await page.getByLabel("Search the atlas").press("Enter");
   await expect(page).toHaveURL(/\/search\?q=Dao%20De%20Jing/);

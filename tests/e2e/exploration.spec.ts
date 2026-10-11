@@ -17,56 +17,75 @@ test("map and timeline APIs share scoped counts and validate chronology filters"
   expect((await request.get("/api/map?geography=surveyed")).status()).toBe(400);
 });
 
-test("map includes unknown dates and preserves location evidence when filters change", async ({
+test("Sacred Currents keeps map coverage and missing evidence visible while filters change", async ({
   page,
 }) => {
   await page.goto("/map");
-  await expect(page.getByTestId("map-coverage")).toContainText(
-    "33 mapped records",
+  await expect(page.getByTestId("sacred-currents")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Evidence anchors" })).toBeVisible();
+  await expect(page.locator(".leaflet-container")).toBeVisible();
+  const firstMarker = page.locator(".leaflet-interactive").first();
+  await expect(firstMarker).toBeVisible();
+  await firstMarker.click();
+  await expect(page.getByTestId("currents-evidence-drawer")).toContainText(
+    "Approximate editorial anchor",
   );
-  await expect(page.locator(".map-list button")).toHaveCount(33);
-  await page.getByLabel("Include records with unknown dates").uncheck();
-  await expect(page.getByTestId("map-coverage")).toContainText(
-    "22 mapped records",
+  await page.getByRole("button", { name: "Clear evidence selection" }).click();
+  await page.getByRole("button", { name: "Reset world map view" }).click();
+  await expect(firstMarker).toBeVisible();
+
+  await page.getByTestId("currents-coverage").locator("summary").click();
+  await expect(page.getByTestId("currents-coverage")).toContainText("33 mapped records");
+  await expect(page.getByTestId("currents-coverage")).toContainText("157 dated · 504 undated");
+  await page.getByTestId("currents-coverage").locator("summary").click();
+
+  await page.getByTestId("currents-layers").locator("summary").click();
+  await page.getByLabel("Include undated records").uncheck();
+  await expect(page.getByTestId("currents-coverage")).toContainText("22 mapped records");
+  await page.getByLabel("Include undated records").check();
+  await page.getByRole("button", { name: /Work origins/ }).click();
+  await expect(page.getByTestId("currents-coverage")).toContainText("0 mapped records");
+  await expect(page.locator(".leaflet-interactive")).toHaveCount(0);
+  await page.getByTestId("currents-layers").locator("summary").click();
+  await page.getByTestId("currents-coverage").locator("summary").click();
+  await expect(page.getByTestId("currents-coverage")).toContainText("61 unlocated");
+  await page.getByTestId("currents-coverage").locator("summary").click();
+
+  await page.getByPlaceholder("Find a text, witness, region or tradition…").fill("Voynich");
+  await page.getByRole("option", { name: /Voynich/ }).click();
+  await expect(page.getByTestId("currents-evidence-drawer")).toContainText("Voynich");
+  await expect(page.getByTestId("currents-evidence-drawer")).toContainText(
+    "Coordinates unavailable",
   );
-  await page.getByLabel("Include records with unknown dates").check();
-  await page.getByLabel("Map layer").selectOption("witness");
-  await expect(page.getByTestId("map-coverage")).toContainText(
-    "0 mapped records",
-  );
-  await expect(page.getByTestId("map-coverage")).toContainText(
-    "61 records without defensible coordinates",
-  );
-  await page
-    .getByText("Records without defensible coordinates (61)", { exact: true })
-    .click();
-  await expect(page.locator(".spatial-records")).toContainText("Voynich");
 });
 
-test("timeline exposes unknown records, uses full chronology and distinguishes witness dates", async ({
+test("Sacred Currents timeline, trace and guided modes expose synchronized evidence", async ({
   page,
 }) => {
   await page.goto("/timeline");
-  await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "489 undated records available below",
+  await expect(page.getByRole("heading", { name: "River of surviving records" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Timeline", exact: true })).toHaveAttribute(
+    "aria-pressed",
+    "true",
   );
-  await expect(page.locator(".timeline-axis")).toContainText("5000 BCE");
-  await page
-    .getByLabel("Timeline tradition")
-    .selectOption({ label: "Ancient Egypt" });
-  await expect(page.getByTestId("timeline-coverage")).not.toContainText(
-    "489 undated",
+  await expect(page.getByLabel("Historical time cursor")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Play time playback" })).toBeVisible();
+  await page.getByRole("button", { name: "Return to 5000 BCE" }).click();
+  await expect(page.getByRole("heading", { name: "5,000 BCE" })).toBeVisible();
+
+  await page.getByRole("button", { name: /Trace/ }).click();
+  await expect(page.getByRole("heading", { name: "Choose a relationship to inspect" })).toBeVisible();
+  const traceShelf = page.locator("section").filter({ hasText: "Evidence-backed connections" });
+  await expect(traceShelf.getByRole("button")).toHaveCount(22);
+  await traceShelf.getByRole("button").first().click();
+  await expect(page.getByTestId("currents-evidence-drawer")).toContainText(
+    "Relationship evidence, not a route",
   );
-  await page.getByLabel("Timeline tradition").selectOption("");
-  await page.getByLabel("Timeline layer").selectOption("witness");
-  await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "46 dated records",
-  );
-  await expect(page.getByTestId("timeline-coverage")).toContainText(
-    "15 undated records",
-  );
-  await expect(page.locator(".timeline-row")).toHaveCount(46);
-  await expect(page.locator(".timeline-row").first()).toContainText("witness");
+  await expect(page.getByTestId("currents-evidence-drawer")).toContainText("Evidence chain");
+
+  await page.getByRole("button", { name: /Guided/ }).click();
+  await expect(page.getByRole("heading", { name: /Flood stories|Wisdom across|quotation/i })).toBeVisible();
+  await expect(page.getByText(/does not reconstruct a journey/i)).toBeVisible();
 });
 
 test("map tile failures leave keyboard-accessible evidence and missing-location records usable", async ({
@@ -77,13 +96,15 @@ test("map tile failures leave keyboard-accessible evidence and missing-location 
   await expect(
     page.getByText("Map tiles are unavailable.", { exact: false }),
   ).toBeVisible();
-  const first = page.locator(".map-list button").first();
+  await page.getByText(/Keyboard anchor list/).click();
+  const anchorList = page.locator("details").filter({ hasText: "Keyboard anchor list" });
+  const first = anchorList.getByRole("button").first();
   await first.focus();
   await page.keyboard.press("Enter");
   await expect(
-    page.getByRole("region", { name: "Selected location evidence" }),
+    page.getByTestId("currents-evidence-drawer"),
   ).toContainText("Approximate editorial anchor");
   await expect(
-    page.getByRole("link", { name: "Open text profile" }),
+    page.getByRole("link", { name: "Open record" }),
   ).toBeVisible();
 });

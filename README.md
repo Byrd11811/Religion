@@ -116,7 +116,7 @@ Metadata generation reads the preserved `docs/product-spec.md`. Ingestion uses e
 
 ## Map and timeline coverage
 
-The map includes all 34 reviewed work anchors by default, including records without dates, and keeps unlocated records discoverable. Layer, community, region, geographic evidence and availability filters update the same coverage counts. Overlapping records share their original anchor. The timeline uses 5000 BCE–present and offers physical-witness dates separately from work composition. An earlier unsupported Gilgamesh point and date were removed during the Mesopotamia review rather than being repeated as precise evidence.
+The map includes all 33 reviewed mapped work records by default, including records without dates, grouped at 12 approximate anchors; unlocated records remain discoverable. Layer, community, region, geographic evidence and availability filters update the same coverage counts. Overlapping records share their original anchor. The timeline uses 5000 BCE–present and offers physical-witness dates separately from work composition. An earlier unsupported Gilgamesh point and date were removed during the Mesopotamia review rather than being repeated as precise evidence.
 
 `/api/map?view=coverage` and `/api/timeline?view=coverage&layer=witness` return typed records, source context and scoped counts. Legacy record-array responses remain available; unknown-date records are included by default (`undated=false` excludes them). Invalid years, evidence states and boolean filters return 400. Historical borders, religious-influence geometry and conflict transitions still require sourced datasets.
 
