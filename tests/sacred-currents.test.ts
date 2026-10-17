@@ -33,9 +33,19 @@ test("Sacred Currents exposes honest catalog and archive coverage", () => {
   assert.equal(sacredCurrentsCoverage.totals.witnesses, 61);
   assert.equal(sacredCurrentsCoverage.totals.datedWitnesses, 46);
   assert.equal(sacredCurrentsCoverage.totals.mappedWitnesses, 0);
-  assert.equal(sacredCurrentsCoverage.totals.artifacts, 33);
+  assert.equal(
+    sacredCurrentsCoverage.totals.artifacts,
+    sacredCurrentsRecords.filter(({ kind }) => kind === "artifact").length,
+  );
+  assert.ok(sacredCurrentsCoverage.totals.artifacts >= 400);
   assert.equal(sacredCurrentsCoverage.totals.traditions, 52);
-  assert.equal(sacredCurrentsRecords.length, 746);
+  assert.equal(
+    sacredCurrentsRecords.length,
+    sacredCurrentsCoverage.totals.works +
+      sacredCurrentsCoverage.totals.witnesses +
+      sacredCurrentsCoverage.totals.artifacts +
+      sacredCurrentsCoverage.totals.traditions,
+  );
   assert.equal(sacredCurrentsCoverage.totals.relationships, 22);
   assert.ok(sacredCurrentsStreams.length > 10);
   assert.equal(sacredCurrentsAnchors.length, 12);
@@ -188,7 +198,13 @@ test("search and filters are deterministic and preserve unknown evidence", () =>
     kinds: ["artifact"],
     withImagesOnly: true,
   });
-  assert.equal(artifactsWithImages.length, 32);
+  assert.equal(
+    artifactsWithImages.length,
+    sacredCurrentsRecords.filter(
+      ({ kind, hasImage }) => kind === "artifact" && hasImage,
+    ).length,
+  );
+  assert.ok(artifactsWithImages.length >= 400);
   assert.ok(
     artifactsWithImages.every(
       ({ kind, hasImage }) => kind === "artifact" && hasImage,

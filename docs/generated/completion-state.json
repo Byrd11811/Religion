@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "declarationAllowed": false,
-  "currentFocus": "Phase 19 — Image scale and multi-institution pipeline",
+  "currentFocus": "Phase 20 — Unified research page",
   "continuation": "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
   "phases": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "id": "19",
-      "status": "not-started"
+      "status": "acceptance-implemented-not-finally-certified"
     },
     {
       "id": "20",

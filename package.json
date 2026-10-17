@@ -22,6 +22,8 @@
     "ingest:ontology": "python scripts/ingest-ontology-entities.py",
     "ingest:images": "tsx scripts/images.ts",
     "ingest:met": "python scripts/import-met.py",
+    "ingest:aic": "python scripts/import-aic.py --review-file data/intake/aic-religion-reviewed.json --verify-live",
+    "ingest:cma": "python scripts/import-cma.py --review-file data/intake/cma-religion-reviewed.json --verify-live",
     "refresh:manifest": "python scripts/refresh-manifest.py",
     "db:migrate": "tsx scripts/database.ts migrate",
     "db:seed": "tsx scripts/database.ts seed",

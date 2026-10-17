@@ -439,6 +439,41 @@ export function measureCoverage(
     "packages/shared/archive.ts + data/seed/archive-additions.json",
   );
   add(
+    "imageInstitutions",
+    "Institutions represented by image records",
+    new Set(input.images.map((image) => image.institution.split(" · ")[0])).size,
+    "Distinct named holding institutions after removing legacy accession suffixes; aggregators and image variants do not count as institutions.",
+    "data/seed/images.json + institutional image seeds",
+  );
+  add(
+    "imageObjectTypes",
+    "Institutional image object types",
+    new Set(input.artifacts.map((artifact) => artifact.objectType).filter(Boolean)).size,
+    "Distinct institution-supplied object-type labels; missing types remain missing.",
+    "data/seed/institutional-images.json + data/seed/cleveland-images.json",
+  );
+  add(
+    "imageSourceHashes",
+    "Images with retained source hashes",
+    input.images.filter((image) => image.sourceHash?.match(/^[a-f0-9]{64}$/)).length,
+    "Records with a SHA-256 hash of the retained institutional API response; legacy records are not backfilled with invented hashes.",
+    "data/seed/institutional-images.json + data/seed/cleveland-images.json",
+  );
+  add(
+    "iiifServiceImages",
+    "Images with institutional IIIF Image services",
+    input.images.filter((image) => image.iiifService).length,
+    "Image records carrying the institution's IIIF Image service; an Atlas-generated presentation manifest does not count.",
+    "data/seed/institutional-images.json",
+  );
+  add(
+    "institutionalManifestImages",
+    "Images retaining institutional IIIF manifests",
+    input.images.filter((image) => image.institutionalManifest).length,
+    "Image records retaining an institution-maintained Presentation manifest independently of the Atlas display manifest.",
+    "data/seed/institutional-images.json",
+  );
+  add(
     "relationships",
     "Curated relationship records",
     input.relationships.length,

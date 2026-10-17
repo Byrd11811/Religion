@@ -259,6 +259,9 @@ export function ArtifactDetail({ id }: { id: string }) {
           </Link>
         </p>
       )}
+      {a.institutionalManifest && (
+        <p><a href={a.institutionalManifest} target="_blank" rel="noreferrer">Institutional IIIF manifest ↗</a></p>
+      )}
       <IIIFViewer artifactId={id} />
       <ManuscriptGallery
         images={archiveImages.filter(

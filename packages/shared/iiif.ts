@@ -55,6 +55,12 @@ export function createManifest(
       label: { en: ["Attribution"] },
       value: { en: [...new Set(images.map((i) => i.attribution))] },
     },
+    seeAlso: [...new Set(images.map((image) => image.institutionalManifest).filter((value): value is string => Boolean(value)))].map((manifest) => ({
+      id: manifest,
+      type: "Dataset",
+      format: "application/ld+json",
+      label: { en: ["Institution-maintained IIIF Presentation manifest"] },
+    })),
     items: images.map((image, index) => ({
       id: `${id}/canvas/${index}`,
       type: "Canvas",

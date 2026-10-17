@@ -1,0 +1,2168 @@
+{
+  "formatVersion": 1,
+  "institution": "The Cleveland Museum of Art",
+  "reviewedAt": "2026-10-16",
+  "reviewScope": "CMA CC0 designation, image presence, title, department, type and culture were reviewed with a conservative sensitivity screen. This is display intake review, not community authorization or exhaustive object scholarship.",
+  "objects": [
+    {
+      "id": 142560,
+      "accessionNumber": "1966.30",
+      "expectedTitle": "Standing Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; India, Kashmir. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111811,
+      "accessionNumber": "1930.331",
+      "expectedTitle": "Nataraja, Shiva as the Lord of Dance",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, Chola period (900–1200s). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 122253,
+      "accessionNumber": "1942.562",
+      "expectedTitle": "Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145407,
+      "accessionNumber": "1970.62",
+      "expectedTitle": "Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Medieval period, Chola dynasty(10th-13th century). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 139727,
+      "accessionNumber": "1963.500",
+      "expectedTitle": "Madonna of Humility",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 318562,
+      "accessionNumber": "2018.257",
+      "expectedTitle": "Sleeping Christ Child",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 117768,
+      "accessionNumber": "1938.388.a",
+      "expectedTitle": "A Flying Angel (recto)",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Italy, Venice. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141639,
+      "accessionNumber": "1965.233",
+      "expectedTitle": "Twilight in the Wilderness",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Painting; United States. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 123704,
+      "accessionNumber": "1944.236",
+      "expectedTitle": "Mosque Lamp",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Ceramic; Turkey, Iznik, Ottoman period (1299–1922). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114235,
+      "accessionNumber": "1933.480",
+      "expectedTitle": "Qur'an Manuscript Folio",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Egypt, Mamluk sultanate (1250–1517). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111691,
+      "accessionNumber": "1930.22",
+      "expectedTitle": "Interior of a Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 107008,
+      "accessionNumber": "1925.1005",
+      "expectedTitle": "The Presentation in the Temple",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114975,
+      "accessionNumber": "1935.147",
+      "expectedTitle": "Enthroned planetary deity",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Central Vietnam (Champa), Quang Nam province, Dong Duong monastery. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 128462,
+      "accessionNumber": "1951.400",
+      "expectedTitle": "Resist-Dyed Hanging with Biblical Scenes",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Textiles; Textile; Egypt, Byzantine period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136281,
+      "accessionNumber": "1960.170",
+      "expectedTitle": "Head of an Apostle",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Southwestern France, Toulouse?, 14th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137218,
+      "accessionNumber": "1962.162",
+      "expectedTitle": "Bodhisattva Guanyin",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, late Northern Qi (550–577) or early Sui dynasty (581–618). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143314,
+      "accessionNumber": "1967.244",
+      "expectedTitle": "Jain Ascetic Walking Along a Riverbank",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Mughal India, court of Akbar (reigned 1556–1605). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149367,
+      "accessionNumber": "1978.3",
+      "expectedTitle": "Shinto Deities",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147010,
+      "accessionNumber": "1972.43",
+      "expectedTitle": "Standing Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Pakistan, Gandhara, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 120411,
+      "accessionNumber": "1941.25",
+      "expectedTitle": "Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia, Angkor, Baphuon, early 12th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 138692,
+      "accessionNumber": "1963.104.2",
+      "expectedTitle": "Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, probably Pudokkatai, early Chola Dynasty, 10th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 153619,
+      "accessionNumber": "1987.147",
+      "expectedTitle": "Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Southern Cambodia or Vietnam. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141290,
+      "accessionNumber": "1964.514",
+      "expectedTitle": "Cane Handle (Poignée de canne)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 129218,
+      "accessionNumber": "1952.110",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy, Siena. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 120632,
+      "accessionNumber": "1941.389",
+      "expectedTitle": "Christ Carrying the Cross",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148672,
+      "accessionNumber": "1976.130",
+      "expectedTitle": "Angel Blowing a Trumpet",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170082,
+      "accessionNumber": "2012.30",
+      "expectedTitle": "Self-Portrait with Five Muses",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Painting; United States, Ohio, Cleveland. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 123771,
+      "accessionNumber": "1944.287",
+      "expectedTitle": "Mosque Lamp",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Ceramic; Turkey, Iznik, Ottoman period (1299–1922). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114236,
+      "accessionNumber": "1933.480.a",
+      "expectedTitle": "Qur'an Manuscript Folio (recto)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Egypt, Mamluk sultanate (1250–1517). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 127960,
+      "accessionNumber": "1950.590",
+      "expectedTitle": "Schlomé Fuss in the Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 161865,
+      "accessionNumber": "2001.152",
+      "expectedTitle": "Hoyshaleshvara Temple Sculpture, Halebidu (Halebeedu)",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144893,
+      "accessionNumber": "1970.11",
+      "expectedTitle": "Head of Male Deity, possibly Aiyanar",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Central Thailand, Phetchabun province, possibly Si Thep. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144277,
+      "accessionNumber": "1969.115",
+      "expectedTitle": "Fragment of a Floor Mosaic: Adam and Eve",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Mosaic; early Byzantium, Northern Syria, Byzantine period, late 5th-early 6th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 99816,
+      "accessionNumber": "1919.38",
+      "expectedTitle": "Columnar Figure of an Apostle",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; France, Champagne, Châlons-sur-Marne. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151541,
+      "accessionNumber": "1983.86",
+      "expectedTitle": "Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Tang dynasty (618-907). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 314476,
+      "accessionNumber": "2018.171",
+      "expectedTitle": "Shvetambara Jain Teacher Giving Instruction",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northwestern India, Rajasthan, Rajput Kingdom of Jaipur. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149369,
+      "accessionNumber": "1978.3.2",
+      "expectedTitle": "Shinto Deity",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147588,
+      "accessionNumber": "1973.85",
+      "expectedTitle": "Seated Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 165154,
+      "accessionNumber": "2007.155",
+      "expectedTitle": "Brahma-Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, Chola dynasty, late 10th - early 11th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 122254,
+      "accessionNumber": "1942.563",
+      "expectedTitle": "Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137128,
+      "accessionNumber": "1961.93",
+      "expectedTitle": "Dancing Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Central India, Madhya Pradesh. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 123679,
+      "accessionNumber": "1944.226",
+      "expectedTitle": "Pair of Bottle Coolers (Seaux à rafraîchir)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 97157,
+      "accessionNumber": "1916.795",
+      "expectedTitle": "The Madonna of Humility with the Temptation of Eve",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy, the Marches, late 14th-early 15th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 130553,
+      "accessionNumber": "1953.286",
+      "expectedTitle": "Christ at the Column",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Austria. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 129803,
+      "accessionNumber": "1952.235.2",
+      "expectedTitle": "Tobias and the Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144732,
+      "accessionNumber": "1969.52",
+      "expectedTitle": "Storm in the Mountains",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Painting; United States. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170040,
+      "accessionNumber": "2012.266",
+      "expectedTitle": "Picturesque Sketches in Spain: The Mosque, Cordova",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114237,
+      "accessionNumber": "1933.480.b",
+      "expectedTitle": "Qur'an Manuscript Folio (verso)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Egypt, Mamluk sultanate (1250–1517). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 138276,
+      "accessionNumber": "1962.287.65.a",
+      "expectedTitle": "The Gotha Missal:  Fol. 65r, The Church and the Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Bound Volume; France, Paris. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 325429,
+      "accessionNumber": "2019.54",
+      "expectedTitle": "Kirwuttee, A Temple, India",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157340,
+      "accessionNumber": "1994.202",
+      "expectedTitle": "Male Deity",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia, Koh Ker-Khleong style, 10th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137195,
+      "accessionNumber": "1962.151",
+      "expectedTitle": "Rest on the Flight into Egypt",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 453145,
+      "accessionNumber": "2022.41.2",
+      "expectedTitle": "Standing Apostle (Saint Paul?)",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Southern Netherlands or Northern France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148682,
+      "accessionNumber": "1976.14",
+      "expectedTitle": "Bodhisattva Guanyin",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Liao dynasty (916-1125). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 107865,
+      "accessionNumber": "1925.494",
+      "expectedTitle": "Cover for a Jain Manuscript",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Textiles; Embroidery; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149368,
+      "accessionNumber": "1978.3.1",
+      "expectedTitle": "Shinto Deity",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 94676,
+      "accessionNumber": "1915.334.1",
+      "expectedTitle": "Seated Amitayus Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Northern Qi dynasty (550–577). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144279,
+      "accessionNumber": "1969.117",
+      "expectedTitle": "Trident with Shiva as Half-Woman (Ardhanarishvara)",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, Chola period (900-13th Century). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137023,
+      "accessionNumber": "1961.46",
+      "expectedTitle": "Vishnu Riding on Garuda",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Eastern India, Bihar. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 437547,
+      "accessionNumber": "1989.353.b",
+      "expectedTitle": "Cover for a Box Decorated with Shiva, Vishnu, Krishna, and Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Metalwork; Northwestern India, Rajasthan, Rajput Kingdom of Jaipur. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 125207,
+      "accessionNumber": "1947.177",
+      "expectedTitle": "Caster (Saupoudreuse)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 152842,
+      "accessionNumber": "1985.8",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy, Florence, active in Spain, late 14th-early 15th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 84662,
+      "accessionNumber": "2020.107",
+      "expectedTitle": "The Orange Christ",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Modern European Painting and Sculpture; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 117767,
+      "accessionNumber": "1938.388",
+      "expectedTitle": "A Flying Angel (recto); Studies of Hands Playing Instruments (verso)",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Italy, Venice. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145450,
+      "accessionNumber": "1971.1",
+      "expectedTitle": "Interior of a Church",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Netherlands. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 150188,
+      "accessionNumber": "1981.10",
+      "expectedTitle": "Mosque Lamp",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Glass; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118471,
+      "accessionNumber": "1939.507",
+      "expectedTitle": "Double-Sided Leaf from a Qur'an",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Seljuk Iran. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163654,
+      "accessionNumber": "2005.145.82.b",
+      "expectedTitle": "Jesus Raises Jairus’s Daughter from the Dead (folio 82 verso), from a Mirror of Holiness (Mir’at al-quds) of Father Jerome Xavier",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Manuscript; Mughal India, Allahabad, made for Prince Salim (1569–1627). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149660,
+      "accessionNumber": "1979.52",
+      "expectedTitle": "Landscape with a Distant Temple",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 161275,
+      "accessionNumber": "1999.5",
+      "expectedTitle": "The Disrobing of Christ",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Italy, Venice. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 453146,
+      "accessionNumber": "2022.41.1",
+      "expectedTitle": "Standing Apostle (Probably Saint John the Evangelist)",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Southern Netherlands or Northern France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 140439,
+      "accessionNumber": "1964.370",
+      "expectedTitle": "Bodhisattva of Wisdom (Manjushri)",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Nepal. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 166885,
+      "accessionNumber": "2009.13",
+      "expectedTitle": "Jain Temple, Calcutta",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; Ceylon, now Sri Lanka, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 152281,
+      "accessionNumber": "1985.16",
+      "expectedTitle": "Votive Hanging with Image of Kannon (Kannon Kakebotoke)",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Nanbokuchō period (1336–92). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143465,
+      "accessionNumber": "1967.39",
+      "expectedTitle": "Seated Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Afghanistan, Hadda, probably Tape Shotor. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 140437,
+      "accessionNumber": "1964.369",
+      "expectedTitle": "A Guardian of Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Southwestern India, Karnataka. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144793,
+      "accessionNumber": "1969.57",
+      "expectedTitle": "Head of Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Central India, Madhya Pradesh, Vidisha. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 437545,
+      "accessionNumber": "1989.353.a",
+      "expectedTitle": "Box Decorated with Shiva, Vishnu, Krishna, and Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Metalwork; Northwestern India, Rajasthan, Rajput Kingdom of Jaipur. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142292,
+      "accessionNumber": "1966.124",
+      "expectedTitle": "Costumed Dancers Performing in a Garden Tavern",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144216,
+      "accessionNumber": "1968.66",
+      "expectedTitle": "Madonna Nursing the Christ Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141932,
+      "accessionNumber": "1965.471",
+      "expectedTitle": "Baptism of Christ",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 117032,
+      "accessionNumber": "1937.577",
+      "expectedTitle": "The Sacrifice of Isaac",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148774,
+      "accessionNumber": "1976.30",
+      "expectedTitle": "Niagara Falls by Moonlight",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; America. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 138787,
+      "accessionNumber": "1963.173",
+      "expectedTitle": "The Mosque, Córdoba",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114247,
+      "accessionNumber": "1933.488",
+      "expectedTitle": "Folio from a Qur'an",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Calligraphy; Iran, Seljuq period (1037–1194). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 127968,
+      "accessionNumber": "1950.598",
+      "expectedTitle": "Schlomé Fuss à la Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 95470,
+      "accessionNumber": "1916.1208",
+      "expectedTitle": "Rumal with Vishnu temple and subsidiary shrines",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Textiles; Embroidery; Northern India, Pahari Kingdom of Chamba. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118679,
+      "accessionNumber": "1939.68",
+      "expectedTitle": "Lazarus and the Rich Man",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137057,
+      "accessionNumber": "1961.48",
+      "expectedTitle": "Sun Bodhisattva (Nikkō Bosatsu)",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 314507,
+      "accessionNumber": "2018.201",
+      "expectedTitle": "Diagrams of the Universe: The Two-and-a-Half Continents, the Universe in the Shape of a Person, and the Seven Levels of Hell",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149099,
+      "accessionNumber": "1977.32",
+      "expectedTitle": "Bishamonten Ritual Mirror",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Metalwork; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147589,
+      "accessionNumber": "1973.85.a",
+      "expectedTitle": "Seated Buddha (sculpture)",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137129,
+      "accessionNumber": "1961.94",
+      "expectedTitle": "Shiva and Parvati",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, Viracholapuram. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 122181,
+      "accessionNumber": "1942.498",
+      "expectedTitle": "Head of Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, Uttar Pradesh, Mathura. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 154776,
+      "accessionNumber": "1989.353",
+      "expectedTitle": "Box decorated with Shiva, Vishnu, Krishna, and Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Metalwork; Northwestern India, Rajasthan, Rajput Kingdom of Jaipur. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 122518,
+      "accessionNumber": "1942.780",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142025,
+      "accessionNumber": "1965.551",
+      "expectedTitle": "Monogram of Christ (Chrismon)",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Metalwork; Byzantium, Syria, early Byzantine period, 6th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 173180,
+      "accessionNumber": "1915.684",
+      "expectedTitle": "The Monastery of San Pedro (Our Lady of the Snows)",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Painting; America. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 368003,
+      "accessionNumber": "2019.170.16",
+      "expectedTitle": "Small Mosque in the Kaiserbagh",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 124009,
+      "accessionNumber": "1944.495",
+      "expectedTitle": "Bookbinding for a Qur'an",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Book Binding; Turkey, Istanbul, Ottoman period, 15th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 150717,
+      "accessionNumber": "1982.141",
+      "expectedTitle": "Leaf from a Missal with Two Historiated Initials: Initial P[er omnia saecula saeculorum] (A Priest Celebrates Mass) and Initial V[ere dignum et iustum est] (Ecclesia and Synagogue)",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Manuscript; France, Beauvais, late 13th-early 14th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 169578,
+      "accessionNumber": "2011.4",
+      "expectedTitle": "The Temple of Vesta and the Falls at Tivoli",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136680,
+      "accessionNumber": "1961.219",
+      "expectedTitle": "Saint Jerome",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 128842,
+      "accessionNumber": "1951.454",
+      "expectedTitle": "Saint Peter Repentant",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141937,
+      "accessionNumber": "1965.476",
+      "expectedTitle": "Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Pakistan, Gandhara, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151139,
+      "accessionNumber": "1983.1047",
+      "expectedTitle": "Seated Jina Rishabha Enshrined, from a Jain Manuscript: Kalpa-Sutra",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 152489,
+      "accessionNumber": "1985.311",
+      "expectedTitle": "Hotohoto Festival at Izumo Grand Shrine, from the series Views of Famous Places in the Sixty-odd Provinces",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Print; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 134789,
+      "accessionNumber": "1957.358",
+      "expectedTitle": "Barbarian Royalty Worshiping the Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Painting; China, Northern Song dynasty (960–1127). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170888,
+      "accessionNumber": "2013.350.a",
+      "expectedTitle": "A Night Scene of Shiva Puja (recto)",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Mughal India, Lucknow. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147449,
+      "accessionNumber": "1973.187",
+      "expectedTitle": "Yoga Narashimha, Vishnu in his Man-Lion Avatar",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, late Chola period (900–1200s). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 162529,
+      "accessionNumber": "2003.166",
+      "expectedTitle": "Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Eastern India, Bengal, Kolkata, Kalighat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 112022,
+      "accessionNumber": "1930.505",
+      "expectedTitle": "Monstrance with the \"Paten of Saint Bernward\"",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Metalwork; paten: Germany, Lower Saxony, Hildesheim; monstrance: Germany, Lower Saxony, Brunswick, Gothic period, paten: 12th century; monstrance: 14th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118038,
+      "accessionNumber": "1939.161",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144924,
+      "accessionNumber": "1970.13",
+      "expectedTitle": "Enthroned Virgin with the Writing Christ Child",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Franco-Netherlandish, active Paris(?), 15th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142361,
+      "accessionNumber": "1966.18",
+      "expectedTitle": "Kneeling Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Germany, Munich, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 127227,
+      "accessionNumber": "1949.544",
+      "expectedTitle": "Church Bells Ringing, Rainy Winter Night",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; America. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 668284,
+      "accessionNumber": "2024.5.36",
+      "expectedTitle": "Lucknow. The Great Emambara and Mosque",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114190,
+      "accessionNumber": "1933.440",
+      "expectedTitle": "Qur'an Manuscript Folio",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Southern Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 314249,
+      "accessionNumber": "2018.112",
+      "expectedTitle": "Stone sculptures in a Shiva temple",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northern India, Pahari kingdoms. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143152,
+      "accessionNumber": "1967.134",
+      "expectedTitle": "Descent from the Cross",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Austria. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149403,
+      "accessionNumber": "1978.56.2",
+      "expectedTitle": "Head of an Apostle from the South Portal of the Cathedral of Thérouanne",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Northern France (Pas-de-Calais), Thérouanne, 13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 155903,
+      "accessionNumber": "1991.2",
+      "expectedTitle": "Thangka with the Seventh Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Textiles; Embroidery; China, Ming dynasty (1368–1644). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 438621,
+      "accessionNumber": "2021.12",
+      "expectedTitle": "Prince Shreyamsa dreams of the coming of Rishabha, from a Panchakalyanaka (Five Auspicious Events)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northwestern India, Rajasthan, Rajput Kingdom of Amber. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151343,
+      "accessionNumber": "1983.19.1",
+      "expectedTitle": "Famous Views of Ōmi",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 140151,
+      "accessionNumber": "1964.152",
+      "expectedTitle": "Amida Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Sui dynasty (581-618). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 94773,
+      "accessionNumber": "1915.340",
+      "expectedTitle": "Pendant with Four-armed Green Vishnu on a lotus with Nagas",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Jewelry; Nepal, Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135713,
+      "accessionNumber": "1959.253",
+      "expectedTitle": "Ganesha",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Tang dynasty (618-907). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 105616,
+      "accessionNumber": "1923.726",
+      "expectedTitle": "Amor Caritas",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Sculpture; America, late 19th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147022,
+      "accessionNumber": "1972.51",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 78982,
+      "accessionNumber": "2017.192",
+      "expectedTitle": "The Resurrection of Christ",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 154512,
+      "accessionNumber": "1989.154",
+      "expectedTitle": "Head of an Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Germany, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 95264,
+      "accessionNumber": "1916.1037",
+      "expectedTitle": "The Triumph of the Church",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Flanders. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 360442,
+      "accessionNumber": "2019.185",
+      "expectedTitle": "India. Benares. Aurangzeb's Mosque, after a photo by Dr. Kurt Boeck",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; India, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114191,
+      "accessionNumber": "1933.440.a",
+      "expectedTitle": "Qur'an Manuscript Folio (recto)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Southern Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 384219,
+      "accessionNumber": "2020.208",
+      "expectedTitle": "Western Gateway (Gopuram) of the Minakshi Sundareshvara Temple, Madurai",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 146416,
+      "accessionNumber": "1972.119",
+      "expectedTitle": "Noah:  The Eve of the Deluge",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Modern European Painting and Sculpture; Painting; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149402,
+      "accessionNumber": "1978.56.1",
+      "expectedTitle": "Head of an Apostle from the South Portal of the Cathedral of Thérouanne",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Northern France (Pas-de-Calais), Thérouanne, 13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148021,
+      "accessionNumber": "1975.101",
+      "expectedTitle": "Eleven-Headed Bodhisattva of Compassion (Avalokiteshvara)",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Western Himalayas. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148770,
+      "accessionNumber": "1976.27.b",
+      "expectedTitle": "Birth of Mahavira, folio 40 (verso) from a Kalpa-sutra",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 152476,
+      "accessionNumber": "1985.30",
+      "expectedTitle": "Head of a Male Shinto Deity",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 133035,
+      "accessionNumber": "1955.46",
+      "expectedTitle": "The New-born Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Northern Wei dynasty (386-534). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 314364,
+      "accessionNumber": "2018.113",
+      "expectedTitle": "Shiva Seated on a Throne in a Landscape",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northern India, Pahari kingdoms. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 169268,
+      "accessionNumber": "2011.148",
+      "expectedTitle": "Varaha, Boar Incarnation of Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Stone; Central India, probably Madhya Pradesh. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 162532,
+      "accessionNumber": "2003.169",
+      "expectedTitle": "Ganesha-Janani (Mother of Ganesh)",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Eastern India, Bengal, Kolkata, Kalighat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 453144,
+      "accessionNumber": "2022.41",
+      "expectedTitle": "Two Standing Apostles (probably Saint John the Evangelist and St. Paul)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Southern Netherlands or Northern France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143768,
+      "accessionNumber": "1968.206",
+      "expectedTitle": "Madonna and Child Enthroned",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 128838,
+      "accessionNumber": "1951.453",
+      "expectedTitle": "Altarpiece with The Passion of Christ",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143357,
+      "accessionNumber": "1967.27",
+      "expectedTitle": "Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; France, vicinity of Reims, 13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 119729,
+      "accessionNumber": "1940.564",
+      "expectedTitle": "Bray Church Yard",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 169946,
+      "accessionNumber": "2012.184",
+      "expectedTitle": "Egypt & Nubia, Volume III, No. 8: Mosque of Sultan Hassan, Cairo",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114265,
+      "accessionNumber": "1933.493.a",
+      "expectedTitle": "Folio from a Qur'an (recto)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Probably Egypt, Abbasid period (750–1258). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 384224,
+      "accessionNumber": "2020.212",
+      "expectedTitle": "Entrance to the Minakshi Sundareshvara Temple, Madurai",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 146146,
+      "accessionNumber": "1971.45",
+      "expectedTitle": "Priest-King or Deity",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Egyptian and Ancient Near Eastern Art; Sculpture; Hittite, North Syria. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143604,
+      "accessionNumber": "1967.65",
+      "expectedTitle": "Christ's Mission to the Apostles",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Ivory; Ottonian, Italy, Milan, Gothic period, 10th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111503,
+      "accessionNumber": "1929.981",
+      "expectedTitle": "Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Hebei province, Tang dynasty (618-907). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145884,
+      "accessionNumber": "1971.131",
+      "expectedTitle": "Folio 2, from a Great Poem about Twos (Dvyashraya Mahakavya) of Hemachandra with Commentary by Abhayatilaka",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat, possibly Patan. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 371502,
+      "accessionNumber": "2020.215",
+      "expectedTitle": "Pair of Guardian Figures (Zuishin)",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Muromachi period (1392–1573) to Edo period (1615–1858). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114974,
+      "accessionNumber": "1935.146",
+      "expectedTitle": "Buddha Calling on Earth to Witness",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northeastern India, Bihar, Tetravan, Pala Period (750-1197). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170075,
+      "accessionNumber": "2012.294",
+      "expectedTitle": "Head of a Follower of Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia, Angkor, 10th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148834,
+      "accessionNumber": "1976.75",
+      "expectedTitle": "Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Central India, Gupta Period, 5th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163103,
+      "accessionNumber": "2003.98",
+      "expectedTitle": "Ganesh",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Eastern India, Bengal, Kolkata, Kalighat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141287,
+      "accessionNumber": "1964.511",
+      "expectedTitle": "Knife Handle (manche de couteau)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, early 18th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 121291,
+      "accessionNumber": "1942.1162",
+      "expectedTitle": "Madonna and Child with Saints Catherine and John the Baptist",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Italy, Siena. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 168322,
+      "accessionNumber": "2010.154",
+      "expectedTitle": "Icon of the Mother of God and Infant Christ (Virgin Eleousa)",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Republic of Venice, Kingdom of Candia, Candia (Heraklion, Crete, Greece) or Byzantine Empire, Constantinople (Istanbul, Turkey). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135140,
+      "accessionNumber": "1958.173",
+      "expectedTitle": "The Angel of the Annunciation\r\n",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 156284,
+      "accessionNumber": "1992.120",
+      "expectedTitle": "Church at Auvers",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 455573,
+      "accessionNumber": "2022.58.16",
+      "expectedTitle": "Mosque of Kootub, Delhi",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157140,
+      "accessionNumber": "1993.39",
+      "expectedTitle": "Qur'an Manuscript Folio",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; North Africa, Aghlabid or Abbasid, 9th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147014,
+      "accessionNumber": "1972.45",
+      "expectedTitle": "Temple Relief of a Deity",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Egyptian and Ancient Near Eastern Art; Sculpture; Egypt, Late period (715–332 BCE), Dynasty 30–Greco-Roman period (332 BCE–395 CE), Ptolemaic dynasty (305–30 BCE). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157147,
+      "accessionNumber": "1993.4",
+      "expectedTitle": "Twenty-three Deity Nairatma Mandala",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Central Tibet. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170221,
+      "accessionNumber": "2012.4",
+      "expectedTitle": "The Seed Received among the Thorns, from the Parable of the Sower",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Belgium, Flanders, Antwerp, 16th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163657,
+      "accessionNumber": "2005.145.77.a",
+      "expectedTitle": "Jesus being awakened during a tempest on the Sea of Galilee (folio 77 recto), from a Mirror of Holiness (Mir’at al-quds) of Father Jerome Xavier",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Manuscript; Mughal India, Allahabad, made for Prince Salim (1569–1627). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 159737,
+      "accessionNumber": "1997.11",
+      "expectedTitle": "Standing Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Korean Art; Sculpture; Korea, Joseon dynasty (1392–1910). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111809,
+      "accessionNumber": "1930.328.3",
+      "expectedTitle": "Procession of Non-Buddhists",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Pakistan, Gandhara, Buner area, early Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 82501,
+      "accessionNumber": "2016.307",
+      "expectedTitle": "Ebisu",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144058,
+      "accessionNumber": "1968.40",
+      "expectedTitle": "Standing Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, Uttar Pradesh. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 153386,
+      "accessionNumber": "1986.71",
+      "expectedTitle": "Male Fertility Divinity, Possibly Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, possibly Mathura, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 314460,
+      "accessionNumber": "2018.155",
+      "expectedTitle": "Vishnu on Ananta, the Endless Serpent",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northern India, Himachal Pradesh, Pahari Region, Rajput Kingdom of Chamba. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135920,
+      "accessionNumber": "1959.42",
+      "expectedTitle": "Saint Lawrence",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Germany, Würzburg, 16th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 110119,
+      "accessionNumber": "1928.747",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy, Rome. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 129386,
+      "accessionNumber": "1952.222",
+      "expectedTitle": "Christ on the Cross",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142635,
+      "accessionNumber": "1966.360",
+      "expectedTitle": "Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; France, vicinity of Reims, 13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137331,
+      "accessionNumber": "1962.256",
+      "expectedTitle": "Landscape with a Church by a Torrent\r\n",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Netherlands. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 455579,
+      "accessionNumber": "2022.58.22",
+      "expectedTitle": "Mosque of Altamsh, Delhi",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; France, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 106704,
+      "accessionNumber": "1924.746",
+      "expectedTitle": "Qur'an Manuscript Folio",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Afghanistan, Herat, Safavid period (1501–1722). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 139532,
+      "accessionNumber": "1963.326",
+      "expectedTitle": "Study for \"The Presentation of Christ in the Temple\" (for Saint Ulrich, Vienna)",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Austria. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 662488,
+      "accessionNumber": "2025.10",
+      "expectedTitle": "Gozu Tennō (Ox-Headed Plague Deity)",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 112626,
+      "accessionNumber": "1931.245",
+      "expectedTitle": "The Supper at Emmaus",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 105410,
+      "accessionNumber": "1923.54",
+      "expectedTitle": "Head of a Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, reportedly from Henan province, Northern Song (960-1127) to Jin dynasty (1115-1234). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145814,
+      "accessionNumber": "1971.125",
+      "expectedTitle": "Folio 2 from a Parshvanatha Charitra (Life and Stories of Lord Parshva) of Bhavadeva-suri: Monk preaching to a disciple with a lay audience (recto); Text (verso)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151342,
+      "accessionNumber": "1983.19",
+      "expectedTitle": "Famous Views of Ōmi",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145408,
+      "accessionNumber": "1970.63",
+      "expectedTitle": "Seated Shakyamuni Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, Uttar Pradesh, Mathura, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 154793,
+      "accessionNumber": "1989.369",
+      "expectedTitle": "Standing Shiva Mahadeva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, Kashmir, 8th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 94782,
+      "accessionNumber": "1915.346.2",
+      "expectedTitle": "Earring with Four-Armed Vishnu Riding Garuda with Nagas (serpent divinities)",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Jewelry; Nepal, Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 375071,
+      "accessionNumber": "2020.80",
+      "expectedTitle": "Devi Shrine",
+      "decision": "approved",
+      "queryContext": "ganesha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northern India, Himachal Pradesh, Pahari Kingdom of Mandi. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 122519,
+      "accessionNumber": "1942.781",
+      "expectedTitle": "Saint John the Baptist",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135826,
+      "accessionNumber": "1959.339",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Bohemia, vicinity of Freistadt, 15th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 95721,
+      "accessionNumber": "1916.1423",
+      "expectedTitle": "Lampas with roundels of the image of Christ in benedictory pose",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Textiles; Textile; Turkey, Bursa, Ottoman period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141642,
+      "accessionNumber": "1965.236",
+      "expectedTitle": "Virgin and Child",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Austria, Lungau, Church of Mariapfarr, late 14th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137796,
+      "accessionNumber": "1962.279.306.a",
+      "expectedTitle": "The bag of gold which he received for the slave girl being stolen in a mosque, the young man of Baghdad tears his cloths and is about to fling himself into the Tigris, from a Tuti-nama (Tales of a Parrot): Forty-eighth Night",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Mughal India, court of Akbar (reigned 1556–1605). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157145,
+      "accessionNumber": "1993.39.2.a",
+      "expectedTitle": "Qur'an Manuscript Folio (recto); left side of bifolio",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; North Africa, Aghlabid or Abbasid Period, 9th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 107806,
+      "accessionNumber": "1925.443",
+      "expectedTitle": "Hercules Driving Envy from the Temple of the Muses",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 131797,
+      "accessionNumber": "1954.373",
+      "expectedTitle": "Deity",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Heian period (794–1185). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 153389,
+      "accessionNumber": "1986.74",
+      "expectedTitle": "David:  \"Oh, that I had wings like a Dove!  For then would I fly away, and be at rest.\" Psalm 55:6",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Modern European Painting and Sculpture; Painting; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149401,
+      "accessionNumber": "1978.56",
+      "expectedTitle": "Head of an Apostle from the South Portal of the Cathedral of Thérouanne",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Northern France (Pas-de-Calais), Thérouanne, 13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 137281,
+      "accessionNumber": "1962.217",
+      "expectedTitle": "Bodhisattva Guanyin",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Sui dynasty (581-618). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145829,
+      "accessionNumber": "1971.126",
+      "expectedTitle": "Folio 167, from a Kalpa-sutra and Story of Kalakacharya: two nuns teaching lay women (recto); genealogical text (verso)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat, Palanpur (Prahladanapura). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151344,
+      "accessionNumber": "1983.19.2",
+      "expectedTitle": "Famous Views of Ōmi",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 128067,
+      "accessionNumber": "1950.86",
+      "expectedTitle": "Buddha of the Future (Miroku Bosatsu)",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Asuka period (538–710). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 170887,
+      "accessionNumber": "2013.350",
+      "expectedTitle": "A night scene of Shiva puja (recto); Calligraphy (verso)",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Mughal India, Lucknow. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147577,
+      "accessionNumber": "1973.75",
+      "expectedTitle": "Plaque with Vishnu",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Metalwork; Thailand, Sri Deb Style, Mon-Dvaravati period, c. 7th-8th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 146749,
+      "accessionNumber": "1972.189",
+      "expectedTitle": "Cup and Saucer (tasse et soucoupe)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 125935,
+      "accessionNumber": "1948.170",
+      "expectedTitle": "Madonna Enthroned with Eight Angels",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 104610,
+      "accessionNumber": "1922.89",
+      "expectedTitle": "Christ Crowned with Thorns",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151965,
+      "accessionNumber": "1984.38",
+      "expectedTitle": "Model for an Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Sculpture; Italy, Milan. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 125103,
+      "accessionNumber": "1946.82",
+      "expectedTitle": "Saint Jerome and the Lion (From the former Church of St. Peter in Erfurt)",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Sculpture; Germany, Würzburg, late 15th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 668290,
+      "accessionNumber": "2024.5.42",
+      "expectedTitle": "Agra. The Motee Hasjid in Pearl Mosque. View of the Entire Aisle",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118472,
+      "accessionNumber": "1939.507.a",
+      "expectedTitle": "Page from a Qur'an, Sura al-Nisa 4, Verses 157–58",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Seljuk Iran. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163663,
+      "accessionNumber": "2005.145.9.a",
+      "expectedTitle": "Mary ascends the stairs to the temple, from a Mirror of Holiness (Mir’at al-quds) of Father Jerome Xavier",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Manuscript; Mughal India, Allahabad, made for Prince Salim (1569–1627). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143264,
+      "accessionNumber": "1967.202",
+      "expectedTitle": "Female Tree Deity with Attendant",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northwestern India, Rajasthan, Sikar, Harshagiri, 10th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163661,
+      "accessionNumber": "2005.145.156.a",
+      "expectedTitle": "The Entry into Jerusalem (folio 156 recto), from a Mirror of Holiness (Mir’at al-quds) of Father Jerome Xavier",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Manuscript; Mughal India, Allahabad, made for Prince Salim (1569–1627). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147544,
+      "accessionNumber": "1973.4",
+      "expectedTitle": "The \"Apostles\" Pyx (Box)",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Ivory; Byzantium, Constantinople, middle Byzantine period, 10th-11th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151938,
+      "accessionNumber": "1984.220",
+      "expectedTitle": "Head of a Bodhisattva",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; India, Mathura, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145831,
+      "accessionNumber": "1971.126.b",
+      "expectedTitle": "Genealogical text, folio 167 (verso) from a Kalpa-sutra and Story of Kalakacharya",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat, Palanpur (Prahladanapura). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 395238,
+      "accessionNumber": "2020.215.2",
+      "expectedTitle": "One of a Pair of Guardian Figures (Zuishin)",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Muromachi period (1392–1573) to Edo period (1615–1858). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 105881,
+      "accessionNumber": "1923.97",
+      "expectedTitle": "Head of Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, Hebei province, northern Xiangtangshan caves, South cave, Northern Qi dynasty (550-577). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143169,
+      "accessionNumber": "1967.148",
+      "expectedTitle": "Shiva Saint: Manikkavachakar",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; South India, Tamil Nadu, 12th-13th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 94776,
+      "accessionNumber": "1915.342.1",
+      "expectedTitle": "Earring with Vishnu Riding Garuda",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Jewelry; Nepal, Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135407,
+      "accessionNumber": "1958.411",
+      "expectedTitle": "Saint Sebastian",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Italy. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118664,
+      "accessionNumber": "1939.670.a",
+      "expectedTitle": "Various Sketches of the Madonna and Child (recto)",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Italy, Venice. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 127561,
+      "accessionNumber": "1950.239",
+      "expectedTitle": "The Holy Family (Christ in the Lap of Truth)",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; England, London. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 121697,
+      "accessionNumber": "1942.1511",
+      "expectedTitle": "Leaf from a Lectionary with St. Luke",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Manuscript; Byzantium, Constantinople. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 169939,
+      "accessionNumber": "2012.178",
+      "expectedTitle": "Egypt and Nubia, Volume III: Mosque of Sultan Hassan, from the Great Square of the Rameyleh",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114192,
+      "accessionNumber": "1933.440.b",
+      "expectedTitle": "Qur'an Manuscript Folio (verso)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Manuscript; Southern Spain. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136667,
+      "accessionNumber": "1961.205",
+      "expectedTitle": "Nome Gods Bearing Offerings",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Egyptian and Ancient Near Eastern Art; Sculpture; Egypt, New Kingdom (1540–1069 BCE), Dynasty 18, reign of Amenhotep III (1390–1352 BCE). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 145922,
+      "accessionNumber": "1971.134",
+      "expectedTitle": "Standing Female Deity",
+      "decision": "approved",
+      "queryContext": "deity",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia, Angkor, Bakheng, 10th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148301,
+      "accessionNumber": "1975.3",
+      "expectedTitle": "The Birth and Naming of John the Baptist",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Flanders, early 16th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 368711,
+      "accessionNumber": "2019.180",
+      "expectedTitle": "Christ, St. Paul, and the Twelve Apostles",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Netherlands, 16th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136420,
+      "accessionNumber": "1960.285",
+      "expectedTitle": "Bodhisattva  Manjushri: Lord of Wisdom",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; East India, Bengal. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 107362,
+      "accessionNumber": "1925.1340",
+      "expectedTitle": "Painting from a Kalpa-sutra: Queen Trishala Reclining",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 172573,
+      "accessionNumber": "2015.63",
+      "expectedTitle": "Descent of the Nine Luminaries and the Seven Stars at Kasuga",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Nanbokuchō period (1336–92). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147403,
+      "accessionNumber": "1973.15",
+      "expectedTitle": "Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Thailand, probably Shri Thep, Mon-Dvaravati style. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 94781,
+      "accessionNumber": "1915.346.1",
+      "expectedTitle": "Earring with Four-Armed Vishnu Riding Garuda with Nagas (serpent divinities)",
+      "decision": "approved",
+      "queryContext": "vishnu",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Jewelry; Nepal, Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 138448,
+      "accessionNumber": "1962.360.1.b",
+      "expectedTitle": "Cover for a Potpourri Vase",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, 18th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 97149,
+      "accessionNumber": "1916.788",
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Italy, Florence. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 131791,
+      "accessionNumber": "1954.367",
+      "expectedTitle": "The Conversion of Saul with Christ and the Cross",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Drawings; Drawing; Flanders. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136186,
+      "accessionNumber": "1959.99.3",
+      "expectedTitle": "Joachim and the Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany, early 16th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 118982,
+      "accessionNumber": "1940.1173",
+      "expectedTitle": "Gothic Church among Oaks",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 130828,
+      "accessionNumber": "1953.532",
+      "expectedTitle": "Egypt & Nubia, Volume III, No. 8: Mosque of Sultan Hassan, Cairo",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114266,
+      "accessionNumber": "1933.493.b",
+      "expectedTitle": "Folio from a Qur'an (verso)",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Probably Egypt, Abbasid period (750–1258). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 384222,
+      "accessionNumber": "2020.211",
+      "expectedTitle": "Pudhu Mandapa of Tirumal Nayak (r. 1623–59), Minakshi Sundareshvara Temple, Madurai",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 131820,
+      "accessionNumber": "1954.393",
+      "expectedTitle": "The Annunciation",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Painting; Netherlands, or possibly France, 14th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 104148,
+      "accessionNumber": "1922.307",
+      "expectedTitle": "Plaque from a Portable Altar: Christ and the Apostles",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Medieval Art; Ivory; Germany, Lower Rhine Valley, Romanesque period, 11th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 159744,
+      "accessionNumber": "1997.116",
+      "expectedTitle": "Fragment of Bodhisattva Head",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Sculpture; China, possibly Yungang ?. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141661,
+      "accessionNumber": "1965.250",
+      "expectedTitle": "Railing Pillar with a Yakshi (Female Nature Divinity)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Northern India, Mathura, Kushan period. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 395237,
+      "accessionNumber": "2020.215.1",
+      "expectedTitle": "One of a Pair of Guardian Figures (Zuishin)",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Sculpture; Japan, Muromachi period (1392–1573) to Edo period (1615–1858). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 139455,
+      "accessionNumber": "1963.263",
+      "expectedTitle": "Naga-Enthroned Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Sculpture; Cambodia, Angkor, Angkor Wat Period, 12th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 143306,
+      "accessionNumber": "1967.240",
+      "expectedTitle": "Worship of Shiva and Devi",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Northwestern India, Rajasthan, Rajput Kingdom of Bikaner. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 141286,
+      "accessionNumber": "1964.510",
+      "expectedTitle": "Cane Handle (Poignée de canne)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Decorative Art and Design; Ceramic; France, Saint Cloud, early 18th Century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 109245,
+      "accessionNumber": "1927.393",
+      "expectedTitle": "Elizabeth Shewell West and Her Son, Raphael",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: American Painting and Sculpture; Painting; United States. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 135404,
+      "accessionNumber": "1958.409",
+      "expectedTitle": "The Passion:  Christ Before Pilate",
+      "decision": "approved",
+      "queryContext": "christ",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Prints; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 668058,
+      "accessionNumber": "2024.5.11",
+      "expectedTitle": "Shimla. The Church Through the Trees, from Jakko",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 668294,
+      "accessionNumber": "2024.5.46",
+      "expectedTitle": "The City of Benares, on the Ganges, View of the Great Mosque of A (?) and Adjoining Landing Places",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 114264,
+      "accessionNumber": "1933.493",
+      "expectedTitle": "Folio from a Qur'an",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Islamic Art; Drawing; Probably Egypt, Abbasid period (750–1258). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 452652,
+      "accessionNumber": "2022.17",
+      "expectedTitle": "Temple of Athene Nike. Venus Victrix—Wingless Victory",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Photography; Photograph; Greece, 19th century. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 147020,
+      "accessionNumber": "1972.50",
+      "expectedTitle": "Samson",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: European Painting and Sculpture; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 163650,
+      "accessionNumber": "2005.145.87.b",
+      "expectedTitle": "Jesus on Mount Tabor, near Nazareth where he Chooses Twelve of his Followers and Calls them Apostles (folio 87 verso), from a Mirror of Holiness (Mir’at al-quds) of Father Jerome Xavier",
+      "decision": "approved",
+      "queryContext": "apostle",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Manuscript; Mughal India, Allahabad, made for Prince Salim (1569–1627). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 127950,
+      "accessionNumber": "1950.579",
+      "expectedTitle": "Bodhisattva Guanyin of the South Sea",
+      "decision": "approved",
+      "queryContext": "bodhisattva",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Chinese Art; Ceramic; China, Fujian Province, Ming dynasty (1368-1644) - Qing dynasty (1644-1911). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 539855,
+      "accessionNumber": "1932.119.60.b",
+      "expectedTitle": "The Lion's Cave with Sthulabhadra and His Sisters, Folio 60 (verso), from a Kalpa-sutra",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Indian and Southeast Asian Art; Painting; Western India, Gujarat. No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 150855,
+      "accessionNumber": "1982.26",
+      "expectedTitle": "Demon Intoning the Name of the Buddha",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after CMA metadata review: Japanese Art; Painting; Japan, Edo period (1615–1868). No restricted, funerary, human-remains, Indigenous Americas, African ceremonial, or Oceanic ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    }
+  ]
+}

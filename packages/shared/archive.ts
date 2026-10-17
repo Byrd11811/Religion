@@ -5,7 +5,10 @@ import chinaArchive from "@/data/seed/china-archive.json";
 import hornArchive from "@/data/seed/horn-archive.json";
 import manuscriptExpansion from "@/data/seed/manuscript-expansion.json";
 import esotericArchive from "@/data/seed/esoteric-archive.json";
+import institutionalImages from "@/data/seed/institutional-images.json";
+import clevelandImages from "@/data/seed/cleveland-images.json";
 import { protocolDecision, protocolForWork } from "./protocols";
+import { institutionalImageAllowed } from "./image-pipeline";
 
 export const coverageStatuses = [
   "Complete named work",
@@ -129,6 +132,8 @@ export interface MuseumArtifact {
   verifiedAt?: string;
   sensitivity?: string;
   protocolReview?: string;
+  objectType?: string;
+  institutionalManifest?: string;
   id: string;
   title: string;
   witnessId: string | null;
@@ -139,6 +144,8 @@ export interface MuseumArtifact {
 }
 export interface ArchiveImage {
   verifiedAt?: string;
+  sourceHash?: string;
+  institutionalManifest?: string | null;
   id: string;
   artifactId: string;
   witnessId: string | null;
@@ -320,6 +327,8 @@ export const museumArtifacts: MuseumArtifact[] = artifacts
     mesopotamiaArchive.artifacts as MuseumArtifact[],
     chinaArchive.artifacts as MuseumArtifact[],
     hornArchive.artifacts as MuseumArtifact[],
+    institutionalImages.artifacts as MuseumArtifact[],
+    clevelandImages.artifacts as MuseumArtifact[],
   );
 export const archiveImages: ArchiveImage[] = artifacts
   .map<ArchiveImage>((a) => ({
@@ -343,12 +352,12 @@ export const archiveImages: ArchiveImage[] = artifacts
     mesopotamiaArchive.images as ArchiveImage[],
     chinaArchive.images as ArchiveImage[],
     hornArchive.images as ArchiveImage[],
+    institutionalImages.images as ArchiveImage[],
+    clevelandImages.images as ArchiveImage[],
   );
 export function archiveImageDisplayAllowed(image: ArchiveImage) {
   return (
-    image.publicDomain &&
-    image.rights.normalize("NFKC").trim().replace(/\s+/gu, " ") ===
-      "CC0 1.0 Universal · Met Open Access" &&
+    institutionalImageAllowed(image) &&
     image.workIds.every(
       (workId) => protocolDecision(workId, "display").allowed,
     )

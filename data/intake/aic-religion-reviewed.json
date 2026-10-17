@@ -1,0 +1,883 @@
+{
+  "formatVersion": 1,
+  "institution": "Art Institute of Chicago",
+  "reviewedAt": "2026-10-16",
+  "reviewScope": "Institutional public-domain flag, image presence, title, department, object type, place and a conservative cultural-sensitivity keyword screen. This is display intake review, not community authorization or complete iconographic scholarship.",
+  "objects": [
+    {
+      "id": 24548,
+      "expectedTitle": "Shiva as Lord of the Dance (Nataraja)",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Tamil Nadu. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 21023,
+      "expectedTitle": "Buddha Shakyamuni Seated in Meditation (Dhyanamudra)",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Nagapattinam. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 96046,
+      "expectedTitle": "Denarius (Coin) Portraying Marcus Claudius Marcellus",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Coin; Rome. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 105691,
+      "expectedTitle": "Egypt",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 66046,
+      "expectedTitle": "The Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 193243,
+      "expectedTitle": "Female Shinto Deity",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Japan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 16963,
+      "expectedTitle": "Eve after the Fall",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 100726,
+      "expectedTitle": "Tea and Coffee Service",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Applied Arts of Europe; Metalwork; London. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111372,
+      "expectedTitle": "Madonna",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Norway. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 367,
+      "expectedTitle": "Pendant Depicting Apollo",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Sculpture; Greece. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 101031,
+      "expectedTitle": "Crowned and Bejewelled Buddha Seated on an Elephant Throne",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Myanmar. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 25740,
+      "expectedTitle": "Scenes from the Life of Saint John the Baptist",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 57048,
+      "expectedTitle": "The Old Temple",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157973,
+      "expectedTitle": "The Mosque of Omar, Jerusalem",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 13103,
+      "expectedTitle": "Jews in the Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Holland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111,
+      "expectedTitle": "Martin Vanden Bogaert Desjardins",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148357,
+      "expectedTitle": "Boar Incarnation of God Vishnu (Varaha) Lifting the Earth Goddess Bhudevi",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Rajasthan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142507,
+      "expectedTitle": "Altarpiece with the First Jaina Tirthankara Rishabhanatha Surrounded by Twenty-Three Other Tirthankaras",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; India. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 159534,
+      "expectedTitle": "Shinto Deity in the Guise of the Monk Hyeja",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Japan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 102227,
+      "expectedTitle": "The Expulsion of Adam and Eve from Paradise",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 873,
+      "expectedTitle": "Tobias and the Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 14768,
+      "expectedTitle": "Madonna",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Venice. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 61600,
+      "expectedTitle": "Statue of the Aphrodite of Knidos",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Sculpture; Roman Empire. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 109469,
+      "expectedTitle": "Buddha Calling the Earth to Witness (Bhumisparshamudra)",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Eastern India. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 27310,
+      "expectedTitle": "The Holy Family with Saints Elizabeth and John the Baptist",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Flanders. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157960,
+      "expectedTitle": "City Wall and Mosque of Omar, Jerusalem",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 29146,
+      "expectedTitle": "Jews in the Synagogue",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Holland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 27,
+      "expectedTitle": "Remembrance of Italy",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148354,
+      "expectedTitle": "God Vishnu's Mount, Garuda, Kneeling with Hands in Gesture of Adoration (Anjalimudra)",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 132110,
+      "expectedTitle": "Jaina Tirthankara Chandraprabha Standing in Meditation (Kayotsarga)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Karnataka. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 36447,
+      "expectedTitle": "Shinto priest performing the seaweed-gathering ritual",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Print; Japan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 101077,
+      "expectedTitle": "Adam and Eve in Paradise",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 80530,
+      "expectedTitle": "Virgin and Child with an Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 50276,
+      "expectedTitle": "Statue of the Madonna in the Mountains",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 146556,
+      "expectedTitle": "God Ganesha, Remover of Obstacles",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Central Java. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 36812,
+      "expectedTitle": "Standing Buddha with Left Hand in Gift Giving Gesture (varadamudra)",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Nagapattinam. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 6981,
+      "expectedTitle": "Temple of Minerva Medica",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 43211,
+      "expectedTitle": "Interior of the Oude Kerk, Delft",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Holland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157956,
+      "expectedTitle": "Ruined Mosque Near Philæ",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 134562,
+      "expectedTitle": "Schlomé Fuss in the Synagogue, from Au Pied du Sinaï",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 130706,
+      "expectedTitle": "Four-Armed Dancing God Ganesha with His Rat Mount",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Nepal. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 52665,
+      "expectedTitle": "Jaina Tirthankara Parshvanatha with Serpent Hood Seated in Meditation (Dhyanamudra)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Karnataka. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 32159,
+      "expectedTitle": "True Drawing of a Newly Arrived Camel (Shinto rakuda shashin)",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Print; Japan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 27150,
+      "expectedTitle": "Upper Part of a Tabernacle for the Holy Sacrament",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 21937,
+      "expectedTitle": "Adoration of the Magi",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Netherlands. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 9978,
+      "expectedTitle": "Denarius (Coin) Depicting the God Apollo",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Coin; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 142512,
+      "expectedTitle": "Buddha Worshipped by Indra and Brahma",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Gandhara. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 100342,
+      "expectedTitle": "Saint Francis",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Flanders. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111630,
+      "expectedTitle": "The Church of Overschie",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Holland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 157996,
+      "expectedTitle": "Doum Palm and Ruined Mosque, Philæ",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 67162,
+      "expectedTitle": "Schlomé Fuss in the Synagogue, from Au Pied du Sinaï",
+      "decision": "approved",
+      "queryContext": "synagogue",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 27992,
+      "expectedTitle": "A Sunday on La Grande Jatte — 1884",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 13853,
+      "expectedTitle": "Karttikeya, Commander of the Divine Army, Seated on a Peacock",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Andhra Pradesh. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 103400,
+      "expectedTitle": "Jaina Tirthankara Seated in Meditation (Dhyanamudra)",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Gujarat. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 9,
+      "expectedTitle": "Interior of St. Mark's, Venice",
+      "decision": "approved",
+      "queryContext": "shinto replacement: sacred architecture",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of the Americas; Painting; Venice. The work documents the interior of a public religious building. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 21668,
+      "expectedTitle": "Eve",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 87272,
+      "expectedTitle": "Angel Holding Scroll",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Tuscany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 80526,
+      "expectedTitle": "Virgin and Child with Two Angels",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 15741,
+      "expectedTitle": "Buddha Triumphing over Mara",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Southeast Asia. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 43784,
+      "expectedTitle": "E29: English Roman Catholic Church in the Gothic Style, 1275–1300",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Applied Arts of Europe; Miniature room; United States. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 28618,
+      "expectedTitle": "The Mosque, Delphi",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; England. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 65,
+      "expectedTitle": "Fishing Craft near the Cliffs at Collioure",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 131742,
+      "expectedTitle": "Eight-Armed Dancing God Ganesha",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Architectural fragment; Kathmandu Valley. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 148362,
+      "expectedTitle": "Jaina Tirthankara Parshvanatha Seated in Meditation (Dhyanamudra) under a Snake Hood",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Uttar Pradesh. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 31439,
+      "expectedTitle": "The Actor Bando Mitsugoro I as the Shinto Priest Goinosuke Disguised as the Spirit of a White Heron, in the Play Sakikaese Yuki no Miyoshino, Performed at the Morita Theater in the Eleventh Month, 1781",
+      "decision": "approved",
+      "queryContext": "shinto",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Print; Japan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 105073,
+      "expectedTitle": "The Creation of Adam",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 16257,
+      "expectedTitle": "Virgin and Child Crowned by Angels",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Belgium. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 8295,
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 729,
+      "expectedTitle": "Anacreon with the Infants Bacchus and Cupid",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 86380,
+      "expectedTitle": "Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; China. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 36,
+      "expectedTitle": "Saint Jerome",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 14634,
+      "expectedTitle": "Vétheuil",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 3196,
+      "expectedTitle": "Man Kneeling Before Veiled Woman with Mosque in Background",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 120665,
+      "expectedTitle": "Queen Trishala Gives Birth to Mahavira, from a copy of the Kalpasutra",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Painting; India. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111718,
+      "expectedTitle": "Adam",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 88793,
+      "expectedTitle": "Retable and Frontal of the Life of Christ and the Virgin",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Spain. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 59847,
+      "expectedTitle": "Cupid Chastised",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 101454,
+      "expectedTitle": "Buddha Standing with Hand in the Gesture of Reassurance (Abhayamudra) with Radiating Nimbus",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Sri Lanka. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 73413,
+      "expectedTitle": "Bust of a Youth (Saint John the Baptist)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 9911,
+      "expectedTitle": "Denarius (Coin) Portraying Mark Antony",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Coin; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 12891,
+      "expectedTitle": "Theodosius Repulsed from the Church by Saint Ambrose",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 198742,
+      "expectedTitle": "Egypt - Cairo, Mosque of Mahommed Ali, No. 109 from \"Good's Eastern Series\"",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; Cairo. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 16,
+      "expectedTitle": "The Fall of the Giants",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 104995,
+      "expectedTitle": "Karttikeya, God of War, Holding a Spear",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Mathura. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 99357,
+      "expectedTitle": "Mahavira Gives Away his Possessions, from a copy of the Kalpasutra",
+      "decision": "approved",
+      "queryContext": "jain",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Painting; India. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 8313,
+      "expectedTitle": "Biblical Scenes",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 19336,
+      "expectedTitle": "The Resurrection",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 50874,
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 52255,
+      "expectedTitle": "Plaque with Buddha Triumphing over Mara",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Religious/Ritual Object; Thailand. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 117554,
+      "expectedTitle": "Bodhisattva",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Architectural fragment; China. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 4181,
+      "expectedTitle": "The Church Enthroned",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 28922,
+      "expectedTitle": "The Garden of the Mosque",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; United States. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 20,
+      "expectedTitle": "It Rocks but is Not Sunk",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 65865,
+      "expectedTitle": "Dancing God Shiva (Natesha)",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Rajasthan. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 4575,
+      "expectedTitle": "Judith",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Netherlands. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 111649,
+      "expectedTitle": "Abraham's Sacrifice of Isaac",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 11347,
+      "expectedTitle": "A Madonna of the Tenements",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Photography and Media; Photograph; United States. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 9790,
+      "expectedTitle": "Coin Depicting the God Zeus",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Greece, Rome, and Byzantium; Coin; Egypt. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 3297,
+      "expectedTitle": "Going to Cover",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; United Kingdom. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 12895,
+      "expectedTitle": "View of Pirna with the Fortress of Sonnenstein",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 47780,
+      "expectedTitle": "Ancient, Mediaeval and Modern Athens, the Mosque",
+      "decision": "approved",
+      "queryContext": "mosque",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; United States. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 28,
+      "expectedTitle": "Souvenir of Tuscany",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 35184,
+      "expectedTitle": "The Fall of Man with Scenes of the Creation",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 109426,
+      "expectedTitle": "Tobias and the Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Holland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 59843,
+      "expectedTitle": "Madonna of Humility",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Bologna. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 27943,
+      "expectedTitle": "Mahana no atua (Day of the God)",
+      "decision": "approved",
+      "queryContext": "god",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 151097,
+      "expectedTitle": "Head of Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Central Java. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 109926,
+      "expectedTitle": "Landscape: Window Overlooking the Woods",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 24,
+      "expectedTitle": "Portrait of Edouard Molé",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 144900,
+      "expectedTitle": "Boar Incarnation the of God Vishnu Lifting the Earth Goddess (Bhuvaraha)",
+      "decision": "approved",
+      "queryContext": "hindu",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Himachal Pradesh. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 160030,
+      "expectedTitle": "The Ecstasy of Saint Francis",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 28341,
+      "expectedTitle": "Madonna with the Monkey",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Germany. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 149852,
+      "expectedTitle": "Standing Buddha",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Myanmar. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 198027,
+      "expectedTitle": "Stonyhurst Hours (Use of Sarum)",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; Flanders. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 23126,
+      "expectedTitle": "Temple of Vespasian",
+      "decision": "approved",
+      "queryContext": "temple",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 16579,
+      "expectedTitle": "Vétheuil",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; France. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 19,
+      "expectedTitle": "View of Ponte Lugano on the Anio, from Views of Rome",
+      "decision": "approved",
+      "queryContext": "quran",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 146875,
+      "expectedTitle": "Samson and the Lion",
+      "decision": "approved",
+      "queryContext": "biblical",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 136050,
+      "expectedTitle": "Angel",
+      "decision": "approved",
+      "queryContext": "angel",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Drawing and Watercolor; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 14675,
+      "expectedTitle": "Madonna and Child",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Sculpture; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 15596,
+      "expectedTitle": "Buddha Seated in Meditation",
+      "decision": "approved",
+      "queryContext": "buddha",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Southeast Asia. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 16156,
+      "expectedTitle": "Saint John the Baptist Entering the Wilderness",
+      "decision": "approved",
+      "queryContext": "saint",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 55621,
+      "expectedTitle": "The Church of Santa Maria della Salute, Venice",
+      "decision": "approved",
+      "queryContext": "church",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Painting and Sculpture of Europe; Painting; Italy. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 86964,
+      "expectedTitle": "Goddess Uma, Consort of Shiva",
+      "decision": "approved",
+      "queryContext": "shiva",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Arts of Asia; Sculpture; Cambodia. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    },
+    {
+      "id": 38098,
+      "expectedTitle": "The Large Einsiedeln Madonna",
+      "decision": "approved",
+      "queryContext": "madonna",
+      "reviewNote": "Approved for contextual catalog display after institutional metadata review: Prints and Drawings; Print; Switzerland. No restricted, funerary, human-remains, Indigenous Americas, or African ceremonial indicator was identified in the reviewed fields; future contrary evidence blocks display."
+    }
+  ]
+}

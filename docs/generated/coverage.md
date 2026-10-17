@@ -19,9 +19,14 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | editorialPassages | Explicitly classified editorial segments | 281 | Unknown | Unknown | Unknown | Unknown | No |
 | unclassifiedPassages | Unclassified/unknown segments | 13192 | Unknown | Unknown | Unknown | Unknown | No |
 | witnesses | Physical witnesses | 61 | Unknown | Unknown | Unknown | Unknown | No |
-| artifacts | Museum artifacts | 33 | Unknown | Unknown | Unknown | Unknown | No |
-| images | Archive image references | 105 | Unknown | Unknown | Unknown | Unknown | No |
-| rightsAttributedImages | Images with source/rights/attribution | 105 | Unknown | Unknown | Unknown | Unknown | No |
+| artifacts | Museum artifacts | 428 | Unknown | Unknown | Unknown | Unknown | No |
+| images | Archive image references | 500 | Unknown | Unknown | Unknown | Unknown | No |
+| rightsAttributedImages | Images with source/rights/attribution | 500 | Unknown | Unknown | Unknown | Unknown | No |
+| imageInstitutions | Institutions represented by image records | 3 | Unknown | Unknown | Unknown | Unknown | No |
+| imageObjectTypes | Institutional image object types | 23 | Unknown | Unknown | Unknown | Unknown | No |
+| imageSourceHashes | Images with retained source hashes | 395 | Unknown | Unknown | Unknown | Unknown | No |
+| iiifServiceImages | Images with institutional IIIF Image services | 125 | Unknown | Unknown | Unknown | Unknown | No |
+| institutionalManifestImages | Images retaining institutional IIIF manifests | 125 | Unknown | Unknown | Unknown | Unknown | No |
 | relationships | Curated relationship records | 22 | Unknown | Unknown | Unknown | Unknown | No |
 | datedWorks | Works with start dates | 111 | Unknown | Unknown | Unknown | Unknown | No |
 | undatedWorks | Works without start dates | 489 | Unknown | Unknown | Unknown | Unknown | No |
@@ -120,6 +125,11 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **artifacts:** Distinct physical object IDs; not additional works or first-class artwork catalog coverage. Source: `packages/shared/archive.ts + data/seed/archive-additions.json`.
 - **images:** Distinct image IDs; externally hosted references, not downloaded binaries or current URL health certification. Source: `packages/shared/archive.ts + data/seed/archive-additions.json`.
 - **rightsAttributedImages:** Recorded public-domain assertion and attribution; not fresh legal review. Source: `packages/shared/archive.ts + data/seed/archive-additions.json`.
+- **imageInstitutions:** Distinct named holding institutions after removing legacy accession suffixes; aggregators and image variants do not count as institutions. Source: `data/seed/images.json + institutional image seeds`.
+- **imageObjectTypes:** Distinct institution-supplied object-type labels; missing types remain missing. Source: `data/seed/institutional-images.json + data/seed/cleveland-images.json`.
+- **imageSourceHashes:** Records with a SHA-256 hash of the retained institutional API response; legacy records are not backfilled with invented hashes. Source: `data/seed/institutional-images.json + data/seed/cleveland-images.json`.
+- **iiifServiceImages:** Image records carrying the institution's IIIF Image service; an Atlas-generated presentation manifest does not count. Source: `data/seed/institutional-images.json`.
+- **institutionalManifestImages:** Image records retaining an institution-maintained Presentation manifest independently of the Atlas display manifest. Source: `data/seed/institutional-images.json`.
 - **relationships:** Distinct explicit edges; do not infer relationships from similarity. Source: `data/seed/relationships.json`.
 - **datedWorks:** Non-null start date; includes provisional dates. Source: `data/seed/texts.json`.
 - **undatedWorks:** Null start date. Source: `data/seed/texts.json`.

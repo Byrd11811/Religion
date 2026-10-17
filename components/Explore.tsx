@@ -5,8 +5,8 @@ import {
   texts,
   relationshipEdges,
   relationshipNodes,
-  artifacts,
 } from "@/packages/shared/catalog";
+import { InstitutionalImageArchive } from "./InstitutionalImages";
 import { themes } from "@/packages/ontology";
 import { Badge, Heading, TextCard } from "./common";
 import type { Actions } from "./Library";
@@ -838,44 +838,7 @@ export function People(actions: Actions) {
   );
 }
 export function Manuscripts() {
-  return (
-    <>
-      <Heading
-        eyebrow="Material witnesses"
-        title="Manuscripts & Objects"
-        description="See the material forms in which writing survives. Object dates are not composition dates."
-      />
-      <div className="two-col">
-        {artifacts.map((a) => (
-          <figure className="artifact-card" key={a.id}>
-            <div className="artifact-image">
-              <img src={a.imageUrl} alt={a.title} loading="lazy" />
-            </div>
-            <figcaption>
-              <span className="eyebrow">{a.date}</span>
-              <h2>{a.title}</h2>
-              <p>{a.caption}</p>
-              <p className="small muted">
-                {a.institution}
-                <br />
-                {a.creator}
-                <br />
-                {a.license}
-              </p>
-              <a href={a.sourceUrl} target="_blank" rel="noreferrer">
-                Museum record & image source ↗
-              </a>
-            </figcaption>
-          </figure>
-        ))}
-      </div>
-      <p className="notice">
-        These objects illustrate material traditions. They are not asserted to
-        be witnesses of a specific bundled edition. Variant readings and
-        manuscript-to-edition links have not been established.
-      </p>
-    </>
-  );
+  return <InstitutionalImageArchive />;
 }
 export function Methodology() {
   return (
