@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import {
   historicalCaseStudies,
@@ -8,6 +9,7 @@ import {
   type HistoricalFeature,
   type HistoricalState,
 } from "@/packages/shared/historical-geography";
+import { researchRecords } from "@/packages/shared/research-records";
 
 const layerColors = {
   "political-control": "#52677d",
@@ -187,6 +189,9 @@ export function HistoricalChangeExplorer() {
   const [selectedId, setSelectedId] = useState("");
   const selected =
     study.features.find((item) => item.id === selectedId) ?? null;
+  const selectedResearch = selected
+    ? (researchRecords.find((item) => item.sourceId === selected.id) ?? null)
+    : null;
   const state = study.states[stage] ?? study.states[0];
   const relevantDeltas = study.deltas.filter(
     (item) =>
@@ -429,6 +434,16 @@ export function HistoricalChangeExplorer() {
           </span>
           <h3>{selected.label}</h3>
           <p>{selected.summary}</p>
+          {selectedResearch && (
+            <p>
+              <Link
+                className="button secondary"
+                href={`/research/${selectedResearch.id}`}
+              >
+                Open linked {selectedResearch.kind} record
+              </Link>
+            </p>
+          )}
           {selected.sourceIds.map((id) => {
             const source = study.sources.find((item) => item.id === id)!;
             return (

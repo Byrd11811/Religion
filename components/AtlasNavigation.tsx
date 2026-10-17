@@ -60,6 +60,12 @@ const primary: NavigationItem[] = [
 
 const research: NavigationItem[] = [
   {
+    href: "/research",
+    label: "Linked research records",
+    icon: Layers3,
+    route: "research",
+  },
+  {
     href: "/timeline",
     label: "Timeline view",
     icon: Sparkles,

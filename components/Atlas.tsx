@@ -38,6 +38,7 @@ import {
 } from "./Explore";
 import { AtlasNavigation } from "./AtlasNavigation";
 import Home from "./Home";
+import { ResearchRecords } from "./ResearchRecords";
 
 const SacredCurrents = dynamic(() => import("./SacredCurrents"), {
   ssr: false,
@@ -213,6 +214,9 @@ export default function Atlas({
       break;
     case "entities":
       content = <EntityExplorer entityId={id} />;
+      break;
+    case "research":
+      content = <ResearchRecords id={id} />;
       break;
     case "people":
       content = <People {...actions} />;
