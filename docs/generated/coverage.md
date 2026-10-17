@@ -51,21 +51,21 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | transliterationWorks | Works with transliteration | 26 | Unknown | Unknown | Unknown | Unknown | No |
 | bibliographyWorks | Works with reviewed scholarly bibliography | 4 | Unknown | Unknown | Unknown | Unknown | No |
 | bibliographyEntries | Reviewed bibliography entries | 8 | Unknown | Unknown | Unknown | Unknown | No |
-| polities | Historical polity records | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| territorialSnapshots | Territorial snapshots | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| conflicts | Conflict records | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| geocodedConflicts | Geocoded conflict events | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| politicalBorders | Political-border layers | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| religiousInfluence | Religious-influence layers | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| policyTransitions | Religious-policy transitions | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| persecutionCoercion | Persecution/coercion events | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| forcedConversions | Documented forced-conversion events | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| polities | Historical polity records | 2 | Unknown | Unknown | Unknown | Unknown | No |
+| territorialSnapshots | Territorial snapshots | 8 | Unknown | Unknown | Unknown | Unknown | No |
+| conflicts | Conflict records | 1 | Unknown | Unknown | Unknown | Unknown | No |
+| geocodedConflicts | Geocoded conflict events | 1 | Unknown | Unknown | Unknown | Unknown | No |
+| politicalBorders | Political-border layers | 2 | Unknown | Unknown | Unknown | Unknown | No |
+| religiousInfluence | Religious-influence layers | 5 | Unknown | Unknown | Unknown | Unknown | No |
+| policyTransitions | Religious-policy transitions | 3 | Unknown | Unknown | Unknown | Unknown | No |
+| persecutionCoercion | Persecution/coercion events | 1 | Unknown | Unknown | Unknown | Unknown | No |
+| forcedConversions | Documented forced-conversion events | 1 | Unknown | Unknown | Unknown | Unknown | No |
 | migrationExileRoutes | Migration/exile routes | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | missionaryRoutes | Missionary routes | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | siteDestruction | Sacred-site destruction events | 0 | Unknown | Unknown | Unknown | Unknown | No |
 | siteReuse | Sacred-site reuse events | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| conflictMapPairs | Before/after conflict map pairs | 0 | Unknown | Unknown | Unknown | Unknown | No |
-| historicalMapCases | Curated historical map case studies | 0 | Unknown | Unknown | Unknown | Unknown | No |
+| conflictMapPairs | Before/after conflict map pairs | 2 | Unknown | Unknown | Unknown | Unknown | No |
+| historicalMapCases | Curated historical map case studies | 2 | Unknown | Unknown | Unknown | Unknown | No |
 | ritualPractices | Ritual-practice records | 16 | Unknown | Unknown | Unknown | Unknown | No |
 | necromancy | Necromancy records | 4 | Unknown | Unknown | Unknown | Unknown | No |
 | ontologyConcepts | Ontology concepts | 89 | Unknown | Unknown | Unknown | Unknown | No |

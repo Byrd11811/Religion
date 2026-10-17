@@ -34,6 +34,7 @@ import { RecordDirectory } from "./sacred-currents/RecordDirectory";
 import { RiverTimeline } from "./sacred-currents/RiverTimeline";
 import { SacredMap } from "./sacred-currents/SacredMap";
 import { TimeTransport } from "./sacred-currents/TimeTransport";
+import { HistoricalChangeExplorer } from "./HistoricalChangeExplorer";
 import styles from "./sacred-currents/SacredCurrents.module.css";
 import type {
   CurrentsLayer,
@@ -76,6 +77,12 @@ const modeOptions: {
     label: "Guided",
     description: "Follow an evidence-led story",
     icon: Sparkles,
+  },
+  {
+    id: "change",
+    label: "Change",
+    description: "Compare sourced historical states",
+    icon: Clock3,
   },
 ];
 
@@ -449,246 +456,263 @@ export default function SacredCurrents({
         })}
       </nav>
 
-      <div className={styles.toolbar}>
-        <div className={styles.searchWrap}>
-          <Search size={17} aria-hidden="true" />
-          <label>
-            <span className={styles.srOnly}>Search Sacred Currents</span>
-            <input
-              type="search"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Find a text, witness, region or tradition…"
-            />
-          </label>
-          {query && (
-            <button
-              type="button"
-              onClick={() => setQuery("")}
-              aria-label="Clear search"
-            >
-              <X size={15} aria-hidden="true" />
-            </button>
-          )}
-          {query.trim() && (
-            <div
-              className={styles.searchResults}
-              role="listbox"
-              aria-label="Search results"
-            >
-              <div>
-                <span>{fullScene.records.length} matching records</span>
-                <small>through all dates</small>
-              </div>
-              {fullScene.records.slice(0, 8).map((record) => (
+      {mode === "change" ? (
+        <HistoricalChangeExplorer />
+      ) : (
+        <>
+          <div className={styles.toolbar}>
+            <div className={styles.searchWrap}>
+              <Search size={17} aria-hidden="true" />
+              <label>
+                <span className={styles.srOnly}>Search Sacred Currents</span>
+                <input
+                  type="search"
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  placeholder="Find a text, witness, region or tradition…"
+                />
+              </label>
+              {query && (
                 <button
                   type="button"
-                  role="option"
-                  aria-selected={selectedIds.includes(record.id)}
-                  key={record.id}
-                  onClick={() => applyRecordSelection([record.id])}
+                  onClick={() => setQuery("")}
+                  aria-label="Clear search"
                 >
-                  <i
-                    style={{ background: record.traditionColor }}
-                    aria-hidden="true"
-                  />
-                  <span>
-                    <strong>{record.title}</strong>
-                    <small>
-                      {record.traditionName} · {record.dateLabel}
-                    </small>
-                  </span>
-                  <ArrowRight size={14} aria-hidden="true" />
+                  <X size={15} aria-hidden="true" />
                 </button>
-              ))}
-              {!fullScene.records.length && (
-                <p>No catalog records match this search.</p>
+              )}
+              {query.trim() && (
+                <div
+                  className={styles.searchResults}
+                  role="listbox"
+                  aria-label="Search results"
+                >
+                  <div>
+                    <span>{fullScene.records.length} matching records</span>
+                    <small>through all dates</small>
+                  </div>
+                  {fullScene.records.slice(0, 8).map((record) => (
+                    <button
+                      type="button"
+                      role="option"
+                      aria-selected={selectedIds.includes(record.id)}
+                      key={record.id}
+                      onClick={() => applyRecordSelection([record.id])}
+                    >
+                      <i
+                        style={{ background: record.traditionColor }}
+                        aria-hidden="true"
+                      />
+                      <span>
+                        <strong>{record.title}</strong>
+                        <small>
+                          {record.traditionName} · {record.dateLabel}
+                        </small>
+                      </span>
+                      <ArrowRight size={14} aria-hidden="true" />
+                    </button>
+                  ))}
+                  {!fullScene.records.length && (
+                    <p>No catalog records match this search.</p>
+                  )}
+                </div>
+              )}
+            </div>
+            <div
+              className={styles.viewToggle}
+              aria-label="Primary visualization"
+            >
+              <button
+                type="button"
+                className={view === "map" ? styles.viewActive : undefined}
+                onClick={() => setView("map")}
+                aria-pressed={view === "map"}
+              >
+                <MapIcon size={15} aria-hidden="true" /> Map
+              </button>
+              <button
+                type="button"
+                className={view === "timeline" ? styles.viewActive : undefined}
+                onClick={() => setView("timeline")}
+                aria-pressed={view === "timeline"}
+              >
+                <Clock3 size={15} aria-hidden="true" /> Timeline
+              </button>
+            </div>
+            <LayerMenu
+              layers={layers}
+              counts={layerCounts}
+              geography={geography}
+              includeUndated={includeUndated}
+              traditionId={traditionId}
+              region={region}
+              evidenceState={evidenceState}
+              withTextOnly={withTextOnly}
+              withImagesOnly={withImagesOnly}
+              traditionOptions={traditionOptions}
+              regionOptions={regionOptions}
+              onToggleLayer={toggleLayer}
+              onGeographyChange={setGeography}
+              onIncludeUndatedChange={setIncludeUndated}
+              onTraditionChange={setTraditionId}
+              onRegionChange={setRegion}
+              onEvidenceStateChange={setEvidenceState}
+              onWithTextOnlyChange={setWithTextOnly}
+              onWithImagesOnlyChange={setWithImagesOnly}
+            />
+            <CoveragePanel
+              total={sacredCurrentsRecords.length}
+              visible={scene.counts.records}
+              dated={fullScene.counts.dated}
+              mapped={fullScene.counts.mapped}
+              unlocated={unlocated}
+              undated={fullScene.counts.undated}
+              byKind={layerCounts}
+            />
+          </div>
+
+          {mode === "guided" && guidedChapters.length > 0 && (
+            <JourneyPlayer
+              chapters={guidedChapters}
+              index={guideIndex}
+              onChange={selectGuide}
+            />
+          )}
+          {mode === "compare" && (
+            <div className={styles.modeNotice} role="status">
+              <GitCompareArrows size={17} aria-hidden="true" />
+              <span>
+                Select two anchors or river records. {compareIds.length}/2
+                selected. Dates and place claims remain separate from thematic
+                resemblance.
+              </span>
+              {compareIds.length > 0 && (
+                <button type="button" onClick={() => setCompareIds([])}>
+                  Clear
+                </button>
               )}
             </div>
           )}
-        </div>
-        <div className={styles.viewToggle} aria-label="Primary visualization">
-          <button
-            type="button"
-            className={view === "map" ? styles.viewActive : undefined}
-            onClick={() => setView("map")}
-            aria-pressed={view === "map"}
-          >
-            <MapIcon size={15} aria-hidden="true" /> Map
-          </button>
-          <button
-            type="button"
-            className={view === "timeline" ? styles.viewActive : undefined}
-            onClick={() => setView("timeline")}
-            aria-pressed={view === "timeline"}
-          >
-            <Clock3 size={15} aria-hidden="true" /> Timeline
-          </button>
-        </div>
-        <LayerMenu
-          layers={layers}
-          counts={layerCounts}
-          geography={geography}
-          includeUndated={includeUndated}
-          traditionId={traditionId}
-          region={region}
-          evidenceState={evidenceState}
-          withTextOnly={withTextOnly}
-          withImagesOnly={withImagesOnly}
-          traditionOptions={traditionOptions}
-          regionOptions={regionOptions}
-          onToggleLayer={toggleLayer}
-          onGeographyChange={setGeography}
-          onIncludeUndatedChange={setIncludeUndated}
-          onTraditionChange={setTraditionId}
-          onRegionChange={setRegion}
-          onEvidenceStateChange={setEvidenceState}
-          onWithTextOnlyChange={setWithTextOnly}
-          onWithImagesOnlyChange={setWithImagesOnly}
-        />
-        <CoveragePanel
-          total={sacredCurrentsRecords.length}
-          visible={scene.counts.records}
-          dated={fullScene.counts.dated}
-          mapped={fullScene.counts.mapped}
-          unlocated={unlocated}
-          undated={fullScene.counts.undated}
-          byKind={layerCounts}
-        />
-      </div>
-
-      {mode === "guided" && guidedChapters.length > 0 && (
-        <JourneyPlayer
-          chapters={guidedChapters}
-          index={guideIndex}
-          onChange={selectGuide}
-        />
-      )}
-      {mode === "compare" && (
-        <div className={styles.modeNotice} role="status">
-          <GitCompareArrows size={17} aria-hidden="true" />
-          <span>
-            Select two anchors or river records. {compareIds.length}/2 selected.
-            Dates and place claims remain separate from thematic resemblance.
-          </span>
-          {compareIds.length > 0 && (
-            <button type="button" onClick={() => setCompareIds([])}>
-              Clear
-            </button>
+          {mode === "trace" && (
+            <section
+              className={styles.traceShelf}
+              aria-labelledby="trace-shelf-title"
+            >
+              <div className={styles.traceShelfHeading}>
+                <div>
+                  <span className={styles.kicker}>
+                    Evidence-backed connections
+                  </span>
+                  <h2 id="trace-shelf-title">
+                    Choose a relationship to inspect
+                  </h2>
+                </div>
+                <p>Lines of evidence are never rendered as routes.</p>
+              </div>
+              <div className={styles.traceCards}>
+                {traceConnections.map((connection) => (
+                  <button
+                    type="button"
+                    key={connection.id}
+                    onClick={() => selectConnection(connection.id)}
+                    className={
+                      connectionId === connection.id
+                        ? styles.traceCardActive
+                        : undefined
+                    }
+                    aria-pressed={connectionId === connection.id}
+                  >
+                    <span>
+                      {connection.relationshipType.replaceAll("-", " ")}
+                    </span>
+                    <strong>
+                      {connection.source.label}{" "}
+                      <ArrowRight size={13} aria-hidden="true" />{" "}
+                      {connection.target.label}
+                    </strong>
+                    <small data-level={connection.evidenceLevel}>
+                      {connection.evidenceLevel} · {connection.citations.length}{" "}
+                      source{connection.citations.length === 1 ? "" : "s"}
+                    </small>
+                  </button>
+                ))}
+              </div>
+            </section>
           )}
-        </div>
-      )}
-      {mode === "trace" && (
-        <section
-          className={styles.traceShelf}
-          aria-labelledby="trace-shelf-title"
-        >
-          <div className={styles.traceShelfHeading}>
-            <div>
-              <span className={styles.kicker}>Evidence-backed connections</span>
-              <h2 id="trace-shelf-title">Choose a relationship to inspect</h2>
-            </div>
-            <p>Lines of evidence are never rendered as routes.</p>
-          </div>
-          <div className={styles.traceCards}>
-            {traceConnections.map((connection) => (
-              <button
-                type="button"
-                key={connection.id}
-                onClick={() => selectConnection(connection.id)}
-                className={
-                  connectionId === connection.id
-                    ? styles.traceCardActive
-                    : undefined
-                }
-                aria-pressed={connectionId === connection.id}
-              >
-                <span>{connection.relationshipType.replaceAll("-", " ")}</span>
-                <strong>
-                  {connection.source.label}{" "}
-                  <ArrowRight size={13} aria-hidden="true" />{" "}
-                  {connection.target.label}
-                </strong>
-                <small data-level={connection.evidenceLevel}>
-                  {connection.evidenceLevel} · {connection.citations.length}{" "}
-                  source{connection.citations.length === 1 ? "" : "s"}
-                </small>
-              </button>
-            ))}
-          </div>
-        </section>
-      )}
 
-      <TimeTransport
-        years={timeYears}
-        year={year}
-        playing={playing}
-        onPlayingChange={setPlaying}
-        onYearChange={setYear}
-        formatYear={formatSacredYear}
-      />
-
-      <div className={styles.workspace}>
-        <div className={styles.visualStage}>
-          <SacredMap
-            anchors={scene.anchors}
-            records={scene.records}
-            selectedIds={mode === "compare" ? compareIds : selectedIds}
-            onSelectRecords={applyRecordSelection}
-          />
-          <RiverTimeline
-            records={fullScene.records}
-            streams={fullScene.streams}
+          <TimeTransport
             years={timeYears}
             year={year}
-            selectedIds={mode === "compare" ? compareIds : selectedIds}
-            onYearChange={(nextYear) => {
-              setPlaying(false);
-              setYear(nextYear);
-            }}
-            onSelectRecord={(id) => applyRecordSelection([id])}
+            playing={playing}
+            onPlayingChange={setPlaying}
+            onYearChange={setYear}
             formatYear={formatSacredYear}
           />
-        </div>
-        <EvidenceDrawer
-          mode={mode}
-          records={selectedRecords}
-          connection={selectedConnection}
-          compareRecords={compareRecords}
-          formatRange={formatSacredRange}
-          onClear={() => {
-            setSelectedIds([]);
-            setConnectionId(null);
-            if (mode === "compare") setCompareIds([]);
-          }}
-          onSelectRecord={(id) => {
-            setSelectedIds([id]);
-            setConnectionId(null);
-          }}
-        />
-      </div>
 
-      <RecordDirectory
-        records={scene.records}
-        selectedIds={mode === "compare" ? compareIds : selectedIds}
-        onSelectRecord={(id) => applyRecordSelection([id])}
-      />
+          <div className={styles.workspace}>
+            <div className={styles.visualStage}>
+              <SacredMap
+                anchors={scene.anchors}
+                records={scene.records}
+                selectedIds={mode === "compare" ? compareIds : selectedIds}
+                onSelectRecords={applyRecordSelection}
+              />
+              <RiverTimeline
+                records={fullScene.records}
+                streams={fullScene.streams}
+                years={timeYears}
+                year={year}
+                selectedIds={mode === "compare" ? compareIds : selectedIds}
+                onYearChange={(nextYear) => {
+                  setPlaying(false);
+                  setYear(nextYear);
+                }}
+                onSelectRecord={(id) => applyRecordSelection([id])}
+                formatYear={formatSacredYear}
+              />
+            </div>
+            <EvidenceDrawer
+              mode={mode}
+              records={selectedRecords}
+              connection={selectedConnection}
+              compareRecords={compareRecords}
+              formatRange={formatSacredRange}
+              onClear={() => {
+                setSelectedIds([]);
+                setConnectionId(null);
+                if (mode === "compare") setCompareIds([]);
+              }}
+              onSelectRecord={(id) => {
+                setSelectedIds([id]);
+                setConnectionId(null);
+              }}
+            />
+          </div>
 
-      <footer className={styles.currentsFooter}>
-        <div>
-          <span>{scene.counts.mapped}</span> mapped at {formatSacredYear(year)}
-        </div>
-        <div>
-          <span>{scene.counts.records}</span> visible records
-        </div>
-        <div>
-          <span>{scene.counts.undated}</span> undated records kept explicit
-        </div>
-        <p>
-          Modern geography is context only. Marker size reflects catalog
-          records, not adherents or influence.
-        </p>
-      </footer>
+          <RecordDirectory
+            records={scene.records}
+            selectedIds={mode === "compare" ? compareIds : selectedIds}
+            onSelectRecord={(id) => applyRecordSelection([id])}
+          />
+
+          <footer className={styles.currentsFooter}>
+            <div>
+              <span>{scene.counts.mapped}</span> mapped at{" "}
+              {formatSacredYear(year)}
+            </div>
+            <div>
+              <span>{scene.counts.records}</span> visible records
+            </div>
+            <div>
+              <span>{scene.counts.undated}</span> undated records kept explicit
+            </div>
+            <p>
+              Modern geography is context only. Marker size reflects catalog
+              records, not adherents or influence.
+            </p>
+          </footer>
+        </>
+      )}
     </div>
   );
 }

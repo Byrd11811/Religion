@@ -1,0 +1,459 @@
+export const historicalPhases = [
+  "pre",
+  "conflict",
+  "post",
+  "long-term",
+] as const;
+export type HistoricalPhase = (typeof historicalPhases)[number];
+export type BoundaryType =
+  "well-documented" | "approximate" | "reconstructed" | "disputed" | "unknown";
+export type HistoricalLayer =
+  | "political-control"
+  | "religious-presence"
+  | "state-religion"
+  | "legal-policy"
+  | "conflict"
+  | "community"
+  | "site";
+export type FlowMechanism =
+  | "state-sponsorship"
+  | "migration-diaspora"
+  | "conquest-associated-change"
+  | "scholarly-translation-network";
+
+export interface HistoricalSource {
+  id: string;
+  title: string;
+  institution: string;
+  publication: string;
+  url: string;
+  limitation: string;
+}
+
+export interface HistoricalFeature {
+  id: string;
+  label: string;
+  layer: HistoricalLayer;
+  lat: number;
+  lng: number;
+  radius: number;
+  boundaryType: BoundaryType;
+  confidence: "high" | "medium" | "low";
+  summary: string;
+  sourceIds: string[];
+}
+
+export interface HistoricalState {
+  id: string;
+  phase: HistoricalPhase;
+  year: number;
+  label: string;
+  summary: string;
+  featureIds: string[];
+  sourceIds: string[];
+}
+
+export interface HistoricalDelta {
+  id: string;
+  fromStateId: string;
+  toStateId: string;
+  category: string;
+  summary: string;
+  confidence: "high" | "medium" | "low";
+  sourceIds: string[];
+}
+
+export interface HistoricalFlow {
+  id: string;
+  label: string;
+  mechanism: FlowMechanism;
+  from: { label: string; lat: number; lng: number };
+  to: { label: string; lat: number; lng: number };
+  period: string;
+  evidence: string;
+  confidence: "high" | "medium" | "low";
+  sourceIds: string[];
+}
+
+export interface HistoricalCaseStudy {
+  id: string;
+  title: string;
+  scope: string;
+  caution: string;
+  sources: HistoricalSource[];
+  features: HistoricalFeature[];
+  states: HistoricalState[];
+  deltas: HistoricalDelta[];
+  flows: HistoricalFlow[];
+}
+
+export const historicalCaseStudies: HistoricalCaseStudy[] = [
+  {
+    id: "thirty-years-war",
+    title: "Thirty Years’ War and the Westphalian settlement",
+    scope: "Central Europe, 1617–1650",
+    caution:
+      "The zones are approximate research extents, not surveyed borders. Confessional alignment, political control, and individual practice are separate variables.",
+    sources: [
+      {
+        id: "openstax-30yw",
+        title: "World History, Volume 2: The Protestant Reformation",
+        institution: "OpenStax",
+        publication: "peer-reviewed university textbook",
+        url: "https://openstax.org/books/world-history-volume-2/pages/5-1-the-protestant-reformation",
+        limitation:
+          "Case overview; it cannot resolve local boundaries or motives for every actor.",
+      },
+      {
+        id: "westphalia",
+        title: "Treaty of Westphalia",
+        institution: "Yale Avalon Project",
+        publication: "university-hosted primary-source translation, 1648",
+        url: "https://avalon.law.yale.edu/17th_century/westphal.asp",
+        limitation:
+          "Settlement text; it records legal provisions rather than population belief.",
+      },
+    ],
+    features: [
+      {
+        id: "hre-pre",
+        label: "Holy Roman Empire before the war",
+        layer: "political-control",
+        lat: 50.5,
+        lng: 10.5,
+        radius: 8,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "A politically fragmented imperial setting; the display does not collapse Imperial estates into one uniform state or confession.",
+        sourceIds: ["openstax-30yw"],
+      },
+      {
+        id: "confessions-pre",
+        label: "Catholic, Lutheran, and Calvinist estates",
+        layer: "religious-presence",
+        lat: 50.8,
+        lng: 10.1,
+        radius: 7,
+        boundaryType: "reconstructed",
+        confidence: "medium",
+        summary:
+          "Multiple confessional establishments were present across the Empire. This qualitative zone is not a population-percentage map.",
+        sourceIds: ["openstax-30yw"],
+      },
+      {
+        id: "war-zone",
+        label: "Major Central European conflict zone",
+        layer: "conflict",
+        lat: 50.7,
+        lng: 11.3,
+        radius: 9,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "The conflict involved changing confessional, territorial, dynastic, and interstate coalitions.",
+        sourceIds: ["openstax-30yw"],
+      },
+      {
+        id: "westphalia-site",
+        label: "Westphalian settlement",
+        layer: "legal-policy",
+        lat: 51.96,
+        lng: 7.63,
+        radius: 0.8,
+        boundaryType: "well-documented",
+        confidence: "high",
+        summary:
+          "The settlement addressed ecclesiastical liberty together with territorial, dynastic, and constitutional questions.",
+        sourceIds: ["westphalia"],
+      },
+      {
+        id: "post-estates",
+        label: "Post-settlement Imperial estates",
+        layer: "political-control",
+        lat: 50.5,
+        lng: 10.5,
+        radius: 8,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "The settlement altered legal and territorial arrangements without proving immediate demographic or personal religious change.",
+        sourceIds: ["westphalia"],
+      },
+    ],
+    states: [
+      {
+        id: "30yw-pre",
+        phase: "pre",
+        year: 1617,
+        label: "Pre-conflict",
+        summary:
+          "Fragmented political authority and multiple confessional establishments preceded the war.",
+        featureIds: ["hre-pre", "confessions-pre"],
+        sourceIds: ["openstax-30yw"],
+      },
+      {
+        id: "30yw-conflict",
+        phase: "conflict",
+        year: 1635,
+        label: "Conflict",
+        summary:
+          "A shifting war combined confessional alignments with territorial and geopolitical aims.",
+        featureIds: ["war-zone"],
+        sourceIds: ["openstax-30yw"],
+      },
+      {
+        id: "30yw-post",
+        phase: "post",
+        year: 1648,
+        label: "Immediate settlement",
+        summary:
+          "Westphalian instruments addressed religion, territory, dynastic claims, and imperial arrangements.",
+        featureIds: ["westphalia-site", "post-estates"],
+        sourceIds: ["westphalia"],
+      },
+      {
+        id: "30yw-long",
+        phase: "long-term",
+        year: 1650,
+        label: "Longer-term boundary",
+        summary:
+          "Atlas records the settlement but lacks a reviewed local demographic layer for 1650; no population conversion is inferred.",
+        featureIds: ["post-estates"],
+        sourceIds: ["westphalia"],
+      },
+    ],
+    deltas: [
+      {
+        id: "30yw-legal-delta",
+        fromStateId: "30yw-pre",
+        toStateId: "30yw-post",
+        category: "legal and constitutional change",
+        summary:
+          "The settlement formalized ecclesiastical-liberty and territorial provisions within a wider constitutional settlement.",
+        confidence: "high",
+        sourceIds: ["westphalia"],
+      },
+      {
+        id: "30yw-demographic-gap",
+        fromStateId: "30yw-post",
+        toStateId: "30yw-long",
+        category: "demographic evidence gap",
+        summary:
+          "The retained sources do not support a precise local religion-by-population delta.",
+        confidence: "high",
+        sourceIds: ["openstax-30yw", "westphalia"],
+      },
+    ],
+    flows: [],
+  },
+  {
+    id: "safavid-shiism",
+    title: "Safavid state formation and Twelver Shiism",
+    scope: "Iran, 1500–1736",
+    caution:
+      "State policy, direct coercion, institutional sponsorship, scholarly movement, and later affiliation are shown separately. The map does not claim instant uniform conversion.",
+    sources: [
+      {
+        id: "openstax-safavid",
+        title: "World History, Volume 2: The Safavid Empire",
+        institution: "OpenStax",
+        publication: "peer-reviewed university textbook",
+        url: "https://openstax.org/books/world-history-volume-2/pages/4-3-the-safavid-empire",
+        limitation: "Broad synthesis; local timing and intensity varied.",
+      },
+      {
+        id: "cambridge-sunni",
+        title: "Sunni Survival in Safavid Iran",
+        institution: "Cambridge University Press / Iranian Studies",
+        publication: "peer-reviewed journal article",
+        url: "https://www.cambridge.org/core/journals/iranian-studies/article/abs/sunni-survival-in-safavid-iran-antisunni-activities-during-the-reign-of-tahmasp-i/74DF224077D073DF86E583B91D81937C",
+        limitation:
+          "Focused study of survival and persecution; not a complete demographic atlas.",
+      },
+    ],
+    features: [
+      {
+        id: "iran-pre",
+        label: "Iran before Safavid state establishment",
+        layer: "religious-presence",
+        lat: 32,
+        lng: 53,
+        radius: 10,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "Sunni communities and other religious traditions were present before the new state policy.",
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "tabriz-policy",
+        label: "State proclamation at Tabriz",
+        layer: "state-religion",
+        lat: 38.08,
+        lng: 46.29,
+        radius: 1,
+        boundaryType: "well-documented",
+        confidence: "high",
+        summary:
+          "Shah Ismail declared Twelver Shiism the state religion in 1501.",
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "coercion-zone",
+        label: "State-backed conversion pressure",
+        layer: "legal-policy",
+        lat: 32,
+        lng: 53,
+        radius: 10,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "The cited overview documents conversion orders, exile, and lethal punishment for some resistance; intensity and chronology were not uniform.",
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "sunni-continuity",
+        label: "Documented Sunni continuity",
+        layer: "community",
+        lat: 34,
+        lng: 51,
+        radius: 9,
+        boundaryType: "reconstructed",
+        confidence: "medium",
+        summary:
+          "Peer-reviewed scholarship documents Sunni survival and continued persecution beyond the initial proclamation.",
+        sourceIds: ["cambridge-sunni"],
+      },
+      {
+        id: "shia-institutions",
+        label: "State-supported Shia institutions",
+        layer: "religious-presence",
+        lat: 32,
+        lng: 53,
+        radius: 10,
+        boundaryType: "approximate",
+        confidence: "medium",
+        summary:
+          "State support for schools, shrines, and scholars contributed to a longer institutional transformation.",
+        sourceIds: ["openstax-safavid"],
+      },
+    ],
+    states: [
+      {
+        id: "safavid-pre",
+        phase: "pre",
+        year: 1500,
+        label: "Pre-transition",
+        summary:
+          "Religious presence before Safavid state establishment cannot be reduced to the later official identity.",
+        featureIds: ["iran-pre"],
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "safavid-conflict",
+        phase: "conflict",
+        year: 1501,
+        label: "State formation",
+        summary:
+          "The new state declared an official religion and used direct pressure while building political authority.",
+        featureIds: ["tabriz-policy", "coercion-zone"],
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "safavid-post",
+        phase: "post",
+        year: 1524,
+        label: "Institutional expansion",
+        summary:
+          "State sponsorship and coercive measures operated alongside surviving Sunni communities.",
+        featureIds: ["coercion-zone", "sunni-continuity", "shia-institutions"],
+        sourceIds: ["openstax-safavid", "cambridge-sunni"],
+      },
+      {
+        id: "safavid-long",
+        phase: "long-term",
+        year: 1736,
+        label: "Longer-term outcome",
+        summary:
+          "Iran underwent a long religious transformation; Atlas does not attribute every later affiliation solely to force.",
+        featureIds: ["sunni-continuity", "shia-institutions"],
+        sourceIds: ["openstax-safavid", "cambridge-sunni"],
+      },
+    ],
+    deltas: [
+      {
+        id: "safavid-policy-delta",
+        fromStateId: "safavid-pre",
+        toStateId: "safavid-conflict",
+        category: "state religion and coercive policy",
+        summary:
+          "Twelver Shiism received official status and direct conversion pressure was documented.",
+        confidence: "high",
+        sourceIds: ["openstax-safavid"],
+      },
+      {
+        id: "safavid-continuity-delta",
+        fromStateId: "safavid-conflict",
+        toStateId: "safavid-long",
+        category: "institutional change with continuity",
+        summary:
+          "Institutions expanded over time while Sunni survival contradicts an instant, complete transformation model.",
+        confidence: "high",
+        sourceIds: ["openstax-safavid", "cambridge-sunni"],
+      },
+    ],
+    flows: [
+      {
+        id: "safavid-sponsorship-flow",
+        label: "State sponsorship from the new Safavid center",
+        mechanism: "state-sponsorship",
+        from: { label: "Tabriz", lat: 38.08, lng: 46.29 },
+        to: { label: "Safavid Iran (qualitative extent)", lat: 32, lng: 53 },
+        period: "sixteenth century",
+        evidence:
+          "The state funded Shia schools and shrines and invited Shia scholars; this is an institutional mechanism, not a claim that every person converted along a route.",
+        confidence: "medium",
+        sourceIds: ["openstax-safavid"],
+      },
+    ],
+  },
+];
+
+export function validateHistoricalCaseStudies(cases = historicalCaseStudies) {
+  if (cases.length < 2)
+    throw new Error("Historical geography requires multiple case studies");
+  for (const item of cases) {
+    const sourceIds = new Set(item.sources.map(({ id }) => id));
+    const featureIds = new Set(item.features.map(({ id }) => id));
+    const stateIds = new Set(item.states.map(({ id }) => id));
+    if (
+      new Set(item.states.map(({ phase }) => phase)).size !==
+      historicalPhases.length
+    )
+      throw new Error(`${item.id} requires four distinct historical phases`);
+    for (const source of item.sources)
+      if (!source.url.startsWith("https://"))
+        throw new Error(`${source.id} requires HTTPS`);
+    for (const record of [
+      ...item.features,
+      ...item.states,
+      ...item.deltas,
+      ...item.flows,
+    ])
+      if (
+        !record.sourceIds.length ||
+        record.sourceIds.some((id) => !sourceIds.has(id))
+      )
+        throw new Error(`${record.id} has invalid provenance`);
+    for (const state of item.states)
+      if (state.featureIds.some((id) => !featureIds.has(id)))
+        throw new Error(`${state.id} references an unknown feature`);
+    for (const delta of item.deltas)
+      if (!stateIds.has(delta.fromStateId) || !stateIds.has(delta.toStateId))
+        throw new Error(`${delta.id} references an unknown state`);
+  }
+  return true;
+}
+
+validateHistoricalCaseStudies();

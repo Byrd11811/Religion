@@ -56,6 +56,7 @@ const knownSeeds = [
   "esoteric-literature.json",
   "esoteric-passages.json",
   "forbidden-lost-disputed.json",
+  "historical-geography.json",
   "horn-additions.json",
   "horn-archive.json",
   "images.json",
@@ -102,6 +103,7 @@ const sourcePaths = [
   "packages/shared/research.ts",
   "packages/shared/relationships.ts",
   "packages/shared/image-pipeline.ts",
+  "packages/shared/historical-geography.ts",
   "packages/shared/sacred-currents.ts",
   "packages/shared/sacred-currents-catalog.ts",
   "packages/shared/seed-files.ts",
@@ -170,6 +172,7 @@ const sourcePaths = [
   "components/sacred-currents/SacredMap.tsx",
   "components/sacred-currents/TimeTransport.tsx",
   "components/sacred-currents/types.ts",
+  "components/HistoricalChangeExplorer.tsx",
   "components/Mesopotamia.tsx",
   "components/China.tsx",
   "components/Horn.tsx",
@@ -200,6 +203,7 @@ const sourcePaths = [
   "tests/sacred-currents.test.ts",
   "tests/translation-alignments.test.ts",
   "tests/image-pipeline.test.ts",
+  "tests/historical-geography.test.ts",
   "tests/e2e/atlas.spec.ts",
   "tests/e2e/comparison-packs.spec.ts",
   "tests/e2e/exploration.spec.ts",
@@ -209,6 +213,8 @@ const sourcePaths = [
   "tests/e2e/research-engines.spec.ts",
   "tests/e2e/sacred-currents.spec.ts",
   "tests/e2e/image-archive.spec.ts",
+  "tests/e2e/historical-change.spec.ts",
+  "tests/e2e/work-research.spec.ts",
   "docs/atlas-completion-gap-audit.md",
   "docs/atlas-completion-roadmap.md",
   "docs/atlas-final-completion-directive.md",
@@ -242,6 +248,17 @@ const parsedSeeds = new Map(
 const collectionAliases: Partial<
   Record<(typeof absentDatasets)[number][0], Record<string, string>>
 > = {
+  polities: { "historical-geography.json": "polities" },
+  territorialSnapshots: { "historical-geography.json": "territorialSnapshots" },
+  conflicts: { "historical-geography.json": "conflicts" },
+  geocodedConflicts: { "historical-geography.json": "geocodedConflicts" },
+  politicalBorders: { "historical-geography.json": "politicalBorders" },
+  religiousInfluence: { "historical-geography.json": "religiousInfluence" },
+  policyTransitions: { "historical-geography.json": "policyTransitions" },
+  persecutionCoercion: { "historical-geography.json": "persecutionCoercion" },
+  forcedConversions: { "historical-geography.json": "forcedConversions" },
+  conflictMapPairs: { "historical-geography.json": "conflictMapPairs" },
+  historicalMapCases: { "historical-geography.json": "historicalMapCases" },
   modernProfiles: { "modern-religions.json": "profiles" },
   ontologyConcepts: { "ontology-entities.json": "concepts" },
   conceptEdges: { "ontology-entities.json": "conceptEdges" },
@@ -429,30 +446,30 @@ const input = {
   additionalCollections: {
     ...Object.fromEntries(
       absentDatasets.map(([id]) => {
-      const records: { id: string }[] = [];
-      for (const filename of actualSeeds) {
-        const data = parsedSeeds.get(filename);
-        const collectionKey = collectionAliases[id]?.[filename] ?? id;
-        if (data && typeof data === "object" && !Array.isArray(data)) {
-          const collection = collectionKey
-            .split(".")
-            .reduce<unknown>(
-              (value, key) =>
-                value && typeof value === "object" && !Array.isArray(value)
-                  ? (value as Record<string, unknown>)[key]
-                  : undefined,
-              data,
-            );
-          if (collection === undefined) continue;
-          if (
-            !Array.isArray(collection) ||
-            collection.some((row) => !row || typeof row.id !== "string")
-          )
-            throw new Error(`Invalid ${id} collection in ${filename}`);
-          records.push(...collection);
+        const records: { id: string }[] = [];
+        for (const filename of actualSeeds) {
+          const data = parsedSeeds.get(filename);
+          const collectionKey = collectionAliases[id]?.[filename] ?? id;
+          if (data && typeof data === "object" && !Array.isArray(data)) {
+            const collection = collectionKey
+              .split(".")
+              .reduce<unknown>(
+                (value, key) =>
+                  value && typeof value === "object" && !Array.isArray(value)
+                    ? (value as Record<string, unknown>)[key]
+                    : undefined,
+                data,
+              );
+            if (collection === undefined) continue;
+            if (
+              !Array.isArray(collection) ||
+              collection.some((row) => !row || typeof row.id !== "string")
+            )
+              throw new Error(`Invalid ${id} collection in ${filename}`);
+            records.push(...collection);
+          }
         }
-      }
-      return [id, records];
+        return [id, records];
       }),
     ),
     ...phase16Collections,
@@ -579,8 +596,10 @@ const outputs = new Map([
           { id: "17", status: "acceptance-implemented-not-finally-certified" },
           { id: "18", status: "acceptance-implemented-not-finally-certified" },
           { id: "19", status: "acceptance-implemented-not-finally-certified" },
-          ...Array.from({ length: 10 }, (_, index) => ({
-            id: String(index + 20), status: "not-started",
+          { id: "20", status: "partially-implemented" },
+          ...Array.from({ length: 9 }, (_, index) => ({
+            id: String(index + 21),
+            status: "not-started",
           })),
         ],
         requirementCounts: {

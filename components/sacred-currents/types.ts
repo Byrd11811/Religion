@@ -5,7 +5,8 @@ import type {
   SacredCurrentsStream,
 } from "@/packages/shared/sacred-currents";
 
-export type SacredCurrentsMode = "explore" | "trace" | "compare" | "guided";
+export type SacredCurrentsMode =
+  "explore" | "trace" | "compare" | "guided" | "change";
 export type SacredCurrentsView = "map" | "timeline";
 export type CurrentsLayer = "work" | "witness" | "artifact" | "tradition";
 export type CurrentsRecord = SacredCurrentsRecord;
