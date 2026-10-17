@@ -215,6 +215,7 @@ const sourcePaths = [
   "tests/e2e/modern-religions.spec.ts",
   "tests/e2e/research-engines.spec.ts",
   "tests/e2e/research-records.spec.ts",
+  "tests/e2e/home-discovery.spec.ts",
   "tests/e2e/sacred-currents.spec.ts",
   "tests/e2e/image-archive.spec.ts",
   "tests/e2e/historical-change.spec.ts",
@@ -576,7 +577,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 21 — Home and discovery experience",
+        currentFocus: "Phase 22 — Interim completion tests",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -601,8 +602,9 @@ const outputs = new Map([
           { id: "18", status: "acceptance-implemented-not-finally-certified" },
           { id: "19", status: "acceptance-implemented-not-finally-certified" },
           { id: "20", status: "acceptance-implemented-not-finally-certified" },
-          ...Array.from({ length: 9 }, (_, index) => ({
-            id: String(index + 21),
+          { id: "21", status: "acceptance-implemented-not-finally-certified" },
+          ...Array.from({ length: 8 }, (_, index) => ({
+            id: String(index + 22),
             status: "not-started",
           })),
         ],

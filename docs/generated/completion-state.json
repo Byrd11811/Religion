@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "declarationAllowed": false,
-  "currentFocus": "Phase 21 — Home and discovery experience",
+  "currentFocus": "Phase 22 — Interim completion tests",
   "continuation": "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
   "phases": [
     {
@@ -90,7 +90,7 @@
     },
     {
       "id": "21",
-      "status": "not-started"
+      "status": "acceptance-implemented-not-finally-certified"
     },
     {
       "id": "22",

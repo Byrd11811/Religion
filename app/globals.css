@@ -1090,6 +1090,96 @@ select {
 .historical-inspector {
   border-left: 4px solid var(--gold);
 }
+.atlas-home__gateways,
+.atlas-home__weekly {
+  margin: 70px 0;
+}
+.gateway-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.gateway-card {
+  position: relative;
+  min-height: 230px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  color: white;
+}
+.gateway-card img,
+.gateway-card__shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+.gateway-card__shade {
+  background: linear-gradient(transparent 10%, rgba(13, 16, 18, 0.92));
+}
+.gateway-card:hover img {
+  transform: scale(1.04);
+}
+.gateway-card__copy {
+  position: absolute;
+  inset: auto 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.gateway-card__copy small {
+  font-size: 9px;
+  opacity: 0.76;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gateway-card__copy strong {
+  font:
+    24px Georgia,
+    serif;
+}
+.gateway-card__copy em {
+  font-size: 12px;
+  font-style: normal;
+  opacity: 0.86;
+}
+.atlas-home__weekly {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.weekly-feature,
+.weekly-action {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 18px;
+  border-radius: var(--radius);
+}
+.weekly-feature {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 18px;
+}
+.weekly-feature img {
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+}
+.weekly-feature--text {
+  grid-column: 1 / -1;
+  grid-template-columns: 1fr;
+}
+.weekly-action {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 12px;
+}
+.weekly-action span {
+  grid-column: 2;
+  color: var(--muted);
+}
 @media (max-width: 760px) {
   .historical-map-grid,
   .historical-stage-strip {
@@ -1097,6 +1187,13 @@ select {
   }
   .historical-map-pane svg {
     min-height: 240px;
+  }
+  .gateway-grid,
+  .atlas-home__weekly {
+    grid-template-columns: 1fr;
+  }
+  .weekly-feature--text {
+    grid-column: auto;
   }
 }
 .chips {

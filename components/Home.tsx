@@ -6,6 +6,7 @@ import { useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
+  Archive,
   BookOpen,
   ChevronDown,
   Clock3,
@@ -14,11 +15,21 @@ import {
   MessageCircle,
   Network,
   Search,
+  Scale,
   Sparkles,
 } from "lucide-react";
 import { questions } from "@/packages/ontology";
 import { editions, texts, traditions } from "@/packages/shared/catalog";
-import { museumArtifacts } from "@/packages/shared/archive";
+import {
+  archiveImageDisplayAllowed,
+  archiveImages,
+  museumArtifacts,
+  witnesses,
+} from "@/packages/shared/archive";
+import {
+  relationshipEdges,
+  relationshipNodes,
+} from "@/packages/shared/relationships";
 
 const collectionLinks = [
   ["/library/egypt", "Ancient Egypt"],
@@ -33,6 +44,55 @@ const collectionLinks = [
   ["/library/lost", "Lost & hypothetical works"],
   ["/library/disputed", "Disputed & forged works"],
   ["/library/undeciphered", "Unresolved writing systems"],
+] as const;
+
+const gatewaySpecs = [
+  ["/library/egypt", "Egypt", "Texts, witnesses, and museum objects"],
+  [
+    "/library/mesopotamia",
+    "Mesopotamia",
+    "Tablets, composites, and source languages",
+  ],
+  [
+    "/explore/anunnaki",
+    "Anunna / Anunnaki",
+    "Ancient occurrences and modern claim boundaries",
+  ],
+  ["/library/china", "China", "Schools, works, witnesses, and alignments"],
+  [
+    "/library/horn",
+    "Ethiopia & the Horn",
+    "Community-specific canons and Geʽez transmission",
+  ],
+  [
+    "/library/indigenous",
+    "Indigenous traditions",
+    "Protocol-first, community-specific records",
+  ],
+  ["/manuscripts", "Manuscripts", "Physical witnesses and institutional links"],
+  [
+    "/library/undeciphered",
+    "Undeciphered",
+    "Scripts without fabricated translations",
+  ],
+  ["/library/lost", "Lost", "Indirect attestation and visible gaps"],
+  ["/library/forbidden", "Forbidden", "Documented restriction and suppression"],
+  ["/library/disputed", "Disputed", "Forgery, authenticity, and claim status"],
+  [
+    "/library/esoteric",
+    "Esoteric",
+    "Practices, organizations, and source boundaries",
+  ],
+  [
+    "/library/modern",
+    "Modern religions",
+    "Origins, claims, responses, and evidence",
+  ],
+  [
+    "/library/global",
+    "Religious literature",
+    "Global catalog coverage without flattening",
+  ],
 ] as const;
 
 function CurrentsPreview() {
@@ -90,6 +150,24 @@ export default function Home() {
     (text) => Number.isFinite(text.lat) && Number.isFinite(text.lng),
   ).length;
   const datedWorks = texts.filter((text) => text.startDate !== null).length;
+  const displayImages = archiveImages.filter(archiveImageDisplayAllowed);
+  const weeklyArtifact = displayImages[23];
+  const manuscriptImage =
+    displayImages.find(
+      (image) =>
+        image.witnessId &&
+        witnesses.some((witness) => witness.id === image.witnessId),
+    ) ?? displayImages[71];
+  const parallel =
+    relationshipEdges.find(
+      (edge) => edge.relationshipType === "thematic-parallel",
+    ) ?? relationshipEdges[0];
+  const parallelSource = relationshipNodes.find(
+    (node) => node.id === parallel.source,
+  );
+  const parallelTarget = relationshipNodes.find(
+    (node) => node.id === parallel.target,
+  );
 
   return (
     <div className="atlas-home">
@@ -250,6 +328,102 @@ export default function Home() {
             </span>
           </Link>
         </div>
+      </section>
+
+      <section
+        className="atlas-home__gateways"
+        aria-labelledby="gateways-title"
+      >
+        <div className="atlas-home__section-heading">
+          <span className="eyebrow">EXPLORE THE CORPUS</span>
+          <h2 id="gateways-title">Open a research gateway.</h2>
+          <p>
+            Images are credited archive objects that set a visual tone; they are
+            not evidence that one object represents an entire region or
+            tradition.
+          </p>
+        </div>
+        <div className="gateway-grid">
+          {gatewaySpecs.map(([href, label, description], index) => {
+            const image = displayImages[(index * 31) % displayImages.length];
+            return (
+              <Link className="gateway-card" href={href} key={href}>
+                <img src={image.thumbnail} alt="" loading="lazy" />
+                <span className="gateway-card__shade" />
+                <span className="gateway-card__copy">
+                  <small>
+                    {image.title} · {image.institution}
+                  </small>
+                  <strong>{label}</strong>
+                  <em>{description}</em>
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="atlas-home__weekly" aria-label="Weekly discoveries">
+        <article className="weekly-feature">
+          <img
+            src={weeklyArtifact.thumbnail}
+            alt={weeklyArtifact.title}
+            loading="lazy"
+          />
+          <div>
+            <span className="eyebrow">Artifact of the Week</span>
+            <h2>{weeklyArtifact.title}</h2>
+            <p>{weeklyArtifact.caption}</p>
+            <Link href={`/artifacts/${weeklyArtifact.artifactId}`}>
+              Inspect object and rights →
+            </Link>
+          </div>
+        </article>
+        <article className="weekly-feature">
+          <img
+            src={manuscriptImage.thumbnail}
+            alt={manuscriptImage.title}
+            loading="lazy"
+          />
+          <div>
+            <span className="eyebrow">Manuscript of the Week</span>
+            <h2>{manuscriptImage.title}</h2>
+            <p>{manuscriptImage.caption}</p>
+            {manuscriptImage.witnessId ? (
+              <Link href={`/witnesses/${manuscriptImage.witnessId}`}>
+                Inspect witness →
+              </Link>
+            ) : (
+              <Link href="/manuscripts">Browse reviewed witnesses →</Link>
+            )}
+          </div>
+        </article>
+        <article className="weekly-feature weekly-feature--text">
+          <div>
+            <span className="eyebrow">Surprising Parallel</span>
+            <h2>
+              {parallelSource?.label} and {parallelTarget?.label}
+            </h2>
+            <p>{parallel.summary}</p>
+            <p className="small muted">
+              {parallel.evidenceLevel} evidence · similarity is not proof of
+              influence
+            </p>
+            <Link href="/graph">Inspect citations and counterarguments →</Link>
+          </div>
+        </article>
+        <Link className="weekly-action" href="/library/deep-archive">
+          <Archive aria-hidden="true" />
+          <strong>Deep Archive</strong>
+          <span>Follow works into witnesses, objects, rights, and gaps.</span>
+        </Link>
+        <Link className="weekly-action" href="/opposition">
+          <Scale aria-hidden="true" />
+          <strong>Show the Opposition</strong>
+          <span>
+            Read attributed disagreement without manufacturing a debate.
+          </span>
+        </Link>
       </section>
 
       <section className="atlas-home__lower">
