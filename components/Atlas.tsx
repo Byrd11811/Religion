@@ -16,9 +16,7 @@ import {
   WitnessDetail,
   ArtifactDetail,
   EgyptCollection,
-  WorkWitnesses,
 } from "./Archive";
-import { SourceDepth } from "./ArchiveEvidence";
 import { FederatedSearchPage } from "./FederatedSearch";
 import { AnunnakiResearch, MesopotamiaCollection } from "./Mesopotamia";
 import { ChinaCollection } from "./China";
@@ -143,15 +141,7 @@ export default function Atlas({
       );
       break;
     case "works":
-      content = id ? (
-        <>
-          <SourceDepth id={id} />
-          <TextDetail id={id} {...actions} />
-          <WorkWitnesses id={id} />
-        </>
-      ) : (
-        <DeepArchive />
-      );
+      content = id ? <TextDetail id={id} {...actions} /> : <DeepArchive />;
       break;
     case "witnesses":
       content = id ? (
@@ -196,10 +186,14 @@ export default function Atlas({
       );
       break;
     case "timeline":
-      content = <SacredCurrents initialView="timeline" />;
+      content = (
+        <SacredCurrents initialView="timeline" initialQuery={initialQuery} />
+      );
       break;
     case "map":
-      content = <SacredCurrents initialView="map" />;
+      content = (
+        <SacredCurrents initialView="map" initialQuery={initialQuery} />
+      );
       break;
     case "stories":
       content = <Stories />;

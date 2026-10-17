@@ -29,10 +29,7 @@ import {
 import { CoveragePanel } from "./sacred-currents/CoveragePanel";
 import { EvidenceDrawer } from "./sacred-currents/EvidenceDrawer";
 import { JourneyPlayer } from "./sacred-currents/JourneyPlayer";
-import {
-  LayerMenu,
-  type GeographyScope,
-} from "./sacred-currents/LayerMenu";
+import { LayerMenu, type GeographyScope } from "./sacred-currents/LayerMenu";
 import { RecordDirectory } from "./sacred-currents/RecordDirectory";
 import { RiverTimeline } from "./sacred-currents/RiverTimeline";
 import { SacredMap } from "./sacred-currents/SacredMap";
@@ -47,6 +44,7 @@ import type {
 
 export interface SacredCurrentsProps {
   initialView?: "map" | "timeline";
+  initialQuery?: string;
 }
 
 const modeOptions: {
@@ -124,18 +122,19 @@ function buildGuides(): GuidedChapter[] {
     result.push({
       ...definition,
       relationshipId: connection.id,
-      recordIds: [connection.source.recordId, connection.target.recordId].filter(
-        (id): id is string => id !== null,
-      ),
-      note:
-        "Anchors are shown independently. The Atlas does not reconstruct a journey from this relationship.",
+      recordIds: [
+        connection.source.recordId,
+        connection.target.recordId,
+      ].filter((id): id is string => id !== null),
+      note: "Anchors are shown independently. The Atlas does not reconstruct a journey from this relationship.",
     });
   }
   for (const connection of sacredCurrentsConnections) {
     if (result.length >= 4 || used.has(connection.id)) continue;
-    const recordIds = [connection.source.recordId, connection.target.recordId].filter(
-      (id): id is string => id !== null,
-    );
+    const recordIds = [
+      connection.source.recordId,
+      connection.target.recordId,
+    ].filter((id): id is string => id !== null);
     if (!recordIds.length) continue;
     result.push({
       id: connection.id,
@@ -144,8 +143,7 @@ function buildGuides(): GuidedChapter[] {
       description: connection.summary,
       relationshipId: connection.id,
       recordIds,
-      note:
-        "This relationship is evidence to inspect, not a mapped travel or transmission route.",
+      note: "This relationship is evidence to inspect, not a mapped travel or transmission route.",
     });
   }
   return result;
@@ -175,10 +173,11 @@ function connectionMatchesQuery(
 
 export default function SacredCurrents({
   initialView = "map",
+  initialQuery = "",
 }: SacredCurrentsProps) {
   const [mode, setMode] = useState<SacredCurrentsMode>("explore");
   const [view, setView] = useState<SacredCurrentsView>(initialView);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [layers, setLayers] = useState<Set<CurrentsLayer>>(
     () => new Set<CurrentsLayer>(["work", "witness"]),
   );
@@ -255,7 +254,8 @@ export default function SacredCurrents({
         const id = available[0];
         if (!id) return;
         setCompareIds((current) => {
-          if (current.includes(id)) return current.filter((item) => item !== id);
+          if (current.includes(id))
+            return current.filter((item) => item !== id);
           return current.length >= 2 ? [current[1], id] : [...current, id];
         });
         setSelectedIds([id]);
@@ -300,10 +300,13 @@ export default function SacredCurrents({
       setConnectionId(next.relationshipId);
       const dates = next.recordIds
         .map((id) => recordById.get(id)?.startYear)
-        .filter((value): value is number => value !== null && value !== undefined);
+        .filter(
+          (value): value is number => value !== null && value !== undefined,
+        );
       if (dates.length) {
         const latest = Math.max(...dates);
-        const nextYear = timeYears.find((value) => value >= latest) ?? timeYears.at(-1)!;
+        const nextYear =
+          timeYears.find((value) => value >= latest) ?? timeYears.at(-1)!;
         setYear(nextYear);
       }
     },
@@ -322,7 +325,7 @@ export default function SacredCurrents({
         selectedConnection &&
         matchingConnections.some(({ id }) => id === selectedConnection.id)
           ? selectedConnection
-          : matchingConnections[0] ?? null;
+          : (matchingConnections[0] ?? null);
       if (nextConnection) selectConnection(nextConnection.id);
       else {
         setConnectionId(null);
@@ -349,18 +352,27 @@ export default function SacredCurrents({
 
   const layerCounts: Record<CurrentsLayer, number> = {
     work: sacredCurrentsRecords.filter(({ kind }) => kind === "work").length,
-    witness: sacredCurrentsRecords.filter(({ kind }) => kind === "witness").length,
-    artifact: sacredCurrentsRecords.filter(({ kind }) => kind === "artifact").length,
-    tradition: sacredCurrentsRecords.filter(({ kind }) => kind === "tradition").length,
+    witness: sacredCurrentsRecords.filter(({ kind }) => kind === "witness")
+      .length,
+    artifact: sacredCurrentsRecords.filter(({ kind }) => kind === "artifact")
+      .length,
+    tradition: sacredCurrentsRecords.filter(({ kind }) => kind === "tradition")
+      .length,
   };
-  const unlocated = fullScene.records.filter(({ geography }) => !geography).length;
+  const unlocated = fullScene.records.filter(
+    ({ geography }) => !geography,
+  ).length;
   const traceConnections = [...sacredCurrentsConnections]
     .filter((connection) => connectionMatchesQuery(connection, query))
     .sort((a, b) => {
       const priority = (level: string) =>
-        ({ documented: 0, strong: 1, qualified: 2, exploratory: 3, disputed: 4 })[
-          level
-        ] ?? 5;
+        ({
+          documented: 0,
+          strong: 1,
+          qualified: 2,
+          exploratory: 3,
+          disputed: 4,
+        })[level] ?? 5;
       return priority(a.evidenceLevel) - priority(b.evidenceLevel);
     });
   const traditionOptions = [
@@ -373,7 +385,9 @@ export default function SacredCurrents({
         ]),
     ).values(),
   ].sort((a, b) => a.label.localeCompare(b.label));
-  const regionOptions = [...new Set(sacredCurrentsRecords.map(({ region }) => region))]
+  const regionOptions = [
+    ...new Set(sacredCurrentsRecords.map(({ region }) => region)),
+  ]
     .sort((a, b) => a.localeCompare(b))
     .map((value) => ({ id: value, label: value }));
 
@@ -386,17 +400,31 @@ export default function SacredCurrents({
     >
       <header className={styles.hero}>
         <div className={styles.heroCopy}>
-          <span className={styles.kicker}>A living atlas of texts and evidence</span>
+          <span className={styles.kicker}>
+            A living atlas of texts and evidence
+          </span>
           <h1>Sacred Currents</h1>
           <p>
             Move through place and time, follow sourced relationships, and see
             where the surviving evidence falls silent.
           </p>
         </div>
-        <div className={styles.heroStats} aria-label="Sacred Currents coverage summary">
-          <div><strong>{sacredCurrentsCoverage.totals.datedWorks}</strong><span>dated works</span></div>
-          <div><strong>{sacredCurrentsCoverage.totals.mappedWorks}</strong><span>mapped works</span></div>
-          <div><strong>{sacredCurrentsCoverage.totals.relationships}</strong><span>sourced links</span></div>
+        <div
+          className={styles.heroStats}
+          aria-label="Sacred Currents coverage summary"
+        >
+          <div>
+            <strong>{sacredCurrentsCoverage.totals.datedWorks}</strong>
+            <span>dated works</span>
+          </div>
+          <div>
+            <strong>{sacredCurrentsCoverage.totals.mappedWorks}</strong>
+            <span>mapped works</span>
+          </div>
+          <div>
+            <strong>{sacredCurrentsCoverage.totals.relationships}</strong>
+            <span>sourced links</span>
+          </div>
         </div>
       </header>
 
@@ -412,7 +440,10 @@ export default function SacredCurrents({
               aria-current={mode === option.id ? "page" : undefined}
             >
               <Icon size={17} aria-hidden="true" />
-              <span><strong>{option.label}</strong><small>{option.description}</small></span>
+              <span>
+                <strong>{option.label}</strong>
+                <small>{option.description}</small>
+              </span>
             </button>
           );
         })}
@@ -431,13 +462,24 @@ export default function SacredCurrents({
             />
           </label>
           {query && (
-            <button type="button" onClick={() => setQuery("")} aria-label="Clear search">
+            <button
+              type="button"
+              onClick={() => setQuery("")}
+              aria-label="Clear search"
+            >
               <X size={15} aria-hidden="true" />
             </button>
           )}
           {query.trim() && (
-            <div className={styles.searchResults} role="listbox" aria-label="Search results">
-              <div><span>{fullScene.records.length} matching records</span><small>through all dates</small></div>
+            <div
+              className={styles.searchResults}
+              role="listbox"
+              aria-label="Search results"
+            >
+              <div>
+                <span>{fullScene.records.length} matching records</span>
+                <small>through all dates</small>
+              </div>
               {fullScene.records.slice(0, 8).map((record) => (
                 <button
                   type="button"
@@ -446,12 +488,22 @@ export default function SacredCurrents({
                   key={record.id}
                   onClick={() => applyRecordSelection([record.id])}
                 >
-                  <i style={{ background: record.traditionColor }} aria-hidden="true" />
-                  <span><strong>{record.title}</strong><small>{record.traditionName} · {record.dateLabel}</small></span>
+                  <i
+                    style={{ background: record.traditionColor }}
+                    aria-hidden="true"
+                  />
+                  <span>
+                    <strong>{record.title}</strong>
+                    <small>
+                      {record.traditionName} · {record.dateLabel}
+                    </small>
+                  </span>
                   <ArrowRight size={14} aria-hidden="true" />
                 </button>
               ))}
-              {!fullScene.records.length && <p>No catalog records match this search.</p>}
+              {!fullScene.records.length && (
+                <p>No catalog records match this search.</p>
+              )}
             </div>
           )}
         </div>
@@ -461,13 +513,17 @@ export default function SacredCurrents({
             className={view === "map" ? styles.viewActive : undefined}
             onClick={() => setView("map")}
             aria-pressed={view === "map"}
-          ><MapIcon size={15} aria-hidden="true" /> Map</button>
+          >
+            <MapIcon size={15} aria-hidden="true" /> Map
+          </button>
           <button
             type="button"
             className={view === "timeline" ? styles.viewActive : undefined}
             onClick={() => setView("timeline")}
             aria-pressed={view === "timeline"}
-          ><Clock3 size={15} aria-hidden="true" /> Timeline</button>
+          >
+            <Clock3 size={15} aria-hidden="true" /> Timeline
+          </button>
         </div>
         <LayerMenu
           layers={layers}
@@ -502,7 +558,11 @@ export default function SacredCurrents({
       </div>
 
       {mode === "guided" && guidedChapters.length > 0 && (
-        <JourneyPlayer chapters={guidedChapters} index={guideIndex} onChange={selectGuide} />
+        <JourneyPlayer
+          chapters={guidedChapters}
+          index={guideIndex}
+          onChange={selectGuide}
+        />
       )}
       {mode === "compare" && (
         <div className={styles.modeNotice} role="status">
@@ -512,14 +572,22 @@ export default function SacredCurrents({
             Dates and place claims remain separate from thematic resemblance.
           </span>
           {compareIds.length > 0 && (
-            <button type="button" onClick={() => setCompareIds([])}>Clear</button>
+            <button type="button" onClick={() => setCompareIds([])}>
+              Clear
+            </button>
           )}
         </div>
       )}
       {mode === "trace" && (
-        <section className={styles.traceShelf} aria-labelledby="trace-shelf-title">
+        <section
+          className={styles.traceShelf}
+          aria-labelledby="trace-shelf-title"
+        >
           <div className={styles.traceShelfHeading}>
-            <div><span className={styles.kicker}>Evidence-backed connections</span><h2 id="trace-shelf-title">Choose a relationship to inspect</h2></div>
+            <div>
+              <span className={styles.kicker}>Evidence-backed connections</span>
+              <h2 id="trace-shelf-title">Choose a relationship to inspect</h2>
+            </div>
             <p>Lines of evidence are never rendered as routes.</p>
           </div>
           <div className={styles.traceCards}>
@@ -528,12 +596,23 @@ export default function SacredCurrents({
                 type="button"
                 key={connection.id}
                 onClick={() => selectConnection(connection.id)}
-                className={connectionId === connection.id ? styles.traceCardActive : undefined}
+                className={
+                  connectionId === connection.id
+                    ? styles.traceCardActive
+                    : undefined
+                }
                 aria-pressed={connectionId === connection.id}
               >
                 <span>{connection.relationshipType.replaceAll("-", " ")}</span>
-                <strong>{connection.source.label} <ArrowRight size={13} aria-hidden="true" /> {connection.target.label}</strong>
-                <small data-level={connection.evidenceLevel}>{connection.evidenceLevel} · {connection.citations.length} source{connection.citations.length === 1 ? "" : "s"}</small>
+                <strong>
+                  {connection.source.label}{" "}
+                  <ArrowRight size={13} aria-hidden="true" />{" "}
+                  {connection.target.label}
+                </strong>
+                <small data-level={connection.evidenceLevel}>
+                  {connection.evidenceLevel} · {connection.citations.length}{" "}
+                  source{connection.citations.length === 1 ? "" : "s"}
+                </small>
               </button>
             ))}
           </div>
@@ -596,10 +675,19 @@ export default function SacredCurrents({
       />
 
       <footer className={styles.currentsFooter}>
-        <div><span>{scene.counts.mapped}</span> mapped at {formatSacredYear(year)}</div>
-        <div><span>{scene.counts.records}</span> visible records</div>
-        <div><span>{scene.counts.undated}</span> undated records kept explicit</div>
-        <p>Modern geography is context only. Marker size reflects catalog records, not adherents or influence.</p>
+        <div>
+          <span>{scene.counts.mapped}</span> mapped at {formatSacredYear(year)}
+        </div>
+        <div>
+          <span>{scene.counts.records}</span> visible records
+        </div>
+        <div>
+          <span>{scene.counts.undated}</span> undated records kept explicit
+        </div>
+        <p>
+          Modern geography is context only. Marker size reflects catalog
+          records, not adherents or influence.
+        </p>
       </footer>
     </div>
   );
