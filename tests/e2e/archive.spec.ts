@@ -10,9 +10,11 @@ test("archive pages distinguish works, undeciphered witnesses and images", async
   ).toBeVisible();
   await page.getByLabel("Search archive").fill("Dhammapada");
   await page.getByRole("link", { name: "Dhammapada", exact: true }).click();
+  await page.getByRole("tab", { name: "Evidence", exact: true }).click();
   await expect(
-    page.getByText("Source depth · Complete available edition"),
+    page.getByRole("heading", { name: "Source reliability" }),
   ).toBeVisible();
+  await expect(page.getByText(/Complete available edition/)).toBeVisible();
   await page.goto("/library/undeciphered");
   await page
     .getByRole("link", { name: "Voynich Manuscript", exact: true })
@@ -112,15 +114,38 @@ test("Egypt collection links attributed papyri and navigable IIIF images", async
   await page.screenshot({ path: "work/egypt-viewer.png", fullPage: false });
 });
 
-test("expanded witnesses expose provenance, rights, work links, and repository IIIF", async ({ page }) => {
+test("expanded witnesses expose provenance, rights, work links, and repository IIIF", async ({
+  page,
+}) => {
   await page.goto("/witnesses/codex-vaticanus");
-  await expect(page.getByRole("heading", { name: "Codex Vaticanus" })).toBeVisible();
-  await expect(page.getByText("Biblioteca Apostolica Vaticana", { exact: true })).toBeVisible();
-  await expect(page.getByText(/Vatican Library digital-use terms/)).toBeVisible();
-  await expect(page.getByRole("link", { name: /Repository IIIF manifest/ })).toHaveAttribute("href", /manifest\.json/);
-  await expect(page.getByRole("link", { name: /Institutionally identified work: Gospel of John/ })).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Codex Vaticanus" }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Biblioteca Apostolica Vaticana", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText(/Vatican Library digital-use terms/),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: /Repository IIIF manifest/ }),
+  ).toHaveAttribute("href", /manifest\.json/);
+  await expect(
+    page.getByRole("link", {
+      name: /Institutionally identified work: Gospel of John/,
+    }),
+  ).toBeVisible();
   await page.goto("/works/gospel-of-john");
-  await expect(page.getByRole("link", { name: "Codex Sinaiticus" })).toBeVisible();
-  await expect(page.getByRole("link", { name: "Codex Vaticanus" })).toBeVisible();
-  await expect(page.getByRole("link", { name: "Codex Alexandrinus, New Testament volume" })).toBeVisible();
+  await page.getByRole("tab", { name: "Witnesses", exact: true }).click();
+  await expect(
+    page.getByRole("link", { name: "Codex Sinaiticus" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: "Codex Vaticanus" }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", {
+      name: "Codex Alexandrinus, New Testament volume",
+    }),
+  ).toBeVisible();
 });
