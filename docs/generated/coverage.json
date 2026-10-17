@@ -165,7 +165,7 @@
     "packages/shared/taxonomy.ts": "e5fb7935d6f6db0c4bb5af0167a3b376203bf6de2d0d160e4791796ed529e209",
     "packages/shared/translation-alignments.ts": "bca8dfb1b56a29f6b9cd4241adb1961d0348c55124a3126fada90782f8496ec6",
     "packages/shared/types.ts": "c2cf853748899dfe08cf35910b72b14c33ed32b5a21c1d222d416757986669a6",
-    "scripts/audit-coverage.ts": "ad2c3f0d59a18ca9ead1a8dc754329919876c86be60b948fff82cb59dfe397e0",
+    "scripts/audit-coverage.ts": "21f95b7a62d7bf6db755cab275a0714a4ca3d6f97368958175ee673016d9cb7a",
     "scripts/classify.ts": "1eebbe9ee62d0d14f505ef0e8e446bb387249afc7e993fbf9006bf6385ec4a7c",
     "scripts/database.ts": "a42693f6ec5c603cf16e541e050b30c47ffbc2576f69525db43482fe6952d4b3",
     "scripts/download.py": "6ee8c6966fead04e0d83d158adcf7eb5e8270b68ed5843e6a2baa8449bf95ed5",

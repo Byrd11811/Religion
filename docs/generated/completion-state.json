@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "declarationAllowed": false,
-  "currentFocus": "Phase 20 — Unified research page",
+  "currentFocus": "Phase 21 — Home and discovery experience",
   "continuation": "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
   "phases": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "id": "20",
-      "status": "partially-implemented"
+      "status": "acceptance-implemented-not-finally-certified"
     },
     {
       "id": "21",

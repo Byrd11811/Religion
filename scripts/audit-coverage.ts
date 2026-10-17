@@ -576,7 +576,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 20 — Unified research page",
+        currentFocus: "Phase 21 — Home and discovery experience",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -600,7 +600,7 @@ const outputs = new Map([
           { id: "17", status: "acceptance-implemented-not-finally-certified" },
           { id: "18", status: "acceptance-implemented-not-finally-certified" },
           { id: "19", status: "acceptance-implemented-not-finally-certified" },
-          { id: "20", status: "partially-implemented" },
+          { id: "20", status: "acceptance-implemented-not-finally-certified" },
           ...Array.from({ length: 9 }, (_, index) => ({
             id: String(index + 21),
             status: "not-started",
