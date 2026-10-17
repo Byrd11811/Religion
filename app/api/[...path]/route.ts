@@ -54,6 +54,7 @@ import {
   archiveImages,
 } from "@/packages/shared/archive";
 import { passageAiRightsAllowed } from "@/packages/shared/rights";
+import { alignmentsForText, priorityLanguageCoverage } from "@/packages/shared/translation-alignments";
 export const runtime = "nodejs";
 type Context = { params: Promise<{ path: string[] }> };
 const finding = z.object({
@@ -307,6 +308,11 @@ export async function GET(req: NextRequest, { params }: Context) {
               })
             : send({ error: "Text not found" }, 404)
           : send(texts);
+      case "alignments": {
+        if (!id) return send({ error: "Work ID is required" }, 400);
+        if (!texts.some((text) => text.id === id)) return send({ error: "Work not found" }, 404);
+        return send({ items: alignmentsForText(id), coverage: priorityLanguageCoverage });
+      }
       case "traditions":
         return id
           ? send(traditions.find((t) => t.id === id) ?? null)

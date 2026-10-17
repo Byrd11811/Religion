@@ -6,6 +6,7 @@ import type {
   Tradition,
   Relationship,
   RelationshipNode,
+  TranslationAlignment,
 } from "../shared/types";
 import type { Witness, MuseumArtifact, ArchiveImage } from "../shared/archive";
 
@@ -19,6 +20,7 @@ export interface CoverageInput {
   images: ArchiveImage[];
   relationshipNodes: RelationshipNode[];
   relationships: Relationship[];
+  translationAlignments?: TranslationAlignment[];
   additionalCollections?: Record<string, { id: string }[]>;
 }
 export interface Metric {
@@ -281,6 +283,10 @@ export function measureCoverage(
     if (!relationshipNodeIds.has(r.source) || !relationshipNodeIds.has(r.target))
       throw new Error(`Orphan relationship ${r.id}`);
   }
+  for (const alignment of input.translationAlignments ?? []) {
+    if (!workIds.has(alignment.textId))
+      throw new Error(`Orphan translation alignment ${alignment.id}`);
+  }
   const available = input.editions.filter(
     (e) => populated.has(e.id) && e.sourceUrl && e.license && e.sha256,
   );
@@ -489,6 +495,14 @@ export function measureCoverage(
     input.texts.filter((t) => t.languages.length).length,
     "Language labels only, not original-language transcriptions.",
     "data/seed/texts.json",
+  );
+  add(
+    "translationAlignments",
+    "Shared-reference translation alignments",
+    uniqueIds(input.translationAlignments ?? [], "translation alignments").size,
+    "Distinct reviewed alignment rows with an explicit canonical reference; unaligned editions, language metadata and synthetic translations do not count.",
+    "data/seed/translation-alignments.json + packages/shared/translation-alignments.ts",
+    input.translationAlignments?.length ?? 0,
   );
   for (const [id, label] of absentDatasets)
     add(

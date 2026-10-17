@@ -61,6 +61,39 @@ export interface Edition {
   complete: boolean;
   note: string;
 }
+export interface AlignmentSource {
+  editionId: string;
+  passageId: string;
+  url: string;
+  attribution: string;
+  license: string;
+}
+export interface AlignedRendering {
+  text: string;
+  language: string;
+  script: string;
+  kind: "original" | "transliteration" | "literal" | "translation";
+  machineGenerated: boolean;
+  source: AlignmentSource;
+}
+export interface TranslationAlignment {
+  id: string;
+  textId: string;
+  sharedReference: string;
+  original: AlignedRendering;
+  normalizedOriginal: string;
+  transliteration: AlignedRendering | null;
+  literalRendering: AlignedRendering | null;
+  translations: AlignedRendering[];
+  lexicalNotes: string[];
+  translatorNotes: string[];
+  manuscriptVariants: {
+    witnessId: string;
+    note: string;
+    sourceUrl: string;
+  }[];
+  limitation: string;
+}
 export interface Passage {
   id: string;
   textId: string;

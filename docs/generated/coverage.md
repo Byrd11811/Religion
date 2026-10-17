@@ -30,6 +30,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 | mappedWorks | Map-eligible works through 2026 | 33 | Unknown | Unknown | 33 | Unknown | No |
 | timelineWorks | Timeline-eligible works through 2026 | 111 | Unknown | Unknown | Unknown | Unknown | No |
 | languageMetadataWorks | Works with language metadata | 357 | Unknown | Unknown | Unknown | Unknown | No |
+| translationAlignments | Shared-reference translation alignments | 4 | Unknown | Unknown | 4 | Unknown | No |
 | subtraditions | Subtraditions | 42 | Unknown | Unknown | Unknown | Unknown | No |
 | recensions | Recensions / textual families | 2 | Unknown | Unknown | Unknown | Unknown | No |
 | canonMemberships | Community-specific canon memberships | 5 | Unknown | Unknown | Unknown | Unknown | No |
@@ -127,6 +128,7 @@ Deployment persisted/reviewed/tested counts are **unknown**, not zero. A seeded 
 - **mappedWorks:** Shared map predicate includes undated coordinate-bearing records by default, all traditions; unknown dates are not placed in time. Source: `packages/shared/exploration.ts + data/seed/texts.json`.
 - **timelineWorks:** Current dated-through-year predicate, all traditions. Source: `packages/shared/exploration.ts + data/seed/texts.json`.
 - **languageMetadataWorks:** Language labels only, not original-language transcriptions. Source: `data/seed/texts.json`.
+- **translationAlignments:** Distinct reviewed alignment rows with an explicit canonical reference; unaligned editions, language metadata and synthetic translations do not count. Source: `data/seed/translation-alignments.json + packages/shared/translation-alignments.ts`.
 - **subtraditions:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **recensions:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.
 - **canonMemberships:** Distinct IDs in the matching named collection of the reviewed seed registry; absent collections have zero records. Text mentions, schema tables and generic metadata do not count. Re-evaluate adapters whenever intake changes. Source: `docs/phase-0-model-evaluation.md`.

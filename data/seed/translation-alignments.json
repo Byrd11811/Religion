@@ -1,0 +1,186 @@
+[
+  {
+    "id": "tao-te-ching-1",
+    "textId": "tao-te-ching",
+    "sharedReference": "Chapter 1",
+    "original": {
+      "text": "道可道，非常道。名可名，非常名。無，名天地之始﹔有，名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，眾妙之門。",
+      "language": "Classical Chinese",
+      "script": "Han (Traditional)",
+      "kind": "original",
+      "machineGenerated": false,
+      "source": {
+        "editionId": "pg-7337-tao-te-ching",
+        "passageId": "pg-7337-tao-te-ching-5",
+        "url": "https://www.gutenberg.org/ebooks/7337",
+        "attribution": "Project Gutenberg Chinese transcription",
+        "license": "Project Gutenberg License; public domain in the USA"
+      }
+    },
+    "normalizedOriginal": "道可道，非常道。名可名，非常名。無，名天地之始；有，名萬物之母。故常無，欲以觀其妙；常有，欲以觀其徼。此兩者，同出而異名，同謂之玄。玄之又玄，眾妙之門。",
+    "transliteration": null,
+    "literalRendering": null,
+    "translations": [
+      {
+        "text": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+        "language": "English",
+        "script": "Latin",
+        "kind": "translation",
+        "machineGenerated": false,
+        "source": {
+          "editionId": "pg-216",
+          "passageId": "pg-216-1",
+          "url": "https://www.gutenberg.org/ebooks/216",
+          "attribution": "James Legge",
+          "license": "Public domain in the USA; Project Gutenberg license retained"
+        }
+      }
+    ],
+    "lexicalNotes": [
+      "Legge renders 道 (dao) as “Tao” and 名 (ming) as “name”; this alignment records his choices without treating them as exhaustive lexical equivalents."
+    ],
+    "translatorNotes": [
+      "The displayed English is an attributed historical translation, not an Atlas or AI translation."
+    ],
+    "manuscriptVariants": [],
+    "limitation": "No reviewed transliteration, literal rendering, or witness-level variant for this line is bundled. The Chinese transcription and Legge edition are aligned by the shared chapter reference, not claimed to derive from one physical witness."
+  },
+  {
+    "id": "tao-te-ching-2",
+    "textId": "tao-te-ching",
+    "sharedReference": "Chapter 2",
+    "original": {
+      "text": "天下皆知美之為美，斯惡矣﹔皆知善之為善，斯不善矣。故有無相生，難易相成，長短相形，高下相傾，音聲相和，前後相隨。",
+      "language": "Classical Chinese",
+      "script": "Han (Traditional)",
+      "kind": "original",
+      "machineGenerated": false,
+      "source": {
+        "editionId": "pg-7337-tao-te-ching",
+        "passageId": "pg-7337-tao-te-ching-7",
+        "url": "https://www.gutenberg.org/ebooks/7337",
+        "attribution": "Project Gutenberg Chinese transcription",
+        "license": "Project Gutenberg License; public domain in the USA"
+      }
+    },
+    "normalizedOriginal": "天下皆知美之為美，斯惡矣；皆知善之為善，斯不善矣。故有無相生，難易相成，長短相形，高下相傾，音聲相和，前後相隨。",
+    "transliteration": null,
+    "literalRendering": null,
+    "translations": [
+      {
+        "text": "All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is; they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is.",
+        "language": "English",
+        "script": "Latin",
+        "kind": "translation",
+        "machineGenerated": false,
+        "source": {
+          "editionId": "pg-216",
+          "passageId": "pg-216-1",
+          "url": "https://www.gutenberg.org/ebooks/216",
+          "attribution": "James Legge",
+          "license": "Public domain in the USA; Project Gutenberg license retained"
+        }
+      }
+    ],
+    "lexicalNotes": [
+      "The source text pairs 美/惡 and 善/不善. Legge’s wording is preserved as historical translation evidence rather than silently modernized."
+    ],
+    "translatorNotes": [
+      "Parenthetical wording belongs to Legge’s translation and is retained verbatim from the reviewed edition."
+    ],
+    "manuscriptVariants": [],
+    "limitation": "This is a reference-level alignment. Atlas has not supplied a diplomatic Mawangdui or Guodian variant for this passage."
+  },
+  {
+    "id": "analects-1-1",
+    "textId": "analects",
+    "sharedReference": "Book 1, chapter 1",
+    "original": {
+      "text": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」",
+      "language": "Classical Chinese",
+      "script": "Han (Traditional)",
+      "kind": "original",
+      "machineGenerated": false,
+      "source": {
+        "editionId": "pg-23839-analects",
+        "passageId": "pg-23839-analects-4",
+        "url": "https://www.gutenberg.org/ebooks/23839",
+        "attribution": "Project Gutenberg Chinese transcription",
+        "license": "Project Gutenberg License; public domain in the USA"
+      }
+    },
+    "normalizedOriginal": "子曰：學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？",
+    "transliteration": null,
+    "literalRendering": null,
+    "translations": [
+      {
+        "text": "CHAPTER I. 1. The Master said, 'Is it not pleasant to learn with a constant perseverance and application? 2. 'Is it not delightful to have friends coming from distant quarters?' 3. 'Is he not a man of complete virtue, who feels no discomposure though men may take no note of him?'",
+        "language": "English",
+        "script": "Latin",
+        "kind": "translation",
+        "machineGenerated": false,
+        "source": {
+          "editionId": "pg-3330",
+          "passageId": "pg-3330-1",
+          "url": "https://www.gutenberg.org/ebooks/3330",
+          "attribution": "James Legge",
+          "license": "Public domain in the USA; Project Gutenberg license retained"
+        }
+      }
+    ],
+    "lexicalNotes": [
+      "Legge’s “man of complete virtue” renders 君子 (junzi); Atlas does not present that phrase as the only possible rendering."
+    ],
+    "translatorNotes": [
+      "The displayed English is James Legge’s historical translation. No modernization has been inserted."
+    ],
+    "manuscriptVariants": [],
+    "limitation": "No reviewed romanization, literal rendering, or witness-level variant is bundled for this passage."
+  },
+  {
+    "id": "analects-1-3",
+    "textId": "analects",
+    "sharedReference": "Book 1, chapter 3",
+    "original": {
+      "text": "子曰：「巧言、令色，鮮矣仁！」",
+      "language": "Classical Chinese",
+      "script": "Han (Traditional)",
+      "kind": "original",
+      "machineGenerated": false,
+      "source": {
+        "editionId": "pg-23839-analects",
+        "passageId": "pg-23839-analects-6",
+        "url": "https://www.gutenberg.org/ebooks/23839",
+        "attribution": "Project Gutenberg Chinese transcription",
+        "license": "Project Gutenberg License; public domain in the USA"
+      }
+    },
+    "normalizedOriginal": "子曰：巧言、令色，鮮矣仁！",
+    "transliteration": null,
+    "literalRendering": null,
+    "translations": [
+      {
+        "text": "The Master said, 'Fine words and an insinuating appearance are seldom associated with true virtue.'",
+        "language": "English",
+        "script": "Latin",
+        "kind": "translation",
+        "machineGenerated": false,
+        "source": {
+          "editionId": "pg-3330",
+          "passageId": "pg-3330-2",
+          "url": "https://www.gutenberg.org/ebooks/3330",
+          "attribution": "James Legge",
+          "license": "Public domain in the USA; Project Gutenberg license retained"
+        }
+      }
+    ],
+    "lexicalNotes": [
+      "Legge renders 仁 (ren) here as “true virtue.” The alignment preserves that edition-specific choice and does not collapse 仁 into one universal English equivalent."
+    ],
+    "translatorNotes": [
+      "This wording is attributed to James Legge and is not machine generated."
+    ],
+    "manuscriptVariants": [],
+    "limitation": "The Chinese and English records share a canonical chapter reference but are not asserted to be diplomatic editions of the same witness."
+  }
+]

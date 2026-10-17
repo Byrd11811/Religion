@@ -20,6 +20,7 @@ import {
 } from "../packages/shared/archive";
 import type { Passage } from "../packages/shared/types";
 import { passageSeedFiles } from "../packages/shared/seed-files";
+import { translationAlignments } from "../packages/shared/translation-alignments";
 import {
   absentDatasets,
   measureCoverage,
@@ -75,6 +76,7 @@ const knownSeeds = [
   "taxonomy.json",
   "texts.json",
   "traditions.json",
+  "translation-alignments.json",
   "undeciphered-corpora.json",
 ];
 const actualSeeds = readdirSync("data/seed")
@@ -101,6 +103,7 @@ const sourcePaths = [
   "packages/shared/sacred-currents-catalog.ts",
   "packages/shared/seed-files.ts",
   "packages/shared/types.ts",
+  "packages/shared/translation-alignments.ts",
   "packages/shared/protocols.ts",
   "packages/shared/taxonomy.ts",
   "packages/db/taxonomy.ts",
@@ -145,6 +148,7 @@ const sourcePaths = [
   "scripts/refresh-manifest.py",
   "components/common.tsx",
   "components/Library.tsx",
+  "components/TranslationCompare.tsx",
   "components/FederatedSearch.tsx",
   "components/Atlas.tsx",
   "components/AtlasNavigation.tsx",
@@ -188,6 +192,7 @@ const sourcePaths = [
   "tests/research-provenance.test.ts",
   "tests/search-scope.test.ts",
   "tests/sacred-currents.test.ts",
+  "tests/translation-alignments.test.ts",
   "tests/e2e/atlas.spec.ts",
   "tests/e2e/comparison-packs.spec.ts",
   "tests/e2e/exploration.spec.ts",
@@ -403,6 +408,7 @@ const input = {
   traditions,
   editions,
   relationships,
+  translationAlignments,
   witnesses,
   artifacts: museumArtifacts,
   images: archiveImages,
@@ -539,7 +545,7 @@ const outputs = new Map([
       {
         formatVersion: 1,
         declarationAllowed: false,
-        currentFocus: "Phase 18 — Original language / translation alignment",
+        currentFocus: "Phase 19 — Image scale and multi-institution pipeline",
         continuation:
           "Run npm run audit:check, read the authoritative requirement matrix, finish the current focus acceptance criteria, then proceed in roadmap order. Never infer completion from route or schema presence.",
         phases: [
@@ -561,9 +567,9 @@ const outputs = new Map([
           { id: "15", status: "acceptance-implemented-not-finally-certified" },
           { id: "16", status: "acceptance-implemented-not-finally-certified" },
           { id: "17", status: "acceptance-implemented-not-finally-certified" },
-          ...Array.from({ length: 12 }, (_, index) => ({
-            id: String(index + 18),
-            status: "not-started",
+          { id: "18", status: "acceptance-implemented-not-finally-certified" },
+          ...Array.from({ length: 11 }, (_, index) => ({
+            id: String(index + 19), status: "not-started",
           })),
         ],
         requirementCounts: {

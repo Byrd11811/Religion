@@ -14,8 +14,8 @@
     "No production/private notes or credentials are read or published."
   ],
   "sources": {
-    "app/api/[...path]/route.ts": "2bfc89cb06ca0506b8f9e5207e54fb7d2d44b322b5168827e126430ab3121b94",
-    "app/globals.css": "227e130aabb2419100c8e4048d7ed0f9f004d71492ceabf53883329368cf7908",
+    "app/api/[...path]/route.ts": "5273b056ccc84d5974637e562da1e58e4c466c45bb22f2729367ea939f8f24a4",
+    "app/globals.css": "d4a5e8091f6561667b406d5497d7f88626ce06f49754faf2a0d9131703948a82",
     "components/Atlas.tsx": "6279edb0976c41aa952e9d30f72fbbccc3cf50bac754cf18d743a20c16233d7c",
     "components/AtlasNavigation.tsx": "282fd2c008eba6e3761afb868ddccd8fcad6681115742aee21ad6e1a2aad6d3b",
     "components/China.tsx": "540248a657f324d97d00b6b0f242c4316db5e904bd5b0aa12f0d2fcff08a05ce",
@@ -37,6 +37,7 @@
     "components/SacredCurrents.tsx": "1d8895340c522fcabb4be50be7a91cec42d00918e5c7a6d0828c88ebc114306a",
     "components/SpatialExplorer.tsx": "5e6c6ca6cdf2ebafcf3901c24304affcc6e85e5114dc463adddd20cf90d2e7c6",
     "components/StructuredQuestion.tsx": "e2df8009b952398291c31be5cc9deb2f0d130c98d89c50bb9968648b0923f5b2",
+    "components/TranslationCompare.tsx": "a0fb09cd1cbed52e785d73ffc0f66fba1882a91060c3b7559c66c1fc388dc98f",
     "components/common.tsx": "58f496eaefd786f89833e03fb6e6acafa9582fd2327a45e3f7c36c1db8d9d5b7",
     "components/sacred-currents/CoveragePanel.tsx": "3895e25958a285c18859fd01cb00d5cc6441bb691229b8cba1c7809d4eba972f",
     "components/sacred-currents/EvidenceDrawer.tsx": "7ac94d0eb40e57c2592c5e63574f4bb97043eac975dd4bdb2e2c12e80694fde0",
@@ -93,6 +94,7 @@
     "data/seed/taxonomy.json": "3ea7c973046370bab094bfd395581658dd5ffd51b532df0ba5b57e4be9f6022a",
     "data/seed/texts.json": "a6c134347333e296d82f03120adb6b20d7365f970b9c43358271746652c499a3",
     "data/seed/traditions.json": "d3eb8dfc28ad48e11804e8e1d78535e027e9f83fae1ac60cd50973dcacc9524b",
+    "data/seed/translation-alignments.json": "d151e27c01366999f4053bdba664be12f0fdecd0ba757dba463796d240fcf413",
     "data/seed/undeciphered-corpora.json": "fde06c0dde97b1306ab472433de37ebbb7ca68f5c31008468a7b715ac2705730",
     "docs/atlas-completion-gap-audit.md": "3bced68fe6901cb0b2485cf80c6403064be4a662e8a6071ec32d4c5ef95b7dbb",
     "docs/atlas-completion-roadmap.md": "f94ed3bd6a365e4c67c231c2b897d90b3467086ad6a784f9c961dbffc3e5e54c",
@@ -108,7 +110,7 @@
     "packages/ai/provider.ts": "e23f2f8eb2d03111bc9dff079b6ceea683bea290b1d646dbc5c57f3251c8a46c",
     "packages/ai/research-query.ts": "8f65b96281a481042cee7f2653df1699757a0d309459b50c5c6de072937f8374",
     "packages/ai/stream.ts": "984436271d5d3e9255b57a7b51bc9ffb8ed8df6aae8f38df2db67854881190a1",
-    "packages/audit/coverage.ts": "59ebc9c462a78fae522ec2daa069f31d39d705297aa0af60ca797be4fafd46b2",
+    "packages/audit/coverage.ts": "03ae4741a73aa49d3b244bea5d0b856608dc2e680bed728eaf0a2df0884baa51",
     "packages/audit/requirements.ts": "aaa0ae9316919a9b9c9a55654bb9f221f4f88ce6d3a1f4a604d5aa3f6b204352",
     "packages/citation/index.ts": "876ad4620ce65f13af8ad4e70b92698612d054b5f629292ae38634fea74b0fd6",
     "packages/db/archive.ts": "b78012c5a51b88abb8adc4c3a92454143e2144fd3e35ac6821197a7b2957829c",
@@ -150,8 +152,9 @@
     "packages/shared/sacred-currents.ts": "75eab6cb21c802b024d0a84972d7ed3cbf566ff474d0cc992ab48e7ac6a3c1e1",
     "packages/shared/seed-files.ts": "b239a94fcbf330d57bbece7b5ec01eaaf6f63d578c6ec3ad68154e6917fea697",
     "packages/shared/taxonomy.ts": "e5fb7935d6f6db0c4bb5af0167a3b376203bf6de2d0d160e4791796ed529e209",
-    "packages/shared/types.ts": "a5aaeb4315772329800d53ab279922633eb30e66d136e7edb5ec493e1625e805",
-    "scripts/audit-coverage.ts": "692a5fd8b0243bb05a4759573daeaabacdfc5efea8e36421ed3c5daba2d230c8",
+    "packages/shared/translation-alignments.ts": "bca8dfb1b56a29f6b9cd4241adb1961d0348c55124a3126fada90782f8496ec6",
+    "packages/shared/types.ts": "c2cf853748899dfe08cf35910b72b14c33ed32b5a21c1d222d416757986669a6",
+    "scripts/audit-coverage.ts": "43b1fd1c3d2b9e45c78f947233692c31dcdb45be3a426101422921ecde7b06c3",
     "scripts/classify.ts": "1eebbe9ee62d0d14f505ef0e8e446bb387249afc7e993fbf9006bf6385ec4a7c",
     "scripts/database.ts": "a42693f6ec5c603cf16e541e050b30c47ffbc2576f69525db43482fe6952d4b3",
     "scripts/download.py": "6ee8c6966fead04e0d83d158adcf7eb5e8270b68ed5843e6a2baa8449bf95ed5",
@@ -179,7 +182,8 @@
     "tests/question-engine.test.ts": "d54e1199a9904bfad658aade4ce272653d765c0c5716c9ff31f42a4cfa9cc7c7",
     "tests/research-provenance.test.ts": "b2247e573c67373b88b0083293fedd4d8775feb77fc4ce757a05ee4af735efc6",
     "tests/sacred-currents.test.ts": "5f9ea6e2b81de6fa00813d72b08be0d0e71f53107ba587320a88ea326ef4f306",
-    "tests/search-scope.test.ts": "eb9119274ed802d1c3c27fba51ef52dff9a41a61c2df7d8f95e3fac51d7ccb89"
+    "tests/search-scope.test.ts": "eb9119274ed802d1c3c27fba51ef52dff9a41a61c2df7d8f95e3fac51d7ccb89",
+    "tests/translation-alignments.test.ts": "b86e5c6c603a3b3fa470759e479dc447201aeec506e3b872d1d2e8677189d71e"
   },
   "metrics": [
     {
@@ -445,6 +449,18 @@
       "complete": false,
       "rule": "Language labels only, not original-language transcriptions.",
       "source": "data/seed/texts.json"
+    },
+    {
+      "id": "translationAlignments",
+      "label": "Shared-reference translation alignments",
+      "seeded": 4,
+      "persisted": null,
+      "reviewed": null,
+      "exposed": 4,
+      "tested": null,
+      "complete": false,
+      "rule": "Distinct reviewed alignment rows with an explicit canonical reference; unaligned editions, language metadata and synthetic translations do not count.",
+      "source": "data/seed/translation-alignments.json + packages/shared/translation-alignments.ts"
     },
     {
       "id": "subtraditions",
